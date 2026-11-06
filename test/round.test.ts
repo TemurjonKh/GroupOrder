@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   answerCounts, buildSummary, deadlineFromTime, distanceMeters, formatDistance, formatTime,
-  friendlyError, memberAnswers, roundState, summaryText,
+  friendlyError, memberAnswers, restaurantsForRound, roundState, summaryText,
 } from "../src/lib/round";
 import type { Member, OrderPick, PickStatus, Restaurant } from "../src/lib/types";
 
@@ -88,6 +88,21 @@ describe("time and distance", () => {
     expect(meters).toBeLessThan(320);
     expect(formatDistance(347)).toBe("350 m");
     expect(formatDistance(1250)).toBe("1.3 km");
+  });
+});
+
+describe("restaurantsForRound", () => {
+  const office = { lat: 37.503, lng: 127.0436 };
+  const near = { id: "near", lat: 37.5026, lng: 127.0402 };
+  const nearer = { id: "nearer", lat: 37.5031, lng: 127.044 };
+  const busan = { id: "busan", lat: 35.1, lng: 129.0 };
+
+  it("lists nearby places, closest first", () => {
+    expect(restaurantsForRound(office, [near, busan, nearer]).map((r) => r.id)).toEqual(["nearer", "near"]);
+  });
+
+  it("uses the leader's pins whatever the distance", () => {
+    expect(restaurantsForRound(office, [near, busan], ["busan"]).map((r) => r.id)).toEqual(["busan"]);
   });
 });
 

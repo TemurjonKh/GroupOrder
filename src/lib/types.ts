@@ -27,6 +27,7 @@ export type Group = {
   icon: string;
   lat: number;
   lng: number;
+  location_label: string;
   invite_code: string;
   default_restaurant_ids: string[];
   default_deadline: string;

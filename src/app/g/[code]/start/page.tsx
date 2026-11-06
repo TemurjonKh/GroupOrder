@@ -3,7 +3,7 @@ import { startRound } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
 import { Button, Card, Field, inputStyles } from "@/components/ui";
 import { getGroupContext, getRestaurants } from "@/lib/data";
-import { distanceMeters, formatDistance } from "@/lib/round";
+import { formatDistance, restaurantsForRound } from "@/lib/round";
 
 export default async function StartRoundPage({ params }: { params: Promise<{ code: string }> }) {
   const { code } = await params;
@@ -12,9 +12,7 @@ export default async function StartRoundPage({ params }: { params: Promise<{ cod
   const { group, isLeader } = context;
   if (!isLeader) return <p className="text-muted">Only a group leader can start a round.</p>;
 
-  const restaurants = (await getRestaurants())
-    .map((r) => ({ ...r, distance: distanceMeters(group, r) }))
-    .sort((a, b) => a.distance - b.distance);
+  const restaurants = restaurantsForRound(group, await getRestaurants());
 
   return (
     <Card className="mx-auto max-w-lg p-5">

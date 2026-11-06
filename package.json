@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest run"
+    "test": "vitest run",
+    "dev:local": "node scripts/dev-local.mjs",
+    "dev:local:reset": "node -e \"require('fs').rmSync('.local',{recursive:true,force:true})\""
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

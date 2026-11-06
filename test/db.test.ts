@@ -1,7 +1,7 @@
 // Runs the real migration and seed on embedded Postgres, with a stand-in for what
 // Supabase provides (roles, auth schema, default grants), then checks the rules
 // as real client roles rather than as the superuser.
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { PGlite } from "@electric-sql/pglite";
 import { beforeAll, beforeEach, describe, expect, it } from "vitest";
 
@@ -43,22 +43,13 @@ async function pickStatus(user: string, round: string) {
 
 beforeAll(async () => {
   db = new PGlite();
-  await db.exec(`
-    create role anon nologin; create role authenticated nologin;
-    create schema auth;
-    create table auth.users (id uuid primary key, email text, raw_user_meta_data jsonb);
-    create function auth.uid() returns uuid language sql stable as
-      $$ select nullif(current_setting('request.jwt.claim.sub', true), '')::uuid $$;
-    grant usage on schema auth to anon, authenticated;
-    grant usage on schema public to anon, authenticated;
-    grant execute on function auth.uid() to anon, authenticated;
-    alter default privileges in schema public grant all on tables to anon, authenticated;
-    alter default privileges in schema public grant all on functions to anon, authenticated;
-    create publication supabase_realtime;
-  `);
-  await db.exec(readFileSync("supabase/migrations/20261106000000_schema.sql", "utf8"));
+  await db.exec(readFileSync("supabase/local/bootstrap.sql", "utf8"));
+  // pg_cron only exists on hosted Supabase.
+  for (const file of readdirSync("supabase/migrations").filter((f) => !f.endsWith("_cron.sql")).sort()) {
+    await db.exec(readFileSync(`supabase/migrations/${file}`, "utf8"));
+  }
   await db.exec(readFileSync("supabase/seed.sql", "utf8"));
-  await db.exec(`insert into auth.users values
+  await db.exec(`insert into auth.users (id, email, raw_user_meta_data) values
     ('${LEADER}', 'leader@x.co', '{"name":"Temur"}'), ('${MINJI}', 'minji@x.co', '{"name":"Minji"}'),
     ('${DANA}', 'dana@x.co', '{}'), ('${OUTSIDER}', 'out@x.co', '{"name":"Out"}')`);
   dish = (await db.query<typeof dish>("select id, price, restaurant_id from menu_items limit 1")).rows[0];
@@ -198,6 +189,40 @@ describe("picks", () => {
     await expect(pick(DANA, round)).rejects.toThrow("round_closed");
     const notes = await as<{ type: string }>(MINJI, "select type from notifications");
     expect(notes).toEqual([{ type: "repick" }]);
+  });
+});
+
+describe("leader editing picks", () => {
+  const edit = (who: string, round: string, target: string) =>
+    as(who, "select leader_set_pick($1, $2, $3, 2, '{}', 'from leader')", [round, target, dish.id]);
+
+  it("lets a leader set a member's pick after the deadline, and tells the member", async () => {
+    const round = await startRound();
+    await db.query("update order_rounds set deadline = now() - interval '1 minute' where id = $1", [round]);
+    await edit(LEADER, round, DANA);
+    expect(await pickStatus(DANA, round)).toBe("draft");
+    expect(await as(DANA, "select type from notifications")).toEqual([{ type: "pick_edited" }]);
+    const { rows } = await db.query<{ price_at_pick: number; qty: number }>("select price_at_pick, qty from order_items");
+    expect(rows).toEqual([{ price_at_pick: dish.price, qty: 2 }]);
+  });
+
+  it("refuses non-leaders, outsiders as targets, and finalized rounds", async () => {
+    const round = await startRound();
+    await expect(edit(MINJI, round, DANA)).rejects.toThrow("leader_only");
+    await expect(edit(LEADER, round, OUTSIDER)).rejects.toThrow("target_not_a_member");
+    await as(LEADER, "select finalize_round($1)", [round]);
+    await expect(edit(LEADER, round, DANA)).rejects.toThrow("round_not_open");
+  });
+});
+
+describe("group location", () => {
+  it("can be changed by leaders only, within valid coordinates", async () => {
+    await as(LEADER, "update groups set lat = 35.1, lng = 129.0, location_label = 'Busan office'");
+    const read = await as<{ lat: number }>(LEADER, "select lat from groups");
+    expect(read[0].lat).toBe(35.1);
+    await as(MINJI, "update groups set lat = 1");
+    expect((await as<{ lat: number }>(LEADER, "select lat from groups"))[0].lat).toBe(35.1);
+    await expect(as(LEADER, "update groups set lat = 500")).rejects.toThrow("groups_lat_range");
   });
 });
 

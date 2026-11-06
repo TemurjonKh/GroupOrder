@@ -107,6 +107,20 @@ export function distanceMeters(a: { lat: number; lng: number }, b: { lat: number
   return 2 * 6_371_000 * Math.asin(Math.sqrt(h));
 }
 
+const NEARBY_METERS = 3000;
+
+/** Restaurants for a round: the leader's pins if any, otherwise everything near the group, closest first. */
+export function restaurantsForRound<R extends { id: string; lat: number; lng: number }>(
+  group: { lat: number; lng: number },
+  restaurants: R[],
+  pinned: string[] = [],
+) {
+  return restaurants
+    .filter((r) => (pinned.length ? pinned.includes(r.id) : distanceMeters(group, r) <= NEARBY_METERS))
+    .map((r) => ({ ...r, distance: distanceMeters(group, r) }))
+    .sort((a, b) => a.distance - b.distance);
+}
+
 // Times always use Seoul: the server runs in UTC, and server and browser must agree.
 export function formatTime(iso: string) {
   return new Intl.DateTimeFormat("en-GB", { timeZone: TIME_ZONE, hour: "2-digit", minute: "2-digit" }).format(new Date(iso));
@@ -124,6 +138,7 @@ export function deadlineFromTime(time: string, now = new Date()) {
 
 const ERROR_MESSAGES: Record<string, string> = {
   leader_only: "Only a group leader can do that.",
+  target_not_a_member: "That person is no longer in this group.",
   not_a_member: "You are not a member of this group.",
   round_closed: "This round is closed, so answers can no longer change.",
   round_not_open: "This round has already been finalized.",
