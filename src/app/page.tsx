@@ -1,15 +1,18 @@
 import Link from "next/link";
-import { createGroup, dismissNotification, goToInvite } from "./actions";
+import { ArrowRight, X } from "@phosphor-icons/react/ssr";
+import { dismissNotification } from "./actions";
 import { ActionForm } from "@/components/action-form";
 import { AppHeader } from "@/components/app-header";
-import { Button, Card, Field, Pill, inputStyles } from "@/components/ui";
-import { getUser } from "@/lib/data";
-import { formatTime, roundState } from "@/lib/round";
+import { DishPhoto, Tag, buttonStyles } from "@/components/ui";
+import { getShowcase, getUser } from "@/lib/data";
 
-type GroupCard = {
+type GroupRow = {
   id: string; name: string; icon: string; invite_code: string;
   group_members: { count: number }[];
-  order_rounds: { title: string; deadline: string; status: "open" }[];
+  order_rounds: {
+    title: string;
+    order_items: { status: string; menu_item: { name: string; photo: string | null } | null }[];
+  }[];
 };
 type Note = {
   id: string; type: string;
@@ -24,13 +27,15 @@ const NOTE_TEXT: Record<string, string> = {
   ordered: "has been ordered. Food is on the way.",
   pick_edited: "had your pick changed by the leader.",
 };
+const TURNS = ["-8deg", "5deg", "-4deg", "7deg", "-6deg"];
+const MAX_THUMBS = 5;
 
 export default async function HomePage() {
-  const { supabase } = await getUser();
-  const [{ data: groups }, { data: notes }] = await Promise.all([
+  const { supabase, user } = await getUser();
+  const [{ data: groups }, { data: notes }, { data: profile }, dishes] = await Promise.all([
     supabase
       .from("groups")
-      .select("id, name, icon, invite_code, group_members(count), order_rounds(title, deadline, status)")
+      .select("id, name, icon, invite_code, group_members(count), order_rounds(title, order_items(status, menu_item:menu_items(name, photo)))")
       .eq("order_rounds.status", "open")
       .order("created_at"),
     supabase
@@ -39,80 +44,88 @@ export default async function HomePage() {
       .is("read_at", null)
       .order("sent_at", { ascending: false })
       .limit(10),
+    supabase.from("profiles").select("name").eq("id", user.id).maybeSingle(),
+    getShowcase(5),
   ]);
   const notifications = ((notes ?? []) as unknown as Note[]).filter((n) => n.round?.group);
+  const rows = (groups ?? []) as unknown as GroupRow[];
 
   return (
     <>
       <AppHeader />
-      <main className="mx-auto max-w-5xl space-y-8 px-4 py-6">
+      <main className="mx-auto max-w-6xl space-y-8 px-4 py-6">
+        <section className="relative overflow-hidden rounded-[28px] bg-accent px-6 py-9 text-on-accent md:px-12 md:py-14">
+          <div className="relative z-10 md:max-w-[50%]">
+            <p className="font-semibold">Hi {profile?.name}</p>
+            <h1 className="mt-1 font-display text-5xl leading-[0.95] font-extrabold tracking-tight md:text-7xl">What&apos;s for lunch?</h1>
+          </div>
+          <div aria-hidden className="mt-7 flex gap-3 md:absolute md:top-1/2 md:right-8 md:mt-0 md:-translate-y-1/2">
+            {dishes.map((dish, i) => (
+              <span key={dish.name} className={`settle ${i > 2 ? "hidden xl:block" : ""}`} style={{ "--i": i, "--turn": TURNS[i] } as React.CSSProperties}>
+                <DishPhoto src={dish.photo} sizes="128px" className="size-24 rounded-[20px] shadow-lift lg:size-32" />
+              </span>
+            ))}
+          </div>
+        </section>
+
         {notifications.length > 0 && (
           <section aria-label="Notifications" className="space-y-2">
             {notifications.map((note) => (
-              <Card key={note.id} className="flex items-center justify-between gap-3 border-accent bg-accent-soft p-3 text-sm">
-                <Link href={`/g/${note.round!.group!.invite_code}`} className="underline-offset-2 hover:underline">
+              <div key={note.id} className="rise flex items-center justify-between gap-3 rounded-[20px] bg-accent-soft py-2 pr-2 pl-5 text-sm text-on-accent-soft">
+                <Link href={`/g/${note.round!.group!.invite_code}`} className="underline-offset-4 hover:underline">
                   <strong>{note.round!.group!.name}: {note.round!.title}</strong> {NOTE_TEXT[note.type]}
                 </Link>
                 <ActionForm action={dismissNotification} hidden={{ id: note.id }}>
-                  <Button look="secondary">Dismiss</Button>
+                  <button aria-label="Dismiss" className="flex size-11 cursor-pointer items-center justify-center rounded-full transition-colors hover:bg-surface"><X aria-hidden size={18} /></button>
                 </ActionForm>
-              </Card>
+              </div>
             ))}
           </section>
         )}
 
         <section>
-          <h1 className="mb-4 text-2xl font-bold">My groups</h1>
-          {groups?.length ? (
-            <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {(groups as unknown as GroupCard[]).map((group) => {
-                const round = group.order_rounds[0];
-                const closed = round && roundState(round) === "closed";
-                return (
-                  <li key={group.id}>
-                    <Link href={`/g/${group.invite_code}`} className="block rounded-xl border border-line bg-surface p-4 transition-colors hover:border-accent">
-                      <div className="flex items-center gap-3">
-                        <span aria-hidden className="text-2xl">{group.icon}</span>
-                        <div className="min-w-0">
-                          <p className="truncate font-semibold">{group.name}</p>
-                          <p className="text-sm text-muted">{group.group_members[0]?.count ?? 0} members</p>
-                        </div>
-                      </div>
-                      <div className="mt-3 min-h-6">
-                        {round && (closed
-                          ? <Pill tone="amber">{round.title} closed, waiting for leader</Pill>
-                          : <Pill tone="accent">{round.title} open, closes {formatTime(round.deadline)}</Pill>)}
-                      </div>
-                    </Link>
-                  </li>
-                );
-              })}
+          <h2 className="mb-4 font-display text-3xl font-extrabold tracking-tight">My groups</h2>
+          {rows.length ? (
+            <ul className="space-y-3">
+              {rows.map((group, i) => <GroupRowItem key={group.id} group={group} index={i} />)}
             </ul>
           ) : (
-            <p className="text-muted">You are not in a group yet. Create one below, or join with an invite code.</p>
+            <div className="rounded-[20px] border border-dashed border-line px-6 py-12 text-center">
+              <p className="font-display text-2xl font-extrabold tracking-tight">No groups yet</p>
+              <p className="mt-2 mb-5 text-muted">Create one for your team, or join with an invite code.</p>
+              <Link href="/groups/new" className={buttonStyles.primary}>Create group</Link>
+            </div>
           )}
-        </section>
-
-        <section className="grid gap-4 sm:grid-cols-2">
-          <Card className="p-5">
-            <h2 className="mb-3 font-semibold">Create a group</h2>
-            <ActionForm action={createGroup} className="space-y-3">
-              <Field label="Group name"><input name="name" required maxLength={80} placeholder="Krafton work team" className={inputStyles} /></Field>
-              <Field label="Icon" hint="One emoji.">
-                <input name="icon" defaultValue="🍱" maxLength={8} className={`${inputStyles} w-20`} />
-              </Field>
-              <Button>Create group</Button>
-            </ActionForm>
-          </Card>
-          <Card className="p-5">
-            <h2 className="mb-3 font-semibold">Join a group</h2>
-            <ActionForm action={goToInvite} className="space-y-3">
-              <Field label="Invite code or link"><input name="invite" required className={inputStyles} /></Field>
-              <Button look="secondary">Continue</Button>
-            </ActionForm>
-          </Card>
         </section>
       </main>
     </>
+  );
+}
+
+function GroupRowItem({ group, index }: { group: GroupRow; index: number }) {
+  const round = group.order_rounds[0];
+  const members = group.group_members[0]?.count ?? 0;
+  const picks = (round?.order_items ?? []).filter((p) => p.menu_item && p.status === "draft");
+  return (
+    <li className="rise" style={{ "--i": index } as React.CSSProperties}>
+      <Link href={`/g/${group.invite_code}`} className="group flex items-center gap-4 rounded-[20px] border border-line bg-surface p-4 transition duration-200 hover:-translate-y-0.5 hover:border-ink hover:shadow-lift md:p-5">
+        <span aria-hidden className="flex size-14 shrink-0 items-center justify-center rounded-2xl bg-soft text-3xl">{group.icon}</span>
+        <span className="min-w-0 flex-1">
+          <span className="block truncate font-display text-xl font-bold tracking-tight">{group.name}</span>
+          <span className="mt-1 flex flex-wrap items-center gap-2 text-sm text-muted">
+            {members} {members === 1 ? "member" : "members"}
+            {round
+              ? <Tag tone="accent">{round.title} open: {picks.length} of {members} picked</Tag>
+              : <Tag tone="ink">Waiting for the order</Tag>}
+          </span>
+        </span>
+        <span aria-hidden className="hidden -space-x-3 sm:flex">
+          {picks.slice(0, MAX_THUMBS).map((pick, i) => (
+            <DishPhoto key={i} src={pick.menu_item!.photo} size={52} className="border-2 border-surface" />
+          ))}
+        </span>
+        <ArrowRight aria-hidden size={20} className="shrink-0 text-muted transition-transform duration-200 group-hover:translate-x-1 group-hover:text-ink" />
+      </Link>
+    </li>
   );
 }

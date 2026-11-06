@@ -15,7 +15,7 @@ differs, and what remains.
 | 6 | Leader: finalize | `/g/<code>/finalize`, `/g/<code>/finalize/pick/<user>` |
 | 7 | Group settings | `/g/<code>/settings` |
 | 8 | History | `/g/<code>/history` |
-| - | Start a round | `/g/<code>/start` |
+| - | Create and join a group | `/groups/new`, `/groups/join` |
 | - | Stable link for QR and the future Hub | `/g/<code>/now` |
 
 ## Where things live
@@ -23,7 +23,8 @@ differs, and what remains.
 | Path | What it holds |
 |------|---------------|
 | `supabase/migrations/` | Tables, access rules, and all order-flow rules as database functions |
-| `supabase/seed.sql` | Made-up sample restaurants and menus |
+| `supabase/menus/`, `supabase/seed.sql` | Real menus as imported JSON, and the seed generated from them |
+| `scripts/import-menus.mjs`, `scripts/build-seed.mjs` | Refresh the menus |
 | `src/lib/round.ts` | Pure logic: round states, answers, summaries, Seoul time, error messages |
 | `src/lib/data.ts` | Reads shared by the group pages |
 | `src/app/actions.ts` | Server actions behind every form |
@@ -45,7 +46,10 @@ no special key: it acts as the logged-in user, so a bug in a page cannot bypass 
 | Document | Code | Why |
 |----------|------|-----|
 | `users` table | `profiles` table | Supabase Auth already owns `auth.users`, including the password hash |
-| Five stored round statuses | Stores `open`, `finalized`, `ordered`; derives `closing soon` and `closed` from the deadline | A round closes on time even if a background job fails |
+| Five round states with a deadline | For now only `open`, `finalized`, `ordered`, with no deadline: every group always has one open round, and the next opens when the leader marks one ordered | Requested for now. Open and close times come back later; `deadline` and the reminder job are kept for that |
+| Leader starts each round | Rounds open by themselves | Follows from picks always being open |
+| Nearby restaurants by distance | Chains have no location and always show; distance only applies to local restaurants | One chain has many branches |
+| Menu prices required | `price` may be null, shown as "Price not listed" and never counted as zero | Burger King and Subway publish no prices |
 | `order_items` statuses | Adds `cancelled` | Cancelling keeps the row, so live subscribers get an update event |
 | Next.js API routes | Server actions | Less code for form submissions; the Hub status endpoint can still be a route |
 | Reminder job on Vercel | `pg_cron` in Supabase | Vercel's free tier only runs cron once a day |
@@ -53,8 +57,7 @@ no special key: it acts as the logged-in user, so a bug in a page cannot bypass 
 
 ## Decisions used
 
-The document's bracketed defaults: eight MVP pages, sample data around one Seoul address,
-email and password login, English UI with Korean restaurant and dish names, one pick per
+The document's bracketed defaults: eight MVP pages, email and password login, English UI with Korean restaurant and dish names, one pick per
 person per round.
 
 ## Not built yet
@@ -70,8 +73,8 @@ address into coordinates needs a map API.
 
 ## Checked only in local mode so far
 
-Logged-in flows have been driven in a browser against `npm run dev:local`, not against a
-real Supabase project. Before the first deployment, check Supabase Auth (including email
+Logged-in flows have been driven in a browser (`npm run test:e2e`) against
+`npm run dev:local`, not against a real Supabase project. Before the first deployment, check Supabase Auth (including email
 confirmation), Realtime live updates and the `pg_cron` schedule on a real project.
 
 Later, per the document: company admin and billing, Kakao login and Alimtalk, restaurant

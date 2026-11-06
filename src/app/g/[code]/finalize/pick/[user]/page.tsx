@@ -1,70 +1,68 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { PickForm } from "@/components/pick-form";
-import { Card, Circle } from "@/components/ui";
-import { getGroupContext, getUser } from "@/lib/data";
-import { formatKrw, restaurantsForRound } from "@/lib/round";
-import type { MenuItem, Restaurant } from "@/lib/types";
+import { ArrowLeft } from "@phosphor-icons/react/ssr";
+import { MenuBrowser } from "@/components/menu-browser";
+import { BrandLogo, textLink } from "@/components/ui";
+import { getGroupContext, getRestaurantMenu, getRestaurants } from "@/lib/data";
+import { restaurantsForRound } from "@/lib/round";
 
 /** A leader changes a member's pick, or enters one for someone who answered in person. */
-export default async function LeaderPickPage({ params }: { params: Promise<{ code: string; user: string }> }) {
+export default async function LeaderPickPage({ params, searchParams }: {
+  params: Promise<{ code: string; user: string }>;
+  searchParams: Promise<{ r?: string; dish?: string }>;
+}) {
   const { code, user } = await params;
+  const { r, dish } = await searchParams;
   const context = await getGroupContext(code);
   if (!context) notFound();
   const { group, round, answers, isLeader } = context;
   const answer = answers.find((a) => a.member.user_id === user);
   if (!isLeader || !answer) notFound();
 
-  const back = <Link href={`/g/${code}/finalize`} className="inline-flex min-h-11 items-center text-sm font-medium text-accent underline">Back to summary</Link>;
+  const path = `/g/${code}/finalize/pick/${user}`;
+  const back = <Link href={r ? path : `/g/${code}/finalize`} className={textLink}><ArrowLeft aria-hidden size={16} /> {r ? "All restaurants" : "Back to summary"}</Link>;
   if (!round || round.status !== "open") {
-    return <div>{back}<p className="text-muted">This round is finalized, so picks can no longer change.</p></div>;
+    return <div>{back}<p className="mt-2 text-muted">This round is finalized, so picks can no longer change.</p></div>;
   }
 
-  const { supabase } = await getUser();
-  const { data } = await supabase.from("restaurants").select("*, menu_items(*)");
-  const restaurants = restaurantsForRound(
-    group,
-    (data ?? []) as (Restaurant & { menu_items: MenuItem[] })[],
-    round.allowed_restaurant_ids,
-  );
   const current = answer.kind === "picked" ? answer.pick : null;
+  const restaurants = restaurantsForRound(group, await getRestaurants(), round.allowed_restaurant_ids);
+  const chosenId = r && restaurants.some((x) => x.id === r) ? r : undefined;
+  const menu = chosenId ? await getRestaurantMenu(chosenId) : null;
 
   return (
-    <div className="mx-auto max-w-2xl space-y-4">
+    <div>
       {back}
-      <h2 className="text-lg font-semibold">
+      <h2 className="mt-2 font-display text-3xl font-extrabold tracking-tight">
         {current ? `Change ${answer.member.name}'s pick` : `Pick for ${answer.member.name}`}
       </h2>
-      {current && <p className="text-sm text-muted">Currently: {current.menu_item!.name}. They will get a notice about the change.</p>}
-      {restaurants.map((restaurant) => (
-        <section key={restaurant.id}>
-          <h3 className="mb-2 flex items-center gap-2 font-medium">
-            <Circle src={restaurant.logo} label={restaurant.name} size={28} /> {restaurant.name}
-          </h3>
-          <ul className="space-y-2">
-            {[...restaurant.menu_items].sort((a, b) => a.price - b.price).map((dish) => (
-              <li key={dish.id}>
-                <Card>
-                  <details open={current?.menu_item?.id === dish.id}>
-                    <summary className="flex min-h-11 cursor-pointer list-none items-center gap-3 p-3 [&::-webkit-details-marker]:hidden">
-                      <Circle src={dish.photo} label={dish.name} size={40} />
-                      <span className="min-w-0 flex-1">
-                        <span className="block truncate font-medium">{dish.name}</span>
-                        <span className="block text-sm text-muted">{formatKrw(dish.price)}</span>
-                      </span>
-                      <span className="text-sm font-semibold text-accent">Choose</span>
-                    </summary>
-                    <div className="border-t border-line p-3">
-                      <PickForm code={code} roundId={round.id} item={dish} forUser={user} submitLabel="Save pick"
-                        current={current?.menu_item?.id === dish.id ? current : null} />
-                    </div>
-                  </details>
-                </Card>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
+      {current && <p className="mt-1 text-sm text-muted">Currently {current.menu_item!.name}. They will get a notice about the change.</p>}
+      {menu ? (
+        <div className="mt-5">
+          <MenuBrowser
+            restaurant={menu}
+            basePath={`${path}?r=${menu.id}`}
+            selectedId={dish}
+            code={code}
+            roundId={round.id}
+            canPick
+            current={current}
+            forUser={user}
+            submitLabel="Save pick"
+          />
+        </div>
+      ) : (
+        <ul className="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {restaurants.map((restaurant) => (
+            <li key={restaurant.id}>
+              <Link href={`${path}?r=${restaurant.id}`} className="flex items-center gap-3 rounded-[20px] border border-line bg-surface p-4 transition duration-200 hover:-translate-y-0.5 hover:border-ink hover:shadow-lift">
+                <BrandLogo restaurant={restaurant} size={48} />
+                <span className="font-display text-xl font-extrabold tracking-tight">{restaurant.name}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

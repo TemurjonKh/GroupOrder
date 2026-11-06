@@ -1,35 +1,147 @@
 @import "tailwindcss";
 
-/* Warm neutrals with one blue accent, from the structure document's wireframes. */
+/* Color tokens swap for dark mode; components only ever use the semantic names. */
+:root {
+  --page: #f5f4ee;
+  --surface: #fdfdfa;
+  --soft: #ebeae2;
+  --line: #dcdbd0;
+  --ink: #17180f;
+  --muted: #5b5c50;
+  --accent: #d0381a;
+  --accent-hover: #ad2d13;
+  --on-accent: #ffffff;
+  --accent-soft: #fdeae4;
+  --on-accent-soft: #9e2a12;
+  --danger: #b3261e;
+  --shadow: 74 58 30;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page: #15150f;
+    --surface: #1f1f18;
+    --soft: #2b2b22;
+    --line: #3a3a2f;
+    --ink: #f3f2e9;
+    --muted: #a8a899;
+    --accent: #ff7a59;
+    --accent-hover: #ff9477;
+    --on-accent: #1c0d08;
+    --accent-soft: #3a170e;
+    --on-accent-soft: #ffb09c;
+    --danger: #ff8a80;
+    --shadow: 0 0 0;
+  }
+}
+
 @theme inline {
-  --color-page: #faf9f5;
-  --color-surface: #ffffff;
-  --color-soft: #f3f1ea;
-  --color-line: #dedbd0;
-  --color-ink: #1f1e1b;
-  --color-muted: #5f5d55;
-  --color-accent: #1f66c4;
-  --color-accent-dark: #174f99;
-  --color-accent-soft: #e3ebf8;
-  --color-amber: #8a5a00;
-  --color-amber-soft: #fbf0d9;
-  --color-danger: #b3261e;
-  --font-sans: var(--font-jakarta), system-ui, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-soft: var(--soft);
+  --color-line: var(--line);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-on-accent: var(--on-accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-on-accent-soft: var(--on-accent-soft);
+  --color-danger: var(--danger);
+  /* Dish photos are shot for light backgrounds, so their tile stays light in dark mode too. */
+  --color-tile: #f6f4ec;
+  --font-sans: var(--font-geist), var(--font-kr), system-ui, sans-serif;
+  --font-display: var(--font-bricolage), var(--font-kr), system-ui, sans-serif;
+  --shadow-lift: 0 1px 2px rgb(var(--shadow) / 0.08), 0 10px 28px -10px rgb(var(--shadow) / 0.22);
+}
+
+html {
+  color-scheme: light dark;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
 }
 
 body {
-  background: var(--color-page);
-  color: var(--color-ink);
+  background: var(--page);
+  color: var(--ink);
   font-family: var(--font-sans);
+  font-feature-settings: "tnum";
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-accent);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
+/* Content arriving in order helps the eye follow a list, so lists rise in one by one. */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.rise {
+  animation: rise 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: calc(var(--i, 0) * 45ms);
+}
+
+@keyframes settle {
+  from { opacity: 0; transform: translateY(26px) rotate(var(--turn-from, 0deg)) scale(0.92); }
+  to { opacity: 1; transform: translateY(0) rotate(var(--turn, 0deg)) scale(1); }
+}
+.settle {
+  transform: rotate(var(--turn, 0deg));
+  animation: settle 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: calc(var(--i, 0) * 70ms);
+}
+
+/* The dish sheet: from the bottom on a phone, from the right on a wide screen. */
+dialog.sheet {
+  margin: auto 0 0;
+  width: 100%;
+  max-width: none;
+  max-height: 88dvh;
+  border-radius: 1.5rem 1.5rem 0 0;
+  background: var(--surface);
+  color: var(--ink);
+}
+dialog.sheet[open] {
+  animation: sheet-up 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+}
+dialog.sheet::backdrop {
+  background: rgb(15 14 8 / 0.55);
+}
+@keyframes sheet-up {
+  from { transform: translateY(40px); opacity: 0; }
+}
+@keyframes sheet-in {
+  from { transform: translateX(40px); opacity: 0; }
+}
+@media (min-width: 768px) {
+  dialog.sheet {
+    margin: 0 0 0 auto;
+    width: 26rem;
+    height: 100dvh;
+    max-height: 100dvh;
+    border-radius: 1.5rem 0 0 1.5rem;
+  }
+  dialog.sheet[open] {
+    animation-name: sheet-in;
+  }
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
-  * {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation: none !important;
     transition: none !important;
   }
 }

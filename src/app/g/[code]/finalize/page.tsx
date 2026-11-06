@@ -5,25 +5,18 @@ import { ActionForm } from "@/components/action-form";
 import { LiveRefresh } from "@/components/client-bits";
 import { OrderSummary } from "@/components/order-summary";
 import { RoundBar } from "@/components/round-bar";
-import { Button, Card, buttonStyles } from "@/components/ui";
+import { Button, Card } from "@/components/ui";
 import { getGroupContext } from "@/lib/data";
-import { buildSummary, formatKrw } from "@/lib/round";
+import { buildSummary, totalLabel } from "@/lib/round";
 
 export default async function FinalizePage({ params }: { params: Promise<{ code: string }> }) {
   const { code } = await params;
   const context = await getGroupContext(code);
   if (!context) notFound();
-  const { group, round, state, answers, counts, isLeader } = context;
+  const { group, round, answers, counts, isLeader } = context;
 
   if (!isLeader) return <p className="text-muted">Only a group leader can finalize a round.</p>;
-  if (!round || !state) {
-    return (
-      <Card className="p-8 text-center">
-        <p className="mb-4 text-muted">There is no round to finalize.</p>
-        <Link href={`/g/${code}/start`} className={buttonStyles.primary}>Start a round</Link>
-      </Card>
-    );
-  }
+  if (!round) return <Card className="p-8 text-center text-muted">There is no round to finalize.</Card>;
 
   const hidden = { code, round: round.id };
   const summaries = buildSummary(answers);
@@ -31,21 +24,22 @@ export default async function FinalizePage({ params }: { params: Promise<{ code:
   const missing = answers.filter((a) => a.kind === "no_answer");
   const skipped = answers.filter((a) => a.kind === "skipped");
   const grandTotal = summaries.reduce((sum, s) => sum + s.total, 0);
+  const grandUnpriced = summaries.reduce((sum, s) => sum + s.unpriced, 0);
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-5">
       <LiveRefresh groupId={group.id} roundId={round.id} />
-      <RoundBar round={round} state={state} counts={counts} />
+      <RoundBar round={round} counts={counts} />
 
-      <Card className="flex flex-wrap items-start gap-2 p-4">
-        {open && missing.length > 0 && (
-          <ActionForm action={remindNoAnswer} hidden={hidden}>
-            <Button look="secondary">Remind {missing.length} with no answer</Button>
-          </ActionForm>
-        )}
+      <div className="flex flex-wrap items-start gap-2">
         {open && (
           <ActionForm action={finalizeRound} hidden={hidden}>
             <Button>Finalize{missing.length > 0 && ` without ${missing.length}`}</Button>
+          </ActionForm>
+        )}
+        {open && missing.length > 0 && (
+          <ActionForm action={remindNoAnswer} hidden={hidden}>
+            <Button look="secondary">Remind {missing.length} with no answer</Button>
           </ActionForm>
         )}
         {round.status === "finalized" && (
@@ -53,11 +47,11 @@ export default async function FinalizePage({ params }: { params: Promise<{ code:
             <Button>Mark as ordered</Button>
           </ActionForm>
         )}
-      </Card>
+      </div>
 
-      <div className="grid grid-cols-[minmax(0,1fr)] gap-4 lg:grid-cols-[minmax(0,1fr)_300px]">
+      <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-5 lg:grid-cols-[minmax(0,1fr)_320px]">
         <section aria-label="Order per restaurant" className="space-y-3">
-          {summaries.length === 0 && <Card className="p-6 text-center text-muted">No picks yet.</Card>}
+          {summaries.length === 0 && <Card className="p-8 text-center text-muted">No picks yet.</Card>}
           {summaries.map((summary) => (
             <OrderSummary
               key={summary.restaurant.id}
@@ -65,15 +59,17 @@ export default async function FinalizePage({ params }: { params: Promise<{ code:
               roundTitle={round.title}
               personAction={open ? (userId) => (
                 <>
-                  <Link href={`/g/${code}/finalize/pick/${userId}`} className="inline-flex min-h-11 items-center px-2 font-medium text-accent underline">Edit</Link>
+                  <Link href={`/g/${code}/finalize/pick/${userId}`} className="inline-flex min-h-11 items-center px-2 font-semibold text-on-accent-soft underline-offset-4 hover:underline">Edit</Link>
                   <ActionForm action={removePick} hidden={{ ...hidden, user: userId }}>
-                    <button className="min-h-11 cursor-pointer px-2 font-medium text-danger underline">Remove</button>
+                    <button className="min-h-11 cursor-pointer px-2 font-semibold text-danger underline-offset-4 hover:underline">Remove</button>
                   </ActionForm>
                 </>
               ) : undefined}
             />
           ))}
-          {summaries.length > 1 && <p className="text-right font-semibold">All restaurants: {formatKrw(grandTotal)}</p>}
+          {summaries.length > 1 && (
+            <p className="px-1 text-right font-display text-xl font-extrabold tracking-tight">All restaurants: {totalLabel(grandTotal, grandUnpriced)}</p>
+          )}
         </section>
         <aside className="space-y-3">
           <NameList
@@ -91,14 +87,14 @@ export default async function FinalizePage({ params }: { params: Promise<{ code:
 
 function NameList({ title, names, hrefs, hint }: { title: string; names: string[]; hrefs?: string[]; hint?: string }) {
   return (
-    <Card className="p-4">
-      <h3 className="font-semibold">{title} ({names.length})</h3>
+    <Card className="p-5">
+      <h3 className="font-display text-lg font-extrabold tracking-tight">{title} ({names.length})</h3>
       {hint && <p className="text-sm text-muted">{hint}</p>}
       {names.length > 0 && (
         <ul className="mt-1 text-sm text-muted">
           {names.map((name, i) => (
             <li key={`${name}${i}`}>
-              {hrefs ? <Link href={hrefs[i]} className="inline-flex min-h-11 items-center font-medium text-accent underline">{name}</Link> : name}
+              {hrefs ? <Link href={hrefs[i]} className="inline-flex min-h-11 items-center font-semibold text-on-accent-soft underline underline-offset-4">{name}</Link> : name}
             </li>
           ))}
         </ul>

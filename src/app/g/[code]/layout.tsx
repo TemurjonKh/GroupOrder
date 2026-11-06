@@ -3,7 +3,7 @@ import { joinGroup } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
 import { AppHeader } from "@/components/app-header";
 import { GroupTabs } from "@/components/client-bits";
-import { Button, Card } from "@/components/ui";
+import { Button } from "@/components/ui";
 import { getGroupContext, getUser } from "@/lib/data";
 
 export default async function GroupLayout({ children, params }: { children: React.ReactNode; params: Promise<{ code: string }> }) {
@@ -22,13 +22,13 @@ export default async function GroupLayout({ children, params }: { children: Reac
   return (
     <>
       <AppHeader />
-      <div className="mx-auto max-w-5xl px-4 pt-4 print:hidden">
-        <h1 className="flex items-center gap-2 text-xl font-bold">
+      <div className="mx-auto max-w-6xl px-4 pt-5 print:hidden">
+        <h1 className="flex items-center gap-2.5 font-display text-2xl font-extrabold tracking-tight">
           <span aria-hidden>{group.icon}</span><span className="truncate">{group.name}</span>
         </h1>
         <GroupTabs tabs={tabs} />
       </div>
-      <main className="mx-auto max-w-5xl px-4 py-5">{children}</main>
+      <main className="mx-auto max-w-6xl px-4 py-5">{children}</main>
     </>
   );
 }
@@ -41,15 +41,13 @@ async function InvitePage({ code }: { code: string }) {
   return (
     <>
       <AppHeader />
-      <main className="mx-auto max-w-sm px-4 py-12">
-        <Card className="p-6 text-center">
-          <p aria-hidden className="text-4xl">{preview.icon}</p>
-          <h1 className="mt-2 text-xl font-bold">{preview.name}</h1>
-          <p className="mb-4 text-muted">{preview.member_count} members</p>
-          <ActionForm action={joinGroup} hidden={{ code }}>
-            <Button className="w-full">Join this group</Button>
-          </ActionForm>
-        </Card>
+      <main className="rise mx-auto max-w-md px-4 py-14">
+        <p aria-hidden className="text-6xl">{preview.icon}</p>
+        <h1 className="mt-4 font-display text-5xl leading-none font-extrabold tracking-tight">{preview.name}</h1>
+        <p className="mt-3 mb-8 text-muted">{preview.member_count} {preview.member_count === 1 ? "member" : "members"} pick lunch together here.</p>
+        <ActionForm action={joinGroup} hidden={{ code }}>
+          <Button className="w-full">Join this group</Button>
+        </ActionForm>
       </main>
     </>
   );

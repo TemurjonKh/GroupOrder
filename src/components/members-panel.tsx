@@ -1,32 +1,28 @@
-import { Circle } from "./ui";
+import { Avatar, BrandLogo, DishPhoto } from "./ui";
 import type { Answer } from "@/lib/round";
 import { optionsLabel } from "@/lib/round";
 
-function restaurantShortName(name: string) {
-  // Sample names are "한식 키친 Hansik Kitchen"; the English half is shorter to scan.
-  return name.match(/[A-Za-z].*$/)?.[0] ?? name;
-}
-
-/** Big circle is the dish, small one the restaurant. People without a pick show text, so gaps stand out. */
+/** People without a pick show text instead of a photo, so gaps stand out at a glance. */
 export function MembersPanel({ answers, children }: { answers: Answer[]; children?: React.ReactNode }) {
   return (
-    <section aria-label="Members" className="rounded-xl border border-line bg-surface p-4">
-      <h2 className="mb-2 border-b border-line pb-2 font-semibold">Members</h2>
-      <ul className="divide-y divide-soft">
+    <section aria-label="Members" className="rounded-[20px] border border-line bg-surface p-5 lg:sticky lg:top-20">
+      <h2 className="mb-2 font-display text-xl font-extrabold tracking-tight">Who&apos;s eating what</h2>
+      <ul>
         {answers.map((answer) => (
-          <li key={answer.member.user_id} className="flex items-center gap-3 py-2">
-            <Circle src={answer.member.avatar} label={answer.member.name} size={36} />
+          <li key={answer.member.user_id} className="flex items-center gap-3 py-2.5">
+            <Avatar src={answer.member.avatar} name={answer.member.name} />
             <div className="min-w-0 flex-1">
-              <p className="truncate text-sm font-medium">
+              <p className="truncate text-sm font-semibold">
                 {answer.member.name}
-                {answer.member.role === "leader" && <span className="font-normal text-muted"> · leader</span>}
+                {answer.member.role === "leader" && <span className="font-normal text-muted"> (leader)</span>}
               </p>
               <p className="text-sm break-words text-muted">
                 {answer.kind === "picked" && (
                   <>
                     {answer.pick.menu_item!.name}
+                    {answer.pick.qty > 1 && ` x${answer.pick.qty}`}
                     {Object.keys(answer.pick.options).length > 0 && ` (${optionsLabel(answer.pick.options)})`}
-                    {" · "}{restaurantShortName(answer.pick.menu_item!.restaurant.name)}
+                    <span className="block text-xs">{answer.pick.menu_item!.restaurant.name}</span>
                   </>
                 )}
                 {answer.kind === "skipped" && "Not joining today"}
@@ -35,8 +31,8 @@ export function MembersPanel({ answers, children }: { answers: Answer[]; childre
             </div>
             {answer.kind === "picked" && (
               <span className="relative shrink-0">
-                <Circle src={answer.pick.menu_item!.photo} label={answer.pick.menu_item!.name} size={40} />
-                <span className="absolute -right-1 -bottom-1"><Circle src={answer.pick.menu_item!.restaurant.logo} size={18} /></span>
+                <DishPhoto src={answer.pick.menu_item!.photo} size={52} />
+                <span className="absolute -right-1.5 -bottom-1.5"><BrandLogo restaurant={answer.pick.menu_item!.restaurant} size={24} /></span>
               </span>
             )}
           </li>

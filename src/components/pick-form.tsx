@@ -3,7 +3,7 @@ import { ActionForm } from "./action-form";
 import { Button, Field, inputStyles } from "./ui";
 import type { MenuItem, OrderPick } from "@/lib/types";
 
-/** Choices for one dish. Used on the menu (new pick) and on My pick (editing). */
+/** Choices for one dish. Used for a new pick, for editing, and by a leader for someone else. */
 export function PickForm({ code, roundId, item, current, submitLabel, forUser }: {
   code: string;
   roundId: string;
@@ -17,24 +17,22 @@ export function PickForm({ code, roundId, item, current, submitLabel, forUser }:
     <ActionForm
       action={forUser ? leaderSetPick : setPick}
       hidden={{ code, round: roundId, item: item.id, ...(forUser ? { user: forUser } : {}) }}
-      className="space-y-3"
+      className="space-y-4"
     >
-      <div className="grid grid-cols-2 gap-3">
-        {item.options.map((option) => (
-          <Field key={option.name} label={option.name}>
-            <select name={`option:${option.name}`} defaultValue={current?.options[option.name]} className={inputStyles}>
-              {option.choices.map((choice) => <option key={choice}>{choice}</option>)}
-            </select>
-          </Field>
-        ))}
-        <Field label="Quantity">
-          <input name="qty" type="number" min={1} max={20} defaultValue={current?.qty ?? 1} className={inputStyles} />
+      {item.options.map((option) => (
+        <Field key={option.name} label={option.name}>
+          <select name={`option:${option.name}`} defaultValue={current?.options[option.name]} className={inputStyles}>
+            {option.choices.map((choice) => <option key={choice}>{choice}</option>)}
+          </select>
         </Field>
-      </div>
-      <Field label="Note (optional)">
-        <input name="note" maxLength={200} defaultValue={current?.note ?? ""} placeholder="No onions" className={inputStyles} />
+      ))}
+      <Field label="Quantity">
+        <input name="qty" type="number" min={1} max={20} defaultValue={current?.qty ?? 1} className={inputStyles} />
       </Field>
-      <Button>{submitLabel}</Button>
+      <Field label="Note (optional)">
+        <input name="note" maxLength={200} defaultValue={current?.note ?? ""} placeholder="No pickles" className={inputStyles} />
+      </Field>
+      <Button className="w-full">{submitLabel}</Button>
     </ActionForm>
   );
 }

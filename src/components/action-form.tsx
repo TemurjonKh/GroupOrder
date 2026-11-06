@@ -26,7 +26,7 @@ export function ActionForm({ action, hidden = {}, className, children }: {
       {Object.entries(hidden).map(([name, value]) => <input key={name} type="hidden" name={name} value={value} />)}
       <fieldset disabled={pending} className={`min-w-0 ${className ?? ""}`}>{children}</fieldset>
       {state?.error && <p role="alert" className="mt-2 text-sm font-medium text-danger">{state.error}</p>}
-      {state?.ok && <p role="status" className="mt-2 text-sm font-medium text-accent-dark">{state.ok}</p>}
+      {state?.ok && <p role="status" className="mt-2 text-sm font-medium text-on-accent-soft">{state.ok}</p>}
     </form>
   );
 }

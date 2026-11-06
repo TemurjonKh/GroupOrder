@@ -4,7 +4,7 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
-import { deadlineFromTime, friendlyError } from "@/lib/round";
+import { friendlyError } from "@/lib/round";
 import { inviteCodeFrom, safeNext } from "@/lib/url";
 
 export type ActionState = { error?: string; ok?: string } | null;
@@ -102,7 +102,6 @@ export async function updateGroup(_: ActionState, form: FormData): Promise<Actio
     .update({
       name: text(form, "name"),
       icon: text(form, "icon"),
-      default_deadline: text(form, "deadline"),
       default_restaurant_ids: restaurants,
       location_label: text(form, "location"),
       lat,
@@ -134,22 +133,6 @@ export async function leaveGroup(_: ActionState, form: FormData): Promise<Action
 }
 
 // ------------------------------------------------------------------ rounds (leader)
-
-export async function startRound(_: ActionState, form: FormData): Promise<ActionState> {
-  const allowed = form.getAll("restaurants").map(String);
-  if (allowed.length > 3) return { error: "Pin up to 3 restaurants, or none to allow any nearby." };
-  const time = text(form, "time");
-  if (!/^\d{2}:\d{2}/.test(time)) return { error: "Please choose a closing time." };
-  const result = await call(form, "start_round", {
-    p_group: text(form, "group"),
-    p_title: text(form, "title"),
-    p_deadline: deadlineFromTime(time),
-    p_mode: text(form, "mode"),
-    p_allowed: allowed,
-  });
-  if (result) return result;
-  redirect(groupPath(form));
-}
 
 export async function finalizeRound(_: ActionState, form: FormData) {
   return call(form, "finalize_round", { p_round: text(form, "round") });

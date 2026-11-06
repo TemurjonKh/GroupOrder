@@ -1,11 +1,9 @@
 "use client";
 
-import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/browser";
-import { formatTime, roundState } from "@/lib/round";
-import type { Round } from "@/lib/types";
 import { Button, Field, inputStyles } from "./ui";
 
 const FALLBACK_REFRESH_MS = 30_000;
@@ -45,32 +43,6 @@ export function LiveRefresh({ groupId, roundId }: { groupId: string; roundId?: s
   return null;
 }
 
-function subscribeToClock(onTick: () => void) {
-  const timer = setInterval(onTick, 15_000);
-  return () => clearInterval(timer);
-}
-const roundToQuarterMinute = () => Math.floor(Date.now() / 15_000) * 15_000;
-
-const formatLeft = (minutes: number) =>
-  minutes < 60 ? `${minutes} min` : `${Math.floor(minutes / 60)} h ${minutes % 60} min`;
-
-/** "closes 11:20 · 23 min left". The time left appears only in the browser to keep server and client HTML equal. */
-export function Countdown({ round }: { round: Pick<Round, "status" | "deadline"> }) {
-  const router = useRouter();
-  const now = useSyncExternalStore(subscribeToClock, roundToQuarterMinute, () => null);
-  const state = now === null ? null : roundState(round, now);
-  const previous = useRef(state);
-  useEffect(() => {
-    if (previous.current && state && previous.current !== state) router.refresh();
-    previous.current = state;
-  }, [state, router]);
-  if (now === null || state === "open" || state === "closing_soon") {
-    const left = now === null ? null : Math.ceil((new Date(round.deadline).getTime() - now) / 60_000);
-    return <span>closes {formatTime(round.deadline)}{left !== null && ` · ${formatLeft(left)} left`}</span>;
-  }
-  return <span>closed {formatTime(round.deadline)}</span>;
-}
-
 export function CopyButton({ text, label = "Copy summary" }: { text: string; label?: string }) {
   const [copied, setCopied] = useState(false);
   return (
@@ -97,20 +69,40 @@ export function GroupTabs({ tabs }: { tabs: { href: string; label: string }[] })
   // The Lunch tab is the group root, so it also covers the pages reached from it.
   const active = [...tabs].reverse().find((tab) => pathname.startsWith(tab.href))?.href;
   return (
-    <nav aria-label="Group" className="mt-2 flex gap-1 overflow-x-auto border-b border-line">
+    <nav aria-label="Group" className="no-scrollbar mt-3 flex gap-1 overflow-x-auto">
       {tabs.map((tab) => (
         <Link
           key={tab.href}
           href={tab.href}
           aria-current={tab.href === active ? "page" : undefined}
-          className={`-mb-px flex min-h-11 items-center border-b-2 px-3 text-sm font-medium whitespace-nowrap ${
-            tab.href === active ? "border-accent text-ink" : "border-transparent text-muted hover:text-ink"
+          className={`flex min-h-10 items-center rounded-full px-4 text-sm font-semibold whitespace-nowrap transition-colors ${
+            tab.href === active ? "bg-ink text-page" : "text-muted hover:bg-soft hover:text-ink"
           }`}
         >
           {tab.label}
         </Link>
       ))}
     </nav>
+  );
+}
+
+/** A native modal dialog, so focus handling and Escape come from the browser. */
+export function Sheet({ closeHref, label, children }: { closeHref: string; label: string; children: ReactNode }) {
+  const router = useRouter();
+  const ref = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    if (ref.current && !ref.current.open) ref.current.showModal();
+  }, []);
+  return (
+    <dialog
+      ref={ref}
+      aria-label={label}
+      className="sheet"
+      onClose={() => router.push(closeHref, { scroll: false })}
+      onClick={(event) => { if (event.target === ref.current) ref.current?.close(); }}
+    >
+      {children}
+    </dialog>
   );
 }
 

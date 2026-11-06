@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
 import { OrderSummary } from "@/components/order-summary";
-import { Card, Pill } from "@/components/ui";
+import { Card, Tag } from "@/components/ui";
 import { getGroupContext, getPicks, getUser } from "@/lib/data";
-import { buildSummary, formatDate, formatKrw, memberAnswers } from "@/lib/round";
+import { buildSummary, formatDate, memberAnswers, totalLabel } from "@/lib/round";
 import type { Member, Round } from "@/lib/types";
 
 export default async function HistoryPage({ params }: { params: Promise<{ code: string }> }) {
@@ -34,14 +34,15 @@ export default async function HistoryPage({ params }: { params: Promise<{ code: 
           .map((p): Member => ({ user_id: p.user_id, role: "member", name: "Former member", avatar: null }));
         const summaries = buildSummary(memberAnswers([...context.members, ...former], roundPicks));
         const total = summaries.reduce((sum, s) => sum + s.total, 0);
+        const unpriced = summaries.reduce((sum, s) => sum + s.unpriced, 0);
         return (
           <li key={round.id}>
             <Card>
               <details>
                 <summary className="flex min-h-11 cursor-pointer flex-wrap items-center gap-x-3 gap-y-1 p-4">
-                  <span className="font-semibold">{round.title}</span>
-                  <span className="text-sm text-muted">{formatDate(round.deadline)} · {formatKrw(total)}</span>
-                  <Pill tone={round.status === "ordered" ? "neutral" : "amber"}>{round.status === "ordered" ? "Ordered" : "Not marked as ordered"}</Pill>
+                  <span className="font-display text-xl font-extrabold tracking-tight">{round.title}</span>
+                  <span className="text-sm text-muted">{formatDate(round.created_at)}, {totalLabel(total, unpriced)}</span>
+                  <Tag tone={round.status === "ordered" ? "neutral" : "accent"}>{round.status === "ordered" ? "Ordered" : "Not marked as ordered"}</Tag>
                 </summary>
                 <div className="space-y-3 border-t border-line p-4">
                   {summaries.length === 0 && <p className="text-sm text-muted">Nobody picked anything.</p>}
