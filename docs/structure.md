@@ -12,7 +12,7 @@ differs, and what remains.
 | 3 | Group page | `/g/<code>` (also the invite page for non-members) |
 | 4 | Restaurant menu | `/g/<code>/r/<restaurant>` |
 | 5 | My pick | `/g/<code>/my-pick` |
-| 6 | Leader: finalize | `/g/<code>/finalize` |
+| 6 | Leader: finalize | `/g/<code>/finalize`, `/g/<code>/finalize/pick/<user>` |
 | 7 | Group settings | `/g/<code>/settings` |
 | 8 | History | `/g/<code>/history` |
 | - | Start a round | `/g/<code>/start` |
@@ -30,6 +30,8 @@ differs, and what remains.
 | `src/proxy.ts` | Session refresh and redirect to login |
 | `src/components/` | UI, including the live refresh and countdown |
 | `test/` | Tests for the logic and for the database rules |
+| `scripts/local-backend.mjs` | Stand-in for Supabase used by `npm run dev:local`; never deployed |
+| `supabase/local/` | What Supabase normally provides, plus demo content, for local mode and tests |
 
 ## Security model
 
@@ -47,7 +49,7 @@ no special key: it acts as the logged-in user, so a bug in a page cannot bypass 
 | `order_items` statuses | Adds `cancelled` | Cancelling keeps the row, so live subscribers get an update event |
 | Next.js API routes | Server actions | Less code for form submissions; the Hub status endpoint can still be a route |
 | Reminder job on Vercel | `pg_cron` in Supabase | Vercel's free tier only runs cron once a day |
-| Extra fields | `restaurants.cuisine`, `notifications.read_at`, `groups.default_*` and `lat/lng`, `order_rounds.allowed_restaurant_ids` | Needed by the wireframe, the in-app notices and the restaurant limit |
+| Extra fields | `restaurants.cuisine`, `notifications.read_at`, `groups.default_*`, `groups.location_label` and `lat/lng`, `order_rounds.allowed_restaurant_ids` | Needed by the wireframe, the in-app notices, group location and the restaurant limit |
 
 ## Decisions used
 
@@ -57,14 +59,20 @@ person per round.
 
 ## Not built yet
 
-MVP items still open:
+MVP items still open, all of which depend on a deployed site or an outside service:
 
 - **Web Push and email delivery.** Reminders and "ordered" notices are created on schedule
-  but only appear on the My groups page.
-- **Leader editing a member's pick.** A leader can remove a pick, and the member is told to
-  repick, even after the deadline. Direct editing is not there.
-- **Choosing a group's location.** All groups use the sample office address for now.
+  but only appear in the app (a badge in the header and a list on My groups).
 - **Offline PWA features.** The app can be installed, but there is no service worker yet.
+
+Group location is set by coordinates or "Use my current location", because turning an
+address into coordinates needs a map API.
+
+## Checked only in local mode so far
+
+Logged-in flows have been driven in a browser against `npm run dev:local`, not against a
+real Supabase project. Before the first deployment, check Supabase Auth (including email
+confirmation), Realtime live updates and the `pg_cron` schedule on a real project.
 
 Later, per the document: company admin and billing, Kakao login and Alimtalk, restaurant
 voting, coffee rounds, the Hub and its status endpoint, payment.

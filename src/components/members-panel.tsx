@@ -21,7 +21,7 @@ export function MembersPanel({ answers, children }: { answers: Answer[]; childre
                 {answer.member.name}
                 {answer.member.role === "leader" && <span className="font-normal text-muted"> · leader</span>}
               </p>
-              <p className="truncate text-sm text-muted">
+              <p className="text-sm break-words text-muted">
                 {answer.kind === "picked" && (
                   <>
                     {answer.pick.menu_item!.name}

@@ -17,6 +17,11 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
           <Button className="w-full">Log in</Button>
         </ActionForm>
       </Card>
+      {process.env.NEXT_PUBLIC_LOCAL_BACKEND === "1" && (
+        <p className="mt-4 rounded-lg bg-accent-soft p-3 text-sm">
+          <strong>Local demo.</strong> Log in as temur@demo.test (leader), minji@demo.test, jisoo@demo.test or dana@demo.test. Password: demo1234
+        </p>
+      )}
       <p className="mt-4 text-sm text-muted">
         New here? <Link className="font-semibold text-accent underline" href={`/signup?next=${encodeURIComponent(next)}`}>Create an account</Link>
       </p>

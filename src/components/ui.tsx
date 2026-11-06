@@ -43,6 +43,6 @@ export function Circle({ src, label, size = 40 }: { src?: string | null; label?:
 }
 
 export function Pill({ tone = "neutral", children }: { tone?: "neutral" | "accent" | "amber"; children: React.ReactNode }) {
-  const tones = { neutral: "bg-soft text-muted", accent: "bg-accent-soft text-accent-dark", amber: "bg-amber-soft text-amber" };
+  const tones = { neutral: "bg-soft text-muted", accent: "bg-surface text-accent-dark ring-1 ring-accent", amber: "bg-amber-soft text-amber ring-1 ring-amber" };
   return <span className={`inline-block whitespace-nowrap rounded-full px-2.5 py-0.5 text-xs font-semibold ${tones[tone]}`}>{children}</span>;
 }

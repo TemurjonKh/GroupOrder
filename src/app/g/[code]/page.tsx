@@ -7,7 +7,7 @@ import { MembersPanel } from "@/components/members-panel";
 import { RoundBar } from "@/components/round-bar";
 import { Button, Card, Circle, buttonStyles } from "@/components/ui";
 import { PICK_COLUMNS, getGroupContext, getRestaurants, getUser } from "@/lib/data";
-import { distanceMeters, formatDistance, formatKrw, optionsLabel } from "@/lib/round";
+import { formatDistance, formatKrw, optionsLabel, restaurantsForRound } from "@/lib/round";
 import type { Group, OrderPick, Round } from "@/lib/types";
 
 export default async function GroupPage({ params }: { params: Promise<{ code: string }> }) {
@@ -39,7 +39,7 @@ export default async function GroupPage({ params }: { params: Promise<{ code: st
     <div className="space-y-4">
       <LiveRefresh groupId={group.id} roundId={round.id} />
       <RoundBar round={round} state={state} counts={counts} />
-      <div className="grid gap-4 lg:grid-cols-[1fr_340px]">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-4 lg:grid-cols-[minmax(0,1fr)_340px]">
         <div className="space-y-4">
           {round.status === "finalized" && (
             <Card className="p-4">
@@ -138,10 +138,11 @@ async function lastPick(groupId: string, roundId: string) {
 
 async function RestaurantList({ code, group, round }: { code: string; group: Group; round: Round }) {
   const pinned = round.allowed_restaurant_ids;
-  const restaurants = (await getRestaurants())
-    .filter((r) => pinned.length === 0 || pinned.includes(r.id))
-    .map((r) => ({ ...r, distance: distanceMeters(group, r), from: Math.min(...r.menu_items.map((m) => m.price)) }))
-    .sort((a, b) => a.distance - b.distance);
+  const restaurants = restaurantsForRound(group, await getRestaurants(), pinned)
+    .map((r) => ({ ...r, from: Math.min(...r.menu_items.map((m) => m.price)) }));
+  if (restaurants.length === 0) {
+    return <Card className="p-4 text-sm text-muted">We have no restaurants listed near {group.location_label} yet.</Card>;
+  }
   return (
     <section>
       <h2 className="mb-2 font-semibold">{pinned.length ? "Restaurants for this round" : "Nearby restaurants"}</h2>

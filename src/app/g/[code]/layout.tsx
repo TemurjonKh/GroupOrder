@@ -1,8 +1,8 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { joinGroup } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
 import { AppHeader } from "@/components/app-header";
+import { GroupTabs } from "@/components/client-bits";
 import { Button, Card } from "@/components/ui";
 import { getGroupContext, getUser } from "@/lib/data";
 
@@ -26,13 +26,7 @@ export default async function GroupLayout({ children, params }: { children: Reac
         <h1 className="flex items-center gap-2 text-xl font-bold">
           <span aria-hidden>{group.icon}</span><span className="truncate">{group.name}</span>
         </h1>
-        <nav aria-label="Group" className="mt-2 flex gap-1 overflow-x-auto border-b border-line">
-          {tabs.map((tab) => (
-            <Link key={tab.href} href={tab.href} className="flex min-h-11 items-center whitespace-nowrap px-3 text-sm font-medium text-muted hover:text-ink">
-              {tab.label}
-            </Link>
-          ))}
-        </nav>
+        <GroupTabs tabs={tabs} />
       </div>
       <main className="mx-auto max-w-5xl px-4 py-5">{children}</main>
     </>

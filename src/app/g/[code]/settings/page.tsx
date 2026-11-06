@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import QRCode from "qrcode";
 import { leaveGroup, removeMember, setMemberRole, updateGroup } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
-import { CopyButton, PrintButton } from "@/components/client-bits";
+import { CopyButton, LocationFields, PrintButton } from "@/components/client-bits";
 import { Button, Card, Field, Pill, inputStyles } from "@/components/ui";
 import { getGroupContext, getRestaurants } from "@/lib/data";
 
@@ -73,6 +73,12 @@ export default async function SettingsPage({ params }: { params: Promise<{ code:
             <Field label="Default closing time">
               <input name="deadline" type="time" required defaultValue={group.default_deadline.slice(0, 5)} className={`${inputStyles} max-w-40`} />
             </Field>
+            <fieldset className="space-y-3">
+              <legend className="text-sm font-medium">Location</legend>
+              <p className="text-sm text-muted">Decides which restaurants count as nearby (within 3 km).</p>
+              <Field label="Place name"><input name="location" required maxLength={120} defaultValue={group.location_label} className={inputStyles} /></Field>
+              <LocationFields lat={group.lat} lng={group.lng} />
+            </fieldset>
             <fieldset>
               <legend className="text-sm font-medium">Default restaurants</legend>
               <p className="mb-2 text-sm text-muted">Pinned when a round starts. Up to 3, or none for any nearby.</p>

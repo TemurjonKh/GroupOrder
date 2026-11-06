@@ -91,6 +91,11 @@ export async function joinGroup(_: ActionState, form: FormData): Promise<ActionS
 export async function updateGroup(_: ActionState, form: FormData): Promise<ActionState> {
   const restaurants = form.getAll("restaurants").map(String);
   if (restaurants.length > 3) return { error: "Choose up to 3 default restaurants." };
+  const lat = Number(form.get("lat"));
+  const lng = Number(form.get("lng"));
+  if (!text(form, "lat") || !text(form, "lng") || !(Math.abs(lat) <= 90) || !(Math.abs(lng) <= 180)) {
+    return { error: "Please enter a valid latitude and longitude." };
+  }
   const supabase = await createClient();
   const { data, error } = await supabase
     .from("groups")
@@ -99,6 +104,9 @@ export async function updateGroup(_: ActionState, form: FormData): Promise<Actio
       icon: text(form, "icon"),
       default_deadline: text(form, "deadline"),
       default_restaurant_ids: restaurants,
+      location_label: text(form, "location"),
+      lat,
+      lng,
     })
     .eq("id", text(form, "group"))
     .select("id");
@@ -167,21 +175,30 @@ export async function remindNoAnswer(_: ActionState, form: FormData): Promise<Ac
 
 // ------------------------------------------------------------------ picks (member)
 
-export async function setPick(_: ActionState, form: FormData): Promise<ActionState> {
-  const options = Object.fromEntries(
-    [...form.entries()]
-      .filter(([key]) => key.startsWith("option:"))
-      .map(([key, value]) => [key.slice("option:".length), String(value)]),
-  );
-  const result = await call(form, "set_my_pick", {
+function pickArgs(form: FormData) {
+  return {
     p_round: text(form, "round"),
     p_menu_item: text(form, "item"),
     p_qty: Math.min(20, Math.max(1, Number(form.get("qty")) || 1)),
-    p_options: options,
+    p_options: Object.fromEntries(
+      [...form.entries()]
+        .filter(([key]) => key.startsWith("option:"))
+        .map(([key, value]) => [key.slice("option:".length), String(value)]),
+    ),
     p_note: text(form, "note").slice(0, 200),
-  });
+  };
+}
+
+export async function setPick(_: ActionState, form: FormData): Promise<ActionState> {
+  const result = await call(form, "set_my_pick", pickArgs(form));
   if (result) return result;
   redirect(groupPath(form));
+}
+
+export async function leaderSetPick(_: ActionState, form: FormData): Promise<ActionState> {
+  const result = await call(form, "leader_set_pick", { ...pickArgs(form), p_user: text(form, "user") });
+  if (result) return result;
+  redirect(`${groupPath(form)}/finalize`);
 }
 
 export async function setAnswer(_: ActionState, form: FormData) {

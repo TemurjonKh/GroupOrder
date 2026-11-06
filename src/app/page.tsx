@@ -22,6 +22,7 @@ const NOTE_TEXT: Record<string, string> = {
   reminder_manual: "needs your answer. The leader sent a reminder.",
   repick: "needs a new pick from you: the leader removed your dish.",
   ordered: "has been ordered. Food is on the way.",
+  pick_edited: "had your pick changed by the leader.",
 };
 
 export default async function HomePage() {

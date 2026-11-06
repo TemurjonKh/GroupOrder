@@ -1,18 +1,24 @@
-import { setPick } from "@/app/actions";
+import { leaderSetPick, setPick } from "@/app/actions";
 import { ActionForm } from "./action-form";
 import { Button, Field, inputStyles } from "./ui";
 import type { MenuItem, OrderPick } from "@/lib/types";
 
 /** Choices for one dish. Used on the menu (new pick) and on My pick (editing). */
-export function PickForm({ code, roundId, item, current, submitLabel }: {
+export function PickForm({ code, roundId, item, current, submitLabel, forUser }: {
   code: string;
   roundId: string;
   item: MenuItem;
   current?: OrderPick | null;
   submitLabel: string;
+  /** Set when a leader is picking on someone's behalf. */
+  forUser?: string;
 }) {
   return (
-    <ActionForm action={setPick} hidden={{ code, round: roundId, item: item.id }} className="space-y-3">
+    <ActionForm
+      action={forUser ? leaderSetPick : setPick}
+      hidden={{ code, round: roundId, item: item.id, ...(forUser ? { user: forUser } : {}) }}
+      className="space-y-3"
+    >
       <div className="grid grid-cols-2 gap-3">
         {item.options.map((option) => (
           <Field key={option.name} label={option.name}>

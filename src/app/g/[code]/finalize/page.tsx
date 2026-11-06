@@ -55,7 +55,7 @@ export default async function FinalizePage({ params }: { params: Promise<{ code:
         )}
       </Card>
 
-      <div className="grid gap-4 lg:grid-cols-[1fr_300px]">
+      <div className="grid grid-cols-[minmax(0,1fr)] gap-4 lg:grid-cols-[minmax(0,1fr)_300px]">
         <section aria-label="Order per restaurant" className="space-y-3">
           {summaries.length === 0 && <Card className="p-6 text-center text-muted">No picks yet.</Card>}
           {summaries.map((summary) => (
@@ -64,16 +64,24 @@ export default async function FinalizePage({ params }: { params: Promise<{ code:
               summary={summary}
               roundTitle={round.title}
               personAction={open ? (userId) => (
-                <ActionForm action={removePick} hidden={{ ...hidden, user: userId }}>
-                  <button className="min-h-11 cursor-pointer px-2 font-medium text-danger underline">Remove</button>
-                </ActionForm>
+                <>
+                  <Link href={`/g/${code}/finalize/pick/${userId}`} className="inline-flex min-h-11 items-center px-2 font-medium text-accent underline">Edit</Link>
+                  <ActionForm action={removePick} hidden={{ ...hidden, user: userId }}>
+                    <button className="min-h-11 cursor-pointer px-2 font-medium text-danger underline">Remove</button>
+                  </ActionForm>
+                </>
               ) : undefined}
             />
           ))}
           {summaries.length > 1 && <p className="text-right font-semibold">All restaurants: {formatKrw(grandTotal)}</p>}
         </section>
         <aside className="space-y-3">
-          <NameList title="No answer" names={missing.map((a) => a.member.name)} />
+          <NameList
+            title="No answer"
+            names={missing.map((a) => a.member.name)}
+            hint={open && missing.length > 0 ? "Tap a name to pick for them." : undefined}
+            hrefs={open ? missing.map((a) => `/g/${code}/finalize/pick/${a.member.user_id}`) : undefined}
+          />
           <NameList title="Not joining" names={skipped.map((a) => a.member.name)} />
         </aside>
       </div>
@@ -81,11 +89,20 @@ export default async function FinalizePage({ params }: { params: Promise<{ code:
   );
 }
 
-function NameList({ title, names }: { title: string; names: string[] }) {
+function NameList({ title, names, hrefs, hint }: { title: string; names: string[]; hrefs?: string[]; hint?: string }) {
   return (
     <Card className="p-4">
       <h3 className="font-semibold">{title} ({names.length})</h3>
-      {names.length > 0 && <ul className="mt-1 text-sm text-muted">{names.map((n, i) => <li key={`${n}${i}`}>{n}</li>)}</ul>}
+      {hint && <p className="text-sm text-muted">{hint}</p>}
+      {names.length > 0 && (
+        <ul className="mt-1 text-sm text-muted">
+          {names.map((name, i) => (
+            <li key={`${name}${i}`}>
+              {hrefs ? <Link href={hrefs[i]} className="inline-flex min-h-11 items-center font-medium text-accent underline">{name}</Link> : name}
+            </li>
+          ))}
+        </ul>
+      )}
     </Card>
   );
 }
