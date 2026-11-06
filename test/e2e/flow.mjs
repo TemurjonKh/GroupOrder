@@ -190,10 +190,11 @@ await step("food map: vegan search is honest about what it can show", async () =
   for (const word of ["치킨", "베이컨", "참치", "쉬림프", "치즈", "에그"]) if (text.includes(word)) throw new Error(`vegan search shows ${word}: ${text.slice(0, 200)}`);
   console.log(`     vegan: ${vegan} meals with nothing listed: ${text.replaceAll("\n", " ")}`);
   await shot(temur, "24-map-vegan");
-  // Every salad has milk or meat in it, so a vegan search rightly finds none.
-  await temur.getByLabel("Search meals and places").fill("샐러드");
+  // Every Whopper has beef in it, so a vegan search rightly finds none.
+  await temur.getByLabel("Search meals and places").fill("와퍼");
   await see(temur, "Meals (0)");
   await see(temur, "No meal has everything ruled out");
+  await temur.getByLabel("Search meals and places").fill("샐러드");
   await temur.getByRole("button", { name: "Vegan", exact: true }).click();
   await temur.getByRole("button", { name: "No pork" }).click();
   await temur.locator("details summary", { hasText: "샐러드" }).first().click();

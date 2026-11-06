@@ -1,0 +1,2369 @@
+{
+  "slug": "mega",
+  "name": "Mega MGC Coffee",
+  "cuisine": "Coffee",
+  "logo": null,
+  "logo_bg": null,
+  "delivery_link": "https://www.mega-mgccoffee.com",
+  "source": "https://www.mega-mgccoffee.com/menu/",
+  "dishes": [
+    {
+      "description": "꾸덕하고 진한 초콜릿에 상큼한 체리잼 스프레드를 더해 섞으면 섞을수록 맛있어지는 달콤함이 매력적인 초코 프라페 * 체리 씨를 제거하였으나, 드물게 씨 조각이 남아 있을 수 있으니 섭취 시 주의하시기 바랍니다.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261021185329_1792576409658_TSL3J4XMIy.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "딥 초코 체리 프라페",
+      "category": "음료"
+    },
+    {
+      "description": "고소한 율무를 더한 우롱 루이보스티 베이스에 쪼온득 말랑한 미니 모찌펄이 가득! 함께 저어서 쏙쏙 먹으면 더욱 맛있게 즐길 수 있는 밀크티",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261021185621_1792576581002_NyaJL6AVnt.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "쫀득 모찌 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "돼지파티 후엔 매실이 딱! 향긋한 매실에 은은한 모과청을 더해 식후에도 부담없이 즐길 수 있는 깔끔 담백한 매실 티플레저",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261021185422_1792576462096_Ju7aC8KXEI.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "매실 모과차",
+      "category": "음료"
+    },
+    {
+      "description": "메가MGC커피 시스템을 해킹 해버린 은랑 LV.999가 블루베리 레몬에이드에 에테르 큐브를 잔뜩 드랍해놨다! 새콤달콤 시원한 에이드 곳곳에 숨어있는 큐브(나타드코코)를 하나씩 공략하는 재미가 있는 붕괴: 스타레일 한정판 음료",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261008180940_1791450580164_7pt7Ed_UTa.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "나 혼자만 드랍 UP! 은랑 큐브 레몬에이드",
+      "category": "음료"
+    },
+    {
+      "description": "아무리 오래 무뎌진 마음도, 이 한 잔의 다정함은 이기지 못해 깔끔한 아메리카노 위로 진한 초코 크림이 듬뿍- 블레이드조차 인정한 달콤쌉쌀한 붕괴: 스타레일 한정판 음료",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261008180742_1791450462501_fdbGBH46Jw.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "음, 괜찮은 휴식이군 블레이드 초코크림커피",
+      "category": "음료"
+    },
+    {
+      "description": "메가MGC커피만의 하우스밀크로 고소하고 부드러운 맛과 은은한 단맛은 더하고 깊은 풍미의 에스프레소 샷을 블렌딩해 더욱 조화로운 밸런스를 완성한 카페라떼",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260902203101_1788348661533_weMnhAbV2Q.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "하우스밀크 라떼",
+      "category": "음료"
+    },
+    {
+      "description": "이탈리아산 크라스탄 오르조와 고소하고 부드러운 우유가 만나 카페라떼 그대로의 깊은 풍미를 부담없이 무카페인으로 즐길 수 있는 라떼",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261028231148_1793196708947_Ohmw9SD0GT.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "무카페인 오르조라떼",
+      "category": "음료"
+    },
+    {
+      "description": "저당으로 부담없는 달콤상큼한 사과와 깊고 깔끔한 블랙티의 조화로 더욱 풍부하고 산뜻하게 즐길 수 있는 티플레져 *대체당(알룰로스)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260916234952_1789570192916_xCpTUY41pJ.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "저당 골든애플 블랙티",
+      "category": "음료"
+    },
+    {
+      "description": "4가지 식물성 바이오틱스와 5가지 포스트바이오틱스를 더한 저당·저칼로리 듀얼 바이오틱 소다 자몽 맛 *대체당(알룰로스 등)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260604210115_1780574475408_4CvZdY5F9E.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "ARIH 듀얼바이오틱 소다 레드 루비 갈로어",
+      "category": "음료"
+    },
+    {
+      "description": "4가지 식물성 바이오틱스와 5가지 포스트바이오틱스를 더한 저당·저칼로리 듀얼 바이오틱 소다 오렌지 향 *대체당(알룰로스 등)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260604210526_1780574726295_ldS4q_W8ek.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "ARIH 듀얼바이오틱 소다 포지티브 오렌지",
+      "category": "음료"
+    },
+    {
+      "description": "4가지 식물성 바이오틱스와 5가지 포스트바이오틱스를 더한 저당·저칼로리 듀얼 바이오틱 소다 레몬 향 *대체당(알룰로스 등)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260605000738_1780585658684_eFPxfdhaWp.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "ARIH 듀얼바이오틱 소다 클리어레몬",
+      "category": "음료"
+    },
+    {
+      "description": "4가지 식물성 바이오틱스와 5가지 포스트바이오틱스를 더한 저당·저칼로리 듀얼 바이오틱 소다 복숭아와 달콤한 망고 맛 *대체당(알룰로스 등)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260604210410_1780574650849_ge2Rbb2mCd.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "ARIH 듀얼바이오틱 소다 피치망고 호라이즌",
+      "category": "음료"
+    },
+    {
+      "description": "자연에서 온 카페인과 포스트바이오틱스를 더한 당류 ZERO, 칼로리 ZERO 에너지 드링크 시트러스 *대체당을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260604205718_1780574238227_vre8909Ms_.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "ARIH 포스트바이오틱 에너지 드링크 레몬크레스트",
+      "category": "음료"
+    },
+    {
+      "description": "자연에서 온 카페인과 포스트바이오틱스를 더한 당류 ZERO, 칼로리 ZERO 에너지 드링크 오렌지 *대체당을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260604205615_1780574175202_LHw12vYQ6H.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "ARIH 포스트바이오틱 에너지 드링크 오렌지아워",
+      "category": "음료"
+    },
+    {
+      "description": "자연에서 온 카페인과 포스트바이오틱스를 더한 당류 ZERO, 칼로리 ZERO 에너지 드링크 리치 *대체당을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260605103322_1780623202696_F8N06YR5cD.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "ARIH 포스트바이오틱 에너지 드링크 트로피칼웨이브",
+      "category": "음료"
+    },
+    {
+      "description": "저당으로 부담은 덜고, 새콤달콤한 맛은 더 풍부하게! 꿀처럼 달콤한 배의 시원하고 깨끗한 단맛에 설탕·당류·지방 3 ZERO 야쿠르트 XO 2병이 들어간 리프레쉬 한 잔 *대체당(알룰로스, 에리스리톨 등)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260401192153_1775038913170_2UFRSEFHv0.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "저당 꿀배 XO야쿠르트",
+      "category": "음료"
+    },
+    {
+      "description": "딸기과육이 풍부히 느껴지는 스테디 셀러 산뜻하고 달콤한 딸기가 가득해 부드러운 우유와 어우러져 더욱 기분 좋게 즐기는 아이스 라떼",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250116001724_1736954244791_8qDsY0gj14.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "딸기라떼",
+      "category": "음료"
+    },
+    {
+      "description": "우유 그대로의 부드러움에 달콤함을 더해 꾸덕하고 진~한 풍미를 느낄 수 있는 겨울시즌 한정 밀크쉐이크",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20251210220621_1765371981583_lnOltIAEKR.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "밀크쉐이크",
+      "category": "음료"
+    },
+    {
+      "description": "상큼달콤한 유자청과 은은하게 매콤한 생강의 풍미를 조화롭게 담아낸 겨울 한정 과일 티",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20251106022624_1762363584516_gmIV9uXczk.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유자생강차",
+      "category": "음료"
+    },
+    {
+      "description": "진하고 꾸덕한 초코 젤라또를 제주산 고품질 말차, 쌉싸름한 블렌딩 커피와 함께 즐기는 말차 에스프레소 라떼 *[원료 변경에 따른 전환 기간으로, 매장에 따라 기존 원료 또는 변경 원료가 사용될 수 있습니다. 변경 원료 사용 시 영양정보는 아래 내용을 참고해 주세요.] 알레르기 유발 성분 - 우유, 대두 칼로리 332.3kcal, 탄수화물 56.4g, 당류 52.3g, 단백질 7.1g, 지방 8.7g, 포화지방 4.1g, 트랜스지방 0g, 나트륨 105.2mg, 콜레스테롤 22.5mg, 카페인 213.5mg 고카페인 함유 : 해당 제품은 다량의 카페인을 함유하고 있어 어린이, 임산부, 카페인에 민감하신 분들은 유의하시기 바랍니다.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20251210155814_1765349894904_ps9wkFJ_kA.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "초코젤라또 말차라떼",
+      "category": "음료"
+    },
+    {
+      "description": "국내산 헛개수와 메가MGC커피만의 아메리카노를 더해 고소한 맛이 조화로운 블렌딩 커피",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320000737_1742396857693_ngpZI3EbLM.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "(HOT)헛개리카노",
+      "category": "음료"
+    },
+    {
+      "description": "국내산 헛개수와 메가MGC커피만의 아메리카노를 더해 고소한 맛이 조화로운 블렌딩 커피",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320000925_1742396965069_ekSqAIVc1L.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "(ICE)헛개리카노",
+      "category": "음료"
+    },
+    {
+      "description": "지친 현대인들에게 필요한 한 잔의 에너지! 타우린 1,000mg이 들어가 활력이 충전되는 에너지드링크맛 제로 칼로리 에이드 *대체당(알룰로스 등)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320002931_1742398171188_QX5SewCVs4.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제로 부스트 에이드",
+      "category": "음료"
+    },
+    {
+      "description": "새콤달콤한 블루베리와 산뜻한 요거트가 만나 조화로운 스무디",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320003134_1742398294871_z9t_oXfbA6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "블루베리요거트스무디",
+      "category": "음료"
+    },
+    {
+      "description": "상큼달콤한 프리미엄 골드키위에 밀크씨슬을 더해 일상의 활력을 선사하는 건강한 블렌딩 주스",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320003451_1742398491079_wWQva965Sn.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "골드키위주스",
+      "category": "음료"
+    },
+    {
+      "description": "톡톡 터지는 상큼한 귤의 과육과 몽글한 젤리식감이 매력적인 스무디",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320003615_1742398575781_Dy89tEHQTL.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "귤 톡톡 젤리스무디",
+      "category": "음료"
+    },
+    {
+      "description": "진한 에스프레소와 부드러운 우유가 어우러져 고소한 풍미를 완성한 메가MGC커피만의 왕메가사이즈 라떼",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320004326_1742399006488_yI4cvwXy6N.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "왕메가카페라떼",
+      "category": "음료"
+    },
+    {
+      "description": "진한 에스프레소와 부드러운 우유가 어우러져 고소한 풍미를 완성한 메가MGC커피만의 왕메가사이즈 라떼",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320004527_1742399127150_aZXw3Wbf4H.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "디카페인 왕메가카페라떼",
+      "category": "음료"
+    },
+    {
+      "description": "비건 음료 아몬드브리즈와 칼로리를 낮춘 라이트 바닐라 시럽이 만나 가볍지만 부드~러워진 디카페인 라떼 *대체당(알룰로스 등)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250402185107_1743587467742_jeeQmgRshX.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 라이트 바닐라 아몬드라떼",
+      "category": "음료"
+    },
+    {
+      "description": "애플티의 향긋함과 유자청의 상큼달콤함을 느낄 수 있는 메가MGC커피만의 왕메가사이즈 과일티",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320004730_1742399250273_UPT0oK5fSb.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "왕메가사과유자",
+      "category": "음료"
+    },
+    {
+      "description": "국내산 헛개수와 아메리카노를 블렌딩해 고소한 맛이 더욱 커진 왕메가사이즈 커피",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320001838_1742397518902_MCGDHqjxXi.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "왕메가헛개리카노",
+      "category": "음료"
+    },
+    {
+      "description": "국내산 헛개수와 메가MGC커피만의 아메리카노를 더해 고소한 맛이 조화로운 디카페인 블렌딩 커피",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320002019_1742397619030_g5iEBTRsp7.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "(HOT)디카페인 헛개리카노",
+      "category": "음료"
+    },
+    {
+      "description": "국내산 헛개수와 메가MGC커피만의 아메리카노를 더해 고소한 맛이 조화로운 디카페인 블렌딩 커피",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320002154_1742397714997_gJNgLAlBgB.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "(ICE)디카페인 헛개리카노",
+      "category": "음료"
+    },
+    {
+      "description": "국내산 헛개수와 아메리카노를 블렌딩해 고소한 맛이 더욱 커진 왕메가사이즈 디카페인 커피",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320002658_1742398018940_tQcZf5VEmt.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 왕메가헛개리카노",
+      "category": "음료"
+    },
+    {
+      "description": "리치, 라임, 망고스틴 베이스에 레드 커런트, 로즈마리를 더한 상큼한 과일티",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20241106234009_1730904009276_fu30eMash6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "(HOT)상큼 리치티",
+      "category": "음료"
+    },
+    {
+      "description": "리치, 라임, 망고스틴 베이스에 레드 커런트, 로즈마리를 더한 상큼한 과일티",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20241106234210_1730904130583_8wBT7nkLrL.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "(ICE)상큼 리치티",
+      "category": "음료"
+    },
+    {
+      "description": "곡물의 향이 고소한 미숫가루와 달달한 믹스커피의 황금비율 조합",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240904234012_1725460812247_PgldrBOdUW.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "할메가미숫커피",
+      "category": "음료"
+    },
+    {
+      "description": "비건 음료 아몬드브리즈와 칼로리를 낮춘 라이트 바닐라 시럽이 만나 가볍지만 부드~러워진 라떼 *대체당(알룰로스 등)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240703154302_1719988982437_ZzHlEUdQwF.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "라이트 바닐라 아몬드라떼",
+      "category": "음료"
+    },
+    {
+      "description": "부드러운 우유에 진한 초코소스가 어우러져 달콤하게 입맛을 깨우는 왕 메가 사이즈 초코음료",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610114853_1717987733636_Uq2ZKYINXZ.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "왕메가초코",
+      "category": "음료"
+    },
+    {
+      "description": "깊은 맛의 홍차와 달콤한 복숭아의 은은한 향이 어우러진 왕 메가 사이즈 아이스티",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610113625_1717986985834_J_PTjRFq7P.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "왕메가아이스티",
+      "category": "음료"
+    },
+    {
+      "description": "깊게 우려진 홍차와 은은한 복숭아향의 아이스티를 제로슈가, 제로칼로리로 즐길 수 있는 음료 *대체당(알룰로스,에리스리톨)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610113548_1717986948917_wK8B5fR4h5.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "제로 복숭아 아이스티",
+      "category": "음료"
+    },
+    {
+      "description": "향기로운 에스프레소 샷, 부드러운 우유 그리고 달콤한 연유가 조화롭게 어우러진 라떼",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132459_1717993499610_KiXcTR2q5P.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "연유라떼",
+      "category": "음료"
+    },
+    {
+      "description": "황금빛 골드망고가 진하게 느껴지는 부드럽고 상큼 달콤한 스무디",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610112826_1717986506337_AauGwyguRG.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "골드망고스무디",
+      "category": "음료"
+    },
+    {
+      "description": "우리 할머니께서 즐겨드시던 달달한 믹스 커피 스타일로 만든 메가MGC커피만의 시원한 커피 음료",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610113252_1717986772176_6c36zo5yuf.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "할메가커피",
+      "category": "음료"
+    },
+    {
+      "description": "우리 할머니께서 즐겨드시던 달달한 믹스 커피 스타일로 만든 메가MGC커피만의 메가사이즈 커피 음료",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610114915_1717987755314_1rAv8UqZUm.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "왕할메가커피",
+      "category": "음료"
+    },
+    {
+      "description": "바삭하고 고소한 코코넛 칩을 올리고 쌉싸름한 커피와 달콤한 코코넛이 조화로운 스무디",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132830_1717993710301_PxTeTM9Suh.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "코코넛 커피 스무디",
+      "category": "음료"
+    },
+    {
+      "description": "새콤달콤한 딸기주스에 피쉬 콜라겐을 더해 건강한 블렌딩 주스",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610114741_1717987661472_LqJw6WITHO.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "딸기주스",
+      "category": "음료"
+    },
+    {
+      "description": "상큼한 딸기와 부드러운 바나나가 만나, 새콤달콤한 매력이 살아 있는 과일 음료.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610114817_1717987697259_APSvRawmJi.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "딸기바나나주스",
+      "category": "음료"
+    },
+    {
+      "description": "디카페인으로 만나는 메가MGC커피 에스프레소",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610110159_1717984919074_jg4RYBdr_J.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 에스프레소",
+      "category": "음료"
+    },
+    {
+      "description": "향과 풍미 그대로 카페인만을 낮춰 민감한 분들도 안심하고 매일매일 즐길 수 있는 디카페인 커피",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105207_1717984327186_Sgj9kfKYCi.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 아메리카노",
+      "category": "음료"
+    },
+    {
+      "description": "디카페인 아메리카노의 묵직한 바디감에 달콤한 사양벌꿀이 소프트하게 어우러진 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610104414_1717983854651_gNaXxjR35W.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 꿀아메리카노",
+      "category": "음료"
+    },
+    {
+      "description": "디카페인 아메리카노에 헤이즐넛의 풍성한 향과 달콤함을 담아 향긋하고 부드럽게 즐기는 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105046_1717984246492_KeavFH2VTO.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 헤이즐넛 아메리카노",
+      "category": "음료"
+    },
+    {
+      "description": "디카페인 아메리카노에 바닐라의 부드러운 향과 달콤함을 조화롭게 담아낸 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610104650_1717984010944__Ck8jyuaDL.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 바닐라 아메리카노",
+      "category": "음료"
+    },
+    {
+      "description": "디카페인 에스프레소와 부드러운 우유가 어우러져 고소한 풍미를 완성한 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105117_1717984277710_7BjonXSBFE.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "디카페인 카페라떼",
+      "category": "음료"
+    },
+    {
+      "description": "디카페인 에스프레소와 부드러운 우유가 어우러져 고소한 풍미를 완성한 카푸치노.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105545_1717984545629_CaGhOpvAnm.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "디카페인 카푸치노",
+      "category": "음료"
+    },
+    {
+      "description": "디카페인으로 즐기는 바닐라의 짙은 향과 풍부한 폼 밀크의 조화가 인상적인 달콤한 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610104630_1717983990934_v3HPYN93uK.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "디카페인 바닐라라떼",
+      "category": "음료"
+    },
+    {
+      "description": "부드러운 카페라떼에 헤이즐넛의 풍부한 향과 달콤함을 담아 향긋하게 즐길 수 있는 디카페인 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105007_1717984207073_HqCto2mw3y.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "디카페인 헤이즐넛 라떼",
+      "category": "음료"
+    },
+    {
+      "description": "폼 밀크 속에 진한 디카페인 에스프레소와 달콤한 카라멜을 가미해 부드럽게 즐기는 커피",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105238_1717984358779_MvgzcNlZdI.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "디카페인 카라멜마끼아또",
+      "category": "음료"
+    },
+    {
+      "description": "디카페인 에스프레소 샷, 부드러운 우유 그리고 달콤한 연유가 조화롭게 어우러진 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105224_1717984344775_9iKsKownRh.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "디카페인 연유라떼",
+      "category": "음료"
+    },
+    {
+      "description": "초코를 만나 풍부해진 디카페인 에스프레소와 고소한 우유, 부드러운 휘핑크림까지 더해 달콤하게 즐기는 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105145_1717984305671_2_yE7sXma9.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "디카페인 카페모카",
+      "category": "음료"
+    },
+    {
+      "description": "메가MGC커피 디카페인 아메리카노를 '960ml' 더 크고 가볍게 즐길 수 있는 대용량 커피",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610115001_1717987801368_av938eflM8.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 메가리카노",
+      "category": "음료"
+    },
+    {
+      "description": "부드러운 바닐라와 달달한 딸기, 바삭한 오레오 쿠키가 달콤한 하모니를 선물하는 프라페.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132048_1717993248890_NW1QEUmFtQ.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "딸기쿠키프라페",
+      "category": "음료"
+    },
+    {
+      "description": "카페인을 줄였지만, 원두 본연의 향미를 풍부하게 살려 맛을 잡은 디카페인 콜드브루.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132920_1717993760751_69WHioWjnb.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "콜드브루디카페인",
+      "category": "음료"
+    },
+    {
+      "description": "우유와 만나 부드럽고 고소한 풍미가 더해진 콜드브루 디카페인 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132902_1717993742550_EBciHOxu2w.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "콜드브루디카페인라떼",
+      "category": "음료"
+    },
+    {
+      "description": "메가MGC커피 원두의 향미를 온전히 즐길 수 있는 에스프레소",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105357_1717984437294_AduuhU3VyW.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "에스프레소",
+      "category": "음료"
+    },
+    {
+      "description": "더블샷으로 더욱 진하게 즐길 수 있는 에스프레소",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105413_1717984453131_1es5v0RxH2.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "에스프레소 도피오",
+      "category": "음료"
+    },
+    {
+      "description": "바삭하고 달콤한 오레오와 고소한 우유, 부드러운 바닐라향의 조화를 느낄 수 있는 프라페.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610115315_1717987995816_oiPZ2u5dJr.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "쿠키프라페",
+      "category": "음료"
+    },
+    {
+      "description": "달콤하고 고소한 고구마와 부드러운 우유가 만나 누구나 즐기기 좋은 든든한 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610104240_1717983760778_agCooQEUb4.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "고구마라떼",
+      "category": "음료"
+    },
+    {
+      "description": "우유에 곡물을 더해 고소하고 든든하게 즐기는 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610104323_1717983803197_Dpwa_RK4_F.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "곡물라떼",
+      "category": "음료"
+    },
+    {
+      "description": "은은하게 퍼지는 카라멜의 달달한 향기와 견과의 고소함을 한입에 즐길 수 있는 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105954_1717984794244_2JeEMNYiCL.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "토피넛라떼",
+      "category": "음료"
+    },
+    {
+      "description": "진한 초코와 리얼 오레오를 블렌딩해 씹는 맛을 더한 달콤한 아이스 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132638_1717993598875_AQ4q6GUaJD.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "오레오초코라떼",
+      "category": "음료"
+    },
+    {
+      "description": "타바론 얼그레이 홍차의 깊은 맛을 살린 밀크티 라떼에 진한 흑당과 흑당 버블의 달콤함을 채운 음료.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610112956_1717986596859_dSAYDVVaV2.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "흑당버블밀크티라떼",
+      "category": "음료"
+    },
+    {
+      "description": "부드러운 우유에 진한 초코소스가 어우러져 달콤하게 입맛을 깨우는 초콜릿 음료.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610110045_1717984845295_sGoEnUlQpO.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "핫초코",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 녹차에 우유를 더해 입 안에 부드러운 푸릇함을 선물하는 라떼. *[원료 변경에 따른 전환 기간으로, 매장에 따라 기존 원료 또는 변경 원료가 사용될 수 있습니다. 변경 원료 사용 시 영양정보는 아래 내용을 참고해 주세요.] 알레르기 유발 성분 - 우유 칼로리 288.1kcal, 탄수화물 42.3g, 당류 42.1g, 단백질 8.5g, 지방 9.3g, 포화지방 5.8g, 트랜스지방 0g, 나트륨 125.7mg, 콜레스테롤 37.5mg, 카페인 82.9mg",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610104456_1717983896154_TxgXQHRHiM.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "녹차라떼",
+      "category": "음료"
+    },
+    {
+      "description": "우유와 은은한 홍차가 어우러져 부드럽고 향긋한 한 모금을 완성한 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105616_1717984576627_IStTaWZY3_.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "로얄밀크티라떼",
+      "category": "음료"
+    },
+    {
+      "description": "모리셔스의 진한 흑당과 부드러운 우유가 달콤하게 조화를 이루는 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610113159_1717986719673_UjpcQYhtmh.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "흑당라떼",
+      "category": "음료"
+    },
+    {
+      "description": "타바론 얼그레이 홍차의 깊은 맛을 살린 밀크티 라떼에 진한 흑당의 달콤함을 채운 음료.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610113123_1717986683549_Q8E9tuNYJL.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "흑당밀크티라떼",
+      "category": "음료"
+    },
+    {
+      "description": "모리셔스의 진한 흑당과 부드러운 우유가 달콤한 조화에 흑당 버블을 함께 즐기는 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610113023_1717986623453_FuG0kt97Jg.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "흑당버블라떼",
+      "category": "음료"
+    },
+    {
+      "description": "부드러운 우유에 진한 초코소스가 어우러져 달콤하게 입맛을 깨우는 초콜릿 음료.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132420_1717993460739_Yi5zAd90Og.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "아이스초코",
+      "category": "음료"
+    },
+    {
+      "description": "[기본2샷]메가MGC커피 블렌드 원두로 추출한 에스프레소에 물을 더해, 풍부한 바디감을 느낄 수 있는 스탠다드 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105645_1717984605982_8i5CoHU2NV.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아메리카노",
+      "category": "음료"
+    },
+    {
+      "description": "깊고 진한 메가MGC커피 아메리카노를 '960ml' 더 큼직하게 즐길 수 있는 대용량 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132223_1717993343456_4KESgpG57t.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "메가리카노",
+      "category": "음료"
+    },
+    {
+      "description": "아메리카노의 묵직한 바디감에 달콤한 사양벌꿀이 소프트하게 어우러진 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610104349_1717983829122_YzOyiQAOOg.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "꿀아메리카노",
+      "category": "음료"
+    },
+    {
+      "description": "바닐라의 짙은 향과 풍부한 폼 밀크의 조화가 인상적인 달콤한 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610104603_1717983963750_lApih2z1h0.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "바닐라라떼",
+      "category": "음료"
+    },
+    {
+      "description": "아메리카노에 바닐라의 부드러운 향과 달콤함을 조화롭게 담아낸 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610104740_1717984060714__tk3s9Kb_s.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "바닐라아메리카노",
+      "category": "음료"
+    },
+    {
+      "description": "폼 밀크 속에 진한 에스프레소와 달콤한 카라멜을 가미해 부드럽게 즐기는 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105805_1717984685954_T1qos0ocDV.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "카라멜마끼아또",
+      "category": "음료"
+    },
+    {
+      "description": "진한 에스프레소와 부드러운 우유가 어우러져 고소한 풍미를 완성한 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105821_1717984701991_RUKCqSZ_HO.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "카페라떼",
+      "category": "음료"
+    },
+    {
+      "description": "초코를 만나 풍부해진 에스프레소와 고소한 우유, 부드러운 휘핑크림까지 더해 달콤하게 즐기는 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105838_1717984718108_ZB6aalHqIU.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "카페모카",
+      "category": "음료"
+    },
+    {
+      "description": "에스프레소 위에 올려진 우유 거품, 그리고 시나몬 파우더로 완성한 조화로운 맛의 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105852_1717984732750_WEt0KXVcnQ.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "카푸치노",
+      "category": "음료"
+    },
+    {
+      "description": "콜드브루에 고소한 우유를 섞어, 깔끔함과 부드러움을 잡은 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105923_1717984763591_cKSGllWUzt.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "콜드브루라떼",
+      "category": "음료"
+    },
+    {
+      "description": "차가운 물에 장시간 우려내 깔끔한 목넘김을 느낄 수 있는 콜드브루.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105941_1717984781078_rdCUXhwycL.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "콜드브루오리지널",
+      "category": "음료"
+    },
+    {
+      "description": "부드러운 카페라떼에 헤이즐넛의 풍부한 향과 달콤함을 담아 향긋하게 즐길 수 있는 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610110117_1717984877061_sLiVRNPq6J.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "헤이즐넛라떼",
+      "category": "음료"
+    },
+    {
+      "description": "아메리카노에 헤이즐넛의 풍성한 향과 달콤함을 담아 향긋하고 부드럽게 즐기는 커피.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610110133_1717984893137_AqJAuHaq0t.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "헤이즐넛아메리카노",
+      "category": "음료"
+    },
+    {
+      "description": "연유를 섞은 라떼에 에스프레소를 얼린 커피큐브를 올려, 녹을수록 더 진한 커피가 느껴지는 라떼.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132523_1717993523193_4mNdkfnxvz.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "큐브라떼",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 녹차 위에 우유와 휘핑크림을 더해 더 부드럽게 즐길 수 있는 프라페.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260318150847_1773814127229_oIDmdAQwND.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "녹차프라페",
+      "category": "음료"
+    },
+    {
+      "description": "요거트의 상큼함과 딸기의 상큼함을 상냥하게 어우른 상큼 스무디.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132117_1717993277823_KRGDVA4aeJ.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "딸기요거트스무디",
+      "category": "음료"
+    },
+    {
+      "description": "바삭하고 달달한 퐁에 상큼한 딸기와 부드러운 우유, 얼음을 함께 블렌딩해 시원하게 즐기는 프라페.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132132_1717993292542_TOXDd7N_72.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "딸기퐁크러쉬",
+      "category": "음료"
+    },
+    {
+      "description": "진한 초코소스와 부드러운 바닐라향의 만남으로 질리지 않는 달콤함을 완성한 프라페.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132157_1717993317456_RCHCZKkudt.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "리얼초코프라페",
+      "category": "음료"
+    },
+    {
+      "description": "열대과일 망고의 진한 단 맛과 산뜻한 요거트의 하모니가 인상적인 스무디.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132210_1717993330781_04rKlgIKk6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "망고요거트스무디",
+      "category": "음료"
+    },
+    {
+      "description": "상쾌한 민트에 달콤하게 씹는 재미를 더한 초콜릿칩의 즐거운 하모니가 매력적인 프라페.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610115353_1717988033471_n8WL4rST4C.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "민트프라페",
+      "category": "음료"
+    },
+    {
+      "description": "바삭하고 달달한 퐁에 부드러운 바나나와 우유, 얼음을 함께 블렌딩해 부드럽고 시원하게 즐기는 프라페.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132238_1717993358631_MGPEpkvNh1.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "바나나퐁크러쉬",
+      "category": "음료"
+    },
+    {
+      "description": "리얼 벌꿀이 들어가 더 달콤한 퍼프허니 시리얼과 부드럽게 달달한 초코가 함께 만드는 즐거운 맛의 프라페.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132651_1717993611266_QFRonrkBzf.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "초코허니퐁크러쉬",
+      "category": "음료"
+    },
+    {
+      "description": "바삭한 쿠키와 부드러운 바닐라에 향긋한 에스프레소를 섞어 만든 힐링 프라페.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132804_1717993684465__jH6f5a2VM.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "커피프라페",
+      "category": "음료"
+    },
+    {
+      "description": "더 시원하게 요거트의 새콤달콤한 맛을 오롯이 만끽할 수 있는 스무디.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240612101151_1718154711606_iC5h64zrID.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "플레인요거트스무디",
+      "category": "음료"
+    },
+    {
+      "description": "우유에 죠리퐁 씨리얼이 믹싱 된 얼음을 갈아 만든 시원한 프라페음료",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610113328_1717986808464_JOQsVpbWKq.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "플레인퐁크러쉬",
+      "category": "음료"
+    },
+    {
+      "description": "상큼한 라임과 달콤한 향기의 애플민트가 어우러져 상쾌함을 한잔에 가득 채운 무알콜 모히또 음료.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132145_1717993305587_JyUa7vPj3s.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "라임모히또",
+      "category": "음료"
+    },
+    {
+      "description": "시트러스향 가득한 레몬의 상큼함과 톡쏘는 탄산의 상쾌함이 만난 청량 에이드.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610114557_1717987557279_GKXThr0HAc.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레몬에이드",
+      "category": "음료"
+    },
+    {
+      "description": "레몬에이드의 상큼한 청량감에 블루큐라소의 진한 향미를 더한 에이드.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132302_1717993382502_3JianCydlm.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "블루레몬에이드",
+      "category": "음료"
+    },
+    {
+      "description": "자몽의 달콤쌉싸름한 맛과 탄산의 톡쏘는 목넘김이 어우러진 트로피컬 에이드.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260318150836_1773814116733_8c9H4Rw3gH.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자몽에이드",
+      "category": "음료"
+    },
+    {
+      "description": "산뜻한 청포도와 상쾌한 탄산의 달달한 조화가 인상적인 에이드.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610115123_1717987883226_DMMQB84jmS.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "청포도에이드",
+      "category": "음료"
+    },
+    {
+      "description": "체리의 새콤함과 청량감을 동시에 즐길 수 있는 환상적인 에이드.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260112140953_1768194593743_H_mUOKjS42.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "체리콜라",
+      "category": "음료"
+    },
+    {
+      "description": "상큼한 레몬, 상쾌한 라임, 달콤쌉싸름한 자몽의 3색 맛을 한데 어우른 메가MGC커피 시그니처 에이드.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610115027_1717987827980_oPj14Xi9y1.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "메가에이드",
+      "category": "음료"
+    },
+    {
+      "description": "고소한 감칠맛과 부드러운 목넘김으로 산뜻하게 마음을 위로하는 국내산 녹차.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610104441_1717983881331_6kaOJy5ayw.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "녹차",
+      "category": "음료"
+    },
+    {
+      "description": "애플티의 향긋함과 유자청의 상큼달콤함을 한컵에 담아낸 과일티.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105629_1717984589552_V9ta2Qw90q.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "사과유자차",
+      "category": "음료"
+    },
+    {
+      "description": "홍차 특유의 풍부한 플레이버를 만끽할 수 있는 허브티.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105659_1717984619283_Ssc082a5GK.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "얼그레이",
+      "category": "음료"
+    },
+    {
+      "description": "마음을 진정 시켜주는 산뜻한 풀내음을 느낄 수 있는 허브티.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105908_1717984748214_qc34s7Vkq5.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "캐모마일",
+      "category": "음료"
+    },
+    {
+      "description": "멘톨향의 묵직한 청량감, 상쾌한 맛과 향이 인상적인 허브티.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610110026_1717984826888_gfP6LsxEV3.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "페퍼민트",
+      "category": "음료"
+    },
+    {
+      "description": "깊은 맛의 홍차와 달콤한 복숭아의 은은한 향이 어우러진 시원한 여름철 인기 음료.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610132446_1717993486995_hvfli27vPn.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "복숭아아이스티",
+      "category": "음료"
+    },
+    {
+      "description": "비타민이 가득 든 상큼달콤한 유자를 듬뿍 넣어 향긋한 즐거움을 전하는 과일티.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105725_1717984645282_YfXeYsJzVV.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유자차",
+      "category": "음료"
+    },
+    {
+      "description": "상큼한 레몬의 맛과 향을 오롯이 살린 비타민C 가득한 과일티.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105600_1717984560889__UGBqFya7F.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레몬차",
+      "category": "음료"
+    },
+    {
+      "description": "달콤쌉싸름한 자몽의 조화로운 맛을 한 잔 가득 느낄 수 있는 과일티.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610105747_1717984667913_eDh3AjWACb.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자몽차",
+      "category": "음료"
+    },
+    {
+      "description": "달콤한 꿀청에 재운 자몽에 홍차의 부드러움을 어우른 상큼한 과일티.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240610110100_1717984860663_v7Af5f77sc.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "허니자몽블랙티",
+      "category": "음료"
+    },
+    {
+      "description": "톡톡 터지는 자몽 과육을 듬뿍 담아, 자몽 한 알을 그대로 베어 문 듯 상큼함이 입안 가득 퍼지는 자몽 스무디",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260429173124_1777451484221_DbGYiTq_EF.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자몽 톡톡 스무디",
+      "category": "음료"
+    },
+    {
+      "description": "100% 순살 닭다리살에 바사삭 얇~은 튀김옷을 입히고 단짠 허니소이 소스를 더해 더욱 맛있게 돌아온 엠지씨네 컵치킨",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261021185720_1792576640171_6Y1WcMmn0X.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "soy",
+        "wheat",
+        "chicken"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "바삭허니 엠지씨네 컵치킨",
+      "category": "푸드"
+    },
+    {
+      "description": "매콤 얼얼한 마라 소스를 그대로! 쫀득한 떡과 빠질 수 없는 푸주, 유부, 소시지 등 마라탕 속 인기 재료를 듬뿍 담아 먹을수록 매력에 빠져드는 마라 컵 떡볶이",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261021185813_1792576693475_CPlWEhkpD0.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "peanut",
+        "soy",
+        "wheat",
+        "pork",
+        "chicken",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "엠지씨네 마라 떡볶이",
+      "category": "푸드"
+    },
+    {
+      "description": "햄과 치즈, 계란프라이에 신선한 양상추와 토마토를 풍성하게 더한 든든한 햄치즈에그 샌드위치",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261019233209_1792420329590_Du4b9duw4F.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "pork",
+        "tomato",
+        "sulfites",
+        "beef",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "햄치즈에그 샌드위치",
+      "category": "푸드"
+    },
+    {
+      "description": "부드러운 에그마요를 듬뿍 담아 촉촉하고 고소하게 즐기는 에그마요 샌드위치",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261019233407_1792420447157_0Z4AiRHXeh.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "에그마요 샌드위치",
+      "category": "푸드"
+    },
+    {
+      "description": "쫄깃하고 촉촉한 크래미마요에 햄과 치즈, 신선한 채소까지 알차게 담아 부드럽고 든든하게 즐기는 크래미마요 샌드위치",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261019233829_1792420709705_z_HwQ1qU8x.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "crab",
+        "pork",
+        "tomato",
+        "sulfites",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "크래미마요 샌드위치",
+      "category": "푸드"
+    },
+    {
+      "description": "향긋한 바질페스토와 담백한 닭가슴살, 쫄깃한 모짜렐라에 신선한 채소를 더한 모짜렐라 바질치킨 샌드위치",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261019234146_1792420906672_bVnHS670C9.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "tomato",
+        "chicken"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "모짜렐라 바질치킨 샌드위치",
+      "category": "푸드"
+    },
+    {
+      "description": "감칠맛 가득한 불고기와 고소한 계란, 치즈와 신선한 채소를 푸짐하게 담은 든든한 K-불고기 에그 샌드위치",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261019234346_1792421026693_K_d6fHyqxa.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "pork",
+        "beef",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "불고기 에그 샌드위치",
+      "category": "푸드"
+    },
+    {
+      "description": "매콤한 치킨텐더에 특별한 스리라차 소스와 치즈, 신선한 채소를 더한 스파이시 치킨텐더 샌드위치",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20261019234547_1792421147743_xqbvN7b7Nx.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "tomato",
+        "chicken",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "스파이시 치킨텐더 샌드위치",
+      "category": "푸드"
+    },
+    {
+      "description": "수리수리 중마수리~ 바삭한 식빵과 고소한 새우 패티에 매콤달콤 부드러운 마라크림 소스를 더해 풍성한 맛과 식감을 담아낸 중식마녀 특제 토스트",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260826193109_1787740269466_ydyECbIq8A.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "soy",
+        "shrimp",
+        "beef",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "중식마녀 마라크림 새우토스트",
+      "category": "푸드"
+    },
+    {
+      "description": "향긋하고 진-한 커피향에 상쾌한 자일리톨의 마무리를 더해, 입이 텁텁해질 때에나 집중이 필요할 때! 언제든 부담 없이 즐길 수 있는 엠지씨네 zero sugar 데일리 커피 캔디 *대체당(당알코올 등)을 과도하게 섭취 시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260818100457_1787015097342_UJvIoB_s5q.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "메가MGC커피 자일리톨 커피 캔디",
+      "category": "푸드"
+    },
+    {
+      "description": "고소달달한 버터 풍미와 쫀득한 식감을 더해 가볍게 즐기기 좋은 한입 디저트",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260407215938_1775566778053_U6yDWuVmpF.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "버터가 쫀득해떡",
+      "category": "푸드"
+    },
+    {
+      "description": "상큼달콤 아사이볼 속에 세가지의 달콤한 베리와 건강한 그래놀라가 더해져 시원 달달하게 즐길 수 있는 디저트",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250110194433_1736505873493_vTcz8ed6Rq.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "메가베리 아사이볼",
+      "category": "푸드"
+    },
+    {
+      "description": "바삭한 치즈가 올려진 빵 속 달콤 짭쪼롬한 불고기에 부드러운 체다치즈가 더해져 한 입 베어물면 입안 가득 풍미가 퍼지는 겨울시즌 한정 디저트",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20251210221138_1765372298850_VHrPG40Uqa.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "pork",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "딥치즈 불고기 베이크",
+      "category": "푸드"
+    },
+    {
+      "description": "초코쉘을 입힌 요거트 젤라또에 세가지 달콤상큼 베리와 초코링, 고소한 그래놀라를 더한, 시원달달 요거볼",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250902171808_1756801088394_2yZlbc_jH9.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "요거젤라또 초코베리믹스",
+      "category": "푸드"
+    },
+    {
+      "description": "초코쉘을 입힌 기존 요거트 젤라또에, 팥빙에서 즐기던 바삭한 믹스씨리얼을 베리믹스와 함께 듬뿍 더한 시원바삭 요거볼 (요거젤라또+믹스씨리얼+초코쉘+트리플믹스베리 조합)",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250908170052_1757318452379_UdCOJe6_mQ.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "요거젤라또 씨리얼 초코베리믹스",
+      "category": "푸드"
+    },
+    {
+      "description": "부드러운 빵에 뽀드득 통통한 소시지, 매콤한 미트칠리 소스를 더하고 체다치즈, 사워크림과 함께 즐기는 멕시코식 핫도그",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250703012213_1751473333921_ZZHtR_7H8e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "pork",
+        "tomato",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "멕시칸 미트칠리 핫도그",
+      "category": "푸드"
+    },
+    {
+      "description": "풍미 깊은 치즈와 포슬포슬한 감자를 가득 담아 낸 쌀가루로 만든 빵",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320005157_1742399517427_uoFbqBXPkO.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "치즈 품은 감자빵",
+      "category": "푸드"
+    },
+    {
+      "description": "엠지씨 이름을 걸고 만들었다! 메밀로 만든 짭짤 고소한 김맛 건강스낵",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250320005316_1742399596516_AFzCgw1nOL.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "buckwheat",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "엠지씨네 메가칩",
+      "category": "푸드"
+    },
+    {
+      "description": "초코칩이 콕콕 박힌 촉촉한 초코 쿠키에 달콤하게 구운 마시멜로우가 만나 더 진한 초코 맛 쿠키.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20220701140929_1656652169641_bB76y9JSan.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "초코스모어쿠키",
+      "category": "푸드"
+    },
+    {
+      "description": "부드러운 빵 속에 뽀득 통통한 소시지를 넣어 더욱 맛있어진 와앙 큰 아메리칸식 핫도그",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250108231358_1736345638266_a6CINREE7t.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "pork",
+        "tomato",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "와앙메리칸 뽀득 핫도그",
+      "category": "푸드"
+    },
+    {
+      "description": "햄과 치즈의 조화로운 한끼를 만끽할 수 있는 샌드위치",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250108231729_1736345849403_OiksxJxDsr.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "wheat",
+        "milk",
+        "egg",
+        "pork",
+        "beef",
+        "shellfish",
+        "chicken"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "햄앤치즈샌드위치",
+      "category": "푸드"
+    },
+    {
+      "description": "산타의 오븐에서 갓 꺼낸 바삭한 치아바타에 향긋한 바질마요를 더하고, 매콤하고 부드러운 치폴레 소스에 베이컨과 닭가슴살을 버무려 따뜻하게 즐기는 치아바타 샌드위치",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20241106235300_1730904780627_L90knTCquS.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "pork",
+        "tomato",
+        "chicken",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "바질 치폴레치킨 치아바타",
+      "category": "푸드"
+    },
+    {
+      "description": "쫄깃 바삭한 치아바타에 통살 치킨텐더와 감칠맛 가득 매콤한 MGC 비법소스가 어우러진 따끈한 샌드위치",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240313214620_1710333980384_G7J1lIUmNH.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "pork",
+        "chicken",
+        "beef",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "핫 치킨&딥치즈 치아바타",
+      "category": "푸드"
+    },
+    {
+      "description": "고소한 프랑스산 프레지덩 버터를 듬뿍 넣어 만든 뜯어먹는 데니쉬 미니 식빵",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240417234653_1713365213109_YIiw20Sqko.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "버터버터 뜯어먹는 식빵",
+      "category": "푸드"
+    },
+    {
+      "description": "고소한 프랑스산 프레지덩 버터를 듬뿍 넣어 더 부드럽고 짭조름하게 즐길 수 있는 베이커리 메뉴",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20230508114631_1683513991432_BN6tND2ekr.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "버터버터소금빵",
+      "category": "푸드"
+    },
+    {
+      "description": "따뜻하고 바삭한 크로플 위에 진하고 꾸덕한 초코 젤라또를 올려 만든 매력적인 베이커리 메뉴",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240228221348_1709126028809_6VjAVPuxOP.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "초코젤라또크로플",
+      "category": "푸드"
+    },
+    {
+      "description": "고소한 마카다미아를 넣어 만든 메가MGC커피 시그니처 쿠키.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20220704113933_1656902373934_smXcsfdrHY.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "마카다미아 쿠키",
+      "category": "푸드"
+    },
+    {
+      "description": "진한 초콜릿칩을 넣어 만든 메가MGC커피 시그니처 쿠키.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20220704114022_1656902422672_HECxBh1Vuk.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "초콜릿칩 쿠키",
+      "category": "푸드"
+    },
+    {
+      "description": "버터풍미가 가득한 크루와상의 바삭함과 와플의 부드러움을 합친 겉바속촉 베이커리 메뉴.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20220701141927_1656652767760_yc4rsWS5yT.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "플레인크로플",
+      "category": "푸드"
+    },
+    {
+      "description": "고소한 식빵 사이에 햄과 치즈를 샌드하고, 빵 윗면에 멜팅치즈를 토핑해 든든한 한끼를 선물하는 샌드위치.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20230508143055_1683523855357_b1oieG5cId.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "크로크무슈",
+      "category": "푸드"
+    },
+    {
+      "description": "진한 치즈의 맛을 달콤하고 부드럽게 느낄 수 있는 케이크.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20240719183644_1721381804706_g8I_YcFpc7.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "치즈 케익",
+      "category": "푸드"
+    },
+    {
+      "description": "달콤한 초콜릿 본연의 맛을 더 진하게 느낄 수 있는 케이크.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20220704112422_1656901462139_JSxU5sBxAN.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "초코무스 케익",
+      "category": "푸드"
+    },
+    {
+      "description": "부드러운 치즈 맛과 코코아의 조화로운 향으로 호불호 없이 즐기는 케이크.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20220704113333_1656902013629_aEHrGt8IO6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "pork",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "티라미수 케익",
+      "category": "푸드"
+    },
+    {
+      "description": "바삭하고 쫄깃하게 구워낸 빵에 달콤한 크림을 올려 즐기는 조화로운 베이커리 메뉴.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20220704113432_1656902072749_liQCQrLx0R.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "허니브레드",
+      "category": "푸드"
+    },
+    {
+      "description": "쌀가루가 들어가 쫀득한 빵에 구운 감자를 으깨 넣어 포슬포슬한 감자 본연의 풍미가 살아있는 진짜 감자빵",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20250903235259_1756911179129_T7DjJFkJZy.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "감자빵",
+      "category": "푸드"
+    },
+    {
+      "description": "딸기요거트 스무디를 연상하게 하는 상큼한 마카롱.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20220705085416_1656978856454_Kw1OdkbtV9.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "딸기요거트 마카롱",
+      "category": "푸드"
+    },
+    {
+      "description": "메가MGC커피 시그니처 음료 메가초코를 모티브로 만든 초코맛 마카롱.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20220705085545_1656978945732_Vl3Pze8Xyu.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "peanut"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "메가초코 마카롱",
+      "category": "푸드"
+    },
+    {
+      "description": "메가MGC커피 인기 음료인 유니콘 프라페를 모티브로 만든 매지컬 비주얼 마카롱.",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20220701145226_1656654746047_8GnuldVXSW.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "유니콘프라페 마카롱",
+      "category": "푸드"
+    },
+    {
+      "description": "달콤~한 헤이즐넛 초코 크림이 듬뿍! 콰삭 씹히는 초코볼까지 더해 완성한 호빵맨 초코 케이크와 스퀴시 키링 세트",
+      "photo": "https://img.mega-mgccoffee.com/megahp/manager/upload/menu/20260410163912_1775806752955_2iNvfbj08l.webp",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Mega MGC Coffee menu (mega-mgccoffee.com)",
+      "allergen_note": null,
+      "name": "호빵맨 초코 케이크&스퀴시 키링 세트",
+      "category": "푸드"
+    }
+  ]
+}

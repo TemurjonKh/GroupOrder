@@ -1,0 +1,4549 @@
+{
+  "slug": "paik",
+  "name": "Paik's Coffee",
+  "cuisine": "Coffee",
+  "logo": null,
+  "logo_bg": null,
+  "delivery_link": "https://paikdabang.com",
+  "source": "https://paikdabang.com/menu/menu_coffee/",
+  "dishes": [
+    {
+      "description": "달콤한 빽다방 대표메뉴, 믹스커피 종결자! *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 346mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EC%9B%90%EC%A1%B0%EC%BB%A4%ED%94%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "원조커피(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "SNS에서 더 유명한 꿀팁 조합 음료. 달콤한 복숭아맛 아이스티에 진한 에스프레소 샷이 어우러져 환상조합 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EC%95%84%EC%83%B7%EC%B6%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "아이스티샷추가(아샷추)",
+      "category": "커피"
+    },
+    {
+      "description": "부드러운 우유와 달콤하고 은은한 바닐라가 조화를 이루는 음료 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "바닐라라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "서울우유 생크림(국산 유크림 100%)을 더해, 더 풍미있는 시그니처딥크림라떼 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 293.6mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/11/%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-%EB%94%A5%ED%81%AC%EB%A6%BC%EB%9D%BC%EB%96%BC-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "시그니처 딥크림라떼 (HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "서울우유 생크림(국산 유크림 100%)을 더해, 더 풍미있는 시그니처딥크림라떼 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 193.4mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/11/%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-%EB%94%A5%ED%81%AC%EB%A6%BC%EB%9D%BC%EB%96%BC-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "시그니처 딥크림라떼 (ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "카페인 부담은 덜고 서울우유 생크림(국산 유크림 100%)을 더해, 더 풍미있는 시그니처딥크림라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 0.8mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/11/%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-%EB%94%A5%ED%81%AC%EB%A6%BC%EB%9D%BC%EB%96%BC-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 시그니처 딥크림라떼 (HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "카페인 부담은 덜고 서울우유 생크림(국산 유크림 100%)을 더해, 더 풍미있는 시그니처딥크림라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 1.1mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/11/%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-%EB%94%A5%ED%81%AC%EB%A6%BC%EB%9D%BC%EB%96%BC-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 시그니처 딥크림라떼 (ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "서울우유 생크림(국산 유크림 100%)을 더해, 더 풍미있는 시그니처딥크림라떼 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 116.1mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/11/%EC%8A%A4%EB%AA%B0-%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-%EB%94%A5%ED%81%AC%EB%A6%BC%EB%9D%BC%EB%96%BC-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "스몰 시그니처 딥크림라떼 (ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "카페인 부담은 덜고 서울우유 생크림(국산 유크림 100%)을 더해, 더 풍미있는 시그니처딥크림라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 0.7mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/11/%EC%8A%A4%EB%AA%B0-%EC%8B%9C%EA%B7%B8%EB%8B%88%EC%B2%98-%EB%94%A5%ED%81%AC%EB%A6%BC%EB%9D%BC%EB%96%BC-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 스몰 시그니처 딥크림라떼 (ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "[엄보람 바리스타 협업] 번트카라멜의 향미를 더한 달콤한 생크림에 빽다방 시그니처 블렌딩 원두의 진한 풍미가 잘 어우러진 챔피언스 블랙 벨벳 라떼 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 209mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EC%B1%94%ED%94%BC%EC%96%B8%EC%8A%A4-%EB%B8%94%EB%9E%99-%EB%B2%A8%EB%B2%B3-%EB%9D%BC%EB%96%BC-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "챔피언스 블랙 벨벳 라떼 HOT",
+      "category": "커피"
+    },
+    {
+      "description": "[엄보람 바리스타 협업] 번트카라멜의 향미를 더한 달콤한 생크림에 빽다방 시그니처 블렌딩 원두의 진한 풍미가 잘 어우러진 챔피언스 블랙 벨벳 라떼 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 165mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EC%B1%94%ED%94%BC%EC%96%B8%EC%8A%A4-%EB%B8%94%EB%9E%99-%EB%B2%A8%EB%B2%B3-%EB%9D%BC%EB%96%BC-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "챔피언스 블랙 벨벳 라떼 ICED",
+      "category": "커피"
+    },
+    {
+      "description": "[엄보람 바리스타 협업] 번트카라멜의 향미를 더한 달콤한 생크림에 카페인 부담을 줄인 디카페인 원두가 잘 어우러진 챔피언스 블랙 벨벳 라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 3mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EC%B1%94%ED%94%BC%EC%96%B8%EC%8A%A4-%EB%B8%94%EB%9E%99-%EB%B2%A8%EB%B2%B3-%EB%9D%BC%EB%96%BC-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 챔피언스 블랙 벨벳 라떼 HOT",
+      "category": "커피"
+    },
+    {
+      "description": "[엄보람 바리스타 협업] 번트카라멜의 향미를 더한 달콤한 생크림에 카페인 부담을 줄인 디카페인 원두가 잘 어우러진 챔피언스 블랙 벨벳 라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 3mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EC%B1%94%ED%94%BC%EC%96%B8%EC%8A%A4-%EB%B8%94%EB%9E%99-%EB%B2%A8%EB%B2%B3-%EB%9D%BC%EB%96%BC-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 챔피언스 블랙 벨벳 라떼 ICED",
+      "category": "커피"
+    },
+    {
+      "description": "아메리카노의 깔끔한 풍미는 유지하면서 공기를 주입해 부드럽고 깔끔하게 즐길 수 있는 커피 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/03/%EC%97%90%EC%96%B4%ED%8F%BC-%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "에어폼 아메리카노(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "스페셜티 원두와 품질 좋은 브라질 원두를 블렌딩하여 깊은 풍미를 느낄 수 있는 에스프레소 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%8D%94%EB%B8%94%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C-2-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "더블에스프레소",
+      "category": "커피"
+    },
+    {
+      "description": "빽다방에서 디카페인 에스프레소를 즐겨보세요 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%8D%94%EB%B8%94%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C-2-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 더블에스프레소",
+      "category": "커피"
+    },
+    {
+      "description": "스페셜티 원두와 품질 좋은 브라질 원두를 블렌딩하여 깊은 풍미를 느낄 수 있는 빽다방 아메리카노 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EC%95%97%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아메리카노(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "스페셜티 원두와 품질 좋은 브라질 원두를 블렌딩하여 깊은 풍미를 느낄 수 있는 빽다방 아메리카노 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EC%95%97%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아메리카노(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "빽다방에서 디카페인 아메리카노를 즐겨보세요(일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EC%95%97%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 아메리카노(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "빽다방에서 디카페인 아메리카노를 즐겨보세요 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EC%95%97%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 아메리카노(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "달콤한 빽다방 대표메뉴, 믹스커피 종결자! *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 345mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EC%9B%90%EC%A1%B0%EC%BB%A4%ED%94%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "원조커피(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "SNS핫메뉴 아이스티에 에스프레소 샷과 망고를 한가득 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/08/%EC%95%84%EC%83%B7%EB%A7%9D%EC%B6%94_%EC%95%84%EC%9D%B4%EC%8A%A4ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "아이스티샷 망고추가(아샷망추)",
+      "category": "커피"
+    },
+    {
+      "description": "SNS에서 더 유명한 꿀팁 조합 음료. 달콤한 복숭아맛 아이스티에 진한 디카페인 에스프레소 샷이 어우러져 환상조합 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EC%95%84%EC%83%B7%EC%B6%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 아이스티샷추가(아샷추)",
+      "category": "커피"
+    },
+    {
+      "description": "SNS핫메뉴 아이스티에 디카페인 에스프레소 샷과 망고를 한가득",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/08/%EC%95%84%EC%83%B7%EB%A7%9D%EC%B6%94_%EC%95%84%EC%9D%B4%EC%8A%A4ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 아이스티샷 망고추가(아샷망추)",
+      "category": "커피"
+    },
+    {
+      "description": "입안 가득 진하게 퍼지는 코코넛 맛이 부드러운 카페라떼 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 242.9mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EC%BD%94%EC%BD%94%EB%84%9B%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "코코넛카페라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "입안 가득 진하게 퍼지는 코코넛 맛에 바삭한 코코넛 칩으로 식감까지 살린 카페라떼 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 177.2mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EC%BD%94%EC%BD%94%EB%84%9B%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "코코넛카페라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "고소하고 달콤한 코코넛스무디에 에스프레소 샷을 더해 더욱 깊은 맛이 나는 커피스무디 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 199.2mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EC%BD%94%EC%BD%94%EB%84%9B%EC%BB%A4%ED%94%BC%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "코코넛커피스무디",
+      "category": "커피"
+    },
+    {
+      "description": "입안 가득 진하게 퍼지는 코코넛 맛이 부드러운 디카페인 카페라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 4.1mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EC%BD%94%EC%BD%94%EB%84%9B%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 코코넛카페라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "입안 가득 퍼지는 코코넛 맛에 코코넛 칩으로 식감까지 살린 디카페인 카페라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 2.81mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EC%BD%94%EC%BD%94%EB%84%9B%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 코코넛카페라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "고소하고 달콤한 코코넛스무디에 디카페인 샷을 더한 커피스무디 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 3.5mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EC%BD%94%EC%BD%94%EB%84%9B%EC%BB%A4%ED%94%BC%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 코코넛커피스무디",
+      "category": "커피"
+    },
+    {
+      "description": "달달하게 즐길 수 있는 꿀 아메리카노 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EA%BF%80%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8HOT-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "꿀아메리카노(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "달달하게 즐길 수 있는 꿀 아메리카노 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EA%BF%80%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8ICED-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "꿀아메리카노(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "달달하게 즐길 수 있는 디카페인 꿀 아메리카노 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EA%BF%80%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8HOT-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 꿀아메리카노(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "달달하게 즐길 수 있는 디카페인 꿀 아메리카노 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EA%BF%80%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8ICED-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 꿀아메리카노(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "풍성한 헤이즐넛향과 달콤함을 즐길 수 있는 아메리카노 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%ED%97%A4%EC%9D%B4%EC%A6%90%EB%84%9B%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8HOT-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "헤이즐넛아메리카노(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "풍성한 헤이즐넛향과 달콤함을 즐길 수 있는 아메리카노 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%ED%97%A4%EC%9D%B4%EC%A6%90%EB%84%9B%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8ICED-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "헤이즐넛아메리카노(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "풍성한 헤이즐넛향과 달콤함을 즐길 수 있는 디카페인 아메리카노 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%ED%97%A4%EC%9D%B4%EC%A6%90%EB%84%9B%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8HOT-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 헤이즐넛 아메리카노(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "풍성한 헤이즐넛향과 달콤함을 즐길 수 있는 디카페인 아메리카노 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%ED%97%A4%EC%9D%B4%EC%A6%90%EB%84%9B%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8ICED-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 헤이즐넛 아메리카노(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "풍성한 헤이즐넛향과 달콤함을 즐길 수 있는 카페라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%ED%97%A4%EC%9D%B4%EC%A6%90%EB%84%9B%EB%9D%BC%EB%96%BCHOT-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "헤이즐넛라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "풍성한 헤이즐넛향과 달콤함을 즐길 수 있는 카페라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%ED%97%A4%EC%9D%B4%EC%A6%90%EB%84%9B%EB%9D%BC%EB%96%BCICED-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "헤이즐넛라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "풍성한 헤이즐넛향과 달콤함을 즐길 수 있는 디카페인 카페라떼 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%ED%97%A4%EC%9D%B4%EC%A6%90%EB%84%9B%EB%9D%BC%EB%96%BCHOT-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 헤이즐넛라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "풍성한 헤이즐넛향과 달콤함을 즐길 수 있는 디카페인 카페라떼 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%ED%97%A4%EC%9D%B4%EC%A6%90%EB%84%9B%EB%9D%BC%EB%96%BCICED-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 헤이즐넛라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "달달하고 향긋한 베트남식 연유라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EB%8B%AC%EB%8B%AC%EC%97%B0%EC%9C%A0%EB%9D%BC%EB%96%BC-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "달달연유라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "달달하고 향긋한 베트남식 연유라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EB%8B%AC%EB%8B%AC%EC%97%B0%EC%9C%A0%EB%9D%BC%EB%96%BC_-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "달달연유라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "달달하고 향긋한 베트남식 디카페인 연유라떼 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EB%8B%AC%EB%8B%AC%EC%97%B0%EC%9C%A0%EB%9D%BC%EB%96%BC-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 달달연유라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "달달하고 향긋한 베트남식 디카페인 연유라떼 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EB%8B%AC%EB%8B%AC%EC%97%B0%EC%9C%A0%EB%9D%BC%EB%96%BC_-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 달달연유라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "진한 에스프레소와 우유가 어우러진 부드러운 빽다방 카페라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EB%B9%BDs%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "카페라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "진한 에스프레소와 우유가 어우러진 부드러운 빽다방 카페라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%B9%BDs-%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "카페라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "진한 에스프레소와 우유가 어우러진 부드러운 빽다방 디카페인 카페라떼(일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EB%B9%BDs%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 카페라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "진한 에스프레소와 우유가 어우러진 부드러운 빽다방 디카페인 카페라떼 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%B9%BDs-%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 카페라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "흑당 베이스의 달콤함과 쫄깃한 펄, 에스프레소가 어우러진 흑당버블 카페라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%B8%94%EB%9E%99%ED%8E%84%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "흑당버블 카페라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "흑당 베이스의 달콤함과 쫄깃한 펄, 디카페인 에스프레소가 어우러진 흑당버블 카페라떼(일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%B8%94%EB%9E%99%ED%8E%84%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 흑당버블 카페라떼",
+      "category": "커피"
+    },
+    {
+      "description": "부드러운 우유와 달콤하고 은은한 바닐라가 조화를 이루는 음료 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "바닐라라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "부드러운 우유와 달콤하고 은은한 바닐라가 조화를 이루는 디카페인 음료 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 바닐라라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "부드러운 우유와 달콤하고 은은한 바닐라가 조화를 이루는 디카페인 음료 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 바닐라라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "초콜릿과 진한 에스프레소, 부드러운 우유가 더해진 달콤한 맛의 커피 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EC%B9%B4%ED%8E%98%EB%AA%A8%EC%B9%B4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "카페모카(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "초콜릿과 진한 에스프레소, 부드러운 우유가 더해진 달콤한 맛의 커피 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EC%B9%B4%ED%8E%98%EB%AA%A8%EC%B9%B4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "카페모카(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "다크한 초콜렛과 디카페인 에스프레소, 부드러운 우유가 더해진 달콤한 맛의 커피 (일부 매장 판매) 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EC%B9%B4%ED%8E%98%EB%AA%A8%EC%B9%B4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 카페모카(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "다크한 초콜렛과 디카페인 에스프레소, 부드러운 우유가 더해진 달콤한 맛의 커피 (일부 매장 판매) 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EC%B9%B4%ED%8E%98%EB%AA%A8%EC%B9%B4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 카페모카(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "카라멜소스와 신선한 우유, 에스프레소로 맛을 낸 달콤한 빽다방 인기메뉴 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EC%B9%B4%EB%9D%BC%EB%A9%9C%EB%A7%88%ED%82%A4%EC%95%84%EB%98%90-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "카라멜마키아또(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "카라멜소스와 신선한 우유, 에스프레소로 맛을 낸 달콤한 빽다방 인기메뉴 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EC%B9%B4%EB%9D%BC%EB%A9%9C%EB%A7%88%ED%82%A4%EC%95%84%EB%98%90-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "카라멜마키아또(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "카라멜소스와 신선한 우유, 디카페인 에스프레소로 맛을 낸 달콤한 빽다방 인기메뉴(일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/HOT-%EC%B9%B4%EB%9D%BC%EB%A9%9C%EB%A7%88%ED%82%A4%EC%95%84%EB%98%90-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 카라멜 마키아또(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "카라멜소스와 신선한 우유, 디카페인 에스프레소로 맛을 낸 달콤한 빽다방 인기메뉴 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/ICED-%EC%B9%B4%EB%9D%BC%EB%A9%9C%EB%A7%88%ED%82%A4%EC%95%84%EB%98%90-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 카라멜 마키아또(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "바나나에 샷추가 바.샷.추 :) 달콤한 바나나라떼에 진한 에스프레소 샷이 어우러진 환상조합 음료 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/03/%EB%B0%94%EB%82%98%EB%82%98%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "바나나 카페라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "바나나에 샷추가 바.샷.추 :) 달콤한 바나나라떼에 진한 에스프레소 샷이 어우러진 환상조합 음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/03/%EB%B0%94%EB%82%98%EB%82%98%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "바나나 카페라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "바나나에 샷추가 바.샷.추 :) 달콤한 바나나라떼에 디카페인 에스프레소 샷이 어우러진 환상조합 음료 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/03/%EB%B0%94%EB%82%98%EB%82%98%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 바나나카페라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "바나나에 샷추가 바.샷.추 :) 달콤한 바나나라떼에 디카페인 에스프레소 샷이 어우러진 환상조합 음료 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/03/%EB%B0%94%EB%82%98%EB%82%98%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 바나나카페라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "바나나에 샷추가 바.샷.추 :) 달콤한 바나나라떼에 진한 에스프레소 샷이 어우러진 환상조합 음료 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/03/%EB%B0%94%EB%82%98%EB%82%98%EC%BB%A4%ED%94%BC%EC%89%90%EC%9D%B4%ED%81%ACICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "바나나 커피쉐이크",
+      "category": "커피"
+    },
+    {
+      "description": "바나나에 샷추가 바.샷.추 :) 달콤한 바나나쉐이크에 디카페인 에스프레소 샷이 어우러진 환상조합 음료 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/03/%EB%B0%94%EB%82%98%EB%82%98%EC%BB%A4%ED%94%BC%EC%89%90%EC%9D%B4%ED%81%ACICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 바나나커피쉐이크",
+      "category": "커피"
+    },
+    {
+      "description": "부드러운 아이스크림을 올려 더 달콤하고 맛있는 카페라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/05/%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "아이스크림카페라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "부드러운 아이스크림을 올려 더 달콤하고 맛있는 바닐라라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/05/%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "아이스크림바닐라라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "부드러운 아이스크림을 올려 더 달콤하고 맛있는 카페모카 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/05/%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%EC%B9%B4%ED%8E%98%EB%AA%A8%EC%B9%B4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "아이스크림카페모카(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "부드러운 아이스크림을 올려 더 달콤하고 맛있는 카페라떼 (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/05/%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 아이스크림 카페라떼",
+      "category": "커피"
+    },
+    {
+      "description": "부드러운 아이스크림을 올려 더 달콤하고 맛있는 바닐라라떼(일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/05/%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 아이스크림 바닐라라떼",
+      "category": "커피"
+    },
+    {
+      "description": "부드러운 아이스크림을 올려 더 달콤하고 맛있는 카페모카 (일부 매장 판매) *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/05/%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC%EC%B9%B4%ED%8E%98%EB%AA%A8%EC%B9%B4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 아이스크림카페모카(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "장시간 추출해 맛과 향이 풍부한 콜드브루 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "콜드브루(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "장시간 추출해 맛과 향이 풍부한 콜드브루 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/02/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "콜드브루(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "카페인 함량이 낮아 부담이 적은 디카페인 콜드브루",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%94%94%EC%B9%B4%ED%8E%98%EC%9D%B8-%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 콜드브루(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "카페인 함량이 낮아 부담이 적은 디카페인 콜드브루",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/02/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 콜드브루(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "부드럽게 덮인 바닐라 크림과 조화롭게 어우러지는 깔끔한 콜드브루 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/10/%ED%81%AC%EB%A6%AC%EB%AF%B8%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EB%B0%94%EB%8B%90%EB%9D%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "크리미 콜드브루 바닐라",
+      "category": "커피"
+    },
+    {
+      "description": "달콤한 카라멜 크림과 콜드브루 풍미의 부드러운 밸런스! 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/10/%ED%81%AC%EB%A6%AC%EB%AF%B8%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EC%B9%B4%EB%9D%BC%EB%A9%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "크리미 콜드브루 카라멜",
+      "category": "커피"
+    },
+    {
+      "description": "부드럽게 덮인 바닐라 크림과 조화롭게 어우러지는 깔끔한 콜드브루 카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/10/%ED%81%AC%EB%A6%AC%EB%AF%B8%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EB%B0%94%EB%8B%90%EB%9D%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 크리미 콜드브루 바닐라",
+      "category": "커피"
+    },
+    {
+      "description": "달콤한 카라멜 크림과 콜드브루 풍미의 부드러운 밸런스! 카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/10/%ED%81%AC%EB%A6%AC%EB%AF%B8%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EC%B9%B4%EB%9D%BC%EB%A9%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 크리미 콜드브루 카라멜",
+      "category": "커피"
+    },
+    {
+      "description": "콜드브루에 신선한 우유를 더한 콜드브루라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EB%9D%BC%EB%96%BC-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "콜드브루라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "콜드브루에 신선한 우유를 더한 콜드브루라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/02/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "콜드브루라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "카페인 함량이 낮아 부담이 적은 디카페인 콜드브루라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 콜드브루라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "카페인 함량이 낮아 부담이 적은 디카페인 콜드브루라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/02/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 콜드브루라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "연유의 달콤함과 부드러움이 조화를 이루는 콜드브루라떼 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/01/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EC%97%B0%EC%9C%A0%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "콜드브루 연유라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "달콤한 연유를 추가한 콜드브루연유라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/02/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EC%97%B0%EC%9C%A0%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "콜드브루 연유라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "연유의 달콤함과 부드러움이 조화를 이루는 디카페인 콜드브루라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/01/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EC%97%B0%EC%9C%A0%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 콜드브루 연유라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "연유의 달콤함과 부드러움이 조화를 이루는 디카페인 콜드브루라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/02/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%EC%97%B0%EC%9C%A0%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 콜드브루 연유라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "흑당의 진하고 달콤한 맛을 느낄 수 있는 콜드브루라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/01/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%ED%9D%91%EB%8B%B9%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "콜드브루 흑당라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "흑당의 진하고 달콤한 맛을 느낄 수 있는 콜드브루라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/02/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%ED%9D%91%EB%8B%B9%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "콜드브루 흑당라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "흑당의 진하고 달콤한 맛을 느낄 수 있는 디카페인 콜드브루라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/01/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%ED%9D%91%EB%8B%B9%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 콜드브루 흑당라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "흑당의 진하고 달콤한 맛을 느낄 수 있는 디카페인 콜드브루라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/02/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8%ED%9D%91%EB%8B%B9%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 콜드브루 흑당라떼(HOT)",
+      "category": "커피"
+    },
+    {
+      "description": "진한 원액으로 즐기는 콜드브루 오리지널 원액",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/01/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "콜드브루 오리지널 커피원액",
+      "category": "커피"
+    },
+    {
+      "description": "카페인 함량을 낮춰 부담을 줄인 콜드브루 디카페인 원액",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/01/%EC%BD%9C%EB%93%9C%EB%B8%8C%EB%A3%A8-%EB%94%94%EC%B9%B4%ED%8E%98%EC%9D%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "콜드브루 디카페인 커피원액",
+      "category": "커피"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! 에스프레소 4샷이 들어가 깊고 진한 맛의 아메리카노 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EC%95%97%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-32oz-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "빽사이즈 아메리카노(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! 진한 에스프레소의 부드러운 카페라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EB%B9%BDs-%EB%9D%BC%EB%96%BC-32oz-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽사이즈 카페라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "디카페인 아메리카노를 큰 사이즈로 즐겨보세요! (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EC%95%97%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-32oz-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 빽사이즈 아메리카노(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "디카페인 카페라떼를 큰 사이즈로 즐겨보세요! (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EB%B9%BDs-%EB%9D%BC%EB%96%BC-32oz-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 빽사이즈 카페라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게! 빽다방의 대표메뉴 달콤한 원조커피! * 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EC%9B%90%EC%A1%B0%EC%BB%A4%ED%94%BC-32oz-%EA%B0%84%EC%96%BC%EC%9D%8C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽사이즈 원조커피(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! 진한 에스프레소의 달콤한 바닐라라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽사이즈 바닐라라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "디카페인 바닐라라떼를 큰 사이즈로 즐겨보세요! (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 빽사이즈 바닐라라떼(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! 상콤달콤한 복숭아맛 아이스티에 진한 에스프레소샷이 어우러져 환상조합 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EC%95%84%EC%83%B7%EC%B6%94-32oz-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽사이즈 아이스티샷추가(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! 아이스티에 에스프레소 샷과 망고 한가득! *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/08/%EC%95%84%EC%83%B7%EB%A7%9D%EC%B6%94_%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88_%EC%95%84%EC%9D%B4%EC%8A%A4ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽사이즈 아이스티샷 망고추가(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "디카페인 아샷추를 큰 사이즈로 즐겨보세요! (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/01/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EC%95%84%EC%83%B7%EC%B6%94-32oz-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 빽사이즈 아이스티샷추가(ICED)",
+      "category": "커피"
+    },
+    {
+      "description": "디카페인 아샷망추를 큰 사이즈로 즐겨보세요! (일부 매장 판매)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/08/%EC%95%84%EC%83%B7%EB%A7%9D%EC%B6%94_%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88_%EC%95%84%EC%9D%B4%EC%8A%A4ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 빽사이즈 아이스티샷 망고추가",
+      "category": "커피"
+    },
+    {
+      "description": "번트카라멜의 향미를 더한 달콤한 생크림에 쌉사름한 말차의 풍미가 잘 어우러진 블랙 벨벳 말차 라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 66mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EB%B8%94%EB%9E%99-%EB%B2%A8%EB%B2%B3-%EB%A7%90%EC%B0%A8%EB%9D%BC%EB%96%BC-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "블랙 벨벳 말차라떼 ICED",
+      "category": "음료"
+    },
+    {
+      "description": "고소한 밤의 맛과 향을 진하고 달콤하게 느낄 수 있는 라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/07/%EA%BF%80%EB%B0%A4%EB%9D%BC%EB%96%BC%ED%95%AB-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "꿀밤라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "고소하고 진한 맛의 미숫가루!",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EB%AF%B8%EC%88%AB%EA%B0%80%EB%A3%A8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "미숫가루",
+      "category": "음료"
+    },
+    {
+      "description": "호지차의 깊은 향과 구수함에 우유를 더해 부드러운 라떼 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 87.5mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%ED%98%B8%EC%A7%80%EC%B0%A8%EB%9D%BC%EB%96%BC-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "호지차라떼 (HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "호지차의 깊은 향과 구수함에 우유를 더해 부드러운 라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 68.2mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%ED%98%B8%EC%A7%80%EC%B0%A8%EB%9D%BC%EB%96%BC-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "호지차라떼 ICED",
+      "category": "음료"
+    },
+    {
+      "description": "깔끔하고 은은한 홍차의 풍미를 그대로 담은 따뜻한 티 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 59.3mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EC%9A%B0%EB%B0%94%ED%99%8D%EC%B0%A8-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "우바홍차 (HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "깔끔하고 은은한 홍차의 풍미를 그대로 담은 시원한 티 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 53.2mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EC%9A%B0%EB%B0%94%ED%99%8D%EC%B0%A8-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "우바홍차 (ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "복숭아향 가득 머금은 루이보스티에 이국적인 향미의 리치베이스가 잘 어우러진 따뜻한 리치루이보스티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EB%A6%AC%EC%B9%98%EB%A3%A8%EC%9D%B4%EB%B3%B4%EC%8A%A4%ED%8B%B0-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "리치루이보스티 (HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "복숭아향 가득 머금은 루이보스티에 이국적인 향미의 리치베이스가 잘 어우러진 시원한 리치루이보스티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EB%A6%AC%EC%B9%98%EB%A3%A8%EC%9D%B4%EB%B3%B4%EC%8A%A4%ED%8B%B0-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "리치루이보스티 (ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "블랙티의 진한 향미에 새콤 쌉싸름한 자몽베이스가 잘 어우러진 따뜻한 자몽블랙티 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 47.1mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EC%9E%90%EB%AA%BD%EB%B8%94%EB%9E%99%ED%8B%B0-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "자몽블랙티 (HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "블랙티의 진한 향미에 새콤 쌉싸름한 자몽베이스가 잘 어우러진 시원한 자몽블랙티 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 35.7mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EC%9E%90%EB%AA%BD%EB%B8%94%EB%9E%99%ED%8B%B0-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "자몽블랙티 (ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "블랙티의 진한 향미에 새콤한 레몬베이스가 잘 어우러진 따뜻한 레몬블랙티 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 37.4mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EB%A0%88%EB%AA%AC%EB%B8%94%EB%9E%99%ED%8B%B0-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레몬블랙티 (HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "블랙티의 진한 향미에 상큼한 레몬베이스가 잘 어우러진 시원한 레몬블랙티 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 41.9mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EB%A0%88%EB%AA%AC%EB%B8%94%EB%9E%99%ED%8B%B0-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레몬블랙티 (ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 사과티에 달콤 상큼한 유자베이스가 잘 어우러진 따뜻한 사과유자티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EC%82%AC%EA%B3%BC%EC%9C%A0%EC%9E%90%ED%8B%B0-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "사과유자티 (HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 사과티에 달콤 상큼한 유자베이스가 잘 어우러진 시원한 사과유자티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EC%82%AC%EA%B3%BC%EC%9C%A0%EC%9E%90%ED%8B%B0-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "사과유자티 (ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "번트카라멜의 향미를 더한 달콤한 생크림에 쌉사름한 말차의 풍미가 잘 어우러진 블랙 벨벳 말차 라떼 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 90mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EB%B8%94%EB%9E%99-%EB%B2%A8%EB%B2%B3-%EB%A7%90%EC%B0%A8%EB%9D%BC%EB%96%BC-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "블랙 벨벳 말차라떼 HOT",
+      "category": "음료"
+    },
+    {
+      "description": "잘익은 포도의 진한 단맛이 잘 느껴지는 포도주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%ED%8F%AC%EB%8F%84%EC%A3%BC%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "포도주스",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 복숭아의 풍미가 잘 느껴지는 복숭아주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EB%B3%B5%EC%88%AD%EC%95%84%EC%A3%BC%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "복숭아주스",
+      "category": "음료"
+    },
+    {
+      "description": "골드키위의 상큼함과 단맛이 잘 느껴지는 골드키위주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EA%B3%A8%EB%93%9C-%ED%82%A4%EC%9C%84-%EC%A3%BC%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "골드 키위 주스",
+      "category": "음료"
+    },
+    {
+      "description": "자두의 새콤달콤함이 잘 살아있는 자두주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EA%B9%80%EC%B2%9C-%EC%9E%90%EB%91%90-%EC%A3%BC%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "김천 자두 주스",
+      "category": "음료"
+    },
+    {
+      "description": "이국적인 리치 향 가득한 스무디에 말캉말캉 씹히는 저당사과젤리를 더한 사과젤리 리치스무디 *대체당을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EC%82%AC%EA%B3%BC%EC%A0%A4%EB%A6%AC-%EB%A6%AC%EC%B9%98%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "사과젤리 리치스무디",
+      "category": "음료"
+    },
+    {
+      "description": "복숭아향이 가득한 스무디에 말캉말캉 씹히는 저당사과젤리를 더한 사과젤리 복숭아스무디 *대체당을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EC%82%AC%EA%B3%BC%EC%A0%A4%EB%A6%AC-%EB%B3%B5%EC%88%AD%EC%95%84%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "사과젤리 복숭아스무디",
+      "category": "음료"
+    },
+    {
+      "description": "청포도향이 가득한 스무디에 말캉말캉 씹히는 저당사과젤리를 더한 사과젤리 청포도스무디 *대체당을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EC%82%AC%EA%B3%BC%EC%A0%A4%EB%A6%AC-%EC%B2%AD%ED%8F%AC%EB%8F%84%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "사과젤리 청포도스무디",
+      "category": "음료"
+    },
+    {
+      "description": "새콤달콤한 제로슈거 매실티에 말캉말캉 씹히는 저당사과젤리를 더한 저당사과젤리 매실티 *대체당을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EC%A0%80%EB%8B%B9%EC%82%AC%EA%B3%BC%EC%A0%A4%EB%A6%AC-%EB%A7%A4%EC%8B%A4%ED%8B%B0-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "저당사과젤리 매실티 ICED",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거 매실에이드에 말캉말캉 씹히는 저당사과젤리를 더한 저당사과젤리 매실에이드 *대체당을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EC%A0%80%EB%8B%B9%EC%82%AC%EA%B3%BC%EC%A0%A4%EB%A6%AC-%EB%A7%A4%EC%8B%A4%EC%97%90%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "저당사과젤리 매실에이드",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거로 가볍게 즐기는 새콤달콤한 매실티 *대체당을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EC%A0%9C%EB%A1%9C%EC%8A%88%EA%B1%B0-%EB%A7%A4%EC%8B%A4%ED%8B%B0-HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "제로슈거 매실티 HOT",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거로 가볍게 즐기는 새콤달콤하고 상쾌한 매실티 *대체당을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의하세요.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EC%A0%9C%EB%A1%9C%EC%8A%88%EA%B1%B0-%EB%A7%A4%EC%8B%A4%ED%8B%B0-ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "제로슈거 매실티 ICED",
+      "category": "음료"
+    },
+    {
+      "description": "아이스크림을 얹어 더 시원한 톡톡 튀는 복숭아 소다",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/07/%EB%B3%B5%EC%88%AD%EC%95%84-%EC%86%8C%EB%8B%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "복숭아 소다",
+      "category": "음료"
+    },
+    {
+      "description": "새콤달콤한 자두의 맛이 잘 살아있는 자두스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/07/%EC%9E%90%EB%91%90%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "자두스무디",
+      "category": "음료"
+    },
+    {
+      "description": "시원하고 청량한 청사과맛이 잘 살아있는 애플스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/07/%EC%95%A0%ED%94%8C%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "애플스무디",
+      "category": "음료"
+    },
+    {
+      "description": "시원한 수박주스에 복숭아아이스티와 망고를 더해, 풍성한 과일 맛이 느껴지는 수박망고아이스티 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 10.9mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/07/%EC%88%98%EB%B0%95%EB%A7%9D%EA%B3%A0%EC%95%84%EC%9D%B4%EC%8A%A4%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "수박망고아이스티",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거로 가볍게 즐기는 납작복숭아 아이스티 *대체당(알룰로스, 수크랄로스, 아세설팜칼륨)을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의 *카페인 일부 함유(1잔당 약 9.8mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/03/%EC%A0%9C%EB%A1%9C%EC%8A%88%EA%B1%B0-%EB%82%A9%EC%9E%91%EB%B3%B5%EC%88%AD%EC%95%84-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "제로슈거 납작복숭아 아이스티",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거로 가볍게 즐기는 납작복숭아 아이스티에 에스프레소 샷 추가 *대체당(알룰로스, 수크랄로스, 아세설팜칼륨)을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 106.5mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/03/%EC%A0%9C%EB%A1%9C%EC%8A%88%EA%B1%B0-%EB%82%A9%EC%9E%91%EB%B3%B5%EC%88%AD%EC%95%84-%EC%95%84.%EC%83%B7.%EC%B6%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "제로슈거 납작복숭아 아.샷.추",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거로 가볍게 즐기는 상큼한 레몬티 *대체당(알룰로스, 에리스리톨, D소비톨액, 효소처리스테비아, 아세설팜칼륨)을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/03/%EC%A0%9C%EB%A1%9C%EC%8A%88%EA%B1%B0-%EB%A0%88%EB%AA%AC%ED%8B%B0HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제로슈거 레몬티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거로 가볍게 즐기는 상큼한 레몬티 *대체당(알룰로스, 에리스리톨, D소비톨액, 효소처리스테비아, 아세설팜칼륨)을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/03/%EC%A0%9C%EB%A1%9C%EC%8A%88%EA%B1%B0-%EB%A0%88%EB%AA%AC%ED%8B%B0ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제로슈거 레몬티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거로 가볍게 즐기는 상큼한 레모네이드 *대체당(알룰로스, 에리스리톨, D소비톨액, 효소처리스테비아, 아세설팜칼륨)을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/03/%EC%A0%9C%EB%A1%9C%EC%8A%88%EA%B1%B0-%EB%A0%88%EB%AA%A8%EB%84%A4%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제로슈거 레모네이드",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거로 가볍게 즐기는 새콤쌉싸름한 자몽티 *대체당(알룰로스, 에리스리톨, D소비톨액, 효소처리스테비아, 수크랄로스)을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/03/%EC%A0%9C%EB%A1%9C%EC%8A%88%EA%B1%B0-%EC%9E%90%EB%AA%BD%ED%8B%B0HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제로슈거 자몽티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거로 가볍게 즐기는 새콤쌉싸름한 자몽티 *대체당(알룰로스, 에리스리톨, D소비톨액, 효소처리스테비아, 수크랄로스)을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/03/%EC%A0%9C%EB%A1%9C%EC%8A%88%EA%B1%B0-%EC%9E%90%EB%AA%BD%ED%8B%B0ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제로슈거 자몽티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "제로슈거로 가볍게 즐기는 새콤쌉싸름한 자몽에이드 *대체당(알룰로스, 에리스리톨, D소비톨액, 효소처리스테비아, 수크랄로스)을 과도하게 섭취시 개인에 따라 복통 및 설사 등을 유발 할 수 있으니 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/03/%EC%A0%9C%EB%A1%9C%EC%8A%88%EA%B1%B0-%EC%9E%90%EB%AA%BD%EC%97%90%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제로슈거 자몽에이드(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "딸기젤라또와 쫀득쿠키, 바삭한 과자들의 풍성한 토핑으로 다채로운 달콤함을 담은 딸기 파르페",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/01/%EB%94%B8%EA%B8%B0%EC%A0%A4%EB%9D%BC%EB%98%90-%ED%8C%8C%EB%A5%B4%ED%8E%98-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "pork",
+        "beef",
+        "milk",
+        "soy",
+        "wheat",
+        "peanut",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기젤라또 파르페",
+      "category": "음료"
+    },
+    {
+      "description": "복숭아향 가득 머금은 루이보스티에 딸기과육이 살아있는 베이스를 더해 향긋한 달콤함이 있는 아이스티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/01/%EB%94%B8%EA%B8%B0%EB%B3%B5%EC%88%AD%EC%95%84-%EB%A3%A8%EC%9D%B4%EB%B3%B4%EC%8A%A4%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기복숭아 루이보스티",
+      "category": "음료"
+    },
+    {
+      "description": "부드러운 밀크쉐이크에 진한 딸기 맛과 톡톡 씹히는 오레오쿠키의 입안가득 달콤한 조화",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/01/%EB%94%B8%EA%B8%B0%EC%95%A4%EC%BF%A0%ED%82%A4-%EC%89%90%EC%9D%B4%ED%81%AC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기앤쿠키 쉐이크",
+      "category": "음료"
+    },
+    {
+      "description": "상큼한 레몬스무디에 딸기젤라또와 딸기다이스 토핑으로 새콤달콤함이 가득한 스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/01/%EB%94%B8%EA%B8%B0%EC%A0%A4%EB%9D%BC%EB%98%90-%EB%A0%88%EB%AA%AC%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "딸기젤라또 레몬스무디",
+      "category": "음료"
+    },
+    {
+      "description": "새콤달콤한 풍미가 일품인 국내산 사과를 가득 담아낸 과일주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/01/%EC%9A%B0%EB%A6%AC%EC%82%AC%EA%B3%BC%EC%A3%BC%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "우리사과주스",
+      "category": "음료"
+    },
+    {
+      "description": "국내산 사과와 제주 당근의 맛이 다채롭게 느껴지는 주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/01/%EC%82%AC%EA%B3%BC%EB%8B%B9%EA%B7%BC%EC%A3%BC%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "사과당근주스",
+      "category": "음료"
+    },
+    {
+      "description": "생강향과 은은한 단맛으로 따뜻한 온기를 느낄 수 있는 전통 생강차",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/12/%EC%83%9D%EA%B0%95%EC%B0%A8_HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "생강차(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "생강향과 은은한 단맛이 있는 전통 생강차",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/12/%EC%83%9D%EA%B0%95%EC%B0%A8_ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "생강차(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "고소하고 담백한 율무라떼에 바삭한 현미크런치 토핑을 올린 따뜻한 음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/12/%EC%9C%A8%EB%AC%B4%EB%9D%BC%EB%96%BC_HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "율무라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "고소하고 담백한 율무라떼에 바삭한 현미크런치 토핑을 올린 음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/12/%EC%9C%A8%EB%AC%B4%EB%9D%BC%EB%96%BC_ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "율무라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "아몬드브리즈로 만들어 깔끔하면서 고소한 풍미가 더해진 따뜻한 율무아몬드라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/12/%EC%9C%A8%EB%AC%B4%EC%95%84%EB%AA%AC%EB%93%9C%EB%9D%BC%EB%96%BC_HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "율무아몬드라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "아몬드브리즈로 만들어 깔끔하면서 고소한 풍미가 더해진 율무아몬드라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/12/%EC%9C%A8%EB%AC%B4%EC%95%84%EB%AA%AC%EB%93%9C%EB%9D%BC%EB%96%BC_ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "율무아몬드라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "달콤한 초콜릿 베이스에 기분 좋은 토피넛과 헤이즐넛의 은은한 향미가 완벽하게 조화로운 라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/11/%EB%A9%94%EB%A6%AC-%EB%8D%94%EB%B8%94%EB%84%9B%EC%B8%A0-%EC%B4%88%EC%BD%94%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "peanut",
+        "walnut"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "메리 더블넛츠 초코라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "부드러운 커피와 초콜릿의 조화에 톡톡 씹히는 초콜릿칩의 식감이 더해진 블렌디드 음료 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/11/%EA%B3%A8%EB%93%A0%EC%9E%90%EB%B0%94%EC%B9%A9-%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "골든자바칩 스무디",
+      "category": "음료"
+    },
+    {
+      "description": "상큼한 샤인머스캣맛의 제로슈거 콤부차",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/09/%EC%BD%A4%EB%B6%80%EC%B0%A8-%EC%83%A4%EC%9D%B8%EB%A8%B8%EC%8A%A4%EC%BA%A3ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "콤부차 샤인머스캣(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "사과 발효초로 만든 새콤하고 달콤한 저당 애플사이다비니거",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/09/%EC%95%A0%EC%82%AC%EB%B9%84ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "애사비(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "블루큐라소 시럽을 넣어 더 시원하고 상큼하게 즐기는 블루레몬에이드",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EB%B8%94%EB%A3%A8%EB%A0%88%EB%AA%AC%EC%97%90%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "블루레몬에이드(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "시원하게 즐기는 복숭아 아이스티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EB%8B%AC%EC%BD%A4%EC%95%84%EC%9D%B4%EC%8A%A4%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "복숭아 아이스티",
+      "category": "음료"
+    },
+    {
+      "description": "SNS 핫메뉴! 아이스티에 달콤시원한 망고를 가득!",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/08/%EC%95%84%EB%A7%9D%EC%B6%94_%EC%95%84%EC%9D%B4%EC%8A%A4ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "아망추 (아이스티 + 망고추가)",
+      "category": "음료"
+    },
+    {
+      "description": "무더운 여름철 시원하게~수박주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EC%88%98%EB%B0%95%EC%A3%BC%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "우리수박주스",
+      "category": "음료"
+    },
+    {
+      "description": "시원하게 즐기는 열대과일, 망고 스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/04/%EB%A7%9D%EA%B3%A0%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "망고스무디(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "시원하게 즐기는 열대과일, 파인애플 스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/04/%ED%8C%8C%EC%9D%B8%EC%95%A0%ED%94%A8%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "파인애플스무디(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "상콤달콤한 패션후르츠의 맛이 가득한 스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%ED%8C%A8%EC%85%98%ED%9B%84%EB%A5%B4%EC%B8%A0%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "패션후르츠스무디 (ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "패션후르츠에 망고를 더해 더욱 달콤하게 즐기는 스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/03/%EB%A7%9D%EA%B3%A0%ED%8C%A8%EC%85%98%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "망고패션스무디 (ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 과일향과 풍부한 시나몬향이 가득한 겨울음료 *Non-alcoholic (알코올1% 미만 함유, 성인용)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/11/%EB%B1%85%EC%87%BChot_thumb-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "뱅쇼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 과일향과 풍부한 시나몬향이 가득한 겨울음료 *Non-alcoholic (알코올1% 미만 함유, 성인용)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/11/%EB%B1%85%EC%87%BCiced_thumb-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "뱅쇼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "부드럽고 고소한 쌀라떼에 바삭한 현미크런치로 식감을 더한 우리쌀라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/10/%EC%9A%B0%EB%A6%AC%EC%8C%80%EB%9D%BC%EB%96%BC-%ED%95%AB-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "우리쌀라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "부드럽고 고소한 쌀라떼에 바삭한 현미크런치로 식감을 더한 우리쌀라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/10/%EC%9A%B0%EB%A6%AC%EC%8C%80%EB%9D%BC%EB%96%BC-%EC%95%84%EC%9D%B4%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "우리쌀라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "아몬드와 대추가 씹혀 더 맛있는 달달한 대추차",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/10/%EB%8C%80%EC%B6%94%EC%B0%A8_HOT-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "대추차(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "아몬드와 대추가 씹혀 더 맛있는 달달한 대추차",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/10/%EB%8C%80%EC%B6%94%EC%B0%A8_ICED-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "대추차(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "한방재료를 담은 쌍화차(아몬드도 들어있어요)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/10/%EC%8C%8D%ED%99%94%EC%B0%A8_HOT-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "tree_nuts"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "쌍화차(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "한방재료를 담은 쌍화차(아몬드도 들어있어요)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/10/%EC%8C%8D%ED%99%94%EC%B0%A8_ICED-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "tree_nuts"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "쌍화차(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "부드럽고 은은한 대추단맛에 고소한 우유가 어우러진 음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/01/%EB%8C%80%EC%B6%94_hot-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "대추라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "부드럽고 은은한 대추단맛에 고소한 우유가 어우러진 음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/01/%EB%8C%80%EC%B6%94_ice-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "대추라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "한방재료로 깊은 쌍화맛에 고소한 우유풍미가 어우러진 음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/01/%EC%8C%8D%ED%99%94_hot-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "tree_nuts",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "쌍화라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "한방재료로 깊은 쌍화맛에 고소한 우유풍미가 어우러진 음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/01/%EC%8C%8D%ED%99%94_ice-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "tree_nuts",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "쌍화라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "따뜻하게 즐기는 상큼한 파인민트티 (제로슈거&저칼로리)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/08/%EC%95%84%EC%9E%84%ED%8C%8C%EC%9D%B8%EB%AF%BC%ED%8A%B8%ED%8B%B0_HOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아임파인민트티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "시원하게 즐기는 상큼한 파인민트티 (제로슈거&저칼로리)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/08/%EC%95%84%EC%9E%84%ED%8C%8C%EC%9D%B8%EB%AF%BC%ED%8A%B8%ED%8B%B0_ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아임파인민트티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "라임과 민트의 청량함에 달콤한 맛이 어우러진 스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/04/%EC%BF%A8%EB%9D%BC%EC%9E%84%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "쿨라임스무디",
+      "category": "음료"
+    },
+    {
+      "description": "라임과 민트의 청량함에 달콤한 맛이 어우러진 에이드",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/04/%EC%BF%A8%EB%9D%BC%EC%9E%84%EC%97%90%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "쿨라임에이드",
+      "category": "음료"
+    },
+    {
+      "description": "대추칩이 올라간 향긋하고 달콤한 전통음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/02/%EC%88%98%EC%A0%95%EA%B3%BC_hot-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "수정과(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "바삭한 대추칩이 올라간 향긋하고 달콤한 전통음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/02/%EC%88%98%EC%A0%95%EA%B3%BC_iced-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "수정과(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "부드럽게 밥알이 씹혀 더 맛있는 달콤한 식혜",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/05/%EC%8B%9D%ED%98%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "식혜(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "달콤한 고구마와 신선한 우유가 어우러진 부드럽고 든든한 라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/07/%EA%B3%A0%EA%B5%AC%EB%A7%88%EB%9D%BC%EB%96%BC%ED%95%AB-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "고구마라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "달콤한 고구마와 신선한 우유가 어우러진 부드럽고 든든한 라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/07/%EA%B3%A0%EA%B5%AC%EB%A7%88%EB%9D%BC%EB%96%BC%EC%95%84%EC%9D%B4%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "고구마라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "고소한 밤의 맛과 향을 진하고 달콤하게 느낄 수 있는 라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/07/%EA%BF%80%EB%B0%A4%EB%9D%BC%EB%96%BC%EC%95%84%EC%9D%B4%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "꿀밤라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "고소한 밤의 맛과 향을 달콤하게 갈아낸 꿀밤스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/10/%EA%BF%80%EB%B0%A4%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "꿀밤스무디",
+      "category": "음료"
+    },
+    {
+      "description": "고구마의 맛과 향이 살아있는 든든하고 시원한 스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EA%B3%A0%EA%B5%AC%EB%A7%88%EC%8A%A4%EB%AC%B4%EB%94%94_%EC%95%84%EC%9D%B4%EC%8A%A4_450x558-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "고구마스무디",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 바나나향이 가득한 바나나라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/03/%EB%B0%94%EB%82%98%EB%82%98%EB%9D%BC%EB%96%BCHOT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "바나나 라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "진한 바나나맛이 올라오는 라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/03/%EB%B0%94%EB%82%98%EB%82%98%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "바나나 라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "달콤한 바나나와 우유의 부드러움이 조화롭게 어우러진 쉐이크",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/03/%EB%B0%94%EB%82%98%EB%82%98%EB%B0%80%ED%81%AC%EC%89%90%EC%9D%B4%ED%81%ACICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "바나나 밀크쉐이크",
+      "category": "음료"
+    },
+    {
+      "description": "달콤하고 은은한 바닐라맛 퐁당치노",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%ED%90%81%EB%8B%B9%EC%B9%98%EB%85%B8_%EB%B0%94%EB%8B%90%EB%9D%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "퐁당치노(바닐라)",
+      "category": "음료"
+    },
+    {
+      "description": "빽다방 시그니쳐 원조커피 퐁당치노 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 189mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%ED%90%81%EB%8B%B9%EC%B9%98%EB%85%B8_%EC%9B%90%EC%A1%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "퐁당치노(원조커피)",
+      "category": "음료"
+    },
+    {
+      "description": "고소한 맛이 일품인 미숫가루 퐁당치노",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%ED%90%81%EB%8B%B9%EC%B9%98%EB%85%B8_%EB%AF%B8%EC%88%AB%EA%B0%80%EB%A3%A8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "퐁당치노(미숫가루)",
+      "category": "음료"
+    },
+    {
+      "description": "초코에 퐁당 빠지고 싶을때~ 다크초콜렛이 올라간 진한 초코라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/HOT-%EC%99%84%EC%A0%84%EC%B4%88%EC%BD%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "초코에 퐁당 빠지고 싶을때~ 진한 초코라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/ICED-%EC%99%84%EC%A0%84%EC%B4%88%EC%BD%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "진하고 부드러운 말차라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/HOT-%EB%85%B9%EC%B0%A8%EB%9D%BC%EB%96%BC-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "말차라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "진하고 부드러운 말차라떼 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/ICED-%EB%85%B9%EC%B0%A8%EB%9D%BC%EB%96%BC-2-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "말차라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "초코칩으로 깊이를 더한 진한 초코맛에 상쾌한 민트가 조화를 이루는 민트초코라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 45mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/HOT-%EB%AF%BC%ED%8A%B8%EC%B4%88%EC%BD%94%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "민트초코라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "초코칩으로 깊이를 더한 진한 초코맛에 상쾌한 민트가 조화를 이루는 민트초코라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 35.7mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/ICED-%EB%AF%BC%ED%8A%B8%EC%B4%88%EC%BD%94%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "민트초코라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "견과류와 카라멜의 고소하고 달콤함이 느껴지는 부드럽고 진한 맛의 토피넛라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 44.6mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/HOT-%ED%86%A0%ED%94%BC%EB%84%9B%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "peanut",
+        "walnut"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "토피넛라떼(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "견과류와 카라멜의 고소하고 달콤함이 느껴지는 부드럽고 진한 맛의 토피넛라떼 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 54.2mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/ICED-%ED%86%A0%ED%94%BC%EB%84%9B%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "peanut",
+        "walnut"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "토피넛라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "체리와 콜라가 만나 상큼함도 청량감도 UP!",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/03/%EC%B2%B4%EB%A6%AC%EC%BD%95%EC%BD%95-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "체리콕콕(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "얼그레이의 향긋함을 더한 부드러운 밀크티 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/HOT-%EB%B0%80%ED%81%AC%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "밀크티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "얼그레이의 향긋함을 더한 부드러운 밀크티 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/ICED-%EB%B0%80%ED%81%AC%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "밀크티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "흑당 베이스의 풍미 있는 달콤함과 쫄깃한 타피오카 펄, 부드러운 생크림이 더해진 흑당버블 밀크티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EB%B8%94%EB%9E%99%ED%8E%84%EB%B0%80%ED%81%AC%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "흑당버블 밀크티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "입안 가득 퍼지는 페퍼민트 향으로 기분까지 상쾌해지는 메뉴",
+      "photo": "https://paikdabang.com/wp-content/uploads/2021/07/HOT-%ED%8E%98%ED%8D%BC%EB%AF%BC%ED%8A%B8%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "페퍼민트티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "입안 가득 퍼지는 페퍼민트 향으로 기분까지 상쾌해지는 메뉴",
+      "photo": "https://paikdabang.com/wp-content/uploads/2021/07/ICED-%ED%8E%98%ED%8D%BC%EB%AF%BC%ED%8A%B8%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "페퍼민트티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "부드럽고 은은한 향으로 마음을 편안하게 해주는 황금캐모마일티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/HOT-%ED%99%A9%EA%B8%88%EC%BA%90%EB%AA%A8%EB%A7%88%EC%9D%BC%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "황금캐모마일티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "부드럽고 은은한 향으로 마음을 진정시켜주는 허브티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/ICED-%ED%99%A9%EA%B8%88%EC%BA%90%EB%AA%A8%EB%A7%88%EC%9D%BC%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "황금캐모마일티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "레몬 과육이 듬뿍! 더욱 상큼하게 즐기는 레몬티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/HOT-%EB%A0%88%EB%AA%AC%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레몬티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "레몬 과육이 듬뿍! 더욱 상큼하게 즐기는 레몬티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/ICED-%EB%A0%88%EB%AA%AC%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레몬티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "향긋하고 달콤한 복숭아와 풍부한 우롱의 맛이 어우러진 피치우롱스위티 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/HOT-%ED%94%BC%EC%B9%98%EC%9A%B0%EB%A1%B1%EC%8A%A4%EC%9C%84%ED%8B%B0-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "피치우롱스위티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "향긋하고 달콤한 복숭아와 풍부한 우롱의 맛이 어우러진 피치우롱스위티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/ICED-%ED%94%BC%EC%B9%98%EC%9A%B0%EB%A1%B1%EC%8A%A4%EC%9C%84%ED%8B%B0-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "피치우롱스위티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "직접 우려 깊고 진한 풍미와 깔끔한 맛의 우롱티 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/HOT-%EC%9A%B0%EB%A1%B1%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "우롱티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "직접 우려 깊고 진한 풍미와 깔끔한 맛의 우롱티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/ICED-%EC%9A%B0%EB%A1%B1%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "우롱티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "진하게 전해지는 향긋함! 달콤한 유자티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EC%9C%A0%EC%9E%90%ED%8B%B0_%ED%95%AB-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유자티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "진하게 전해지는 향긋함! 달콤한 유자티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EC%9C%A0%EC%9E%90%ED%8B%B0_%EC%95%84%EC%9D%B4%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유자티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "자몽 과육이 입안에서 톡톡! 달콤한 자몽 한 잔",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/HOT-%EC%9E%90%EB%AA%BD%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "자몽티(HOT)",
+      "category": "음료"
+    },
+    {
+      "description": "자몽 과육이 입안에서 톡톡! 달콤한 자몽 한 잔",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/ICED-%EC%9E%90%EB%AA%BD%ED%8B%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "자몽티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 꽃향기가 퍼지는 상큼달콤한 청포도 음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EC%B2%AD%ED%8F%AC%EB%8F%84%ED%94%8C%EB%9D%BC%EC%9B%8C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "청포도플라워(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "톡 쏘는 탄산수에 딸기 과육을 듬뿍 넣어 달콤한 청량감이 입안 가득!",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/02/%EB%94%B8%EA%B8%B0%EC%97%90%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "딸기에이드(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "신선한 레몬향을 그대로 담아낸 깔끔하고 산뜻한 에이드",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EB%A0%88%EB%AA%A8%EB%84%A4%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레모네이드(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "청포도의 상큼함과 향긋한 꽃향기가 퍼지는 상큼 달콤한 에이드 음료",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EC%B2%AD%ED%8F%AC%EB%8F%84%EC%97%90%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "청포도에이드(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "상큼 짜릿하게! 톡톡튀는 식감을 느낄 수 있는 에이드",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EA%B9%94%EB%9D%BC%EB%A7%8C%EC%8B%9C%EC%97%90%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "깔라만시에이드(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 유자에 청량감이 더해진 유자에이드",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EC%9C%A0%EC%9E%90%EC%97%90%EC%9D%B4%EB%93%9C-1-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유자에이드(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "달콤 쌉쌀한 자몽에이드",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/06/%EC%9E%90%EB%AA%BD%EC%97%90%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "자몽에이드(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "복숭아 과육이 듬뿍! 청량감 가득! 복숭아에이드",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%B3%B5%EC%88%AD%EC%95%84%EC%97%90%EC%9D%B4%EB%93%9C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "복숭아에이드(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "코코넛 젤리가 들어있는 달콤 시원한 파인애플주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%ED%8C%8C%EC%9D%B8%EC%95%A0%ED%94%8C-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "파인애플 주스(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "싱그러운 자연의 맛 그대로 한잔에 담은 토마토주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2021/12/%EC%99%84%EC%A0%84%ED%86%A0%EB%A7%88%ED%86%A0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "tomato"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "토마토 주스(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "신선함을 그대로 담은 딸기주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EB%94%B8%EA%B8%B0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "딸기 주스(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "코코넛 젤리가 들어있는 달콤 시원한 망고주스 실 모양 물질은 '망고 섬유질'입니다. 인체에 무해하니 안심하고 드세요!",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EB%A7%9D%EA%B3%A0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "망고 주스(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "자연의 건강함을 그대로 담은 블루베리주스",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/04/%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC%EC%A3%BC%EC%8A%A4-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "블루베리 주스(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "자연의 건강함을 품은 블루베리가 듬뿍, 블루베리 요거트스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2023/04/%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "블루베리요거트스무디(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "시원하고 달콤한 밀크쉐이크",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%B0%80%ED%81%AC%EC%89%90%EC%9D%B4%ED%81%AC-2-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "밀크쉐이크(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "달콤 부드러운 플레인 요거트스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%ED%94%8C%EB%A0%88%EC%9D%B8%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%8A%A4%EB%AC%B4%EB%94%94-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "플레인요거트스무디(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "부드럽고 새콤달콤한 딸기요거트스무디",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%94%B8%EA%B8%B0%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%8A%A4%EB%AC%B4%EB%94%94-2-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기요거트스무디(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! 부드럽고 달콤하게 즐기는 딸기라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EB%94%B8%EA%B8%B0%EB%9D%BC%EB%96%BCICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽사이즈 딸기라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! 고소하고 진한 맛의 미숫가루!",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EB%AF%B8%EC%88%AB%EA%B0%80%EB%A3%A8ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽사이즈 미숫가루(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! 부드럽게 밥알이 씹혀 더 맛있는 달콤한 식혜",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EC%8B%9D%ED%98%9CICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "빽사이즈 식혜(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! 진한 초코라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/04/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EC%99%84%EC%A0%84%EC%B4%88%EC%BD%94-32oz-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽사이즈 초코라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! 시원한 복숭아맛 아이스티",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/04/%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88-%EB%8B%AC%EC%BD%A4%EC%95%84%EC%9D%B4%EC%8A%A4%ED%8B%B0-32oz-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽사이즈 달콤아이스티(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "빽다방의 BEST메뉴를 더 크게 즐겨보세요! SNS핫메뉴 아이스티에 망고를 한가득!",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/08/%EC%95%84%EB%A7%9D%EC%B6%94_%EB%B9%BD%EC%82%AC%EC%9D%B4%EC%A6%88_%EC%95%84%EC%9D%B4%EC%8A%A4ICED-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽사이즈 아망추",
+      "category": "음료"
+    },
+    {
+      "description": "달콤한 딸기 과육이 가득! 부드럽고 달콤하게 즐기는 딸기라떼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/02/%EB%94%B8%EA%B8%B0%EB%9D%BC%EB%96%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기라떼(ICED)",
+      "category": "음료"
+    },
+    {
+      "description": "원조커피의 시원한 변신! 매력만점 커피 빽스치노 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 233mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%9B%90%EC%A1%B0%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-SOFT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "원조빽스치노(SOFT)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "상큼한 딸기와 달달한 바나나의 시원한 만남",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EB%94%B8%EA%B8%B0%EB%B0%94%EB%82%98%EB%82%98-SOFT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기바나나빽스치노(SOFT)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "달콤한 초코와 달달한 바나나의 시원한 만남",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EC%B4%88%EC%BD%94%EB%B0%94%EB%82%98%EB%82%98_%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-SOFT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코바나나빽스치노(SOFT)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "빽다방 시그니처 블렌딩 원두의 진한 풍미와 초콜릿의 달콤함이 어우러진 자바칩에 번트카라멜의 향미를 더한 블랙 벨벳 자바칩빽스치노 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 242mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EB%B8%94%EB%9E%99-%EB%B2%A8%EB%B2%B3-%EC%9E%90%EB%B0%94%EC%B9%A9%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "블랙 벨벳 자바칩빽스치노",
+      "category": "빽스치노"
+    },
+    {
+      "description": "빽다방 시그니처 블렌딩 원두의 진한 풍미와 초콜릿의 달콤함이 어우러진 자바칩에 번트카라멜의 향미를 더한 블랙 벨벳 자바칩빽스치노 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 242mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EB%B8%94%EB%9E%99-%EB%B2%A8%EB%B2%B3-%EC%9E%90%EB%B0%94%EC%B9%A9%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "블랙 벨벳 자바칩빽스치노 소프트",
+      "category": "빽스치노"
+    },
+    {
+      "description": "카페인 부담을 줄인 디카페인 원두와 초콜릿의 달콤함이 어우러진 자바칩에 번트카라멜의 향미를 더한 블랙 벨벳 자바칩빽스치노 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 85mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EB%B8%94%EB%9E%99-%EB%B2%A8%EB%B2%B3-%EC%9E%90%EB%B0%94%EC%B9%A9%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 블랙 벨벳 자바칩빽스치노",
+      "category": "빽스치노"
+    },
+    {
+      "description": "카페인 부담을 줄인 디카페인 원두와 초콜릿의 달콤함이 어우러진 자바칩에 번트카라멜의 향미를 더한 블랙 벨벳 자바칩빽스치노 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 85mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/09/%EB%B8%94%EB%9E%99-%EB%B2%A8%EB%B2%B3-%EC%9E%90%EB%B0%94%EC%B9%A9%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 블랙 벨벳 자바칩빽스치노 소프트",
+      "category": "빽스치노"
+    },
+    {
+      "description": "더 고소한 피스타치오와 진한 카카오닙스의 만남! *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔 710ml당 약 7mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/04/%ED%94%BC%EC%8A%A4%ED%83%80%EC%B9%98%EC%98%A4-%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "peanut",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "피스타치오 빽스치노(BASIC)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "원조커피의 시원한 변신! 매력만점 커피 빽스치노 *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 233mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%9B%90%EC%A1%B0%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-BASIC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "원조빽스치노(BASIC)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "상큼한 딸기와 달달한 바나나의 시원한 만남",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EB%94%B8%EA%B8%B0%EB%B0%94%EB%82%98%EB%82%98-BASIC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기바나나빽스치노(BASIC)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "달콤한 초코와 달달한 바나나의 시원한 만남",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EC%B4%88%EC%BD%94%EB%B0%94%EB%82%98%EB%82%98-BASIC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코바나나빽스치노(BASIC)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "상큼한 딸기와 우유가 블렌딩된 빽스치노",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EB%94%B8%EA%B8%B0%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-BASIC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기 빽스치노(BASIC)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "상큼한 딸기와 우유가 블렌딩된 빽스치노",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EB%94%B8%EA%B8%B0%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-SOFT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기 빽스치노(SOFT)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "부드럽고 진한 맛의 말차 빽스치노 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%85%B9%EC%B0%A8%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-BASIC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "말차빽스치노(BASIC)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "부드럽고 진한 맛의 말차 빽스치노",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%85%B9%EC%B0%A8%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-SOFT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "말차빽스치노(SOFT)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "초코칩으로 깊이를 더한 진한 초코맛에 상쾌한 민트가 조화를 이루는 민트초코빽스치노 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 48.1mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%AF%BC%ED%8A%B8%EC%B4%88%EC%BD%94%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-BASIC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "민트초코빽스치노(BASIC)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "초코칩으로 깊이를 더한 진한 초코맛에 상쾌한 민트가 조화를 이루는 민트초코빽스치노 *카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 48.1mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EB%AF%BC%ED%8A%B8%EC%B4%88%EC%BD%94%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-SOFT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "민트초코빽스치노(SOFT)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "달콤한 쿠키 크런치가 듬뿍 들어간 빽스치노",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%BF%A0%ED%82%A4%ED%81%AC%EB%9F%B0%EC%B9%98%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-BASIC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "쿠키크런치빽스치노(BASIC)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "달콤한 쿠키 크런치가 듬뿍 들어간 빽스치노",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%BF%A0%ED%82%A4%ED%81%AC%EB%9F%B0%EC%B9%98%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-SOFT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "쿠키크런치빽스치노(SOFT)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "초콜릿을 함께 블렌딩하여 더욱 진한 맛의 빽스치노",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EC%B4%88%EC%BD%94%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-BASIC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코빽스치노(BASIC)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "초콜릿을 함께 블렌딩하여 더욱 진한 맛의 빽스치노",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EC%B4%88%EC%BD%94%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-SOFT-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코빽스치노(SOFT)",
+      "category": "빽스치노"
+    },
+    {
+      "description": "소시지에 치즈를 듬뿍 얹고 옥수수샐러드와 불닭소스를 더해 맛있게 매운 소세지빵",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/07/%EB%A0%88%EB%93%9C%ED%95%AB%EC%86%8C%EC%84%B8%EC%A7%80-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "egg",
+        "pork",
+        "beef",
+        "chicken"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "레드핫 소세지빵",
+      "category": "디저트"
+    },
+    {
+      "description": "입안에서 부드럽게 사르륵 녹는 마성의 아이스크림 매장에서 운영하는 아이스크림에 따라 판매 메뉴가 상이할 수 있습니다.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/07/%EC%86%8C%ED%94%84%ED%8A%B8-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "소프트 아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "겹겹이 구워 올린 깊은 풍미의 초콜릿 바움쿠헨",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/09/%EB%B0%94%EC%9B%80%EC%BF%A0%ED%97%A8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코홀릭 바움쿠헨",
+      "category": "디저트"
+    },
+    {
+      "description": "빽다방의 대표메뉴 :) 추억의 감자 사라다빵",
+      "photo": "https://paikdabang.com/wp-content/uploads/2017/05/%EC%82%AC%EB%9D%BC%EB%8B%A4%EB%B9%B5_new-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "soy",
+        "tomato",
+        "pork",
+        "wheat",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "사라다빵",
+      "category": "디저트"
+    },
+    {
+      "description": "커피향이 가득한 커피쿠키 토핑과 고소한 버터 풍미가 녹아든 부드러운 빵이 조화로운 모카번",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/10/%EB%AA%A8%EC%B9%B4%EB%B2%88_new-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "모카번",
+      "category": "디저트"
+    },
+    {
+      "description": "달콤한 딸기베이스에 바삭한 오레오가 더해진 부드러운 바닐라향 소프트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EB%94%B8%EA%B8%B0%EC%BF%A0%ED%82%A4-%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기쿠키 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "달콤한 딸기베이스에 진한 큐브치즈가 더해진 부드러운 바닐라향 소프트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EB%94%B8%EA%B8%B0%EC%B9%98%EC%A6%88-%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기치즈 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "달콤한 망고베이스와 망고가 듬뿍 올라간 부드러운 바닐라향 소프트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EB%A7%9D%EA%B3%A0%EB%A7%9D%EA%B3%A0-%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "망고망고 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "고소한 피스타치오풍미와 쫀득한 브라우니가 잘 어우러진 부드러운 바닐라향 소프트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%ED%94%BC%EC%8A%A4%ED%83%80%EC%B9%98%EC%98%A4%EC%AB%80%EB%93%9D%EC%B4%88%EC%BD%94-%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "피스타치오쫀득초코 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "달콤한 딸기베이스에 바삭한 오레오가 더해진 상큼달콤한 요거트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EB%94%B8%EA%B8%B0%EC%BF%A0%ED%82%A4-%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기쿠키 요거트아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "바삭한 초코쉘이 토핑된 상큼달콤한 요거트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EC%B4%88%EC%BD%94%EC%89%98-%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코쉘 요거트아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "달콤한 딸기베이스에 진한 큐브치즈가 더해진 상큼달콤한 요거트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EB%94%B8%EA%B8%B0%EC%B9%98%EC%A6%88-%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기치즈 요거트아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "달콤한 망고베이스와 망고가 듬뿍 올라간 상큼달콤한 요거트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EB%A7%9D%EA%B3%A0%EB%A7%9D%EA%B3%A0-%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "망고망고 요거트아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "고소한 피스타치오풍미와 쫀득한 브라우니가 잘 어우러진 상큼달콤한 요거트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%ED%94%BC%EC%8A%A4%ED%83%80%EC%B9%98%EC%98%A4%EC%AB%80%EB%93%9D%EC%B4%88%EC%BD%94-%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "피스타치오쫀득초코 요거트아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "깊은 풍미의 끼리 크림치즈로 만든 부드럽고 깊은 맛을 즐길 수 있는 스틱 형태의 치즈케익",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EB%81%BC%EB%A6%AC-%EC%8A%A4%ED%8B%B1-%EC%B9%98%EC%A6%88%EC%BC%80%EC%9D%B5-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "끼리 스틱 치즈케익",
+      "category": "디저트"
+    },
+    {
+      "description": "깊은 풍미의 끼리 크림치즈와 쿠키앤크림이 만나 달콤하게 즐길 수 있는 스틱 형태의 치즈케익",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/08/%EB%81%BC%EB%A6%AC-%EC%BF%A0%ED%82%A4%EC%95%A4%ED%81%AC%EB%A6%BC-%EC%8A%A4%ED%8B%B1-%EC%B9%98%EC%A6%88%EC%BC%80%EC%9D%B5-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "끼리 쿠키앤크림 스틱 치즈케익",
+      "category": "디저트"
+    },
+    {
+      "description": "육즙 가득 두툼한 100g 소시지를 넣은 간편한 식사대용 핫도그",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/07/%EB%B9%BD%EA%B7%B8%EB%9E%A8%ED%95%AB%EB%8F%84%EA%B7%B8-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "egg",
+        "pork",
+        "beef",
+        "tomato",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "빽그램 핫도그",
+      "category": "디저트"
+    },
+    {
+      "description": "육즙 가득 두툼한 100g 소시지와 불닭소스가 만나 맛있게 매운 간편한 식사대용 핫도그",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/07/%EB%A0%88%EB%93%9C%ED%95%AB%EB%B9%BD%EA%B7%B8%EB%9E%A8-450x588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "egg",
+        "pork",
+        "beef",
+        "tomato",
+        "chicken",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "레드핫 빽그램 핫도그",
+      "category": "디저트"
+    },
+    {
+      "description": "고소하고 달달한 옥수수와 부드러운 달콤한 단팥을 쫀득한 볼 속에 담은 콘앙금쫀득볼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/05/%EC%BD%98%EC%95%99%EA%B8%88%EC%AB%80%EB%93%9D%EB%B3%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "콘앙금쫀득볼",
+      "category": "디저트"
+    },
+    {
+      "description": "고소하고 달달한 옥수수와 치즈를 쫀득한 볼 속에 담은 콘치즈쫀득볼",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/05/%EC%BD%98%EC%B9%98%EC%A6%88%EC%AB%80%EB%93%9D%EB%B3%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "콘치즈쫀득볼",
+      "category": "디저트"
+    },
+    {
+      "description": "달콤한 딸기베이스 토핑에 새콤한 딸기다이스를 더해 딸기 맛으로 가득 채운 소프트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/01/%EB%94%B8%EA%B8%B0%EC%BD%95%EC%BD%95-%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기콕콕 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "달콤한 딸기베이스 토핑에 새콤한 딸기다이스를 더해 딸기 맛으로 가득 채운 요거트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/01/%EB%94%B8%EA%B8%B0%EC%BD%95%EC%BD%95-%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기콕콕 요거트아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "말차의 떫고 깔끔한 맛 위로 겹쳐지는 오레오의 달콤함이 매력적인 소프트 아이스크림 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/01/%EB%A7%90%EC%B0%A8%EC%BF%A0%ED%82%A4-%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "말차쿠키 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "말차와 오레오의 달콤 쌉싸름한 조합으로 깔끔한 여운이 있는 요거트 아이스크림 고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/01/%EB%A7%90%EC%B0%A8%EC%BF%A0%ED%82%A4-%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "말차쿠키 요거트아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "빽다방 시그니처 소프트 아이스크림에 초코쉘과 브라우니로 달콤함을 두 배로 올린 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/11/%EC%B4%88%EC%BD%94%EB%B8%8C%EB%9D%BC%EC%9A%B0%EB%8B%88_%EC%9A%94%EA%B1%B0%ED%8A%B8_%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC_%EC%88%98%EC%A0%95-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코브라우니 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "빽다방만의 요거트 아이스크림에 초코쉘과 브라우니로 달콤함을 두 배로 올린 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/11/%EC%B4%88%EC%BD%94%EB%B8%8C%EB%9D%BC%EC%9A%B0%EB%8B%88_%EC%86%8C%ED%94%84%ED%8A%B8_%EC%88%98%EC%A0%95-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코브라우니 요거트 아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "상큼달콤한 요거트 아이스크림에 달콤한 초콜릿과 고소한 피스타치오의 풍미를 더한 두바이초코 요거트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/11/%EB%91%90%EB%B0%94%EC%9D%B4%EC%B4%88%EC%BD%94-%EC%9A%94%EA%B1%B0%ED%8A%B8-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "두바이초코 요거트 아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "상큼달콤한 요거트 아이스크림에 망고와 치즈큐브를 더한 망고치즈 요거트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/11/%EB%A7%9D%EA%B3%A0%EC%B9%98%EC%A6%88-%EC%9A%94%EA%B1%B0%ED%8A%B8-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "망고치즈 요거트 아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "상큼달콤한 요거트 아이스크림에 블루베리와 치즈큐브를 더한 블루베리치즈 요거트 아이스크림",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/11/%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC%EC%B9%98%EC%A6%88-%EC%9A%94%EA%B1%B0%ED%8A%B8-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "블루베리치즈 요거트 아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "넉넉한 양에 맛도 최고! 상큼달콤하게 즐기는 빽다방's 요거트 아이스크림 매장에서 운영하는 아이스크림에 따라 판매 메뉴가 상이할 수 있습니다.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/06/%EC%9A%94%EA%B1%B0%ED%8A%B8-%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "요거트 아이스크림",
+      "category": "디저트"
+    },
+    {
+      "description": "소프트아이스크림에 오레오분태가 올라간 아이스크림 매장에서 운영하는 아이스크림에 따라 판매 메뉴가 상이할 수 있습니다.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EC%98%A4%EB%A0%88%EC%98%A4%ED%81%AC%EB%9F%B0%EC%B9%98-%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "오레오크런치 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "소프트아이스크림에 초코쉘이 토핑 된 달콤한 아이스크림 매장에서 운영하는 아이스크림에 따라 판매 메뉴가 상이할 수 있습니다.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EC%B4%88%EC%BD%94%EC%89%98-%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초코쉘 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "소프트아이스크림에 에스프레소샷이 뿌려진 아이스크림 *매장에서 운영하는 아이스크림에 따라 판매 메뉴가 상이할 수 있습니다. *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "에스프레소 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "소프트아이스크림에 초콜릿시럽과 토핑이 듬뿍 올라간 아이스크림 매장에서 운영하는 아이스크림에 따라 판매 메뉴가 상이할 수 있습니다.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EC%B4%88%EC%BD%9C%EB%A6%BF%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "초콜릿 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "소프트아이스크림에 달콤한 딸기가 듬뿍 올라간 아이스크림 매장에서 운영하는 아이스크림에 따라 판매 메뉴가 상이할 수 있습니다.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EB%94%B8%EA%B8%B0%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "딸기 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "소프트 아이스크림에 빽다방의 믹스커피 원액이 올라간 아이스크림 *매장에서 운영하는 아이스크림에 따라 판매 메뉴가 상이할 수 있습니다. *고카페인 함유)어린이/임산부 및 카페인에 민감한 사람은 섭취에 주의(1잔당 약 23mg)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EC%9B%90%EC%A1%B0%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "원조 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "소프트아이스크림에 딸기소스와 초코크런치를 올려 더욱 달콤한 아이스크림 매장에서 운영하는 아이스크림에 따라 판매 메뉴가 상이할 수 있습니다.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EB%B2%A0%EB%A6%AC%ED%81%AC%EB%9F%B0%EC%B9%98%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "베리크런치 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "소프트아이스크림에 디카페인 에스프레소샷이 뿌려진 아이스크림 매장에서 운영하는 아이스크림에 따라 판매 메뉴가 상이할 수 있습니다.",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/08/%EC%97%90%EC%8A%A4%ED%94%84%EB%A0%88%EC%86%8C%EC%86%8C%ED%94%84%ED%8A%B8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "디카페인 에스프레소 소프트",
+      "category": "디저트"
+    },
+    {
+      "description": "건강하고 맛있게 즐기는 고단백 고식이섬유 간식 (고단백 6g/고식이섬유 7.6g *50g 기준)",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/03/%ED%94%84%EB%A1%9C%ED%8B%B4%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%8B%A4%ED%81%AC%EC%B4%88%EC%BD%94%EB%84%9B%EC%B8%A0-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "wheat",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "프로틴클러스터 (다크초코&넛츠)",
+      "category": "디저트"
+    },
+    {
+      "description": "고소하고 부드러운 치즈크림 필링을 더해 진한 치즈 풍미가 가득한 치즈홀릭 바움쿠헨",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/06/%EC%B9%98%EC%A6%88%ED%99%80%EB%A6%AD-%EB%B0%94%EC%9B%80%EC%BF%A0%ED%97%A8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "치즈홀릭 바움쿠헨",
+      "category": "디저트"
+    },
+    {
+      "description": "부드럽고 달콤한 커스터드 크림을 가득 채운 커스터드홀릭 바움쿠헨",
+      "photo": "https://paikdabang.com/wp-content/uploads/2026/06/%EC%BB%A4%EC%8A%A4%ED%84%B0%EB%93%9C%ED%99%80%EB%A6%AD-%EB%B0%94%EC%9B%80%EC%BF%A0%ED%97%A8-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "커스터드홀릭 바움쿠헨",
+      "category": "디저트"
+    },
+    {
+      "description": "부드러운 베샤멜 크림소스로 한층 더 맛있어진 햄치즈 샌드위치",
+      "photo": "https://paikdabang.com/wp-content/uploads/2025/02/%ED%96%84%EC%B9%98%EC%A6%88-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg",
+        "pork",
+        "beef",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "햄치즈 샌드위치",
+      "category": "디저트"
+    },
+    {
+      "description": "짭짤 쫄깃한 감자빵",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/01/%EA%B0%90%EC%9E%90%EB%B9%B5_thumb-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "쫀득 감자빵",
+      "category": "디저트"
+    },
+    {
+      "description": "달콤 쫄깃한 고구마빵",
+      "photo": "https://paikdabang.com/wp-content/uploads/2024/01/%EA%B3%A0%EA%B5%AC%EB%A7%88%EB%B9%B5_thumb-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "쫀득 고구마빵",
+      "category": "디저트"
+    },
+    {
+      "description": "프랑스산 발효버터와 안데스산맥 빙하소금의 풍미",
+      "photo": "https://paikdabang.com/wp-content/uploads/2022/10/%EC%86%8C%EA%B8%88%EB%B9%B5-450x588-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "고메버터소금빵",
+      "category": "디저트"
+    },
+    {
+      "description": "비스킷과 부드러운 크림의 환상 조합!",
+      "photo": "https://paikdabang.com/wp-content/uploads/2019/04/%ED%81%AC%EB%A6%AC%EB%AF%B8%EC%8A%88-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "크리미슈",
+      "category": "디저트"
+    },
+    {
+      "description": "달콤한 팥과 크림이 듬뿍~",
+      "photo": "https://paikdabang.com/wp-content/uploads/2019/04/%ED%81%AC%EB%A6%AC%EB%AF%B8%EB%8B%A8%ED%8C%A5%EB%B9%B5-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "크리미단팥빵",
+      "category": "디저트"
+    },
+    {
+      "description": "소시지에 치즈를 듬뿍 얹고 옥수수까지 더한 소세지빵",
+      "photo": "https://paikdabang.com/wp-content/uploads/2017/05/%EC%86%8C%EC%84%B8%EC%A7%80%EB%B9%B5-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "egg",
+        "milk",
+        "pork",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Paik's Coffee menu (paikdabang.com)",
+      "allergen_note": null,
+      "name": "소세지빵",
+      "category": "디저트"
+    },
+    {
+      "description": "소프트 아이스크림과 코코아파우더를 곁들여 더욱 맛있는 더블 에스프레소",
+      "photo": "https://paikdabang.com/wp-content/uploads/2018/05/%EC%95%84%ED%8F%AC%EC%B9%B4%ED%86%A0_450x558-450x588.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아포가토",
+      "category": "신메뉴"
+    }
+  ]
+}

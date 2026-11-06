@@ -181,7 +181,7 @@ export function MapExplorer({ places, restaurants, needs }: {
     <main className="grid md:grid-cols-[minmax(0,26rem)_minmax(0,1fr)] lg:grid-cols-[minmax(0,30rem)_minmax(0,1fr)]">
       <div className="order-2 min-w-0 px-4 py-6 md:order-1">
         <h1 className="font-display text-4xl leading-none font-extrabold tracking-tight">Find a meal near Inha</h1>
-        <p className="mt-2 text-sm text-muted">{places.length} places within 2 km of campus, and {restaurants.reduce((sum, r) => sum + r.menu_items.length, 0)} dishes with what&apos;s inside.</p>
+        <p className="mt-2 text-sm text-muted">{places.length} places within 2 km of campus. {restaurants.reduce((sum, r) => sum + r.menu_items.length, 0)} dishes from {restaurants.length} chains can be searched; local restaurants publish no menus.</p>
 
         <label className="relative mt-4 block">
           <span className="sr-only">Search meals and places</span>

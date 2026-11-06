@@ -1,0 +1,4538 @@
+{
+  "slug": "starbucks",
+  "name": "Starbucks",
+  "cuisine": "Coffee",
+  "logo": null,
+  "logo_bg": null,
+  "delivery_link": "https://www.starbucks.co.kr",
+  "source": "https://www.starbucks.co.kr/menu/drink_list.do",
+  "dishes": [
+    {
+      "description": "부드러운 목넘김의 나이트로 커피와 바닐라 크림의 매력을 한번에 느껴보세요!",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000002487%5D_20250626171201110.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "나이트로 바닐라 크림",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "(나이트로 콜드 브루 매장 한정) 나이트로 커피 정통의 캐스케이딩과 부드러운 콜드 크레마! 부드러운 목 넘김과 완벽한 밸런스에 커피 본연의 단맛을 경험할 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000000479%5D_20250626095418324.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "나이트로 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "무더운 여름철, 동남아 휴가지에서 즐기는 커피를 떠오르게 하는 스타벅스 음료의 베스트 x 베스트 조합인 돌체 콜드 브루를 만나보세요!",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000002081%5D_20250626100020135.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "돌체 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "나이트로 커피 정통의 캐스케이딩과 부드러운 콜드 크레마! 부드러운 목 넘김과 완벽한 밸런스에 커피 본연의 단맛을 경험할 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/02/%5B9200000002407%5D_20210225095106743.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "리저브 나이트로",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "리저브 커피 마스터의 정성으로 차갑게 추출한 깊고 부드러운 풍미의 커피",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/03/%5B9200000002093%5D_20240318144604476.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "리저브 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "산에서 만날 수 있는 특별한 경험을 모티브로해 달콤, 향긋한 비알코올 막걸리 향 크림과 고소한 쌀 토핑으로 즐길 수 있는 콜드 브루",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/05/%5B9200000005282%5D_20240509131200017.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "막걸리향 크림 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "상쾌한 민트향 시럽과 잘게 갈린 얼음이 어우러져 시원함이 강렬하게 느껴지는 리저브만의 콜드 브루 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/10/%5B9200000004312%5D_20221005145029134.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "민트 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "폭신한 바닐라 콜드 폼과 깊은 초콜릿 풍미의 콜드 브루가 만난 스타벅스의 아인슈페너. 음료와 잘 어울리는 스타벅스만의 콜드 폼으로 깔끔한 커피를 색다르게 즐겨보세요. ※ 해당 음료는 '콜드 폼'이 기본으로 포함되어 제공됩니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9200000006945%5D_20260415131227200.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바닐라 아인슈페너 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "콜드 브루에 더해진 바닐라 크림으로 깔끔하면서 달콤한 콜드 브루를 새롭게 즐길 수 있는 음료입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000000487%5D_20250626095703208.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바닐라 크림 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "은은하게 퍼지는 플로럴 향과 베르가못의 화사하고 우아한 시트러스 맛이 느껴지는 부드러운 콜드 브루",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/11/%5B9200000005991%5D_20251125104417629.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "베르가못 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "리저브 콜드 브루와 하우스 메이드 바닐라 빈 크림이 어우러진 아인슈페너 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/07/%5B9200000006301%5D_20250703090404091.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "블랙&화이트 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "한국 전통주 '막걸리’의 향미에서 영감을 받은 비알코올 쌀 베이스에, 스타벅스 콜드 브루의 깊고 부드러운 풍미가 조화를 이루는 새로운 스타일의 서울 특화 콜드 브루",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/03/%5B9200000006938%5D_20260304125135451.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "서울 막걸리향 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "스모키한 위스키의 풍미와 초콜릿 풍미의 리저브 커피가 어우러진 칵테일처럼 즐기는 콜드 브루 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/04/%5B9200000006056%5D_20250424105540077.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "스모크드 콜드 패션드",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "콜드 브루 전용 원두를 차가운 물로 매장에서 직접 추출하여 부드럽고 진한 풍미의 콜드브루를 언제 어디서나 편하게 즐겨보세요 (전용 보틀 /500ml)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000003661%5D_20250626093642415.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "시그니처 더 블랙 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "햇빛이나 달빛에 비치어 반짝이는 잔물결이라는 \"윤슬\"을 형상화한 헤이즐넛 콜드브루",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000004750%5D_20250626093847094.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "여수 윤슬 헤이즐넛 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "콜드 브루의 풍미와 깔끔한 오트음료(식물성 대체유)가 어우러진 달콤 고소한 라떼. 식물성 대체유를 사용해 모든 고객이 부담없이 즐길 수 있는 콜드 브루 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000003285%5D_20250626095600441.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "오트 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "리저브 콜드브루에 말차 돌체 베이스를 추가하여 제주 천년의 숲 비자림을 표현한 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/10/%5B9200000005616%5D_20241014134021881.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "제주 비자림 리저브 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "스타벅스 바리스타의 정성으로 탄생한 콜드 브루! 콜드 브루 전용 원두를 차가운 물로 추출하여 한정된 양만 제공됩니다. 실크같이 부드럽고 그윽한 초콜릿 풍미의 콜드 브루를 만나보세요!",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000004770%5D_20250626175029778.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "[리저브 전용음료] 리저브 콜드 브루, 바닐라 아이스크림, 몰트가 블렌딩된 리저브만의 쉐이크",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/02/%5B9200000001636%5D_20210225093600536.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "콜드 브루 몰트",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "[리저브 전용음료] 리저브 콜드 브루 위에 녹아 내리는 한 스쿱의 바닐라 아이스크림",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/02/%5B9200000001635%5D_20210225092236748.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "콜드 브루 플로트",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "깊고 부드러운 프렌치 바닐라 풍미와 깔끔한 콜드 브루가 어우러진 음료. 대비되는 옐로우&브라운의 레이어 속에서 달콤한 프렌치 감성을 즐겨보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9200000006948%5D_20260415131310868.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "프렌치 바닐라 콜드 브루",
+      "category": "콜드 브루"
+    },
+    {
+      "description": "시즌에 어울리는 원두 종류를 선정하여 신선하게 브루드(Brewed)되어 제공되는 드립커피로, 원두 커피의 풍부한 맛과 향을 따뜻하게 즐기실 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B2%5D_20210430111934117.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "브루드 커피",
+      "category": "브루드 커피"
+    },
+    {
+      "description": "매장에서 추출한 아이스 커피와 화이트 초콜릿이 어우러진 커피 우유 스타일의 가벼운 드립 커피 라떼 주기적으로 달라지는 브루드 커피 원두와 함께 드립 라떼의 새로운 매력을 느껴보세요",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/02/%5B9200000006852%5D_20260205135209835.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스위트 밀크 커피",
+      "category": "브루드 커피"
+    },
+    {
+      "description": "시즌에 어울리는 원두 종류를 선정하여 드립 방식으로 추출한 후 얼음과 함께 제공하는 커피로, 원두 커피의 풍부하고 깔끔한 맛을 느끼실 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B106509%5D_20250626092521116.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 브루드 커피",
+      "category": "브루드 커피"
+    },
+    {
+      "description": "아메리카노에 바리스타의 기술을 더해 벨벳 같은 미세한 거품층과 부드러운 목넘김을 즐길 수 있는 새로운 스타일의 음료 한층 풍부한 커피 풍미와 물결처럼 흘러내리는 캐스케이딩 비주얼의 에어로카노를 경험해보세요!",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/02/%5B9200000006840%5D_20260205135245242.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "스타벅스 에어로카노",
+      "category": "에스프레소"
+    },
+    {
+      "description": "가을 시즌 대표 음료! 돌아온 블랙 글레이즈드 라떼 짙고 풍부한 커피와 달콤하고 부드러운 글레이즈드 폼의 조화가 돋보이는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000002259%5D_20260928101559278.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "블랙 글레이즈드 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "가을 시즌 대표 음료! 돌아온 블랙 글레이즈드 라떼 짙고 풍부한 커피와 달콤하고 부드러운 글레이즈드 폼의 조화가 돋보이는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000002262%5D_20260928101657468.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 블랙 글레이즈드 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "신선한 에스프레소 샷에 풍부한 휘핑크림을 얹은 커피 음료로서, 뜨거운 커피의 맛과 차갑고 달콤한 생크림의 맛을 같이 즐길 수 있는 커피 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B30%5D_20210415144252244.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "에스프레소 콘 파나",
+      "category": "에스프레소"
+    },
+    {
+      "description": "신선한 에스프레소 샷에 우유 거품을 살짝 얹은 커피 음료로써, 강렬한 에스프레소의 맛과 우유의 부드러움을 같이 즐길 수 있는 커피 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B25%5D_20210415144211211.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "에스프레소 마키아또",
+      "category": "에스프레소"
+    },
+    {
+      "description": "풍부하고 부드러운 바디감의 별다방 블렌드 원두로 내린 에스프레소와 뜨거운 물을 섞어 깔끔하게 즐길 수 있는 스타벅스 이대점만의 블랙 커피 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9200000005514%5D_20240919154516844.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "스타벅스 1호점 카페 아메리카노",
+      "category": "에스프레소"
+    },
+    {
+      "description": "상큼한 자몽의 풍미와 벨벳같은 미세한 거품으로 부드러운 목넘김이 조화롭게 어우러져 밝고 산뜻하면서도 균형 잡힌 맛을 선사하는 에어로카노",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/07/%5B9200000007131%5D_20260729082321315.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "스타벅스 자몽 허니 에어로카노",
+      "category": "에스프레소"
+    },
+    {
+      "description": "풍부하고 부드러운 바디감의 별다방 블렌드 원두로 내린 에스프레소와 얼음과 물을 섞어 시원하고 깔끔하게 즐길 수 있는 스타벅스 이대점만의 블랙 커피 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9200000005516%5D_20240919154833807.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 스타벅스 1호점 카페 아메리카노",
+      "category": "에스프레소"
+    },
+    {
+      "description": "진한 에스프레소에 시원한 정수물과 얼음을 더한 깊이와 풍미가 살아있는 커피",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B110563%5D_20250626094353711.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 카페 아메리카노",
+      "category": "에스프레소"
+    },
+    {
+      "description": "진한 에스프레소에 뜨거운 물을 더한 깊이와 풍미가 살아있는 커피",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B94%5D_20210430103337006.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "카페 아메리카노",
+      "category": "에스프레소"
+    },
+    {
+      "description": "코코넛 베이스에 진한 에스프레소와 부드러운 우베 폼을 더한 음료 크런치한 코코넛칩과 함께 즐길 수 있는 리저브 마키아또",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/05/%5B9200000007089%5D_20260518094337907.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 우베 코코넛 마키아또",
+      "category": "에스프레소"
+    },
+    {
+      "description": "향긋한 바닐라 시럽과 시원한 우유에 얼음을 넣고 점을 찍듯이 에스프레소를 부은 후 벌집 모양으로 카라멜 드리즐을 올린 달콤한 커피 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B110582%5D_20250626095111658.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 카라멜 마키아또",
+      "category": "에스프레소"
+    },
+    {
+      "description": "향긋한 바닐라 시럽과 따뜻한 스팀 밀크 위에 풍성한 우유 거품을 얹고 점을 찍듯이 에스프레소를 부은 후 벌집 모양으로 카라멜 드리즐을 올린 달콤한 커피 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B126197%5D_20210415154609863.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "카라멜 마키아또",
+      "category": "에스프레소"
+    },
+    {
+      "description": "풍부하고 진한 에스프레소에 신선한 우유와 우유 거품이 얼음과 함께 들어간 시원하고 부드러운 커피 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B110601%5D_20250626095213930.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 카푸치노",
+      "category": "에스프레소"
+    },
+    {
+      "description": "풍부하고 진한 에스프레소에 따뜻한 우유와 벨벳 같은 우유 거품이 1:1 비율로 어우러져 마무리된 커피 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B38%5D_20210415154821846.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "카푸치노",
+      "category": "에스프레소"
+    },
+    {
+      "description": "진한 리저브 에스프레소 샷과 은은한 라벤더향이 고급스럽게 어우러진 부드럽고 세련된 풍미의 라벤더 카페 브레베",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/04/%5B9200000004119%5D_20220412083025862.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "라벤더 카페 브레베",
+      "category": "에스프레소"
+    },
+    {
+      "description": "부드럽고 달콤한 밀크카라멜의 은은한 풍미와 풍부한 질감을 느낄 수 있는 특별한 우유가 만나 언제나 편안하게 즐길 수 있는 라떼입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000006235%5D_20250604124942828.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "밀크카라멜 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "달콤한 바닐라의 향을 풍부하고 진한 에스프레소, 부드러운 우유와 함께 즐길 수 있는 라떼입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/10/%5B9200000006343%5D_20251029141705796.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바닐라 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "리저브만을 위한 바닐라 빈 시럽이 부드럽게 어우러진 카페 라떼",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/02/%5B9200000001939%5D_20210225094313315.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바닐라 빈 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "리저브 에스프레소 커피와 번트 카라멜의 깊고 달콤한 풍미가 어우러진 라떼 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/05/%5B9200000006054%5D_20250514142846184.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "번트 카라멜 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "얼음과 같이 쉐이킹하여 차가워진 진한 리저브 에스프레소와 하우스 메이드 크림이 어우러진 달콤한 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/03/%5B9200000002095%5D_20240318144701881.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "사케라또 비안코 오버 아이스",
+      "category": "에스프레소"
+    },
+    {
+      "description": "풍부하고 부드러운 바디감의 별다방 블렌드 원두로 내린 에스프레소와 신선한 우유를 스팀하여 커피 위에 우유 거품을 살짝 얹은 스타벅스 이대점만의 카페 라떼 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9200000005518%5D_20240919154933695.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 1호점 카페 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "\"Coffee & Tea & Spice\"스타벅스 첫번째 로고에서 착안한 음료로 스파이시한 향의 달콤하고 부드러운 커피 차이 크림폼, 풍부한 바디감의 별다방 블렌드 원두를 사용한 깊고 부드러운 크림 라떼 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9200000005522%5D_20240919155344866.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 1호점 크림 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "한국의 대표 길거리 음식의 친근하고 익숙한 호떡을 형상화한 음료로 어린시절 추억이 느껴지는 커피 음료 시나몬향과 고소한 견과류가 느껴지는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/05/%5B9200000006164%5D_20250513101130306.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 꿀 호떡 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "스타벅스의 다른 커피 음료보다 더욱 깊은 커피의 맛과 향에 깔끔한 무지방 우유와 부드러운 돌체 시럽이 들어간 음료로 달콤하고 진한 커피 라떼",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B128692%5D_20210426091933665.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 돌체 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "진한 리저브 에스프레소 샷과 은은한 라벤더향이 고급스럽게 어우러진 부드럽고 세련된 풍미의 라벤더 카페 브레베",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/04/%5B9200000004120%5D_20220412082952150.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 라벤더 카페 브레베",
+      "category": "에스프레소"
+    },
+    {
+      "description": "부드럽고 달콤한 밀크카라멜의 은은한 풍미와 풍부한 질감을 느낄 수 있는 특별한 우유가 만나 언제나 편안하게 즐길 수 있는 라떼입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000006238%5D_20250613084659816.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 밀크카라멜 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "달콤한 바닐라의 향을 풍부하고 진한 에스프레소, 부드러운 우유와 함께 즐길 수 있는 라떼입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/10/%5B9200000006346%5D_20251029141759604.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 바닐라 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "리저브만을 위한 바닐라 빈 시럽이 부드럽게 어우러진 카페 라떼",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/02/%5B9200000001941%5D_20210225094346653.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 바닐라 빈 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "풍부하고 부드러운 바디감의 별다방 블렌드 원두로 내린 에스프레소와 신선한 우유와 얼음이 만나 고소함과 시원함을 즐길 수 있는 스타벅스 이대점만의 카페 라떼 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9200000005520%5D_20240919155241283.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 스타벅스 1호점 카페 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "\"Coffee & Tea & Spice\"스타벅스 첫번째 로고에서 착안한 음료로 스파이시한 향의 달콤하고 부드러운 커피 차이 크림폼, 풍부한 바디감의 별다방 블렌드 원두를 사용한 깊고 부드러운 크림 라떼 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9200000005523%5D_20240919155443058.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 스타벅스 1호점 크림 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "한국의 대표 길거리 음식의 친근하고 익숙한 호떡을 형상화한 음료로 어린시절 추억이 느껴지는 커피 음료 시나몬향과 고소한 견과류가 느껴지는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/05/%5B9200000006165%5D_20250513101211857.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 스타벅스 꿀 호떡 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "스타벅스의 다른 커피 음료보다 더욱 깊은 커피의 맛과 향에 깔끔한 무지방 우유와 부드러운 돌체 시럽이 들어간 음료로 달콤하고 진한 커피 라떼",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B128695%5D_20250626095651684.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 스타벅스 돌체 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "고소하고 쌉싸름한 맛의 콩고물과 쫀득한 식감의 인절미 젤리를 달콤한 크림이 얹어진 커피와 함께 즐길 수 있는 라떼",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/05/%5B9200000005285%5D_20240509131125335.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 인절미 크림 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "풍부하고 진한 에스프레소에 시원한 우유를 더해 부드럽게 즐길 수 있는 커피",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B110569%5D_20250626094801903.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 카페 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "고소하고 쌉싸름한 맛의 콩고물과 쫀득한 식감의 인절미 젤리를 달콤한 크림이 얹어진 커피와 함께 즐길 수 있는 라떼",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/05/%5B9200000005284%5D_20240509131037171.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "인절미 크림 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "리저브 원두로 만든 라떼에 말차 돌체 베이스를 추가하여 제주 천년의 숲 비자림을 표현한 라떼. 오직 송당에서만 만날 수 있는 음료로, 따뜻한 비자림의 풍미를 느껴보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/10/%5B9200000006575%5D_20251013103821201.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "제주 비자림 리저브 에스프레소 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "풍부하고 진한 에스프레소가 신선한 스팀 밀크를 만나 부드러워진 커피 위에 우유 거품을 살짝 얹은 커피",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B41%5D_20210415133833725.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "카페 라떼",
+      "category": "에스프레소"
+    },
+    {
+      "description": "진하면서도 부드러운 블론드 리스트레토 3샷에 폼을 살짝 낸 스팀 밀크를 더해 짙은 커피 풍미를 즐길 수 있는 코르타도입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/10/%5B9200000006338%5D_20251029141124907.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "코르타도",
+      "category": "에스프레소"
+    },
+    {
+      "description": "제주의 고소함을 가득 담은 시그니처 피넛 아인슈페너의 등장! 진한 땅콩 풍미에 에스프레소를 더하고, 땅콩 크림과 너티 쿠키로 완성한 제주 특화 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9200000006976%5D_20260421123846098.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "피넛 크림 쿠키 아인슈페너",
+      "category": "에스프레소"
+    },
+    {
+      "description": "진한 초콜릿 모카 시럽과 풍부한 에스프레소를 신선한 우유 그리고 얼음과 섞어 휘핑크림으로 마무리한 음료로 진한 에스프레소와 초콜릿 맛이 어우러진 커피",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B110566%5D_20250626113005628.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 카페 모카",
+      "category": "에스프레소"
+    },
+    {
+      "description": "달콤하고 부드러운 화이트 초콜릿 시럽과 에스프레소를 신선한 우유 그리고 얼음과 섞어 휘핑크림으로 마무리한 음료로 달콤함과 강렬한 에스프레소가 부드럽게 어우러진 커피",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B110572%5D_20250626113205748.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 화이트 초콜릿 모카",
+      "category": "에스프레소"
+    },
+    {
+      "description": "진한 초콜릿 모카 시럽과 풍부한 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 진한 에스프레소와 초콜릿 맛이 어우러진 커피",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B46%5D_20210415134438165.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "카페 모카",
+      "category": "에스프레소"
+    },
+    {
+      "description": "스타벅스의 클래식인 페퍼민트 모카를 떠올리게 하는 리저브만의 에스프레소 음료 오트음료(식물성 대체유)의 고소함과 다크 초콜릿의 쌉쌀함이 특징인 음료입니다",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/10/%5B9200000004313%5D_20221005145156959.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "클래식 민트 모카",
+      "category": "에스프레소"
+    },
+    {
+      "description": "달콤하고 부드러운 화이트 초콜릿 시럽과 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 달콤함과 강렬한 에스프레소가 부드럽게 어우러진 커피",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B128192%5D_20210415155639126.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "화이트 초콜릿 모카",
+      "category": "에스프레소"
+    },
+    {
+      "description": "부드러운 리스트레토 샷과 완벽한 양의 우유를 더해, 카페 라떼보다 커피의 맛을 진하게 즐길 수 있는 에스프레소 음료입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000005181%5D_20250626095819133.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 플랫 화이트",
+      "category": "에스프레소"
+    },
+    {
+      "description": "부드러운 리스트레토 샷과 완벽한 양의 스팀밀크를 더해, 카페 라떼보다 커피의 맛을 진하게 즐길 수 있는 에스프레소 음료입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/03/%5B9200000005178%5D_20240326103727795.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "플랫 화이트",
+      "category": "에스프레소"
+    },
+    {
+      "description": "신선하게 제조된 더블 샷 믹스에 바닐라 시럽을 넣고 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B110612%5D_20250626095701777.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바닐라 스타벅스 더블 샷",
+      "category": "에스프레소"
+    },
+    {
+      "description": "민트 잎과 쉐이킹한 리저브 에스프레소를 바닐라 아이스크림에 부어 프레쉬함과 달콤함이 조화롭게 퍼지는 리저브 만의 디저트 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/03/%5B9200000003505%5D_20210322093241535.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "사케라또 아포가토",
+      "category": "에스프레소"
+    },
+    {
+      "description": "리저브 에스프레소에 상큼한 레몬과 진저에일을 더해 청량감과 시트러스 풍미를 가득 선사하는 커피 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/03/%5B9200000003506%5D_20210322093317854.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "스파클링 시트러스 에스프레소",
+      "category": "에스프레소"
+    },
+    {
+      "description": "스타벅스 에스프레소는 향기로운 크레마 층과 바디 층, 하트 층으로 이루어져 있으며, 입안 가득히 커피와 달콤한 카라멜 향이 느껴지는 커피 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B20%5D_20210415144112678.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "에스프레소",
+      "category": "에스프레소"
+    },
+    {
+      "description": "스타벅스 리저브 에스프레소를 새롭고 다양하게 즐길 수 있는 에스프레소 플라이트",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9900000001604%5D_20240909104819181.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "에스프레소 플라이트",
+      "category": "에스프레소"
+    },
+    {
+      "description": "스타벅스 리저브 에스프레소를 새롭고 다양하게 즐길 수 있는 에스프레소 플라이트",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/04/%5B9900000001721%5D_20250424124232037.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "에스프레소 플라이트 도산",
+      "category": "에스프레소"
+    },
+    {
+      "description": "신선하게 제조된 더블 샷 믹스에 클래식 시럽을 넣고 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B110611%5D_20250626095539402.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "커피 스타벅스 더블 샷",
+      "category": "에스프레소"
+    },
+    {
+      "description": "[리저브R 매장 전용음료] 리저브 에스프레소 투 샷이 바닐라 아이스크림과 진하게 어우러진 정통 아포가토",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000001631%5D_20260909161158483.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "클래식 아포가토",
+      "category": "에스프레소"
+    },
+    {
+      "description": "신선하게 제조된 더블 샷 믹스에 헤이즐넛 시럽을 넣고 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B110614%5D_20250626174624137.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "헤이즐넛 스타벅스 더블 샷",
+      "category": "에스프레소"
+    },
+    {
+      "description": "리스트레토 에스프레소 2샷과 에스프레소 칩, 하프앤하프가 진하게 어우러진 커피의 기본에 충실한 프라푸치노",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000002760%5D_20250626095415811.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "더블 에스프레소 칩 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "한국의 대표 길거리 음식의 친근하고 익숙한 호떡을 형상화한 음료로 어린시절 추억을 느끼며, 시나몬향과 고소한 견과류를 더욱 시원하게 즐길 수 있는 프라푸치노 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000006303%5D_20250619133012310.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 꿀 호떡 크림 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "풍부하고 진한 에스프레소 샷의 강렬함과 달콤함이 어우러져 깊은 커피의 풍미를 느낄 수 있는 프라푸치노",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B168007%5D_20250626095952087.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "에스프레소 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "커피, 모카 소스, 진한 초콜릿 칩이 입안 가득 느껴지는 스타벅스에서만 맛볼 수 있는 프라푸치노",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B168016%5D_20250626113600873.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "자바 칩 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "카라멜과 커피가 어우러진 프라푸치노",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B168010%5D_20250626113443023.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "카라멜 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "상큼&달콤한 딸기와 부드러운 글레이즈드 소스에 바삭한 딸기 토핑을 얹은 프라푸치노. 숙련된 바리스타의 솜씨로 그려낸 특별한 예술 작품을 감상해보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/06/%5B9200000005369%5D_20240614143554454.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "딸기 글레이즈드 크림 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "여름 수국의 사랑스러운 색감을 형상화한 음료로 은은하게 퍼지는 얼그레이의 플로럴향과 딸기의 상큼한 풍미가 느껴지는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/07/%5B9200000006304%5D_20250708105445804.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "베르가못 딸기 크림 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "자연과 어우러진 수국의 색감을 형상화한 음료로 제주산 말차와 함께 은은하게 퍼지는 얼그레이의 플로럴향으로 부드러운 맛을 즐길 수 있는 음료 (제주산 말차)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000006305%5D_20250619141412982.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "베르가못 제주 말차 크림 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "쫄깃한 흑임자 떡과 블랙 소보로 토핑으로 컵빙수처럼 먹는 음료. 고소한 흑임자와 쫄깃한 흑임자 떡, 달콤한 블랙 소보로 토핑으로 제주의 돌 하르방 길을 느낄 수 있는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000002088%5D_20250626114629418.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "squid"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "제주 까망 크림 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "깊고 진한 말차 본연의 맛과 향을 시원하고 부드럽게 즐길 수 있는 프라푸치노",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000002502%5D_20250626100915378.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "제주 말차 크림 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "[제주지역 한정음료] 쫄깃쫄깃한 흑임자 떡으로 씹는 재미를 즐길 수 있는 음료로, 고소한 흑임자와 쑥떡 토핑이 올라간 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000002090%5D_20250626114614395.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "제주 쑥떡 크림 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "제주 오름의 풍경과 달콤한 초당옥수수를 담은 싱그러운 프라푸치노! 초당 옥수수와 부드러운 글레이즈 폼, 톡톡 터지는 옥수수 식감이 어우러진 제주 특화 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9200000006981%5D_20260422133605399.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "제주 오름 초당옥수수 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "모카 소스와 진한 초콜릿 칩, 초콜릿 드리즐이 올라간 달콤한 크림 프라푸치노",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B168066%5D_20250626113822018.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "초콜릿 크림 칩 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "땅콩과 너티 쿠키가 어우러진 풍성하고 밀키한 프라푸치노. 달콤하고 고소한 땅콩 풍미를 시원하게 즐길 수 있는 제주 특화 음료로 여행을 특별하게 즐겨보세요!",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9200000006980%5D_20260422133322108.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "피넛 쿠키 크림 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "밀크 쉐이크 같은 부드럽고 달콤한 바닐라 크림 프라푸치노에 깊은 풍미의 단맛을 가진 흑당시럽이 어우러져 용인에버랜드 백호의 줄무늬를 형상화한 부드럽고 달콤한 프라푸치노 * 용인에버랜드점에서만 판매하는 음료입니다",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000002403%5D_20250626100106311.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "화이트 타이거 프라푸치노",
+      "category": "프라푸치노"
+    },
+    {
+      "description": "망고 패션 프루트 주스와 블랙 티가 깔끔하게 어우러진 과일 블렌디드",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B167004%5D_20250626095805229.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "망고 패션 프루트 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "꼬냑 향을 가미한 상큼한 레모네이드와 은은한 얼 그레이 티가 어우러진 블렌디드 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9200000004716%5D_20261006112253581.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "북한산 레몬 얼 그레이 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "블랙티의 풍미와 향이 더욱 풍요롭게 느껴질 수 있는 밀크티 블렌디드",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/08/%5B9200000004945%5D_20250827131549415.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 클래식 밀크티 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "맑고 깨끗한 여수 경도의 낮 바다 풍경을 형상화한 음료로 상큼하게 즐길 수 있는 유자 블렌디드 음료 (유자:국내산)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/07/%5B9200000004870%5D_20260731110244613.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "여수 바다 유자 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "새콤달콤 한라봉, 천혜향과 탱글말랑 한라봉 젤리로 제주의 싱그러움을 담아 낸 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/10/%5B9200000005377%5D_20251013104535651.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제주 탄제린 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "고농축 유산균의 부드러운 요거트와 딸기 본연의 상콤&달콤한 과육이 상큼하게 어우러진 리뉴얼 된 과일 요거트 블렌디드",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/07/%5B9200000003276%5D_20250721084027663.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "딸기 딜라이트 요거트 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "쏟아지는 폭포를 표현한 말차와 상큼한 유자 캐모마일 티가 만나 시원한 평화를 선사하는 송당만의 과일 티 블렌디드 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/10/%5B9200000006577%5D_20251013103946321.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "말차 폭포 유자 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "(Grande Only) 달콤한 망고 패션 프루트 주스에 바나나 1개가 통째로 들어간 신선한 블렌디드",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B169001%5D_20250626100121981.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "망고 바나나 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "마스카포네 크림을 얹은 에스프레소 셔벗과 리저브 에스프레소를 함께, 또 따로 아포가토처럼 즐기는 디저트 스타일 셔벗 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/03/%5B9200000006941%5D_20260324151120249.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "블랙 글레이즈드 셔벗 플레이트",
+      "category": "블렌디드"
+    },
+    {
+      "description": "고농축 유산균의 부드러운 요거트와 달콤한 블루베리가 부드럽게 어우러진 시원한 과일 요거트 블렌디드",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/07/%5B9200000006963%5D_20260714082039571.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "블루베리 딜라이트 요거트 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "제로 시럽을 활용해 칼로리 부담을 낮추고, 달콤한 자몽 허니에 레몬을 더해 가볍고 상큼하게 즐길 수 있는 과일 블렌디드 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/09/%5B9200000006466%5D_20250904105105974.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자몽 허니 레몬 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "오직 강릉에서만 다시 만날 수 있는 특화 음료로, 달콤한 피치,망고에 산뜻한 히비스커스 티를 더한 매력적인 음료 *G Only",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/06/%5B9200000004780%5D_20260604081230816.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "피치 망고 블렌디드",
+      "category": "블렌디드"
+    },
+    {
+      "description": "딸기, 아사이베리 주스와 레모네이드가 달콤 상큼하게 조화된 맛에 가볍게 에너지 부스팅을 할 수 있는 리프레셔 음료.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000004753%5D_20250626175350251.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "딸기 아사이 레모네이드 스타벅스 리프레셔",
+      "category": "리프레셔"
+    },
+    {
+      "description": "피치, 망고, 딸기 등의 다양한 과일 플레이버와 레모네이드가 조화롭게 어우러진 리프레셔 음료 두 가지 핑크 톤의 레이어와 함께 가볍게 에너지 부스팅 할 수 있는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/06/%5B9200000007097%5D_20260619142429847.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "핑크 피치 리프레셔",
+      "category": "리프레셔"
+    },
+    {
+      "description": "상큼한 유자와 헤스페리딘을 담아 청량하게 즐기기 좋은 피지오. 걷기 좋은 날, 많이 걸은 날 리프레시 하기 좋은 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000007155%5D_20260928104553674.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유자 V 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "상큼한 유자와 제주산 말차를 청량하게 즐길 수 있는 피지오. 가벼운 하루를 부스트 업 시키고 싶을 때 즐기기 좋은 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000007152%5D_20260928104430399.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유자 말차 V 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "부드럽게 느껴지는 티폼과 시트러스한 감귤 풍미 맥주 느낌의 청량하게 즐기는 상큼한 피지오 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/05/%5B9200000006172%5D_20250513101034691.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "골든 만다린 홉 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "달콤 쌉싸름한 자몽에 탄산의 청량감을 가득 담은 피지오로, 2018년 대비 칼로리를 60% 낮춰 돌아왔습니다. *G사이즈 기준 99kcal 이하 *18년 대비 칼로리 60% DOWN",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000005168%5D_20250626095609681.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "라이트 핑크 자몽 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "길고 깊은 강의 모습과 달콤한 복숭아가 만나 강의 뷰를 즐기며 힐링할 수 있는 상큼한 피지오",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/05/%5B9200000005283%5D_20240509131233446.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "리버 피치 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "궁궐 연못을 형상화하는 파랑색 라임 에이드와, 진한 석양을 형상화 하는 상큼한 오미자 용과 피지오가 섞여 아름다운 보랏빛으로 변하는 서울 특화 피지오",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/03/%5B9200000006937%5D_20260304125026093.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "서울 석양 오미자 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "여수 돌산대교의 밤바다 풍경을 형상화한 음료로 알록달록 색상 조명의 토핑과 함께 여수의 풍경을 바라보며 즐길 수 있는 트로피컬 맛의 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/09/%5B9200000004751%5D_20230907153225204.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "여수 바다 자몽 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "춘천의암호 낮의 싱그러운 초록빛을 형상화한 음료로 청자몽과 라임, 레몬젤리를 활용한 피지오 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/10/%5B9200000005588%5D_20241017130009134.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "의암호의 초록빛 자몽 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "제주송당의 소원나무에 걸린 제주 동백꽃을 형상화한 음료 제주의 자몽이라는 별명을 가진 제주 팔삭과 제주 한라봉으로 매장에서 직접 만든 셔벗과 함께 상큼하게 즐길 수 있는 피지오 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/01/%5B9200000004946%5D_20240103144959834.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제주팔삭 셔벗 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "제주의 자몽이라는 별명을 가진 팔삭과 제주 한라봉으로 상큼하고 가볍게 즐길 수 있는 피지오 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/08/%5B9200000004947%5D_20250827131344272.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제주팔삭 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "체리와 자두의 이색 조합으로 그란데 사이즈 99kcal와 타우린과 비타민C 등이 영양소가 함유되어 건강한 에너지를 시원하게 즐길 수 있는 카페인 프리 음료. (필요 시 무료로 블랙 티 커스텀을 통해 카페인도 추가할 수 있습니다)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/07/%5B9200000005983%5D_20250724154622363.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "체리&자두 에너지 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "그린 빈 추출액이 들어간 라임 베이스에 건조된 라임 슬라이스를 넣고 스파클링한 시원하고 청량감 있는 음료입니다. (카페인이 함유된 탄산음료입니다)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B107051%5D_20250626093749068.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "쿨 라임 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "피치와 딸기의 상큼한 과일과 청량한 탄산의 조화로 리프레시 할 수 있는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/11/%5B9200000004567%5D_20251125104447608.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "피치 딸기 피지오",
+      "category": "피지오"
+    },
+    {
+      "description": "깨끗한 정수에 100% 제주산 녹찻잎을 곱게 갈아 완성한 말차. 차광 재배한 제주산 녹찻잎을 곱게 갈아 말차 본연의 깔끔한 맛과 향을 즐길 수 있는 음료.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9200000007158%5D_20261001123512465.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 퓨어 말차",
+      "category": "티"
+    },
+    {
+      "description": "깨끗한 정수에 100% 국내산 호지차만을 담은 음료. 호지차 본연의 고소한 풍미와 깊은 향을 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9200000007184%5D_20261001123958037.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 퓨어 호지차",
+      "category": "티"
+    },
+    {
+      "description": "깨끗한 정수에 100% 제주산 녹찻잎을 곱게 갈아 완성한 말차. 차광 재배한 제주산 녹찻잎을 곱게 갈아 말차 본연의 깔끔한 맛과 향을 즐길 수 있는 음료.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9200000007178%5D_20261001123642175.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "퓨어 말차",
+      "category": "티"
+    },
+    {
+      "description": "깨끗한 정수에 100% 국내산 호지차만을 담은 음료. 호지차 본연의 고소한 풍미와 깊은 향을 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9200000007181%5D_20261001123852597.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "퓨어 호지차",
+      "category": "티"
+    },
+    {
+      "description": "깊고 맑은 블랙 티에 부드러운 치즈 풍미의 글레이즈드 폼을 더한 스타벅스만의 폼 티(Foam Tea). 알로에 토핑의 산뜻한 식감이 더해져 풍부한 맛과 다채로운 식감을 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000007173%5D_20260910142947420.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "글레이즈드 폼 블랙 티",
+      "category": "티"
+    },
+    {
+      "description": "글레이즈드의 색다른 변신! 쌉싸름한 말차와 달콤한 글레이즈드를 넣어 가을과 잘 어울리는 비주얼과 맛의 티 라떼 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000006412%5D_20260910142648343.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "말차 글레이즈드 티 라떼",
+      "category": "티"
+    },
+    {
+      "description": "글레이즈드의 색다른 변신! 쌉싸름한 말차와 달콤한 글레이즈드를 넣어 가을과 잘 어울리는 비주얼과 맛의 티 라떼 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000006415%5D_20260910142754201.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 말차 글레이즈드 티 라떼",
+      "category": "티"
+    },
+    {
+      "description": "국내산 호지차로 만든 티 라떼에 글레이즈드 폼을 올린 음료. 고소한 호지차에 치즈 풍미를 더한 글레이즈드 폼이 어우러져 색다른 맛을 즐길 수 있는 음료.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000007164%5D_20260928103930887.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 호지 글레이즈드 티 라떼",
+      "category": "티"
+    },
+    {
+      "description": "국내산 호지차로 만든 티 라떼에 글레이즈드 폼을 올린 음료. 고소한 호지차에 치즈 풍미를 더한 글레이즈드 폼이 어우러져 색다른 맛을 즐길 수 있는 음료.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000007161%5D_20260928103330438.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "호지 글레이즈드 티 라떼",
+      "category": "티"
+    },
+    {
+      "description": "스피어민트, 페퍼민트, 레몬머틀이 블렌딩된 상쾌한 허브 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B4004000000056%5D_20210415135215632.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "민트 블렌드 티",
+      "category": "티"
+    },
+    {
+      "description": "스피어민트, 페퍼민트, 레몬머틀이 블렌딩된 상쾌한 허브 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B4004000000059%5D_20250626095245748.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 민트 블렌드 티",
+      "category": "티"
+    },
+    {
+      "description": "꽃향 가득한 라벤더와 베르가못 향이 진한 홍차와 블렌딩된 향긋한 블랙 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B4004000000039%5D_20250626095101523.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 얼 그레이 티",
+      "category": "티"
+    },
+    {
+      "description": "제주산 찻잎으로 만든 황차에 사과, 망고, 파인애플, 히비스커스, 로즈힙 등이 블렌딩되어 핑크빛 컬러가 감도는 수색과 베리류의 새콤함을 느낄 수 있는 옐로우 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000000229%5D_20250626094905408.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 유스베리 티",
+      "category": "티"
+    },
+    {
+      "description": "달콤한 국내산 고흥 유자와 알싸하고 은은한 진저와 상쾌한 민트 티가 조화로운 유자 민트 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000002959%5D_20250626095858925.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 유자 민트 티",
+      "category": "티"
+    },
+    {
+      "description": "인도 아삼, 제주도 유기농 홍차가 블렌딩되어 진한 벌꿀향과 그윽한 몰트향이 특징인 블랙 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B4004000000019%5D_20250626094722001.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 잉글리쉬 브렉퍼스트 티",
+      "category": "티"
+    },
+    {
+      "description": "유기농 녹차 티백만을 100%(물 제외) 사용한 티로 맑은 수색과 고유의 풍미가 뛰어난 녹차",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B400400000094%5D_20250626095637338.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 제주 녹차",
+      "category": "티"
+    },
+    {
+      "description": "제주의 자몽이라는 별명을 가진 팔삭과 마누카꿀로 자몽과 블랙티의 맛을 더욱 고급스럽게 즐길 수 있는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/08/%5B9200000004944%5D_20250827132453999.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 제주팔삭 & 자몽 허니 블랙 티",
+      "category": "티"
+    },
+    {
+      "description": "캐모마일과 레몬 그라스, 레몬밤, 히비스커스 등 블렌딩되어 은은하고 차분한 향이 기분을 좋게하는 허브 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B4004000000079%5D_20250626095526701.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 캐모마일 블렌드 티",
+      "category": "티"
+    },
+    {
+      "description": "히비스커스, 사과, 파파야, 망고, 레몬그라스 등이 블렌딩된 상큼한 허브 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B4004000000069%5D_20250626095350549.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 히비스커스 블렌드 티",
+      "category": "티"
+    },
+    {
+      "description": "꽃향 가득한 라벤더와 베르가못 향이 진한 홍차와 블렌딩된 향긋한 블랙 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B4004000000036%5D_20210415143933425.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "얼 그레이 티",
+      "category": "티"
+    },
+    {
+      "description": "제주산 찻잎으로 만든 황차에 사과, 망고, 파인애플, 히비스커스, 로즈힙 등이 블렌딩되어 핑크빛 컬러가 감도는 수색과 베리류의 새콤함을 느낄 수 있는 옐로우 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B9200000000226%5D_20210415144434521.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유스베리 티",
+      "category": "티"
+    },
+    {
+      "description": "달콤한 국내산 고흥 유자와 알싸하고 은은한 진저, 우릴 수록 상쾌한 민트 티가 조화로운 유자 민트 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/04/%5B9200000002956%5D_20220411155551915.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유자 민트 티",
+      "category": "티"
+    },
+    {
+      "description": "인도 아삼, 제주도 유기농 홍차가 블렌딩되어 진한 벌꿀향과 그윽한 몰트향이 특징인 블랙 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B4004000000016%5D_20210415153648533.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "잉글리쉬 브렉퍼스트 티",
+      "category": "티"
+    },
+    {
+      "description": "새콤한 자몽과 달콤한 꿀이 깊고 그윽한 풍미의 스타벅스 티바나 블랙 티의 조화",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B9200000000187%5D_20210419131229539.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자몽 허니 블랙 티",
+      "category": "티"
+    },
+    {
+      "description": "유기농 녹차 티백만을 100%(물 제외) 사용한 티로 맑은 수색과 고유의 풍미가 뛰어난 녹차",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B400400000091%5D_20210415132229904.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제주 녹차",
+      "category": "티"
+    },
+    {
+      "description": "제주의 자몽이라는 별명을 가진 팔삭과 마누카꿀로 자몽과 블랙티의 맛을 더욱 고급스럽게 즐길 수 있는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/08/%5B9200000004943%5D_20250827132403893.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제주팔삭 & 자몽 허니 블랙 티",
+      "category": "티"
+    },
+    {
+      "description": "캐모마일과 레몬 그라스, 레몬밤, 히비스커스 등 블렌딩되어 은은하고 차분한 향이 기분을 좋게하는 허브 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B4004000000076%5D_20210415154920731.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "캐모마일 블렌드 티",
+      "category": "티"
+    },
+    {
+      "description": "히비스커스, 사과, 파파야, 망고, 레몬그라스 등이 블렌딩된 상큼한 허브 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B4004000000066%5D_20210415155836395.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "히비스커스 블렌드 티",
+      "category": "티"
+    },
+    {
+      "description": "상큼한 레몬에 캐모마일이 은은하게 감도는 무카페인 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/12/%5B9200000004990%5D_20231212110704134.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레몬 캐모마일 블렌드 티",
+      "category": "티"
+    },
+    {
+      "description": "찻잎을 직접 우려 만든 상큼하고 청량한 아이스 티로, 복숭아의 진한 맛과 홍차의 조화가 매력적인 음료 *트렌타 사이즈는 Iced Only로 제공됩니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000005310%5D_20250626175453436.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "복숭아 아이스 티",
+      "category": "티"
+    },
+    {
+      "description": "찻잎을 직접 우려 만든 따뜻한 티로, 복숭아와 진한 홍차의 풍미를 느낄 수 있는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/07/%5B9200000005304%5D_20240717132620949.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "복숭아 핫 티",
+      "category": "티"
+    },
+    {
+      "description": "유자, 청자몽이 어우러진 민트 티에 머들링한 신선한 민트가 더해져 상큼하면서도 상쾌한 풍미가 산뜻하게 느껴지는 논 카페인 티 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/10/%5B9200000006560%5D_20251010154155973.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "시트러스 가든 민트 티",
+      "category": "티"
+    },
+    {
+      "description": "상큼한 레몬에 캐모마일이 은은하게 감도는 무카페인 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/12/%5B9200000004991%5D_20231212110749533.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 레몬 캐모마일 블렌드 티",
+      "category": "티"
+    },
+    {
+      "description": "새콤한 자몽과 달콤한 꿀이 깊고 그윽한 풍미의 스타벅스 티바나 블랙 티의 조화",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000000190%5D_20250626093924488.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 자몽 허니 블랙 티",
+      "category": "티"
+    },
+    {
+      "description": "달콤 쌉싸름한 말차크림으로 부드럽게 즐길 수 있는 디저트 타입의 말차 티라미수 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/11/%5B9200000004954%5D_20231127093740735.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "말차 티라미수 라떼",
+      "category": "티"
+    },
+    {
+      "description": "스타벅스가 선보이는 클래식한 밀크 티로, 진하게 오래 우려낸 티바나 블랙 티의 깊은 풍미와 우유의 조화로움을 담아낸 '맛'에 집중한 밀크 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/01/%5B9200000004933%5D_20250102105625904.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 클래식 밀크 티",
+      "category": "티"
+    },
+    {
+      "description": "진하게 우려낸 블랙 티의 깊은 풍미와 우유의 조화로움을 담아낸 클래식 밀크 티를 전용 보틀과 함께, 언제 어디서나, 편하게 즐겨보세요.(전용 보틀 / 500ml)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000004942%5D_20250626095409672.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 클래식 밀크 티 보틀",
+      "category": "티"
+    },
+    {
+      "description": "달콤 쌉싸름한 말차크림으로 부드럽게 즐길 수 있는 디저트 타입의 말차 티라미수 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/11/%5B9200000004955%5D_20231127093837610.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 말차 티라미수 라떼",
+      "category": "티"
+    },
+    {
+      "description": "스타벅스가 선보이는 클래식한 밀크 티로, 진하게 오래 우려낸 티바나 블랙 티의 깊은 풍미와 우유의 조화로움을 담아낸 '맛'에 집중한 밀크 티",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000004936%5D_20250626095136814.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 스타벅스 클래식 밀크 티",
+      "category": "티"
+    },
+    {
+      "description": "진한 말차에 은은한 우베 폼을 더한 매력적인 말차 라떼 말차와 우베의 부드러운 조화를 즐길 수 있는 리저브 티 라떼 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/05/%5B9200000007093%5D_20260518094559868.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 우베 말차 라떼",
+      "category": "티"
+    },
+    {
+      "description": "춘천의암호의 낭만적인 밤하늘의 보랏빛을 표현한 음료로 차분한 느낌의 라벤더를 활용하여 릴렉스 할 수 있는 티 라떼 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/10/%5B9200000005590%5D_20241017130203194.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 의암호의 보랏빛 라벤더 티 라떼",
+      "category": "티"
+    },
+    {
+      "description": "차광재배한 어린 녹찻잎을 곱게 갈아 깊고 진한 말차 본연의 맛과 향을 부드럽게 즐길 수 있는 제주 말차 라떼",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000002499%5D_20250626100713501.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 제주 말차 라떼",
+      "category": "티"
+    },
+    {
+      "description": "번트 슈가의 풍미가 더해진 프렌치 바닐라 크림과 말차가 어우러진 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/04/%5B9200000006059%5D_20250424110002176.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 프렌치 바닐라 말차 라떼",
+      "category": "티"
+    },
+    {
+      "description": "춘천의암호의 낭만적인 밤하늘의 보랏빛을 표현한 음료로 차분한 느낌의 라벤더를 활용하여 릴렉스 할 수 있는 티 라떼 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/10/%5B9200000005589%5D_20241017130107685.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "의암호의 보랏빛 라벤더 티 라떼",
+      "category": "티"
+    },
+    {
+      "description": "차광재배한 어린 녹찻잎을 곱게 갈아 깊고 진한 말차 본연의 맛과 향을 부드럽게 즐길 수 있는 제주 말차 라떼",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B9200000002496%5D_20210419131039350.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "제주 말차 라떼",
+      "category": "티"
+    },
+    {
+      "description": "번트 슈가의 풍미가 더해진 프렌치 바닐라 크림과 말차가 어우러진 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/04/%5B9200000006058%5D_20250424105905420.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "프렌치 바닐라 말차 라떼",
+      "category": "티"
+    },
+    {
+      "description": "가을에 잘 어울리는 군고구마를 한 잔에 담은 카페인 프리 음료. 포슬한 카스텔라, 쫀득한 펄이 어우러져 다채로운 식감을 즐길 수 있는 음료.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000007170%5D_20260928104805180.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 카스텔라 고구마 라떼",
+      "category": "기타"
+    },
+    {
+      "description": "가을에 잘 어울리는 군고구마를 한 잔에 담은 카페인 프리 음료. 포슬한 카스텔라, 쫀득한 펄이 어우러져 다채로운 식감을 즐길 수 있는 음료.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9200000007167%5D_20260928104702866.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "카스텔라 고구마 라떼",
+      "category": "기타"
+    },
+    {
+      "description": "딸기 풍미 가득한 스타벅스만의 딸기 콜드폼과 은은한 초콜릿의 향으로 남녀노소 즐길 수 있는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/12/%5B9200000004950%5D_20231204090636952.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "딸기 콜드폼 초콜릿",
+      "category": "기타"
+    },
+    {
+      "description": "깊고 진한 초콜릿과 부드러운 휘핑크림이 입안에서 사르르 녹는 초콜릿 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B72%5D_20210415140949967.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "시그니처 핫 초콜릿",
+      "category": "기타"
+    },
+    {
+      "description": "깊고 진한 초콜릿과 부드러운 휘핑크림이 입안에서 사르르 녹는 초콜릿 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B110621%5D_20250626113323062.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 시그니처 초콜릿",
+      "category": "기타"
+    },
+    {
+      "description": "리저브 다크 초콜릿을 활용하여 초콜릿 풍미 가득한 디저트 타입의 티라미수 초콜릿",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/11/%5B9200000004953%5D_20231127094019543.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 티라미수 초콜릿",
+      "category": "기타"
+    },
+    {
+      "description": "리저브 다크 초콜릿을 활용하여 초콜릿 풍미 가득한 디저트 타입의 티라미수 초콜릿",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/11/%5B9200000004952%5D_20231127093937845.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "티라미수 초콜릿",
+      "category": "기타"
+    },
+    {
+      "description": "고소한 헤이즐넛과 진한 초콜릿의 만남, 귀여운 판다까지 더해진 플러피 판다 아이스 초콜릿! * 용인에버랜드점에서만 판매하는 음료입니다",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000003658%5D_20250626095124588.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "플러피 판다 아이스 초콜릿",
+      "category": "기타"
+    },
+    {
+      "description": "고소한 헤이즐넛과 진한 핫초콜릿의 만남, 귀여운 판다까지 더해진 플러피 판다 핫 초콜릿! * 용인에버랜드점에서만 판매하는 음료입니다",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B9200000002594%5D_20210422080327783.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "플러피 판다 핫 초콜릿",
+      "category": "기타"
+    },
+    {
+      "description": "딸기 풍미 가득한 스타벅스만의 딸기 콜드폼과 딸기 본연의 맛을 즐길 수 있는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/11/%5B9200000004951%5D_20231102101647442.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "딸기 콜드폼 딸기 라떼",
+      "category": "기타"
+    },
+    {
+      "description": "스트로베리와 아사이베리의 상큼, 달콤한 맛이 톡톡! 시원하고 통쾌한 그랜드 슬램을 위한 에너지 부스팅 음료~! * SSG랜더스필드 매장에서만 판매하는 음료입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B9200000003659%5D_20250626093348421.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "스타벅스 슬래머",
+      "category": "기타"
+    },
+    {
+      "description": "부드럽고 담백한 따뜻한 우유.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B17%5D_20210426095334934.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스팀 우유",
+      "category": "기타"
+    },
+    {
+      "description": "부드럽고 담백한 신선한 우유.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/06/%5B18%5D_20250626093838261.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "우유",
+      "category": "기타"
+    },
+    {
+      "description": "제주의 자몽이라는 별명을 가진 팔삭과 한라봉으로 매장에서 직접 만든 상큼한 셔벗",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/08/%5B9200000004957%5D_20250827131450142.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제주팔삭 셔벗",
+      "category": "기타"
+    },
+    {
+      "description": "과일 및 채소를 착즙하여 만든 주스! 사과, 비트, 당근이 들어가 과일&채소를 달콤하게 즐길 수 있는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/03/%5B9300000004346%5D_20240328133443928.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "ABC 클렌즈 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "통오렌지를 착즙해 스페인 네이블 오렌지의 맛이 그대로 느껴지는 프리미엄 주스",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9300000005406%5D_20240905084511440.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "스퀴즈드 오렌지 주스 100ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "과일 및 채소를 착즙하여 만든 주스! 케일, 셀러리, 오이가 들어가 과일&채소를 건강하게 즐길 수 있는 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/03/%5B9300000004348%5D_20240328133830383.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "케일 클렌즈 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "달콤한 국내산 딸기의 과육이 듬뿍 느껴지는 주스",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/05/%5B5210008070%5D_20250527081742210.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "딸기주스 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "노랗게 익은 열대과일 망고가 입안 가득 느껴지는 주스",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/10/%5B5210008061%5D_20241031123748556.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "망고주스 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "동남아의 땡모반과 같이 수박 특유의 달콤함과 청량함이 입안 가득 느껴지는 주스",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9300000005405%5D_20240905084714529.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "수박 주스 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "프리미엄 유기농 오렌지 주스로 스페인산 오렌지 착즙! 오렌지 그대로 100% 담긴 3개 분량 물, 설탕, 첨가물 없는 오렌지 그대로의 맛",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9300000003771%5D_20240923184306693.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유기농 오렌지 100% 주스 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "국내산 케일과 사과의 달콤함이 조화로운 녹색 주스",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B5210008072%5D_20210426100712780.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "케일&사과주스 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "새콤달콤한 황금빛 제주 한라봉을 그대로 담아낸 주스",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/10/%5B5210008055%5D_20241031123524702.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "한라봉주스 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "달콤새콤한 햇사과 1개 반을 껍질 그대로 착즙한 사과 주스",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9300000002565%5D_20240923184651121.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "햇사과 주스 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "상큼 달콤 딸기 과육이 한가득 씹히는 마시는 요거트 음료",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/10/%5B9300000003775%5D_20211020094208342.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "딸기 가득 요거트 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "블루베리 과육이 입안 가득 느껴지는 마시는 요거트",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B5210008063%5D_20240923185114500.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "블루베리 요거트 190ML",
+      "category": "올가니카"
+    },
+    {
+      "description": "달콤한 삼색 콩 찰떡을 호두 베이글 속에 가득 채워, 쫀득하고 부드러운 식감과 달콤 고소함이 조화로운 베이글입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006830%5D_20260910143804575.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "walnut",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "찰떡콩떡 베이글",
+      "category": "베이커리"
+    },
+    {
+      "description": "달콤한 블루베리와 탕종법으로 반죽한 후 고온에서 데치고, 짧게 구워 내 쫄깃하고 촉촉한 식감이 특징인 블루베리 베이글입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/09/%5B9300000004823%5D_20230911131337120.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "탕종 블루베리 베이글",
+      "category": "베이커리"
+    },
+    {
+      "description": "탕종법으로 반죽한 후 고온에서 데치고, 짧게 구워 내 쫄깃하고 촉촉한 식감이 특징인 플레인 베이글입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/09/%5B9300000004833%5D_20230911131305579.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "탕종 플레인 베이글",
+      "category": "베이커리"
+    },
+    {
+      "description": "쫄깃한 베이글 안에 고소한 모짜렐라 치즈와 에멘탈 치즈가 들어가고 체다 치즈를 토핑해 짭짤하고 고소한 향이 가득한 베이글입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/12/%5B9300000006230%5D_20251231080903631.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "트리플 치즈 베이글",
+      "category": "베이커리"
+    },
+    {
+      "description": "고메 버터의 풍미가 은은하게 맴도는 담백한 스콘입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/11/%5B9300000005663%5D_20241106163602619.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "잉글리쉬 스콘",
+      "category": "베이커리"
+    },
+    {
+      "description": "쫄깃한 떡을 넣은 쑥 스콘 위에 땅콩을 넣은 소보로를 올린 달콤하고 고소한 스콘입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/03/%5B9300000004028%5D_20220314152820975.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "피넛 쑥 떡 스콘",
+      "category": "베이커리"
+    },
+    {
+      "description": "은은한 단맛이 감도는 부드러운 빵 위에 국내산 달걀 흰자와 체다 & 모짜렐라 치즈, 베이컨으로 고소함과 풍미를 더한 고단백 간편 푸드입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/03/%5B9300000006508%5D_20260313092909738.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "K-에그 바이트",
+      "category": "베이커리"
+    },
+    {
+      "description": "[제주지역 한정푸드] 제주도의 현무암을 크루아상에 오름 모양을 아몬드 페이스트로 형상화하여만든 크루아상입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B9300000001361%5D_20210421133918737.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "squid"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "거문 오름 크루아상",
+      "category": "베이커리"
+    },
+    {
+      "description": "부드러운 식감과 달콤한 맛이 매력적인 링 도넛입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/01/%5B9300000005768%5D_20250102151619801.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "글레이즈드 도넛",
+      "category": "베이커리"
+    },
+    {
+      "description": "나뭇잎 모양의 달콤하고 바삭한 파이입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/02/%5B9300000004008%5D_20220218143920309.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "미니 리프 파이",
+      "category": "베이커리"
+    },
+    {
+      "description": "기존 대비 버터 함량을 높여 더욱 깊어진 풍미, 바삭한 겉면과 부드럽고 쫄깃한 식감, 짭조롬한 소금이 어우러져 더 맛있어진 바게트 소금빵입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006831%5D_20260820125137656.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바게트 소금빵",
+      "category": "베이커리"
+    },
+    {
+      "description": "부드럽고 폭신한 빵 속에 크림치즈를 채워 진하게 구워 낸, 색다른 매력의 크림치즈 브레드입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/03/%5B9300000006480%5D_20260313093013865.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "번트 크림치즈 브레드",
+      "category": "베이커리"
+    },
+    {
+      "description": "국내산 찹쌀이 들어있는 쫀득한 식감의 꽈배기입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/02/%5B9300000006492%5D_20260223082257984.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "우리 찹쌀 꽈배기",
+      "category": "베이커리"
+    },
+    {
+      "description": "[제주지역 한정푸드] 제주의 주상절리 모양을 표현하여 겹겹이 쌓은 패스츄리를 바삭하게 구운 후 초콜릿을 입혀 달콤하게 즐길 수 있는 제주 전용 파이입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B9300000002489%5D_20210421134243043.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat",
+        "squid"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "주상절리 파이",
+      "category": "베이커리"
+    },
+    {
+      "description": "돌돌 말린 쫄깃한 도우와 육즙 가득 두툼한 소시지, 어니언 소스가 잘 어우러지는 세이보리 브레드입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/05/%5B9300000006537%5D_20260527080535711.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "쫄깃 소시지 브레드",
+      "category": "베이커리"
+    },
+    {
+      "description": "하트 모양의 바삭한 파이입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B5110006070%5D_20210422111451589.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "하트 파이",
+      "category": "베이커리"
+    },
+    {
+      "description": "가을 대표 식재료인 단호박을 담은 치즈케이크. 달콤한 단호박과 진한 치즈케이크에 쿠키 크럼블이 더해져 풍부한 식감을 즐길 수 있는 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006871%5D_20260910143631424.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "골든 펌킨 크림 치즈 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "국내산 밤을 넣은 마롱 치즈 케이크 위에 부드러운 생크림, 달콤한 몽블랑 크림을 층층이 쌓아 올린 가을 시즌 한정 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006186%5D_20260928095207564.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "마롱 몽블랑 치즈 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "고객들에게 꾸준히 사랑받아 온 부드러운 생크림 카스텔라에 스타벅스 인기 시즌 음료 블랙 글레이즈드 라떼의 매력을 담았습니다. 부드러운 글레이즈드 크림과 진한 모카 초코 크림이 어우러져 깊은 풍미를 즐길 수 있는 부생카입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006870%5D_20260928100853538.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "블랙 글레이즈드 부생카",
+      "category": "케이크"
+    },
+    {
+      "description": "부드러운 얼 그레이 시트 속 부드러운 마스카포네 생크림과 향긋한 얼 그레이 크림이 조화롭게 어우러지는 가을 시즌 케이크 입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006817%5D_20260928095016062.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "얼 그레이 카라멜 넛츠 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "멜론과 샤인머스캣을 한 번에 즐길 수 있는 시즌 케이크로, 부드러운 생크림과 어우러진 두 과일의 산뜻하고 달콤한 풍미가 매력입니다. 소중한 이들에게 작은 선물이 필요한 순간을 위해 준비한 미니 홀케이크입니다. 생일, 기념일은 물론 감사의 마음을 전할 때도 가볍게 즐기기 좋은 사이즈입니다. (지름 11cm, 중량 276g)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006869%5D_20260825095237251.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "더 멜론 오브 샤인 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "달콤한 브륄레 토핑을 더한 치즈 케이크로, 진한 치즈 케이크와 고소한 쿠키, 달콤한 브륄레를 함께 즐기는 케이크입니다. 소중한 이들에게 작은 선물이 필요한 순간을 위해 준비한 미니 홀케이크입니다. 생일, 기념일은 물론 감사의 마음을 전할 때도 가볍게 즐기기 좋은 사이즈입니다. (지름 11cm, 중량 380g)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006822%5D_20260825095357293.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "브륄레 쿠키 치즈케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "쫀득한 모찌를 품은 부드러운 바스크 치즈 케이크로, 진한 치즈 풍미와 쫀득한 식감을 동시에 느낄 수 있는 케이크입니다. (지름 14.5cm / 중량 630g)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006889%5D_20260909162756087.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "모찌 품은 바스크 치즈 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "은은한 밤 풍미의 치즈 케이크 위에 부드러운 마스카포네 크림, 달콤한 몽블랑 크림과 보늬밤을 올려 마무리한 케이크 입니다. (지름 14.3cm / 중량 600g)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006891%5D_20260923141831744.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "보늬밤 몽블랑 치즈 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "부드러운 고구마 무스 사이에 고구마 다이스로 고구마 풍미를 가득 담아 생크림을 샌드하고 카스텔라 가루를 듬뿍 올린 달콤하고 고소한 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/12/%5B9300000006218%5D_20251231081030365.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "고구마 카스텔라 생크림 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "촉촉한 초코 카스텔라 안에 달콤한 가나슈 생크림을 듬뿍 담은 뒤 우유 생크림과 딸기로 상단에 토핑을 한 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/02/%5B9300000005594%5D_20250205141352684.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "딸기 촉촉 초코 생크림 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "진한 풍미의 마스카포네 치즈 크림 사이에 커피 시럽으로 촉촉하게 적신 레이디핑거 쿠키가 샌드되어 부드럽게 어우러지는 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/12/%5B9300000005607%5D_20241216090249007.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "레이디핑거 티라미수 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "쫀득한 모찌를 품은 부드러운 바스크 치즈 케이크로, 플레인과 초코 두 가지 맛이 어우러져 다채로운 풍미를 느낄 수 있는 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/07/%5B9300000006609%5D_20260727102747891.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "모찌 쏙 바스크 치즈 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "바나나 푸딩의 매력을 담은 부드러운 바나나 크림과 달콤한 바나나 슬라이스, 고소한 쿠키 크럼블이 층층이 어우러져 꾸덕한 식감과 깊은 풍미를 즐길 수 있는 떠먹는 디저트 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006873%5D_20260805083656256.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바나나 푸딩 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "부드러운 생크림이 듬뿍 들어있는 촉촉한 카스텔라입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B5110007181%5D_20210421164728509.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "부드러운 생크림 카스텔라",
+      "category": "케이크"
+    },
+    {
+      "description": "촉촉한 블루베리가 콕콕 박힌 진한 풍미의 치즈 케이크로 달콤 상큼한 블루베리가 조화롭게 어우러지는 치즈 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/09/%5B9300000005472%5D_20240926125201748.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "beef",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "블루베리 마블 치즈 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "입안 가득 퍼지는 고소한 타르트와 촉촉한 크림, 풍성한 딸기 토핑이 조화를 이루는 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/02/%5B9300000006282%5D_20260219130524401.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스트로베리 타르트",
+      "category": "케이크"
+    },
+    {
+      "description": "초코가 더해진 촉촉한 투톤 컬러의 카스텔라에 부드러운 생크림, 초코 생크림 두 가지 매력을 한번에 즐길 수 있어 더욱 매력적인 부생카입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/03/%5B9300000005769%5D_20250304112847520.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "초코 품은 부생카",
+      "category": "케이크"
+    },
+    {
+      "description": "진한 초콜릿 풍미로 가득한 가나슈 크림을 케이크 시트 사이에 샌드하고 초콜릿 크런치 볼로 바삭한 식감을 살린 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/03/%5B9300000006565%5D_20260313093132335.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "초콜릿 크런치 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "현무암을 연상케 하는 오징어 먹물 케이크 시트 사이에 새콤한 당근 크림치즈 무스를 샌드한 컵 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B9300000001055%5D_20210421133631796.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "squid",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "당근 현무암 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "녹차 롤 케이크 시트에 진한 마스카포네 크림과 달콤 쌉싸름한 제주 녹차 가나슈를 넣은 롤 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/07/%5B9300000003468%5D_20210727081659217.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "제주 녹차 생크림 롤",
+      "category": "케이크"
+    },
+    {
+      "description": "롤 케이크 시트에 땅콩을 넣은 진한 마스카포네 크림과 고소한 제주산 땅콩 가나슈을 넣은 후 고소한 카라멜 땅콩을 올린 롤 케이크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/07/%5B9300000003469%5D_20210727081817626.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "제주 땅콩 생크림 롤",
+      "category": "케이크"
+    },
+    {
+      "description": "달콤하고 고소한 우유 생크림 안에 바삭하게 씹히는 화이트 초콜릿 볼이 쏙쏙 박혀 있는 생크림 케이크입니다. 베어리스타 초콜릿 사인판이 올라가 있습니다. (지름 16cm / 중량 675g)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/05/%5B9300000004100%5D_20220523144316602.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "베어리스타 우유 생크림 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "초콜릿, 가나슈, 모카로 만든 시트와 크림으로 만든 7개의 층이 특징이며, 가나슈로 감싸 진한 풍미의 초콜릿 케이크입니다. (지름 12cm / 중량 510g)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/05/%5B9300000002065%5D_20220523145502021.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "세븐 레이어 가나슈 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "얼 그레이 케이크 시트 사이에 부드럽고 향긋한 얼 그레이 생크림을 샌드한 케이크입니다. (사이즈 15cm / 중량 520g)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/05/%5B9300000001521%5D_20220523145258639.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "청담스타 얼 그레이 밀크 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "촉촉한 커피 시트 위에 진한 마스카포네 치즈 크림과 얇게 구워낸 모카 크레이프를 층층이 쌓아올린 티라미수 케이크 입니다. (지름 13.5cm / 중량 330g)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006880%5D_20260818090612678.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "티라미수 크레이프 케이크",
+      "category": "케이크"
+    },
+    {
+      "description": "겉은 바삭, 속은 쫄깃한 루스틱 브레드에 발사믹이 더해진 달콤상콤한 무화과 리플잼, 부드러운 리코타 치즈와 잠봉, 향긋한 루꼴라가 어우러져 담백하게 즐길 수 있는 샌드위치입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006829%5D_20260928095541112.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "무화과 잠봉 루꼴라 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "프렌치 어니언 스프를 모티브로, 달콤하게 볶은 발사믹 어니언과 햄, 풍성하게 녹아내리는 3가지 치즈가 고대곡물 파로를 넣어 구수함을 더한 사워도우와 어우러져 깊고 진한 가을 풍미를 담은 샌드위치입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006856%5D_20260910143712578.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "shellfish",
+        "pork",
+        "chicken",
+        "beef",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "프렌치 어니언 멜팅 치즈 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "당근 식빵 사이에 아삭한 당근 라페와 잠봉 햄, 스크램블 에그를 넣은 샌드위치입니다. * 산도롱은 '시원한'이라는 뜻의 제주도 방언입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/03/%5B9300000004506%5D_20230320090823437.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "tomato",
+        "shellfish",
+        "pork",
+        "beef",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "당근 산도롱 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "쫄깃한 잉글리쉬 머핀 사이에 담백한 에그 프라이 두 장과 포크 패티를 넣고 체다치즈로 감칠맛을 낸 든든한 아침을 위한 샌드위치입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/11/%5B9300000005697%5D_20241120104432369.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "shellfish",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "더블 에그 브렉퍼스트 & 체다 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "쫄깃한 잉글리시 머핀 사이 담백한 닭가슴살로 만든 치킨 브레스트 햄과 베이컨, 에그 프라이, 체다 치즈, 스윗 올리브& 칠리 마요 소스로 부드러우면서 매콤한 맛을 더한 모닝 샌드위치 입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/08/%5B9300000005349%5D_20240802095756947.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "tomato",
+        "shellfish",
+        "pork",
+        "chicken"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "더블 치킨 브레스트 체다 & 에그 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "프렌치토스트 스타일로 구워낸 빵 사이에 에그 스프레드를 샌드하고 빵 위에 치즈와 베이컨을 얹어 구운 토스트입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/01/%5B9300000005813%5D_20250110155406172.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "pork",
+        "chicken",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "멜팅 치즈 베이컨 토스트",
+      "category": "샌드위치"
+    },
+    {
+      "description": "폭신한 식빵 안에 겹겹의 포크 커틀릿과 고소한 모짜렐라 치즈, 달콤한 카라멜 어니언 돈카츠 소스와 알싸한 블랙페퍼 아이올리 소스가 어우러진 샌드위치 입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006634%5D_20260827090848261.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "tomato",
+        "shellfish",
+        "pork",
+        "beef",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "모짜렐라 포크 커틀릿 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "브리오슈번 사이 육즙 가득한 소시지와 미트 칠리 & 사워크림 소스로 감칠맛을 더하고, 그릴드 베지터블과 치즈로 조화로운 맛을 낸 핫도그입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9300000006431%5D_20260415083650734.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "tomato",
+        "shellfish",
+        "pork",
+        "chicken",
+        "beef",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "미트 칠리 핫도그",
+      "category": "샌드위치"
+    },
+    {
+      "description": "향긋한 바질 페스토로 버무린 치킨과 감칠맛을 살린 토마토 라이스에 고소한 모짜렐라 치즈로 풍미를 더해 따뜻하게 구워낸 브리또입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/03/%5B9300000005859%5D_20250311155315768.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "tomato",
+        "shellfish",
+        "chicken",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바질 치킨 토마토 브리또",
+      "category": "샌드위치"
+    },
+    {
+      "description": "고소한 곡물 식빵 안에 바질 치킨 샐러드와 토마토, 신선한 로메인, 발사믹 어니언이 어우러진 샌드위치입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/07/%5B9300000006549%5D_20260727103107787.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "tomato",
+        "chicken",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바질 치킨 토마토 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "쫄깃한 올리브 탕종 베이글에 상큼한 반건조 토마토를 넣은 크림치즈와 바질 페스토를 더하여 산뜻한 여름에도 가볍게 즐길 수 있는 베이글 샌드입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/07/%5B9300000005233%5D_20240704143442188.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat",
+        "tomato"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바질 토마토 탕종 베이글 샌드",
+      "category": "샌드위치"
+    },
+    {
+      "description": "고소한 버터 풍미의 브리오슈 감자 번 사이 도톰한 오믈렛과 베이컨, 체다 치즈와 케이준& 마요 소스로 부드러우면서 매콤한 맛을 더한 모닝 샌드위치 입니다",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/08/%5B9300000005350%5D_20240802095851565.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "pork",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "베이컨 체다 & 오믈렛 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "노릇하게 구운 브리오슈 식빵 사이 따뜻하고 부드러운 스크램블 에그와 고소한 베이컨을 샌드하고 연유 마요로 감칠맛을 더한 토스트 샌드위치입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/09/%5B9300000006121%5D_20250923123535850.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "shellfish",
+        "pork",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스크램블 에그 베이컨 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "식빵에 새콤달콤한 그릭 소스를 바르고 고소한 에그 스프레드와 햄, 치즈에 신선함을 더할 로메인을 조합한 클럽 샌드위치입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/12/%5B9300000005698%5D_20251224140934477.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "pork",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "에그 클럽 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "부드러우면서 바삭한 바게트 빵 사이에 담백한 닭가슴살과 풍미 깊은 머쉬룸소스를 버무린 버섯 사이로 녹아내린 치즈가 조화로운 바게트 샌드위치입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/04/%5B9300000005157%5D_20240430143823711.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "chicken"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "치킨 & 머쉬룸 멜팅 치즈 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "고소한 호밀 식빵 안에 크랜베리와 호두가 들어간 치킨 샐러드와 신선한 로메인, 토마토가 어우러진 샌드위치입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/05/%5B9300000005855%5D_20250521092733765.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "walnut",
+        "soy",
+        "egg",
+        "wheat",
+        "tomato",
+        "chicken",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "크랜베리 치킨 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "고소한 베사멜 소스와 햄, 3가지 치즈(스위스, 에멘탈, 체다)로 깊은 풍미를 완성한 크로크무슈입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/02/%5B9300000006468%5D_20260206095322628.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "pork",
+        "chicken"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "크로크무슈",
+      "category": "샌드위치"
+    },
+    {
+      "description": "쫄깃한 올리브 치아바타 사이 루꼴라 페스토를 바르고 치즈를 가득 얹은 뒤 치킨 햄과 반건조 토마토, 올리브 마요 소스로 감칠맛을 더해 따뜻하게 구워낸 샌드위치입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9300000005567%5D_20260420091433479.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "tomato",
+        "chicken",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "햄 & 루꼴라 페스토 샌드위치",
+      "category": "샌드위치"
+    },
+    {
+      "description": "신선한 우유와 달걀을 듬뿍 넣어 부드러운 푸딩 속에 달콤한 카라멜 시럽을 더했습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9300000006872%5D_20261007130134170.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "카라멜 커스터드 푸딩",
+      "category": "요거트"
+    },
+    {
+      "description": "국내산 복숭아를 가득 담은 달콤한 맛의 스타벅스 핸디 젤리입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/10/%5B9300000004508%5D_20251022132204611.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "복숭아 가득 핸디 젤리",
+      "category": "요거트"
+    },
+    {
+      "description": null,
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B5110009171%5D_20210421162111179.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "프리미엄 바나나",
+      "category": "요거트"
+    },
+    {
+      "description": "국내산 사과와 대추 방울 토마토를 한 컵에 담아 언제 어디서나 편하게 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/01/%5B9300000005088%5D_20240102110826378.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "하루 한 컵 RED+",
+      "category": "요거트"
+    },
+    {
+      "description": "제주도 특산물인 한라봉과 감귤을 가득 담은 상큼한 맛의 스타벅스 핸디 젤리입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/10/%5B9300000001912%5D_20251030083722576.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "한라봉 가득 핸디 젤리",
+      "category": "요거트"
+    },
+    {
+      "description": "동물복지 인증 농장에서 건강하게 자란 닭이 낳은 무항생제 계란으로 만든 1구 반숙란입니다. (난각번호 2번)",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/09/%5B9300000006068%5D_20250903092534055.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "한개란",
+      "category": "요거트"
+    },
+    {
+      "description": "행운을 상징하는 네잎 클로버 초콜릿과 응원의 메시지를 함께 담은 상품입니다. 클로버 틴 케이스와 함께 달콤한 행운을 전하세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9300000006881%5D_20261007132126024.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "클로버 틴 초콜릿",
+      "category": "초콜릿"
+    },
+    {
+      "description": "크런치, 돌체, 베리 핑거 초콜릿이 각각 2개씩 들어있는 세트 상품입니다. 필통으로 활용할 수 있는 특별한 파우치에 담은 초콜릿으로 달콤한 응원의 마음을 전하세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9300000006882%5D_20261007132246014.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "핑거 초콜릿 파우치 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "쫀득한 찰떡 속에 고소한 인절미 크림을 채운 파이가 10개 들어있는 상품입니다. 땅콩과 초콜릿을 코팅하여 더욱 고소하고 달콤하게 즐기실 수 있습니다. 찰떡파이로 합격의 기운을 선물하세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9300000006875%5D_20261007131923227.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "(10개입)인절미찰떡파이",
+      "category": "초콜릿"
+    },
+    {
+      "description": "사이렌 로고 모양의 고소한 버터 쿠키 사이에 달콤한 카라멜 필링을 채운 쿠키입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006877%5D_20260923091736343.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "버터 카라멜 샌드 쿠키",
+      "category": "초콜릿"
+    },
+    {
+      "description": "행운의 상징인 네잎클로버 모양의 버터 카라멜 샌드 쿠키와 다크 카라멜 샌드 쿠키가 각각 8개씩 들어있는 세트 상품입니다. 클로버 샌드 쿠키로 응원하는 마음을 전하세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9300000006028%5D_20261007131732834.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "클로버 샌드 쿠키",
+      "category": "초콜릿"
+    },
+    {
+      "description": "국내산 우리 밤을 가득 담아 가을의 맛을 즐길 수 있는 마들렌입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006209%5D_20260928095729253.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "마롱 마들렌",
+      "category": "초콜릿"
+    },
+    {
+      "description": "가을 제철 밤의 깊은 풍미를 담은 쫀득한 찰떡이 4개 들어있는 상품입니다. 쫀득 마롱 찰떡으로 합격을 기원하는 마음을 전하세요. * 쫀득 마롱 찰떡을 맛있게 즐기는 TIP ㆍ실온 10분 해동 시 아이스크림처럼 시원하고 부드러운 식감으로 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/10/%5B9300000006887%5D_20261007132517627.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "pork",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "마롱 찰떡 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "달콤한 밤을 쫀득한 찰떡에 가득 담은 디저트 입니다. 쫀득한 식감 속 마롱 필링과 크림의 깊은 풍미를 즐길 수 있습니다. * 쫀득 마롱 찰떡을 맛있게 즐기는 TIP ㆍ실온 10분 해동 시 아이스크림처럼 시원하고 부드러운 식감으로 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/09/%5B9300000006883%5D_20260910143912053.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "pork",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "쫀득 마롱 찰떡",
+      "category": "초콜릿"
+    },
+    {
+      "description": "바닐라 밀크 필링을 가득 채워 더욱 부드럽습니다. 6등분 되어 개별 포장된 스틱 타입으로 간편하게 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/01/%5B9300000005528%5D_20260109152531374.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "돌체 핑거 초콜릿",
+      "category": "초콜릿"
+    },
+    {
+      "description": "바닐라 밀크 필링을 가득 채워 더욱 부드럽습니다. 돌체 핑거 초콜릿이 3개 들어있는 세트로 가볍게 선물하기 좋은 초콜릿입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/01/%5B9300000005533%5D_20260123124409253.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "돌체 핑거 초콜릿 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "깊은 풍미의 말차, 단짠 매력의 핑크 솔트 화이트, 고소한 호지차 3가지 맛으로 구성한 러스크 세트입니다. 각기 다른 매력의 러스크와 함께 특별한 티타임을 즐겨보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006834%5D_20260813102434118.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "러스크 어소트먼트 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "벨기에와 프랑스산 재료를 넣은 프리미엄 초콜릿으로 리저브 커피와 드시면 더욱 맛이 좋습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B9300000001610%5D_20210430112116995.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "리저브 초콜릿 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "건조 딸기가 톡톡 씹히는 딸기 필링이 가득 들어 있습니다. 6등분 되어 개별 포장된 스틱 타입으로 간편하게 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/12/%5B9300000005815%5D_20251212134957283.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "베리 핑거 초콜릿",
+      "category": "초콜릿"
+    },
+    {
+      "description": "건조 딸기가 톡톡 씹히는 딸기 필링이 가득 들어 있습니다. 6등분 되어 개별 포장된 스틱 타입으로 간편하게 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9300000005814%5D_20260420162427036.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "베리 핑거 초콜릿 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "탄자니아 카카오빈을 사용해 만든 코코아 매스와 비정제 원당으로 초콜릿 고유의 풍미를 즐길 수 있습니다. 기분 좋은 산미가 특징인 카카오 함량 70%의 탄자니아 카카오의 매력을 느껴보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/04/%5B9300000005546%5D_20250422091758966.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 리저브 오리진 초콜릿 다크 70",
+      "category": "초콜릿"
+    },
+    {
+      "description": "에콰도르 카카오빈을 사용해 만든 코코아 매스로 고급스러운 단맛을 즐길 수 있습니다. 고소하고 부드러운 풍미의 조화가 특징인 에콰도르 카카오의 매력을 느껴보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/04/%5B9300000005547%5D_20250422092151793.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 리저브 오리진 초콜릿 밀크",
+      "category": "초콜릿"
+    },
+    {
+      "description": "[제주지역 한정푸드] 제주의 유명 자연 경관인 오름 모양을 형상화한 초콜릿 세트 입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/03/%5B9300000001257%5D_20260325110501876.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "제주 오름 초콜릿 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "달콤한 솔티드 카라멜 초콜릿에 아몬드가 콕콕 박혀있어 오도독 씹는 즐거움을 더합니다. 6등분 되어 개별 포장된 스틱 타입으로 간편하게 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9300000006493%5D_20260403101354468.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "크런치 핑거 초콜릿",
+      "category": "초콜릿"
+    },
+    {
+      "description": "통 헤이즐넛을 밀크 초콜릿으로 감싸 고소하고 달콤합니다. 휴대하기 간편한 패키지로 언제 어디서든 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/07/%5B9300000005372%5D_20240709162811414.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "헤이즐넛 볼 초콜릿 밀크",
+      "category": "초콜릿"
+    },
+    {
+      "description": "쫀득한 찰떡 속에 바삭한 카다이프와 달콤하고 고소한 피스타치오 크림을 채운 파이가 6개 들어있는 상품입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9300000006499%5D_20260410171041099.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "(6개입)카다이프찰떡파이",
+      "category": "초콜릿"
+    },
+    {
+      "description": "헤이즐넛, 아몬드가 들어가서 더욱 고소한 맛의 너티 쿠키입니다. 스타벅스에서만 만나볼 수 있는 쿠키를 스타벅스의 음료와 함께 즐겨보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/02/%5B9300000005315%5D_20260209082722861.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 너티 쿠키",
+      "category": "초콜릿"
+    },
+    {
+      "description": "헤이즐넛과 아몬드가 들어가서 더욱 고소한 맛의 너티 쿠키가 8개 들어있는 상품입니다. 선물하기 좋은 틴 케이스에 담긴 고소한 너티 쿠키로 마음을 전하세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/01/%5B9300000005313%5D_20260108130817138.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 너티 쿠키 틴 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "코코아의 깊고 진한 풍미가 한입에 퍼지는 바삭한 초코 쿠키가 틴 케이스에 8개 들어있는 상품입니다. 스타벅스에서만 만나볼 수 있는 달콤한 초코 쿠키로 특별함을 더하세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/01/%5B9300000005687%5D_20260108125411284.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 초코 쿠키 틴 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "파마산 치즈의 짭조름한 맛과 버터의 풍미가 조화로운 쿠키입니다. 스타벅스에서만 만나볼 수 있는 고소한 치즈 쿠키를 음료와 함께 즐겨보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/05/%5B9300000006428%5D_20260514102727632.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "스타벅스 치즈 쿠키",
+      "category": "초콜릿"
+    },
+    {
+      "description": "아몬드를 바삭하게 구워 벌꿀과 황설탕으로 코팅한 달콤한 견과류 간식입니다. 아몬드, 감태, 흑임자 맛 3가지를 다양하게 즐겨보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9300000006319%5D_20260428085839301.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "아몬드 정과 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "우리쌀로 만든 전병 위에 땅콩을 토핑하여 더욱 고소한 상품입니다. 전병 3개가 들어간 봉지가 총 4봉 들어있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006322%5D_20260824090032920.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "우리쌀 전병 땅콩맛",
+      "category": "초콜릿"
+    },
+    {
+      "description": "우리쌀로 만든 전병 위에 파래김을 토핑하여 더욱 감칠맛 나는 상품입니다. 전병 3개가 들어간 봉지가 총 4봉 들어있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006321%5D_20260824085715152.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "우리쌀 전병 파래김맛",
+      "category": "초콜릿"
+    },
+    {
+      "description": "달콤한 초콜릿 칩이 콕콕 박힌 부드러운 쿠키입니다. 바스켓에 달린 메시지 택에 마음을 적어 감사한 분에게 선물하세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/05/%5B9300000006162%5D_20260518085529294.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "초콜릿 칩 쿠키 바스켓",
+      "category": "초콜릿"
+    },
+    {
+      "description": "바삭한 식감이 특징인 웨이퍼롤 타입의 스낵입니다. 바닐라향의 쿠키 속을 달콤한 초콜릿으로 코팅했습니다. 스트로우처럼 음료에 꽂아서 즐겨보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/02/%5B9300000006019%5D_20260209081845659.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "쿠키 스트로우 단품",
+      "category": "초콜릿"
+    },
+    {
+      "description": "바삭한 식감이 특징인 웨이퍼롤 타입의 쿠키 스트로우가 19개 들어있는 세트 상품입니다. 바닐라향의 쿠키 속을 달콤한 초콜릿으로 코팅했습니다. 스트로우처럼 음료에 꽂아서 즐겨보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/02/%5B9900000001722%5D_20260209082226686.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "쿠키 스트로우 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "고소한 버터 쿠키 위에 달콤한 과일 잼을 올린 추석 보름달을 닮은 쿠키 세트입니다. 온가족이 나누어먹기 좋은 24입 구성이며, 달콤한 사과잼이 올라간 쿠키와 상큼한 딸기잼이 올라간 쿠키가 각각 12개씩 들어있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006825%5D_20260813102221820.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "풀문 잼 쿠키 세트",
+      "category": "초콜릿"
+    },
+    {
+      "description": "쫀득한 찰떡 속에 달콤한 헤이즐넛 크림을 채운 파이가 6개 들어있는 상품입니다. 땅콩과 초콜릿을 코팅하여 더욱 고소하고 달콤하게 즐기실 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/01/%5B9300000006388%5D_20260123123526536.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peanut",
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "피넛초코찰떡파이 6개입",
+      "category": "초콜릿"
+    },
+    {
+      "description": "겉은 바삭하고 속은 쫄깃한 초코 가나슈가 샌드된 진한 맛의 초콜릿 마카롱입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B9300000001924%5D_20210421133005814.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "다크 초콜릿 마카롱",
+      "category": "초콜릿"
+    },
+    {
+      "description": "달콤한 초콜릿 칩을 듬뿍 올려 깊고 진한 초콜릿 맛을 느낄 수 있는 피낭시에입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/10/%5B9300000005608%5D_20241028092655837.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "초콜릿 피낭시에",
+      "category": "초콜릿"
+    },
+    {
+      "description": "진한 버터 풍미가 느껴지는 겉은 쫀득하고 속은 촉촉한 식감의 피낭시에입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/10/%5B9300000005609%5D_20241028092618551.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "클래식 피낭시에",
+      "category": "초콜릿"
+    },
+    {
+      "description": "하트 모양의 겉은 바삭하고 속은 쫄깃한 상큼한 딸기 맛 마카롱입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/01/%5B9300000004517%5D_20250116140423596.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "하트 스트로베리 마카롱",
+      "category": "초콜릿"
+    },
+    {
+      "description": "고소한 4가지의 프리미엄 견과류와 달콤한 블루베리를 담은 한 입 간식입니다. 선물하기 좋은 박스에 14개를 담은 구성으로, 소중한 분에게 마음을 전해보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9900000001980%5D_20260813102958523.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "walnut"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "(14개입)오도독 하루 넛&블루베리",
+      "category": "초콜릿"
+    },
+    {
+      "description": "우리 당근 말랭이와 시금치를 현미, 아몬드와 함께 넣어 바삭하게 구운 칩입니다. 한 입에 먹기 좋은 그래놀라 칩을 음료와 함께 즐겨보세요.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/05/%5B9300000006410%5D_20260514103006436.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "그래놀라 칩",
+      "category": "초콜릿"
+    },
+    {
+      "description": "전북 고창 고구마로 만든 말랑하고 쫀득한 한 입 간식입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006824%5D_20260813103508000.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "말랑쫀득 고구마바",
+      "category": "초콜릿"
+    },
+    {
+      "description": "향긋한 바질 토마토 올리브 베이글에 진한 로제 시즈닝을 더한 베이글칩입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/12/%5B9300000005560%5D_20241213093127727.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat",
+        "tomato"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "바질 토마토 베이글칩",
+      "category": "초콜릿"
+    },
+    {
+      "description": "입안을 가득 채우는 풍성한 버터 풍미가 느껴지는 스틱 형태의 디저트 버터바입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2023/06/%5B9300000004784%5D_20230613153946645.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "버터바",
+      "category": "초콜릿"
+    },
+    {
+      "description": "야구공 모양의 달콤 짭짤한 버터 팝콘과 고소한 프레첼을 대용량 사이즈로 담아 야구 관람 시 함께 즐기기 좋은 스낵입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/04/%5B9300000006466%5D_20260415083814229.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "베이스볼 팝콘&프레첼",
+      "category": "초콜릿"
+    },
+    {
+      "description": "6가지 스낵을 꾸러미백과 구성하여 다양하게 즐길 수 있는 상품입니다. ※ 상품구성 : 꾸러미백, 바질 토마토 베이글칩, 한 입에 쏙 설향 딸기칩, 카라멜 팝콘&프레첼, 오리지널 템페칩, 그래놀라 칩, 크런치 핑거 초콜릿",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/07/%5B9900000001764%5D_20260713125111525.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "별별꾸러미",
+      "category": "초콜릿"
+    },
+    {
+      "description": "고소한 4가지의 프리미엄 견과류와 달콤한 블루베리를 담은 한 입 간식입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/08/%5B9300000006823%5D_20260813102816704.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "walnut"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "오도독 하루 넛&블루베리",
+      "category": "초콜릿"
+    },
+    {
+      "description": "콩을 발효시켜 만든 템페를 얇게 썰어 바삭하게 즐기는 담백하고 짭짤한 스낵입니다. ※ 템페란 콩을 발효시켜 만든 인도네시아 전통 음식으로, 단백질과 칼슘, 식이섬유 등의 영양소가 들어있는 식재료입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/01/%5B9300000005563%5D_20250103103655211.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "오리지널 템페칩",
+      "category": "초콜릿"
+    },
+    {
+      "description": "자작나무에서 추출한 핀란드산 천연 자일리톨로 만든 크리스탈 원석 형태의 무설탕 캔디입니다. (자일리톨 98.5%, 레몬향 첨가) 미니 틴케이스에 담아 편리하게 드실 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2021/04/%5B9300000002556%5D_20210422111709262.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자일리톨 캔디 크리스탈 레몬",
+      "category": "초콜릿"
+    },
+    {
+      "description": "발리 여행에서 꼭 사오는 간식! YAVA 초콜릿 바닐라 그래놀라를 소개합니다. 야자나무 설탕과 캐슈넛이 어우러진 고소한 통곡물 그래놀라입니다. ※ 파예 무지방 요거트와 함께 하면 더욱 맛있게 즐길 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/11/%5B9300000006125%5D_20251111085902666.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "초콜릿 바닐라 그래놀라",
+      "category": "초콜릿"
+    },
+    {
+      "description": "고소한 감자 베이글에 짭조름한 파마산 치즈 시즈닝을 더한 베이글칩입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2026/07/%5B9300000006765%5D_20260715100949613.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "치즈 감자 베이글칩",
+      "category": "초콜릿"
+    },
+    {
+      "description": "달콤 바삭한 카라멜 팝콘과 고소 짭짤한 프레첼이 어우러진 단짠단짠 매력의 스낵입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/07/%5B9300000006083%5D_20250722164229101.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "카라멜 팝콘&프레첼",
+      "category": "초콜릿"
+    },
+    {
+      "description": "전북 고창 고구마로 건조한 고구마 말랭이입니다. 큐브 형태로 한 입에 간편하게 즐기실 수 있습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/12/%5B9300000005562%5D_20241213093414584.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "한 입에 쏙 고구마",
+      "category": "초콜릿"
+    },
+    {
+      "description": "국산 설향 딸기를 동결 건조하여 새콤달콤한 맛을 그대로 담은 과일 스낵입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2024/12/%5B9300000005559%5D_20241213093029273.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "한 입에 쏙 설향 딸기칩",
+      "category": "초콜릿"
+    },
+    {
+      "description": "국내산 달걀을 넣어 구운 카스텔라를 한 입 크기로 잘라 다시 한번 구워낸 바삭한 카스텔라 러스크입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2022/10/%5B9300000002718%5D_20221020095146597.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Starbucks Korea menu (starbucks.co.kr)",
+      "allergen_note": null,
+      "name": "한 입에 쏙 카스텔라",
+      "category": "초콜릿"
+    },
+    {
+      "description": "국내산 공주 밤을 껍질 제거 후 그대로 쪄낸 간식입니다. 국내 최대 산지인 공주 밤을 엄선해 알이 크고 단 맛이 좋습니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/03/%5B9300000002000%5D_20250318092005568.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "한입에 쏙 공주 알밤",
+      "category": "초콜릿"
+    },
+    {
+      "description": "콩을 발효시켜 만든 템페를 얇게 썰어 바삭하게 즐기는 매콤하고 짭짤한 스낵입니다. ※ 템페란 콩을 발효시켜 만든 인도네시아 전통 음식으로, 단백질과 칼슘, 식이섬유 등의 영양소가 들어있는 식재료입니다.",
+      "photo": "https://image.istarbucks.co.kr/upload/store/skuimg/2025/01/%5B9300000005565%5D_20250103103759122.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "핫칠리 템페칩",
+      "category": "초콜릿"
+    }
+  ]
+}

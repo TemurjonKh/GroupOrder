@@ -1,0 +1,513 @@
+{
+  "slug": "baskin",
+  "name": "Baskin-Robbins",
+  "cuisine": "Ice cream",
+  "logo": null,
+  "logo_bg": null,
+  "delivery_link": "https://www.baskinrobbins.co.kr",
+  "source": "https://www.baskinrobbins.co.kr/menu/list.php?top=A",
+  "dishes": [
+    {
+      "description": "달콤한 딸기우유 솜사탕 아이스크림과 상큼한 블루 레몬 샤베트에 폭신한 치즈케이크가 쏙쏙!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/36829cfd7fc6112c94d9a92ea2ed4543.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat",
+        "soy",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "레몬베리 코튼캔디",
+      "category": "아이스크림"
+    },
+    {
+      "description": "부드러운 치즈케이크에 초콜릿 & 크래커가 듬뿍",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/be99fe13158f3bd7bcc0b9cfc867a3d5.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy",
+        "egg",
+        "peanut"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "루나 치즈 케이크",
+      "category": "아이스크림"
+    },
+    {
+      "description": "바나나와 딸기 아이스크림에 체리, 아몬드, 초코 퍼지가 어우러진 미국식 정통 아이스크림 디저트 바나나 스플릿",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/08ed3aeef560caa52ff6d918627e972f.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "바나나 스플릿",
+      "category": "아이스크림"
+    },
+    {
+      "description": "부드러운 화이트 무스 아이스크림에 진한 초콜릿 퍼지와 고소한 마카다미아 브라우니볼이 가득!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/5d3b2adfe290a8894a25c5141d674c07.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "아이엠, 샘",
+      "category": "아이스크림"
+    },
+    {
+      "description": "그래이맛 콘테스트 2위 수상작! 쌉싸름한 말차와 향긋한 바나나의 조화 속에 바삭한 그라함 쿠키가 쏙쏙!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/feeaaa6a24d355254cd93e95f887d1f8.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "말차에 바나나",
+      "category": "아이스크림"
+    },
+    {
+      "description": "바삭한 프랄린 피칸과 진한 카라멜이 만드는 환상의 맛",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/e443b5fead0cd0d7603169e22957ea0b.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "프랄린 앤 크림",
+      "category": "아이스크림"
+    },
+    {
+      "description": "금메달을 향하여! 바닐라향과 초콜릿 아이스크림에 카라멜 시럽으로 달콤하게!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/bc54ed898e34ffbff32bf6668a0297a3.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "골드 메달 리본",
+      "category": "아이스크림"
+    },
+    {
+      "description": "말차 아이스크림에 연유와 팥, 떡이 어우러진 맛",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/aa8a2389cfff8bdaa145bf3268f19301.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "팥있는 말차당",
+      "category": "아이스크림"
+    },
+    {
+      "description": "블루베리 요거트 아이스크림에 쫀득한 마카롱과 블루베리 & 허니 리본의 만남",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/32ec4c8b5afef7498bf80e3545fe0289.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "고무고무 블루베리 마카롱",
+      "category": "아이스크림"
+    },
+    {
+      "description": "부드럽고 상큼한 열대과일, 입 안 가득 진한 망고 향이 가득!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/705987d3a663da8742c825aff85db31c.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "망고 탱고",
+      "category": "아이스크림"
+    },
+    {
+      "description": "우디와 함께 떠나는 알록달록한 모험! 4가지 컬러 속에 숨겨진 젤리의 탱글한 반전",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/d343eae3174d7367ba5d3296753ef4b2.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "우디의 후르츠 어드벤처",
+      "category": "아이스크림"
+    },
+    {
+      "description": "리얼 카다이프가 들어간 피스타치오&초콜릿 아이스크림에 초콜릿 쫀떡볼이 쏙쏙!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/60b01f68d496cc0ce0ba1709dbd83cd8.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "두바이에서 온 엄마는 외계인",
+      "category": "아이스크림"
+    },
+    {
+      "description": "상큼한 파인애플, 오렌지, 라즈베리가 만드는 일곱빛깔 무지개",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/e84c2a6e281e463a09c5bc17d7ad8f57.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "레인보우 샤베트",
+      "category": "아이스크림"
+    },
+    {
+      "description": "엄선된 녹차를 사용한 싱그러운 그린티 아이스크림",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/8442bc93873c58520f38a113a86effd4.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "그린티",
+      "category": "아이스크림"
+    },
+    {
+      "description": "진한 머스크 멜론의 풍미가 가득!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/3f9cd88ca35a16c4521c590996734351.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "메롱 멜론",
+      "category": "아이스크림"
+    },
+    {
+      "description": "상큼한 사과와 시원한 민트향이 기분까지 상쾌하게",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/269b34eb3367108169b7eac45df01471.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "애플민트",
+      "category": "아이스크림"
+    },
+    {
+      "description": "가볍게 제대로 즐기는 바나나 딸기 바닐라",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/9fa5da5a7c1320d6a29bf1e44af5ee5e.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "(Lessly Edition) 바 베 바",
+      "category": "아이스크림"
+    },
+    {
+      "description": "맛은 그대로! 당류 & 칼로리는 더 가볍게~ 자사 기존 제품 대비 당류 39%, 칼로리 47% 낮아진 엄마는 외계인",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/09ce6b140dad71186b063fbc77fa6617.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "(Lessly Edition) 엄마는 외계인",
+      "category": "아이스크림"
+    },
+    {
+      "description": "딸기와 초콜릿이 치즈케이크에 반해버린 사랑의 맛",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/fea066eec3455d92b954428498ad30b3.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy",
+        "peanut",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "사랑에 빠진 딸기",
+      "category": "아이스크림"
+    },
+    {
+      "description": "밀크 초콜릿, 다크 초콜릿, 화이트 무스 세 가지 아이스크림에 달콤 바삭한 초코볼이 더해진 아이스크림",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/91c8668227bcf556c43a968b97e342e6.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "엄마는 외계인",
+      "category": "아이스크림"
+    },
+    {
+      "description": "쿨한 당신의 선택! 상쾌한 민트향에 초코칩까지!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/fb92d70dee836652115c4f3b13175541.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "민트 초콜릿 칩",
+      "category": "아이스크림"
+    },
+    {
+      "description": "부드럽게 즐기는 뉴욕식 정통 치즈케이크 아이스크림",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/60a04a3a5d1b0119f065d12ee7797b2c.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "뉴욕 치즈케이크",
+      "category": "아이스크림"
+    },
+    {
+      "description": "체리과육이 탱글탱글 씹히는 체리 아이스크림",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/f6609e3e3431d54beceeb1d3787403af.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "체리쥬빌레",
+      "category": "아이스크림"
+    },
+    {
+      "description": "블루베리 & 바닐라향에 입안에서 톡톡 터지는 캔디와 신나는 축제",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/a4b71e8b99743c93a7824331850b0a3d.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "슈팅스타",
+      "category": "아이스크림"
+    },
+    {
+      "description": "부드러운 바닐라향 아이스크림에, 달콤하고 진한 오레오 쿠키가 듬뿍!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/414246bd9041530d6ad4d30d97aac87c.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "오레오 쿠키 앤 크림",
+      "category": "아이스크림"
+    },
+    {
+      "description": "새콤상큼 딸기 과육이 듬뿍!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/ea6608b4f72563b360da5c44c946ddc7.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "베리베리 스트로베리",
+      "category": "아이스크림"
+    },
+    {
+      "description": "유산균이 들어있는 오리지널 요거트 아이스크림",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/d56328637eaf86e3273ebc39c57aada7.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "31요거트",
+      "category": "아이스크림"
+    },
+    {
+      "description": "블루베리와 딸기로 상큼함을 더한 치즈케이크 한 조각",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/01ecc320f5d3a6f32e5188eda373842d.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "바람과 함께 사라지다",
+      "category": "아이스크림"
+    },
+    {
+      "description": "피스타치오와 아몬드가 만나 고소함이 두 배!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/868364b0ed6038d0c9aee0a10e50d4a9.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "피스타치오 아몬드",
+      "category": "아이스크림"
+    },
+    {
+      "description": "진하고 부드러운 정통 초콜릿 아이스크림",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/aff1c39b1653ddb7701abd9b4c8394ee.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "초콜릿",
+      "category": "아이스크림"
+    },
+    {
+      "description": "깊고 풍부한 자모카 아이스크림에 고소한 아몬드와 초콜릿 훠지 시럽이 들어있는 제품",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/f31388da0371388c2086a7c90990a097.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "자모카 아몬드 훠지",
+      "category": "아이스크림"
+    },
+    {
+      "description": "입안 가득 즐거운 초콜릿, 아몬드로 더욱 달콤하게!",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/e7cb5667c3147ddb0b31e28d1f365980.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "아몬드 봉봉",
+      "category": "아이스크림"
+    },
+    {
+      "description": "부드럽고 깔끔한 바닐라 아이스크림",
+      "photo": "https://www.baskinrobbins.co.kr/upload/product/main/901f131644310c0eb356cbab7ecc4738.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Baskin-Robbins Korea menu (baskinrobbins.co.kr)",
+      "allergen_note": null,
+      "name": "바닐라",
+      "category": "아이스크림"
+    }
+  ]
+}

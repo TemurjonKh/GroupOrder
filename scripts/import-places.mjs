@@ -27,6 +27,18 @@ const CHAINS = [
   { restaurant: "BBQ", match: /bbq|비비큐|bb\.q/i },
   { restaurant: "Burger King", match: /버거킹|burger ?king/i },
   { restaurant: "Subway", match: /써브웨이|subway/i },
+  { restaurant: "Starbucks", match: /스타벅스|starbucks/i },
+  { restaurant: "Mega MGC Coffee", match: /메가\s?mgc|메가커피|mega ?(mgc|coffee)/i },
+  { restaurant: "Paik's Coffee", match: /빽다방|paik/i },
+  { restaurant: "Baskin-Robbins", match: /배스킨|baskin/i },
+  { restaurant: "Sulbing", match: /설빙|sulbing/i },
+  { restaurant: "Kyochon Chicken", match: /교촌|kyochon/i },
+  { restaurant: "The Venti", match: /더벤티|the ?venti/i },
+  { restaurant: "Mammoth Coffee", match: /매머드|mammoth/i },
+  { restaurant: "Puradak Chicken", match: /푸라닭|puradak/i },
+  { restaurant: "Popeyes", match: /파파이스|popeyes/i },
+  { restaurant: "Isaac Toast", match: /이삭토스트|isaac/i },
+  { restaurant: "Pizza School", match: /피자스쿨|pizza ?school/i },
 ];
 
 function distance(a, b) {
@@ -112,6 +124,18 @@ async function burgerKingBranches() {
       restaurant: "Burger King",
     };
   });
+}
+
+// --relink matches the saved places to the chains again, without asking Overpass.
+if (process.argv[2] === "--relink") {
+  const file = JSON.parse(readFileSync("supabase/places/inha.json", "utf8"));
+  for (const place of file.places) {
+    if (place.source === "brand") continue;
+    place.restaurant = CHAINS.find((chain) => chain.match.test([place.name, place.name_en].filter(Boolean).join(" ")))?.restaurant ?? null;
+  }
+  writeFileSync("supabase/places/inha.json", `${JSON.stringify(file, null, 1)}\n`);
+  console.log(`supabase/places/inha.json: ${file.places.filter((p) => p.restaurant).length} of ${file.places.length} places have menus`);
+  process.exit(0);
 }
 
 const saved = process.argv[2];

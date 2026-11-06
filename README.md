@@ -50,11 +50,13 @@ cannot follow them yet.
 
 ## Menus
 
-The BBQ, Burger King and Subway menus come from each brand's public site. To refresh them:
+Chain menus come from each brand's public site. To refresh them:
 
 ```sh
-npm run menus:import    # fetches the sites into supabase/menus/*.json
+npm run menus:import    # BBQ, Burger King and Subway, into supabase/menus/*.json
+npm run menus:chains    # the other chains with a branch near Inha (name brands to do only those)
 npm run places:import   # fetches the places around Inha into supabase/places/inha.json
+                        # (add -- --relink to only match saved places to the chains again)
 npm run menus:seed      # rebuilds supabase/seed.sql from those files
 ```
 
@@ -62,8 +64,13 @@ Then run `npm run dev:local:reset` so local mode loads the new seed.
 
 - **Subway publishes no prices.** Its dishes show "Price not listed", and totals say how many
   items are unpriced. Burger King's prices are its own dine-in prices; delivery can cost more.
-- **BHC is not included**, because its site's robots.txt blocks AI agents. To add it by hand,
-  write `supabase/menus/bhc.json` in the same format and add its photo host to `next.config.ts`.
+- **Each site's robots.txt is respected.** BHC and Yupdduk are not included because theirs shut out
+  bots like this one. Ediya is not included because its full list sits on a path its robots.txt
+  disallows. Isaac Toast has no photos for the same reason. To add a brand by hand, write
+  `supabase/menus/<brand>.json` in the same format and add its photo host to `next.config.ts`.
+- **Independent restaurants have no menus.** They publish none, and delivery and map apps do not
+  allow copying theirs. Their menus would have to come from the owners or be typed in by hand.
+- **A chain's menu is its national menu.** A branch may not sell every dish, or may charge differently.
 - **BBQ's adult-only drinks are left out**, because the app has no age check.
 - **Photos stay on the brands' servers.** The database stores their URLs and the app resizes
   them on demand, so no brand images are in this repo. A photo disappears if a brand moves it.
@@ -82,8 +89,11 @@ Only they can read that list. The rule throughout is that missing data is never 
 | No data | The brand publishes nothing for this dish, or for part of this set |
 | None listed | The brand publishes data and none of the person's items are on it. Never "safe" |
 
-- **Sources.** BBQ and Burger King publish allergens as data. Subway publishes a chart image, read
-  by `scripts/read-subway-chart.py` into `supabase/menus/sources/subway-allergy-chart.json`.
+- **Sources.** BBQ, Burger King, Starbucks, Mega, Paik's, Baskin-Robbins, Sulbing, The Venti and Pizza
+  School publish allergens with their dishes. Subway publishes a chart image, read by `scripts/read-subway-chart.py`
+  into `supabase/menus/sources/subway-allergy-chart.json`. Kyochon's table names older products, so
+  most of its dishes have no match and stay "No data". Mammoth, Puradak, Popeyes and Isaac publish
+  no allergens that the importer can read, so all their dishes are "No data".
 - **Korea labels 19 foods.** Others, such as turkey, lamb, most fish and sesame, are only found when
   a dish names them, so "None listed" says when those cannot be ruled out. Vegan and vegetarian
   results mean "nothing listed", not certified.
@@ -97,7 +107,7 @@ Only they can read that list. The rule throughout is that missing data is never 
 
 - **Places come from OpenStreetMap** (© OpenStreetMap contributors, ODbL, so keep the credit on the
   map) plus Burger King's store finder. Volunteers map OpenStreetMap, so some places are missing,
-  and it has no menus. Only the chains above have dishes to search.
+  and it has no menus. Only the chains above have dishes to search; other places can only be found by name.
 - **Before going public, use a tile provider.** The default OpenStreetMap tiles are for light use
   and can be withdrawn. Set `NEXT_PUBLIC_MAP_TILE_URL` to change them.
 

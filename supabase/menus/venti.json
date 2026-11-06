@@ -1,0 +1,2573 @@
+{
+  "slug": "venti",
+  "name": "The Venti",
+  "cuisine": "Coffee",
+  "logo": null,
+  "logo_bg": null,
+  "delivery_link": "https://www.theventi.co.kr",
+  "source": "https://www.theventi.co.kr/new2022/menu/all.html",
+  "dishes": [
+    {
+      "description": "아그작딥라떼 --> 깊은 풍미의 라떼 베이스에 데메라라 슈가의 아그작 씹는 재미를 더한 아그작딥라떼 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_L3oagAQI_20261013212802.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "아그작딥라떼",
+      "category": "커피"
+    },
+    {
+      "description": "시그니처딥라떼 (라지/점보) --> 깊고 더 고소한 더벤티만의 시그니처 베이스로 완성한 카페 라떼 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_Px1DHNOd_20260612154418.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "시그니처딥라떼 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "레샷추 --> 달콤한 꿀과 상큼한 레몬에 더벤티의 진한 에스프레소가 어우러진 레샷추 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_fPejNO5U_20260612154251.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레샷추",
+      "category": "커피"
+    },
+    {
+      "description": "아샷추 --> 진한 홍차와 달콤한 복숭아에 더벤티의 진한 에스프레소가 어우러진 아샷추 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_jRsvGfIk_20260612155533.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "아샷추",
+      "category": "커피"
+    },
+    {
+      "description": "오트초코카페라떼 --> 오트 베이스에 단백질 초코와 에스프레소를 더해 밸런스 있게 즐길 수 있는 오트초코카페라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_j2PYxCva_20260612155656.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "오트초코카페라떼",
+      "category": "커피"
+    },
+    {
+      "description": "핫 아메리카노 (라지) --> 더벤티의 깊고 진한 커피 풍미를 느낄 수 있는 핫 아메리카노 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_t1MsToyR_20260612154232.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "핫 아메리카노 (라지)",
+      "category": "커피"
+    },
+    {
+      "description": "아이스 아메리카노 (라지/점보) --> 더벤티의 깊고 진한 커피 풍미를 느낄 수 있는 아이스 아메리카노 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_oc3VbpqI_20260612155546.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아이스 아메리카노 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "카페라떼 (라지/점보) --> 더벤티의 진한 에스프레소에 부드러운 우유가 어우러진 고소한 카페라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_0T7iGUDW_20260612155751.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "카페라떼 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "오트카페라떼 (라지/점보) --> 리치한 풍미의 귀리음료에 다크로스트 원두의 풍미가 어우러진 오트카페라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_SunITXHm_20260612155711.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "오트카페라떼 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "바닐라딥라떼 (라지/점보) --> 더벤티의 진한 에스프레소에 고급스러운 바닐라 풍미가 부드럽게 어우러진 바닐라딥라떼 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **HOT 음료나 점보 사이즈(960ml) 저당 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. **당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_xJvyidWn_20260612154335.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "바닐라딥라떼 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "믹스커피 (라지/점보) --> 원조 인스턴트 커피의 맛을 부드럽게 느낄 수 있는 더벤티의 믹스커피 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml), 저당 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. **당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_DYd5Hfym_20240417043238.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "믹스커피 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "헤이즐넛딥라떼 (라지/점보) --> 더벤티의 진한 에스프레소에 고소한 헤이즐넛 풍미가 감미롭게 어우러진 헤이즐넛딥라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_ofh51UDE_20260612155926.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "헤이즐넛딥라떼 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "연유라떼 (라지/점보) --> 더벤티의 진한 에스프레소에 달콤한 연유가 어우러진 부드러운 연유라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_2JRnbKa7_20260612155640.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "연유라떼 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "아인슈페너 (미디엄/라지) --> 더벤티만의 특별한 레시피로 만든 크림을 얹어 부드럽고 달콤하게 마실 수 있는 아인슈페너 [음료 특성상 빨대는 제공되지 않습니다] *영양성분 및 성분별 기준치 : 미디엄(420ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (미디엄 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **라지 사이즈(600ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_QCXuV4ki_20260612155624.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "아인슈페너 (미디엄/라지)",
+      "category": "커피"
+    },
+    {
+      "description": "코코넛라떼 (라지/점보) --> 더벤티의 진한 에스프레소에 고소한 코코넛 풍미가 부드럽게 어우러진 코코넛라떼 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **HOT 음료나 점보 사이즈(960ml), 저당 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. 당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_EgbR76ZG_20260612160021.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "코코넛라떼 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "카페모카 (라지/점보) --> 더벤티의 진한 에스프레소에 달콤 쌉싸름한 초콜릿이 더해진 부드럽고 달콤한 카페모카 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **HOT 음료나 점보 사이즈(960ml) 저당 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. 당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_6xoH7e1s_20260612160154.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "카페모카 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "카라멜마끼아또 (라지/점보) --> 더벤티의 진한 에스프레소에 카라멜의 풍미가 어우러진 달콤한 카라멜 마끼야또 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_PQYhA0oH_20260612155729.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "카라멜마끼아또 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "콜드브루 (라지/점보) --> 저온 고농도 추출로 깔끔한 맛과 부드러운 풍미가 특징인 더벤티의 콜드브루 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_2WiqJBMl_20260612160036.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "콜드브루 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "콜드브루라떼 (라지/점보) --> 저온 고농도 추출로 깔끔한 맛과 부드러운 우유가 어우러진 고소한 더벤티의 콜드브루 라떼 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_KlOTvGpj_20260612154101.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "콜드브루라떼 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "바닐라크림콜드브루 (라지/점보) --> 바닐라 크림의 달콤함과 부드러움이 더해져 깔끔하게 즐기는 콜드브루 [크림은 완전히 섞어서 제공되므로 이미지와 다를 수 있습니다] *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_J6Qy4RIL_20260612154400.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "바닐라크림콜드브루 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "헤이즐넛크림콜드브루 (라지/점보) --> 헤이즐넛 크림의 고소함과 부드러움이 더해져 깔끔하게 즐기는 콜드브루 [크림은 완전히 섞어서 제공되므로 이미지와 다를 수 있습니다] *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_W43gPXVB_20260612155914.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "헤이즐넛크림콜드브루 (라지/점보)",
+      "category": "커피"
+    },
+    {
+      "description": "디카페인 시그니처딥라떼 (라지/점보) --> 깊고 더 고소한 더벤티만의 시그니처 베이스로 완성한 카페 라떼 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_zxNWfPnR_20260612160534.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 시그니처딥라떼 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 레샷추 --> 달콤한 꿀과 상큼한 레몬에 더벤티의 진한 에스프레소가 어우러진 레샷추 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_DvaSNYh9_20260612160438.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 레샷추",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 아샷추 (라지/점보) --> 진한 홍차와 달콤한 복숭아에 더벤티의 진한 에스프레소가 어우러진 아샷추 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_Ioi9XjYG_20260612160547.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 아샷추 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 핫 아메리카노 (라지) --> 깊고 진한 커피풍미를 느낄 수 있는 핫 디카페인 아메리카노 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_zR6O9JcP_20260612161149.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 핫 아메리카노 (라지)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 아이스 아메리카노 (라지/점보) --> 깊고 진한 커피풍미를 느낄 수 있는 아이스 디카페인 아메리카노 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_pIS0NjCB_20260612160602.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 아이스 아메리카노 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 카페라떼 (라지/점보) --> 진한 에스프레소에 부드러운 우유가 어우러진 고소한 디카페인 카페라떼 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_nO5YuBds_20260612161019.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 카페라떼 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 오트카페라떼 (라지/점보) --> 리치한 풍미의 오트밀크에 디카프 원두의 풍미가 어우러진 디카페인 오트카페라떼 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_2p1GUdqo_20260612160940.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 오트카페라떼 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 바닐라딥라떼 (라지/점보) --> 진한 에스프레소에 고급스러운 바닐라 풍미가 부드럽게 어우러진 디카페인 바닐라딥라떼 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. 당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **HOT 음료나 점보 사이즈(960ml) 저당 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_BhevA2z1_20260612160459.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 바닐라딥라떼 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 헤이즐넛딥라떼 (라지/점보) --> 진한 에스프레소에 고소한 헤이즐넛 풍미가 감미롭게 어우러진 디카페인 헤이즐넛딥라떼 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_7weRf2mN_20260612161202.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 헤이즐넛딥라떼 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 연유라떼 (라지/점보) --> 진한 에스프레소에 달콤한 연유가 어우러진 부드러운 디카페인 연유라떼 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_p7Pm1YMK_20260612160926.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 연유라떼 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 아인슈페너 (미디엄/라지) --> 더벤티만의 특별한 레시피로 만든 크림을 얹어 부드럽고 달콤하게 마실 수 있는 디카페인 아인슈페너 [음료 특성상 빨대는 제공되지 않습니다] ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 미디엄(420ml) 사이즈 기준 **라지 사이즈(600ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_R0ElW6Mu_20260612160854.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 아인슈페너 (미디엄/라지)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 코코넛라떼 (라지/점보) --> 더벤티의 진한 디카페인 에스프레소에 고소한 코코넛 풍미가 부드럽게 어우러진 코코넛라떼 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. 당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml), 점보 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_aQv6iVBx_20260612161047.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 코코넛라떼 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 카페모카 (라지/점보) --> 진한 에스프레소에 달콤 쌉싸름한 초콜릿이 더해진 부드럽고 달콤한 디카페인 카페모카 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. 당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_Mumb526l_20260612161032.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 카페모카 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 카라멜마끼야또 (라지/점보) --> 진한 에스프레소에 카라멜 풍미가 어우러진 달콤한 디카페인 카라멜 마끼야또 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml), 점보 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_rYTKiPoJ_20260612160954.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 카라멜마끼야또 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 코코넛커피프라페 (라지/점보) --> 고소한 코코넛과 디카페인 콜드브루가 블렌딩되어 가볍고 부드럽게 즐기는 프라페 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. 당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_awHrX2mb_20260612161104.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 코코넛커피프라페 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 에스프레소 쉐이크 (라지/점보) --> 부드러운 밀크쉐이크와 진한 에스프레소가 만나 더욱 풍성하게 즐길 수 있는 디카페인 에스프레소쉐이크 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_kq1F8cTX_20260612162001.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 에스프레소 쉐이크 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 콜드브루 (라지/점보) --> 저온 고농도 추출로 깔끔한 맛과 부드러운 풍미가 특징인 더벤티의 디카페인 콜드브루 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_5UFTsAxr_20260612161120.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 콜드브루 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 콜드브루 라떼 (라지/점보) --> 저온 고농도 추출로 깔끔한 맛과 부드러운 우유가 어우러진 고소한 더벤티의 디카페인 콜드브루 라떼 ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_tfpgcnsL_20260612161135.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 콜드브루 라떼 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 바닐라크림콜드브루 (라지/점보) --> 바닐라 크림의 달콤함과 부드러움이 더해져 깔끔하게 즐기는 콜드브루 [크림은 완전히 섞어서 제공되므로 이미지와 다를 수 있습니다] ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_6cEuJS3V_20260612160520.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 바닐라크림콜드브루 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "디카페인 헤이즐넛크림콜드브루 (라지/점보) --> 헤이즐넛 크림의 고소함과 부드러움이 더해져 깔끔하게 즐기는 콜드브루 [크림은 완전히 섞어서 제공되므로 이미지와 다를 수 있습니다] ※ 디카페인 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_2cCgsjXh_20260612161220.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "디카페인 헤이즐넛크림콜드브루 (라지/점보)",
+      "category": "디카페인"
+    },
+    {
+      "description": "솔티카라멜프라페 (라지/점보) --> 솔티드카라멜풍미와 초코를더해 단짠 풍미를 강조한 프라페 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_s2I5U8WT_20260612161632.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "솔티카라멜프라페 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "망고스무디 --> 상큼달콤한 망고의 진한 맛을 강조한 스무디 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_sTO9idoJ_20260612161458.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "망고스무디",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "복숭아요거트스무디 (라지/점보) --> 요거트 스무디에 달콤한 복숭아 리플잼을 넣은 스무디 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_6wgitbxu_20260612161559.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "복숭아요거트스무디 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "딸기쉐이크 (라지/점보) --> 진하고 달콤한 딸기리플잼을 넣은 쉐이크 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_F29B6J58_20260612161358.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "딸기쉐이크 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "딸기초코쿠키스무디 (라지/점보) --> 달콤하고 부드러운 초코스무디에 딸기청, 쿠키분태를 토핑한 딸기초코쿠키스무디 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_anyeH65k_20260612161432.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "딸기초코쿠키스무디 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "플레인요거트스무디 (라지/점보) --> 새콤달콤한 요거트의 맛이 그대로 전해지는 더벤티의 스페셜한 플레인 요거트스무디 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml), 저당 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. **당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_8m5ZaHBz_20260612161844.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "플레인요거트스무디 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "딸기요거트스무디 (라지/점보) --> 부드러운 플레인요거트에 상큼한 딸기과육을 듬뿍 담은 딸기 요거트스무디 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 및 저당 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. **당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_myotTUQF_20260612161414.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "딸기요거트스무디 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "블루베리요거트스무디 (라지/점보) --> 부드러운 플레인요거트에 달콤한 블루베리과육을 듬뿍 담은 블루베리 요거트스무디 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 및 저당 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. 당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_peDSKEqH_20260612161615.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "블루베리요거트스무디 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "망고요거트스무디 (라지/점보) --> 부드러운 플레인 요거트에 달콤한 망고과육을 듬뿍 담은 망고요거트스무디 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 및 저당음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. **당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_nsMJAF2m_20260612161516.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "망고요거트스무디 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "초코쉐이크 (라지/점보) --> 부드러운 밀크쉐이크와 진한 풍미의 초콜릿이 어우러져 더욱 풍성하게 즐길 수 있는 초코쉐이크 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_XkqAGgPU_20260612161802.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "초코쉐이크 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "밀크쉐이크 (라지/점보) --> 부드러운 밀크와 얼음을 함께 블렌딩한 더벤티의 스페셜한 밀크쉐이크 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_GuV2o1Q5_20260612161529.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "밀크쉐이크 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "에스프레소쉐이크 (라지/점보) --> 부드러운 밀크쉐이크와 진한 에스프레소가 만나 더욱 풍성하게 즐길 수 있는 에스프레소쉐이크 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *원두별 카페인 함량: 시그니처 168mg / 다크 266mg (라지 사이즈 2샷 기준) *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시 ※ 어린이, 임산부, 카페인 민감자의 경우 고카페인 음료 섭취에 주의하시기 바랍니다. **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_6LKiUruk_20260612161655.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "에스프레소쉐이크 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "자두피치스무디 (라지/점보) --> 상큼한 자두와 복숭아가 블렌딩되어 가볍고 상큼하게 즐기는 스무디 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_3yYIvQwC_20260612161731.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "자두피치스무디 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "율무프라페 (라지/점보) --> 고소한 연천율무가 얼음과 블렌딩되어 더욱 시원하게 즐기는 율무프라페 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_W1lwtpqR_20260612161716.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "peanut"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "율무프라페 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "코코넛커피프라페 (라지/점보) --> 고소한 코코넛과 콜드브루가 블렌딩되어 가볍고 부드럽게 즐기는 프라페 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다. 당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_XU3mqEiM_20260612161818.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "코코넛커피프라페 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "말차프라페 (라지/점보) --> 말차 본연의 맛을 부드럽고 깔끔하게 느낄 수 있는 더벤티 말차프라페 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_YNUW9Iim_20260612161446.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "말차프라페 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "자바칩프라페 (라지/점보) --> 자바칩과 카라멜을 블랜딩한 음료에 초코칩과 카라멜 소스를 뿌려 달콤함을 두배로 즐기는 자바칩 프라페 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_miK4FObp_20260612161748.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "자바칩프라페 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "쿠키앤크림프라페 (라지/점보) --> 부드러운 바닐라와 바삭한쿠키를 블렌딩하여 시원하고 달달한 쿠키앤크림 프라페 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_d4XnEGFZ_20260612161830.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "쿠키앤크림프라페 (라지/점보)",
+      "category": "아이스 블렌디드"
+    },
+    {
+      "description": "복숭아에이드 (라지/점보) --> 청량하고 달콤한 복숭아맛 에이드 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_2UwErSLO_20260612162245.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "복숭아에이드 (라지/점보)",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "체리에이드 (라지/점보) --> 청량하고 상큼한 체리맛 에이드 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_phWsVLqY_20260612162113.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "체리에이드 (라지/점보)",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "리치캐모마일 스파클링 --> 리치의 풍미에 캐모마일을 더해 산뜻하게 즐기는 저당 스파클링 (타우린 1,000mg / 비타민 350mg 함유) *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_VaFgfBtm_20260612162221.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "리치캐모마일 스파클링",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "제주청귤 스파클링 --> 제주 청귤 풍미에 청량감을 더해 프레시하게 즐기는 저당 스파클링 (타우린 1,000mg / 비타민 350mg 함유) *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_Vfp6gWNv_20260612162059.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제주청귤 스파클링",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "트로피칼 스파클링 --> 열대과일 풍미에 청량감을 더해 시원하게 즐기는 저당 스파클링 (타우린 1,000mg / 비타민 350mg 함유) *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_rEJZhVCD_20260612162156.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "트로피칼 스파클링",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "애플과채주스 (라지/점보) --> 사과, 딸기, 비트, 레몬, 당근이 듬뿍 들어 새콤하고 건강하게 즐기는 과채주스 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_DFsNbS9c_20260612162300.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "애플과채주스 (라지/점보)",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "오렌지과채주스 (라지/점보) --> 오렌지, 사과, 당근, 감귤이 듬뿍 들어 상큼하고 건강하게 즐기는 과채주스 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_6aVmGE3d_20260612162033.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "오렌지과채주스 (라지/점보)",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "크림소다 (라지/점보) --> 소다맛에이드에 바닐라아이스크림을 올려 청량함과 부드러움을 동시에 즐길 수 있는 에이드 [배달시 아이스크림은 음료안에 넣어 제공됩니다] *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_nr28oaHY_20260612162140.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "크림소다 (라지/점보)",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "메론소다 (라지/점보) --> 메론맛에이드에 바닐라아이스크림을 올려 청량함과 부드러움을 동시에 즐길 수 있는 에이드 [배달시 아이스크림은 음료안에 넣어 제공됩니다] *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_Eo9z0ThX_20260612162232.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "메론소다 (라지/점보)",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "자몽에이드 (라지/점보) --> 쌉싸름한 자몽청과 탄산수가 만나 청량하고 풍부한 맛의 자몽에이드 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_TrNvSVod_20260612162045.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자몽에이드 (라지/점보)",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "애플망고에이드 (라지/점보) --> 달콤한 애플망고의 과육과 탄산수가 만나 청량하고 풍부한 맛의 애플망고에이드 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_qASrGXVd_20260612162534.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "애플망고에이드 (라지/점보)",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "레몬에이드 (라지/점보) --> 새콤달콤한 허니레몬청과 탄산수가 만나 청량하고 풍부한 맛의 레몬에이드 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_dCBMyTrF_20260612162209.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레몬에이드 (라지/점보)",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "체리콕 (라지/점보) --> 상큼한 체리시럽과 콜라가 만나 톡톡쏘는 청량감 가득한 체리콕 ※ 제로콜라 변경 가능 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 및 제로 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_aug6rFTH_20260612162125.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "체리콕 (라지/점보)",
+      "category": "주스/에이드"
+    },
+    {
+      "description": "자스민 (라지/점보) --> 기분 전환과 자스민의 꽃향기를 강조한 에스테틱 티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_OB1n05Pz_20260612162613.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자스민 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "녹차 --> 떫은 맛은 줄이고 은은한 단맛과 감칠맛을 극대화한 국내산 녹차 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_jvxdKl0r_20260612162844.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "녹차",
+      "category": "버블티/티"
+    },
+    {
+      "description": "호박팥차 (라지/점보) --> 늙은 호박과 팥을 최적의 비율로 블렌딩 하여 몸의 순환 (붓기 감소)을 돕는 에스테틱 티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_4y8RH7Sh_20260612162758.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "호박팥차 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "레몬머틀 (라지/점보) --> 상큼한 레몬의 첫 맛과 은은하고 달콤한 허브 향이 활력을 더해주며, 레몬머틀의 맑은 향이 자극 없이 정신을 깨워주는 티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_NcJrjiCD_20260612162958.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레몬머틀 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "더쌍화차 --> 전통 쌍화차의 쓴맛과 약재향을 줄이고 대추, 생강, 계피의 밸런스를 감미롭게 조합한 더쌍화차 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_wKI9d4qN_20260612162900.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "pine_nut"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "더쌍화차",
+      "category": "버블티/티"
+    },
+    {
+      "description": "오미자석류티 --> 오미자의 떫은맛은 줄이고 석류의 산뜻함을 더한 맑고 가볍게 즐기는 오미자석류티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_rVSTUWNK_20260612163100.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "오미자석류티",
+      "category": "버블티/티"
+    },
+    {
+      "description": "꿀배생강티 --> 배숙의 부드러운 단맛에 꿀과 생강의 은은한 향을 부담 없이 즐기는 꿀배생강티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_5diWcRqs_20260612162831.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "꿀배생강티",
+      "category": "버블티/티"
+    },
+    {
+      "description": "복숭아아이스티 (라지/점보) --> 진한 블랙퍼스트 홍차에 달콤한 복숭아가 어우러진 더벤티의 특별한 복숭아아이스티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_MrOHP478_20260612163020.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "복숭아아이스티 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "허니유자티 (라지/점보) --> 달콤한 꿀과 향긋한 유자가 어우러진 허니유자티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_J0oTWGed_20260612162733.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "허니유자티 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "허니자몽티 (라지/점보) --> 달콤한 꿀과 쌉싸름한 자몽이 어우러진 허니자몽티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_kJEOsvRt_20260612162746.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "허니자몽티 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "허니레몬티 (라지/점보) --> 달콤한 꿀과 상큼한 레몬이 어우러진 허니레몬티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_oXOv1kLY_20260612162717.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "허니레몬티 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "자몽허니블랙블렌딩티 (라지/점보) --> 두가지 블랙티가 블랜딩된 얼그레이와 자몽이 조화롭게 어우러진 자몽허니블렌딩티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_5AT7KaXR_20260612162601.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자몽허니블랙블렌딩티 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "유자애플티 (라지/점보) --> 은은한 사과향 블렌딩티와 유자가 조화롭게 어우러진 유자애플티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_2l4fiM1Y_20260612163112.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유자애플티 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "얼그레이 (라지/점보) --> 홍차의 묵직한 바디감에 베르가못 향을 입힌 클래식 티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_i9N26I1g_20260612163049.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "얼그레이 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "캐모마일 (라지/점보) --> 휴식과 숙면을 키워드로한 릴랙싱 티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_FaqyYrvG_20260612162629.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "캐모마일 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "애플히비스커스 (라지/점보) --> 히비스커스, 로즈힙에 달콤한 과일이 어우러진 새콤달콤한 블렌딩 티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_luY4IpdF_20260612163036.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "애플히비스커스 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "트리플민트 (라지/점보) --> 세 종류의 민트가 어우러진 상쾌한 블렌딩 티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_w2iY9rQM_20260612162656.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "트리플민트 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "흑설탕버블티 (라지/점보) --> 최상급 비정제사탕수수당 모리셔스 흑당에 쫄깃쫄깃한 타피오카 펄을 가득 담은 흑설탕버블티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_WHk4ryAK_20260612162813.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "흑설탕버블티 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "타로버블티 (라지/점보) --> 고소하고 달콤한 맛의 타로에 쫄깃쫄깃한 타피오카 펄을 가득 담은 타로버블티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_ZSOJbQXu_20260612162642.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "타로버블티 (라지/점보)",
+      "category": "버블티/티"
+    },
+    {
+      "description": "우베퍼플라떼 (라지/점보) --> 선명한 보랏빛 컬러에 부드러운 우베의 바닐라 풍미, 우베 휘핑크림을 올린 라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다. **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_xe1bA8Ml_20260612163225.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "우베퍼플라떼 (라지/점보)",
+      "category": "베버리지"
+    },
+    {
+      "description": "오트펄초코라떼 --> 오트 베이스에 단백질 초코, 오트팝핑펄이 들어있어 든든하게 즐길 수 있는 오트펄초코라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_2SeND4oa_20260612163212.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "오트펄초코라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": "더쌍화라떼 --> 진한 쌍화와 부드러운 우유가 어우러진, 대추의 달콤함과 생강&middot;계피의 향이 돋보이는 더쌍화라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_9R38GdCP_20260612163416.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "pine_nut",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "더쌍화라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": "토피넛 라떼 (라지/점보) --> 토피와 고소한 견과류의 풍미가 가득한 토피넛 라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_FT97qSyC_20260612163359.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "peanut"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "토피넛 라떼 (라지/점보)",
+      "category": "베버리지"
+    },
+    {
+      "description": "이천쌀라떼 --> 임금님표 이천쌀의 깊은 풍미에 현미쌀 토핑을 더해, 담백함과 고소함이 매력적인 이천쌀 라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **HOT 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_7v0od2w8_20260612163305.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "이천쌀라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": "이천쌀 흑임자폼 라떼 --> 임금님표 이천쌀에 흑임자를 더해 고소함을 극대화하고, 진한 풍미와 부드러운 맛이 조화로운 이천쌀 흑임자폼 라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **HOT 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_rZNH9esh_20260612163324.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "이천쌀 흑임자폼 라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": "율무 오트라떼 (라지/점보) --> 고소한 연천율무에 담백한 귀리음료를 더해 더욱 부드럽게 즐기는 율무 오트라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_ZEHlBkJa_20260612163241.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "peanut"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "율무 오트라떼 (라지/점보)",
+      "category": "베버리지"
+    },
+    {
+      "description": "미숫가루라떼 (라지/점보) --> 고소한 곡물과 부드러운 우유가 만나 식사대용으로 든든하게 즐길 수 있는 미숫가루라떼 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml), 저당 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. **당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_IsAnOmRl_20260612163153.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "미숫가루라떼 (라지/점보)",
+      "category": "베버리지"
+    },
+    {
+      "description": "로얄밀크티 (라지/점보) --> 최적의 비율로 블렌딩한 홍차와 우유가 만나 깊고 풍부한 맛과 향을 담은 밀크티 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_smF1OyIw_20260612163501.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "로얄밀크티 (라지/점보)",
+      "category": "베버리지"
+    },
+    {
+      "description": "멜팅초코 (라지/점보) --> 진한 초콜릿 크림이 크리미한 우유와 어우러져 달콤하고 부드럽게 즐기는 더벤티 시그니쳐 멜팅초코 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_y4ABC9zU_20260612163545.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "멜팅초코 (라지/점보)",
+      "category": "베버리지"
+    },
+    {
+      "description": "초코라떼 (라지/점보) --> 진하고 풍부한 초콜릿과 부드러운 우유가 어우러진 달콤한 초코라떼 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml), 저당음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. **당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_UHfEQie8_20260612163337.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "초코라떼 (라지/점보)",
+      "category": "베버리지"
+    },
+    {
+      "description": "딸기연유라떼 --> 딸기 라떼에 달콤한 연유와 바닐라 아이스크림이 더해져 더욱 부드럽게 즐기는 딸기 연유 라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_wUtO2So7_20260612163444.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "딸기연유라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": "딸기라떼 (라지/점보) --> 딸기과육이 듬뿍 들어간 딸기청에 부드러운 우유가 어우러진 새콤달콤 딸기라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_rTWVgxMd_20260612163431.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "딸기라떼 (라지/점보)",
+      "category": "베버리지"
+    },
+    {
+      "description": "말차라떼 (라지/점보) --> 보성 말차와 부드러운 우유가 어우러진 깔끔하고 쌉싸름한 말차라떼 ※ 저당 메뉴는 주문 시, 옵션 선택을 통해 주문이 가능합니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **HOT 음료나 점보 사이즈(960ml), 저당 음료 영양성분은 공지사항 내 게시물 확인 부탁드립니다. **당알코올(에리스리톨) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_lPRfsC4b_20260612163515.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "말차라떼 (라지/점보)",
+      "category": "베버리지"
+    },
+    {
+      "description": "말차아인슈페너 (미디엄/라지) --> 보성 말차의 진한 향기와 부드러운 아인슈페너 크림이 만나 더욱 달콤하게 즐기는 말차 아인슈페너 *영양성분 및 성분별 기준치 : 미디엄 (420ml) 사이즈 아이스(ICED) 기준 **미디엄 사이즈(600ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_dWeHTqDX_20260612163530.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "말차아인슈페너 (미디엄/라지)",
+      "category": "베버리지"
+    },
+    {
+      "description": "우도 땅콩 초코 쫀득빵 --> 제주에서 즐기던 고소한 우도 땅콩과 달콤한 초코, 쫀득한 빵의 식감을 트렌디한 방식으로 재해석한 디저트",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_9Pvw1E6i_20260702164817.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "egg",
+        "peanut"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "우도 땅콩 초코 쫀득빵",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "초코 라즈베리 샌드쿠키 --> 바삭하고 고소한 초코 쿠키 사이에 달콤한 라즈베리 잼과 크림을 조화롭게 샌딩한 쿠키",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_CdstxhP6_20260702164721.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "peanut",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "초코 라즈베리 샌드쿠키",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "땅콩 캬라멜 샌드쿠키 --> 바삭하고 고소한 쿠키 사이에 땅콩 크림과 캬라멜을 조화롭게 샌딩한 쿠키",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_nrI7e9YN_20260702164619.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "peanut",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "땅콩 캬라멜 샌드쿠키",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "로제 떡볶이 --> 부드럽고 크리미한 로제 소스에 매콤달콤한 맛을 담아낸 떡볶이",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/3547090005_0GsymfOH_20260614182237.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "tomato",
+        "chicken",
+        "beef",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "로제 떡볶이",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "마라 떡볶이 --> 얼얼한 마라 향과 깊은 매운 풍미를 담아낸 떡볶이",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/3547090005_RUOCIGLz_20260614182110.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "chicken",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "마라 떡볶이",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "매콤 소보로밥 --> 소고기 소보로의 풍미와 매콤한 고추장 양념의 감칠맛, 겉은 바삭하고 속은 촉촉한 식감을 담은 든든한 간편식",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/3547090005_DOyPL98J_20260614181916.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "beef",
+        "chicken"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "매콤 소보로밥",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "간장 소보로밥 --> 소고기 소보로의 풍미와 간장 양념의 감칠맛, 겉은 바삭하고 속은 촉촉한 식감을 담은 든든한 간편식",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/3547090005_70wDKVye_20260614181803.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "beef",
+        "chicken"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "간장 소보로밥",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "두바이 쫀득쿠키 --> 피스타치오와 카다이프를 마시멜로로 감싼 말랑 쫀득 바삭한 디저트",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_FpA6xrKJ_20260219173652.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "두바이 쫀득쿠키",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "딸기모찌크림샌드 --> 쫀득한 모찌 식감의 도리야끼 속에 부드러운 딸기 크림과 상큼한 딸기잼이 어우러진 달콤한 딸기모찌크림샌드",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_YR3w5FDL_20251202185334.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "딸기모찌크림샌드",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "아로마 드립 컬렉션 --> 언제 어디서든 간편하게 즐길 수 있도록 더벤티 기본 원두 3종과 가향 커피 3종 드립백으로 구성된 아로마 드립 컬렉션 더벤티 시그니처 블렌드 - 카페인 9mg 더벤티 다크 블렌드 - 카페인 16mg 더벤티 디카페인 - 1mg 더벤티 브리즈 라즈베리향 - 12mg 더벤티 선셋 망고향 - 13mg 더벤티 골든 유자향 - 15mg",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_atpHbFfd_20251103090229.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아로마 드립 컬렉션",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "코코비스킷 쫀득쿠키 --> 달콤한 마시멜로우에 코코볼과 초코가 들어간 쫀득 쿠키",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_1ZB7ae8p_20250620173510.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "코코비스킷 쫀득쿠키",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "후르츠딸기 쫀득쿠키 --> 달콤한 마시멜로우에 후르츠링과 딸기, 오레오가 들어간 쫀득쿠키",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_jp6UtbYW_20250620173426.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "후르츠딸기 쫀득쿠키",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "우유크림 커피번 --> 더벤티 커피를 사용하여 만든 바삭한 커피토핑과 부드러운 우유크림이 더해진 달콤짭짤 우유크림 커피번",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_WwPrJEic_20240709062839.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "우유크림 커피번",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "커피크림 커피번 --> 더벤티 커피를 사용하여 만든 바삭한 커피토핑과 진한 커피크림이 더해진 달콤짭짤 커피크림 커피번",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_Tb9lpruD_20240709062713.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "커피크림 커피번",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "불고기 포카치아 --> Bulgogi Focaccia 폭신한 올리브 포카치아 위에 진한 불고기소스, 달콤한 불고기가 가득 올라간 불고기 포카치아",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_j8RlJcNv_20240326054650.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "soy",
+        "milk",
+        "shellfish",
+        "pork",
+        "beef",
+        "wheat",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "불고기 포카치아",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "페퍼로니 포카치아 --> Pepperoni Focaccia 폭신한 올리브 포카치아 위에 진한 토마토소스, 짭짤한 페퍼로니가 가득 올라간 페퍼로니 포카치아",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_1RVZ4YN6_20240401103259.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "soy",
+        "milk",
+        "tomato",
+        "pork",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "페퍼로니 포카치아",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "갈릭 크룽지 --> Garlic Pressed Croissant 달달한 마늘향과 함께 달콤한 설탕 코팅이 바삭한 갈릭 크룽지",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_gXhvPu95_20240116083349.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "갈릭 크룽지",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "스윗 크룽지 --> Sweet Pressed Croissant 고소한 버터향과 함께 달콤한 설탕 코팅이 바삭한 스윗 크룽지",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_thS4xyKE_20240116083200.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "beef",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "스윗 크룽지",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "더벤티 실버 텀블러 --> 깔끔한 외관의 대용량 스테인리스 소재로 디자인, 실용성을 한번에 잡은 더벤티 실버 텀블러 용량: 591ml(20oz) 재질: 뚜껑 PP / 마개 PP, TPE / 본체 스테인리스",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_4sQTfzOP_20231129121114.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "더벤티 실버 텀블러",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "더벤티 퍼플 텀블러 --> 트렌디한 색감의 대용량 스테인리스 소재로 디자인, 실용성을 한번에 잡은 더벤티 퍼플 텀블러 용량: 591ml(20oz) 재질: 뚜껑 PP / 마개 PP, TPE / 본체 스테인리스",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_9Rvishzx_20231129121034.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "더벤티 퍼플 텀블러",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "더블초코 스모어 촉촉쿠키 --> Double Choco S'more Cookie 달콤한 마시멜로우와 더블초콜릿이 쏙쏙 박힌 아메리칸 스타일 쿠키",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_N0qApvxQ_20231031045851.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "egg",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "더블초코 스모어 촉촉쿠키",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "화이트초코 말차 촉촉쿠키 --> White Choco Matcha Cookie 두툼한 호두와 화이트초콜릿이 쏙쏙 박힌 아메리칸 스타일 쿠키",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_RPf0aNVc_20231031045734.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "egg",
+        "walnut"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "화이트초코 말차 촉촉쿠키",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "크랜베리 초코칩 촉촉쿠키 --> Cranberry Chocochip Cookie 두툼한 아몬드와 크렌베리 초코칩이 쏙쏙 박힌 아메리칸 스타일 쿠키",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_97gU6VA8_20231031045642.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "크랜베리 초코칩 촉촉쿠키",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "고메소금빵 --> 프랑스산 고메버터를 품어 더 고소하고 짭쪼롬하게 즐기는 소금빵",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_VyUD9NcY_20230419030500.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "고메소금빵",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "쿠키크림 벤카롱 --> 부드러운 바닐라크림에 달콤한 초코쿠키가 어우러진 달콤 벤카롱",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_hYMcItwC_20240529093748.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "tree_nuts",
+        "wheat",
+        "egg",
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "쿠키크림 벤카롱",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "딸기요거 벤카롱 --> 달콤한 딸기와 플레인요거트가 어우러진 상큼 벤카롱",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_CHUK9ZO3_20230222100327.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "딸기요거 벤카롱",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "코코초코 벤카롱 --> 진한 밀크초콜릿에 코코볼이 더해진 달콤 벤카롱",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_xK69hOgl_20230222095905.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "코코초코 벤카롱",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "매콤 칠리 핫도그 --> 큼직한 100% 국내산 돈육 소시지에 매콤한 칠리소스, 모짜렐라치즈가 어우러진 든든한 핫도그",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_V9JXOy6Z_20221011092716.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "pork",
+        "beef",
+        "egg",
+        "tomato"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "매콤 칠리 핫도그",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "달콤 어니언 핫도그 --> 큼직한 100% 국내산 돈육 소시지에 달콤한 어니언소스, 스노우치즈와 스위트콘이 어우러진 든든한 핫도그",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_E45cpAt3_20221011092439.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "pork",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "달콤 어니언 핫도그",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "포슬쫀득 감자빵 --> NO 밀가루! 담백하고 포슬포슬한 속과 쫀득한 식감을 즐길 수 있는 건강 감자빵",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_nJbI1Avf_20220928090057.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "포슬쫀득 감자빵",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "달콤촉촉 고구마빵 --> NO 밀가루! 촉촉하고 달콤한 고구마가 가득 담긴 리얼 고구마빵",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_8RoW6VOL_20220928090024.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "달콤촉촉 고구마빵",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "플레인 크로플 --> 버터향 가득 생지로 구운 크로플에 특제 소스 코팅이 더해져 달콤하고 바삭한 플레인 크로플",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_KSinI9aJ_20230523061738.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "플레인 크로플",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "초코크림 크로플 --> 버터향 가득 생지로 구운 크로플에 초코 소스, 초코 파우더, 휘핑크림이 더해져 달콤하게 즐기는 크로플",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_hDl5jnF7_20230523061753.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "초코크림 크로플",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "딸기크림 크로플 --> 버터향 가득 생지로 구운 크로플에 휘핑크림과 딸기퓨레, 연유의 조화로 상큼하게 즐기는 크로플",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_OlTVfq26_20230523061804.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "딸기크림 크로플",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "호두과자 --> 바삭 폭신한 휴게소에서 먹던 그 맛! 빵 사이 부드러운 팥앙금이 들어간 호두과자",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_DwUWbKNX_20210625092859.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "walnut"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "호두과자",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "미니붕어빵 (통팥) --> 타피오카 전분 함유로 쫄깃한 빵 속 달콤한 팥앙금이 들은 미니사이즈 붕어빵",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_rYKU6Gtq_20210625092551.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "미니붕어빵 (통팥)",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "미니붕어빵 (커스타드) --> 타피오카 전분 함유로 쫄깃한 빵 속 달콤한 커스타드가 들은 미니사이즈 붕어빵",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_nOuL5KdR_20210625092415.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "미니붕어빵 (커스타드)",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "치즈빵빵 --> 부드러운 빵안에 풍미 가득한 크림치즈가 들어있어 진한 풍미를 느낄 수 있는 치즈빵",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_nFEhwcJ1_20200609042549.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "치즈빵빵",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "팥크림빵빵 --> 부드러운 빵안에 달콤한 팥앙금과 생크림이 가득 들어있는 팥크림 빵",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/30927906_baTsJZe9_20200609042534.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "팥크림빵빵",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "콜드브루 500ml --> 더벤티만의 저온 고농도 추출로 더 진하고 깔끔한 맛의 콜드브루 원액",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_09qRdN8x_20250729175700.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "콜드브루 500ml",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "디카페인 콜드브루 500ml --> 더벤티만의 저온 고농도 추출로 더 진하고 깔끔한 맛의 디카페인 콜드브루 원액",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_1UZhAJiM_20250729175642.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "디카페인 콜드브루 500ml",
+      "category": "사이드메뉴"
+    },
+    {
+      "description": "공주 밤라떼 --> 공주 밤의 깊고 고소한 풍미를 담은 라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_sQ9ox3lZ_20261020180716.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "공주 밤라떼",
+      "category": "신메뉴"
+    },
+    {
+      "description": "영암 고구마라떼 --> 영암 고구마의 달콤하고 부드러운 풍미를 담은 라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_tkAv9J2m_20261020180450.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "영암 고구마라떼",
+      "category": "신메뉴"
+    },
+    {
+      "description": "보성 호지차라떼 --> 보성 호지차의 깊고 구수한 풍미를 담은 티라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_XfpnWGSg_20261020175917.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "보성 호지차라떼",
+      "category": "신메뉴"
+    },
+    {
+      "description": "하동 매실티 --> 하동 매실의 상큼달콤한 풍미를 담은 티음료 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_1u4eyrzl_20261020175228.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "하동 매실티",
+      "category": "신메뉴"
+    },
+    {
+      "description": "알찬 포도 에이드 --> 달콤한 포도의 풍미와 탱글한 포도알을 더해 씹는 재미를 살린 에이드 *포도알 토핑 원료 특성상 포도씨가 포함될 수 있습니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_8S9tGjum_20260901180947.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "알찬 포도 에이드",
+      "category": "신메뉴"
+    },
+    {
+      "description": "알찬 포도 요거트 스무디 --> 상큼한 요거트와 달콤한 포도 베이스에 탱글한 포도알을 토핑한 스무디 *포도알 토핑 원료 특성상 포도씨가 포함될 수 있습니다. *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_SjxB9oqO_20260901180743.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "알찬 포도 요거트 스무디",
+      "category": "신메뉴"
+    },
+    {
+      "description": "알찬 옥수수팝 라떼 --> 고소한 옥수수 베이스에 부드러운 옥수수크림과 달콤 바삭한 옥수수토핑을 넣은 라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_I64Oh0Ya_20260901180502.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "알찬 옥수수팝 라떼",
+      "category": "신메뉴"
+    },
+    {
+      "description": "알찬 옥수수 치즈팝콘 쉐이키 --> 고소한 옥수수 스무디에 바삭한 초코쉘과 치즈 팝콘을 더해 달콤짭짤하게 즐기는 쉐이키 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_5vYwgAok_20260901180018.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "알찬 옥수수 치즈팝콘 쉐이키",
+      "category": "신메뉴"
+    },
+    {
+      "description": "옥수수 모찌 크림샌드 --> 쫀득한 모찌 시트 속 달콤 고소한 옥수수크림을 가득 담은 크림샌드",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_qpF2VRke_20260901175724.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "옥수수 모찌 크림샌드",
+      "category": "신메뉴"
+    },
+    {
+      "description": "화이트치즈팝콘 --> 화이트 치즈 시즈닝을 더해 진한 치즈 풍미를 살린 달콤짭짤한 팝콘",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_SA8LgknV_20260901175512.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "화이트치즈팝콘",
+      "category": "신메뉴"
+    },
+    {
+      "description": "제로 복숭아 아이스티 --> 은은하고 깊은 풍미의 홍차 베이스와 싱그러운 복숭아 과즙의 최적화된 블렌딩을 통한 당류 부담없이 즐기는 제로 복숭아 아이스티 ※ 대체당 (알룰로스) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분들은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_7lmF5uqr_20260810182425.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "제로 복숭아 아이스티",
+      "category": "신메뉴"
+    },
+    {
+      "description": "제로 매실 아이스티 --> 매실 특유의 묵직하고 새콤달콤한 맛을 깔끔하고 가볍게 풀어낸 당류 부담없이 즐기는 제로 매실 아이스티 ※ 대체당 (알룰로스) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분들은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_vFnjZDdG_20260810181901.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제로 매실 아이스티",
+      "category": "신메뉴"
+    },
+    {
+      "description": "제로 오렌지 멜론 머틀티 --> 오렌지와 허니듀 멜론의 달콤한 조합에 레몬머틀의 은은한 허브향으로 청량함을 강조한 제로 오렌지 멜론 머틀티 ※ 대체당 (알룰로스) 함유 제품으로 과량 섭취 시 개인에 따라 복통 및 설사를 일으킬 수 있으니 민감하신 분들은 주의해 주시기 바랍니다.",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_vdsV9n4t_20260810181700.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "제로 오렌지 멜론 머틀티",
+      "category": "신메뉴"
+    },
+    {
+      "description": "별미 냉 초계국수 --> 오랜 시간 고아 낸 깊고 담백한 초계 육수에 살얼음을 더해, 시원하고 묵직한 감칠맛과 영양을 담아낸 고단백 냉 초계국수",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_aKt2mX0Q_20260810181439.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "beef",
+        "pork",
+        "chicken",
+        "soy",
+        "wheat",
+        "egg",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "별미 냉 초계국수",
+      "category": "신메뉴"
+    },
+    {
+      "description": "퍼플 뱅쇼 스파클링 --> 달콤한 청포도 풍미의 뱅쇼와 상큼한 과일들이 어우러진 퍼플 뱅쇼 스파클링 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_2szkWrDm_20260701172358.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "퍼플 뱅쇼 스파클링",
+      "category": "신메뉴"
+    },
+    {
+      "description": "우베 흑임자폼 라떼 --> 선명한 보랏빛 컬러에 부드러운 단맛, 바닐라 풍미와 고소한 흑임자폼이 어우러진 우베 흑임자폼 라떼 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 기준",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_XKpTMmGR_20260701165213.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "squid"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "우베 흑임자폼 라떼",
+      "category": "신메뉴"
+    },
+    {
+      "description": "우베 크림 슈 --> 달콤한 우베 크림을 담아 아이스크림처럼 시원하게 즐기는 우베 아이스 슈",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_NtYj5b3q_20260701164642.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "우베 크림 슈",
+      "category": "신메뉴"
+    },
+    {
+      "description": "체리 레드불 부스트 --> 체리의 새콤달콤함과 레드불의 강렬한 탄산감이 어우러진 에너지 드링크 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/3547090005_B2uXJC5P_20260601192328.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "체리 레드불 부스트",
+      "category": "신메뉴"
+    },
+    {
+      "description": "청포도 레드불 부스트 --> 청포도의 달콤함과 레드불의 강렬한 탄산감이 어우러진 에너지 드링크 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/3547090005_iZ2Qh0ID_20260601192000.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "청포도 레드불 부스트",
+      "category": "신메뉴"
+    },
+    {
+      "description": "레인보우 레드불 부스트 --> 레인보우 과일의 상큼함에 레드불의 에너지를 더한, 활력 충전 스무디 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 *고카페인 기준 : 1ml당 0.15mg 이상 카페인 함유 시",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/3547090005_jrs0TXnf_20260601192210.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "레인보우 레드불 부스트",
+      "category": "신메뉴"
+    },
+    {
+      "description": "이천쌀 비빔 마빙 --> 이천쌀의 고소함을 담은 이천쌀 비빔 마빙",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/3731514770_OAgpbEP2_20260521093348.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "이천쌀 비빔 마빙",
+      "category": "신메뉴"
+    },
+    {
+      "description": "옛날 단팥딸기 마빙 --> 달콤한 추억의 옛날 단팥딸기 마빙",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/3731514770_XJ6ohMIr_20260521093005.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "옛날 단팥딸기 마빙",
+      "category": "신메뉴"
+    },
+    {
+      "description": "추억의 수박화채 마빙 --> 달콤하고 밀키한 수박 맛 추억의 수박화채 마빙",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/3731514770_DEziw24K_20260521092633.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "추억의 수박화채 마빙",
+      "category": "신메뉴"
+    },
+    {
+      "description": "스윗 수박주스 (라지/점보) --> 달콤하고 진한 풍미의 수박을 시원하게 즐길 수 있는 수박주스 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 **점보 사이즈(960ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다. 원산지 : 수박주스(베트남산), 배퓨레(국내산)",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_vie5zuc9_20260414174447.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "스윗 수박주스 (라지/점보)",
+      "category": "신메뉴"
+    },
+    {
+      "description": "스윗 수박파인스무디 (미디엄/라지) --> 수박의 시원함과 파인애플의 상큼하고 달콤한 맛이 어우러진 스무디 *영양성분 및 성분별 기준치 : 미디엄(420ml) 사이즈 아이스(ICED) 기준 **라지 사이즈(660ml) 영양성분은 공지사항 내 게시물 확인 부탁드립니다. 원산지 : 수박주스(베트남), 배퓨레(국내산), 돌파인애플청크(필리핀산), 파인애플농축액(필리핀산)",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_gk43ip2t_20260414174201.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "스윗 수박파인스무디 (미디엄/라지)",
+      "category": "신메뉴"
+    },
+    {
+      "description": "스윗 망고주스 --> 진한 망고의 달콤함과 상큼함을 담은 망고주스 *영양성분 및 성분별 기준치 : 라지(600ml) 사이즈 아이스(ICED) 기준 원산지 : 망고(베트남)",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_CstVE2Fv_20260414173822.png",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "스윗 망고주스",
+      "category": "신메뉴"
+    },
+    {
+      "description": "스윗 망고요거라떼 (미디엄/라지) --> 달콤한 망고 라떼에 상큼한 요거트 아이스크림과 망고 다이스 토핑을 더한 망고요거라떼 원산지 : 우유(국산). 애플망고다이스(페루산),애플망고농축퓨레/망고농축액(이스라엘산), 망고(베트남산), 유크림(국산), 요거트분말(독일산)",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_6VnPZxm3_20260414173624.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "스윗 망고요거라떼 (미디엄/라지)",
+      "category": "신메뉴"
+    },
+    {
+      "description": "딸기머핀 --> 달콤한 딸기잼이 은은하게 퍼지는 촉촉한 딸기머핀",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_jtLKeUXp_20260414172546.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "딸기머핀",
+      "category": "신메뉴"
+    },
+    {
+      "description": "말차머핀 --> 쌉싸름한 말차 풍미와 달콤한 딸기잼이 어우러진 말차머핀",
+      "photo": "https://www.theventi.co.kr/new/upload/menu_new/2039262055_gKWlf12c_20260414172440.png",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "The Venti menu (theventi.co.kr)",
+      "allergen_note": null,
+      "name": "말차머핀",
+      "category": "신메뉴"
+    }
+  ]
+}

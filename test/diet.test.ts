@@ -77,7 +77,7 @@ describe("checkDish: finding what a person avoids", () => {
 
 describe("the data behind it", () => {
   const menu = (slug: string) => JSON.parse(readFileSync(`supabase/menus/${slug}.json`, "utf8")).dishes as {
-    name: string; contains: string[] | null; may_contain: string[] | null; allergen_gaps?: string[]; price: number | null;
+    name: string; contains: string[] | null; may_contain: string[] | null; allergen_gaps?: string[]; price: number | null; ingredients: string[];
   }[];
   const known = new Set(allDietKeys());
   const find = (slug: string, name: string) => {
@@ -104,6 +104,25 @@ describe("the data behind it", () => {
     expect(pizza.contains).toEqual(expect.arrayContaining(["egg", "milk", "soy", "wheat", "pork", "tomato"]));
     expect(pizza.may_contain).toEqual(expect.arrayContaining(["peanut", "shrimp", "beef"]));
     expect(find("bbq", "BBQ 황올 미니 콤보 세트").contains).toEqual(expect.arrayContaining(["peanut", "chicken", "milk"]));
+  });
+  it("reads the other chains' lists the way their pages show them", () => {
+    expect(find("starbucks", "카페 라떼").contains).toEqual(["milk"]);
+    expect(find("starbucks", "콜드 브루 몰트").contains?.sort()).toEqual(["milk", "soy"]);
+    expect(find("mega", "딥 초코 체리 프라페").contains?.sort()).toEqual(["milk", "soy"]);
+    expect(find("paik", "원조커피(ICED)").contains).toEqual(["milk"]);
+    expect(find("paik", "아이스티샷추가(아샷추)").contains).toEqual(["peach"]);
+    expect(find("pizzaschool", "콘치즈피자").contains?.sort()).toEqual(["egg", "milk", "soy", "tomato", "wheat"]);
+    expect(find("pizzaschool", "콘치즈피자").price).toBe(10900);
+    expect(find("sulbing", "변신 메타몽 치즈베리설빙").ingredients).toContain("믹스베리");
+    expect(find("kyochon", "허니콤보").contains?.sort()).toEqual(["chicken", "soy", "wheat"]);
+    expect(find("puradak", "순(다리)살 홍고추마요").price).toBe(26900);
+  });
+  it("keeps a blank in a brand's list unknown, never free from", () => {
+    expect(find("starbucks", "카페 아메리카노").contains).toBeNull();
+    expect(find("paik", "아메리카노(ICED)").contains).toBeNull();
+    for (const slug of ["mammoth", "puradak", "popeyes", "isaac"]) {
+      expect(menu(slug).every((d) => d.contains === null && d.may_contain === null), slug).toBe(true);
+    }
   });
   it("lets the Subway add-on with no fixed meat stay unknown", () => {
     expect(find("subway", "미트 추가 Meat").contains).toBeNull();
