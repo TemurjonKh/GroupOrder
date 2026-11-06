@@ -11,6 +11,7 @@
     "dev:local": "node scripts/dev-local.mjs",
     "dev:local:reset": "node -e \"require('fs').rmSync('.local',{recursive:true,force:true})\"",
     "menus:import": "node scripts/import-menus.mjs",
+    "places:import": "node scripts/import-places.mjs",
     "menus:seed": "node scripts/build-seed.mjs",
     "test:e2e": "node test/e2e/flow.mjs"
   },
@@ -18,6 +19,7 @@
     "@phosphor-icons/react": "^2.1.10",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.119.0",
+    "leaflet": "^1.9.4",
     "next": "16.4.5",
     "qrcode": "^1.5.4",
     "react": "19.3.0",
@@ -26,6 +28,7 @@
   "devDependencies": {
     "@electric-sql/pglite": "^0.5.15",
     "@tailwindcss/turbopack": "^4",
+    "@types/leaflet": "^1.9.20",
     "@types/node": "^24.19.2",
     "@types/qrcode": "^1.5.6",
     "@types/react": "^19",

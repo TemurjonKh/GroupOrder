@@ -2,7 +2,7 @@ import { cache } from "react";
 import { redirect } from "next/navigation";
 import { createClient } from "./supabase/server";
 import { answerCounts, memberAnswers } from "./round";
-import type { Group, Member, MenuItem, OrderPick, Restaurant, Round } from "./types";
+import type { FoodNeeds, Group, Member, MenuItem, OrderPick, Place, Restaurant, Round } from "./types";
 
 export const PICK_COLUMNS =
   "id, round_id, user_id, qty, options, note, price_at_pick, status, menu_item:menu_items(*, restaurant:restaurants(*))";
@@ -96,4 +96,22 @@ export async function getRestaurantMenu(id: string) {
   const restaurant = data as Restaurant & { menu_items: MenuItem[] };
   restaurant.menu_items.sort((a, b) => a.sort_order - b.sort_order);
   return restaurant;
+}
+
+/** What the visitor avoids. Null until they have answered, which is different from avoiding nothing. */
+export const getFoodNeeds = cache(async () => {
+  const { supabase, user } = await getUser();
+  const { data } = await supabase.from("food_needs").select("avoid, note").eq("user_id", user.id).maybeSingle<FoodNeeds>();
+  return data;
+});
+
+export async function getMapData() {
+  const { supabase } = await getUser();
+  const [{ data: places }, { data: restaurants }] = await Promise.all([
+    supabase.from("places").select("*").order("distance_m"),
+    supabase.from("restaurants").select("*, menu_items(*)").order("name"),
+  ]);
+  const menus = (restaurants ?? []) as (Restaurant & { menu_items: MenuItem[] })[];
+  menus.forEach((r) => r.menu_items.sort((a, b) => a.sort_order - b.sort_order));
+  return { places: (places ?? []) as Place[], restaurants: menus };
 }

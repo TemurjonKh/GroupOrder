@@ -25,6 +25,37 @@ export type MenuItem = {
   description: string | null;
   sort_order: number;
   options: MenuOption[];
+  /** Null when the brand publishes no allergen data for this dish. That means unknown, never "free from". */
+  contains: string[] | null;
+  may_contain: string[] | null;
+  ingredients: string[];
+  allergen_source: string | null;
+  allergen_note: string | null;
+  /** Parts of a set with no published data, so the set can never read as clear. */
+  allergen_gaps: string[];
+};
+
+/** What a person avoids. Only they can read it. */
+export type FoodNeeds = { avoid: string[]; note: string | null };
+
+export type Place = {
+  id: string;
+  source: "openstreetmap" | "brand";
+  name: string;
+  name_en: string | null;
+  kind: string;
+  cuisine: string | null;
+  lat: number;
+  lng: number;
+  distance_m: number;
+  address: string | null;
+  phone: string | null;
+  opening_hours: string | null;
+  website: string | null;
+  /** Tags added by OpenStreetMap volunteers, such as "vegan". */
+  diet_tags: string[];
+  /** The chain whose menu this branch serves, when it is in the database. */
+  restaurant_id: string | null;
 };
 
 export type Group = {

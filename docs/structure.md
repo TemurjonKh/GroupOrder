@@ -16,6 +16,8 @@ differs, and what remains.
 | 7 | Group settings | `/g/<code>/settings` |
 | 8 | History | `/g/<code>/history` |
 | - | Create and join a group | `/groups/new`, `/groups/join` |
+| - | Food map and meal search | `/map` |
+| - | My food needs (allergies and diets) | `/account/food`, also shown after signing up |
 | - | Stable link for QR and the future Hub | `/g/<code>/now` |
 
 ## Where things live
@@ -24,7 +26,9 @@ differs, and what remains.
 |------|---------------|
 | `supabase/migrations/` | Tables, access rules, and all order-flow rules as database functions |
 | `supabase/menus/`, `supabase/seed.sql` | Real menus as imported JSON, and the seed generated from them |
-| `scripts/import-menus.mjs`, `scripts/build-seed.mjs` | Refresh the menus |
+| `supabase/places/inha.json` | Everywhere to eat within 2 km of Inha, with its sources |
+| `scripts/import-menus.mjs`, `scripts/import-places.mjs`, `scripts/build-seed.mjs` | Refresh the menus and places |
+| `src/lib/diet.ts` | Pure logic: what a person avoids, and how a dish measures up |
 | `src/lib/round.ts` | Pure logic: round states, answers, summaries, Seoul time, error messages |
 | `src/lib/data.ts` | Reads shared by the group pages |
 | `src/app/actions.ts` | Server actions behind every form |
@@ -41,6 +45,9 @@ so every change goes through a database function that checks membership, leaders
 deadline and restaurant limit, and copies the price from the menu. The Next.js code holds
 no special key: it acts as the logged-in user, so a bug in a page cannot bypass these rules.
 
+Food needs are health information, so they have their own table rather than a column on profiles,
+which groupmates can read. Only the person can read theirs, not even their group's leader.
+
 ## Differences from the document
 
 | Document | Code | Why |
@@ -49,7 +56,7 @@ no special key: it acts as the logged-in user, so a bug in a page cannot bypass 
 | Five round states with a deadline | For now only `open`, `finalized`, `ordered`, with no deadline: every group always has one open round, and the next opens when the leader marks one ordered | Requested for now. Open and close times come back later; `deadline` and the reminder job are kept for that |
 | Leader starts each round | Rounds open by themselves | Follows from picks always being open |
 | Nearby restaurants by distance | Chains have no location and always show; distance only applies to local restaurants | One chain has many branches |
-| Menu prices required | `price` may be null, shown as "Price not listed" and never counted as zero | Burger King and Subway publish no prices |
+| Menu prices required | `price` may be null, shown as "Price not listed" and never counted as zero | Subway publishes no prices |
 | `order_items` statuses | Adds `cancelled` | Cancelling keeps the row, so live subscribers get an update event |
 | Next.js API routes | Server actions | Less code for form submissions; the Hub status endpoint can still be a route |
 | Reminder job on Vercel | `pg_cron` in Supabase | Vercel's free tier only runs cron once a day |
@@ -70,6 +77,9 @@ MVP items still open, all of which depend on a deployed site or an outside servi
 
 Group location is set by coordinates or "Use my current location", because turning an
 address into coordinates needs a map API.
+
+The food map covers Inha University only, and only chains have menus to search. Local restaurants
+on the map have no menu or allergen data, because they publish none.
 
 ## Checked only in local mode so far
 

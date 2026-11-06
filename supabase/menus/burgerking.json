@@ -10,1402 +10,4081 @@
     {
       "name": "몬스터 맥시멈",
       "category": "오리지널스&맥시멈",
-      "description": null,
+      "description": "몬스터, 맥시멈으로 등장",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/11/de6ba0b2-36d1-4c01-a998-4a07a7c65d04.png",
-      "price": null
+      "price": 11900,
+      "contains": [
+        "beef",
+        "chicken",
+        "tomato",
+        "pork",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터 맥시멈 라지세트",
       "category": "오리지널스&맥시멈",
-      "description": "몬스터 맥시멈 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "몬스터, 맥시멈으로 등장",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/11/e30253e4-2301-47e7-9f98-e1019efb9659.png",
-      "price": null
+      "price": 14800,
+      "contains": [
+        "wheat",
+        "soy",
+        "pork",
+        "tomato",
+        "chicken",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "몬스터 맥시멈",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터 맥시멈 세트",
       "category": "오리지널스&맥시멈",
-      "description": "몬스터 맥시멈 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "몬스터, 맥시멈으로 등장",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/11/c1200257-fb52-494d-b4d2-3c6abf472fce.png",
-      "price": null
+      "price": 14100,
+      "contains": [
+        "egg",
+        "beef",
+        "tomato",
+        "pork",
+        "soy",
+        "wheat",
+        "chicken"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "몬스터 맥시멈",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터 맥시멈2 라지세트",
       "category": "오리지널스&맥시멈",
-      "description": "몬스터 맥시멈2 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "몬스터, 맥시멈으로 등장",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/11/c1e980ca-93e5-4df0-b4ec-c2aa7cb1d1e4.png",
-      "price": null
+      "price": 18200,
+      "contains": [
+        "wheat",
+        "soy",
+        "egg",
+        "pork",
+        "tomato",
+        "chicken",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "몬스터 맥시멈2",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터 맥시멈2",
       "category": "오리지널스&맥시멈",
-      "description": null,
+      "description": "몬스터, 맥시멈으로 등장",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/11/af8984ab-e907-4b1f-961d-5516a7c7fb50.png",
-      "price": null
+      "price": 15300,
+      "contains": [
+        "tomato",
+        "chicken",
+        "beef",
+        "wheat",
+        "soy",
+        "pork",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터 맥시멈2 세트",
       "category": "오리지널스&맥시멈",
-      "description": "몬스터 맥시멈2 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "몬스터, 맥시멈으로 등장",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/11/f83f60a1-d08d-4922-9a5c-72078cdcba0f.png",
-      "price": null
+      "price": 17500,
+      "contains": [
+        "wheat",
+        "soy",
+        "tomato",
+        "chicken",
+        "beef",
+        "egg",
+        "pork"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "몬스터 맥시멈2",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터 맥시멈3 라지세트",
       "category": "오리지널스&맥시멈",
-      "description": "몬스터 맥시멈3 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "몬스터, 맥시멈으로 등장",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/11/cc0140a9-4c76-47a8-afc3-8f0df6b021f7.png",
-      "price": null
+      "price": 21400,
+      "contains": [
+        "wheat",
+        "soy",
+        "pork",
+        "tomato",
+        "chicken",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "몬스터 맥시멈3",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터 맥시멈3",
       "category": "오리지널스&맥시멈",
-      "description": null,
+      "description": "몬스터, 맥시멈으로 등장",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/11/bb4a84af-b9a1-48f5-a65d-54fae8be9e7a.png",
-      "price": null
+      "price": 18500,
+      "contains": [
+        "wheat",
+        "soy",
+        "pork",
+        "tomato",
+        "chicken",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터 맥시멈3 세트",
       "category": "오리지널스&맥시멈",
-      "description": "몬스터 맥시멈3 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "몬스터, 맥시멈으로 등장",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/11/d2a6f47e-72e0-49e4-a24d-52e53247a368.png",
-      "price": null
+      "price": 20700,
+      "contains": [
+        "wheat",
+        "beef",
+        "tomato",
+        "pork",
+        "egg",
+        "soy",
+        "chicken"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "몬스터 맥시멈3",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "더오치 맥시멈2 세트",
       "category": "오리지널스&맥시멈",
-      "description": "더오치 맥시멈2 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "맥시멈에 도전하라",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/08/06/abc7c932-eba3-44c1-8065-143d9b50cd44.png",
-      "price": null
+      "price": 12900,
+      "contains": [
+        "beef",
+        "tomato",
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "더오치 맥시멈2",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "더오치 맥시멈2",
       "category": "오리지널스&맥시멈",
-      "description": null,
+      "description": "맥시멈에 도전하라",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/08/07/b5c662c1-92e4-4c9f-ab22-5cb4b8ad1b8f.png",
-      "price": null
+      "price": 10700,
+      "contains": [
+        "beef",
+        "tomato",
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "오리지널스 엘파소 치폴레 세트",
       "category": "오리지널스&맥시멈",
-      "description": "오리지널스 엘파소 치폴레 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "150g 패티에 스모키한 풍미의 치폴레와 할라피뇨가 만난 엘파소의 풍미",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/05/20/a837997a-a380-47ff-b239-f356d01d31ea.png",
-      "price": null
+      "price": 13100,
+      "contains": [
+        "beef",
+        "egg",
+        "tomato",
+        "pork",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "오리지널스 엘파소 치폴레",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "오리지널스 엘파소 치폴레",
       "category": "오리지널스&맥시멈",
-      "description": null,
+      "description": "150g 패티에 스모키한 풍미의 치폴레와 할라피뇨가 만난 엘파소의 풍미",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/05/20/c48c37c2-dcb1-44d0-b32a-07351b28b320.png",
-      "price": null
+      "price": 10900,
+      "contains": [
+        "beef",
+        "egg",
+        "tomato",
+        "pork",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "오리지널스 엘파소 치폴레 라지세트",
       "category": "오리지널스&맥시멈",
-      "description": "오리지널스 엘파소 치폴레 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "150g 패티에 스모키한 풍미의 치폴레와 할라피뇨가 만난 엘파소의 풍미",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/05/20/f3953ee0-059d-492c-8e46-c2d5295287c2.png",
-      "price": null
+      "price": 13800,
+      "contains": [
+        "beef",
+        "egg",
+        "tomato",
+        "pork",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "오리지널스 엘파소 치폴레",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "오리지널스 뉴욕 스테이크 라지세트",
       "category": "오리지널스&맥시멈",
-      "description": "오리지널스 뉴욕 스테이크 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "150g 패티에 뉴욕스테이크 소스와 몬테레이잭 치즈를 더한 정통 미국 스타일",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/05/16/c8f2e1e0-0314-4ef2-bab9-39f326d265ac.png",
-      "price": null
+      "price": 13800,
+      "contains": [
+        "egg",
+        "pork",
+        "beef",
+        "tomato",
+        "shellfish",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "오리지널스 뉴욕 스테이크",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "오리지널스 뉴욕 스테이크 세트",
       "category": "오리지널스&맥시멈",
-      "description": "오리지널스 뉴욕 스테이크 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "150g 패티에 뉴욕스테이크 소스와 몬테레이잭 치즈를 더한 정통 미국 스타일",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/05/16/d74d2f0a-0cf4-450d-99f7-9a74f86a001c.png",
-      "price": null
+      "price": 13100,
+      "contains": [
+        "egg",
+        "pork",
+        "beef",
+        "tomato",
+        "shellfish",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "오리지널스 뉴욕 스테이크",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "오리지널스 뉴욕 스테이크",
       "category": "오리지널스&맥시멈",
-      "description": null,
+      "description": "150g 패티에 뉴욕스테이크 소스와 몬테레이잭 치즈를 더한 정통 미국 스타일",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/05/16/c01498d2-ca38-413b-aa89-b68319e03c55.png",
-      "price": null
+      "price": 10900,
+      "contains": [
+        "egg",
+        "pork",
+        "beef",
+        "tomato",
+        "shellfish",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "블랙 트러플치즈 버거",
       "category": "프리미엄",
-      "description": null,
+      "description": "블랙 트러플 번으로 더 깊어진, NEW 블랙 트머와",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/13/caaf9dae-b295-4255-8368-aa47f40d4357.png",
-      "price": null
+      "price": 10700,
+      "contains": [
+        "wheat",
+        "squid",
+        "egg",
+        "beef",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "블랙 트러플치즈 버거 세트",
       "category": "프리미엄",
-      "description": "블랙 트러플치즈 버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "블랙 트러플 번으로 더 깊어진, NEW 블랙 트머와",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/13/e9cbf9b0-9817-47c2-9856-b82cc02f6b89.png",
-      "price": null
+      "price": 12900,
+      "contains": [
+        "egg",
+        "beef",
+        "milk",
+        "wheat",
+        "soy",
+        "squid"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "블랙 트러플치즈 버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "블랙 트러플치즈 버거 라지세트",
       "category": "프리미엄",
-      "description": "블랙 트러플치즈 버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "블랙 트러플 번으로 더 깊어진, NEW 블랙 트머와",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/13/ba401229-efaa-4556-aa4d-d5868da81629.png",
-      "price": null
+      "price": 13600,
+      "contains": [
+        "squid",
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "블랙 트러플치즈 버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "트러플 머쉬룸 와퍼 라지세트",
       "category": "프리미엄",
-      "description": "트러플 머쉬룸 와퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "진한 트러플 향과 4가지 버섯의 깊은 풍미",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/07/a6977cc9-f073-437d-9921-a390a836b335.png",
-      "price": null
+      "price": 12600,
+      "contains": [
+        "beef",
+        "tomato",
+        "pork",
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "트러플 머쉬룸 와퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "트러플 머쉬룸 와퍼 세트",
       "category": "프리미엄",
-      "description": "트러플 머쉬룸 와퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "진한 트러플 향과 4가지 버섯의 깊은 풍미",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/07/bb61b156-a2b8-4955-aec8-be65654e39fd.png",
-      "price": null
+      "price": 11900,
+      "contains": [
+        "beef",
+        "tomato",
+        "pork",
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "트러플 머쉬룸 와퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "트러플 머쉬룸 와퍼",
       "category": "프리미엄",
-      "description": null,
+      "description": "진한 트러플 향과 4가지 버섯의 깊은 풍미",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/07/b50b2add-f3ee-48c7-b5b6-041f465cdf87.png",
-      "price": null
+      "price": 9700,
+      "contains": [
+        "beef",
+        "wheat",
+        "soy",
+        "milk",
+        "pork",
+        "tomato",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "핫 트러플 머쉬룸 와퍼 라지세트",
       "category": "프리미엄",
-      "description": "핫 트러플 머쉬룸 와퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "매콤한 트러플 소스의 색다른 매력",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/07/edbca0da-53db-4028-8dee-a1e0c4ca7072.png",
-      "price": null
+      "price": 12600,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "pork",
+        "tomato",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "핫 트러플 머쉬룸 와퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "핫 트러플 머쉬룸 와퍼",
       "category": "프리미엄",
-      "description": null,
+      "description": "매콤한 트러플 소스의 색다른 매력",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/07/d628cbcf-0998-4693-9b5a-ac8e86af0614.png",
-      "price": null
+      "price": 9700,
+      "contains": [
+        "wheat",
+        "soy",
+        "pork",
+        "tomato",
+        "beef",
+        "egg",
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "핫 트러플 머쉬룸 와퍼 세트",
       "category": "프리미엄",
-      "description": "핫 트러플 머쉬룸 와퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "매콤한 트러플 소스의 색다른 매력",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/07/ae3f79b3-d97d-42c4-a62c-4ccc70a3ec73.png",
-      "price": null
+      "price": 11900,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "pork",
+        "tomato",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "핫 트러플 머쉬룸 와퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "메종 트러플치즈 버거",
       "category": "프리미엄",
-      "description": null,
+      "description": "트러플 치즈와 트러플 소스가 선사하는 깊고 풍성한 트러플 풍미의 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/07/fd413b80-e4f3-4bcf-8e72-f522f55949ee.png",
-      "price": null
+      "price": 10500,
+      "contains": [
+        "milk",
+        "wheat",
+        "soy",
+        "egg",
+        "beef",
+        "pork"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "메종 트러플치즈 버거 세트",
       "category": "프리미엄",
-      "description": "메종 트러플치즈 버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "트러플 치즈와 트러플 소스가 선사하는 깊고 풍성한 트러플 풍미의 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/07/cd9a5a87-373a-4c59-8f26-3cf4fcba45f6.png",
-      "price": null
+      "price": 12700,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "pork",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "메종 트러플치즈 버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "메종 트러플치즈 버거 라지세트",
       "category": "프리미엄",
-      "description": "메종 트러플치즈 버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "트러플 치즈와 트러플 소스가 선사하는 깊고 풍성한 트러플 풍미의 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/07/b6a2f829-0d71-4e7f-8f1f-a9ea0014175e.png",
-      "price": null
+      "price": 13400,
+      "contains": [
+        "soy",
+        "milk",
+        "egg",
+        "wheat",
+        "pork",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "메종 트러플치즈 버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터와퍼 세트",
       "category": "프리미엄",
-      "description": "몬스터와퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불맛 가득 순쇠고기, 치킨, 베이컨에 화끈한 디아블로 소스의 압도적인 맛",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ac6846e3-e417-4583-8da1-6bbd30917437.png",
-      "price": null
+      "price": 11300,
+      "contains": [
+        "pork",
+        "egg",
+        "beef",
+        "chicken",
+        "tomato",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "몬스터와퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "몬스터와퍼",
       "category": "프리미엄",
-      "description": null,
+      "description": "불맛 가득 순쇠고기, 치킨, 베이컨에 화끈한 디아블로 소스의 압도적인 맛",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a1110d1d-3127-4ec2-bcec-82d4e508d86c.png",
-      "price": null
+      "price": 9600,
+      "contains": [
+        "pork",
+        "egg",
+        "beef",
+        "chicken",
+        "tomato",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터와퍼 라지세트",
       "category": "프리미엄",
-      "description": "몬스터와퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불맛 가득 순쇠고기, 치킨, 베이컨에 화끈한 디아블로 소스의 압도적인 맛",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c7b28c89-6bf9-4f6b-a313-b4e0f356c5e5.png",
-      "price": null
+      "price": 12000,
+      "contains": [
+        "pork",
+        "egg",
+        "beef",
+        "chicken",
+        "tomato",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "몬스터와퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "베이컨치즈와퍼 라지세트",
       "category": "프리미엄",
-      "description": "베이컨치즈와퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "풍미 가득한 아메리칸 클래식의 완벽한 조화!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a26abccd-c0e6-465c-93d3-dc73c1b71631.png",
-      "price": null
+      "price": 12100,
+      "contains": [
+        "milk",
+        "pork",
+        "wheat",
+        "tomato",
+        "beef",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "베이컨치즈와퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "베이컨치즈와퍼 세트",
       "category": "프리미엄",
-      "description": "베이컨치즈와퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "풍미 가득한 아메리칸 클래식의 완벽한 조화!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/e157342f-7834-49b6-aaac-5740aa9d9f8d.png",
-      "price": null
+      "price": 11400,
+      "contains": [
+        "milk",
+        "pork",
+        "wheat",
+        "tomato",
+        "beef",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "베이컨치즈와퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "베이컨치즈와퍼",
       "category": "프리미엄",
-      "description": null,
+      "description": "풍미 가득한 아메리칸 클래식의 완벽한 조화!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/bda1916f-1a73-41b1-95d5-9e27298b0664.png",
-      "price": null
+      "price": 9200,
+      "contains": [
+        "milk",
+        "pork",
+        "wheat",
+        "tomato",
+        "beef",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "콰트로치즈와퍼 라지세트",
       "category": "프리미엄",
-      "description": "콰트로치즈와퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ac889e84-fa6b-4168-bc1b-88335f117b83.png",
-      "price": null
+      "price": 11100,
+      "contains": [
+        "tomato",
+        "beef",
+        "wheat",
+        "egg",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "콰트로치즈와퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "콰트로치즈와퍼",
       "category": "프리미엄",
-      "description": null,
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c3bb5198-4c06-4256-8b57-1796f516b90a.png",
-      "price": null
+      "price": 8200,
+      "contains": [
+        "tomato",
+        "beef",
+        "wheat",
+        "egg",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "콰트로치즈와퍼 세트",
       "category": "프리미엄",
-      "description": "콰트로치즈와퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b41e43dc-8b8b-407f-9c54-63dd342dc9a3.png",
-      "price": null
+      "price": 10400,
+      "contains": [
+        "tomato",
+        "beef",
+        "wheat",
+        "egg",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "콰트로치즈와퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "통새우와퍼 세트",
       "category": "프리미엄",
-      "description": "통새우와퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/d6f89ef1-936e-4dc4-967e-68cfb8be1410.png",
-      "price": null
+      "price": 10400,
+      "contains": [
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "shrimp",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "통새우와퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "통새우와퍼",
       "category": "프리미엄",
-      "description": null,
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b3b26016-b426-423d-8e98-f6370404a2e3.png",
-      "price": null
+      "price": 8200,
+      "contains": [
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "shrimp",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "통새우와퍼 라지세트",
       "category": "프리미엄",
-      "description": "통새우와퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/d6fd811d-fc6f-419c-b567-48bab2be5762.png",
-      "price": null
+      "price": 11100,
+      "contains": [
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "shrimp",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "통새우와퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "와퍼 세트",
       "category": "와퍼&주니어",
-      "description": "와퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불에 직접 구운 순 쇠고기 패티에 싱싱한 야채가 한가득~ 버거킹의 대표 메뉴!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/e1d9fdf4-3ea2-4ec7-bfbe-521617585c61.png",
-      "price": null
+      "price": 9600,
+      "contains": [
+        "beef",
+        "tomato",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "와퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "와퍼 라지세트",
       "category": "와퍼&주니어",
-      "description": "와퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불에 직접 구운 순 쇠고기 패티에 싱싱한 야채가 한가득~ 버거킹의 대표 메뉴!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/e12e652f-99f1-4827-9866-3a06864d718d.png",
-      "price": null
+      "price": 10300,
+      "contains": [
+        "beef",
+        "tomato",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "와퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "와퍼",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "불에 직접 구운 순 쇠고기 패티에 싱싱한 야채가 한가득~ 버거킹의 대표 메뉴!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b654b144-1c6d-410f-adee-639931c9f800.png",
-      "price": null
+      "price": 7400,
+      "contains": [
+        "beef",
+        "tomato",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "치즈와퍼 라지세트",
       "category": "와퍼&주니어",
-      "description": "치즈와퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼에 고소한 치즈까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a0277a0f-55e2-4802-a6f6-769b1edfe229.png",
-      "price": null
+      "price": 10900,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "tomato",
+        "egg",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치즈와퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "치즈와퍼",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼에 고소한 치즈까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ca6ae749-2a23-498f-b99f-875fc7ac62a3.png",
-      "price": null
+      "price": 8000,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "tomato",
+        "egg",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "치즈와퍼 세트",
       "category": "와퍼&주니어",
-      "description": "치즈와퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼에 고소한 치즈까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ea565fa0-983c-47c8-9eaf-a7166a490f7a.png",
-      "price": null
+      "price": 10200,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "tomato",
+        "egg",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치즈와퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "불고기와퍼 라지세트",
       "category": "와퍼&주니어",
-      "description": "불고기와퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼에 달콤한 불고기 소스까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b3e44a70-7c59-47fc-9458-0639befdb72c.png",
-      "price": null
+      "price": 10300,
+      "contains": [
+        "wheat",
+        "soy",
+        "egg",
+        "beef",
+        "tomato"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "불고기와퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "불고기와퍼 세트",
       "category": "와퍼&주니어",
-      "description": "불고기와퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼에 달콤한 불고기 소스까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/bd03b6f6-04e3-429e-aa6f-cc28f8dbb5d8.png",
-      "price": null
+      "price": 9600,
+      "contains": [
+        "wheat",
+        "soy",
+        "egg",
+        "beef",
+        "tomato"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "불고기와퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "불고기와퍼",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼에 달콤한 불고기 소스까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a31e5bd5-ceab-4548-976f-5fc168965779.png",
-      "price": null
+      "price": 7400,
+      "contains": [
+        "wheat",
+        "soy",
+        "egg",
+        "beef",
+        "tomato"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "갈릭불고기와퍼",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "크리스피 갈릭칩과 달콤한 불고기소스로 즐기는 갈릭불고기와퍼",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ba1e5306-20e6-4bda-b130-9fcad0087ca0.png",
-      "price": null
+      "price": 7700,
+      "contains": [
+        "wheat",
+        "soy",
+        "tomato",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "갈릭불고기와퍼 라지세트",
       "category": "와퍼&주니어",
-      "description": "갈릭불고기와퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "크리스피 갈릭칩과 달콤한 불고기소스로 즐기는 갈릭불고기와퍼",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a2fa2110-e6ce-4c63-82e2-ee9c260ba0f9.png",
-      "price": null
+      "price": 10600,
+      "contains": [
+        "wheat",
+        "soy",
+        "tomato",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "갈릭불고기와퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "갈릭불고기와퍼 세트",
       "category": "와퍼&주니어",
-      "description": "갈릭불고기와퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "크리스피 갈릭칩과 달콤한 불고기소스로 즐기는 갈릭불고기와퍼",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/fc5e5cfa-2a7d-426a-85ea-f7ec9cc82be5.png",
-      "price": null
+      "price": 9900,
+      "contains": [
+        "wheat",
+        "soy",
+        "tomato",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "갈릭불고기와퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "콰트로치즈 와퍼주니어",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ac194f07-9503-4296-adba-cae1cea81e28.png",
-      "price": null
+      "price": 5600,
+      "contains": [
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "콰트로치즈와퍼주니어 세트",
       "category": "와퍼&주니어",
-      "description": "콰트로치즈 와퍼주니어 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/bb371892-c1b6-4e02-839b-ec752879dc86.png",
-      "price": null
+      "price": 7800,
+      "contains": [
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "콰트로치즈 와퍼주니어",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "콰트로치즈와퍼주니어 라지세트",
       "category": "와퍼&주니어",
-      "description": "콰트로치즈 와퍼주니어 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/bab71031-2e95-493d-a520-a69ccb4dfb31.png",
-      "price": null
+      "price": 8500,
+      "contains": [
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "콰트로치즈 와퍼주니어",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "통새우와퍼주니어",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2024/12/04/ea0e3d30-a916-46cf-9a1a-75097a6b89a4.png",
-      "price": null
+      "price": 5600,
+      "contains": [
+        "shrimp",
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "통새우와퍼주니어 세트",
       "category": "와퍼&주니어",
-      "description": "통새우와퍼주니어 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c6890d82-f010-4d42-8a1f-986832a15522.png",
-      "price": null
+      "price": 7800,
+      "contains": [
+        "shrimp",
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "통새우와퍼주니어",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "통새우와퍼주니어 라지세트",
       "category": "와퍼&주니어",
-      "description": "통새우와퍼주니어 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b2d7403f-5e9f-4185-adde-2747ce420e97.png",
-      "price": null
+      "price": 8500,
+      "contains": [
+        "shrimp",
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "통새우와퍼주니어",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "더블비프불고기버거",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "달콤한 불고기 소스에 더블 패티로 더욱 깊어진 감칠맛!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ff8551b4-c8c1-4cab-8dd7-bca67a3c1c2a.png",
-      "price": null
+      "price": 5300,
+      "contains": [
+        "egg",
+        "beef",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "더블비프불고기버거라지세트",
       "category": "와퍼&주니어",
-      "description": "더블비프불고기버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "달콤한 불고기 소스에 더블 패티로 더욱 깊어진 감칠맛!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c837172a-4af8-4c68-a9ac-f26f9ef54da0.png",
-      "price": null
+      "price": 7700,
+      "contains": [
+        "egg",
+        "beef",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "더블비프불고기버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "더블비프불고기버거세트",
       "category": "와퍼&주니어",
-      "description": "더블비프불고기버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "달콤한 불고기 소스에 더블 패티로 더욱 깊어진 감칠맛!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a0479ced-0f44-493a-8801-7e94861bdf76.png",
-      "price": null
+      "price": 7000,
+      "contains": [
+        "egg",
+        "beef",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "더블비프불고기버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "와퍼주니어",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼의 주니어 버전~ 작지만 꽉 찼다!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2024/12/04/c1c68ea4-deb3-4bb1-8387-2138bc706e2f.png",
-      "price": null
+      "price": 5000,
+      "contains": [
+        "beef",
+        "wheat",
+        "soy",
+        "tomato",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "와퍼주니어 세트",
       "category": "와퍼&주니어",
-      "description": "와퍼주니어 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼의 주니어 버전~ 작지만 꽉 찼다!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/d6d77468-74fd-4f33-9ea9-471b16442349.png",
-      "price": null
+      "price": 7200,
+      "contains": [
+        "beef",
+        "wheat",
+        "soy",
+        "tomato",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "와퍼주니어",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "와퍼주니어 라지세트",
       "category": "와퍼&주니어",
-      "description": "와퍼주니어 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼의 주니어 버전~ 작지만 꽉 찼다!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f74738df-41a5-40a0-99ba-2fef269a055f.png",
-      "price": null
+      "price": 7900,
+      "contains": [
+        "beef",
+        "wheat",
+        "soy",
+        "tomato",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "와퍼주니어",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "치즈와퍼주니어 라지세트",
       "category": "와퍼&주니어",
-      "description": "치즈와퍼주니어 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼주니어에 고소한 치즈 추가!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/d0399599-9cbc-43ed-abb2-c602b3ffb52b.png",
-      "price": null
+      "price": 8200,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "tomato",
+        "egg",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치즈와퍼주니어",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "치즈와퍼주니어 세트",
       "category": "와퍼&주니어",
-      "description": "치즈와퍼주니어 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼주니어에 고소한 치즈 추가!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ce67c697-99b9-4c8b-ad1e-15cafa2922d8.png",
-      "price": null
+      "price": 7500,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "tomato",
+        "egg",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치즈와퍼주니어",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "치즈와퍼주니어",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼주니어에 고소한 치즈 추가!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/d46e8c75-9f62-47ba-9978-ad5210a437ad.png",
-      "price": null
+      "price": 5300,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "tomato",
+        "egg",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "불고기와퍼주니어라지세트",
       "category": "와퍼&주니어",
-      "description": "불고기와퍼주니어 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼주니어에 달콤한 불고기 소스까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ed686f52-1f31-4f15-9b57-ae5bf566b5b5.png",
-      "price": null
+      "price": 7900,
+      "contains": [
+        "soy",
+        "egg",
+        "beef",
+        "tomato",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "불고기와퍼주니어",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "불고기와퍼주니어세트",
       "category": "와퍼&주니어",
-      "description": "불고기와퍼주니어 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼주니어에 달콤한 불고기 소스까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/aac078b7-9fa0-4b42-80d7-7a37896e0131.png",
-      "price": null
+      "price": 7200,
+      "contains": [
+        "soy",
+        "egg",
+        "beef",
+        "tomato",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "불고기와퍼주니어",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "불고기와퍼주니어",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼주니어에 달콤한 불고기 소스까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f70e1959-95e1-4580-88cc-361dde80b21b.png",
-      "price": null
+      "price": 5000,
+      "contains": [
+        "soy",
+        "egg",
+        "beef",
+        "tomato",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "비프불고기버거",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "달콤한 불고기소스와 100% 순쇠고기 패티의 감칠맛나는 조화, 비프불고기버거!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/fba6ff6d-d2e7-4a52-82d4-a7fd4153ca7a.png",
-      "price": null
+      "price": 4300,
+      "contains": [
+        "soy",
+        "wheat",
+        "egg",
+        "milk",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "비프불고기버거 세트",
       "category": "와퍼&주니어",
-      "description": "비프불고기버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "달콤한 불고기소스와 100% 순쇠고기 패티의 감칠맛나는 조화, 비프불고기버거!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f179e791-1886-4472-b528-667c7b61b3e7.png",
-      "price": null
+      "price": 6000,
+      "contains": [
+        "soy",
+        "wheat",
+        "egg",
+        "milk",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "비프불고기버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "비프불고기버거 라지세트",
       "category": "와퍼&주니어",
-      "description": "비프불고기버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "달콤한 불고기소스와 100% 순쇠고기 패티의 감칠맛나는 조화, 비프불고기버거!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ae400287-4dec-45cd-a9a6-8628bc1c9b4e.png",
-      "price": null
+      "price": 6700,
+      "contains": [
+        "soy",
+        "wheat",
+        "egg",
+        "milk",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "비프불고기버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "치즈버거 세트",
       "category": "와퍼&주니어",
-      "description": "치즈버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불에 구운 쇠고기 패티와 사르르 치즈까지, 작지만 알차다!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/fbdb4833-fd98-4109-bffb-43c7e995c22d.png",
-      "price": null
+      "price": 6000,
+      "contains": [
+        "soy",
+        "egg",
+        "tomato",
+        "beef",
+        "wheat",
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치즈버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "치즈버거",
       "category": "와퍼&주니어",
-      "description": null,
+      "description": "불에 구운 쇠고기 패티와 사르르 치즈까지, 작지만 알차다!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ebf95041-e665-4685-b0e4-b92239b2a351.png",
-      "price": null
+      "price": 3800,
+      "contains": [
+        "soy",
+        "egg",
+        "tomato",
+        "beef",
+        "wheat",
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "치즈버거 라지세트",
       "category": "와퍼&주니어",
-      "description": "치즈버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불에 구운 쇠고기 패티와 사르르 치즈까지, 작지만 알차다!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f82dc728-33df-42d2-812a-f21f6b8ccf03.png",
-      "price": null
+      "price": 6700,
+      "contains": [
+        "soy",
+        "egg",
+        "tomato",
+        "beef",
+        "wheat",
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치즈버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "쯔란로제 크리스퍼",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "톡쏘는 쯔란과 부드러운 로제의 극적 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/29/e2ba45da-db05-4796-b8f9-cc8341182142.png",
-      "price": null
+      "price": 6200,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "tomato",
+        "chicken",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "쯔란로제 크리스퍼 라지세트",
       "category": "치킨&슈림프",
-      "description": "쯔란로제 크리스퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "톡쏘는 쯔란과 부드러운 로제의 극적 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/29/a2c6b86a-037e-4054-b106-9711ce2002ab.png",
-      "price": null
+      "price": 9100,
+      "contains": [
+        "tomato",
+        "egg",
+        "soy",
+        "milk",
+        "wheat",
+        "chicken",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "쯔란로제 크리스퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "쯔란로제 크리스퍼 세트",
       "category": "치킨&슈림프",
-      "description": "쯔란로제 크리스퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "톡쏘는 쯔란과 부드러운 로제의 극적 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/29/f4f55bdc-54ba-4519-8d23-2c947ef2e230.png",
-      "price": null
+      "price": 8400,
+      "contains": [
+        "chicken",
+        "beef",
+        "wheat",
+        "soy",
+        "milk",
+        "tomato",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "쯔란로제 크리스퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "쯔란로제 딥 치즈 크리스퍼",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "쯔란로제 크리스퍼에 4가지 치즈를 더해 더 부드럽게",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/29/ab75f0be-8a15-4f38-a5e9-4107bc39bdc8.png",
-      "price": null
+      "price": 7200,
+      "contains": [
+        "soy",
+        "milk",
+        "pork",
+        "tomato",
+        "chicken",
+        "beef",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "쯔란로제 딥 치즈 크리스퍼 라지세트",
       "category": "치킨&슈림프",
-      "description": "쯔란로제 딥 치즈 크리스퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "쯔란로제 크리스퍼에 4가지 치즈를 더해 더 부드럽게",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/29/cf164be9-342c-4a7c-9ed0-e35906e3da60.png",
-      "price": null
+      "price": 10100,
+      "contains": [
+        "egg",
+        "beef",
+        "chicken",
+        "tomato",
+        "pork",
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "쯔란로제 딥 치즈 크리스퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "쯔란로제 딥 치즈 크리스퍼 세트",
       "category": "치킨&슈림프",
-      "description": "쯔란로제 딥 치즈 크리스퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "쯔란로제 크리스퍼에 4가지 치즈를 더해 더 부드럽게",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/29/daae4fb0-4ea2-4038-a43c-96cc2611f557.png",
-      "price": null
+      "price": 9400,
+      "contains": [
+        "egg",
+        "beef",
+        "chicken",
+        "milk",
+        "pork",
+        "tomato",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "쯔란로제 딥 치즈 크리스퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "롱치킨버거",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스와 싱싱한 야채가 듬뿍",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/23/e013fe1b-0dcc-47c1-90c8-5d8cc2faefe0.png",
-      "price": null
+      "price": 5000,
+      "contains": [
+        "egg",
+        "chicken",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "롱치킨버거 세트",
       "category": "치킨&슈림프",
-      "description": "롱치킨버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스와 싱싱한 야채가 듬뿍~",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/23/cb38d529-b601-4787-86e4-36aca8efad70.png",
-      "price": null
+      "price": 6400,
+      "contains": [
+        "egg",
+        "chicken",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "롱치킨버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "롱치킨버거 라지세트",
       "category": "치킨&슈림프",
-      "description": "롱치킨버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스와 싱싱한 야채가 듬뿍~",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/10/23/c02b2955-3f52-475e-a8cb-ef315bbeae81.png",
-      "price": null
+      "price": 7100,
+      "contains": [
+        "egg",
+        "chicken",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "롱치킨버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "더 크리스퍼 세트",
       "category": "치킨&슈림프",
-      "description": "더 크리스퍼 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "한층 더 바삭해진 100% 통가슴살에 후레쉬 피클과 매콤한 감칠맛으로 풍미가 폭발",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/01/13/ef7925dd-7df8-4935-86d0-885deade9ea1.png",
-      "price": null
+      "price": 7900,
+      "contains": [
+        "tomato",
+        "chicken",
+        "beef",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "더 크리스퍼",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "더 크리스퍼",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "한층 더 바삭해진 100% 통가슴살에 후레쉬 피클과 매콤한 감칠맛으로 풍미가 폭발",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/01/13/d9839ce9-730c-4c02-8b99-fd680b6c44e1.png",
-      "price": null
+      "price": 5700,
+      "contains": [
+        "tomato",
+        "chicken",
+        "beef",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "더 크리스퍼 라지세트",
       "category": "치킨&슈림프",
-      "description": "더 크리스퍼 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "한층 더 바삭해진 100% 통가슴살에 후레쉬 피클과 매콤한 감칠맛으로 풍미가 폭발",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/01/13/a6a24be8-1438-498a-87ec-2685dbc6725a.png",
-      "price": null
+      "price": 8600,
+      "contains": [
+        "tomato",
+        "chicken",
+        "beef",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "더 크리스퍼",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "더 크리스퍼 베이컨&치즈",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "한층 더 바삭해진 100% 통가슴살에 후레쉬 피클과 베이컨&치즈를 더해 완성한 치킨 버거의 풍미",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/01/13/f203621b-10ac-4b8e-a9e9-db1da43c0257.png",
-      "price": null
+      "price": 6700,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "pork",
+        "tomato",
+        "chicken",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "더 크리스퍼 베이컨&치즈 라지세트",
       "category": "치킨&슈림프",
-      "description": "더 크리스퍼 베이컨&치즈 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "한층 더 바삭해진 100% 통가슴살에 후레쉬 피클과 베이컨&치즈를 더해 완성한 치킨 버거의 풍미",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/01/13/d17c2ed7-1c45-44d4-ab1e-ee0d5b4ff000.png",
-      "price": null
+      "price": 9600,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "pork",
+        "tomato",
+        "chicken",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "더 크리스퍼 베이컨&치즈",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "더 크리스퍼 베이컨&치즈 세트",
       "category": "치킨&슈림프",
-      "description": "더 크리스퍼 베이컨&치즈 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "한층 더 바삭해진 100% 통가슴살에 후레쉬 피클과 베이컨&치즈를 더해 완성한 치킨 버거의 풍미",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/01/13/d7f977c3-61fc-40b4-b574-cd5bbd345002.png",
-      "price": null
+      "price": 8900,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "pork",
+        "tomato",
+        "chicken",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "더 크리스퍼 베이컨&치즈",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "크리스퍼 랩",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "든든하게 채우는 한입, 크리스퍼 스낵",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/21/ff5c1f79-d39b-4b64-83bb-6248c46beb61.png",
-      "price": null
+      "price": 3600,
+      "contains": [
+        "soy",
+        "egg",
+        "milk",
+        "wheat",
+        "chicken"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "치킨킹BLT 세트",
       "category": "치킨&슈림프",
-      "description": "치킨킹BLT + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "스파이시한 통닭다리살 프리미엄 치킨버거에 베이컨, 양상추, 토마토를 더했다. 치킨킹 BLT!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c7f46da5-9cf6-4865-8fe7-fc49bcf488b7.png",
-      "price": null
+      "price": 9900,
+      "contains": [
+        "egg",
+        "beef",
+        "chicken",
+        "pork",
+        "milk",
+        "soy",
+        "wheat",
+        "tomato"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치킨킹BLT",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "치킨킹BLT 라지세트",
       "category": "치킨&슈림프",
-      "description": "치킨킹BLT + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "스파이시한 통닭다리살 프리미엄 치킨버거에 베이컨, 양상추, 토마토를 더했다. 치킨킹 BLT!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c3e23fa1-73af-46b0-a49b-80b3fb23894e.png",
-      "price": null
+      "price": 10600,
+      "contains": [
+        "egg",
+        "beef",
+        "chicken",
+        "pork",
+        "milk",
+        "soy",
+        "wheat",
+        "tomato"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치킨킹BLT",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "치킨킹BLT",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "스파이시한 통닭다리살 프리미엄 치킨버거에 베이컨, 양상추, 토마토를 더했다. 치킨킹 BLT!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/aa818c68-fbba-4ad8-a8ad-73f45a6b8cf1.png",
-      "price": null
+      "price": 7700,
+      "contains": [
+        "egg",
+        "beef",
+        "chicken",
+        "pork",
+        "milk",
+        "soy",
+        "wheat",
+        "tomato"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "치킨킹",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "스파이시한 통닭다리살과 고소한 브리오쉬번이 만나 더 풍부해진 프리미엄 치킨버거. 치킨킹!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f7bd76e0-5183-46f0-8ff7-f74b5cc8c2f1.png",
-      "price": null
+      "price": 6700,
+      "contains": [
+        "egg",
+        "beef",
+        "wheat",
+        "soy",
+        "milk",
+        "chicken"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "치킨킹 세트",
       "category": "치킨&슈림프",
-      "description": "치킨킹 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "스파이시한 통닭다리살과 고소한 브리오쉬번이 만나 더 풍부해진 프리미엄 치킨버거. 치킨킹!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/e6825e98-5de6-4bed-8ccb-761787c97af0.png",
-      "price": null
+      "price": 8900,
+      "contains": [
+        "egg",
+        "beef",
+        "wheat",
+        "soy",
+        "milk",
+        "chicken"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치킨킹",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "치킨킹 라지세트",
       "category": "치킨&슈림프",
-      "description": "치킨킹 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "스파이시한 통닭다리살과 고소한 브리오쉬번이 만나 더 풍부해진 프리미엄 치킨버거. 치킨킹!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f88f8187-8944-4ba0-9e20-ecfa4e08e01f.png",
-      "price": null
+      "price": 9600,
+      "contains": [
+        "egg",
+        "beef",
+        "wheat",
+        "soy",
+        "milk",
+        "chicken"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치킨킹",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "통새우슈림프버거 세트",
       "category": "치킨&슈림프",
-      "description": "통새우슈림프버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "통통한 통새우에 새콤달콤 특제소스 듬뿍! 통새우 슈림프 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f8f0c940-d19d-4a0f-9b54-b461c3ce5d4f.png",
-      "price": null
+      "price": 8000,
+      "contains": [
+        "shrimp",
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "통새우슈림프버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "통새우슈림프버거 라지세트",
       "category": "치킨&슈림프",
-      "description": "통새우슈림프버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "통통한 통새우에 새콤달콤 특제소스 듬뿍! 통새우 슈림프 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a6f7bb79-2417-448f-b45d-412fdc340636.png",
-      "price": null
+      "price": 8700,
+      "contains": [
+        "shrimp",
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "통새우슈림프버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "통새우슈림프버거",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "통통한 통새우에 새콤달콤 특제소스 듬뿍! 통새우 슈림프 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/fdb3e46a-c352-4149-aeaa-5b3019b57e32.png",
-      "price": null
+      "price": 6300,
+      "contains": [
+        "shrimp",
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "치킨 치즈 마요 버거",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "엑스트라 마요네즈와 치즈로 더욱 고소한 치킨치즈마요버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/22/dc180108-c04f-4d3d-8c14-a9ef4680151b.png",
-      "price": null
+      "price": 4200,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "chicken",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "치킨 치즈 마요 버거 라지세트",
       "category": "치킨&슈림프",
-      "description": "치킨 치즈 마요 버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "엑스트라 마요네즈와 치즈로 더욱 고소한 치킨치즈마요버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/22/e92fd47f-ffac-4520-a349-dc9fa0dcceae.png",
-      "price": null
+      "price": 6600,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "chicken",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치킨 치즈 마요 버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "치킨 치즈 마요 버거 세트",
       "category": "치킨&슈림프",
-      "description": "치킨 치즈 마요 버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "엑스트라 마요네즈와 치즈로 더욱 고소한 치킨치즈마요버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/22/d68853d2-28bd-4936-85f5-809631877e33.png",
-      "price": null
+      "price": 5900,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "chicken",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치킨 치즈 마요 버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "치킨버거 세트",
       "category": "치킨&슈림프",
-      "description": "치킨버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "부드러운 버거번과 킹치킨패티의 만남! 풍부한 마요 소스로 고소하게!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c1bc74e4-8917-44cf-b9ec-220e589d7a22.png",
-      "price": null
+      "price": 5700,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "chicken",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치킨버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "치킨버거 라지세트",
       "category": "치킨&슈림프",
-      "description": "치킨버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "부드러운 버거번과 킹치킨패티의 만남! 풍부한 마요 소스로 고소하게!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/bd38f3f5-6456-48b7-8127-dd2e2d7a3b09.png",
-      "price": null
+      "price": 6400,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "chicken",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치킨버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "치킨버거",
       "category": "치킨&슈림프",
-      "description": null,
+      "description": "부드러운 버거번과 킹치킨패티의 만남! 풍부한 마요 소스로 고소하게!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f2ea7073-4d5d-45c8-a587-d18fb59b2ae1.png",
-      "price": null
+      "price": 4000,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "chicken",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "롱치킨버거",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스와 싱싱한 야채가 듬뿍",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/06/01/f141fd6e-33d5-419d-b3e0-8457342621ab.png",
-      "price": null
+      "price": 5000,
+      "contains": [
+        "egg",
+        "chicken",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "롱치킨버거 세트",
       "category": "올데이스낵&올데이킹",
-      "description": "롱치킨버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스와 싱싱한 야채가 듬뿍",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/06/01/e86f3846-d619-4b71-89aa-52b934547c37.png",
-      "price": null
+      "price": 6400,
+      "contains": [
+        "egg",
+        "chicken",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "롱치킨버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "롱치킨버거 라지세트",
       "category": "올데이스낵&올데이킹",
-      "description": "롱치킨버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스와 싱싱한 야채가 듬뿍",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/06/01/f1ffc401-6637-489c-9638-16265ba3dabb.png",
-      "price": null
+      "price": 7100,
+      "contains": [
+        "egg",
+        "chicken",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "롱치킨버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "불고기 롱치킨버거 세트",
       "category": "올데이스낵&올데이킹",
-      "description": "불고기 롱치킨버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스, 달콤한 불고기 소스까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/06/01/f675d777-92ee-4aaa-b5d1-4c6b57def8fa.png",
-      "price": null
+      "price": 6400,
+      "contains": [
+        "egg",
+        "chicken",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "불고기 롱치킨버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "불고기 롱치킨버거 라지세트",
       "category": "올데이스낵&올데이킹",
-      "description": "불고기 롱치킨버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스, 달콤한 불고기 소스까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/06/01/ee134c24-4464-40d7-96b4-d05637162fa9.png",
-      "price": null
+      "price": 7100,
+      "contains": [
+        "egg",
+        "chicken",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "불고기 롱치킨버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "불고기 롱치킨버거",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스, 달콤한 불고기 소스까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/06/01/c54dc7d5-9844-4572-819e-03e5b9d31a6d.png",
-      "price": null
+      "price": 5000,
+      "contains": [
+        "egg",
+        "chicken",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "치킨 치즈 마요 버거",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "엑스트라 마요네즈와 치즈로 더욱 고소한 치킨치즈마요버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/28/ca200948-a8be-4c60-a2ce-f3f96019b030.png",
-      "price": null
+      "price": 4200,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "chicken",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "치킨 치즈 마요 버거세트",
       "category": "올데이스낵&올데이킹",
-      "description": "치킨 치즈 마요 버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "엑스트라 마요네즈와 치즈로 더욱 고소한 치킨치즈마요버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/22/fe65beca-1b30-4652-aa34-47581c5a1f61.png",
-      "price": null
+      "price": 5900,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "chicken",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치킨 치즈 마요 버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "치킨 치즈 마요 버거 라지세트",
       "category": "올데이스낵&올데이킹",
-      "description": "치킨 치즈 마요 버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "엑스트라 마요네즈와 치즈로 더욱 고소한 치킨치즈마요버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/22/e5d965ff-f08d-4ad3-8c39-197ab09c0178.png",
-      "price": null
+      "price": 6600,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "chicken",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "치킨 치즈 마요 버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "몬스터 주니어",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "순 쇠고기 패티에 치킨 패티를 더해 든든함이 두 배!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/dbeb4327-e613-4f59-ba28-da929739b18e.png",
-      "price": null
+      "price": 5200,
+      "contains": [
+        "beef",
+        "chicken",
+        "tomato",
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "몬스터 주니어 세트",
       "category": "올데이스낵&올데이킹",
-      "description": "몬스터 주니어 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "순 쇠고기 패티에 치킨 패티를 더해 든든함이 두 배!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/f8e56385-f426-4e66-a7b4-7a6cdead8954.png",
-      "price": null
+      "price": 6900,
+      "contains": [
+        "beef",
+        "chicken",
+        "tomato",
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "몬스터 주니어",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "몬스터 주니어 라지세트",
       "category": "올데이스낵&올데이킹",
-      "description": "몬스터 주니어 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "순 쇠고기 패티에 치킨 패티를 더해 든든함이 두 배!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/f7744db8-ea91-4bdb-b1e8-46b2e4a08b75.png",
-      "price": null
+      "price": 7600,
+      "contains": [
+        "beef",
+        "chicken",
+        "tomato",
+        "milk",
+        "soy",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "몬스터 주니어",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "더블비프불고기버거",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "달콤한 불고기 소스에 더블 패티로 더욱 깊어진 감칠맛!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/b017aef6-f3cd-4ee2-afd4-2df2d1622bf8.png",
-      "price": null
+      "price": 5300,
+      "contains": [
+        "egg",
+        "beef",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "더블비프불고기버거 라지세트",
       "category": "올데이스낵&올데이킹",
-      "description": "더블비프불고기버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "달콤한 불고기 소스에 더블 패티로 더욱 깊어진 감칠맛!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/d9a1db6a-de13-494f-abfc-a400f9d639d1.png",
-      "price": null
+      "price": 7600,
+      "contains": [
+        "egg",
+        "beef",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "더블비프불고기버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "더블비프불고기버거 세트",
       "category": "올데이스낵&올데이킹",
-      "description": "더블비프불고기버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "달콤한 불고기 소스에 더블 패티로 더욱 깊어진 감칠맛!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/b7ee551d-d66d-4d32-ae87-b70148a88a66.png",
-      "price": null
+      "price": 6900,
+      "contains": [
+        "egg",
+        "beef",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "더블비프불고기버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "콰트로치즈와퍼주니어",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/ee7997d1-4d04-42ae-b55e-8bfab5f6e2c5.png",
-      "price": null
+      "price": 5600,
+      "contains": [
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "콰트로치즈와퍼주니어 세트",
       "category": "올데이스낵&올데이킹",
-      "description": "콰트로치즈 와퍼주니어 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/d43f0e89-613a-4dc2-bf89-3684c6af7021.png",
-      "price": null
+      "price": 6400,
+      "contains": [
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "콰트로치즈 와퍼주니어",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "콰트로치즈와퍼주니어 라지세트",
       "category": "올데이스낵&올데이킹",
-      "description": "콰트로치즈 와퍼주니어 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/f3069e99-0e30-4e59-b97c-346ef9dfcbc6.png",
-      "price": null
+      "price": 7100,
+      "contains": [
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "콰트로치즈 와퍼주니어",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "통새우와퍼주니어",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/b3d9982c-0a60-4441-95af-121de819c41b.png",
-      "price": null
+      "price": 5600,
+      "contains": [
+        "shrimp",
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "통새우와퍼주니어 세트",
       "category": "올데이스낵&올데이킹",
-      "description": "통새우와퍼주니어 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/e1fce976-6598-48e0-8db4-33422d1607f3.png",
-      "price": null
+      "price": 6400,
+      "contains": [
+        "shrimp",
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "통새우와퍼주니어",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "통새우와퍼주니어 라지세트",
       "category": "올데이스낵&올데이킹",
-      "description": "통새우와퍼주니어 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/e7ae97c5-ebb3-49fb-b3c7-ff0279556c20.png",
-      "price": null
+      "price": 7100,
+      "contains": [
+        "shrimp",
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "wheat",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "통새우와퍼주니어",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "비프불고기버거 세트",
       "category": "올데이스낵&올데이킹",
-      "description": "비프불고기버거 + 프렌치프라이(R) + 코카콜라(R)",
+      "description": "달콤한 불고기소스와 100% 순쇠고기 패티의 감칠맛나는 조화",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/ec8805a2-6e26-4a02-becf-1188c42e487d.png",
-      "price": null
+      "price": 5900,
+      "contains": [
+        "soy",
+        "wheat",
+        "egg",
+        "milk",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "비프불고기버거",
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(R)",
+        "코카콜라(R)"
+      ]
     },
     {
       "name": "비프불고기버거 라지세트",
       "category": "올데이스낵&올데이킹",
-      "description": "비프불고기버거 + 프렌치프라이(L) + 코카콜라(L)",
+      "description": "달콤한 불고기소스와 100% 순쇠고기 패티의 감칠맛나는 조화",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/e661dfdb-9c3b-408a-9c31-ac1750bdeab5.png",
-      "price": null
+      "price": 6600,
+      "contains": [
+        "soy",
+        "wheat",
+        "egg",
+        "milk",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "비프불고기버거",
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": [
+        "프렌치프라이(L)",
+        "코카콜라(L)"
+      ]
     },
     {
       "name": "비프불고기버거",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "달콤한 불고기소스와 100% 순쇠고기 패티의 감칠맛나는 조화",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/06/11/f0329ccc-fe8d-4b20-ac61-77f15ab4c374.png",
-      "price": null
+      "price": 4300,
+      "contains": [
+        "soy",
+        "wheat",
+        "egg",
+        "milk",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "크리스퍼 텐더",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "든든하게 채우는 한입, 크리스퍼 스낵",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/21/b054b0aa-491a-42aa-a80c-67c2af712f53.png",
-      "price": null
+      "price": 3300,
+      "contains": [
+        "chicken",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "리얼어니언링(R)",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "통째로 썰어 더 두툼하고 더 바삭해진",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/08/dcd7d58c-efae-4b71-939e-3788ea22c296.png",
-      "price": null
+      "price": 2800,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "애플 파이 로얄",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "바삭한 파이에 사과 과육이 가득!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/23/fcd92ffe-f49a-476a-a16b-46ee4bfc045b.png",
-      "price": null
+      "price": 2500,
+      "contains": [
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "21치즈스틱",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "21cm의 역대급 사이즈! 진하고 고소한 자연 모짜렐라가 가득한 21치즈스틱",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a42579b2-254b-426b-abbd-ae22eab8ea06.png",
-      "price": null
+      "price": 2600,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "초코 선데",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "달콤하고 진한 초코의 맛!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/04/28/a37e89c0-6583-4e0b-aecf-44fac8416d86.png",
-      "price": null
+      "price": 2400,
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "밀크 선데",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "향긋한 바닐라 향 때문에 더 맛있다!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/04/28/e01036bb-c6b0-4849-b467-71e27ac3fedc.png",
-      "price": null
+      "price": 2200,
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "코카콜라 제로(L)",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "100% 짜릿함, 칼로리는 제로!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/08/e99c0e35-4a79-429c-a471-a9a56b8b0240.png",
-      "price": null
+      "price": 2400,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "닥터페퍼 제로(L)",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "톡쏘는 유니크함, Zero로 라이트하게",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/08/d222e0dd-1e7b-4653-a025-29756a62f4b1.png",
-      "price": null
+      "price": 2400,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "스프라이트 제로(L)",
       "category": "올데이스낵&올데이킹",
-      "description": null,
+      "description": "제대로 상쾌한 맛남 스프라이트 제로!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/07/08/e426f113-939c-47bb-b999-287dfc6e9ded.png",
-      "price": null
+      "price": 2400,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "오믈렛 크루아상위치",
       "category": "모닝",
-      "description": null,
+      "description": "버터 풍미가 가득한 크루아상 번과 부드러운 오믈렛의 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/aca61b90-cfc4-477c-8550-5978f0cc466d.png",
-      "price": null
+      "price": 4300,
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "오믈렛 크루아상위치 콤보",
       "category": "모닝",
-      "description": "오믈렛 크루아상위치 + 아메리카노",
+      "description": "버터 풍미가 가득한 크루아상 번과 부드러운 오믈렛의 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/e29de508-c45b-4f93-9230-c0fad7e3614a.png",
-      "price": null
+      "price": 4900,
+      "contains": [
+        "milk",
+        "wheat",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "오믈렛 크루아상위치",
+        "아메리카노"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "오믈렛 크루아상위치 세트",
       "category": "모닝",
-      "description": "오믈렛 크루아상위치 + 해쉬브라운 + 아메리카노",
+      "description": "버터 풍미가 가득한 크루아상 번과 부드러운 오믈렛의 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/ae64b357-3f2e-4025-8077-49058d247a01.png",
-      "price": null
+      "price": 5800,
+      "contains": [
+        "wheat",
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "오믈렛 크루아상위치",
+        "해쉬브라운",
+        "아메리카노"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "잠봉햄&치즈 크루아상위치 콤보",
       "category": "모닝",
-      "description": "잠봉햄&치즈오믈렛 크루아상위치 + 아메리카노",
+      "description": "버터 풍미가 가득한 크루아상 번에 잠봉햄&치즈와 오믈렛의 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/e4ad65c8-8b27-4add-9478-378539a197f0.png",
-      "price": null
+      "price": 5500,
+      "contains": [
+        "soy",
+        "egg",
+        "milk",
+        "wheat",
+        "pork"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "잠봉햄&치즈오믈렛 크루아상위치",
+        "아메리카노"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "잠봉햄&치즈 크루아상위치 세트",
       "category": "모닝",
-      "description": "잠봉햄&치즈오믈렛 크루아상위치 + 해쉬브라운 + 아메리카노",
+      "description": "버터 풍미가 가득한 크루아상 번에 잠봉햄&치즈와 오믈렛의 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/fa5bcdff-5da5-4ff0-8fca-c6442041c09a.png",
-      "price": null
+      "price": 6400,
+      "contains": [
+        "soy",
+        "egg",
+        "pork",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "잠봉햄&치즈오믈렛 크루아상위치",
+        "해쉬브라운",
+        "아메리카노"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "잠봉햄&치즈오믈렛 크루아상위치",
       "category": "모닝",
-      "description": null,
+      "description": "버터 풍미가 가득한 크루아상 번에 잠봉햄&치즈와 오믈렛의 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/af989a08-8f50-4a93-a6a5-c7385272fbee.png",
-      "price": null
+      "price": 4900,
+      "contains": [
+        "wheat",
+        "egg",
+        "pork",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "BLT 오믈렛 크루아상위치 세트",
       "category": "모닝",
-      "description": "BLT 오믈렛 크루아상위치 + 해쉬브라운 + 아메리카노",
+      "description": "버터 풍미가 가득한 크루아상 번과 부드러운 오믈렛, 토마토와 양상추, 베이컨을 더해 더욱 풍성한 맛",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/d89387bd-2506-4ce1-88c9-f83f37be2c91.png",
-      "price": null
+      "price": 6800,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "pork",
+        "tomato",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "BLT 오믈렛 크루아상위치",
+        "해쉬브라운",
+        "아메리카노"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "BLT 오믈렛 크루아상위치 콤보",
       "category": "모닝",
-      "description": "BLT 오믈렛 크루아상위치 + 아메리카노",
+      "description": "버터 풍미가 가득한 크루아상 번과 부드러운 오믈렛, 토마토와 양상추, 베이컨을 더해 더욱 풍성한 맛",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/da8939dc-b1a0-4e73-8cba-d2b04d094e7e.png",
-      "price": null
+      "price": 5900,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "pork",
+        "tomato",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [
+        "BLT 오믈렛 크루아상위치",
+        "아메리카노"
+      ],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "BLT 오믈렛 크루아상위치",
       "category": "모닝",
-      "description": null,
+      "description": "버터 풍미가 가득한 크루아상 번과 부드러운 오믈렛, 토마토와 양상추, 베이컨을 더해 더욱 풍성한 맛",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/e3802bf0-5bd4-4da0-ab73-bf162e2239f5.png",
-      "price": null
+      "price": 5300,
+      "contains": [
+        "egg",
+        "tomato",
+        "soy",
+        "milk",
+        "pork",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "비프 킹 랩",
       "category": "모닝",
-      "description": null,
+      "description": "불맛 가득한 비프가 들어간 든든하고 간편한 랩",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/06/ccce01e2-e8d4-43a4-81e7-cea4ff219adb.png",
-      "price": null
+      "price": 2900,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "해쉬브라운",
       "category": "모닝",
-      "description": null,
+      "description": "겉은 바삭! 속은 촉촉! 겉바속촉 고소한 감자의 매력",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/f02dcd86-d8c6-4230-b20c-abeeba6c46da.png",
-      "price": null
+      "price": 1900,
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "딥 트러플 프라이",
       "category": "사이드",
-      "description": null,
+      "description": "딥한 풍미의 트러플 프라이",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/14/af113daf-9f46-4a76-8da2-6633a963703c.png",
-      "price": null
+      "price": 3000,
+      "contains": [
+        "wheat",
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "트러플 머쉬룸 파이 로얄",
       "category": "사이드",
-      "description": null,
+      "description": "고급스러운 풍미의 트러플 머쉬룸 파이 로얄",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/09/14/e0f52cf2-d7aa-47a6-8c02-f3fc9829061e.png",
-      "price": null
+      "price": 2700,
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "비프 킹 랩",
       "category": "사이드",
-      "description": null,
+      "description": "불맛 가득한 비프가 들어간 든든하고 간편한 랩",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/08/06/e4db1a40-3f3e-499e-9191-671879803151.png",
-      "price": null
+      "price": 3600,
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "tomato",
+        "beef",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "바삭킹2조각",
       "category": "사이드",
-      "description": null,
+      "description": "매콤하게! 바삭하게 튀긴 치킨윙",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b593f902-6fcf-41d1-9337-1406bbfb58af.png",
-      "price": null
+      "price": 3200,
+      "contains": [
+        "beef",
+        "soy",
+        "wheat",
+        "chicken"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "바삭킹4조각",
       "category": "사이드",
-      "description": null,
+      "description": "매콤하게! 바삭하게 튀긴 치킨윙",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/d17bab94-eb7b-435a-bdf2-74f92b043875.png",
-      "price": null
+      "price": 6000,
+      "contains": [
+        "chicken",
+        "soy",
+        "wheat",
+        "beef"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "바삭킹8조각+디아블로소스",
       "category": "사이드",
-      "description": null,
+      "description": "매콤하게! 바삭하게 튀긴 치킨윙",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/d5f8c3aa-1e2a-4d39-8969-6f2f5a1a61ac.png",
-      "price": null
+      "price": 11600,
+      "contains": [
+        "wheat",
+        "tomato",
+        "chicken",
+        "beef",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "바삭킹8조각+스위트칠리소스",
       "category": "사이드",
-      "description": null,
+      "description": "매콤하게! 바삭하게 튀긴 치킨윙",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c3ed666f-a0a2-4ed9-a926-df9d557fe72a.png",
-      "price": null
+      "price": 11600,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "리얼 어니언링(L)",
       "category": "사이드",
-      "description": null,
+      "description": "통째로 썰어 더 두툼하고 더 바삭해진",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b849ad87-ea12-469b-bb5a-75f3b2410e24.png",
-      "price": null
+      "price": 4200,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "리얼 어니언링(R)",
       "category": "사이드",
       "description": null,
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f8555d03-d9ea-4b28-b282-fb10d7dab97c.png",
-      "price": null
+      "price": 2800,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "너겟킹 8조각",
       "category": "사이드",
-      "description": null,
+      "description": "바삭~ 촉촉~ 한입에 쏙 부드러운 너겟킹!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2024/12/05/b48dd9f8-b944-42a9-a8f4-7b6925220ea6.png",
-      "price": null
+      "price": 4500,
+      "contains": [
+        "wheat",
+        "soy",
+        "chicken"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "너겟킹 10조각",
       "category": "사이드",
-      "description": null,
+      "description": "바삭~ 촉촉~ 한입에 쏙 부드러운 너겟킹!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ccfda430-aadf-4162-a211-e51a283638e9.png",
-      "price": null
+      "price": 5600,
+      "contains": [
+        "wheat",
+        "soy",
+        "chicken"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "너겟킹 4조각",
       "category": "사이드",
-      "description": null,
+      "description": "바삭~ 촉촉~ 한입에 쏙 부드러운 너겟킹!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/d1661d07-40ed-40cc-94a9-8f40990645b6.png",
-      "price": null
+      "price": 2300,
+      "contains": [
+        "soy",
+        "wheat",
+        "chicken"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "코코넛슈림프(6조각)+스위트칠리소스",
       "category": "사이드",
-      "description": null,
+      "description": "바삭한 코코넛 옷을 입은 탱글한 통새우와 새콤달콤 칠리소스",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a7c333b2-4a35-466c-92c1-277934d12bd5.png",
-      "price": null
+      "price": 7200,
+      "contains": [
+        "wheat",
+        "egg",
+        "shrimp",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "코코넛슈림프(9조각)+스위트칠리소스",
       "category": "사이드",
-      "description": null,
+      "description": "바삭한 코코넛 옷을 입은 탱글한 통새우와 새콤달콤 칠리소스",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/e16e873e-7290-4cb3-a92a-2615cda475d3.png",
-      "price": null
+      "price": 10100,
+      "contains": [
+        "soy",
+        "egg",
+        "shrimp",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "코코넛슈림프(3조각)+스위트칠리소스",
       "category": "사이드",
-      "description": null,
+      "description": "바삭한 코코넛 옷을 입은 탱글한 통새우와 새콤달콤 칠리소스",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a2818496-b3db-44e9-be77-21c06ef709e4.png",
-      "price": null
+      "price": 4100,
+      "contains": [
+        "egg",
+        "soy",
+        "wheat",
+        "shrimp"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "쉐이킹프라이 매콤치즈",
       "category": "사이드",
-      "description": null,
+      "description": "고소한 치즈맛에 매콤함까지!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/02/05/c891e778-a975-4e59-8c35-dd768dd672ed.png",
-      "price": null
+      "price": 2600,
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "쉐이킹프라이 스윗어니언",
       "category": "사이드",
-      "description": null,
+      "description": "달콤 고소한 단짠의 정석!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/02/05/a490e7da-aa32-49b0-8833-2c4845f2ca11.png",
-      "price": null
+      "price": 2600,
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "쉐이킹프라이 구운갈릭",
       "category": "사이드",
-      "description": null,
+      "description": "구운 마늘의 깊은 풍미!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/02/05/db436fb1-13fe-464f-96f8-5101492b6ae1.png",
-      "price": null
+      "price": 2600,
+      "contains": [
+        "soy",
+        "milk",
+        "tomato",
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "프렌치프라이(R)",
       "category": "사이드",
-      "description": null,
+      "description": "버거킹의 대표 사이드 메뉴 프렌치프라이",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2024/12/05/fdec8bd8-ff3d-497d-8a35-8ab202471b0b.png",
-      "price": null
+      "price": 2300,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "프렌치프라이(L)",
       "category": "사이드",
-      "description": null,
+      "description": "버거킹의 대표 사이드 메뉴 프렌치프라이",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2024/12/05/f8f2467d-1b18-4b48-abd5-cd65cbdca4dd.png",
-      "price": null
+      "price": 2800,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "코울슬로",
       "category": "사이드",
-      "description": null,
+      "description": "아삭아삭한 양배추와 상큼한 드레싱의 코울슬로",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ab43ac1b-4fdb-4772-a6e4-ee2e793b19f0.png",
-      "price": null
+      "price": 2300,
+      "contains": [
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "콘샐러드",
       "category": "사이드",
-      "description": null,
+      "description": "달콤한 옥수수와 싱싱한 야채의 어울림",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2024/12/05/cc9e3b9f-3910-4643-8ad2-f90a9f1ac5ce.png",
-      "price": null
+      "price": 2300,
+      "contains": [
+        "egg",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "빅 딥 체다치즈",
       "category": "사이드",
-      "description": null,
+      "description": "깊고 진한 치즈소스로 완성하는 압도적 풍미",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/06/01/f62b59bb-559d-431b-aa20-8f41f04a6793.png",
-      "price": null
+      "price": 1500,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "스위트칠리소스",
       "category": "사이드",
-      "description": null,
+      "description": "새콤 달콤한 맛!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/aebe9ec3-22da-470b-9db8-319113ca1dd3.png",
-      "price": null
+      "price": 500,
+      "contains": [
+        "tomato",
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "허니머스타드소스",
       "category": "사이드",
-      "description": null,
+      "description": "느끼함을 잡아주는 달콤한 맛!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c6f49a74-7714-4bf9-9c2f-7d71ec443025.png",
-      "price": null
+      "price": 100,
+      "contains": [
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "디아블로소스",
       "category": "사이드",
-      "description": null,
+      "description": "계속 끌리는 매콤한 맛!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f73041f4-05d1-4902-b918-c1b6498d394d.png",
-      "price": null
+      "price": 500,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "구운갈릭 시즈닝",
       "category": "사이드",
-      "description": null,
+      "description": "구운 마늘의 깊은 풍미!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/02/05/c7a95b27-dcea-4658-9c03-e746688ff1e2.png",
-      "price": null
+      "price": 300,
+      "contains": [
+        "wheat"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "스윗어니언 시즈닝",
       "category": "사이드",
-      "description": null,
+      "description": "스위트한 양파의 풍미!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/02/05/f5da5592-1754-4291-8a8e-e1fccc54199d.png",
-      "price": null
+      "price": 300,
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "매콤치즈 시즈닝",
       "category": "사이드",
-      "description": null,
+      "description": "매콤한 치즈의 풍미!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/02/05/d507a84a-38ed-4a1b-b6f4-de19d47c83dd.png",
-      "price": null
+      "price": 300,
+      "contains": [
+        "soy"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "아이스 카페라떼",
       "category": "음료&디저트",
-      "description": null,
+      "description": "고소한 우유와 에스프레소의 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/a848d9e7-727d-485f-9f0a-98178b7f8c1b.png",
-      "price": null
+      "price": 2900,
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "카페라떼",
       "category": "음료&디저트",
-      "description": null,
+      "description": "고소한 우유와 에스프레소의 만남",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2026/07/27/fb9187be-a746-48c2-a48e-a41b8e17fc57.png",
-      "price": null
+      "price": 2900,
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "킹플로트(닥터페퍼 제로)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "톡쏘는 유니크함, Zero로 라이트하게 Float로 부드럽게",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/05/22/f5aba7bc-cfd4-422e-8f54-1531d4526759.png",
-      "price": null
+      "price": 2700,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "아이스 아메리카노",
       "category": "음료&디저트",
-      "description": null,
+      "description": "프리미엄 스페셜티 블렌드 커피",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/bdf3b729-be05-4fe3-ab89-9943a48ae2a9.png",
-      "price": null
+      "price": 1600,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "아메리카노",
       "category": "음료&디저트",
-      "description": null,
+      "description": "프리미엄 스페셜티 블렌드 커피",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/fdb94c35-0d24-41d4-b3ed-408fd2640bbb.png",
-      "price": null
+      "price": 1600,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "닥터페퍼 제로(R)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "톡쏘는 유니크함, Zero로 라이트하게",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/05/16/a6a69b92-66e9-494c-94e0-611515b0b884.png",
-      "price": null
+      "price": 2200,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "닥터페퍼 제로(L)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "톡쏘는 유니크함, Zero로 라이트하게",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/05/20/fbd944d4-267e-4a0b-9e4b-7c374f699591.png",
-      "price": null
+      "price": 2400,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "코카콜라(R)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "코카-콜라로 더 짜릿하게!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c86a9b22-445c-4ea7-95ac-8fa21cf717bc.png",
-      "price": null
+      "price": 2200,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "코카콜라(L)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "코카-콜라로 더 짜릿하게!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/fe4990c7-ecb1-44e5-837f-0917a0be6234.png",
-      "price": null
+      "price": 2400,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "코카콜라 제로(L)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "100% 짜릿함, 칼로리는 제로!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f0104b0f-c148-48a7-adf3-a2f161034e53.png",
-      "price": null
+      "price": 2400,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "코카콜라 제로(R)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "100% 짜릿함, 칼로리는 제로!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/ebb009bb-09cb-44cb-be21-9a5a606169a7.png",
-      "price": null
+      "price": 2200,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "스프라이트(L)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "나를 깨우는 상쾌함!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b1d8cc33-3fee-4e39-9f04-9001881031b8.png",
-      "price": null
+      "price": 2400,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "스프라이트(R)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "나를 깨우는 상쾌함!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/f8e419a1-1c06-4a30-bfee-67f2b39ac848.png",
-      "price": null
+      "price": 2200,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "스프라이트 제로(L)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "제대로 상쾌한 맛남 스프라이트 제로!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a5eef516-24e8-4930-936c-b52efd823890.png",
-      "price": null
+      "price": 2400,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "스프라이트 제로(R)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "제대로 상쾌한 맛남 스프라이트 제로!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b086d102-6752-4c4d-ba9d-d390287b7e1a.png",
-      "price": null
+      "price": 2200,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "미닛메이드 오렌지",
       "category": "음료&디저트",
-      "description": null,
+      "description": "오렌지의 신선함이 가득~",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/c7a44203-22f8-4c80-8f37-1fbf4d193073.png",
-      "price": null
+      "price": 2900,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "순수(미네랄워터)",
       "category": "음료&디저트",
-      "description": null,
+      "description": "깨끗하고 순수한 물",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2024/12/05/c5832568-5e20-478b-a90b-d77dd72fa88c.png",
-      "price": null
+      "price": 1400,
+      "contains": null,
+      "may_contain": null,
+      "ingredients": [],
+      "allergen_source": null,
+      "allergen_gaps": []
     },
     {
       "name": "핫초코",
       "category": "음료&디저트",
-      "description": null,
+      "description": "달콤한 초코, 따뜻하게 즐기세요!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b5cf695c-ea07-4b83-aff6-0cfd22c11e77.png",
-      "price": null
+      "price": 2400,
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     },
     {
       "name": "아이스초코",
       "category": "음료&디저트",
-      "description": null,
+      "description": "달콤한 초코, 시원하게 즐기세요!",
       "photo": "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/b72f6867-0566-43f3-af82-c66a566d3ae2.png",
-      "price": null
+      "price": 2400,
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "ingredients": [],
+      "allergen_source": "Burger King Korea allergy list (burgerking.co.kr)",
+      "allergen_gaps": []
     }
   ]
 }

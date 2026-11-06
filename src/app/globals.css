@@ -14,6 +14,12 @@
   --accent-soft: #fdeae4;
   --on-accent-soft: #9e2a12;
   --danger: #b3261e;
+  --danger-soft: #fbe4e1;
+  --on-danger-soft: #8a1c15;
+  --warn-soft: #fbeecb;
+  --on-warn-soft: #664800;
+  --ok-soft: #e1f1dc;
+  --on-ok-soft: #1d5a23;
   --shadow: 74 58 30;
 }
 
@@ -31,6 +37,12 @@
     --accent-soft: #3a170e;
     --on-accent-soft: #ffb09c;
     --danger: #ff8a80;
+    --danger-soft: #3b1714;
+    --on-danger-soft: #ffb9b1;
+    --warn-soft: #36290c;
+    --on-warn-soft: #f1cf7a;
+    --ok-soft: #16321a;
+    --on-ok-soft: #a8dfa9;
     --shadow: 0 0 0;
   }
 }
@@ -48,6 +60,12 @@
   --color-accent-soft: var(--accent-soft);
   --color-on-accent-soft: var(--on-accent-soft);
   --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-on-danger-soft: var(--on-danger-soft);
+  --color-warn-soft: var(--warn-soft);
+  --color-on-warn-soft: var(--on-warn-soft);
+  --color-ok-soft: var(--ok-soft);
+  --color-on-ok-soft: var(--on-ok-soft);
   /* Dish photos are shot for light backgrounds, so their tile stays light in dark mode too. */
   --color-tile: #f6f4ec;
   --font-sans: var(--font-geist), var(--font-kr), system-ui, sans-serif;
@@ -129,6 +147,33 @@ dialog.sheet::backdrop {
   }
   dialog.sheet[open] {
     animation-name: sheet-in;
+  }
+}
+
+/* The map: its popups follow the theme, and its tiles are darkened in dark mode. */
+.leaflet-container {
+  background: var(--soft);
+  font-family: var(--font-sans);
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: var(--surface);
+  color: var(--ink);
+}
+.leaflet-popup-content {
+  margin: 12px 16px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+.leaflet-container a {
+  color: var(--on-accent-soft);
+}
+.leaflet-control-attribution {
+  background: var(--surface) !important;
+  color: var(--muted);
+}
+@media (prefers-color-scheme: dark) {
+  .leaflet-tile-pane {
+    filter: invert(1) hue-rotate(180deg) brightness(0.9) contrast(0.9);
   }
 }
 

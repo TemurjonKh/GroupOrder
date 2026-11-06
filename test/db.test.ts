@@ -313,7 +313,56 @@ describe("reminders", () => {
   });
 });
 
+describe("food needs", () => {
+  beforeEach(() => db.exec("delete from food_needs"));
+
+  it("are saved and changed through the function", async () => {
+    await as(MINJI, "select set_food_needs($1, $2)", [["pork", "vegan"], " kiwi "]);
+    expect(await as(MINJI, "select avoid, note from food_needs")).toEqual([{ avoid: ["pork", "vegan"], note: "kiwi" }]);
+    await as(MINJI, "select set_food_needs($1, $2)", [[], ""]);
+    expect(await as(MINJI, "select avoid, note from food_needs")).toEqual([{ avoid: [], note: null }]);
+  });
+  it("stay private, even from a leader in the same group", async () => {
+    await as(MINJI, "select set_food_needs($1)", [["peanut"]]);
+    expect(await as(LEADER, "select * from food_needs where user_id = $1", [MINJI])).toEqual([]);
+    expect(await as(OUTSIDER, "select * from food_needs")).toEqual([]);
+    await expect(as(null, "select * from food_needs")).rejects.toThrow(/permission denied/);
+    await expect(as(null, "select set_food_needs('{}')")).rejects.toThrow(/permission denied/);
+  });
+  it("cannot be written directly or filled with unknown values", async () => {
+    await expect(as(MINJI, "insert into food_needs (user_id) values ($1)", [MINJI])).rejects.toThrow(/permission denied/);
+    await as(MINJI, "select set_food_needs($1)", [["pork"]]);
+    await expect(as(MINJI, "update food_needs set avoid = '{}'")).rejects.toThrow(/permission denied/);
+    await expect(as(MINJI, "select set_food_needs($1)", [["pork", "<script>"]])).rejects.toThrow(/unknown_food_need/);
+    await expect(as(MINJI, "select set_food_needs($1, $2)", [[], "x".repeat(301)])).rejects.toThrow();
+  });
+});
+
+describe("places", () => {
+  it("are everywhere to eat within 2 km of campus, for logged-in people only", async () => {
+    const rows = await as<{ count: number; furthest: number }>(MINJI, "select count(*)::int as count, max(distance_m) as furthest from places");
+    expect(rows[0].count).toBeGreaterThan(200);
+    expect(rows[0].furthest).toBeLessThanOrEqual(2000);
+    expect(await as(null, "select * from places")).toEqual([]);
+    await expect(as(MINJI, "insert into places (source, source_id, name, kind, lat, lng, distance_m) values ('brand', 'x', 'x', 'x', 0, 0, 0)")).rejects.toThrow(/row-level security/);
+  });
+  it("link the chains' branches to their menus", async () => {
+    const rows = await as<{ name: string; count: number }>(MINJI, `select r.name, count(*)::int as count from places p join restaurants r on r.id = p.restaurant_id group by r.name order by r.name`);
+    expect(rows).toEqual([{ name: "BBQ", count: 1 }, { name: "Burger King", count: 3 }, { name: "Subway", count: 1 }]);
+  });
+});
+
 describe("seed", () => {
+  it("keeps unknown allergens unknown instead of empty", async () => {
+    const { rows } = await db.query<{ unknown: number; empty_with_no_gaps: number; no_source: number }>(`select
+      (select count(*)::int from menu_items where contains is null) as unknown,
+      (select count(*)::int from menu_items where contains = '{}' and may_contain = '{}') as empty_with_no_gaps,
+      (select count(*)::int from menu_items where contains is not null and allergen_source is null) as no_source`);
+    expect(rows[0].unknown).toBeGreaterThan(0);
+    expect(rows[0]).toMatchObject({ no_source: 0 });
+    await expect(db.query("update menu_items set allergen_source = null where contains is not null")).rejects.toThrow(/allergen_data_has_a_source/);
+  });
+
   it("holds real menus with a photo for every dish", async () => {
     const names = await db.query<{ name: string }>("select name from restaurants order by name");
     expect(names.rows.map((r) => r.name)).toEqual(expect.arrayContaining(["BBQ", "Burger King", "Subway"]));

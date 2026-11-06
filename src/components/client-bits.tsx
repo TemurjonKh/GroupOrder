@@ -64,6 +64,27 @@ export function PrintButton() {
   return <Button look="secondary" type="button" onClick={() => window.print()}>Print QR</Button>;
 }
 
+/** The main links in the header, with the current page marked. */
+export function HeaderNav({ links, className = "" }: { links: { href: string; label: string; icon: ReactNode }[]; className?: string }) {
+  const pathname = usePathname();
+  return (
+    <nav aria-label="Main" className={`flex gap-1 ${className}`}>
+      {links.map((link) => (
+        <Link
+          key={link.href}
+          href={link.href}
+          aria-current={pathname === link.href ? "page" : undefined}
+          className={`flex min-h-10 items-center gap-1.5 rounded-full px-3 text-sm font-semibold whitespace-nowrap transition-colors ${
+            pathname === link.href ? "bg-ink text-page" : "text-muted hover:bg-soft hover:text-ink"
+          }`}
+        >
+          {link.icon} {link.label}
+        </Link>
+      ))}
+    </nav>
+  );
+}
+
 export function GroupTabs({ tabs }: { tabs: { href: string; label: string }[] }) {
   const pathname = usePathname();
   // The Lunch tab is the group root, so it also covers the pages reached from it.

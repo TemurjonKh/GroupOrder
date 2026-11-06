@@ -57,7 +57,19 @@ export async function signUp(_: ActionState, form: FormData): Promise<ActionStat
     return { error: "Could not create the account. Please try again." };
   }
   if (!data.session) return { ok: "Almost done: check your email and click the confirmation link." };
-  redirect(next);
+  redirect(`/account/food?welcome=1&next=${encodeURIComponent(next)}`);
+}
+
+export async function saveFoodNeeds(_: ActionState, form: FormData): Promise<ActionState> {
+  const supabase = await createClient();
+  const { error } = await supabase.rpc("set_food_needs", {
+    p_avoid: form.getAll("avoid").map(String),
+    p_note: text(form, "note"),
+  });
+  if (error) return { error: "Could not save your list. Please try again." };
+  revalidatePath("/", "layout");
+  if (form.get("next")) redirect(safeNext(form.get("next")));
+  return { ok: "Saved. Menus and the map now check against this list." };
 }
 
 export async function signOut() {

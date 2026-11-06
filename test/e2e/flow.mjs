@@ -11,6 +11,8 @@ const SHOTS = process.env.E2E_SHOTS ?? "test/e2e/screenshots";
 const CODE = "demoteam01";
 mkdirSync(SHOTS, { recursive: true });
 
+const BLANK_PNG = Buffer.from("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==", "base64");
+const tileRequests = [];
 const browser = await chromium.launch();
 const problems = [];
 let passed = 0, failed = 0;
@@ -19,6 +21,11 @@ async function person({ viewport = { width: 1280, height: 860 }, colorScheme = "
   const ctx = await browser.newContext({ viewport, colorScheme });
   await ctx.grantPermissions(["clipboard-read", "clipboard-write"], { origin: BASE });
   ctx.setDefaultTimeout(9000);
+  // OpenStreetMap's tile policy rules out headless browsers, so the test map gets a blank tile.
+  await ctx.route("https://tile.openstreetmap.org/**", (route) => {
+    tileRequests.push(route.request().url());
+    return route.fulfill({ contentType: "image/png", body: BLANK_PNG });
+  });
   const page = await ctx.newPage();
   page.on("pageerror", (e) => problems.push(`pageerror ${page.url()}: ${e.message}`));
   page.on("response", (r) => { if (r.status() >= 500) problems.push(`HTTP ${r.status()} ${r.url()}`); });
@@ -114,6 +121,84 @@ await step("every brand's full menu loads with its photos", async () => {
     console.log(`     ${name}: ${total} photos loaded`);
     await shot(temur, `05-menu-${name.replace(" ", "")}`);
   }
+});
+await step("my food needs: tick pork and peanut, and it stays saved", async () => {
+  await temur.goto(BASE);
+  await temur.getByRole("link", { name: /Tell us what you can't eat/ }).click();
+  await temur.getByRole("checkbox", { name: /^Pork/ }).check();
+  await temur.getByRole("checkbox", { name: /^Peanut and peanut butter/ }).check();
+  await temur.getByLabel("Anything else?").fill("kiwi");
+  await settled(temur);
+  await shot(temur, "20-food-needs");
+  await temur.getByRole("button", { name: "Save my food needs" }).click();
+  await see(temur, "Saved.");
+  await temur.reload();
+  if (!(await temur.getByRole("checkbox", { name: /^Pork/ }).isChecked())) throw new Error("pork was not saved");
+  if ((await temur.getByLabel("Anything else?").inputValue()) !== "kiwi") throw new Error("note was not saved");
+});
+await step("menus warn about what a person avoids, and say when there is no data", async () => {
+  await temur.goto(`${BASE}/g/${CODE}`);
+  await temur.getByRole("link", { name: /Burger King/ }).click();
+  await see(temur, "Dishes are checked against your food needs");
+  const bacon = temur.locator("a[href*='dish=']", { hasText: "베이컨치즈와퍼" }).first();
+  await bacon.getByText(/Contains: .*Pork/).waitFor();
+  await temur.locator("a[href*='dish=']", { hasText: "프렌치프라이(R)" }).first().getByText("No data").waitFor();
+  await temur.locator("a[href*='dish=']", { hasText: /^.*와퍼.*₩/ }).first().waitFor();
+  if (await temur.getByText(/\bsafe\b/i).count()) throw new Error('a page says "safe"');
+  await shot(temur, "21-menu-badges");
+  await temur.locator("a[href*='dish=']", { hasText: /^와퍼 세트/ }).first().click();
+  const sheet = temur.locator("dialog[open]");
+  await sheet.getByText("What's inside").waitFor();
+  await sheet.getByText("No data for:", { exact: true }).waitFor();
+  await sheet.getByText("프렌치프라이(R)").first().waitFor();
+  await temur.waitForTimeout(500);
+  await temur.screenshot({ path: `${SHOTS}/22-sheet-facts.png` });
+});
+await step("food map: everything within 2 km is listed and drawn", async () => {
+  await temur.goto(`${BASE}/map`);
+  await see(temur, "Find a meal near Inha");
+  await temur.locator(".leaflet-interactive").first().waitFor();
+  const dots = await temur.locator("path.leaflet-interactive").count();
+  if (dots < 220) throw new Error(`only ${dots} places drawn`);
+  await temur.getByRole("link", { name: "OpenStreetMap" }).waitFor();
+  await temur.getByRole("tab", { name: /Places \(\d+\)/ }).click();
+  await temur.getByRole("button", { name: /버거킹 인하대역점/ }).click();
+  await temur.locator(".leaflet-popup-content").getByText("독배로 309").waitFor();
+  await temur.waitForTimeout(600);
+  if (!tileRequests.length || !tileRequests.every((u) => /\/\d+\/\d+\/\d+\.png$/.test(u))) throw new Error(`tiles: ${tileRequests.slice(0, 2)}`);
+  console.log(`     ${dots} places drawn, ${tileRequests.length} tile requests`);
+  await shot(temur, "23-map-places");
+});
+await step("food map: search starts from my needs and hides what I avoid", async () => {
+  await temur.getByRole("tab", { name: /Meals \(\d+\)/ }).click();
+  if ((await temur.getByRole("button", { name: "No pork" }).getAttribute("aria-pressed")) !== "true") throw new Error("my pork need was not applied");
+  const text = await temur.locator("main").innerText();
+  for (const dish of ["베이컨치즈와퍼", "잠봉 플러스 Jambon Plus", "비엘티 B.L.T."]) if (text.includes(dish)) throw new Error(`${dish} shown to someone avoiding pork`);
+  if (text.includes("No data") || text.includes("May contain")) throw new Error("strict search showed unknown dishes");
+  await temur.getByLabel("Also show").check();
+  await see(temur, "No data");
+  await temur.getByLabel("Only meals with nothing").check();
+  await temur.getByRole("button", { name: "Clear filters" }).click();
+  const all = Number((await temur.getByRole("tab", { name: /Meals/ }).innerText()).match(/\d+/)[0]);
+  if (all < 390) throw new Error(`clearing filters left ${all} meals`);
+});
+await step("food map: vegan search is honest about what it can show", async () => {
+  await temur.getByRole("button", { name: "Vegan", exact: true }).click();
+  const vegan = Number((await temur.getByRole("tab", { name: /Meals/ }).innerText()).match(/\d+/)[0]);
+  // Only the dishes: a branch called BBQ치킨 is still a fine place to walk past.
+  const text = (await temur.locator("main details summary").allInnerTexts()).join(" | ");
+  for (const word of ["치킨", "베이컨", "참치", "쉬림프", "치즈", "에그"]) if (text.includes(word)) throw new Error(`vegan search shows ${word}: ${text.slice(0, 200)}`);
+  console.log(`     vegan: ${vegan} meals with nothing listed: ${text.replaceAll("\n", " ")}`);
+  await shot(temur, "24-map-vegan");
+  // Every salad has milk or meat in it, so a vegan search rightly finds none.
+  await temur.getByLabel("Search meals and places").fill("샐러드");
+  await see(temur, "Meals (0)");
+  await see(temur, "No meal has everything ruled out");
+  await temur.getByRole("button", { name: "Vegan", exact: true }).click();
+  await temur.getByRole("button", { name: "No pork" }).click();
+  await temur.locator("details summary", { hasText: "샐러드" }).first().click();
+  await temur.locator("details[open]").getByText(/Source:|no allergen list/).first().waitFor();
+  await shot(temur, "25-map-search");
 });
 await step("Minji logs in on a phone", async () => {
   await login(minji, "minji@demo.test");
@@ -258,6 +343,9 @@ await step("new person signs up from an invite link, joins and leaves", async ()
   await sam.getByLabel("Email").fill(`sam${Date.now()}@demo.test`);
   await sam.getByLabel("Password").fill("demo1234");
   await sam.getByRole("button", { name: "Create account" }).click();
+  await see(sam, "What can't you eat?");
+  await sam.getByRole("checkbox", { name: /^Vegan/ }).check();
+  await sam.getByRole("button", { name: "Save my food needs" }).click();
   await see(sam, "Join this group");
   await settled(sam);
   await shot(sam, "13-invite");
@@ -294,7 +382,7 @@ await step("no page scrolls sideways on a phone", async () => {
   const phone = await person({ viewport: { width: 360, height: 740 } });
   await login(phone, "temur@demo.test");
   await see(phone, "My groups");
-  const paths = ["", "/groups/new", "/groups/join", `/g/${CODE}`, `/g/${CODE}/finalize`, `/g/${CODE}/history`, `/g/${CODE}/settings`, `/g/${CODE}/finalize/pick/00000000-0000-0000-0000-000000000004`];
+  const paths = ["", "/map", "/account/food", "/groups/new", "/groups/join", `/g/${CODE}`, `/g/${CODE}/finalize`, `/g/${CODE}/history`, `/g/${CODE}/settings`, `/g/${CODE}/finalize/pick/00000000-0000-0000-0000-000000000004`];
   for (const p of paths) {
     await phone.goto(BASE + p);
     await settled(phone);
@@ -310,6 +398,10 @@ await step("no page scrolls sideways on a phone", async () => {
   await phone.locator("dialog[open]").waitFor();
   await settled(phone);
   await phone.screenshot({ path: `${SHOTS}/15-phone-sheet.png` });
+  await phone.goto(`${BASE}/map`);
+  await phone.locator(".leaflet-interactive").first().waitFor();
+  await settled(phone);
+  await phone.screenshot({ path: `${SHOTS}/26-phone-map.png` });
 });
 await step("dark mode", async () => {
   const night = await person({ colorScheme: "dark" });
@@ -320,6 +412,10 @@ await step("dark mode", async () => {
   await night.goto(`${BASE}/g/${CODE}`);
   await settled(night);
   await shot(night, "17-dark-group");
+  await night.goto(`${BASE}/map`);
+  await night.locator(".leaflet-interactive").first().waitFor();
+  await settled(night);
+  await night.screenshot({ path: `${SHOTS}/27-dark-map.png` });
 });
 await step("log out returns to login and blocks pages", async () => {
   await temur.goto(BASE);

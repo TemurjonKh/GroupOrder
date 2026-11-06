@@ -1,0 +1,1633 @@
+{
+"sandwich/비엘티": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/치킨 데리야끼": {
+"contains": [
+"soy",
+"wheat",
+"tomato",
+"chicken"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/에그마요": {
+"contains": [
+"egg",
+"soy",
+"wheat",
+"tomato"
+],
+"may_contain": [
+"milk",
+"shellfish"
+]
+},
+"sandwich/햄": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/이탈리안 비엠티": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/풀드포크 바비큐": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/로스트 치킨": {
+"contains": [
+"soy",
+"wheat",
+"tomato",
+"chicken",
+"beef"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/로티세리 바비큐 치킨": {
+"contains": [
+"soy",
+"wheat",
+"tomato",
+"chicken"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/쉬림프": {
+"contains": [
+"soy",
+"wheat",
+"shrimp",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/스파이시 이탈리안": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/스테이크&치즈": {
+"contains": [
+"milk",
+"soy",
+"wheat",
+"tomato",
+"beef"
+],
+"may_contain": [
+"egg"
+]
+},
+"sandwich/써브웨이 클럽(터키)": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk",
+"sulfites"
+]
+},
+"sandwich/베지": {
+"contains": [
+"soy",
+"wheat",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/참치": {
+"contains": [
+"egg",
+"soy",
+"wheat",
+"tomato"
+],
+"may_contain": [
+"milk"
+]
+},
+"sandwich/치킨 슬라이스": {
+"contains": [
+"soy",
+"wheat",
+"tomato",
+"chicken"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/터키": {
+"contains": [
+"soy",
+"wheat",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk",
+"sulfites"
+]
+},
+"sandwich/치킨 베이컨 아보카도": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato",
+"chicken"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/터키 베이컨 아보카도": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk",
+"sulfites"
+]
+},
+"sandwich/스파이시 쉬림프": {
+"contains": [
+"milk",
+"soy",
+"wheat",
+"shrimp",
+"tomato"
+],
+"may_contain": [
+"egg"
+]
+},
+"sandwich/안창 비프": {
+"contains": [
+"soy",
+"wheat",
+"tomato",
+"beef"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/안창 비프 & New 머쉬룸(F)": {
+"contains": [
+"soy",
+"wheat",
+"tomato",
+"beef"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"sandwich/안창 비프 & New 머쉬룸(S)": {
+"contains": [
+"soy",
+"wheat",
+"tomato",
+"beef"
+],
+"may_contain": [
+"egg",
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"pork",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sandwich/New 머쉬룸(F)": {
+"contains": [
+"soy",
+"wheat",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk",
+"beef",
+"shellfish"
+]
+},
+"sandwich/New 머쉬룸(S)": {
+"contains": [
+"soy",
+"wheat",
+"tomato"
+],
+"may_contain": [
+"egg",
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"pork",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sandwich/피자썹": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sandwich/잠봉": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk",
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sandwich/잠봉 플러스": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk",
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sandwich/이탈리안 비엠티(J)": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk",
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sandwich/써브웨이 클럽(J)": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"egg",
+"milk",
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sandwich/써브웨이 클럽(JC)": {
+"contains": [
+"soy",
+"wheat",
+"pork",
+"tomato",
+"chicken"
+],
+"may_contain": [
+"egg",
+"milk",
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"sulfites",
+"walnut",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sandwich/아기맹새우": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"shrimp",
+"tomato",
+"sulfites"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"pork",
+"peach",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sandwich/램": {
+"contains": [
+"milk",
+"soy",
+"wheat",
+"tomato",
+"beef"
+],
+"may_contain": [
+"egg",
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"pork",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sandwich/램 & 후무스": {
+"contains": [
+"milk",
+"soy",
+"wheat",
+"tomato",
+"sulfites",
+"beef"
+],
+"may_contain": [
+"egg",
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"pork",
+"peach",
+"walnut",
+"chicken",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"breakfast_sandwich/햄, 에그 & 치즈": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork"
+],
+"may_contain": []
+},
+"breakfast_sandwich/웨스턴, 에그 & 치즈": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": []
+},
+"breakfast_sandwich/잠봉, 에그 & 치즈": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"tomato",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"breakfast_sandwich/웨스턴, 에그 & 치즈(J)": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"tomato",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"breakfast_wrap/햄, 에그 & 치즈 랩": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork"
+],
+"may_contain": []
+},
+"breakfast_wrap/웨스턴, 에그 & 치즈 랩": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": []
+},
+"breakfast_wrap/잠봉, 에그 & 치즈 랩": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"breakfast_wrap/웨스턴, 에그 & 치즈 랩(J)": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"cheese/아메리칸 치즈": {
+"contains": [
+"milk",
+"soy"
+],
+"may_contain": []
+},
+"cheese/모차렐라 치즈": {
+"contains": [
+"milk"
+],
+"may_contain": []
+},
+"cheese/슈레드 치즈": {
+"contains": [
+"milk"
+],
+"may_contain": []
+},
+"salad/그린": {
+"contains": [
+"milk",
+"tomato"
+],
+"may_contain": [
+"egg",
+"soy",
+"wheat"
+]
+},
+"salad/참치 아보카도": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"tomato"
+],
+"may_contain": [
+"wheat"
+]
+},
+"salad/에그마요 베이컨": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"pork",
+"tomato"
+],
+"may_contain": [
+"wheat"
+]
+},
+"salad/로티세리 치킨 더블치즈": {
+"contains": [
+"milk",
+"soy",
+"tomato",
+"chicken"
+],
+"may_contain": [
+"egg",
+"wheat"
+]
+},
+"salad/로스트 치킨 베이컨": {
+"contains": [
+"milk",
+"pork",
+"tomato",
+"chicken",
+"beef"
+],
+"may_contain": [
+"egg",
+"soy",
+"wheat"
+]
+},
+"salad/쉬림프 아보카도": {
+"contains": [
+"milk",
+"shrimp",
+"tomato"
+],
+"may_contain": [
+"egg",
+"soy",
+"wheat"
+]
+},
+"salad/스테이크 & 머쉬룸": {
+"contains": [
+"milk",
+"tomato",
+"beef"
+],
+"may_contain": [
+"egg",
+"soy",
+"wheat"
+]
+},
+"salad/풀드포크 타코": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"salad/로티세리 치킨 타코": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"tomato",
+"chicken"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"pork",
+"peach",
+"sulfites",
+"walnut",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"salad/스파이시 쉬림프 타코": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"shrimp",
+"tomato"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"pork",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"salad/그린(G)": {
+"contains": [
+"milk",
+"soy",
+"tomato"
+],
+"may_contain": [
+"egg",
+"wheat"
+]
+},
+"salad/참치 아보카도(G)": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"tomato"
+],
+"may_contain": [
+"wheat"
+]
+},
+"salad/에그마요 베이컨(G)": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"pork",
+"tomato"
+],
+"may_contain": [
+"wheat"
+]
+},
+"salad/로티세리 치킨 더블치즈(G)": {
+"contains": [
+"milk",
+"soy",
+"tomato",
+"chicken"
+],
+"may_contain": [
+"egg",
+"wheat"
+]
+},
+"salad/로스트 치킨 베이컨(G)": {
+"contains": [
+"milk",
+"soy",
+"pork",
+"tomato",
+"chicken",
+"beef"
+],
+"may_contain": [
+"egg",
+"wheat"
+]
+},
+"salad/쉬림프 아보카도(G)": {
+"contains": [
+"milk",
+"soy",
+"shrimp",
+"tomato"
+],
+"may_contain": [
+"egg",
+"wheat"
+]
+},
+"salad/스테이크 & 머쉬룸(G)": {
+"contains": [
+"milk",
+"soy",
+"tomato",
+"beef"
+],
+"may_contain": [
+"egg",
+"wheat"
+]
+},
+"salad/풀드포크 타코(G)": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork",
+"tomato"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"salad/로티세리 치킨 타코(G)": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"tomato",
+"chicken"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"pork",
+"peach",
+"sulfites",
+"walnut",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"salad/스파이시 쉬림프 타코(G)": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"shrimp",
+"tomato"
+],
+"may_contain": [
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"pork",
+"peach",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"salad/그레인 믹스": {
+"contains": [
+"soy"
+],
+"may_contain": [
+"egg",
+"milk",
+"buckwheat",
+"peanut",
+"wheat",
+"mackerel",
+"crab",
+"shrimp",
+"pork",
+"peach",
+"tomato",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"wrap/치킨 베이컨 미니 랩": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork",
+"chicken",
+"beef"
+],
+"may_contain": []
+},
+"wrap/쉬림프 에그마요 랩": {
+"contains": [
+"egg",
+"milk",
+"wheat",
+"shrimp",
+"tomato"
+],
+"may_contain": [
+"soy"
+]
+},
+"wrap/스테이크&치즈 아보카도 랩": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"tomato",
+"beef"
+],
+"may_contain": []
+},
+"wrap/치킨 베이컨 미니 그릴드 랩": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"pork",
+"chicken",
+"beef"
+],
+"may_contain": []
+},
+"wrap/쉬림프 에그 그릴드 랩": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"shrimp",
+"tomato"
+],
+"may_contain": []
+},
+"wrap/스테이크&치즈 아보카도 그릴드 랩": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat",
+"tomato",
+"beef"
+],
+"may_contain": []
+},
+"bread/플랫 브레드": {
+"contains": [
+"milk",
+"soy",
+"wheat"
+],
+"may_contain": [
+"egg"
+]
+},
+"bread/허니 오트": {
+"contains": [
+"soy",
+"wheat"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"bread/파마산 오레가노": {
+"contains": [
+"milk",
+"soy",
+"wheat"
+],
+"may_contain": [
+"egg"
+]
+},
+"bread/위트": {
+"contains": [
+"soy",
+"wheat"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"bread/화이트": {
+"contains": [
+"soy",
+"wheat"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"bread/통밀 랩": {
+"contains": [
+"wheat"
+],
+"may_contain": []
+},
+"bread/그레인": {
+"contains": [
+"soy",
+"wheat"
+],
+"may_contain": [
+"egg",
+"milk",
+"sulfites"
+]
+},
+"bread/꼬마빵": {
+"contains": [
+"soy",
+"wheat"
+],
+"may_contain": [
+"egg",
+"milk"
+]
+},
+"vegetable/아보카도": {
+"contains": [],
+"may_contain": []
+},
+"vegetable/오이": {
+"contains": [],
+"may_contain": []
+},
+"vegetable/피망": {
+"contains": [],
+"may_contain": []
+},
+"vegetable/할라피뇨": {
+"contains": [],
+"may_contain": []
+},
+"vegetable/양상추": {
+"contains": [],
+"may_contain": []
+},
+"vegetable/올리브": {
+"contains": [],
+"may_contain": []
+},
+"vegetable/양파": {
+"contains": [],
+"may_contain": []
+},
+"vegetable/토마토": {
+"contains": [
+"tomato"
+],
+"may_contain": []
+},
+"vegetable/후무스": {
+"contains": [
+"sulfites"
+],
+"may_contain": []
+},
+"sauce/허니 머스터드": {
+"contains": [
+"egg",
+"milk",
+"soy"
+],
+"may_contain": []
+},
+"sauce/홀스 래디쉬": {
+"contains": [
+"egg",
+"soy",
+"beef"
+],
+"may_contain": []
+},
+"sauce/핫 칠리": {
+"contains": [
+"soy",
+"wheat",
+"tomato"
+],
+"may_contain": []
+},
+"sauce/케첩": {
+"contains": [
+"tomato"
+],
+"may_contain": []
+},
+"sauce/마요네즈": {
+"contains": [
+"egg",
+"soy"
+],
+"may_contain": []
+},
+"sauce/엑스트라 버진 올리브 오일": {
+"contains": [],
+"may_contain": []
+},
+"sauce/랜치": {
+"contains": [
+"egg",
+"milk",
+"soy"
+],
+"may_contain": []
+},
+"sauce/레드와인 식초": {
+"contains": [
+"sulfites"
+],
+"may_contain": []
+},
+"sauce/스모크 바비큐": {
+"contains": [
+"soy",
+"wheat",
+"tomato",
+"sulfites",
+"shellfish"
+],
+"may_contain": []
+},
+"sauce/사우스웨스트 치폴레": {
+"contains": [
+"egg",
+"soy",
+"wheat",
+"tomato"
+],
+"may_contain": []
+},
+"sauce/스위트 칠리": {
+"contains": [
+"tomato"
+],
+"may_contain": []
+},
+"sauce/스위트 어니언": {
+"contains": [],
+"may_contain": []
+},
+"sauce/저당 크리미 어니언": {
+"contains": [
+"egg",
+"milk",
+"soy"
+],
+"may_contain": []
+},
+"sauce/저칼로리 오리엔탈": {
+"contains": [
+"soy",
+"wheat"
+],
+"may_contain": [
+"egg",
+"milk",
+"buckwheat",
+"peanut",
+"mackerel",
+"crab",
+"shrimp",
+"pork",
+"peach",
+"tomato",
+"sulfites",
+"walnut",
+"chicken",
+"beef",
+"squid",
+"shellfish",
+"pine_nut"
+]
+},
+"sauce/치미추리": {
+"contains": [
+"soy"
+],
+"may_contain": []
+},
+"meat/베이컨 비츠": {
+"contains": [
+"pork"
+],
+"may_contain": []
+},
+"meat/베이컨": {
+"contains": [
+"pork"
+],
+"may_contain": []
+},
+"meat/치킨 데리야끼(미트)": {
+"contains": [
+"soy",
+"wheat",
+"chicken"
+],
+"may_contain": []
+},
+"meat/에그마요(미트)": {
+"contains": [
+"egg",
+"soy"
+],
+"may_contain": []
+},
+"meat/오믈렛": {
+"contains": [
+"egg",
+"milk",
+"soy"
+],
+"may_contain": []
+},
+"meat/햄(미트)": {
+"contains": [
+"pork"
+],
+"may_contain": []
+},
+"meat/페퍼로니": {
+"contains": [
+"pork"
+],
+"may_contain": []
+},
+"meat/풀드 포크 바비큐(미트)": {
+"contains": [
+"soy",
+"wheat",
+"pork"
+],
+"may_contain": []
+},
+"meat/로스트 치킨(미트)": {
+"contains": [
+"chicken",
+"beef"
+],
+"may_contain": []
+},
+"meat/로티세리 바비큐 치킨(미트)": {
+"contains": [
+"soy",
+"chicken"
+],
+"may_contain": []
+},
+"meat/살라미": {
+"contains": [
+"pork"
+],
+"may_contain": []
+},
+"meat/쉬림프(미트)": {
+"contains": [
+"shrimp"
+],
+"may_contain": []
+},
+"meat/스테이크": {
+"contains": [
+"soy",
+"beef"
+],
+"may_contain": []
+},
+"meat/참치(미트)": {
+"contains": [
+"egg",
+"soy"
+],
+"may_contain": []
+},
+"meat/터키(미트)": {
+"contains": [],
+"may_contain": []
+},
+"meat/스파이시 쉬림프(미트)": {
+"contains": [
+"milk",
+"shrimp"
+],
+"may_contain": []
+},
+"meat/에그 슬라이스": {
+"contains": [
+"egg"
+],
+"may_contain": []
+},
+"meat/안창 비프(미트)": {
+"contains": [
+"soy",
+"beef"
+],
+"may_contain": []
+},
+"meat/머쉬룸(미트)": {
+"contains": [],
+"may_contain": [
+"milk",
+"soy",
+"wheat",
+"tomato",
+"beef",
+"shellfish"
+]
+},
+"meat/잠봉(미트)": {
+"contains": [
+"pork"
+],
+"may_contain": []
+},
+"meat/치킨 슬라이스 햄": {
+"contains": [
+"chicken"
+],
+"may_contain": []
+},
+"meat/램(미트)": {
+"contains": [
+"milk",
+"soy",
+"wheat",
+"beef"
+],
+"may_contain": []
+},
+"side/머쉬룸 수프": {
+"contains": [
+"milk",
+"wheat",
+"shellfish"
+],
+"may_contain": []
+},
+"side/콘 수프": {
+"contains": [
+"milk",
+"soy",
+"wheat",
+"chicken"
+],
+"may_contain": []
+},
+"side/포테이토 베이컨 수프": {
+"contains": [
+"milk",
+"soy",
+"wheat",
+"pork"
+],
+"may_contain": []
+},
+"side/해쉬브라운": {
+"contains": [
+"soy"
+],
+"may_contain": []
+},
+"side/웨지 포테이토": {
+"contains": [
+"soy",
+"wheat"
+],
+"may_contain": []
+},
+"side/Cheesy 웨지 포테이토": {
+"contains": [
+"milk",
+"soy",
+"wheat"
+],
+"may_contain": []
+},
+"side/Bacon Cheesy 웨지 포테이토": {
+"contains": [
+"milk",
+"soy",
+"wheat",
+"pork"
+],
+"may_contain": []
+},
+"side/초코칩 쿠키": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat"
+],
+"may_contain": [
+"peanut",
+"walnut"
+]
+},
+"side/더블 초코칩 쿠키": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat"
+],
+"may_contain": [
+"peanut",
+"walnut"
+]
+},
+"side/오트밀 레이즌 쿠키": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat"
+],
+"may_contain": [
+"peanut",
+"walnut"
+]
+},
+"side/라즈베리 치즈케이크 쿠키": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat"
+],
+"may_contain": [
+"peanut",
+"walnut"
+]
+},
+"side/화이트 초코 마카다미아 쿠키": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat"
+],
+"may_contain": [
+"peanut",
+"walnut"
+]
+},
+"side/오렌지 초코 칩 쿠키": {
+"contains": [
+"egg",
+"milk",
+"soy",
+"wheat"
+],
+"may_contain": [
+"peanut",
+"walnut"
+]
+}
+}

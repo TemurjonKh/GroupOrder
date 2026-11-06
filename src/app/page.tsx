@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { ArrowRight, X } from "@phosphor-icons/react/ssr";
+import { ArrowRight, Carrot, MapTrifold, X } from "@phosphor-icons/react/ssr";
 import { dismissNotification } from "./actions";
 import { ActionForm } from "@/components/action-form";
 import { AppHeader } from "@/components/app-header";
 import { DishPhoto, Tag, buttonStyles } from "@/components/ui";
-import { getShowcase, getUser } from "@/lib/data";
+import { getFoodNeeds, getShowcase, getUser } from "@/lib/data";
 
 type GroupRow = {
   id: string; name: string; icon: string; invite_code: string;
@@ -32,7 +32,7 @@ const MAX_THUMBS = 5;
 
 export default async function HomePage() {
   const { supabase, user } = await getUser();
-  const [{ data: groups }, { data: notes }, { data: profile }, dishes] = await Promise.all([
+  const [{ data: groups }, { data: notes }, { data: profile }, dishes, needs] = await Promise.all([
     supabase
       .from("groups")
       .select("id, name, icon, invite_code, group_members(count), order_rounds(title, order_items(status, menu_item:menu_items(name, photo)))")
@@ -46,6 +46,7 @@ export default async function HomePage() {
       .limit(10),
     supabase.from("profiles").select("name").eq("id", user.id).maybeSingle(),
     getShowcase(5),
+    getFoodNeeds(),
   ]);
   const notifications = ((notes ?? []) as unknown as Note[]).filter((n) => n.round?.group);
   const rows = (groups ?? []) as unknown as GroupRow[];
@@ -83,6 +84,17 @@ export default async function HomePage() {
           </section>
         )}
 
+        <section aria-label="Food" className="grid gap-3 md:grid-cols-2">
+          <ShortcutCard href="/map" icon={<MapTrifold aria-hidden size={26} weight="bold" />} title="Find a meal near Inha"
+            text="Every place within 2 km on a map. Search meals with no pork, vegan, or no allergens." />
+          <ShortcutCard href="/account/food" icon={<Carrot aria-hidden size={26} weight="bold" />}
+            title={needs === null ? "Tell us what you can't eat" : "My food needs"}
+            text={needs === null
+              ? "Tick allergies and diets once, and every menu checks against them."
+              : needs.avoid.length || needs.note ? `Checking menus against ${needs.avoid.length + (needs.note ? 1 : 0)} ${needs.avoid.length + (needs.note ? 1 : 0) === 1 ? "item" : "items"}. Only you can see this.` : "You have nothing to avoid. Change it any time."}
+            highlight={needs === null} />
+        </section>
+
         <section>
           <h2 className="mb-4 font-display text-3xl font-extrabold tracking-tight">My groups</h2>
           {rows.length ? (
@@ -99,6 +111,19 @@ export default async function HomePage() {
         </section>
       </main>
     </>
+  );
+}
+
+function ShortcutCard({ href, icon, title, text, highlight = false }: { href: string; icon: React.ReactNode; title: string; text: string; highlight?: boolean }) {
+  return (
+    <Link href={href} className={`group flex items-center gap-4 rounded-[20px] border p-4 transition duration-200 hover:-translate-y-0.5 hover:shadow-lift md:p-5 ${highlight ? "border-accent bg-accent-soft text-on-accent-soft" : "border-line bg-surface hover:border-ink"}`}>
+      <span className={`flex size-14 shrink-0 items-center justify-center rounded-2xl ${highlight ? "bg-surface" : "bg-soft"}`}>{icon}</span>
+      <span className="min-w-0 flex-1">
+        <span className="block font-display text-xl font-bold tracking-tight">{title}</span>
+        <span className={`mt-0.5 block text-sm ${highlight ? "" : "text-muted"}`}>{text}</span>
+      </span>
+      <ArrowRight aria-hidden size={20} className="shrink-0 transition-transform duration-200 group-hover:translate-x-1" />
+    </Link>
   );
 }
 

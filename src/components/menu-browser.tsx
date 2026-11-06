@@ -2,12 +2,15 @@ import Link from "next/link";
 import { X } from "@phosphor-icons/react/ssr";
 import { Sheet } from "./client-bits";
 import { PickForm } from "./pick-form";
-import { BrandLogo, DishPhoto } from "./ui";
+import { DishFacts, FoodBadge } from "./dish-facts";
+import { BrandLogo, DishPhoto, textLink } from "./ui";
+import { getFoodNeeds } from "@/lib/data";
+import { checkDish } from "@/lib/diet";
 import { formatKrw } from "@/lib/round";
 import type { MenuItem, OrderPick, Restaurant } from "@/lib/types";
 
 /** A restaurant's full menu by category. Choosing a dish opens a sheet with the pick form. */
-export function MenuBrowser({ restaurant, basePath, selectedId, code, roundId, canPick, current, forUser, submitLabel }: {
+export async function MenuBrowser({ restaurant, basePath, selectedId, code, roundId, canPick, current, forUser, submitLabel }: {
   restaurant: Restaurant & { menu_items: MenuItem[] };
   /** This page's URL without the dish; may already carry a query string. */
   basePath: string;
@@ -23,6 +26,9 @@ export function MenuBrowser({ restaurant, basePath, selectedId, code, roundId, c
   const categories = [...new Set(dishes.map((d) => d.category))];
   const selected = selectedId ? dishes.find((d) => d.id === selectedId) : undefined;
   const hrefFor = (dish: MenuItem) => `${basePath}${basePath.includes("?") ? "&" : "?"}dish=${dish.id}`;
+  // A leader picking for someone else sees the dish's facts, not their own list. Members' lists stay private.
+  const needs = forUser ? null : await getFoodNeeds();
+  const check = (dish: MenuItem) => (needs ? checkDish(dish, needs.avoid, needs.note) : null);
 
   return (
     <>
@@ -33,6 +39,14 @@ export function MenuBrowser({ restaurant, basePath, selectedId, code, roundId, c
           <p className="mt-1.5 text-sm text-muted">{restaurant.cuisine}, {dishes.length} items</p>
         </div>
       </div>
+      {!forUser && (
+        <p className="mt-3 text-sm text-muted">
+          {needs && (needs.avoid.length > 0 || needs.note)
+            ? "Dishes are checked against your food needs. "
+            : "Have allergies or a diet? "}
+          <Link href="/account/food" className={textLink}>{needs ? "Edit my food needs" : "Set my food needs"}</Link>
+        </p>
+      )}
 
       <nav aria-label="Menu categories" className="no-scrollbar sticky top-16 z-10 -mx-4 mt-4 flex gap-2 overflow-x-auto bg-page/90 px-4 py-3 backdrop-blur-md">
         {categories.map((category) => (
@@ -47,11 +61,13 @@ export function MenuBrowser({ restaurant, basePath, selectedId, code, roundId, c
           <h3 className="mb-3 font-display text-2xl font-extrabold tracking-tight">{category}</h3>
           <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
             {dishes.filter((d) => d.category === category).map((dish) => {
+              const result = check(dish);
               const inner = (
                 <>
-                  <DishPhoto src={dish.photo} alt="" className="aspect-square w-full transition-transform duration-300 group-hover:scale-[1.03]" />
+                  <DishPhoto src={dish.photo} alt="" className={`aspect-square w-full transition-transform duration-300 group-hover:scale-[1.03] ${result?.level === "avoid" ? "opacity-50" : ""}`} />
                   <span className="mt-2.5 line-clamp-2 text-sm leading-snug font-semibold">{dish.name}</span>
                   <span className={`mt-1 block text-sm ${dish.price === null ? "text-muted" : "font-bold"}`}>{formatKrw(dish.price)}</span>
+                  {result && <span className="mt-1.5 block"><FoodBadge check={result} /></span>}
                 </>
               );
               return (
@@ -76,6 +92,7 @@ export function MenuBrowser({ restaurant, basePath, selectedId, code, roundId, c
             <h3 className="mt-4 font-display text-2xl leading-tight font-extrabold tracking-tight">{selected.name}</h3>
             <p className={`mt-1 ${selected.price === null ? "text-sm text-muted" : "text-lg font-bold"}`}>{formatKrw(selected.price)}</p>
             {selected.description && <p className="mt-2 text-sm leading-relaxed text-muted">{selected.description}</p>}
+            <div className="mt-4"><DishFacts dish={selected} check={check(selected)} /></div>
             <div className="mt-5">
               <PickForm code={code} roundId={roundId} item={selected} forUser={forUser} submitLabel={submitLabel}
                 current={current?.menu_item?.id === selected.id ? current : null} />

@@ -15,7 +15,7 @@ function pick(user: string, status: PickStatus, rest: Partial<OrderPick> & { dis
   return {
     id: user, round_id: "r", user_id: user, qty: 1, options: {}, note: null, price_at_pick: 9000, status,
     menu_item: hasDish
-      ? { id: dish, restaurant_id: where, name: dish, photo: null, price: 9000, category: "Menu", description: null, sort_order: 0, options: [], restaurant: place(where) }
+      ? { id: dish, restaurant_id: where, name: dish, photo: null, price: 9000, category: "Menu", description: null, sort_order: 0, options: [], contains: null, may_contain: null, ingredients: [], allergen_source: null, allergen_note: null, allergen_gaps: [], restaurant: place(where) }
       : null,
     ...fields,
   };

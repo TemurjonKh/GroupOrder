@@ -1,21 +1,30 @@
 import Link from "next/link";
-import { Bell, Plus, SignOut } from "@phosphor-icons/react/ssr";
+import { Bell, Carrot, MapTrifold, Plus, SignOut } from "@phosphor-icons/react/ssr";
 import { signOut } from "@/app/actions";
 import { getUser } from "@/lib/data";
+import { HeaderNav } from "./client-bits";
 import { buttonStyles } from "./ui";
 
 const MAX_BADGE = 20;
+const LINKS = [
+  { href: "/map", label: "Food map", icon: <MapTrifold aria-hidden size={16} weight="bold" /> },
+  { href: "/account/food", label: "My food needs", icon: <Carrot aria-hidden size={16} weight="bold" /> },
+];
 
 export async function AppHeader() {
   const { supabase } = await getUser();
   const { data } = await supabase.from("notifications").select("id").is("read_at", null).limit(MAX_BADGE);
   const unread = data?.length ?? 0;
   return (
+    <>
     <header className="sticky top-0 z-20 border-b border-line bg-page/85 backdrop-blur-md print:hidden">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-2 px-4">
-        <Link href="/" className="font-display text-lg font-extrabold tracking-tight sm:text-xl">
-          Group<span className="text-accent">Order</span>
-        </Link>
+        <div className="flex items-center gap-4">
+          <Link href="/" className="font-display text-lg font-extrabold tracking-tight sm:text-xl">
+            Group<span className="text-accent">Order</span>
+          </Link>
+          <HeaderNav links={LINKS} className="hidden md:flex" />
+        </div>
         <div className="flex items-center gap-1 sm:gap-2">
           {unread > 0 && (
             <Link href="/" aria-label={`${unread} unread notices`} className="flex min-h-11 items-center gap-1 rounded-full bg-accent-soft px-3 text-sm font-bold text-on-accent-soft">
@@ -37,5 +46,8 @@ export async function AppHeader() {
         </div>
       </div>
     </header>
+    {/* On a phone the links get their own row, which scrolls away so menus keep their sticky categories. */}
+    <HeaderNav links={LINKS} className="no-scrollbar overflow-x-auto border-b border-line px-3 py-1.5 md:hidden print:hidden" />
+    </>
   );
 }
