@@ -9,9 +9,13 @@
     "lint": "eslint",
     "test": "vitest run",
     "dev:local": "node scripts/dev-local.mjs",
-    "dev:local:reset": "node -e \"require('fs').rmSync('.local',{recursive:true,force:true})\""
+    "dev:local:reset": "node -e \"require('fs').rmSync('.local',{recursive:true,force:true})\"",
+    "menus:import": "node scripts/import-menus.mjs",
+    "menus:seed": "node scripts/build-seed.mjs",
+    "test:e2e": "node test/e2e/flow.mjs"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.119.0",
     "next": "16.4.5",
@@ -28,6 +32,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.5",
+    "playwright": "^1.65.0",
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^5.1.0"

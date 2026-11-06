@@ -43,3 +43,5 @@ next-env.d.ts
 
 # local backend data (npm run dev:local)
 /.local/
+/.local-test/
+/test/e2e/screenshots/

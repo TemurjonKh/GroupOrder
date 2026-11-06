@@ -12,7 +12,7 @@ import http from "node:http";
 import { join } from "node:path";
 import { PGlite } from "@electric-sql/pglite";
 
-const DATA = ".local";
+const DATA = process.env.LOCAL_DATA_DIR ?? ".local";
 const DEMO_PASSWORD = "demo1234";
 const DEMO_USERS = [["temur", "Temur"], ["minji", "Minji"], ["jisoo", "Jisoo"], ["dana", "Dana"]];
 const ACCESS_SECONDS = 3600;

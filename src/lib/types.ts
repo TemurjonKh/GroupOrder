@@ -3,9 +3,11 @@ export type Restaurant = {
   name: string;
   cuisine: string;
   logo: string | null;
+  logo_bg: string | null;
   address: string | null;
-  lat: number;
-  lng: number;
+  /** Null for a chain with no single location: available anywhere. */
+  lat: number | null;
+  lng: number | null;
   phone: string | null;
   delivery_link: string | null;
 };
@@ -17,7 +19,11 @@ export type MenuItem = {
   restaurant_id: string;
   name: string;
   photo: string | null;
-  price: number;
+  /** Null when the brand does not publish a price. */
+  price: number | null;
+  category: string;
+  description: string | null;
+  sort_order: number;
   options: MenuOption[];
 };
 
@@ -41,7 +47,7 @@ export type Round = {
   id: string;
   group_id: string;
   title: string;
-  deadline: string;
+  deadline: string | null;
   mode: "delivery" | "pickup" | "dine-in";
   status: RoundStatus;
   allowed_restaurant_ids: string[];
@@ -59,7 +65,7 @@ export type OrderPick = {
   qty: number;
   options: Record<string, string>;
   note: string | null;
-  price_at_pick: number;
+  price_at_pick: number | null;
   status: PickStatus;
   menu_item: (MenuItem & { restaurant: Restaurant }) | null;
 };

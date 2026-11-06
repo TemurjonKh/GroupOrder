@@ -28,10 +28,12 @@ let groupId: string;
 let code: string;
 let dish: { id: string; price: number; restaurant_id: string };
 
-async function startRound(deadline = hoursFromNow(2), allowed: string[] = []) {
-  const [r] = await as<{ id: string }>(LEADER,
-    "select start_round($1, 'Friday lunch', $2, 'delivery', $3) as id", [groupId, deadline, allowed]);
-  return r.id;
+// Every group has an open round from the moment it exists; tests only adjust it.
+async function startRound(deadline: string | null = null, allowed: string[] = []) {
+  const { rows } = await db.query<{ id: string }>(
+    "update order_rounds set deadline = $2, allowed_restaurant_ids = $3 where group_id = $1 and status = 'open' returning id",
+    [groupId, deadline, allowed]);
+  return rows[0].id;
 }
 const pick = (user: string, round: string) =>
   as(user, "select set_my_pick($1, $2, 1, '{}', null)", [round, dish.id]);
@@ -52,7 +54,7 @@ beforeAll(async () => {
   await db.exec(`insert into auth.users (id, email, raw_user_meta_data) values
     ('${LEADER}', 'leader@x.co', '{"name":"Temur"}'), ('${MINJI}', 'minji@x.co', '{"name":"Minji"}'),
     ('${DANA}', 'dana@x.co', '{}'), ('${OUTSIDER}', 'out@x.co', '{"name":"Out"}')`);
-  dish = (await db.query<typeof dish>("select id, price, restaurant_id from menu_items limit 1")).rows[0];
+  dish = (await db.query<typeof dish>("select id, price, restaurant_id from menu_items where price is not null limit 1")).rows[0];
 });
 
 beforeEach(async () => {
@@ -88,10 +90,11 @@ describe("accounts and groups", () => {
     expect(await as(OUTSIDER, "select * from profiles where id = $1", [MINJI])).toEqual([]);
   });
 
-  it("gives anonymous visitors nothing", async () => {
-    for (const table of ["groups", "restaurants", "menu_items", "profiles"]) {
+  it("shows anonymous visitors menus and nothing else", async () => {
+    for (const table of ["groups", "group_members", "profiles", "order_rounds", "order_items", "notifications"]) {
       expect(await as(null, `select * from ${table}`), table).toEqual([]);
     }
+    expect((await as(null, "select * from menu_items")).length).toBeGreaterThan(0);
     await expect(as(null, "select group_preview($1)", [code])).rejects.toThrow("permission denied");
   });
 
@@ -162,12 +165,20 @@ describe("picks", () => {
     expect(rows).toHaveLength(1);
   });
 
-  it("blocks outsiders and picks after the deadline", async () => {
+  it("blocks outsiders, and a passed deadline does not close picks", async () => {
     const round = await startRound();
     await expect(pick(OUTSIDER, round)).rejects.toThrow("not_a_member");
     await db.query("update order_rounds set deadline = now() - interval '1 minute' where id = $1", [round]);
-    await expect(pick(MINJI, round)).rejects.toThrow("round_closed");
-    await expect(as(MINJI, "select set_my_answer($1, 'skipped')", [round])).rejects.toThrow("round_closed");
+    await pick(MINJI, round);
+    expect(await pickStatus(MINJI, round)).toBe("draft");
+  });
+
+  it("accepts dishes whose brand publishes no price", async () => {
+    const round = await startRound();
+    const { rows } = await db.query<{ id: string }>("select id from menu_items where price is null limit 1");
+    await as(MINJI, "select set_my_pick($1, $2)", [round, rows[0].id]);
+    const picked = await db.query("select price_at_pick from order_items where user_id = $1", [MINJI]);
+    expect(picked.rows).toEqual([{ price_at_pick: null }]);
   });
 
   it("enforces the leader's restaurant limit", async () => {
@@ -177,18 +188,14 @@ describe("picks", () => {
     await expect(pick(MINJI, round)).rejects.toThrow("restaurant_not_allowed");
   });
 
-  it("lets a removed member repick after the deadline, and nobody else", async () => {
+  it("tells a removed member to repick, and the repick counts", async () => {
     const round = await startRound();
     await pick(MINJI, round);
-    await pick(DANA, round);
-    await db.query("update order_rounds set deadline = now() - interval '1 minute' where id = $1", [round]);
     await as(LEADER, "select remove_pick($1, $2)", [round, MINJI]);
     expect(await pickStatus(MINJI, round)).toBe("removed");
+    expect(await as<{ type: string }>(MINJI, "select type from notifications")).toEqual([{ type: "repick" }]);
     await pick(MINJI, round);
     expect(await pickStatus(MINJI, round)).toBe("draft");
-    await expect(pick(DANA, round)).rejects.toThrow("round_closed");
-    const notes = await as<{ type: string }>(MINJI, "select type from notifications");
-    expect(notes).toEqual([{ type: "repick" }]);
   });
 });
 
@@ -228,8 +235,6 @@ describe("group location", () => {
 
 describe("round lifecycle", () => {
   it("allows only leaders to run a round", async () => {
-    await expect(as(MINJI, "select start_round($1, 'x', $2)", [groupId, hoursFromNow(1)]))
-      .rejects.toThrow("leader_only");
     const round = await startRound();
     for (const fn of ["finalize_round", "mark_ordered", "remind_no_answer"]) {
       await expect(as(MINJI, `select ${fn}($1)`, [round]), fn).rejects.toThrow("leader_only");
@@ -237,10 +242,13 @@ describe("round lifecycle", () => {
     await expect(as(MINJI, "select remove_pick($1, $2)", [round, DANA])).rejects.toThrow("leader_only");
   });
 
-  it("allows one open round per group and no past deadlines", async () => {
-    await expect(startRound(hoursFromNow(-1))).rejects.toThrow("deadline_in_past");
-    await startRound();
-    await expect(startRound()).rejects.toThrow("round_already_open");
+  it("gives every new group exactly one open round", async () => {
+    const rows = await as<{ title: string; status: string; deadline: string | null }>(MINJI,
+      "select title, status, deadline from order_rounds");
+    expect(rows).toEqual([{ title: "Lunch", status: "open", deadline: null }]);
+    await expect(db.query("insert into order_rounds (group_id, title) values ($1, 'x')", [groupId]))
+      .rejects.toThrow("one_open_round_per_group");
+    await expect(as(LEADER, "select open_round($1, $2)", [groupId, LEADER])).rejects.toThrow("permission denied");
   });
 
   it("goes open, finalized, ordered and notifies people who ordered", async () => {
@@ -255,7 +263,9 @@ describe("round lifecycle", () => {
     await as(LEADER, "select mark_ordered($1)", [round]);
     expect(await as(MINJI, "select type from notifications")).toEqual([{ type: "ordered" }]);
     expect(await as(DANA, "select type from notifications")).toEqual([]);
-    await startRound(); // a new round can start
+    const open = await as<{ id: string }>(MINJI, "select id from order_rounds where status = 'open'");
+    expect(open).toHaveLength(1); // the next round opens by itself
+    expect(open[0].id).not.toBe(round);
   });
 });
 
@@ -304,10 +314,14 @@ describe("reminders", () => {
 });
 
 describe("seed", () => {
-  it("gives every restaurant a menu", async () => {
-    const { rows } = await db.query<{ n: number }>(`select count(*)::int as n from restaurants r
-      where not exists (select 1 from menu_items m where m.restaurant_id = r.id)`);
-    expect(rows[0].n).toBe(0);
-    expect((await db.query("select * from restaurants")).rows.length).toBeGreaterThan(5);
+  it("holds real menus with a photo for every dish", async () => {
+    const names = await db.query<{ name: string }>("select name from restaurants order by name");
+    expect(names.rows.map((r) => r.name)).toEqual(expect.arrayContaining(["BBQ", "Burger King", "Subway"]));
+    const { rows } = await db.query<{ dishes: number; no_photo: number; no_menu: number }>(`select
+      (select count(*)::int from menu_items) as dishes,
+      (select count(*)::int from menu_items where photo is null) as no_photo,
+      (select count(*)::int from restaurants r where not exists (select 1 from menu_items m where m.restaurant_id = r.id)) as no_menu`);
+    expect(rows[0].dishes).toBeGreaterThan(300);
+    expect(rows[0]).toMatchObject({ no_photo: 0, no_menu: 0 });
   });
 });

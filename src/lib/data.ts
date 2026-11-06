@@ -1,7 +1,7 @@
 import { cache } from "react";
 import { redirect } from "next/navigation";
 import { createClient } from "./supabase/server";
-import { answerCounts, memberAnswers, roundState } from "./round";
+import { answerCounts, memberAnswers } from "./round";
 import type { Group, Member, MenuItem, OrderPick, Restaurant, Round } from "./types";
 
 export const PICK_COLUMNS =
@@ -48,7 +48,7 @@ export const getGroupContext = cache(async (code: string) => {
   const picks = await getPicks(round ? [round.id] : []);
   const answers = memberAnswers(members, picks);
   const myPick = picks.find((p) => p.user_id === user.id) ?? null;
-  const state = round ? roundState(round) : null;
+  const state = round?.status ?? null;
 
   return {
     group,
@@ -60,16 +60,40 @@ export const getGroupContext = cache(async (code: string) => {
     answers,
     counts: answerCounts(answers),
     myPick,
-    // A member whose pick the leader removed may repick after the deadline.
-    canAnswer:
-      state === "open" || state === "closing_soon" || (state === "closed" && myPick?.status === "removed"),
+    canAnswer: state === "open",
   };
 });
 
-export type RestaurantWithMenu = Restaurant & { menu_items: { price: MenuItem["price"] }[] };
+export type RestaurantWithMenu = Restaurant & {
+  menu_items: Pick<MenuItem, "name" | "photo" | "price" | "category" | "sort_order">[];
+};
 
-export async function getRestaurants() {
-  const { supabase } = await getUser();
-  const { data } = await supabase.from("restaurants").select("*, menu_items(price)");
+export const getRestaurants = cache(async () => {
+  const supabase = await createClient();
+  const { data } = await supabase
+    .from("restaurants")
+    .select("*, menu_items(name, photo, price, category, sort_order)")
+    .order("name");
   return (data ?? []) as RestaurantWithMenu[];
+});
+
+/** Real dishes for decoration, taken in turn from each restaurant so all of them show. */
+export async function getShowcase(count: number) {
+  const restaurants = await getRestaurants();
+  const pools = restaurants.map((r) =>
+    [...r.menu_items].sort((a, b) => a.sort_order - b.sort_order).filter((d) => d.photo));
+  const dishes: { name: string; photo: string | null }[] = [];
+  for (let i = 0; dishes.length < count && pools.some((pool) => pool[i]); i++) {
+    for (const pool of pools) if (pool[i * 3] && dishes.length < count) dishes.push(pool[i * 3]);
+  }
+  return dishes;
+}
+
+export async function getRestaurantMenu(id: string) {
+  const { supabase } = await getUser();
+  const { data } = await supabase.from("restaurants").select("*, menu_items(*)").eq("id", id).maybeSingle();
+  if (!data) return null;
+  const restaurant = data as Restaurant & { menu_items: MenuItem[] };
+  restaurant.menu_items.sort((a, b) => a.sort_order - b.sort_order);
+  return restaurant;
 }

@@ -1,26 +1,12 @@
 import { describe, expect, it } from "vitest";
 import {
-  answerCounts, buildSummary, deadlineFromTime, distanceMeters, formatDistance, formatTime,
-  friendlyError, memberAnswers, restaurantsForRound, roundState, summaryText,
+  answerCounts, buildSummary, distanceMeters, formatDistance,
+  friendlyError, memberAnswers, restaurantsForRound, summaryText, totalLabel,
 } from "../src/lib/round";
 import type { Member, OrderPick, PickStatus, Restaurant } from "../src/lib/types";
 
-const at = "2026-11-06T02:20:00.000Z"; // 11:20 in Seoul
-const minutes = (m: number) => new Date(at).getTime() + m * 60_000;
-
-describe("roundState", () => {
-  it("follows the clock until the leader acts", () => {
-    const round = { status: "open" as const, deadline: at };
-    expect(roundState(round, minutes(-31))).toBe("open");
-    expect(roundState(round, minutes(-30))).toBe("closing_soon");
-    expect(roundState(round, minutes(0))).toBe("closed");
-    expect(roundState({ ...round, status: "finalized" }, minutes(-60))).toBe("finalized");
-    expect(roundState({ ...round, status: "ordered" }, minutes(60))).toBe("ordered");
-  });
-});
-
 const place = (id: string): Restaurant => ({
-  id, name: `Place ${id}`, cuisine: "Korean", logo: null, address: null, lat: 0, lng: 0, phone: null, delivery_link: null,
+  id, name: `Place ${id}`, cuisine: "Korean", logo: null, logo_bg: null, address: null, lat: 0, lng: 0, phone: null, delivery_link: null,
 });
 const member = (id: string): Member => ({ user_id: id, role: "member", name: id, avatar: null });
 function pick(user: string, status: PickStatus, rest: Partial<OrderPick> & { dish?: string; at?: string } = {}): OrderPick {
@@ -29,7 +15,7 @@ function pick(user: string, status: PickStatus, rest: Partial<OrderPick> & { dis
   return {
     id: user, round_id: "r", user_id: user, qty: 1, options: {}, note: null, price_at_pick: 9000, status,
     menu_item: hasDish
-      ? { id: dish, restaurant_id: where, name: dish, photo: null, price: 9000, options: [], restaurant: place(where) }
+      ? { id: dish, restaurant_id: where, name: dish, photo: null, price: 9000, category: "Menu", description: null, sort_order: 0, options: [], restaurant: place(where) }
       : null,
     ...fields,
   };
@@ -73,15 +59,28 @@ describe("buildSummary", () => {
   });
 });
 
-describe("time and distance", () => {
-  it("reads a typed time as Seoul time, whatever the server's zone", () => {
-    expect(deadlineFromTime("11:20", new Date("2026-11-06T01:00:00Z"))).toBe(at);
-    // 23:30 UTC on the 5th is already the 6th in Seoul
-    expect(deadlineFromTime("11:20", new Date("2026-11-05T23:30:00Z"))).toBe(at);
-    expect(deadlineFromTime("11:20:00", new Date("2026-11-06T01:00:00Z"))).toBe(at);
-    expect(formatTime(at)).toBe("11:20");
+describe("dishes without a published price", () => {
+  const answers = memberAnswers(["a", "b", "c"].map(member), [
+    pick("a", "draft", { price_at_pick: null, qty: 2 }),
+    pick("b", "draft", { price_at_pick: 9000 }),
+    pick("c", "draft", { dish: "Sub", at: "b", price_at_pick: null }),
+  ]);
+  const [mixed, none] = buildSummary(answers);
+
+  it("never counts an unknown price as zero", () => {
+    expect(mixed.total).toBe(9000);
+    expect(mixed.unpriced).toBe(2);
+    expect(totalLabel(mixed.total, mixed.unpriced)).toBe("₩9,000 + 2 items not priced");
+    expect(totalLabel(none.total, none.unpriced)).toBe("Prices not listed");
+    expect(mixed.people.find((p) => p.name === "a")?.amount).toBeNull();
   });
 
+  it("says so in the text for the restaurant", () => {
+    expect(summaryText(none, "Lunch")).toBe("Place b · Lunch\nSub x1  Prices not listed\nTotal Prices not listed");
+  });
+});
+
+describe("distance", () => {
   it("measures walking-scale distances sensibly", () => {
     const meters = distanceMeters({ lat: 37.503, lng: 127.0436 }, { lat: 37.5026, lng: 127.0402 });
     expect(meters).toBeGreaterThan(280);
@@ -101,12 +100,17 @@ describe("restaurantsForRound", () => {
     expect(restaurantsForRound(office, [near, busan, nearer]).map((r) => r.id)).toEqual(["nearer", "near"]);
   });
 
+  it("always includes chains, which have no single location", () => {
+    const chain = { id: "chain", lat: null, lng: null };
+    expect(restaurantsForRound(office, [chain, busan, near]).map((r) => [r.id, r.distance === null])).toEqual([["near", false], ["chain", true]]);
+  });
+
   it("uses the leader's pins whatever the distance", () => {
     expect(restaurantsForRound(office, [near, busan], ["busan"]).map((r) => r.id)).toEqual(["busan"]);
   });
 });
 
 it("translates database error codes and hides unknown errors", () => {
-  expect(friendlyError("round_closed")).toContain("closed");
+  expect(friendlyError("round_closed")).toContain("finalized");
   expect(friendlyError('duplicate key on table "secret"')).toBe("Something went wrong. Please try again.");
 });
