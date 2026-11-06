@@ -51,7 +51,7 @@ export type Round = {
 export type PickStatus = "draft" | "skipped" | "confirmed" | "removed" | "cancelled";
 
 /** An order_items row with its dish and restaurant attached. */
-export type Pick = {
+export type OrderPick = {
   id: string;
   round_id: string;
   user_id: string;

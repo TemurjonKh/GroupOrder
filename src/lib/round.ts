@@ -1,4 +1,4 @@
-import type { Member, Pick, Restaurant, Round } from "./types";
+import type { Member, OrderPick, Restaurant, Round } from "./types";
 
 const CLOSING_SOON_MS = 30 * 60_000;
 const TIME_ZONE = "Asia/Seoul";
@@ -14,11 +14,11 @@ export function roundState(round: { status: Round["status"]; deadline: string },
 }
 
 export type Answer =
-  | { member: Member; kind: "picked"; pick: Pick }
+  | { member: Member; kind: "picked"; pick: OrderPick }
   | { member: Member; kind: "skipped" }
   | { member: Member; kind: "no_answer"; removed: boolean };
 
-export function memberAnswers(members: Member[], picks: Pick[]): Answer[] {
+export function memberAnswers(members: Member[], picks: OrderPick[]): Answer[] {
   const byUser = new Map(picks.map((p) => [p.user_id, p]));
   return members.map((member): Answer => {
     const pick = byUser.get(member.user_id);

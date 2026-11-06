@@ -104,7 +104,8 @@ create table public.order_items (
   user_id uuid not null references public.profiles on delete cascade,
   menu_item_id uuid references public.menu_items,
   qty integer not null default 1 check (qty between 1 and 20),
-  options jsonb not null default '{}' check (jsonb_typeof(options) = 'object'),
+  options jsonb not null default '{}'
+    check (jsonb_typeof(options) = 'object' and pg_column_size(options) <= 1000),
   note text check (char_length(note) <= 200),
   price_at_pick integer not null default 0,
   status text not null default 'draft'

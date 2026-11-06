@@ -3,7 +3,7 @@ import {
   answerCounts, buildSummary, deadlineFromTime, distanceMeters, formatDistance, formatTime,
   friendlyError, memberAnswers, roundState, summaryText,
 } from "../src/lib/round";
-import type { Member, Pick, PickStatus, Restaurant } from "../src/lib/types";
+import type { Member, OrderPick, PickStatus, Restaurant } from "../src/lib/types";
 
 const at = "2026-11-06T02:20:00.000Z"; // 11:20 in Seoul
 const minutes = (m: number) => new Date(at).getTime() + m * 60_000;
@@ -23,7 +23,7 @@ const place = (id: string): Restaurant => ({
   id, name: `Place ${id}`, cuisine: "Korean", logo: null, address: null, lat: 0, lng: 0, phone: null, delivery_link: null,
 });
 const member = (id: string): Member => ({ user_id: id, role: "member", name: id, avatar: null });
-function pick(user: string, status: PickStatus, rest: Partial<Pick> & { dish?: string; at?: string } = {}): Pick {
+function pick(user: string, status: PickStatus, rest: Partial<OrderPick> & { dish?: string; at?: string } = {}): OrderPick {
   const { dish = "Bibimbap", at: where = "a", ...fields } = rest;
   const hasDish = !["skipped", "cancelled", "removed"].includes(status);
   return {

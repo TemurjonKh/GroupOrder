@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* Warm neutrals with one blue accent, from the structure document's wireframes. */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-page: #faf9f5;
+  --color-surface: #ffffff;
+  --color-soft: #f3f1ea;
+  --color-line: #dedbd0;
+  --color-ink: #1f1e1b;
+  --color-muted: #5f5d55;
+  --color-accent: #1f66c4;
+  --color-accent-dark: #174f99;
+  --color-accent-soft: #e3ebf8;
+  --color-amber: #8a5a00;
+  --color-amber-soft: #fbf0d9;
+  --color-danger: #b3261e;
+  --font-sans: var(--font-jakarta), system-ui, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
 }
