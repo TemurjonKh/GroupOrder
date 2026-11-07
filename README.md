@@ -54,7 +54,7 @@ Chain menus come from each brand's public site. To refresh them:
 
 ```sh
 npm run menus:import    # BBQ, Burger King and Subway, into supabase/menus/*.json
-npm run menus:chains    # the other chains with a branch near Inha (name brands to do only those)
+npm run menus:chains    # the 15 other chains with a branch near Inha (name brands to do only those)
 npm run places:import   # fetches the places around Inha into supabase/places/inha.json
                         # (add -- --relink to only match saved places to the chains again)
 npm run menus:seed      # rebuilds supabase/seed.sql from those files
@@ -66,10 +66,15 @@ Then run `npm run dev:local:reset` so local mode loads the new seed.
   items are unpriced. Burger King's prices are its own dine-in prices; delivery can cost more.
 - **Each site's robots.txt is respected.** BHC and Yupdduk are not included because theirs shut out
   bots like this one. Ediya is not included because its full list sits on a path its robots.txt
-  disallows. Isaac Toast has no photos for the same reason. To add a brand by hand, write
+  disallows. Isaac Toast and Gong Cha have no photos for the same reason. Mom's Touch publishes
+  allergens only as a chart image, so its dishes are "No data". To add a brand by hand, write
   `supabase/menus/<brand>.json` in the same format and add its photo host to `next.config.ts`.
-- **Independent restaurants have no menus.** They publish none, and delivery and map apps do not
-  allow copying theirs. Their menus would have to come from the owners or be typed in by hand.
+- **Independent restaurants: members type in their menus.** They publish none, and the map and
+  delivery apps that list them (Kakao Map, Naver Map, Diningcode, Baemin) block bots like this
+  importer in their robots.txt. So every place page (`/places/<id>`) has an "Add a dish" form, and
+  what members add is searchable at once and can be picked in a group round. See below.
+- **Alcohol and merchandise are left out**, because the app has no age check: rice wine on Kyochon's
+  menu and a set with draft beer at Popeyes. Drinks a brand labels non-alcoholic stay in.
 - **A chain's menu is its national menu.** A branch may not sell every dish, or may charge differently.
 - **BBQ's adult-only drinks are left out**, because the app has no age check.
 - **Photos stay on the brands' servers.** The database stores their URLs and the app resizes
@@ -89,11 +94,16 @@ Only they can read that list. The rule throughout is that missing data is never 
 | No data | The brand publishes nothing for this dish, or for part of this set |
 | None listed | The brand publishes data and none of the person's items are on it. Never "safe" |
 
-- **Sources.** BBQ, Burger King, Starbucks, Mega, Paik's, Baskin-Robbins, Sulbing, The Venti and Pizza
-  School publish allergens with their dishes. Subway publishes a chart image, read by `scripts/read-subway-chart.py`
+- **Sources.** BBQ, Burger King, Starbucks, Mega, Paik's, Baskin-Robbins, Sulbing, The Venti, Pizza
+  School, Gong Cha and Compose publish allergens with their dishes (Compose also lists what its
+  kitchen handles, shown as "may contain"). Subway publishes a chart image, read by `scripts/read-subway-chart.py`
   into `supabase/menus/sources/subway-allergy-chart.json`. Kyochon's table names older products, so
-  most of its dishes have no match and stay "No data". Mammoth, Puradak, Popeyes and Isaac publish
-  no allergens that the importer can read, so all their dishes are "No data".
+  most of its dishes have no match and stay "No data". Mammoth, Puradak, Popeyes, Isaac and Mom's
+  Touch publish no allergens that the importer can read, so all their dishes are "No data".
+- **The importer only accepts words it knows.** An unknown allergen word stops that brand's import,
+  so a list is never half read. Spelling variants (밀가루, 메추리알) and one typo (대대두) are mapped
+  in `scripts/menu-helpers.mjs`, always to the allergen they name. `IMPORT_CACHE=<folder>` keeps the
+  fetched pages, so a rerun after a fix does not ask the site again.
 - **Korea labels 19 foods.** Others, such as turkey, lamb, most fish and sesame, are only found when
   a dish names them, so "None listed" says when those cannot be ruled out. Vegan and vegetarian
   results mean "nothing listed", not certified.
@@ -101,9 +111,25 @@ Only they can read that list. The rule throughout is that missing data is never 
 - **Burger King does not list most sets, fries or drinks.** A set shows what its listed parts
   contain and names the parts with no data, so it can never read as "None listed".
 
+## Menus typed in by members
+
+Any logged-in person can add, change or remove dishes for a place with no brand menu. A chain's
+branch keeps the brand's menu, which cannot be changed here.
+
+- **Allergens only count when the member checked with the restaurant.** Without the "I checked"
+  box, the dish has no allergen list and shows "No data", the same as a brand that publishes
+  nothing. The ingredients are still searched, so "돼지 머리고기" warns someone avoiding pork.
+- **It is marked as members' work** on the place page and in the search, never as the restaurant's.
+- **Writes go through `save_member_dish` and `delete_member_dish`**, which check every field. A dish
+  someone has picked cannot be removed, and a menu left empty is removed with its last dish.
+
 ## Food map
 
 `/map` shows every place within 2 km of Inha University, on OpenStreetMap, with a search for meals.
+The search filters by diet and allergen (vegan, vegetarian, no meat, no pork or alcohol, no chicken,
+no beef, no seafood, no nuts, no dairy, no egg, no wheat and 30 more), by kind of dish (meals,
+drinks, desserts and sides, sorted from each brand's own categories), by price, and sorts by
+distance or price. "No pork or alcohol" is not halal: no brand here says how its meat is prepared.
 
 - **Places come from OpenStreetMap** (© OpenStreetMap contributors, ODbL, so keep the credit on the
   map) plus Burger King's store finder. Volunteers map OpenStreetMap, so some places are missing,

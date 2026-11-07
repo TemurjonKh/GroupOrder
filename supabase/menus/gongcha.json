@@ -1,0 +1,1330 @@
+{
+  "slug": "gongcha",
+  "name": "Gong Cha",
+  "cuisine": "Bubble tea",
+  "logo": null,
+  "logo_bg": null,
+  "delivery_link": "https://www.gong-cha.co.kr",
+  "source": "https://www.gong-cha.co.kr/brand/menu/product?category=001001",
+  "dishes": [
+    {
+      "description": "달콤한 타로에 코코넛, 밀크폼, 타로 쥬얼리를 더해 부드럽게 즐기는 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "코코 타로 쥬얼리 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "달콤한 배에 향긋한 블루베리, 라벤더를 더해 향긋하게 즐기는 프룻티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "배 라벤더 프룻티",
+      "category": "음료"
+    },
+    {
+      "description": "달콤한 사과에 베이크 카라멜, 은은한 우롱티에 아삭한 사과다이스를 더한 애플파이 풍미의 스페셜 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "리얼 애플 카라멜 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "새콤한 오미자와 달콤한 사과, 향긋한 자스민티에 한국적인 매력을 더한 공차만의 스페셜 프룻티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "리얼 애플 오미자티",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 얼그레이와 쑥을 쫀득한 펄과 함께 즐기는 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "쑥 크림 밀크티+펄",
+      "category": "음료"
+    },
+    {
+      "description": "달콤한 밤에 우롱티를 더해 쫀득한 펄과 함께 즐기는 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "밤 크림 밀크티+펄",
+      "category": "음료"
+    },
+    {
+      "description": "달콤쌉싸름한 초콜릿의 묵직한 바디감과 우롱티를 입어 한층 프리미엄해진 초콜릿 시그니처 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "초콜릿 시그니처 밀크티+펄",
+      "category": "음료"
+    },
+    {
+      "description": "깨먹는 초코 크로칸트와 달콤상큼한 딸기 얼그레이 스무디 속 다크하게 씹히는 초콜릿이 매력적인 스무디입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "초코바른 딸기 스무디 with 쿠키",
+      "category": "음료"
+    },
+    {
+      "description": "화사하고 플로럴한 매력의 핑크구아바 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "핑크구아바 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 자스민티와 구아바, 상큼한 식감이 더해진 아이스티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "핑크구아바 봉봉 아이스티",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 얼그레이 밀크티와 고급스러운 포도향이 조화로운 포도 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "포도 말랑 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "포도 우롱 크러쉬에 포도 워터젤리, 상큼한 식감이 더해진 여름 한정 크러쉬입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "포도 말랑 크러쉬",
+      "category": "음료"
+    },
+    {
+      "description": "햅쌀이 들어간 공차만의 저당 미숫가루입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 햅쌀 미숫가루 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "알로에와 은은한 우롱티가 더해진 제로 피치 아이스티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "제로 피치 우롱 아이스티 + 알로에",
+      "category": "음료"
+    },
+    {
+      "description": "기존 블랙 밀크티 추천 당도 대비 당류가 81% 감소한 저당 블랙 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 블랙 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "기존 얼그레이 밀크티 추천 당도 대비 당류가 81% 감소한 저당 얼그레이 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 얼그레이 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "기존 우롱 밀크티 추천 당도 대비 당류가 81% 감소한 저당 우롱 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 우롱 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "기존 자스민 밀크티 추천 당도 대비 당류가 81% 감소한 저당 자스민 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 자스민 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "기존 블랙 밀크티 추천 당도 대비 당류가 65% 감소한 저당 블랙 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 블랙 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "기존 얼그레이 밀크티 추천 당도 대비 당류가 65% 감소한 저당 얼그레이 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 얼그레이 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "기존 우롱 밀크티 추천 당도 대비 당류가 65% 감소한 저당 우롱 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 우롱 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "기존 자스민 밀크티 추천 당도 대비 당류가 65% 감소한 저당 자스민 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 자스민 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "당을 제로로 즐길 수 있는 저당 블랙 오리지널 티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "저당 블랙 오리지널 티",
+      "category": "음료"
+    },
+    {
+      "description": "당을 제로로 즐길 수 있는 저당 얼그레이 오리지널 티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "저당 얼그레이 오리지널 티",
+      "category": "음료"
+    },
+    {
+      "description": "당을 제로로 즐길 수 있는 저당 우롱 오리지널 티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "저당 우롱 오리지널 티",
+      "category": "음료"
+    },
+    {
+      "description": "당을 제로로 즐길 수 있는 저당 자스민 오리지널 티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "저당 자스민 오리지널 티",
+      "category": "음료"
+    },
+    {
+      "description": "기존 초콜렛 밀크티 추천 당도 대비 당류가 90% 감소한 저당 초콜렛 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 초콜렛 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "기존 초콜렛 밀크티+치즈폼 추천 당도 대비 당류가 77% 감소한 저당 초콜렛 밀크티+치즈폼입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "저당 초콜렛 밀크티 + 치즈폼",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 자스민티와 달콤한 망고를 쫀득한 망고 쥬얼리와 함께 즐기는 밀크티",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "망고 쥬얼리 시그니처 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "달콤 쌉싸름한 말차를 쫀득한 말차 쥬얼리와 함께 즐기는 밀크티",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "말차 쥬얼리 시그니처 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "묵직하고 깊은 향의 우롱 밀크티에 달콤한 브라운슈가와 쫀득쫀득한 펄을 더한 공차 시그니처 메뉴",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "브라운슈가 시그니처 우롱 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "베르가못 향의 얼그레이 밀크티에 달콤한 브라운슈가와 쫀득쫀득한 펄을 더한 공차 시그니처 메뉴",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "브라운슈가 시그니처 얼그레이 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "직접 우린 향긋한 공차 얼그레이 티와 달콤한 납작복숭아를 더해 말랑쫀득 미니펄과 함께 시원하게 즐기는 공차 아이스티",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "납작복숭아 아이스티 얼그레이 + 미니펄",
+      "category": "음료"
+    },
+    {
+      "description": "직접 우린 향긋한 공차 블랙 티와 달콤한 납작복숭아를 더해 말랑쫀득 미니펄과 함께 시원하게 즐기는 공차 아이스티",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "납작복숭아 아이스티 블랙 + 미니펄",
+      "category": "음료"
+    },
+    {
+      "description": "직접 우린 향긋한 공차 얼그레이 티와 달콤한 납작복숭아를 더해 에스프레소 샷과 함께 달콤 쌉싸름 시원하게 즐기는 공차 아이스티",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "납작복숭아 아이스티 얼그레이 + 샷",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 얼그레이티와 달콤 쌉싸름한 말차에 쫀득한 펄이 더해져, 부드럽고 깊은 조화를 전하는 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "얼그레이 말차 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "고소한 타로 베이스에 부드러운 타로폼, 쫀득한 타로 쥬얼리를 더해 진한 타로의 매력을 담은 시그니처 타로 밀크티",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "타로 쥬얼리 시그니처 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "새콤 쫄깃한 딸기 쥬얼리와 공차만의 진한 티의 향을 한껏 끌어올린 딸기 쥬얼리 시그니처 밀크티입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "딸기 쥬얼리 시그니처 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "공차의 브라운슈가 메뉴와 시그니처 밀크티인 블랙밀크티의 조화! 블랙티의 깊은 풍미, 토핑 No.1인 쫀득쫀득한 펄, 달콤한 브라운슈가와 함께 즐기는 공차의 시그니처 밀크티",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "브라운슈가 시그니처 밀크티 +펄",
+      "category": "음료"
+    },
+    {
+      "description": "달콤 쌉싸름한 허니 자몽에 깊고 진한 블랙티를 더한 프룻티",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "허니 자몽 블랙티",
+      "category": "음료"
+    },
+    {
+      "description": "망고를 2배로 듬뿍 넣어 더욱 풍성해진 미니펄 망고 밀크",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "미니펄 망고 밀크 + 리얼 망고",
+      "category": "음료"
+    },
+    {
+      "description": "부드러운 밀크에 녹아든 진한 초콜렛을 느낄 수 있는 초콜렛 밀크티와 치즈폼",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "초콜렛 밀크티 + 치즈폼",
+      "category": "음료"
+    },
+    {
+      "description": "제주산 녹차를 사용하여 쌉싸름한 맛과 우유의 풍부한 맛이 돋보이는 그린 밀크티와 쫄깃쫄깃한 펄의 콤비네이션",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "제주 그린 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "브라질, 콜롬비아 외 대표적인 원두 5가지를 블렌딩하여 찾은 최적의 맛",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "아메리카노",
+      "category": "음료"
+    },
+    {
+      "description": "얼그레이티로 만든 밀크 스무디에 달콤한 딸기와 바삭한 쿠키를 더한 스무디와 쫄깃쫄깃한 펄",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "딸기 쿠키 스무디 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "깊고 고소한 우롱차에 코코넛 젤리와 달콤짭쪼름한 밀크폼을 올려 다양한 식감과 함께 부드럽게 즐기는 오리지널티",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "우롱티 + 코코넛 + 밀크폼",
+      "category": "음료"
+    },
+    {
+      "description": "얼그레이티로 만든 밀크티에 리얼 딸기 과즙이 함유된 새콤달콤한 딸기 쥬얼리를 더한 음료 (딸기 함량 UP!) (ONLY ICED)",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "딸기 쥬얼리 밀크티",
+      "category": "음료"
+    },
+    {
+      "description": "달콤한 망고 과육과 요구르트에 화이트펄의 꼬들꼬들함이 느껴지는 주스",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "망고 요구르트 + 화이트펄",
+      "category": "음료"
+    },
+    {
+      "description": "고소한 타로밀크티와 쫀득한 펄이 만난 공차의 베스트 셀러",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "타로 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "공차 대표 메뉴 블랙밀크티와 쫄깃쫄깃한 펄의 콤비네이션",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "블랙 밀크티 + 펄",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 꽃향이 느껴지는 싱그럽고 부드러운 자스민티",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자스민티",
+      "category": "음료"
+    },
+    {
+      "description": "묵직하고 깊은 향을 간직한 고소한 우롱차 (HOT / ICED)​",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "우롱티",
+      "category": "음료"
+    },
+    {
+      "description": "진한 향과 감미로운 맛을 느낄 수있는 대표적인 홍차, 블랙티 (HOT / ICED)​",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "블랙티",
+      "category": "음료"
+    },
+    {
+      "description": "향긋한 베르가못향이 가미된 얼그레이티 (HOT / ICED)​",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "얼그레이티",
+      "category": "음료"
+    },
+    {
+      "description": "바삭 고소한 크럼블 사이에 달콤한 애플 시나몬 필링이 샌드된 디저트",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg",
+        "peanut"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "애플 크럼블",
+      "category": "푸드"
+    },
+    {
+      "description": "치즈 풍미 가득한 고르곤졸라 피자 위에 달콤한 펄을 올린 디저트 피자",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "퍼르곤졸라 피자",
+      "category": "푸드"
+    },
+    {
+      "description": "부드러운 말차 카스테라 사이 진한 말차 크림을 샌드한 케이크",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "말차 카스테라 샌드",
+      "category": "푸드"
+    },
+    {
+      "description": "진한 초코케이크에 고소한 피스타치오 카다이프 필링을 더하고, 겉은 초콜릿 코팅으로 바삭하게 감싼 프리미엄 스틱 케이크입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "두바이 스틱케이크",
+      "category": "푸드"
+    },
+    {
+      "description": "진한 초콜릿 풍미와 꾸덕하고 밀도 높은 식감으로 즐기는 클래식한 퍼지 브라우니입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "리얼 퍼지 브라우니",
+      "category": "푸드"
+    },
+    {
+      "description": "대왕 타피오카 펄과 쫄깃한 분모자 펄이 듬뿎 들어간 매콤 꾸덕 크리미한 신라면툼바 맛 펄볶이입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "beef",
+        "pork",
+        "chicken",
+        "shrimp",
+        "squid",
+        "tomato",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "신라면툼바 펄볶이",
+      "category": "푸드"
+    },
+    {
+      "description": "깊고 진한 사리곰탕 국물에 대왕 타피오카 펄과 쫄깃한 분모자 펄을 더한, 새해 맞이 설날 한정 펄국입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg",
+        "beef",
+        "pork",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "사리곰탕 펄국",
+      "category": "푸드"
+    },
+    {
+      "description": "대왕 타피오카 펄과 쫄깃한 분모자 펄이 듬뿍 들어간 달달하고 매콤한 고추장 떡볶이맛 펄볶이",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "beef",
+        "chicken",
+        "shrimp",
+        "squid",
+        "tomato",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "오리지널 펄볶이",
+      "category": "푸드"
+    },
+    {
+      "description": "양송이 버섯의 진한 풍미로 즐기는 식사 대용 수프입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "chicken"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "머쉬룸 수프",
+      "category": "푸드"
+    },
+    {
+      "description": "고소한 풍미의 크레이프 안에 공차만의 밀크티 크림이 가득한 아이스 케이크입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "밀크티 롤 크레이프",
+      "category": "푸드"
+    },
+    {
+      "description": null,
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "솔티드 황치즈 쫀득바",
+      "category": "푸드"
+    },
+    {
+      "description": null,
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "블랙 스모어 쫀득바",
+      "category": "푸드"
+    },
+    {
+      "description": "아이스 밀크티 펄 케이크 위에 쫀득한 펄을 올려, 시원하게 즐기는 공차만의 시그니처 케이크 (100% 동물성 크림 사용으로 제품 퀄리티 UP)",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg",
+        "pork",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "아이스 밀크티 펄케이크",
+      "category": "푸드"
+    },
+    {
+      "description": "김민지 영양사가 설계한 영양 만점 식사 대용 브리또! 매콤 크리미한 투움바 라이스와 트리플 치즈, 육즙 가득한 페퍼 소시지가 들어간 브리또",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg",
+        "pork",
+        "beef",
+        "tomato",
+        "chicken",
+        "crab",
+        "shrimp"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "투움바 소시지 브리또",
+      "category": "푸드"
+    },
+    {
+      "description": "김민지 영양사가 설계한 영양 만점 식사 대용 브리또! 달콤한 스모크 불고기와 갈릭라이스, 트리플 치즈가 들어가 단짠의 매력으로 즐기는 브리또",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg",
+        "pork",
+        "beef",
+        "tomato",
+        "chicken",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "스모크 불고기 브리또",
+      "category": "푸드"
+    },
+    {
+      "description": "또띠아 안에 구운 핫치킨과 갈릭라이스, 모짜렐라 치즈가 듬뿍 들어가 매콤함이 매력적인 식사 대용 브리또",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg",
+        "beef",
+        "tomato",
+        "chicken",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "그릴드 핫치킨 브리또",
+      "category": "푸드"
+    },
+    {
+      "description": "겉바속촉의 식감과 고소한 버터향이 은은하게 퍼지는 담백하고 깔끔한 플레인 스콘",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "beef",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "시그니처 스콘",
+      "category": "푸드"
+    },
+    {
+      "description": "고소한 쿠키슈 속에 요구르트 크림이 듬뿍 들어가 시원하게 즐기는 아이스 디저트",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "요구르트 쿠키 슈스틱",
+      "category": "푸드"
+    },
+    {
+      "description": "고소한 쿠키슈 속에 초코 크림이 듬뿍 들어가 시원하게 즐기는 아이스 디저트",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "초코 쿠키 슈스틱",
+      "category": "푸드"
+    },
+    {
+      "description": "썬드라이 토마토 크림치즈에 향긋한 바질 페스토를 더한 베이글 샌드위치",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "tomato"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "바질 토마토 크림치즈 베이글 샌드위치",
+      "category": "푸드"
+    },
+    {
+      "description": "부드러운 어니언 크림치즈에 건조 크랜베리, 아몬드 슬라이스, 어니언 후레이크를 더한 베이글 샌드위치",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "어니언 크림 치즈 베이글 샌드위치",
+      "category": "푸드"
+    },
+    {
+      "description": null,
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "연유 크림 카스테라",
+      "category": "푸드"
+    },
+    {
+      "description": "순수한 맛과 깊은 풍미의 끼리 프리미엄 크림치즈를 이용한 부드럽고 깊은 맛을 즐길 수 있는 스틱 형태의 프리미엄 치즈케익",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "스틱 치즈케익",
+      "category": "푸드"
+    },
+    {
+      "description": "순수한 맛과 깊은 풍미의 끼리 프리미엄 크림치즈와 쿠키앤크림이 만나 고급스럽고 달콤하게 즐길 수 있는 스틱 형태의 프리미엄 치즈케익",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "쿠키 앤 크림 스틱 치즈케익",
+      "category": "푸드"
+    },
+    {
+      "description": "버터의 풍미가 살아있는 하트 모양의 바삭한 페이스트리 파이",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "하트 파이",
+      "category": "푸드"
+    },
+    {
+      "description": "자연스러운 단맛과 쫀득한 식감으로 즐기는 고구마 말랭이",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "고구마 말랭이",
+      "category": "푸드"
+    },
+    {
+      "description": "트러플의 고급스러운 풍미가 가득하고, 오븐에 구워낸 담백한 베이글을 얇게 썰어 한번 더 구워 만든 프리미엄 베이글칩입니다.",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "beef",
+        "chicken",
+        "shellfish"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "트러플 베이글칩",
+      "category": "푸드"
+    },
+    {
+      "description": "쫀득하고 진한 브라우니 쿠키",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "egg",
+        "beef"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "리얼 브라우니 쿠키",
+      "category": "푸드"
+    },
+    {
+      "description": "고소한 마카다미아가 듬뿍 들어간 쿠키",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "마카다미아 쿠키",
+      "category": "푸드"
+    },
+    {
+      "description": "달콤한 초코칩이 듬뿍 들어간 쿠키",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "soy",
+        "egg",
+        "sulfites"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "초코칩 청크 쿠키",
+      "category": "푸드"
+    },
+    {
+      "description": "우리 발아통밀로 만들어 담백하고 고소한 스낵",
+      "photo": null,
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [],
+      "allergen_source": "Gong Cha Korea menu (gong-cha.co.kr)",
+      "allergen_note": null,
+      "name": "발아통밀 두부 과자",
+      "category": "푸드"
+    }
+  ]
+}

@@ -33,9 +33,11 @@ function headline(check: DishCheck, gaps: string[]) {
 }
 
 /** Everything known about what is in a dish, and how far to trust it. */
-export function DishFacts({ dish, check }: {
+export function DishFacts({ dish, check, byMember = false }: {
   dish: Pick<MenuItem, "ingredients" | "contains" | "may_contain" | "allergen_source" | "allergen_note" | "allergen_gaps">;
   check: DishCheck | null;
+  /** True for a menu members typed in, which changes who "publishes" the data. */
+  byMember?: boolean;
 }) {
   const Icon = check && ICONS[check.level];
   return (
@@ -43,8 +45,10 @@ export function DishFacts({ dish, check }: {
       {check && Icon && (
         <div className={`rounded-xl p-3 ${TONES[check.level]}`}>
           <p className="flex items-start gap-2 font-semibold"><Icon aria-hidden size={18} weight="fill" className="mt-0.5 shrink-0" /> {headline(check, dish.allergen_gaps)}</p>
-          {check.level !== "avoid" && check.unconfirmed.length > 0 && (
-            <p className="mt-1.5 text-xs">Brands do not have to declare these, so they are not ruled out: {check.unconfirmed.join(", ")}.</p>
+          {(check.level === "clear" || check.level === "caution") && check.unconfirmed.length > 0 && (
+            <p className="mt-1.5 text-xs">
+              {byMember ? "These were not asked about" : "Brands do not have to declare these"}, so they are not ruled out: {check.unconfirmed.join(", ")}.
+            </p>
           )}
         </div>
       )}
@@ -56,9 +60,13 @@ export function DishFacts({ dish, check }: {
           </ul>
         </div>
       )}
-      {dish.ingredients.length === 0 && <p className="text-muted">The brand publishes no ingredient list for this item.</p>}
+      {dish.ingredients.length === 0 && (
+        <p className="text-muted">{byMember ? "No one has typed in what's inside yet." : "The brand publishes no ingredient list for this item."}</p>
+      )}
       {dish.contains === null ? (
-        <p className="text-muted">The brand publishes no allergen list for this item.</p>
+        <p className="text-muted">
+          {byMember ? "No allergen list: the member who added this did not check with the restaurant." : "The brand publishes no allergen list for this item."}
+        </p>
       ) : (
         <dl className="space-y-1.5">
           <div>

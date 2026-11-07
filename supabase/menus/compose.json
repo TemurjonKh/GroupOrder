@@ -1,0 +1,4684 @@
+{
+  "slug": "compose",
+  "name": "Compose Coffee",
+  "cuisine": "Coffee",
+  "logo": null,
+  "logo_bg": null,
+  "delivery_link": "https://composecoffee.com",
+  "source": "https://composecoffee.com/index.php?mid=compose&act=dispCafemenuGalleryList",
+  "dishes": [
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/749/303/3f7d063ebcc8f404ee232392962e70de.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "에스프레소",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/751/303/11f9e8bb0340c8505d8c3b655530d346.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-아메리카노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/753/303/6a917242a4ea3de7dca9b126c8c31262.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-아메리카노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/758/303/1b658f544bbf84ebaf674a7aeff0eb85.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-빅포즈 아메리카노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/760/303/6259e5462a9a15bae3a2709ffdd2b730.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-카페라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/762/303/b30fef7930874d1423505d89d153c3aa.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-카페라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/764/303/715813229ab1bb459bfd51fa26ee52c0.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "wheat",
+        "soy",
+        "buckwheat",
+        "egg",
+        "walnut",
+        "peanut",
+        "tomato",
+        "peach"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-카푸치노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/766/303/40868eb1535e59d5edfba7ad600969f4.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-바닐라라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/768/303/05097606453a6d12a08b1074d140b5a0.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-바닐라라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/770/303/809ea2c9212f1e30d3581ce640dd1fa2.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-헤이즐넛라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/772/303/89da023b1cc03de2634433ed579a030e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-헤이즐넛라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/774/303/b8e0824f0380a94c8dc3683a05269c9d.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "egg",
+        "tomato",
+        "peach",
+        "wheat",
+        "peanut",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-돌체라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/776/303/63414f6d2c02c97181f5f6c7ab494b31.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "egg",
+        "tomato",
+        "peach",
+        "wheat",
+        "peanut",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-돌체라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/778/303/8010b9515636dfb1e98189981eac84ce.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-흑당 카페라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/780/303/dbc6ad90d43f337ee14da89aabea694a.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "wheat",
+        "egg",
+        "peanut",
+        "beef",
+        "peach",
+        "soy",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-캬라멜마끼아또",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/782/303/7b04ddf2136fdd4a99f312b0c381da2f.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "wheat",
+        "egg",
+        "peanut",
+        "beef",
+        "peach",
+        "soy",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-캬라멜마끼아또",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/784/303/0912c6365f924a173df91dc4e8fdb252.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "wheat",
+        "egg",
+        "peanut",
+        "beef",
+        "peach",
+        "walnut",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "tomato",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-카페모카",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/786/303/0623e86669410e3bf934c879e16916b9.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "wheat",
+        "egg",
+        "peanut",
+        "beef",
+        "peach",
+        "walnut",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "tomato",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-카페모카",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/788/303/134c7f6b2b517a8a2ed9159f8ca34d96.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "wheat",
+        "buckwheat",
+        "crab",
+        "shrimp",
+        "pork",
+        "tomato",
+        "egg",
+        "mackerel",
+        "chicken",
+        "shellfish",
+        "squid",
+        "beef",
+        "peanut",
+        "peach",
+        "sulfites",
+        "pine_nut",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-달고나라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/794/303/f550b623783ae614ced39596888077e7.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-바닐라크림라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/796/303/2b5f5cf8f24355c6dc3c31236b8e0b5b.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "peanut"
+      ],
+      "may_contain": [
+        "egg",
+        "tomato",
+        "peach",
+        "wheat",
+        "walnut",
+        "sulfites",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-너티크림라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/798/303/75d3384247bf8c2d4722e259cd509a78.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites"
+      ],
+      "may_contain": [
+        "milk",
+        "peanut",
+        "soy",
+        "wheat",
+        "egg",
+        "walnut",
+        "squid"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-아샷추",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/800/303/90a5b19650bd978c47fd7bcce793c17c.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites"
+      ],
+      "may_contain": [
+        "milk",
+        "peanut",
+        "soy",
+        "wheat",
+        "egg",
+        "walnut",
+        "squid"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-빅포즈 아샷추",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/802/303/2a56d2308f5419d36df8e155af270a36.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-빅포즈 카페라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/804/303/5c9cc3295384175f368a76f05445bb47.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-빅포즈 바닐라라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/806/303/b30927d2ecc81c8add5c835928be7855.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-빅포즈 헤이즐넛라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/808/303/44d17b0760519e90582fdc177f450776.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "egg",
+        "tomato",
+        "peach",
+        "wheat",
+        "peanut",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-빅포즈 돌체라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/810/303/78c7a2869fd0f1ed3eef345d8290c22e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-꿀아메리카노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/812/303/c2532940ad9b4623ee0fe559a97a2fd7.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-꿀아메리카노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/814/303/8f23feab23bbc3ca84ea016fc463f18b.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "sulfites",
+        "pine_nut",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-컴포즈믹스커피",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/816/303/b4c7dbe36d86e13b086e255a8fa0a004.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-매샷추",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/822/303/65a69b4134c69c4bbaf1810260de7889.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "pork"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "쫀득카노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/824/303/40b0eb5917fc21d74034d1f18ba23c88.jpg",
+      "price": null,
+      "ingredients": [
+        "커피"
+      ],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "soy",
+        "peanut"
+      ],
+      "may_contain": [
+        "pork",
+        "tomato",
+        "buckwheat",
+        "peach",
+        "walnut",
+        "sulfites",
+        "pine_nut",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "커피엔 역시 커피빵",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/826/303/c27fc57e56d7ed6df271163b7df692a1.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-콜드브루",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/828/303/ea03b7a1f54a803a3033ac4cf91e7f7a.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-콜드브루",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/830/303/87c00e603ece008292067b4aec2740f8.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-콜드브루라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/832/303/9b37c813350d136056607b08b95ca1d3.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-콜드브루라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/834/303/c96b20f448053847d033d13997317754.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-디카페인콜드브루",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/836/303/e3df72c3112888636b4a2b5b7c4a5b26.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-디카페인콜드브루",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/838/303/24f71f63f5fae8706e6697457dcad4ea.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-디카페인콜드브루라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/840/303/4b84d4ffb5fcc92fd471a67a5219db79.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-디카페인콜드브루라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/842/303/6b1e1b01b93d77e1848e2e4741ee0100.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-디카페인 아메리카노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/844/303/47e865163691cd31130a58b9a521ba7b.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-디카페인 아메리카노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/846/303/7cd7ca9f088a31fcd2d8b335b9f3024c.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-빅포즈 디카페인 아메리카노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/848/303/cbe51c2233edca4f26aa62b4ca2022f3.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-디카페인 카페라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/850/303/5392d81efbceebe9ec138c6679ed7376.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-디카페인 카페라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/852/303/41ed252943deae260af105151500d343.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-빅포즈 디카페인라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/854/303/fb18c97b2706fae2ab1bf6aa3746a618.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-디카페인 바닐라라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/856/303/dcca503fcce398ce863b5ea323bd74d1.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-디카페인 바닐라라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/858/303/2c42a6ae2e9a72de9831aabf7d7dcef6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-디카페인 헤이즐넛라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/860/303/e993c2285fe3e74cc047defe732bb332.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-디카페인 헤이즐넛라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/862/303/c26c2c6aa92cfd03661b5cce4a2b0f32.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "egg",
+        "tomato",
+        "peach",
+        "wheat",
+        "peanut",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-디카페인 돌체라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/864/303/7c5c626c3ec7472dd1fdce72de357f11.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "egg",
+        "tomato",
+        "peach",
+        "wheat",
+        "peanut",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-디카페인 돌체라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/866/303/1350ea07717e13b9f1c28598327be6cd.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-올데이 오트",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/868/303/cc34f4f0fb50e336afc35d6a1dd1931b.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-올데이 오트",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/222/313/a4ced737f5e7d368c98e0670a0d93cdd.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "soy",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-흑당 버블 카페라떼",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/084/338/3682802d84546b20a837ed30ec657607.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "에어리 아메리카노",
+      "category": "커피ㆍ콜드브루"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/878/303/7c97e7cc45b56f8692e4ebe5364925d6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "wheat",
+        "peach",
+        "sulfites",
+        "pork",
+        "egg",
+        "tomato",
+        "walnut",
+        "beef",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "chicken",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-더블초코라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/880/303/3f9ccf73ceea290fca94da08967d165c.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "wheat",
+        "peach",
+        "sulfites",
+        "pork",
+        "egg",
+        "tomato",
+        "walnut",
+        "beef",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "chicken",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-더블초코라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/882/303/ee94a1f324ea4274f191f7c280e7a7e3.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "wheat",
+        "peanut",
+        "walnut",
+        "buckwheat"
+      ],
+      "may_contain": [
+        "egg",
+        "milk",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-곡물라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/884/303/59e683f04e708e686fb8127ea299ddb5.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "wheat",
+        "peanut",
+        "walnut",
+        "buckwheat"
+      ],
+      "may_contain": [
+        "egg",
+        "milk",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-곡물라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/886/303/1f111bc3d10fa7550e68bddc5cf4b60a.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "peanut",
+        "soy",
+        "wheat",
+        "peach",
+        "sulfites",
+        "walnut",
+        "tomato"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-그린티라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/888/303/a6bd5d2d8ae82a092c14aed113020a8a.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "peanut",
+        "soy",
+        "wheat",
+        "peach",
+        "sulfites",
+        "walnut",
+        "tomato"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-그린티라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/890/303/a3e831a832698f66558c9dbc662777f3.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-쿠키초코라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/892/303/37cd467533dc6602fe2eeea29da5195d.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-쿠키초코라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/894/303/a6a0741afdb2e8908af4f12f09e3f3bd.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "pine_nut",
+        "egg",
+        "buckwheat",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-밀크티",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/896/303/c8793c46e1a31b7527d4d0778f8d381f.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "peanut",
+        "soy",
+        "peach",
+        "tomato",
+        "walnut",
+        "sulfites",
+        "pine_nut",
+        "egg",
+        "buckwheat",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-밀크티",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/898/303/136c551f61c654f3f21231b944e0e3dd.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "soy",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-흑당 라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/990/312/38e296eed37a0537fe4cf96bc5a9aed8.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "soy",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-흑당 버블 라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/900/303/c02c075755330a268a9e37bb6e1151e1.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk"
+      ],
+      "may_contain": [
+        "crab",
+        "egg",
+        "mackerel",
+        "chicken",
+        "pork",
+        "peanut",
+        "wheat",
+        "peach",
+        "sulfites",
+        "shellfish",
+        "tomato",
+        "pine_nut",
+        "buckwheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-생초콜릿라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/902/303/5e8147cf79b77b365c82f99741201882.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "beef",
+        "milk"
+      ],
+      "may_contain": [
+        "crab",
+        "egg",
+        "mackerel",
+        "chicken",
+        "pork",
+        "peanut",
+        "wheat",
+        "peach",
+        "sulfites",
+        "shellfish",
+        "tomato",
+        "pine_nut",
+        "buckwheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-딸기생초콜릿라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/904/303/6914993a5c5dfab6ad405c407e47b2c1.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "walnut",
+        "peach",
+        "egg",
+        "wheat",
+        "tomato"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-딸기라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/906/303/de62e3af44003604e6cfb1ed595dc5e7.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "walnut",
+        "peach",
+        "egg",
+        "wheat",
+        "tomato"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-망고라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/908/303/8ab8b4267e89748054972a08ebe07ead.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "egg",
+        "wheat",
+        "buckwheat",
+        "tomato",
+        "sulfites"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-고구마라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/910/303/53114e3fea51bd77fd41f022c3db13c7.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "walnut",
+        "peach",
+        "egg",
+        "wheat",
+        "buckwheat",
+        "tomato",
+        "sulfites"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-고구마라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/912/303/2a66f7d721f22caa213b2fab8894236c.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "walnut",
+        "peach",
+        "egg",
+        "wheat",
+        "tomato"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-블루베리라떼",
+      "category": "베버리지"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/956/303/1d423b409e9b78d47adc8daec4cc4e54.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "pine_nut",
+        "peach",
+        "egg",
+        "wheat",
+        "beef",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "tomato",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "리얼초코자바칩프라페",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/958/303/052ce4ddd9a19143d1102f4eebe889ee.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "쿠키초코프라페",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/960/303/b6ea4f531589066163e5fff33c4015ed.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "pine_nut",
+        "peach",
+        "egg",
+        "wheat",
+        "beef",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "tomato",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "모카자바칩프라페",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/962/303/991e123ccc35aca05a4347c16c313a9b.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "egg",
+        "peanut",
+        "wheat",
+        "peach",
+        "sulfites",
+        "walnut",
+        "pine_nut",
+        "beef"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "그린티프라페",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/966/303/81ee92407f409623ff8a14b78fa3162e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "egg",
+        "tomato",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "딸기스무디",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/968/303/c5414f13d33172da20c1dc5492c1ef51.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "egg",
+        "tomato",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "망고스무디",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/970/303/1f9c988a1298585815972eccb24b379b.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy",
+        "egg",
+        "tomato",
+        "peach",
+        "wheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "블루베리스무디",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/972/303/2b372a21113ca208710eb81251d55f18.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "tomato",
+        "egg",
+        "peach",
+        "wheat",
+        "sulfites"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "플레인요거트스무디",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/974/303/7fb0460521d1ab226c08fa0a49efb76e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "tomato",
+        "egg",
+        "peach",
+        "wheat",
+        "sulfites"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "딸기요거트스무디",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/976/303/9b0e48f882fc0c2c56d5e85d6bb4c943.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "tomato",
+        "egg",
+        "peach",
+        "wheat",
+        "sulfites"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "망고요거트스무디",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/978/303/c09d57ea990871cfbacda413129c55b2.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "tomato",
+        "egg",
+        "peach",
+        "wheat",
+        "sulfites"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "블루베리요거트스무디",
+      "category": "프라페ㆍ스무디"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/942/303/2d881ed7cd4bf4f8b883488d6d4aab0a.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "pine_nut",
+        "peach",
+        "wheat",
+        "beef",
+        "tomato",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "플레인 밀크쉐이크",
+      "category": "밀크쉐이크"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/944/303/f4783bd71143a5a4d64be54ed2f3dc13.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "pine_nut",
+        "peach",
+        "beef",
+        "tomato",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "팥절미 밀크쉐이크",
+      "category": "밀크쉐이크"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/946/303/591f4aa883038198dcdbc6b24b3b3665.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "pine_nut",
+        "peach",
+        "beef",
+        "tomato",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "쿠키 밀크쉐이크",
+      "category": "밀크쉐이크"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/948/303/6115ad367966aac41b91714a2a5a2550.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "pine_nut",
+        "peach",
+        "wheat",
+        "beef",
+        "tomato",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "캔디소다 밀크쉐이크",
+      "category": "밀크쉐이크"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/950/303/67ab3adcb05be5b58f943f62ab02e7fd.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "pine_nut",
+        "peach",
+        "wheat",
+        "beef",
+        "tomato",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "커피 밀크쉐이크",
+      "category": "밀크쉐이크"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/952/303/ef39b5502009b29c4195e5d62de4d6c9.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy",
+        "wheat",
+        "peanut",
+        "walnut",
+        "buckwheat"
+      ],
+      "may_contain": [
+        "pine_nut",
+        "peach",
+        "beef",
+        "tomato",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "인절미 컵빙수",
+      "category": "밀크쉐이크"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/954/303/0034778ce5f9828349248acdea38d076.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "egg",
+        "beef"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut",
+        "pine_nut",
+        "peach",
+        "tomato",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "sulfites",
+        "chicken",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "딸기모찌밀크쉐이크",
+      "category": "밀크쉐이크"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/914/303/93b17b3692775404dc9bdc4515f47805.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "망고에이드",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/916/303/c2971d02379fe27a589d70e811fe0834.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "자몽에이드",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/918/303/f5b3989e310d81d2ea1a9059da856ab1.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "레몬에이드",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/920/303/51555ccf6f9089226b2f823b016c2599.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "유자에이드",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/922/303/1b13ba97320ab1613aa60b072f192f45.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "블루레몬에이드",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/926/303/73b103051fc01ebc62f3be7f93d0f3aa.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "sulfites"
+      ],
+      "may_contain": [
+        "milk",
+        "buckwheat",
+        "peanut",
+        "soy",
+        "wheat",
+        "peach",
+        "tomato",
+        "walnut",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "청포도에이드",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/928/303/ff0e5c85a0b13ebfd4bc9db6f3d85a6e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "오렌지당근주스",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/930/303/b68bc069152104653109162385a4f2b1.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "키위주스",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/936/303/ac03b5c89c63ee11fd99dd3a29a15c81.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "딸기주스",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/938/303/deb0c1d235892071e1e54b3c1671af28.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "tomato"
+      ],
+      "may_contain": [
+        "egg",
+        "milk",
+        "peach",
+        "buckwheat",
+        "peanut",
+        "soy",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "꿀 토마토 주스",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/940/303/67a1c40f4baa7e47866e66197190e0b1.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "peanut"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "wheat",
+        "peach",
+        "tomato",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "그레인 바나나 주스",
+      "category": "에이드ㆍ주스"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/980/303/f2e231004c6b08bd375a5e48e6e4b14c.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-페퍼민트",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/982/303/cd6ea1ba9a6774c8a921bfad021d8c90.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-페퍼민트",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/984/303/3bf8da6fb33558a154e6eb0bbf0d0c87.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-캐모마일",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/986/303/dfe1c35996e5a0901df19ae9caa98570.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-캐모마일",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/988/303/f8aee50b3900c55b0296f27ffccbb64d.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-히비스커스",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/990/303/1069651b6fcc3df0d0ca50a4ba4b1f4d.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-히비스커스",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/992/303/b54f6b19cac7be54e59f1be7f46ea30b.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-얼그레이",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/994/303/382132177ef899c14f25a8b3192b65a0.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-얼그레이",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/996/303/6fa704f092b3759dde751107fdcd1c1c.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-블랙퍼스트",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/998/303/00d275f08f5af64bcde0206d8c473035.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-블랙퍼스트",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/000/304/ea65299bdc50507d71217544531968b6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "egg",
+        "walnut",
+        "squid",
+        "buckwheat",
+        "tomato",
+        "chicken",
+        "beef",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "헨젤과 프레첼",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/002/304/178b8987db3a228a0937a18baf9bffd4.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites"
+      ],
+      "may_contain": [
+        "milk",
+        "peanut",
+        "soy",
+        "wheat",
+        "egg",
+        "walnut",
+        "squid"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-아이스티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/004/304/e8dc258be625920f25089cbfa401af39.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites"
+      ],
+      "may_contain": [
+        "milk",
+        "peanut",
+        "soy",
+        "wheat",
+        "egg",
+        "walnut",
+        "squid"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-아이스티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/006/304/429a81d51af97eb9c352c128c0ca6f5e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites"
+      ],
+      "may_contain": [
+        "milk",
+        "peanut",
+        "soy",
+        "wheat",
+        "egg",
+        "walnut",
+        "squid"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-빅포즈 아이스티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/008/304/f186a43d796100ae510f7c33280617cf.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-디카페인 아이스티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/010/304/4d61d7e508bf4106b310773cfe44335c.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-제로슈가 제로칼로리 아이스티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/012/304/be203ee06413f3bc59ea58762c2dc525.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-디카페인 제로슈가 제로칼로리 아이스티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/014/304/e9017a870c10cb7e9e19fcd7d46c74c2.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-빅포즈 디카페인 아이스티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/016/304/2cb2ca304e0e1ed0332eebe001e6d57f.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-빅포즈 제로슈가 제로칼로리 아이스티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/018/304/a9cf56a35e04e688ed98b57fb2ef922e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-빅포즈 디카페인 제로슈가 제로칼로리 아이스티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/020/304/f46037c18ea4d4dbdab7717d3f0acfea.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites"
+      ],
+      "may_contain": [
+        "milk",
+        "peanut",
+        "soy",
+        "wheat",
+        "egg",
+        "walnut",
+        "squid"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-아망추",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/022/304/e3cfef602cacd87426c911663dd1884f.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "peach",
+        "sulfites"
+      ],
+      "may_contain": [
+        "milk",
+        "peanut",
+        "soy",
+        "wheat",
+        "egg",
+        "walnut",
+        "squid"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-빅포즈 아망추",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/024/304/7ec81d501ec0470b77efd2d4a773b10f.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-자몽허니블랙티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/026/304/ac8fd6723f05daa8900234d2b373a2e3.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-자몽허니블랙티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/028/304/d44a43b9f4d2681525532cd5c0595759.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-허니유자티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/030/304/76551aea3b6b4f76c7f95cf43975d2f6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-허니유자티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/032/304/7743c73852ca45a6bf56f4987c0dcae5.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-허니자몽티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/034/304/b0622d5188e808d7c0576b58d00522de.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-허니자몽티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/036/304/060396112721046de599d1cb4860e90d.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-허니레몬티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/038/304/64b093097444ba937925782005db2f12.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-허니레몬티",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/040/304/e48c06f669d174fb088f09feb74885ef.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-매실차",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/042/304/36de6d68bc4936f532a9129e485e8259.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I- 매실차",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/044/304/4824548cd007c3df44a9b3b75c5165b2.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-쌍화차",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/048/304/7a04791ce60b7b48aca0c1550f6b9956.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-청귤생강차",
+      "category": "티"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/062/304/6df31eab453de9fbc03ff90b587e3f56.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg",
+        "soy",
+        "pork"
+      ],
+      "may_contain": [
+        "pine_nut",
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "티라미수(조각)",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/068/304/3a300c7e53a4b0a4976d3485e0b0cd10.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "egg",
+        "sulfites"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "pine_nut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "진한뉴욕치즈케익(조각)",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/076/304/d6f4c10ce190e9b0bbbc53ed41502d2b.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "soy",
+        "pine_nut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "바닐라 마카롱",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/078/304/7cca02662f4e26d12e9d178df62e114d.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "soy",
+        "pine_nut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "산딸기 마카롱",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/080/304/4f42e419bbea1eb6931639a281358222.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "pine_nut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "초코 마카롱",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/082/304/171ed913c7de3a8630ee10800c9f3e2b.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat",
+        "walnut"
+      ],
+      "may_contain": [
+        "peanut",
+        "pork",
+        "tomato",
+        "sulfites",
+        "chicken",
+        "beef",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "넛츠&브라우니 큐브 쿠키",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/084/304/44a6b688943029fa991ecefd1090efaf.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "peanut",
+        "pork",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "초코칩 블랙&화이트 쿠키",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/086/304/81e6c7d29b7c61e580aa5903ce72a399.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "egg",
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "peanut",
+        "pork",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "화이트 초코칩&마카다미아 쿠키",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/088/304/9a5e4994298fe3a2b6c754fa337bef62.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "soy",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "메이플 크룽지",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/090/304/15a4792232bb5d5ee2cf91aaad3f7f97.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "soy",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "시나몬 크룽지",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/092/304/96cd788a6318b697122e443c2237997e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat",
+        "pork"
+      ],
+      "may_contain": [],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "쫀득 쿠키",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/094/304/fe71b6871e276f3715d6f58641210f5a.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "sulfites",
+        "peach",
+        "tomato",
+        "walnut",
+        "peanut",
+        "chicken",
+        "beef",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "미니 프레첼",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/098/304/bd1668e204f45b1fd89b8c9a2bcfc909.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "소금빵",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/100/304/eeb6b339cdbf1d35c54e0b3dfad93916.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "감자 빵",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/102/304/b17a42626cef35c4aea1b6427fd5df1c.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "egg",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "고구마 빵",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/104/304/0b2972fc68fdbb3827df4432d304d3d2.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "egg",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "팥 미니 붕어빵",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/106/304/d8721c1b37663ee1a7ccfc0c6b4e5149.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "egg",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [
+        "peanut",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "슈크림 미니 붕어빵",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/110/304/0cf404715cc6e740863f986ba89b931e.jpg",
+      "price": null,
+      "ingredients": [
+        "커피"
+      ],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "soy",
+        "peanut"
+      ],
+      "may_contain": [
+        "pork",
+        "tomato",
+        "buckwheat",
+        "peach",
+        "walnut",
+        "sulfites",
+        "pine_nut",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "커피콩 빵",
+      "category": "푸드ㆍ디저트"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/162/304/429a9cc2231e386157885762e982b6c1.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "아이스크림 컵",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/164/304/87f9a097295a66eeedff5e82641907ed.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "아포가토",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/166/304/3712235503f51e006c4b8ff9167c6dfa.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut",
+        "pine_nut",
+        "buckwheat",
+        "beef",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "squid",
+        "sulfites",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "아이스크림 자바칩",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/168/304/60b204bb463289e553303098d4a346a6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "peanut",
+        "tomato",
+        "peach",
+        "walnut",
+        "pine_nut",
+        "buckwheat",
+        "beef",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "squid",
+        "sulfites",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "아이스크림 쿠키앤초코",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/170/304/51f4cb6d2ca85a95fd5e816bc458fbba.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut",
+        "pine_nut",
+        "buckwheat",
+        "beef",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "squid",
+        "sulfites",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "아이스크림 모카",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/172/304/dfefa9d45820d1d69af815b68302d580.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut",
+        "pine_nut",
+        "buckwheat",
+        "beef",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "squid",
+        "sulfites",
+        "shellfish"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "아이스크림 초코딸기",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/174/304/5c6e9815a11bbfb9026e7fe962a57613.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "아이스크림 카페라떼",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/176/304/6b4b1e768d59e7d97f7ad4e56f022716.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut",
+        "pine_nut",
+        "beef"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "솔티드 카라멜 아이스크림 라떼",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/178/304/56122b7b6b98863f494aeccecce57e2d.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut",
+        "pork",
+        "sulfites",
+        "beef",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "딸기 소프트",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/180/304/55b66bd833e80ca8807c97c332cd3214.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut",
+        "pork",
+        "sulfites",
+        "beef",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "망고 소프트",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/182/304/4e9d5def31a804e4c68fad4481e58179.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut",
+        "pork",
+        "sulfites",
+        "beef",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "블루베리 소프트",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/424/320/ff2bf444611df53bf5b7c8b343e00e78.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "wheat",
+        "soy"
+      ],
+      "may_contain": [
+        "peanut",
+        "tomato",
+        "peach",
+        "walnut",
+        "pork",
+        "sulfites",
+        "beef",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "쿠키카라멜 소프트",
+      "category": "아이스크림"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/037/348/03d229fc4c4404a6d6ab32d18f93330e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "I-청귤캐모마일티",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/039/348/be486571a454e61b52d251466a141630.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "H-청귤캐모마일티",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/844/343/15b3e049f37bfa7cbdbebf56e96efa9c.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [
+        "egg",
+        "peach",
+        "wheat",
+        "tomato",
+        "buckwheat",
+        "peanut",
+        "walnut",
+        "beef",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-딥라떼",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/846/343/ee2ee310402060d3f61429639e5758b9.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [
+        "egg",
+        "peach",
+        "wheat",
+        "tomato",
+        "buckwheat",
+        "peanut",
+        "walnut",
+        "beef",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-딥라떼",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/847/343/b1dd4478c2ad1c6e10cd08590e38c699.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "egg",
+        "peach",
+        "buckwheat",
+        "peanut",
+        "crab",
+        "shrimp",
+        "pork",
+        "tomato",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-치즈 딥라떼",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/148/344/825b14d09bfaf382c031c65a0d073e29.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "egg",
+        "peach",
+        "buckwheat",
+        "peanut",
+        "crab",
+        "shrimp",
+        "pork",
+        "tomato",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-치즈 딥라떼",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/150/344/03befed4c129906d052fb999e27ce07d.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [
+        "peach",
+        "wheat",
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-슈 클라우드 라떼",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/154/344/e27c5a189184067b4b5fd72c6efa5d61.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "egg"
+      ],
+      "may_contain": [
+        "peach",
+        "wheat",
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-슈 클라우드 라떼",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/156/344/8cee2bb8ff7835f47dd0c6c06ac4928f.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [
+        "egg",
+        "peach",
+        "wheat",
+        "tomato",
+        "buckwheat",
+        "peanut",
+        "walnut",
+        "beef",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-커피 클라우드 라떼",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/160/344/7c73273c918284f49a0f45507d7f72af.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "sulfites"
+      ],
+      "may_contain": [
+        "egg",
+        "peach",
+        "wheat",
+        "tomato",
+        "buckwheat",
+        "peanut",
+        "walnut",
+        "beef",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "chicken",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-커피 클라우드 라떼",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/164/344/fcfc469ce1ba6e7450ab3e7dae4d2e3e.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "peanut"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "walnut",
+        "tomato",
+        "peach",
+        "pine_nut",
+        "sulfites"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "PB&J 와플",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/166/344/03a88f192e1896e5a44978c166bc7d1a.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk",
+        "egg"
+      ],
+      "may_contain": [
+        "peanut",
+        "buckwheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "슈 클라우드 와플",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/162/344/940240c5f6ddc7cc1c0e8aa0c45d9496.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "peanut",
+        "buckwheat",
+        "walnut",
+        "tomato",
+        "peach",
+        "pine_nut",
+        "sulfites"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "딸기잼크림 와플",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/052/304/7cf4a3d21236afdbd380fb9cf8668725.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "peanut",
+        "buckwheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "솔티크림 와플",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/050/304/28b445281a55e6d16f6e7f541cfec732.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "peanut",
+        "buckwheat"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "사과잼크림 와플",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/054/304/582b78856857254f96d6299aadc239be.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "peanut",
+        "buckwheat",
+        "peach",
+        "walnut",
+        "pork",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "쿠키앤크림 와플",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/873/337/678c4173a8a993c70d360eba77e21fea.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "beef",
+        "egg",
+        "wheat"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "walnut",
+        "chicken",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "밤 티라미수",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/211/334/cb5bf9920a3b8b7e65c032d82b01db6b.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "sulfites",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "요거폼 포도자스민 티브리즈",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/207/334/f823209b0e12378e053ec6301194ded6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "sulfites",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-딸기 자스민 밀크 티브리즈",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/209/334/837977c6d9abdaa01ba5b99f6f2c6c9a.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "sulfites",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "wheat",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "walnut",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-딸기 자스민 밀크 티브리즈",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/203/334/4e342242eab4a08024b6a090cd9ee86d.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "H-비스코프 라떼",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/205/334/578f6bd38c0c174236ba8b61d1d09ba9.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "soy",
+        "milk",
+        "wheat"
+      ],
+      "may_contain": [],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "I-비스코프 라떼",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/195/334/4e8fe63253aebcfb09e3bf9f348766a4.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "soy",
+        "beef",
+        "shellfish"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "sulfites",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "walnut",
+        "chicken",
+        "squid",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "명란 소프트 바게트",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/197/334/56d6bdbf196f344843f060ef62d7c075.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "soy"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "sulfites",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "walnut",
+        "chicken",
+        "squid",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "초코 바게트",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/199/334/2a096cb41689a42ba5947c0a063c9fc4.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "sulfites",
+        "soy"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "walnut",
+        "chicken",
+        "squid",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "생크림 시나몬 크루아상",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/201/334/3413121e2e7cd9bd855523a25d7e1026.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "egg",
+        "milk",
+        "sulfites"
+      ],
+      "may_contain": [
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "walnut",
+        "chicken",
+        "squid",
+        "pine_nut",
+        "soy"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "아이스크림 크루아상",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/992/312/4c51c7cf28a46a0e1ffc84bd5342c58a.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "milk",
+        "tomato",
+        "soy",
+        "beef",
+        "pork",
+        "chicken"
+      ],
+      "may_contain": [
+        "egg",
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "peach",
+        "sulfites",
+        "walnut",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "스모크 바비큐 치아바타",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/776/313/f267790301ebf81094920144e82dc3cb.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "egg",
+        "milk"
+      ],
+      "may_contain": [
+        "walnut",
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "pork",
+        "peach",
+        "tomato",
+        "sulfites",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "계란듬뿍 프레쉬롤",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/778/313/1e49abb667b175482a006cf74cce8617.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "egg",
+        "crab",
+        "tomato"
+      ],
+      "may_contain": [
+        "milk",
+        "walnut",
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "shrimp",
+        "pork",
+        "peach",
+        "sulfites",
+        "chicken",
+        "beef",
+        "squid",
+        "shellfish",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "탱글맛살 프레쉬롤",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/780/313/57c797dd46b501b81977734100b8e2c6.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "egg",
+        "milk",
+        "beef",
+        "pork",
+        "shellfish"
+      ],
+      "may_contain": [
+        "walnut",
+        "buckwheat",
+        "peanut",
+        "mackerel",
+        "crab",
+        "shrimp",
+        "peach",
+        "tomato",
+        "sulfites",
+        "chicken",
+        "squid",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "꾸덕감자 프레쉬롤",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/782/313/007e53bd81f82c7d31b501ad71b28ae9.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "wheat",
+        "soy",
+        "milk"
+      ],
+      "may_contain": [
+        "egg",
+        "walnut",
+        "buckwheat",
+        "peach",
+        "sulfites"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "딸기생크림롤",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/784/313/23e59d1a9dc2a8b7823c1d74c06bf1a0.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "egg",
+        "peach",
+        "tree_nuts",
+        "walnut",
+        "sesame",
+        "peanut",
+        "pine_nut",
+        "beef",
+        "pork",
+        "tomato",
+        "sulfites"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "초코베리 요거 젤라또",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/786/313/68f25f0bb4e5812e6534f94c1ef42425.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": null,
+      "may_contain": null,
+      "allergen_source": null,
+      "allergen_note": null,
+      "name": "논산에서 온 수박주스",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/810/313/f35f9f932a3e3b8bdf64f02eb7b56f0f.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "pork"
+      ],
+      "may_contain": [
+        "soy",
+        "peanut",
+        "wheat",
+        "tomato",
+        "peach",
+        "walnut",
+        "sulfites",
+        "beef",
+        "pine_nut"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "망고치케 소프트",
+      "category": "추천메뉴"
+    },
+    {
+      "description": null,
+      "photo": "https://composecoffee.com/files/attach/images/272857/812/313/cf6939a0e41f5607861110fbf4a63294.jpg",
+      "price": null,
+      "ingredients": [],
+      "contains": [
+        "milk",
+        "egg",
+        "pork",
+        "soy",
+        "wheat"
+      ],
+      "may_contain": [
+        "peanut",
+        "tomato",
+        "peach",
+        "walnut",
+        "tree_nuts",
+        "sesame"
+      ],
+      "allergen_source": "Compose Coffee menu (composecoffee.com)",
+      "allergen_note": null,
+      "name": "초코치케 소프트",
+      "category": "추천메뉴"
+    }
+  ]
+}

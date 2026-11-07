@@ -390,18 +390,6 @@
       "allergen_note": null,
       "name": "반반치박",
       "category": "베스트메뉴"
-    },
-    {
-      "description": "시원한 생맥주와 함께 즐기는 여름 치맥 세트",
-      "photo": "https://storage.googleapis.com/popeyes-homepage.firebasestorage.app/legacy/file/menu/3698713134_GTRZUqug_9ec3b0a97b93606de33bdda3da73570e40e8e39e.png",
-      "price": null,
-      "ingredients": [],
-      "contains": null,
-      "may_contain": null,
-      "allergen_source": null,
-      "allergen_note": null,
-      "name": "1인 치맥세트",
-      "category": "베스트메뉴"
     }
   ]
 }

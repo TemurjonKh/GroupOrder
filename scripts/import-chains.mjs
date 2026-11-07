@@ -4,7 +4,8 @@
 // Each site's robots.txt was read first, and this script stays inside it. Left out on purpose:
 //   BHC, Yupdduk: robots.txt shuts out bots like this one.
 //   Ediya: the full list loads through /inc/, which robots.txt disallows; a fragment would look complete.
-// Isaac Toast has no photos here because robots.txt disallows the folder that holds them.
+// Isaac Toast and Gong Cha have no photos here because robots.txt disallows the folders that hold them.
+// Mom's Touch publishes allergens only as a chart image, so its dishes stay "No data".
 //
 // Same rules as import-menus.mjs: blank means unknown, never "free from"; prices are null when
 // a brand does not publish them; an unrecognised allergen word stops that brand's import.
@@ -45,9 +46,18 @@ function merged(dishes) {
   return dishes.filter((d) => d.name && !seen.has(compact(d.name)) && seen.add(compact(d.name)));
 }
 
-const brand = (slug, name, cuisine, site, source, dishes) => ({
-  slug, name, cuisine, logo: null, logo_bg: null, delivery_link: site, source, dishes: merged(dishes),
-});
+// The app has no age check, so alcohol stays out (rice wine labelled "12도", sets with draft beer).
+// Drinks a brand labels non-alcoholic stay in. Merchandise such as tumblers is not food.
+const ADULT = /\d+(\.\d+)?\s*도\s*\(|생맥주|치맥/;
+const NOT_FOOD = /텀블러|머그컵/;
+const isFood = (d) => !(ADULT.test(`${d.name} ${d.description ?? ""}`) && !/비알코올|non-alcohol/i.test(d.description ?? "")) && !NOT_FOOD.test(d.name);
+
+function brand(slug, name, cuisine, site, source, dishes) {
+  const kept = merged(dishes).filter(isFood);
+  const left = merged(dishes).length - kept.length;
+  if (left) console.log(`${slug}: left out ${left} alcoholic or non-food items`);
+  return { slug, name, cuisine, logo: null, logo_bg: null, delivery_link: site, source, dishes: kept };
+}
 
 async function starbucks() {
   const site = "https://www.starbucks.co.kr";
@@ -312,7 +322,79 @@ async function pizzaSchool() {
   return brand("pizzaschool", "Pizza School", "Pizza", site, `${site}/menu/`, dishes);
 }
 
-const ALL = { starbucks, mega, paik, baskin, sulbing, kyochon, venti, mammoth, puradak, popeyes, isaac, pizzaschool: pizzaSchool };
+async function gongcha() {
+  const site = "https://www.gong-cha.co.kr";
+  const dishes = [];
+  // 001xxx are drinks and 002xxx food; 003xxx is merchandise. Photos sit under /upload/, which robots.txt disallows.
+  for (const [code, category] of [["001001", "음료"], ["001002", "음료"], ["001003", "음료"], ["002001", "푸드"], ["002002", "푸드"], ["002003", "푸드"], ["002004", "푸드"]]) {
+    const html = await page(`${site}/brand/menu/product?category=${code}`);
+    const ids = [...new Set([...html.matchAll(new RegExp(`product_detail\\?category=${code}&no=(\\d+)`, "g"))].map((m) => m[1]))];
+    for (const id of ids) {
+      const view = await page(`${site}/brand/menu/product_detail?category=${code}&no=${id}`);
+      // A banner above the dish uses the same classes, so read only the dish's own block.
+      const own = view.slice(view.indexOf('<div class="infor">'));
+      const name = textOf(first(/<p class="t1[^"]*">([\s\S]*?)<\/p>/, own));
+      dishes.push(dish({
+        name, category,
+        description: textOf(first(/<p class="t2[^"]*">([\s\S]*?)<\/p>/, own)),
+        ...facts(first(/알레르기 유발물질\s*:\s*([^<]*)/, own), name, "Gong Cha Korea menu (gong-cha.co.kr)"),
+      }));
+    }
+  }
+  return brand("gongcha", "Gong Cha", "Bubble tea", site, `${site}/brand/menu/product?category=001001`, dishes);
+}
+
+async function compose() {
+  const site = "https://composecoffee.com";
+  const dishes = [];
+  const categories = [["303364", "커피ㆍ콜드브루"], ["303365", "베버리지"], ["303366", "프라페ㆍ스무디"], ["303367", "밀크쉐이크"],
+    ["303368", "에이드ㆍ주스"], ["303369", "티"], ["308857", "푸드ㆍ디저트"], ["303371", "아이스크림"], ["301298", "추천메뉴"]];
+  for (const [code, category] of categories) {
+    let last = 1;
+    for (let number = 1; number <= last; number++) {
+      const html = await page(`${site}/index.php?mid=compose&act=dispCafemenuGalleryList&category_srl=${code}&page=${number}`);
+      last = Math.max(last, ...[...html.matchAll(/[?&]amp;page=(\d+)|[?&]page=(\d+)/g)].map((m) => Number(m[1] ?? m[2])).filter((n) => n < 30));
+      for (const [, item, src, rawName] of html.matchAll(/item_srl=(\d+)" class="cafemenu-menu-item">[\s\S]*?<img src="([^"]+)" alt="([^"]*)"/g)) {
+        const view = await page(`${site}/index.php?mid=compose&act=dispCafemenuGalleryItem&category_srl=${code}&item_srl=${item}`);
+        const body = textOf(view.slice(view.indexOf("알레르기 정보"))) ?? "";
+        const declared = first(/알레르기 성분\s*:\s*(.*?)(?=제조시설|$)/, body);
+        const shared = first(/제조시설 내 알레르기 유발 가능식품\s*:\s*([^가-힣]*[가-힣,\s()]*?)(?=\s{2}|[A-Z©]|창업|$)/, body);
+        const name = textOf(rawName);
+        // Compose lists coffee beside the allergens. It is not one, so it becomes an ingredient,
+        // where a person's own note ("coffee") can still match it.
+        const notAllergen = (list) => list?.replace(/(^|,)\s*커피\s*(?=,|$)/g, "$1").replace(/,\s*,/g, ",").replace(/^\s*,|,\s*$/g, "");
+        const hasCoffee = /(^|,)\s*커피\s*(,|$)/.test(`${declared ?? ""},${shared ?? ""}`);
+        const known = facts(notAllergen(declared), name, "Compose Coffee menu (composecoffee.com)");
+        dishes.push(dish({
+          name, category, photo: absolute(src, site),
+          ingredients: hasCoffee ? ["커피"] : [],
+          ...known,
+          ...(known.contains && shared ? { may_contain: parseAllergens(notAllergen(shared), name).filter((key) => !known.contains.includes(key)) } : {}),
+        }));
+      }
+    }
+  }
+  return brand("compose", "Compose Coffee", "Coffee", site, `${site}/index.php?mid=compose&act=dispCafemenuGalleryList`, dishes);
+}
+
+async function momstouch() {
+  const site = "https://momstouch.co.kr";
+  const dishes = [];
+  // Allergens are published only as a chart image, so every dish stays "No data" here.
+  for (const [code, category] of [["CG0005", "버거"], ["CG0004", "치킨"], ["CG0003", "맘스세트"], ["CG0046", "피자"], ["CG0002", "사이드"], ["CG0001", "음료"], ["CG0045", "또잇 치킨"]]) {
+    let last = 1;
+    for (let number = 1; number <= last; number++) {
+    const html = await page(`${site}/menu/new.php?s_sect1=${code}&pageNo=${number}`);
+    last = Math.max(last, ...[...html.matchAll(/pageNo=(\d+)/g)].map((m) => Number(m[1])).filter((n) => n < 30));
+    for (const [, src, rawName, about] of html.matchAll(/go_view\('\d+'\);">\s*<figure><span style="background-image: url\('([^']+)'\)"><\/span><\/figure>[\s\S]*?<h3>(?:<span>[^<]*<\/span>)?([^<]+)<\/h3>\s*(?:<p>([\s\S]*?)<\/p>)?/g)) {
+      dishes.push(dish({ name: textOf(rawName), category, description: textOf(about), photo: absolute(src, site) }));
+    }
+    }
+  }
+  return brand("momstouch", "Mom's Touch", "Burger", site, `${site}/menu/new.php?s_sect1=CG0005`, dishes);
+}
+
+const ALL = { gongcha, compose, momstouch, starbucks, mega, paik, baskin, sulbing, kyochon, venti, mammoth, puradak, popeyes, isaac, pizzaschool: pizzaSchool };
 
 const chosen = process.argv.slice(2);
 for (const [slug, importer] of Object.entries(ALL)) {

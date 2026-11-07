@@ -10,6 +10,9 @@ export type Restaurant = {
   lng: number | null;
   phone: string | null;
   delivery_link: string | null;
+  /** Set for a menu typed in by members for one place; null for a brand's own menu. */
+  place_id: string | null;
+  added_by: string | null;
 };
 
 export type MenuOption = { name: string; choices: string[] };
@@ -33,6 +36,9 @@ export type MenuItem = {
   allergen_note: string | null;
   /** Parts of a set with no published data, so the set can never read as clear. */
   allergen_gaps: string[];
+  /** The member who last changed a dish on a member menu. */
+  added_by: string | null;
+  updated_at: string | null;
 };
 
 /** What a person avoids. Only they can read it. */

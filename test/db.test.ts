@@ -338,6 +338,71 @@ describe("food needs", () => {
   });
 });
 
+describe("member menus", () => {
+  const save = (user: string | null, place: string, fields: Partial<{ dish: string | null; name: string; price: number | null; checked: boolean; contains: string[]; may: string[]; ingredients: string[] }> = {}) =>
+    as<{ id: string }>(user, "select save_member_dish($1, $2, $3, 'Main', $4, null, $5, $6, $7, $8) as id",
+      [place, fields.dish ?? null, fields.name ?? "순대국", fields.price === undefined ? 9000 : fields.price, fields.ingredients ?? ["순대", "돼지 머리고기"],
+        fields.checked ?? false, fields.contains ?? [], fields.may ?? []]);
+  const placeWithout = async () =>
+    (await db.query<{ id: string }>("select id from places where restaurant_id is null order by distance_m limit 1")).rows[0].id;
+
+  it("lets any member type in a menu for a place without one, and links it to the map", async () => {
+    const place = await placeWithout();
+    const [{ id }] = await save(MINJI, place);
+    const rows = await as<{ name: string; restaurant: string; place_id: string; contains: string[] | null; source: string | null }>(DANA, `
+      select m.name, r.name as restaurant, r.place_id, m.contains, m.allergen_source as source
+      from menu_items m join restaurants r on r.id = m.restaurant_id where m.id = $1`, [id]);
+    expect(rows[0]).toMatchObject({ name: "순대국", place_id: place, contains: null, source: null });
+    const linked = await as<{ restaurant_id: string }>(DANA, "select restaurant_id from places where id = $1", [place]);
+    expect(linked[0].restaurant_id).not.toBeNull();
+    // A second dish goes on the same menu.
+    await save(DANA, place, { name: "순대", price: null });
+    const count = await as<{ n: number }>(DANA, "select count(*)::int as n from menu_items where restaurant_id = $1", [linked[0].restaurant_id]);
+    expect(count[0].n).toBe(2);
+  });
+
+  it("keeps allergens unknown unless the member checked with the restaurant", async () => {
+    const place = await placeWithout();
+    const [unchecked] = await save(MINJI, place, { contains: ["pork"] });
+    const [checked] = await save(MINJI, place, { name: "공기밥", checked: true, contains: [], may: ["soy"] });
+    const rows = await as<{ id: string; contains: string[] | null; may_contain: string[] | null; allergen_source: string | null }>(MINJI,
+      "select id, contains, may_contain, allergen_source from menu_items where id = any($1)", [[unchecked.id, checked.id]]);
+    const byId = new Map(rows.map((r) => [r.id, r]));
+    expect(byId.get(unchecked.id)).toMatchObject({ contains: null, may_contain: null, allergen_source: null });
+    expect(byId.get(checked.id)).toMatchObject({ contains: [], may_contain: ["soy"] });
+    expect(byId.get(checked.id)?.allergen_source).toMatch(/member/);
+  });
+
+  it("checks what goes in", async () => {
+    const place = await placeWithout();
+    await expect(save(null, place)).rejects.toThrow(/permission denied/);
+    await expect(save(MINJI, place, { name: " " })).rejects.toThrow(/bad_dish_name/);
+    await expect(save(MINJI, place, { price: -1 })).rejects.toThrow(/bad_price/);
+    await expect(save(MINJI, place, { checked: true, contains: ["<b>"] })).rejects.toThrow(/unknown_allergen/);
+    await expect(save(MINJI, "00000000-0000-0000-0000-00000000dead")).rejects.toThrow(/place_not_found/);
+    await expect(as(MINJI, "select start_place_menu($1)", [place])).rejects.toThrow(/permission denied/);
+    await expect(as(MINJI, "insert into menu_items (restaurant_id, name) select id, 'x' from restaurants limit 1")).rejects.toThrow();
+  });
+
+  it("never touches a brand's menu", async () => {
+    const branch = (await db.query<{ id: string }>("select id from places where restaurant_id is not null limit 1")).rows[0].id;
+    await expect(save(MINJI, branch)).rejects.toThrow(/menu_locked/);
+    await expect(as(MINJI, "select delete_member_dish($1)", [dish.id])).rejects.toThrow(/menu_locked/);
+  });
+
+  it("edits and deletes, and an emptied menu goes away", async () => {
+    const place = await placeWithout();
+    const [{ id }] = await save(MINJI, place);
+    await save(DANA, place, { dish: id, name: "얼큰순대국", price: 10000 });
+    const edited = await as<{ name: string; price: number; added_by: string }>(MINJI, "select name, price, added_by from menu_items where id = $1", [id]);
+    expect(edited[0]).toEqual({ name: "얼큰순대국", price: 10000, added_by: DANA });
+    await as(MINJI, "select delete_member_dish($1)", [id]);
+    const left = await as<{ restaurant_id: string | null }>(MINJI, "select restaurant_id from places where id = $1", [place]);
+    expect(left[0].restaurant_id).toBeNull();
+    expect(await as(MINJI, "select 1 from restaurants where place_id = $1", [place])).toEqual([]);
+  });
+});
+
 describe("places", () => {
   it("are everywhere to eat within 2 km of campus, for logged-in people only", async () => {
     const rows = await as<{ count: number; furthest: number }>(MINJI, "select count(*)::int as count, max(distance_m) as furthest from places");
@@ -369,7 +434,7 @@ describe("seed", () => {
     expect(names.rows.map((r) => r.name)).toEqual(expect.arrayContaining(["BBQ", "Burger King", "Subway"]));
     const { rows } = await db.query<{ dishes: number; no_photo: number; no_menu: number }>(`select
       (select count(*)::int from menu_items) as dishes,
-      (select count(*)::int from menu_items m join restaurants r on r.id = m.restaurant_id where photo is null and r.name <> 'Isaac Toast') as no_photo,
+      (select count(*)::int from menu_items m join restaurants r on r.id = m.restaurant_id where photo is null and r.name not in ('Isaac Toast', 'Gong Cha') and r.place_id is null) as no_photo,
       (select count(*)::int from restaurants r where not exists (select 1 from menu_items m where m.restaurant_id = r.id)) as no_menu`);
     expect(rows[0].dishes).toBeGreaterThan(300);
     expect(rows[0]).toMatchObject({ no_photo: 0, no_menu: 0 });

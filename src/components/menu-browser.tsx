@@ -36,7 +36,10 @@ export async function MenuBrowser({ restaurant, basePath, selectedId, code, roun
         <BrandLogo restaurant={restaurant} size={64} />
         <div className="min-w-0">
           <h2 className="font-display text-4xl leading-none font-extrabold tracking-tight">{restaurant.name}</h2>
-          <p className="mt-1.5 text-sm text-muted">{restaurant.cuisine}, {dishes.length} items</p>
+          <p className="mt-1.5 text-sm text-muted">
+            {restaurant.cuisine}, {dishes.length} items
+            {restaurant.place_id && <>. Typed in by members, not the restaurant. <Link href={`/places/${restaurant.place_id}`} className={textLink}>Fix or add dishes</Link></>}
+          </p>
         </div>
       </div>
       {!forUser && (
@@ -92,7 +95,7 @@ export async function MenuBrowser({ restaurant, basePath, selectedId, code, roun
             <h3 className="mt-4 font-display text-2xl leading-tight font-extrabold tracking-tight">{selected.name}</h3>
             <p className={`mt-1 ${selected.price === null ? "text-sm text-muted" : "text-lg font-bold"}`}>{formatKrw(selected.price)}</p>
             {selected.description && <p className="mt-2 text-sm leading-relaxed text-muted">{selected.description}</p>}
-            <div className="mt-4"><DishFacts dish={selected} check={check(selected)} /></div>
+            <div className="mt-4"><DishFacts dish={selected} check={check(selected)} byMember={Boolean(restaurant.place_id)} /></div>
             <div className="mt-5">
               <PickForm code={code} roundId={roundId} item={selected} forUser={forUser} submitLabel={submitLabel}
                 current={current?.menu_item?.id === selected.id ? current : null} />

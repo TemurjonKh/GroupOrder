@@ -8,15 +8,18 @@ import { MagnifyingGlass, MapPin } from "@phosphor-icons/react";
 import { DishFacts, FoodBadge } from "./dish-facts";
 import { BrandLogo, DishPhoto, inputStyles, textLink } from "./ui";
 import { DIETS, LABELLED, NAMED_ONLY, SEARCH_SHORTCUTS, checkDish, dietItemLabel, type DishCheck } from "@/lib/diet";
+import { DISH_KINDS, dishKind, type DishKind } from "@/lib/dish-kind";
 import { formatKrw } from "@/lib/round";
 import type { FoodNeeds, MenuItem, Place, Restaurant } from "@/lib/types";
 
 const CAMPUS = { lat: 37.4494108, lng: 126.6534266 };
 const RADIUS_M = 2000;
-const PAGE_SIZE = 40;
+// A few dishes per restaurant at first, so the page stays light; each restaurant opens on request.
+const PAGE_SIZE = 6;
 // OpenStreetMap's tile policy asks for a configurable address.
 const TILE_URL = process.env.NEXT_PUBLIC_MAP_TILE_URL ?? "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
 const ORDER = { clear: 0, caution: 1, unknown: 2, avoid: 3 };
+const PRICE_CAPS = [5000, 10000, 15000, 20000];
 
 type Dish = MenuItem & { check: DishCheck | null };
 
@@ -37,7 +40,14 @@ function placePopup(place: Place, matching: string | null) {
   popupLine(box, place.address);
   popupLine(box, place.phone);
   popupLine(box, place.opening_hours);
-  popupLine(box, matching ?? "No menu in the database yet");
+  popupLine(box, matching ?? "No menu yet");
+  // Built as an element with a fixed address, never from place text.
+  const page = document.createElement("a");
+  page.href = `/places/${encodeURIComponent(place.id)}`;
+  page.textContent = place.restaurant_id ? "Open menu" : "Add its menu";
+  page.style.display = "block";
+  page.style.fontWeight = "600";
+  box.append(page);
   if (place.website && /^https?:\/\//i.test(place.website)) {
     const link = document.createElement("a");
     link.href = place.website;
@@ -63,8 +73,13 @@ export function MapExplorer({ places, restaurants, needs }: {
   const [avoid, setAvoid] = useState<string[]>(needs?.avoid ?? []);
   const [useNote, setUseNote] = useState(Boolean(needs?.note));
   const [strict, setStrict] = useState(true);
+  const [kinds, setKinds] = useState<DishKind[]>(["meal"]);
+  const [maxPrice, setMaxPrice] = useState<number | null>(null);
+  const [sort, setSort] = useState<"near" | "cheap">("near");
   const [tab, setTab] = useState<"meals" | "places">("meals");
-  const [limit, setLimit] = useState(PAGE_SIZE);
+  const [opened, setOpened] = useState<Set<string>>(new Set());
+  // A new search starts with every restaurant folded again.
+  const collapse = () => setOpened(new Set());
   const [selected, setSelected] = useState<string | null>(null);
   const [mapFailed, setMapFailed] = useState(false);
   const [markersReady, setMarkersReady] = useState(false);
@@ -77,11 +92,26 @@ export function MapExplorer({ places, restaurants, needs }: {
   const words = query.trim().toLowerCase();
   const filtering = avoid.length > 0 || Boolean(note);
 
-  // One restaurant's matching dishes, best first.
-  const matches = useMemo(() => {
+  // The kind of each dish never changes, so it is worked out once.
+  const kindOf = useMemo(() => new Map(restaurants.flatMap((r) => r.menu_items.map((dish) => [dish.id, dishKind(dish)] as const))), [restaurants]);
+  // The nearest branch of each restaurant, for sorting.
+  const nearest = useMemo(() => {
+    const best = new Map<string, number>();
+    for (const place of places) {
+      if (place.restaurant_id && place.distance_m < (best.get(place.restaurant_id) ?? Infinity)) best.set(place.restaurant_id, place.distance_m);
+    }
+    return best;
+  }, [places]);
+
+  // One restaurant's matching dishes, best first, and how many more the kind switches hide.
+  const { matches, hiddenByKind } = useMemo(() => {
     const byRestaurant = new Map<string, Dish[]>();
+    let hidden = 0;
+    const shownKind = (dish: MenuItem) => kinds.length === 0 || kinds.includes(kindOf.get(dish.id) ?? "meal");
     for (const restaurant of restaurants) {
-      const dishes = restaurant.menu_items
+      const passing = restaurant.menu_items
+        // A dish with no price is hidden by a price cap: its price is unknown, not zero.
+        .filter((dish) => maxPrice === null || (dish.price !== null && dish.price <= maxPrice))
         .map((dish) => ({ ...dish, check: checkDish(dish, avoid, note) }))
         .filter((dish) => {
           const text = [restaurant.name, dish.name, dish.category, dish.description, ...dish.ingredients].join(" ").toLowerCase();
@@ -89,15 +119,27 @@ export function MapExplorer({ places, restaurants, needs }: {
           if (!dish.check) return true;
           return strict ? dish.check.level === "clear" : dish.check.level !== "avoid";
         })
-        .sort((a, b) => (a.check ? ORDER[a.check.level] : 0) - (b.check ? ORDER[b.check.level] : 0));
+        .sort((a, b) => ((a.check ? ORDER[a.check.level] : 0) - (b.check ? ORDER[b.check.level] : 0))
+          || (sort === "cheap" ? (a.price ?? Infinity) - (b.price ?? Infinity) : 0));
+      const dishes = passing.filter(shownKind);
+      hidden += passing.length - dishes.length;
       byRestaurant.set(restaurant.id, dishes);
     }
-    return byRestaurant;
-  }, [restaurants, avoid, note, words, strict]);
+    return { matches: byRestaurant, hiddenByKind: hidden };
+  }, [restaurants, avoid, note, words, strict, kinds, kindOf, maxPrice, sort]);
+
+  const ordered = useMemo(() => {
+    const cheapest = (id: string) => Math.min(...(matches.get(id) ?? []).map((dish) => dish.price ?? Infinity));
+    return [...restaurants].sort((a, b) => sort === "cheap"
+      ? cheapest(a.id) - cheapest(b.id)
+      : (nearest.get(a.id) ?? Infinity) - (nearest.get(b.id) ?? Infinity));
+  }, [restaurants, matches, nearest, sort]);
 
   const mealCount = [...matches.values()].reduce((sum, dishes) => sum + dishes.length, 0);
-  const shownPlaces = useMemo(() => places.filter((place) => !words
-    || [place.name, place.name_en, place.kind, place.cuisine].join(" ").toLowerCase().includes(words)), [places, words]);
+  const [menuFilter, setMenuFilter] = useState<"all" | "with" | "without">("all");
+  const shownPlaces = useMemo(() => places
+    .filter((place) => menuFilter === "all" || (menuFilter === "with") === Boolean(place.restaurant_id))
+    .filter((place) => !words || [place.name, place.name_en, place.kind, place.cuisine].join(" ").toLowerCase().includes(words)), [places, words, menuFilter]);
 
   const matchingText = (place: Place) => {
     if (!place.restaurant_id) return null;
@@ -173,7 +215,7 @@ export function MapExplorer({ places, restaurants, needs }: {
   }
 
   function toggle(key: string) {
-    setLimit(PAGE_SIZE);
+    collapse();
     setAvoid((current) => (current.includes(key) ? current.filter((k) => k !== key) : [...current, key]));
   }
 
@@ -181,7 +223,11 @@ export function MapExplorer({ places, restaurants, needs }: {
     <main className="grid md:grid-cols-[minmax(0,26rem)_minmax(0,1fr)] lg:grid-cols-[minmax(0,30rem)_minmax(0,1fr)]">
       <div className="order-2 min-w-0 px-4 py-6 md:order-1">
         <h1 className="font-display text-4xl leading-none font-extrabold tracking-tight">Find a meal near Inha</h1>
-        <p className="mt-2 text-sm text-muted">{places.length} places within 2 km of campus. {restaurants.reduce((sum, r) => sum + r.menu_items.length, 0)} dishes from {restaurants.length} chains can be searched; local restaurants publish no menus.</p>
+        <p className="mt-2 text-sm text-muted">
+          {places.length} places within 2 km of campus, and {restaurants.reduce((sum, r) => sum + r.menu_items.length, 0)} dishes
+          from {restaurants.length} restaurants to search. Local restaurants publish no menus, so members add them:
+          open a place and add what it serves.
+        </p>
 
         <label className="relative mt-4 block">
           <span className="sr-only">Search meals and places</span>
@@ -189,7 +235,7 @@ export function MapExplorer({ places, restaurants, needs }: {
           <input
             type="search"
             value={query}
-            onChange={(event) => { setQuery(event.target.value); setLimit(PAGE_SIZE); }}
+            onChange={(event) => { setQuery(event.target.value); collapse(); }}
             placeholder="Chicken, 샐러드, pizza…"
             className={`${inputStyles} pl-10`}
           />
@@ -213,6 +259,36 @@ export function MapExplorer({ places, restaurants, needs }: {
             ))}
           </div>
         </details>
+
+        <div className="mt-3 flex flex-wrap items-center gap-2" role="group" aria-label="Kind of dish">
+          {DISH_KINDS.map((kind) => {
+            const on = kinds.includes(kind.key);
+            return (
+              <button key={kind.key} type="button" aria-pressed={on} className={chip(on)}
+                onClick={() => { collapse(); setKinds((current) => (on ? current.filter((k) => k !== kind.key) : [...current, kind.key])); }}>
+                {kind.label}
+              </button>
+            );
+          })}
+        </div>
+
+        <div className="mt-3 grid grid-cols-2 gap-2">
+          <label className="block text-sm">
+            <span className="mb-1 block font-medium">Price</span>
+            <select value={maxPrice ?? ""} onChange={(event) => { collapse(); setMaxPrice(event.target.value ? Number(event.target.value) : null); }} className={inputStyles}>
+              <option value="">Any price</option>
+              {PRICE_CAPS.map((cap) => <option key={cap} value={cap}>Up to {formatKrw(cap)}</option>)}
+            </select>
+          </label>
+          <label className="block text-sm">
+            <span className="mb-1 block font-medium">Sort</span>
+            <select value={sort} onChange={(event) => setSort(event.target.value as "near" | "cheap")} className={inputStyles}>
+              <option value="near">Nearest first</option>
+              <option value="cheap">Cheapest first</option>
+            </select>
+          </label>
+        </div>
+        {maxPrice !== null && <p className="mt-1 text-xs text-muted">Dishes with no listed price are hidden while a price limit is set.</p>}
 
         {needs?.note && (
           <label className="mt-2 flex min-h-10 items-center gap-2 text-sm">
@@ -257,14 +333,19 @@ export function MapExplorer({ places, restaurants, needs }: {
 
         {tab === "meals" ? (
           <div className="mt-4 space-y-7">
+            {hiddenByKind > 0 && kinds.length < DISH_KINDS.length && (words || mealCount === 0) && (
+              <button type="button" onClick={() => { collapse(); setKinds(DISH_KINDS.map((kind) => kind.key)); }} className={`${textLink} cursor-pointer`}>
+                Show {hiddenByKind} more from {DISH_KINDS.filter((kind) => !kinds.includes(kind.key)).map((kind) => kind.label.toLowerCase()).join(" and ")}
+              </button>
+            )}
             {mealCount === 0 && (
               <p className="rounded-[20px] border border-dashed border-line p-6 text-center text-muted">
                 {filtering && strict
                   ? "No meal has everything ruled out. Try showing “may contain” and “no data”, and ask the store."
-                  : "No meal matches. Try another word."}
+                  : kinds.length === 1 && kinds[0] === "meal" ? "No meal matches. Try another word, or include drinks and sides." : "No meal matches. Try another word."}
               </p>
             )}
-            {restaurants.map((restaurant) => {
+            {ordered.map((restaurant) => {
               const dishes = matches.get(restaurant.id) ?? [];
               if (dishes.length === 0) return null;
               const branches = places.filter((p) => p.restaurant_id === restaurant.id);
@@ -274,7 +355,10 @@ export function MapExplorer({ places, restaurants, needs }: {
                     <BrandLogo restaurant={restaurant} size={44} />
                     <div className="min-w-0">
                       <h2 className="font-display text-2xl leading-tight font-extrabold tracking-tight">{restaurant.name}</h2>
-                      <p className="text-sm text-muted">{dishes.length} {dishes.length === 1 ? "meal" : "meals"}</p>
+                      <p className="text-sm text-muted">
+                        {dishes.length} {dishes.length === 1 ? "match" : "matches"}
+                        {restaurant.place_id && " · menu typed in by members"}
+                      </p>
                     </div>
                   </div>
                   <div className="mt-2 flex flex-wrap gap-1.5">
@@ -285,9 +369,12 @@ export function MapExplorer({ places, restaurants, needs }: {
                         <MapPin aria-hidden size={14} weight="fill" /> {branch.name} · {branch.distance_m} m
                       </button>
                     ))}
+                    {branches.slice(0, 1).map((branch) => (
+                      <Link key="page" href={`/places/${branch.id}`} className={`${textLink} min-h-9! text-xs`}>Full menu</Link>
+                    ))}
                   </div>
                   <ul className="mt-3 space-y-2">
-                    {dishes.slice(0, limit).map((dish) => (
+                    {dishes.slice(0, opened.has(restaurant.id) ? undefined : PAGE_SIZE).map((dish) => (
                       <li key={dish.id}>
                         <details className="rounded-[20px] border border-line bg-surface transition-colors open:border-ink">
                           <summary className="flex cursor-pointer list-none items-center gap-3 p-2.5 [&::-webkit-details-marker]:hidden">
@@ -300,15 +387,15 @@ export function MapExplorer({ places, restaurants, needs }: {
                           </summary>
                           <div className="px-3.5 pb-3.5">
                             {dish.description && <p className="mb-2 text-sm text-muted">{dish.description}</p>}
-                            <DishFacts dish={dish} check={dish.check} />
+                            <DishFacts dish={dish} check={dish.check} byMember={Boolean(restaurant.place_id)} />
                           </div>
                         </details>
                       </li>
                     ))}
                   </ul>
-                  {dishes.length > limit && (
-                    <button type="button" onClick={() => setLimit((n) => n + PAGE_SIZE)} className={`${textLink} cursor-pointer`}>
-                      Show more from {restaurant.name}
+                  {dishes.length > PAGE_SIZE && !opened.has(restaurant.id) && (
+                    <button type="button" onClick={() => setOpened((current) => new Set(current).add(restaurant.id))} className={`${textLink} cursor-pointer`}>
+                      Show all {dishes.length} from {restaurant.name}
                     </button>
                   )}
                 </section>
@@ -316,6 +403,14 @@ export function MapExplorer({ places, restaurants, needs }: {
             })}
           </div>
         ) : (
+          <>
+          <div className="mt-3 flex flex-wrap gap-2" role="group" aria-label="Which places">
+            {([["all", "All places"], ["with", "With a menu"], ["without", "Needs a menu"]] as const).map(([value, label]) => (
+              <button key={value} type="button" aria-pressed={menuFilter === value} onClick={() => setMenuFilter(value)} className={chip(menuFilter === value)}>
+                {label}
+              </button>
+            ))}
+          </div>
           <ul className="mt-2 divide-y divide-line">
             {shownPlaces.map((place) => (
               <li key={place.id}>
@@ -327,19 +422,23 @@ export function MapExplorer({ places, restaurants, needs }: {
                       {[place.kind, place.cuisine, ...place.diet_tags.map((tag) => `${tag} (map volunteers' tag)`)].filter(Boolean).join(" · ")}
                     </span>
                     <span className={`block text-xs ${place.restaurant_id ? "font-semibold text-on-accent-soft" : "text-muted"}`}>
-                      {matchingText(place) ?? "No menu in the database yet"}
+                      {matchingText(place) ?? "No menu yet"}
                     </span>
                   </span>
                   <span className="shrink-0 text-xs font-semibold text-muted">{place.distance_m} m</span>
                 </button>
+                <Link href={`/places/${place.id}`} className={`${textLink} min-h-9! px-2 text-xs`}>
+                  {place.restaurant_id ? "Open menu" : "Add its menu"}
+                </Link>
               </li>
             ))}
           </ul>
+          </>
         )}
 
         <p className="mt-6 text-xs leading-relaxed text-muted">
           Places: © OpenStreetMap contributors and Burger King Korea&apos;s store finder. OpenStreetMap is mapped by
-          volunteers and misses some places. Menus and allergens are only available for chains that publish them.
+          volunteers and misses some places. Chain menus come from the brands; local menus are typed in by members.
         </p>
       </div>
 

@@ -171,7 +171,7 @@ await step("food map: everything within 2 km is listed and drawn", async () => {
 });
 await step("food map: search starts from my needs and hides what I avoid", async () => {
   await temur.getByRole("tab", { name: /Meals \(\d+\)/ }).click();
-  if ((await temur.getByRole("button", { name: "No pork" }).getAttribute("aria-pressed")) !== "true") throw new Error("my pork need was not applied");
+  if ((await temur.getByRole("button", { name: "No pork", exact: true }).getAttribute("aria-pressed")) !== "true") throw new Error("my pork need was not applied");
   const text = await temur.locator("main").innerText();
   for (const dish of ["베이컨치즈와퍼", "잠봉 플러스 Jambon Plus", "비엘티 B.L.T."]) if (text.includes(dish)) throw new Error(`${dish} shown to someone avoiding pork`);
   if (text.includes("No data") || text.includes("May contain")) throw new Error("strict search showed unknown dishes");
@@ -196,10 +196,90 @@ await step("food map: vegan search is honest about what it can show", async () =
   await see(temur, "No meal has everything ruled out");
   await temur.getByLabel("Search meals and places").fill("샐러드");
   await temur.getByRole("button", { name: "Vegan", exact: true }).click();
-  await temur.getByRole("button", { name: "No pork" }).click();
+  await temur.getByRole("button", { name: "No pork", exact: true }).click();
   await temur.locator("details summary", { hasText: "샐러드" }).first().click();
   await temur.locator("details[open]").getByText(/Source:|no allergen list/).first().waitFor();
   await shot(temur, "25-map-search");
+});
+await step("food map: meals by default, a price limit, and the new quick filters", async () => {
+  await temur.goto(`${BASE}/map`);
+  await temur.getByRole("button", { name: "Clear filters" }).click();
+  if ((await temur.getByRole("button", { name: "Meals", exact: true }).getAttribute("aria-pressed")) !== "true") throw new Error("meals are not the default");
+  const meals = Number((await temur.getByRole("tab", { name: /Meals \(/ }).innerText()).match(/\d+/)[0]);
+  await temur.getByRole("button", { name: "Drinks", exact: true }).click();
+  const withDrinks = Number((await temur.getByRole("tab", { name: /Meals \(/ }).innerText()).match(/\d+/)[0]);
+  if (!(withDrinks > meals + 500)) throw new Error(`drinks did not add many dishes: ${meals} -> ${withDrinks}`);
+  await temur.getByRole("button", { name: "Drinks", exact: true }).click();
+  await temur.getByLabel("Price").selectOption("5000");
+  const prices = (await temur.locator("main details summary").allInnerTexts()).map((t) => t.match(/₩([\d,]+)/)?.[1]).filter(Boolean).map((p) => Number(p.replaceAll(",", "")));
+  if (prices.length === 0 || prices.some((p) => p > 5000)) throw new Error(`price limit shows ${prices.slice(0, 5)}`);
+  if ((await temur.locator("main details summary").allInnerTexts()).some((t) => t.includes("Price not listed"))) throw new Error("unpriced dishes shown under a price limit");
+  await see(temur, "Dishes with no listed price are hidden");
+  await temur.getByLabel("Price").selectOption("");
+  await temur.getByRole("button", { name: "No chicken" }).click();
+  const text = (await temur.locator("main details summary").allInnerTexts()).join(" | ");
+  for (const word of ["치킨", "닭"]) if (text.includes(word)) throw new Error(`no-chicken search shows ${word}`);
+  await temur.getByRole("button", { name: "No chicken" }).click();
+  // A drink search with only meals on offers to show the drinks.
+  await temur.getByLabel("Search meals and places").fill("라떼");
+  await temur.getByRole("button", { name: /^Show \d+ more from drinks/ }).click();
+  await temur.locator("main details summary", { hasText: "라떼" }).first().waitFor();
+  await temur.getByRole("button", { name: "Drinks", exact: true }).click();
+  await temur.getByRole("button", { name: "Desserts and sides", exact: true }).click();
+  await temur.getByRole("button", { name: "No pork or alcohol" }).click();
+  await temur.getByLabel("Search meals and places").fill("베이컨");
+  await see(temur, "Meals (0)");
+  await temur.getByLabel("Search meals and places").fill("");
+  await temur.getByRole("button", { name: "No pork or alcohol" }).click();
+});
+await step("a member types in a local restaurant's menu, and the search finds it", async () => {
+  await temur.getByLabel("Search meals and places").fill("가마솥순대국");
+  await temur.getByRole("tab", { name: /Places/ }).click();
+  await temur.getByRole("link", { name: "Add its menu" }).first().click();
+  await temur.getByRole("heading", { name: "가마솥순대국" }).waitFor();
+  await see(temur, "No menu yet");
+  await temur.getByLabel("Dish name").fill("순대국");
+  await temur.getByLabel("Price in won").fill("9,000");
+  await temur.getByLabel("What's inside").fill("순대, 돼지 머리고기, 들깨");
+  await temur.getByRole("button", { name: "Add dish" }).click();
+  await see(temur, "Saved. It is on the menu");
+  await see(temur, "Typed in by GroupOrder members");
+  const tile = temur.locator("details", { hasText: "순대국" }).first();
+  // Temur avoids pork, and the ingredients name it, even though no allergens were checked.
+  await tile.getByText(/Contains: Pork/).waitFor();
+  await tile.locator("summary").click();
+  await tile.getByText("did not check with the restaurant").waitFor();
+  await tile.getByRole("link", { name: "Change" }).click();
+  await temur.getByRole("heading", { name: "Change 순대국" }).waitFor();
+  await temur.getByLabel("Price in won").fill("9500");
+  await temur.getByRole("button", { name: "Save changes" }).click();
+  await temur.locator("details", { hasText: "₩9,500" }).first().waitFor();
+  await temur.getByText("Add several at once").click();
+  await temur.getByLabel("Dishes, one per line").fill("순대 한 접시 12,000\n공기밥 1000");
+  await temur.getByRole("button", { name: "Add these dishes" }).click();
+  await see(temur, "Added 2 dishes");
+  await temur.locator("details", { hasText: "₩12,000" }).first().waitFor();
+  await shot(temur, "25-member-menu");
+
+  await temur.goto(`${BASE}/map`);
+  await temur.getByLabel("Search meals and places").fill("순대국");
+  // It has no allergen data, so only the "no data" setting shows it, and pork hides it even then.
+  await temur.getByLabel("Also show").check();
+  // The search also matches the restaurant's name, so its rice and sundae plate show; the soup must not.
+  await temur.locator("main details summary", { hasText: "공기밥" }).first().waitFor();
+  if (await temur.locator("main details summary", { hasText: "₩9,500" }).count()) throw new Error("pork soup shown to someone avoiding pork");
+  await temur.getByRole("button", { name: "No pork", exact: true }).click();
+  await temur.locator("main details summary", { hasText: "₩9,500" }).first().waitFor();
+  await see(temur, "menu typed in by members");
+  await temur.getByRole("button", { name: "No pork", exact: true }).click();
+  await temur.getByLabel("Only meals with nothing").check();
+
+  // A chain's branch keeps the brand's menu, with no way to change it.
+  await temur.getByLabel("Search meals and places").fill("써브웨이");
+  await temur.getByRole("tab", { name: /Places/ }).click();
+  await temur.getByRole("link", { name: "Open menu" }).first().click();
+  await see(temur, "from the brand's own site");
+  if (await temur.getByRole("heading", { name: "Add a dish" }).count()) throw new Error("brand menu can be edited");
 });
 await step("Minji logs in on a phone", async () => {
   await login(minji, "minji@demo.test");

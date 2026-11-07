@@ -39,6 +39,9 @@ const CHAINS = [
   { restaurant: "Popeyes", match: /파파이스|popeyes/i },
   { restaurant: "Isaac Toast", match: /이삭토스트|isaac/i },
   { restaurant: "Pizza School", match: /피자스쿨|pizza ?school/i },
+  { restaurant: "Mom's Touch", match: /맘스터치|mom'?s ?touch/i },
+  { restaurant: "Gong Cha", match: /공차|gong ?cha/i },
+  { restaurant: "Compose Coffee", match: /컴포즈|compose/i },
 ];
 
 function distance(a, b) {

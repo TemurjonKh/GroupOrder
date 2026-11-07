@@ -115,3 +115,13 @@ export async function getMapData() {
   menus.forEach((r) => r.menu_items.sort((a, b) => a.sort_order - b.sort_order));
   return { places: (places ?? []) as Place[], restaurants: menus };
 }
+
+/** One place on the map, with the menu it serves: a brand's, one members typed in, or none. */
+export async function getPlace(id: string) {
+  const { supabase } = await getUser();
+  if (!/^[0-9a-f-]{36}$/i.test(id)) return null;
+  const { data: place } = await supabase.from("places").select("*").eq("id", id).maybeSingle<Place>();
+  if (!place) return null;
+  const menu = place.restaurant_id ? await getRestaurantMenu(place.restaurant_id) : null;
+  return { place, menu };
+}

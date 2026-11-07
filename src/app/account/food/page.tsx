@@ -12,7 +12,7 @@ export const metadata = { title: "My food needs" };
 function Choices({ title, hint, items, chosen }: {
   title: string;
   hint: string;
-  items: { key: string; label: string; korean: string }[];
+  items: { key: string; label: string; korean: string; hint?: string }[];
   chosen: string[];
 }) {
   return (
@@ -25,6 +25,7 @@ function Choices({ title, hint, items, chosen }: {
             <input type="checkbox" name="avoid" value={item.key} defaultChecked={chosen.includes(item.key)} className="size-5 shrink-0 accent-(--accent)" />
             <span className="min-w-0 text-sm leading-tight font-semibold">
               {item.label} <span className="font-normal text-muted">{item.korean}</span>
+              {item.hint && <span className="mt-0.5 block text-xs font-normal text-muted">{item.hint}</span>}
             </span>
           </label>
         ))}

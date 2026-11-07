@@ -18,6 +18,8 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "www.puradakchicken.com" },
       { protocol: "https", hostname: "storage.googleapis.com", pathname: "/popeyes-homepage.firebasestorage.app/**" },
       { protocol: "https", hostname: "lh3.googleusercontent.com" },
+      { protocol: "https", hostname: "momstouch.co.kr" },
+      { protocol: "https", hostname: "composecoffee.com" },
     ],
   },
   turbopack: {

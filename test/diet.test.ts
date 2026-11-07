@@ -1,6 +1,8 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { allDietKeys, checkDish, distanceMetres, expandAvoid, noteWords } from "../src/lib/diet";
+import { DIETS, LABELLED, NAMED_ONLY, allDietKeys, checkDish, distanceMetres, expandAvoid, noteWords } from "../src/lib/diet";
+import { dishKind } from "../src/lib/dish-kind";
+import { parseMenuLines } from "../src/lib/menu-lines";
 
 const dish = (fields: Partial<Parameters<typeof checkDish>[0]> = {}) => ({
   name: "Plain dish", description: null, ingredients: [], contains: [], may_contain: [], allergen_gaps: [], ...fields,
@@ -68,6 +70,15 @@ describe("checkDish: finding what a person avoids", () => {
     expect(checkDish(dish({ contains: ["shrimp"] }), ["no_meat"])?.level).toBe("clear");
     expect(expandAvoid(["vegan", "egg"]).filter((k) => k === "egg")).toHaveLength(1);
   });
+  it("has diets for seafood, nuts, and pork with alcohol", () => {
+    expect(checkDish(dish({ name: "통새우와퍼", contains: ["shrimp", "wheat"] }), ["no_seafood"])?.level).toBe("avoid");
+    expect(checkDish(dish({ name: "아몬드 쿠키", contains: ["wheat"] }), ["no_nuts"])?.level).toBe("avoid");
+    expect(checkDish(dish({ contains: ["peanut"] }), ["no_nuts"])?.level).toBe("avoid");
+    expect(checkDish(dish({ name: "1인 치맥세트 생맥주", contains: ["chicken"] }), ["no_pork_alcohol"])?.level).toBe("avoid");
+    expect(checkDish(dish({ name: "막걸리", contains: [] }), ["no_pork_alcohol"])?.level).toBe("avoid");
+    // Alcohol is never labelled, so a dish with data still says it is not ruled out.
+    expect(checkDish(dish({ contains: ["wheat"] }), ["no_pork_alcohol"])).toMatchObject({ level: "clear", unconfirmed: ["Alcohol"] });
+  });
   it("uses the person's own words", () => {
     expect(noteWords("cilantro, kiwi\n x")).toEqual(["cilantro", "kiwi"]);
     expect(checkDish(dish({ name: "Kiwi juice" }), [], "kiwi")).toMatchObject({ level: "avoid", found: ["kiwi"] });
@@ -120,12 +131,42 @@ describe("the data behind it", () => {
   it("keeps a blank in a brand's list unknown, never free from", () => {
     expect(find("starbucks", "카페 아메리카노").contains).toBeNull();
     expect(find("paik", "아메리카노(ICED)").contains).toBeNull();
-    for (const slug of ["mammoth", "puradak", "popeyes", "isaac"]) {
+    for (const slug of ["mammoth", "puradak", "popeyes", "isaac", "momstouch"]) {
       expect(menu(slug).every((d) => d.contains === null && d.may_contain === null), slug).toBe(true);
     }
   });
   it("lets the Subway add-on with no fixed meat stay unknown", () => {
     expect(find("subway", "미트 추가 Meat").contains).toBeNull();
+  });
+});
+
+describe("dishKind", () => {
+  it("tells meals from drinks and sides across the brands' own categories", () => {
+    expect(dishKind({ category: "와퍼&주니어", name: "와퍼" })).toBe("meal");
+    expect(dishKind({ category: "음료&디저트", name: "코카콜라(R)" })).toBe("drink");
+    expect(dishKind({ category: "음료&디저트", name: "선데 아이스크림" })).toBe("snack");
+    expect(dishKind({ category: "사이드메뉴", name: "로제 떡볶이" })).toBe("meal");
+    expect(dishKind({ category: "사이드", name: "프렌치프라이(L)" })).toBe("snack");
+    expect(dishKind({ category: "단품", name: "루이통 스파이시 버거" })).toBe("meal");
+    expect(dishKind({ category: "푸드", name: "쇼콜라 아메르 케이크" })).toBe("snack");
+    expect(dishKind({ category: "푸드", name: "햄치즈에그 샌드위치" })).toBe("meal");
+    expect(dishKind({ category: "신메뉴", name: "공주 밤라떼" })).toBe("drink");
+    expect(dishKind({ category: "치킨", name: "코울슬로" })).toBe("snack");
+    expect(dishKind({ category: "Main", name: "순대국" })).toBe("meal");
+  });
+});
+
+describe("parseMenuLines", () => {
+  it("reads a name and an optional price from each pasted line", () => {
+    expect(parseMenuLines("순대국 9,000\n  순대 한 접시, 12000원 \n\n공기밥\n김치찌개 ₩8500\n2인 세트 25,000")).toEqual([
+      { name: "순대국", price: 9000 },
+      { name: "순대 한 접시", price: 12000 },
+      { name: "공기밥", price: null },
+      { name: "김치찌개", price: 8500 },
+      { name: "2인 세트", price: 25000 },
+    ]);
+    // A number that is the whole line is a name, not a price with no dish.
+    expect(parseMenuLines("1984")).toEqual([{ name: "1984", price: null }]);
   });
 });
 
@@ -138,11 +179,15 @@ describe("distanceMetres", () => {
   });
 });
 
-describe("the database's list of food needs", () => {
-  it("is the same list as the app's", () => {
-    const sql = readFileSync("supabase/migrations/20261106000400_food_needs_and_places.sql", "utf8");
-    const block = sql.slice(sql.indexOf("<@ array["), sql.indexOf("]::text[] then"));
-    const keys = [...block.matchAll(/'([a-z_]+)'/g)].map((m) => m[1]);
-    expect(keys.sort()).toEqual(allDietKeys().sort());
+describe("the database's lists of food keys", () => {
+  it("are the same lists as the app's", () => {
+    const sql = readFileSync("supabase/migrations/20261107000000_member_menus_and_diets.sql", "utf8");
+    const list = (fn: string) => {
+      const start = sql.indexOf(`function public.${fn}()`);
+      const block = sql.slice(sql.indexOf("array[", start), sql.indexOf("]::text[]", start));
+      return [...block.matchAll(/'([a-z_]+)'/g)].map((m) => m[1]).sort();
+    };
+    expect(list("diet_keys")).toEqual(DIETS.map((d) => d.key).sort());
+    expect(list("allergen_keys")).toEqual([...LABELLED, ...NAMED_ONLY].map((i) => i.key).sort());
   });
 });

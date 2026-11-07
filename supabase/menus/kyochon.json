@@ -1395,42 +1395,6 @@
       "allergen_note": null,
       "name": "모둠어묵탕[홀전용메뉴]",
       "category": "사이드"
-    },
-    {
-      "description": "깊은 단맛과 은은한 과일향이 어우러진 프리미엄 삼양주 막걸리 2025 우리술 품평회 대상 수상 | 2025 APEC 공식 만찬주 선정",
-      "photo": "https://www.kyochon.com/uploadFiles/TB_ITEM/unhasu12_list.png",
-      "price": 8000,
-      "ingredients": [],
-      "contains": null,
-      "may_contain": null,
-      "allergen_source": null,
-      "allergen_note": null,
-      "name": "은하수 별헤는밤 12도(500ml)",
-      "category": "음료"
-    },
-    {
-      "description": "청정 영양의 자연을 담아낸 막걸리로, 산뜻한 과실향과 청량한 목넘김이 특징입니다.",
-      "photo": "https://www.kyochon.com/uploadFiles/TB_ITEM/unhasu6_list_.png",
-      "price": 6000,
-      "ingredients": [],
-      "contains": null,
-      "may_contain": null,
-      "allergen_source": null,
-      "allergen_note": null,
-      "name": "은하수 푸른밤 6도(650ml)",
-      "category": "음료"
-    },
-    {
-      "description": "쌀의 은은한 단맛과 금강밀의 고소함, 산뜻한 산미가 어우러진 풀바디 막걸리입니다.",
-      "photo": "https://www.kyochon.com/uploadFiles/TB_ITEM/unhasu8_list.png",
-      "price": 8000,
-      "ingredients": [],
-      "contains": null,
-      "may_contain": null,
-      "allergen_source": null,
-      "allergen_note": null,
-      "name": "은하수 깊은밤 8도(650ml)",
-      "category": "음료"
     }
   ]
 }

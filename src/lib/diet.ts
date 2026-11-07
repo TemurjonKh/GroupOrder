@@ -49,7 +49,7 @@ export const NAMED_ONLY: DietItem[] = [
   { key: "corn", label: "Corn", korean: "옥수수", words: /옥수수|콘 ?샐러드|콘 ?수프|\bcorn\b/i },
   { key: "garlic", label: "Garlic", korean: "마늘", words: /갈릭|마늘|garlic/i },
   { key: "onion", label: "Onion", korean: "양파", words: /어니언|양파|onion/i },
-  { key: "alcohol", label: "Alcohol", korean: "주류", words: /맥주|와인|버드와이저|소주|beer|wine/i },
+  { key: "alcohol", label: "Alcohol", korean: "주류", words: /맥주|와인|버드와이저|소주|막걸리|사케|하이볼|위스키|칵테일|beer|wine|whisk|cocktail/i },
 ];
 
 /** A generic mention such as Subway's "extra meat", only used through the diets below. */
@@ -58,13 +58,19 @@ const ANY_MEAT: DietItem = { key: "meat", label: "Meat", korean: "고기", words
 const MEATS = ["chicken", "beef", "pork", "lamb", "turkey", "duck", "meat"];
 const SEA = ["fish", "mackerel", "crab", "shrimp", "squid", "shellfish"];
 
-export const DIETS: { key: string; label: string; korean: string; avoids: string[] }[] = [
+const NUTS = ["peanut", "walnut", "pine_nut", "tree_nuts"];
+
+export const DIETS: { key: string; label: string; korean: string; avoids: string[]; hint?: string }[] = [
   { key: "vegan", label: "Vegan", korean: "비건", avoids: [...MEATS, ...SEA, "egg", "milk", "honey"] },
   { key: "vegetarian", label: "Vegetarian", korean: "채식", avoids: [...MEATS, ...SEA] },
   { key: "no_meat", label: "No meat", korean: "육류 제외", avoids: MEATS },
+  { key: "no_seafood", label: "No seafood", korean: "해산물 제외", avoids: SEA },
+  { key: "no_nuts", label: "No nuts", korean: "견과류 제외", avoids: NUTS },
+  // Not halal: that needs certified meat, which no brand here states.
+  { key: "no_pork_alcohol", label: "No pork or alcohol", korean: "돼지고기·주류 제외", avoids: ["pork", "alcohol"], hint: "Not the same as halal: no brand here says how its meat is prepared." },
 ];
 
-export const SEARCH_SHORTCUTS = ["vegan", "vegetarian", "no_meat", "pork", "peanut", "milk"];
+export const SEARCH_SHORTCUTS = ["vegan", "vegetarian", "no_meat", "no_pork_alcohol", "pork", "chicken", "beef", "no_seafood", "peanut", "no_nuts", "milk", "egg", "wheat"];
 
 const ITEMS = new Map([...LABELLED, ...NAMED_ONLY, ANY_MEAT].map((item) => [item.key, item]));
 const LABELLED_KEYS = new Set(LABELLED.map((item) => item.key));
@@ -72,7 +78,9 @@ const DIET_KEYS = new Map(DIETS.map((diet) => [diet.key, diet]));
 
 export const allDietKeys = () => [...DIETS.map((d) => d.key), ...LABELLED.map((i) => i.key), ...NAMED_ONLY.map((i) => i.key)];
 export const allergenLabel = (key: string) => ITEMS.get(key)?.label ?? key;
-const SHORTCUT_LABELS: Record<string, string> = { pork: "No pork", peanut: "No peanut", milk: "No dairy" };
+const SHORTCUT_LABELS: Record<string, string> = {
+  pork: "No pork", chicken: "No chicken", beef: "No beef", peanut: "No peanut", milk: "No dairy", egg: "No egg", wheat: "No wheat",
+};
 export const dietItemLabel = (key: string) => DIET_KEYS.get(key)?.label ?? SHORTCUT_LABELS[key] ?? allergenLabel(key);
 
 /** Diets become the foods they rule out. */
