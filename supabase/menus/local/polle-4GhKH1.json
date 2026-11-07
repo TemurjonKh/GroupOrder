@@ -1,0 +1,87 @@
+{
+ "slug": "polle-4GhKH1",
+ "name": "명품 떡볶이",
+ "cuisine": "떡볶이",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/4GhKH1",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "polle",
+  "source_id": "4GhKH1",
+  "name": "명품 떡볶이",
+  "kind": "Restaurant",
+  "cuisine": "떡볶이",
+  "lat": 37.448521072002315,
+  "lng": 126.67474559504157,
+  "distance_m": 1885,
+  "address": "인천 미추홀구 인하로 239 1층",
+  "phone": null
+ },
+ "dishes": [
+  {
+   "name": "떡볶이",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "튀김 5개",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 5000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "순대",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 5000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "어묵(3개)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "라면",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

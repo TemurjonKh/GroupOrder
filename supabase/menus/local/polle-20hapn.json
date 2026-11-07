@@ -1,0 +1,87 @@
+{
+ "slug": "polle-20hapn",
+ "name": "림스치킨 용현점",
+ "cuisine": "치킨",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/20hapn",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "polle",
+  "source_id": "20hapn",
+  "name": "림스치킨 용현점",
+  "kind": "Restaurant",
+  "cuisine": "치킨",
+  "lat": 37.45081809223199,
+  "lng": 126.63808721889923,
+  "distance_m": 1363,
+  "address": "인천 미추홀구 토금남로 53 한양아파트 상가 1층 102호",
+  "phone": "032-889-0043"
+ },
+ "dishes": [
+  {
+   "name": "림스 오리지널치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 17000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "림스 양념치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 18000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "림스 간장마늘치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 18000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "림스 핫윙",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 15000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "림스 파닭",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 18000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "slug": "polle-1bf4L3",
+ "name": "태양식당",
+ "cuisine": "한식",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/1bf4L3",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "polle",
+  "source_id": "1bf4L3",
+  "name": "태양식당",
+  "kind": "Restaurant",
+  "cuisine": "한식",
+  "lat": 37.46201988085898,
+  "lng": 126.64413750407076,
+  "distance_m": 1624,
+  "address": "인천 미추홀구 독배로498번길 8",
+  "phone": "032-883-9288"
+ },
+ "dishes": [
+  {
+   "name": "백반",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "콩비지",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 11000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "된장",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 11000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "뚝배기불고기",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 13000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "가정보쌈",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 18000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

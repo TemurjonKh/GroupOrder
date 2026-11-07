@@ -1,0 +1,139 @@
+{
+ "slug": "daangn-2uf9w2uud3hc",
+ "name": "마라시대마라탕",
+ "cuisine": "훠궈/마라탕",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EB%A7%88%EB%9D%BC%EC%8B%9C%EB%8C%80%EB%A7%88%EB%9D%BC%ED%83%95-2uf9w2uud3hc/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-10-11",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "openstreetmap",
+  "source_id": "node/13986242527"
+ },
+ "dishes": [
+  {
+   "name": "마라탕",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 7000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "마라반",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 7000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "마라샹궈",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 15000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "마라꿔바오로우",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 13000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "꿔바오로우",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 13000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "멘보샤",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "쇼룽보",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 7000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "꽃방튀김",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 6500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "물만두",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 6000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "미니전",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

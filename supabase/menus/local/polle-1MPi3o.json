@@ -1,0 +1,99 @@
+{
+ "slug": "polle-1MPi3o",
+ "name": "빈페이지",
+ "cuisine": "카페",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/1MPi3o",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "polle",
+  "source_id": "1MPi3o",
+  "name": "빈페이지",
+  "kind": "Cafe",
+  "cuisine": "카페",
+  "lat": 37.44569832673574,
+  "lng": 126.65784573692044,
+  "distance_m": 568,
+  "address": "인천 미추홀구 소성로 75 1층",
+  "phone": "032-773-7779"
+ },
+ "dishes": [
+  {
+   "name": "에스프레소",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 2500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "아메리카노",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 2500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "카페라떼",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3200,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "카페모카",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "카푸치노",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3200,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "바닐라라떼",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

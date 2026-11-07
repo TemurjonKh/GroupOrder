@@ -1,0 +1,87 @@
+{
+ "slug": "polle-2GlTz1",
+ "name": "칼국수의 화신",
+ "cuisine": "한식",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/2GlTz1",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "polle",
+  "source_id": "2GlTz1",
+  "name": "칼국수의 화신",
+  "kind": "Restaurant",
+  "cuisine": "한식",
+  "lat": 37.44949893380079,
+  "lng": 126.63465345952815,
+  "distance_m": 1657,
+  "address": "인천 미추홀구 매소홀로 79-13 1층",
+  "phone": "050-713727262"
+ },
+ "dishes": [
+  {
+   "name": "감자칼국수+강된장 보리밥",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "해물볶음 칼국수+강된장보리밥",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 12000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "알곤이칼국수+강된장 보리밥",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "바싹한 해물전",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 16000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "맷돌콩국수+강된장 보리밥",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

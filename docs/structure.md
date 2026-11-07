@@ -17,7 +17,7 @@ differs, and what remains.
 | 8 | History | `/g/<code>/history` |
 | - | Create and join a group | `/groups/new`, `/groups/join` |
 | - | Food map and meal search | `/map` |
-| - | A place, its menu, and adding dishes to a local menu | `/places/<id>` |
+| - | A place and its menu | `/places/<id>` |
 | - | My food needs (allergies and diets) | `/account/food`, also shown after signing up |
 | - | Stable link for QR and the future Hub | `/g/<code>/now` |
 
@@ -28,7 +28,7 @@ differs, and what remains.
 | `supabase/migrations/` | Tables, access rules, and all order-flow rules as database functions |
 | `supabase/menus/`, `supabase/seed.sql` | Real menus as imported JSON, and the seed generated from them |
 | `supabase/places/inha.json` | Everywhere to eat within 2 km of Inha, with its sources |
-| `scripts/import-menus.mjs`, `scripts/import-chains.mjs`, `scripts/import-places.mjs`, `scripts/build-seed.mjs` | Refresh the menus and places |
+| `scripts/import-menus.mjs`, `scripts/import-chains.mjs`, `scripts/import-local-menus.mjs`, `scripts/import-places.mjs`, `scripts/build-seed.mjs` | Refresh the menus and places |
 | `src/lib/diet.ts`, `src/lib/dish-kind.ts` | Checking a dish against food needs; sorting dishes into meals, drinks and sides |
 | `src/lib/diet.ts` | Pure logic: what a person avoids, and how a dish measures up |
 | `src/lib/round.ts` | Pure logic: round states, answers, summaries, Seoul time, error messages |
@@ -80,9 +80,9 @@ MVP items still open, all of which depend on a deployed site or an outside servi
 Group location is set by coordinates or "Use my current location", because turning an
 address into coordinates needs a map API.
 
-The food map covers Inha University only. Chains' menus come from their sites; local restaurants
-publish none, so members type them in on each place's page (`/places/<id>`). Those dishes have no
-allergen data unless the member checked with the restaurant.
+The food map covers Inha University only. Chains' menus come from their sites; independent
+restaurants' menus from Daangn business profiles and Polle place pages, with no allergen data.
+Menus are read-only in the app.
 
 ## Checked only in local mode so far
 

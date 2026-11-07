@@ -1,0 +1,55 @@
+{
+ "slug": "branch-daangn-vnu9zp7gdrt8",
+ "name": "등촌샤브칼국수",
+ "cuisine": "샤브샤브",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EB%93%B1%EC%B4%8C%EC%83%A4%EB%B8%8C%EC%B9%BC%EA%B5%AD%EC%88%98%EA%B2%80%EB%8B%A8%EC%A0%90-vnu9zp7gdrt8/",
+ "source_site": "Daangn",
+ "source_note": "Posted on Daangn by another branch (등촌샤브칼국수검단점), not the one near Inha, so prices and dishes here may differ.",
+ "source_updated": "2026-09-17",
+ "checked": "2026-11-07",
+ "place": null,
+ "branches": [
+  "node/13986242579"
+ ],
+ "dishes": [
+  {
+   "name": "얼큰버섯칼국수 (1인분)",
+   "category": "Menu",
+   "description": "2인분이상 주문가능",
+   "photo": null,
+   "price": 12000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "맑은버섯칼국수(1인분)",
+   "category": "Menu",
+   "description": "2인분이상 주문가능",
+   "photo": null,
+   "price": 12000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "샤브소고기 (200g)",
+   "category": "Menu",
+   "description": "호주산",
+   "photo": null,
+   "price": 12000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

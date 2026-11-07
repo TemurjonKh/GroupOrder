@@ -2,7 +2,6 @@ import { readFileSync, readdirSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { DIETS, LABELLED, NAMED_ONLY, allDietKeys, checkDish, distanceMetres, expandAvoid, noteWords } from "../src/lib/diet";
 import { dishKind } from "../src/lib/dish-kind";
-import { parseMenuLines } from "../src/lib/menu-lines";
 
 const dish = (fields: Partial<Parameters<typeof checkDish>[0]> = {}) => ({
   name: "Plain dish", description: null, ingredients: [], contains: [], may_contain: [], allergen_gaps: [], ...fields,
@@ -98,7 +97,7 @@ describe("the data behind it", () => {
   };
 
   it("only uses allergen keys the app understands", () => {
-    for (const slug of readdirSync("supabase/menus").filter((f) => f.endsWith(".json")).map((f) => f.replace(".json", ""))) {
+    for (const slug of readdirSync("supabase/menus").filter((f) => f.endsWith(".json") && f !== "local-sources.json").map((f) => f.replace(".json", ""))) {
       for (const d of menu(slug)) {
         for (const key of [...(d.contains ?? []), ...(d.may_contain ?? [])]) expect(known.has(key), `${slug}: ${d.name}: ${key}`).toBe(true);
       }
@@ -153,20 +152,6 @@ describe("dishKind", () => {
     expect(dishKind({ category: "신메뉴", name: "공주 밤라떼" })).toBe("drink");
     expect(dishKind({ category: "치킨", name: "코울슬로" })).toBe("snack");
     expect(dishKind({ category: "Main", name: "순대국" })).toBe("meal");
-  });
-});
-
-describe("parseMenuLines", () => {
-  it("reads a name and an optional price from each pasted line", () => {
-    expect(parseMenuLines("순대국 9,000\n  순대 한 접시, 12000원 \n\n공기밥\n김치찌개 ₩8500\n2인 세트 25,000")).toEqual([
-      { name: "순대국", price: 9000 },
-      { name: "순대 한 접시", price: 12000 },
-      { name: "공기밥", price: null },
-      { name: "김치찌개", price: 8500 },
-      { name: "2인 세트", price: 25000 },
-    ]);
-    // A number that is the whole line is a name, not a price with no dish.
-    expect(parseMenuLines("1984")).toEqual([{ name: "1984", price: null }]);
   });
 });
 

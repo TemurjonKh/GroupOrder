@@ -55,6 +55,7 @@ Chain menus come from each brand's public site. To refresh them:
 ```sh
 npm run menus:import    # BBQ, Burger King and Subway, into supabase/menus/*.json
 npm run menus:chains    # the 15 other chains with a branch near Inha (name brands to do only those)
+npm run menus:local     # independent restaurants, from Daangn and Polle, into supabase/menus/local/
 npm run places:import   # fetches the places around Inha into supabase/places/inha.json
                         # (add -- --relink to only match saved places to the chains again)
 npm run menus:seed      # rebuilds supabase/seed.sql from those files
@@ -69,10 +70,7 @@ Then run `npm run dev:local:reset` so local mode loads the new seed.
   disallows. Isaac Toast and Gong Cha have no photos for the same reason. Mom's Touch publishes
   allergens only as a chart image, so its dishes are "No data". To add a brand by hand, write
   `supabase/menus/<brand>.json` in the same format and add its photo host to `next.config.ts`.
-- **Independent restaurants: members type in their menus.** They publish none, and the map and
-  delivery apps that list them (Kakao Map, Naver Map, Diningcode, Baemin) block bots like this
-  importer in their robots.txt. So every place page (`/places/<id>`) has an "Add a dish" form, and
-  what members add is searchable at once and can be picked in a group round. See below.
+- **Independent restaurants come from Daangn and Polle.** See "Local menus" below.
 - **Alcohol and merchandise are left out**, because the app has no age check: rice wine on Kyochon's
   menu and a set with draft beer at Popeyes. Drinks a brand labels non-alcoholic stay in.
 - **A chain's menu is its national menu.** A branch may not sell every dish, or may charge differently.
@@ -111,17 +109,30 @@ Only they can read that list. The rule throughout is that missing data is never 
 - **Burger King does not list most sets, fries or drinks.** A set shows what its listed parts
   contain and names the parts with no data, so it can never read as "None listed".
 
-## Menus typed in by members
+## Local menus
 
-Any logged-in person can add, change or remove dishes for a place with no brand menu. A chain's
-branch keeps the brand's menu, which cannot be changed here.
+Small restaurants have no menu site, so `npm run menus:local` reads the pages listed in
+`supabase/menus/local-sources.json` from two listing sites whose robots.txt allows it:
 
-- **Allergens only count when the member checked with the restaurant.** Without the "I checked"
-  box, the dish has no allergen list and shows "No data", the same as a brand that publishes
-  nothing. The ingredients are still searched, so "돼지 머리고기" warns someone avoiding pork.
-- **It is marked as members' work** on the place page and in the search, never as the restaurant's.
-- **Writes go through `save_member_dish` and `delete_member_dish`**, which check every field. A dish
-  someone has picked cannot be removed, and a menu left empty is removed with its last dish.
+- **Daangn business profiles** (`daangn.com/kr/local-profile/`), where the owner types the price
+  list. Daangn's robots.txt names AI user agents and allows them on exactly these pages. A list
+  may stop at 30 dishes.
+- **Polle place pages** (`polle.com/place/`), typed in by Polle's users, so prices can be old.
+  Pages Polle marks closed are skipped.
+
+Naver blogs, Naver Map, Kakao Map, Instagram, Brunch, Diningcode, Tripadvisor and Baemin shut out
+bots like this one, so nothing comes from them.
+
+- **Only places within 2 km of Inha are kept.** Each is matched to the OpenStreetMap place at the
+  same spot with a similar name, or added to the map as a new place. A page can name its place by
+  hand when the names differ ("소블링" is "SoBling" on OpenStreetMap).
+- **A franchise with no page for its branch near Inha** borrows the price list another branch
+  posted on Daangn, and says which branch, since prices and dishes can differ.
+- **No allergen data.** Neither site lists allergens, so every dish is "No data". The dish name is
+  still searched, so "돼지국밥" is hidden from someone avoiding pork.
+- **Read-only.** Nobody edits menus in the app; rerun the importer to refresh them. Each menu shows
+  where it came from, when the source last changed it (Daangn only) and when it was imported.
+- **Menus with fewer than 3 dishes are left out**, so a place never looks covered when it is not.
 
 ## Food map
 
@@ -132,8 +143,8 @@ drinks, desserts and sides, sorted from each brand's own categories), by price, 
 distance or price. "No pork or alcohol" is not halal: no brand here says how its meat is prepared.
 
 - **Places come from OpenStreetMap** (© OpenStreetMap contributors, ODbL, so keep the credit on the
-  map) plus Burger King's store finder. Volunteers map OpenStreetMap, so some places are missing,
-  and it has no menus. Only the chains above have dishes to search; other places can only be found by name.
+  map), Burger King's store finder, and the Daangn and Polle pages of local menus. Volunteers map
+  OpenStreetMap, so some places are missing, and it has no menus.
 - **Before going public, use a tile provider.** The default OpenStreetMap tiles are for light use
   and can be withdrawn. Set `NEXT_PUBLIC_MAP_TILE_URL` to change them.
 

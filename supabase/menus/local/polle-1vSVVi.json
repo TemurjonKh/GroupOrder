@@ -1,0 +1,127 @@
+{
+ "slug": "polle-1vSVVi",
+ "name": "닭살부부",
+ "cuisine": "치킨",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/1vSVVi",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "openstreetmap",
+  "source_id": "node/13986218628"
+ },
+ "dishes": [
+  {
+   "name": "전기구이통닭",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 14000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "전기구이양념파닭",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 15000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "전기구이 떡강정",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 15000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "목삼겹",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 19000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "파무침",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 1000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "새우튀김",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "감자튀김",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "쥐포튀김",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "오뎅탕",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "slug": "polle-4SgIbR",
+ "name": "아웃닭",
+ "cuisine": "치킨",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/4SgIbR",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "openstreetmap",
+  "source_id": "node/13986203863"
+ },
+ "dishes": [
+  {
+   "name": "호바트 매콤소이마요콤보",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 25900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "스펜서 매운 양념콤보",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 25900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "오리지널 프리스턴 후라이드 콤보",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 24900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "오리지날 프린스튼 후라이드치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 22000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "마틴 간장치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 23000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "순살후라이드",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 24900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "순살양념",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 25900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

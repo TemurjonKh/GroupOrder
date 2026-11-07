@@ -1,0 +1,55 @@
+{
+ "slug": "branch-daangn-oa7fjvtf5x83",
+ "name": "픽미픽미아이스",
+ "cuisine": "아이스크림",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%ED%94%BD%EB%AF%B8%ED%94%BD%EB%AF%B8%EC%95%84%EC%9D%B4%EC%8A%A4-%EC%8B%A0%EC%9E%A5%EC%A4%91%EC%A0%90-oa7fjvtf5x83/",
+ "source_site": "Daangn",
+ "source_note": "Posted on Daangn by another branch (픽미픽미아이스 신장중점), not the one near Inha, so prices and dishes here may differ.",
+ "source_updated": "2026-09-05",
+ "checked": "2026-11-07",
+ "place": null,
+ "branches": [
+  "node/13986242588"
+ ],
+ "dishes": [
+  {
+   "name": "떡볶이",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "빨간오뎅",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 1200,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "토스트",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 2500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

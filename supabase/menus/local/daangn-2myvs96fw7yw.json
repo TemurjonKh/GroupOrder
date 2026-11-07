@@ -1,0 +1,123 @@
+{
+ "slug": "daangn-2myvs96fw7yw",
+ "name": "지금,돈까스",
+ "cuisine": "돈까스",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EC%A7%80%EA%B8%88-%EB%8F%88%EA%B9%8C%EC%8A%A4-2myvs96fw7yw/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-09-04",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "daangn",
+  "source_id": "2myvs96fw7yw",
+  "name": "지금,돈까스",
+  "kind": "Restaurant",
+  "cuisine": "돈까스",
+  "lat": 37.447534239585934,
+  "lng": 126.6469245416315,
+  "distance_m": 611,
+  "address": "인천광역시 미추홀구 용정공원로83번길 43 (용현동)",
+  "phone": "050425471970"
+ },
+ "dishes": [
+  {
+   "name": "등심돈까스",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 9000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "카레돈까스",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "매운치즈돈까스",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 12000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "새우튀김카레",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "가츠동",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 9000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "규동",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 9000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "냉모밀",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "어묵우동",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

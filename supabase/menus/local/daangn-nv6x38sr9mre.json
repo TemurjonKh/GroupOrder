@@ -1,0 +1,111 @@
+{
+ "slug": "daangn-nv6x38sr9mre",
+ "name": "숭의갈비집",
+ "cuisine": "고기 구이",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EC%88%AD%EC%9D%98%EA%B0%88%EB%B9%84%EC%A7%91-nv6x38sr9mre/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-09-04",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "daangn",
+  "source_id": "nv6x38sr9mre",
+  "name": "숭의갈비집",
+  "kind": "Restaurant",
+  "cuisine": "고기 구이",
+  "lat": 37.46211536504334,
+  "lng": 126.63939020294531,
+  "distance_m": 1879,
+  "address": "인천광역시 미추홀구 제물량로24번길 51(숭의동)",
+  "phone": "0324341892"
+ },
+ "dishes": [
+  {
+   "name": "한돈통목살(200g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 15000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "한돈생삼겹(200g)",
+   "category": "Menu",
+   "description": "고기는 원육이 좋아합니다. 정직하게 드리겠습니다.",
+   "photo": null,
+   "price": 15000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "한돈생갈비(200g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 15000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "한우투뿔차돌박이(150g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 25000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "키조개관자(110g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "꽃냉삼",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "한우차돌박이삼합세트",
+   "category": "Menu",
+   "description": "한우차돌(300g)×키조개관자(110g)×표고버섯(100g)",
+   "photo": null,
+   "price": 60000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

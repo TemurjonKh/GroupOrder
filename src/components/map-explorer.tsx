@@ -44,7 +44,7 @@ function placePopup(place: Place, matching: string | null) {
   // Built as an element with a fixed address, never from place text.
   const page = document.createElement("a");
   page.href = `/places/${encodeURIComponent(place.id)}`;
-  page.textContent = place.restaurant_id ? "Open menu" : "Add its menu";
+  page.textContent = place.restaurant_id ? "Open menu" : "Place details";
   page.style.display = "block";
   page.style.fontWeight = "600";
   box.append(page);
@@ -225,8 +225,8 @@ export function MapExplorer({ places, restaurants, needs }: {
         <h1 className="font-display text-4xl leading-none font-extrabold tracking-tight">Find a meal near Inha</h1>
         <p className="mt-2 text-sm text-muted">
           {places.length} places within 2 km of campus, and {restaurants.reduce((sum, r) => sum + r.menu_items.length, 0)} dishes
-          from {restaurants.length} restaurants to search. Local restaurants publish no menus, so members add them:
-          open a place and add what it serves.
+          from {restaurants.length} restaurants to search. Chain menus come from the brands; local ones from the owner&apos;s
+          Daangn profile or from Polle.
         </p>
 
         <label className="relative mt-4 block">
@@ -357,7 +357,7 @@ export function MapExplorer({ places, restaurants, needs }: {
                       <h2 className="font-display text-2xl leading-tight font-extrabold tracking-tight">{restaurant.name}</h2>
                       <p className="text-sm text-muted">
                         {dishes.length} {dishes.length === 1 ? "match" : "matches"}
-                        {restaurant.place_id && " · menu typed in by members"}
+                        {restaurant.menu_source_name && ` · menu from ${restaurant.menu_source_name}`}
                       </p>
                     </div>
                   </div>
@@ -387,7 +387,7 @@ export function MapExplorer({ places, restaurants, needs }: {
                           </summary>
                           <div className="px-3.5 pb-3.5">
                             {dish.description && <p className="mb-2 text-sm text-muted">{dish.description}</p>}
-                            <DishFacts dish={dish} check={dish.check} byMember={Boolean(restaurant.place_id)} />
+                            <DishFacts dish={dish} check={dish.check} local={Boolean(restaurant.menu_source_name)} />
                           </div>
                         </details>
                       </li>
@@ -405,7 +405,7 @@ export function MapExplorer({ places, restaurants, needs }: {
         ) : (
           <>
           <div className="mt-3 flex flex-wrap gap-2" role="group" aria-label="Which places">
-            {([["all", "All places"], ["with", "With a menu"], ["without", "Needs a menu"]] as const).map(([value, label]) => (
+            {([["all", "All places"], ["with", "With a menu"], ["without", "No menu yet"]] as const).map(([value, label]) => (
               <button key={value} type="button" aria-pressed={menuFilter === value} onClick={() => setMenuFilter(value)} className={chip(menuFilter === value)}>
                 {label}
               </button>
@@ -428,7 +428,7 @@ export function MapExplorer({ places, restaurants, needs }: {
                   <span className="shrink-0 text-xs font-semibold text-muted">{place.distance_m} m</span>
                 </button>
                 <Link href={`/places/${place.id}`} className={`${textLink} min-h-9! px-2 text-xs`}>
-                  {place.restaurant_id ? "Open menu" : "Add its menu"}
+                  {place.restaurant_id ? "Open menu" : "Details"}
                 </Link>
               </li>
             ))}
@@ -437,8 +437,8 @@ export function MapExplorer({ places, restaurants, needs }: {
         )}
 
         <p className="mt-6 text-xs leading-relaxed text-muted">
-          Places: © OpenStreetMap contributors and Burger King Korea&apos;s store finder. OpenStreetMap is mapped by
-          volunteers and misses some places. Chain menus come from the brands; local menus are typed in by members.
+          Places: © OpenStreetMap contributors, Burger King Korea&apos;s store finder, Daangn and Polle. OpenStreetMap is
+          mapped by volunteers and misses some places. Local menus have no allergen data and may be out of date.
         </p>
       </div>
 

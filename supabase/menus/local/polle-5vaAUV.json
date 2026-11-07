@@ -1,0 +1,103 @@
+{
+ "slug": "polle-5vaAUV",
+ "name": "레커훈스",
+ "cuisine": "치킨",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/5vaAUV",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "openstreetmap",
+  "source_id": "node/13986167634"
+ },
+ "dishes": [
+  {
+   "name": "반.반.반 치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 20500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "크리스피 치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 12000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "양념치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 14000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "마늘간장치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 14000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "매운양념치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 14000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "반반치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 14000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "크리스피치킨 두마리",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 22000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "slug": "branch-daangn-cybfwa6vhfs6",
+ "name": "하남돼지집",
+ "cuisine": "고기 구이",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%ED%95%98%EB%82%A8%EB%8F%BC%EC%A7%80%EC%A7%91-%EC%9A%A9%EC%9D%B8%EC%88%98%EC%A7%80%EC%A0%90-cybfwa6vhfs6/",
+ "source_site": "Daangn",
+ "source_note": "Posted on Daangn by another branch (하남돼지집 용인수지점), not the one near Inha, so prices and dishes here may differ.",
+ "source_updated": "2026-10-11",
+ "checked": "2026-11-07",
+ "place": null,
+ "branches": [
+  "node/13986242578"
+ ],
+ "dishes": [
+  {
+   "name": "생삼겹살(180g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 17000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "항정살(150g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 19000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "모둠한판(600g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 50000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "특별한판(600g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 72000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "특목살(180g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 17000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "생갈비(200g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 17000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "갈매기살(150g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 18000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "가브리살(150g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 18000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

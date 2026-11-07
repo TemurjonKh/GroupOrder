@@ -1,0 +1,99 @@
+{
+ "slug": "daangn-z2ezoar1s4gq",
+ "name": "용마루 짬뽕",
+ "cuisine": "일반 중식",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EC%9A%A9%EB%A7%88%EB%A3%A8-%EC%A7%AC%EB%BD%95-z2ezoar1s4gq/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-08-31",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "daangn",
+  "source_id": "z2ezoar1s4gq",
+  "name": "용마루 짬뽕",
+  "kind": "Restaurant",
+  "cuisine": "일반 중식",
+  "lat": 37.4593175,
+  "lng": 126.6424079,
+  "distance_m": 1470,
+  "address": "인천 미추홀구 낙섬중로 129 상가3동 109호 용마루짬뽕",
+  "phone": "050713712690"
+ },
+ "dishes": [
+  {
+   "name": "용마루탕수육(미니)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 13000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "우삼겹짬뽕",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 13000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "고추짬뽕",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "용마루탕수육",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 22000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "짬뽕",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 9000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "볶음밥",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 9000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

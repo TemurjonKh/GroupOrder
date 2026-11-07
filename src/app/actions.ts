@@ -6,7 +6,6 @@ import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import { friendlyError } from "@/lib/round";
 import { inviteCodeFrom, safeNext } from "@/lib/url";
-import { parseMenuLines } from "@/lib/menu-lines";
 
 export type ActionState = { error?: string; ok?: string } | null;
 
@@ -225,66 +224,4 @@ export async function dismissNotification(_: ActionState, form: FormData): Promi
   await supabase.from("notifications").update({ read_at: new Date().toISOString() }).eq("id", text(form, "id"));
   revalidatePath("/");
   return null;
-}
-
-// ------------------------------------------------------------------ member menus
-
-const list = (value: string) => value.split(/[,\n]/).map((part) => part.trim()).filter(Boolean);
-
-/** Adds or changes a dish on a place's member menu. */
-export async function saveMemberDish(_: ActionState, form: FormData): Promise<ActionState> {
-  const place = text(form, "place");
-  const dish = text(form, "dish");
-  const price = text(form, "price").replace(/[,\s₩원]/g, "");
-  if (price && !/^\d+$/.test(price)) return { error: "Please enter the price in won, like 9000, or leave it empty." };
-  const supabase = await createClient();
-  const { error } = await supabase.rpc("save_member_dish", {
-    p_place: place,
-    p_dish: dish || null,
-    p_name: text(form, "name"),
-    p_category: text(form, "category"),
-    p_price: price ? Number(price) : null,
-    p_description: text(form, "description"),
-    p_ingredients: list(text(form, "ingredients")),
-    p_allergens_checked: form.get("checked") === "on",
-    p_contains: form.getAll("contains").map(String),
-    p_may_contain: form.getAll("may_contain").map(String),
-  });
-  if (error) return { error: friendlyError(error.message) };
-  revalidatePath(`/places/${place}`);
-  revalidatePath("/map");
-  if (dish) redirect(`/places/${encodeURIComponent(place)}#dish-${encodeURIComponent(dish)}`);
-  return { ok: "Saved. It is on the menu and in the meal search now." };
-}
-
-/** Adds several dishes from pasted lines, all in one section and with no allergen data. */
-export async function saveMemberDishes(_: ActionState, form: FormData): Promise<ActionState> {
-  const place = text(form, "place");
-  const dishes = parseMenuLines(String(form.get("lines") ?? ""));
-  if (dishes.length === 0) return { error: "Please paste at least one dish, one per line." };
-  if (dishes.length > 60) return { error: "Please add up to 60 dishes at a time." };
-  const supabase = await createClient();
-  for (const [index, dish] of dishes.entries()) {
-    const { error } = await supabase.rpc("save_member_dish", {
-      p_place: place, p_dish: null, p_name: dish.name, p_category: text(form, "category"), p_price: dish.price,
-      p_description: "", p_ingredients: [], p_allergens_checked: false, p_contains: [], p_may_contain: [],
-    });
-    if (error) {
-      revalidatePath(`/places/${place}`);
-      return { error: `Added ${index} of ${dishes.length}. Line ${index + 1} ("${dish.name}"): ${friendlyError(error.message)}` };
-    }
-  }
-  revalidatePath(`/places/${place}`);
-  revalidatePath("/map");
-  return { ok: `Added ${dishes.length} ${dishes.length === 1 ? "dish" : "dishes"}. Open one to add its ingredients.` };
-}
-
-export async function deleteMemberDish(_: ActionState, form: FormData): Promise<ActionState> {
-  const place = text(form, "place");
-  const supabase = await createClient();
-  const { error } = await supabase.rpc("delete_member_dish", { p_dish: text(form, "dish") });
-  if (error) return { error: friendlyError(error.message) };
-  revalidatePath(`/places/${place}`);
-  revalidatePath("/map");
-  redirect(`/places/${encodeURIComponent(place)}`);
 }

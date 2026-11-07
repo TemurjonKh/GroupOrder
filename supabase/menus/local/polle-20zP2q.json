@@ -1,0 +1,99 @@
+{
+ "slug": "polle-20zP2q",
+ "name": "보리밥 한상",
+ "cuisine": "한식",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/20zP2q",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "polle",
+  "source_id": "20zP2q",
+  "name": "보리밥 한상",
+  "kind": "Restaurant",
+  "cuisine": "한식",
+  "lat": 37.440118638771914,
+  "lng": 126.66908867870004,
+  "distance_m": 1726,
+  "address": "인천 미추홀구 매소홀로 423 현재빌딩",
+  "phone": "032-872-5991"
+ },
+ "dishes": [
+  {
+   "name": "보리밥한상",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 13000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "삼겹살보쌈 대",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 22000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "간장게장",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "양념게장",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "오므라이스",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "계란찜",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

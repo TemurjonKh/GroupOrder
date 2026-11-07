@@ -12,6 +12,7 @@
     "dev:local:reset": "node -e \"require('fs').rmSync('.local',{recursive:true,force:true})\"",
     "menus:import": "node scripts/import-menus.mjs",
     "menus:chains": "node scripts/import-chains.mjs",
+    "menus:local": "node scripts/import-local-menus.mjs",
     "places:import": "node scripts/import-places.mjs",
     "menus:seed": "node scripts/build-seed.mjs",
     "test:e2e": "node test/e2e/flow.mjs"

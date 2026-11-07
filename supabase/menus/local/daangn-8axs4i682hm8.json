@@ -1,0 +1,99 @@
+{
+ "slug": "daangn-8axs4i682hm8",
+ "name": "함흥관",
+ "cuisine": "고기 구이",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%ED%95%A8%ED%9D%A5%EA%B4%80-8axs4i682hm8/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-10-09",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "daangn",
+  "source_id": "8axs4i682hm8",
+  "name": "함흥관",
+  "kind": "Restaurant",
+  "cuisine": "고기 구이",
+  "lat": 37.4620362,
+  "lng": 126.6422883,
+  "distance_m": 1714,
+  "address": "인천 미추홀구 인중로 1",
+  "phone": "0328894004"
+ },
+ "dishes": [
+  {
+   "name": "와규등심",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 39000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "돼지왕갈비",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 26500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "영양갈비탕",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 21500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "돌솥밥영양갈비탕",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 25000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "함흥물냉면",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 15500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "이동갈비",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 44000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

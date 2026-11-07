@@ -10,9 +10,16 @@ export type Restaurant = {
   lng: number | null;
   phone: string | null;
   delivery_link: string | null;
-  /** Set for a menu typed in by members for one place; null for a brand's own menu. */
+  /** Set for one independent restaurant's menu; null for a chain's menu, shared by its branches. */
   place_id: string | null;
-  added_by: string | null;
+  /** The page the menu was imported from. */
+  menu_source: string | null;
+  /** "Daangn" or "Polle" for a local menu; null for a chain's own site. */
+  menu_source_name: string | null;
+  menu_note: string | null;
+  /** When the source last changed the menu, if it says. */
+  menu_updated: string | null;
+  menu_checked: string | null;
 };
 
 export type MenuOption = { name: string; choices: string[] };
@@ -36,9 +43,6 @@ export type MenuItem = {
   allergen_note: string | null;
   /** Parts of a set with no published data, so the set can never read as clear. */
   allergen_gaps: string[];
-  /** The member who last changed a dish on a member menu. */
-  added_by: string | null;
-  updated_at: string | null;
 };
 
 /** What a person avoids. Only they can read it. */
@@ -46,7 +50,7 @@ export type FoodNeeds = { avoid: string[]; note: string | null };
 
 export type Place = {
   id: string;
-  source: "openstreetmap" | "brand";
+  source: "openstreetmap" | "brand" | "daangn" | "polle";
   name: string;
   name_en: string | null;
   kind: string;

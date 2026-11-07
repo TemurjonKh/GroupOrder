@@ -1,0 +1,87 @@
+{
+ "slug": "daangn-vxu2tkb373zk",
+ "name": "명륜진사갈비 인천제물포점",
+ "cuisine": "고기 구이",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EB%AA%85%EB%A5%9C%EC%A7%84%EC%82%AC%EA%B0%88%EB%B9%84-%EC%9D%B8%EC%B2%9C%EC%A0%9C%EB%AC%BC%ED%8F%AC%EC%A0%90-vxu2tkb373zk/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-10-10",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "daangn",
+  "source_id": "vxu2tkb373zk",
+  "name": "명륜진사갈비 인천제물포점",
+  "kind": "Restaurant",
+  "cuisine": "고기 구이",
+  "lat": 37.4660747,
+  "lng": 126.6571762,
+  "distance_m": 1882,
+  "address": "인천 미추홀구 경인로 132 1층",
+  "phone": "0328918292"
+ },
+ "dishes": [
+  {
+   "name": "명륜진사갈비 자유이용(성인)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 21900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "리버스탭 자유이용",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "소갈비살(150g)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 9000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "냉면(물/비빔)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 5900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "된장찌개",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

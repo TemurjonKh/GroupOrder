@@ -1,0 +1,111 @@
+{
+ "slug": "daangn-q28avv979uby",
+ "name": "어른이 되고 싶은 꼬마김밥",
+ "cuisine": "김밥",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EC%96%B4%EB%A5%B8%EC%9D%B4-%EB%90%98%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EA%BC%AC%EB%A7%88%EA%B9%80%EB%B0%A5-q28avv979uby/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-06-08",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "daangn",
+  "source_id": "q28avv979uby",
+  "name": "어른이 되고 싶은 꼬마김밥",
+  "kind": "Restaurant",
+  "cuisine": "김밥",
+  "lat": 37.4664311,
+  "lng": 126.6552405,
+  "distance_m": 1899,
+  "address": "인천 미추홀구 경인로 113",
+  "phone": "050714346707"
+ },
+ "dishes": [
+  {
+   "name": "고기땡초 꼬마김밥 3줄",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "치즈&햄 꼬마김밥 3줄",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "볶음김치 꼬마김밥 3줄",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "스팸 꼬마김밥 3줄",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "유부꼬마김밥 3줄",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "참치 꼬마 김밥 3줄",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "꼬마김밥 3줄",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

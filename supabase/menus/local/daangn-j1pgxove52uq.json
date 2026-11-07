@@ -1,0 +1,111 @@
+{
+ "slug": "daangn-j1pgxove52uq",
+ "name": "룽원양꼬치",
+ "cuisine": "일반 중식",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EB%A3%BD%EC%9B%90%EC%96%91%EA%BC%AC%EC%B9%98-j1pgxove52uq/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-06-02",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "daangn",
+  "source_id": "j1pgxove52uq",
+  "name": "룽원양꼬치",
+  "kind": "Restaurant",
+  "cuisine": "일반 중식",
+  "lat": 37.4660994,
+  "lng": 126.6587815,
+  "distance_m": 1915,
+  "address": "인천 미추홀구 경인로 146",
+  "phone": "0328766686"
+ },
+ "dishes": [
+  {
+   "name": "고급양갈비",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 16000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "꿔보러우",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 9900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "양꼬치",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 11000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "마라가재꼬리",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 12000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "마라룽샤",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 16000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "마라탕",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "마라샹궈",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 15000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

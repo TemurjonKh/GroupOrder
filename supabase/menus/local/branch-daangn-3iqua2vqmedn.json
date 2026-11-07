@@ -1,0 +1,139 @@
+{
+ "slug": "branch-daangn-3iqua2vqmedn",
+ "name": "한신우동",
+ "cuisine": "우동/소바",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%ED%95%9C%EC%8B%A0%EC%9A%B0%EB%8F%99-%EA%B5%90%ED%95%98%EC%A0%90-3iqua2vqmedn/",
+ "source_site": "Daangn",
+ "source_note": "Posted on Daangn by another branch (한신우동 교하점), not the one near Inha, so prices and dishes here may differ.",
+ "source_updated": "2026-06-14",
+ "checked": "2026-11-07",
+ "place": null,
+ "branches": [
+  "node/13986242546"
+ ],
+ "dishes": [
+  {
+   "name": "왕돈까스",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 13000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "매운돈까스",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 13000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "즉석우동(순한맛.보통맛.매운맛)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 8500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "즉석우동 곱빼기(순한맛.보통맛.매운맛",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "어묵우동(순한맛.보통맛.매운맛)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 9500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "어묵우동 곱빼기(순한맛.보통맛.매운맛",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "비빔우동",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 9500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "왕만두",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 7500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "튀김만두",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 7500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "매콤무뼈닭발+어묵탕",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 16000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

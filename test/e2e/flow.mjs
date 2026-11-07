@@ -232,54 +232,38 @@ await step("food map: meals by default, a price limit, and the new quick filters
   await temur.getByLabel("Search meals and places").fill("");
   await temur.getByRole("button", { name: "No pork or alcohol" }).click();
 });
-await step("a member types in a local restaurant's menu, and the search finds it", async () => {
-  await temur.getByLabel("Search meals and places").fill("가마솥순대국");
-  await temur.getByRole("tab", { name: /Places/ }).click();
-  await temur.getByRole("link", { name: "Add its menu" }).first().click();
-  await temur.getByRole("heading", { name: "가마솥순대국" }).waitFor();
-  await see(temur, "No menu yet");
-  await temur.getByLabel("Dish name").fill("순대국");
-  await temur.getByLabel("Price in won").fill("9,000");
-  await temur.getByLabel("What's inside").fill("순대, 돼지 머리고기, 들깨");
-  await temur.getByRole("button", { name: "Add dish" }).click();
-  await see(temur, "Saved. It is on the menu");
-  await see(temur, "Typed in by GroupOrder members");
-  const tile = temur.locator("details", { hasText: "순대국" }).first();
-  // Temur avoids pork, and the ingredients name it, even though no allergens were checked.
-  await tile.getByText(/Contains: Pork/).waitFor();
-  await tile.locator("summary").click();
-  await tile.getByText("did not check with the restaurant").waitFor();
-  await tile.getByRole("link", { name: "Change" }).click();
-  await temur.getByRole("heading", { name: "Change 순대국" }).waitFor();
-  await temur.getByLabel("Price in won").fill("9500");
-  await temur.getByRole("button", { name: "Save changes" }).click();
-  await temur.locator("details", { hasText: "₩9,500" }).first().waitFor();
-  await temur.getByText("Add several at once").click();
-  await temur.getByLabel("Dishes, one per line").fill("순대 한 접시 12,000\n공기밥 1000");
-  await temur.getByRole("button", { name: "Add these dishes" }).click();
-  await see(temur, "Added 2 dishes");
-  await temur.locator("details", { hasText: "₩12,000" }).first().waitFor();
-  await shot(temur, "25-member-menu");
-
+await step("independent restaurants' menus are searchable and say where they came from", async () => {
   await temur.goto(`${BASE}/map`);
-  await temur.getByLabel("Search meals and places").fill("순대국");
-  // It has no allergen data, so only the "no data" setting shows it, and pork hides it even then.
+  await temur.getByLabel("Search meals and places").fill("짬뽕");
+  // Local menus have no allergen data, so only the "no data" setting shows them.
   await temur.getByLabel("Also show").check();
-  // The search also matches the restaurant's name, so its rice and sundae plate show; the soup must not.
-  await temur.locator("main details summary", { hasText: "공기밥" }).first().waitFor();
-  if (await temur.locator("main details summary", { hasText: "₩9,500" }).count()) throw new Error("pork soup shown to someone avoiding pork");
+  await temur.locator("main details summary", { hasText: "짬뽕" }).first().waitFor();
+  await see(temur, "menu from Polle");
+  // Temur avoids pork: a dish named for pork stays hidden even with no allergen data.
+  await temur.getByLabel("Search meals and places").fill("돼지국밥");
+  await see(temur, "Meals (0)");
   await temur.getByRole("button", { name: "No pork", exact: true }).click();
-  await temur.locator("main details summary", { hasText: "₩9,500" }).first().waitFor();
-  await see(temur, "menu typed in by members");
+  await temur.locator("main details summary", { hasText: "돼지국밥" }).first().waitFor();
   await temur.getByRole("button", { name: "No pork", exact: true }).click();
   await temur.getByLabel("Only meals with nothing").check();
 
+  await temur.getByLabel("Search meals and places").fill("삼일반점");
+  await temur.getByRole("tab", { name: /Places/ }).click();
+  await temur.getByRole("link", { name: "Open menu" }).first().click();
+  await temur.getByRole("heading", { name: "삼일반점" }).waitFor();
+  await see(temur, "Typed in by Polle users");
+  await temur.getByRole("link", { name: "See it on Polle" }).waitFor();
+  await temur.locator("details", { hasText: "₩" }).first().waitFor();
+  if (await temur.getByRole("button", { name: /Add|Save|Remove/ }).count()) throw new Error("a local menu can be edited");
+  await shot(temur, "25-local-menu");
+
+  await temur.goto(`${BASE}/map`);
   // A chain's branch keeps the brand's menu, with no way to change it.
   await temur.getByLabel("Search meals and places").fill("써브웨이");
   await temur.getByRole("tab", { name: /Places/ }).click();
   await temur.getByRole("link", { name: "Open menu" }).first().click();
-  await see(temur, "from the brand's own site");
-  if (await temur.getByRole("heading", { name: "Add a dish" }).count()) throw new Error("brand menu can be edited");
+  await see(temur, "own site. A branch may not sell every dish");
+  if (await temur.getByRole("button", { name: /Add|Save|Remove/ }).count()) throw new Error("brand menu can be edited");
 });
 await step("Minji logs in on a phone", async () => {
   await login(minji, "minji@demo.test");

@@ -1,0 +1,75 @@
+{
+ "slug": "daangn-b5iiwa48jmh8",
+ "name": "보드람치킨 제물포역점",
+ "cuisine": "치킨/닭강정",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EB%B3%B4%EB%93%9C%EB%9E%8C%EC%B9%98%ED%82%A8-%EC%A0%9C%EB%AC%BC%ED%8F%AC%EC%97%AD%EC%A0%90-b5iiwa48jmh8/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-06-02",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "daangn",
+  "source_id": "b5iiwa48jmh8",
+  "name": "보드람치킨 제물포역점",
+  "kind": "Restaurant",
+  "cuisine": "치킨/닭강정",
+  "lat": 37.4671291,
+  "lng": 126.6571595,
+  "distance_m": 1998,
+  "address": "인천 미추홀구 숙골로43번길 158-19",
+  "phone": "0328858490"
+ },
+ "dishes": [
+  {
+   "name": "보드람치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 19000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "보드람 양념치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 21000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "순살 후라이드",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 20000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "순살 양념치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 22000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

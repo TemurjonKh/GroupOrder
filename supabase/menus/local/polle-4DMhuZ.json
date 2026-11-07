@@ -1,0 +1,151 @@
+{
+ "slug": "polle-4DMhuZ",
+ "name": "913",
+ "cuisine": "카페",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/4DMhuZ",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "openstreetmap",
+  "source_id": "node/13986242526"
+ },
+ "dishes": [
+  {
+   "name": "크림치즈 망고빙수",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 13900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "제주말차 팥빙수",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 12900,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "수박 에이드",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 6000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "싱글오리진 브루잉 커피",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": null,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "휘낭시에",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "토마토주스",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 6000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "키위주스",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 6000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "크로플 싱글/더블",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 6500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "아메리카노",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4500,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "카페라떼",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4800,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "카푸치노",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 5000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

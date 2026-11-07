@@ -1,0 +1,163 @@
+{
+ "slug": "daangn-3g7bkp4rdww5",
+ "name": "스시만",
+ "cuisine": "초밥",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EC%8A%A4%EC%8B%9C%EB%A7%8C-3g7bkp4rdww5/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-09-04",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "openstreetmap",
+  "source_id": "node/13986242528"
+ },
+ "dishes": [
+  {
+   "name": "스시만Aㅡ12p",
+   "category": "Menu",
+   "description": "활어2참치1구운연어1생대하1갈릭1연어1 초새우1유부1(가리비,소라,오징어)중1우둔1장어1",
+   "photo": null,
+   "price": 15000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "스시만Bㅡ14p",
+   "category": "Menu",
+   "description": "활어3참치1구운연어1간장새우1생대하1갈릭1연어1 초새우1냉동1우둔1장어1타코와사비1",
+   "photo": null,
+   "price": 18000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "스시만Cㅡ15p",
+   "category": "Menu",
+   "description": "활어3참치1메카도로1도로1간장새우1연어2구운연어1생대하1갈릭1우둔1장어1성게알1",
+   "photo": null,
+   "price": 22000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "활어(광어)초밥ㅡ12p",
+   "category": "Menu",
+   "description": "완도광어산 긴꼬리 초밥",
+   "photo": null,
+   "price": 19000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "생연어초밥ㅡ12p",
+   "category": "Menu",
+   "description": "노르웨이산 긴꼬리 연어초밥",
+   "photo": null,
+   "price": 19000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "모둠새우초밥ㅡ12p",
+   "category": "Menu",
+   "description": "초새우4 간장새우4 생대하4",
+   "photo": null,
+   "price": 16000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "간장새우초밥ㅡ12p",
+   "category": "Menu",
+   "description": "감칠맛도는 간장새우",
+   "photo": null,
+   "price": 18000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "아카미(참치)초밥ㅡ12p",
+   "category": "Menu",
+   "description": "눈다랑어 등살",
+   "photo": null,
+   "price": 17000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "소고기초밥ㅡ10p",
+   "category": "Menu",
+   "description": "호주산 우둔살",
+   "photo": null,
+   "price": 16000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "초새우초밥ㅡ12p",
+   "category": "Menu",
+   "description": "4LH 사이즈",
+   "photo": null,
+   "price": 14000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "바다장어초밥ㅡ12p",
+   "category": "Menu",
+   "description": "바다장어",
+   "photo": null,
+   "price": 19000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "생대하초밥ㅡ12p",
+   "category": "Menu",
+   "description": "위에 토치질로 한번 구워서 만듭니다~!",
+   "photo": null,
+   "price": 17000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

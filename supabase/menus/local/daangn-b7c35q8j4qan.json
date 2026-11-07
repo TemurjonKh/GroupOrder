@@ -1,0 +1,75 @@
+{
+ "slug": "daangn-b7c35q8j4qan",
+ "name": "토이분식",
+ "cuisine": "일반 분식",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%ED%86%A0%EC%9D%B4%EB%B6%84%EC%8B%9D-b7c35q8j4qan/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-10-27",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "daangn",
+  "source_id": "b7c35q8j4qan",
+  "name": "토이분식",
+  "kind": "Restaurant",
+  "cuisine": "일반 분식",
+  "lat": 37.4668173,
+  "lng": 126.6568779,
+  "distance_m": 1959,
+  "address": "인천 미추홀구 경인로 129 지하상가72호(11번출구)",
+  "phone": "0328858969"
+ },
+ "dishes": [
+  {
+   "name": "김치볶음밥",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 5000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "떡볶이",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "우무",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "쫄면",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 5000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

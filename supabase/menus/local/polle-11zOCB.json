@@ -1,0 +1,99 @@
+{
+ "slug": "polle-11zOCB",
+ "name": "얼레꼴레 만두",
+ "cuisine": "만두",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/11zOCB",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "polle",
+  "source_id": "11zOCB",
+  "name": "얼레꼴레 만두",
+  "kind": "Restaurant",
+  "cuisine": "만두",
+  "lat": 37.44466446239325,
+  "lng": 126.66598557001564,
+  "distance_m": 1228,
+  "address": "인천 미추홀구 한나루로 420 학익동 월드타워 1층 114호",
+  "phone": "032-864-3330"
+ },
+ "dishes": [
+  {
+   "name": "떡만이",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "국물만두",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "떡순이",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "떡볶이",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "만두",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "순대",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

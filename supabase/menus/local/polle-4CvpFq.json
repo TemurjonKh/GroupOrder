@@ -1,0 +1,123 @@
+{
+ "slug": "polle-4CvpFq",
+ "name": "학익골 황소곱창구이",
+ "cuisine": "곱창류",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://polle.com/place/4CvpFq",
+ "source_site": "Polle",
+ "source_note": "Typed in by Polle users; prices may be out of date.",
+ "source_updated": null,
+ "checked": "2026-11-07",
+ "place": {
+  "source": "polle",
+  "source_id": "4CvpFq",
+  "name": "학익골 황소곱창구이",
+  "kind": "Restaurant",
+  "cuisine": "곱창류",
+  "lat": 37.43975008869,
+  "lng": 126.66873341139232,
+  "distance_m": 1726,
+  "address": "인천 미추홀구 매소홀로418번길 5 하나2차아파트 상가",
+  "phone": "032-872-5518"
+ },
+ "dishes": [
+  {
+   "name": "소곱창구이 200g",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 21000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "소막창구이 200g",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 21000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "한우대창구이 200g",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 21000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "염통구이 150g",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "소곱창전골 (2~3인분)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 40000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "간",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 5000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "천엽",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "날치알 김치 볶음밥",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 4000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

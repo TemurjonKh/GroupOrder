@@ -149,16 +149,6 @@ const ERROR_MESSAGES: Record<string, string> = {
   unknown_menu_item: "That dish is no longer on the menu.",
   invalid_invite_code: "That invite code does not exist.",
   group_needs_a_leader: "Promote another leader first: a group always needs one.",
-  menu_locked: "This menu comes from the brand, so it cannot be changed here.",
-  place_not_found: "That place is no longer on the map.",
-  dish_not_found: "That dish is no longer on the menu.",
-  dish_was_picked: "Someone has picked this dish, so it stays. You can still change it.",
-  bad_dish_name: "Please give the dish a name (up to 80 characters).",
-  bad_category: "Please keep the section name under 40 characters.",
-  bad_price: "Please enter the price in won, or leave it empty.",
-  bad_description: "Please keep the description under 300 characters.",
-  bad_ingredients: "Please list up to 30 ingredients, each under 40 characters.",
-  unknown_allergen: "One of the allergens is not on the list. Please reload and try again.",
 };
 
 /** Database functions raise short codes; turn them into a sentence for the user. */

@@ -1,0 +1,127 @@
+{
+ "slug": "daangn-q5xiuhr2cexc",
+ "name": "고씨네오리",
+ "cuisine": "닭/오리 요리",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EA%B3%A0%EC%94%A8%EB%84%A4%EC%98%A4%EB%A6%AC-%EC%9D%B8%ED%95%98%EB%8C%80%EC%A0%90-q5xiuhr2cexc/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-10-09",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "openstreetmap",
+  "source_id": "node/13986242569"
+ },
+ "dishes": [
+  {
+   "name": "고씨네한상",
+   "category": "Menu",
+   "description": "오리로스or오리주물럭 선택1 뚝배기오리전골 볶음밥",
+   "photo": null,
+   "price": 39000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "반반오리",
+   "category": "Menu",
+   "description": "오리로스300g+오리주물럭300g",
+   "photo": null,
+   "price": 43000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "오리구이 반마리(500g)",
+   "category": "Menu",
+   "description": "주물럭or로스 선택",
+   "photo": null,
+   "price": 35000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "오리구이 한마리(1kg)",
+   "category": "Menu",
+   "description": "로스or주물럭 선택1",
+   "photo": null,
+   "price": 65000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "오리로스1인분추가",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "오리주물럭1인분추가",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 10000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "셀프볶음밥",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "셀프주먹밥",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 3000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "막국수 (물/비빔)",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 7000,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}

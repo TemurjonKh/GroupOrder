@@ -1,0 +1,63 @@
+{
+ "slug": "daangn-hc9fr55sgaor",
+ "name": "본 치킨",
+ "cuisine": "치킨/닭강정",
+ "logo": null,
+ "logo_bg": null,
+ "delivery_link": null,
+ "source": "https://www.daangn.com/kr/local-profile/%EB%B3%B8-%EC%B9%98%ED%82%A8-hc9fr55sgaor/",
+ "source_site": "Daangn",
+ "source_note": "Posted by the business on Daangn. It may not list every dish.",
+ "source_updated": "2026-07-15",
+ "checked": "2026-11-07",
+ "place": {
+  "source": "daangn",
+  "source_id": "hc9fr55sgaor",
+  "name": "본 치킨",
+  "kind": "Restaurant",
+  "cuisine": "치킨/닭강정",
+  "lat": 37.4591352675308,
+  "lng": 126.639500585841,
+  "distance_m": 1637,
+  "address": "인천광역시 미추홀구 능해길 31, 1층 (용현동)",
+  "phone": "0328895592"
+ },
+ "dishes": [
+  {
+   "name": "파닭",
+   "category": "Menu",
+   "description": "맛 평가가 있는 메뉴",
+   "photo": null,
+   "price": 0,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "순살 바베큐 치킨",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 0,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  },
+  {
+   "name": "순살 후레쉬 찜닭",
+   "category": "Menu",
+   "description": null,
+   "photo": null,
+   "price": 0,
+   "ingredients": [],
+   "contains": null,
+   "may_contain": null,
+   "allergen_source": null,
+   "allergen_note": null
+  }
+ ]
+}
