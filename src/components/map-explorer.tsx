@@ -10,7 +10,8 @@ import { BrandLogo, DishPhoto, inputStyles, textLink } from "./ui";
 import { DIETS, LABELLED, NAMED_ONLY, SEARCH_SHORTCUTS, checkDish, dietItemLabel, type DishCheck } from "@/lib/diet";
 import { DISH_KINDS, dishKind, type DishKind } from "@/lib/dish-kind";
 import { formatKrw } from "@/lib/round";
-import type { FoodNeeds, MenuItem, Place, Restaurant } from "@/lib/types";
+import { type CompactDish, fullDish } from "@/lib/map-dish";
+import type { FoodNeeds, MapDish, Place, Restaurant } from "@/lib/types";
 
 const CAMPUS = { lat: 37.4494108, lng: 126.6534266 };
 const RADIUS_M = 2000;
@@ -21,7 +22,7 @@ const TILE_URL = process.env.NEXT_PUBLIC_MAP_TILE_URL ?? "https://tile.openstree
 const ORDER = { clear: 0, caution: 1, unknown: 2, avoid: 3 };
 const PRICE_CAPS = [5000, 10000, 15000, 20000];
 
-type Dish = MenuItem & { check: DishCheck | null };
+type Dish = MapDish & { check: DishCheck | null };
 
 /** Builds a line of popup text. Place details come from outside, so they are only ever set as text. */
 function popupLine(parent: HTMLElement, value: string | null, bold = false) {
@@ -64,11 +65,12 @@ const chip = (on: boolean) =>
     on ? "border-ink bg-ink text-page" : "border-line bg-surface hover:border-ink"
   }`;
 
-export function MapExplorer({ places, restaurants, needs }: {
+export function MapExplorer({ places, restaurants: sent, needs }: {
   places: Place[];
-  restaurants: (Restaurant & { menu_items: MenuItem[] })[];
+  restaurants: (Restaurant & { menu_items: CompactDish[] })[];
   needs: FoodNeeds | null;
 }) {
+  const restaurants = useMemo(() => sent.map((r) => ({ ...r, menu_items: r.menu_items.map(fullDish) })), [sent]);
   const [query, setQuery] = useState("");
   const [avoid, setAvoid] = useState<string[]>(needs?.avoid ?? []);
   const [useNote, setUseNote] = useState(Boolean(needs?.note));
@@ -78,6 +80,8 @@ export function MapExplorer({ places, restaurants, needs }: {
   const [sort, setSort] = useState<"near" | "cheap">("near");
   const [tab, setTab] = useState<"meals" | "places">("meals");
   const [opened, setOpened] = useState<Set<string>>(new Set());
+  // A dish's facts are only built once it is opened, which keeps the page light.
+  const [unfolded, setUnfolded] = useState<Set<string>>(new Set());
   // A new search starts with every restaurant folded again.
   const collapse = () => setOpened(new Set());
   const [selected, setSelected] = useState<string | null>(null);
@@ -107,7 +111,7 @@ export function MapExplorer({ places, restaurants, needs }: {
   const { matches, hiddenByKind } = useMemo(() => {
     const byRestaurant = new Map<string, Dish[]>();
     let hidden = 0;
-    const shownKind = (dish: MenuItem) => kinds.length === 0 || kinds.includes(kindOf.get(dish.id) ?? "meal");
+    const shownKind = (dish: MapDish) => kinds.length === 0 || kinds.includes(kindOf.get(dish.id) ?? "meal");
     for (const restaurant of restaurants) {
       const passing = restaurant.menu_items
         // A dish with no price is hidden by a price cap: its price is unknown, not zero.
@@ -376,7 +380,8 @@ export function MapExplorer({ places, restaurants, needs }: {
                   <ul className="mt-3 space-y-2">
                     {dishes.slice(0, opened.has(restaurant.id) ? undefined : PAGE_SIZE).map((dish) => (
                       <li key={dish.id}>
-                        <details className="rounded-[20px] border border-line bg-surface transition-colors open:border-ink">
+                        <details className="rounded-[20px] border border-line bg-surface transition-colors open:border-ink"
+                          onToggle={(event) => event.currentTarget.open && setUnfolded((current) => new Set(current).add(dish.id))}>
                           <summary className="flex cursor-pointer list-none items-center gap-3 p-2.5 [&::-webkit-details-marker]:hidden">
                             <DishPhoto src={dish.photo} size={72} />
                             <span className="min-w-0 flex-1">
@@ -385,10 +390,12 @@ export function MapExplorer({ places, restaurants, needs }: {
                               {dish.check && <span className="mt-1 block"><FoodBadge check={dish.check} /></span>}
                             </span>
                           </summary>
-                          <div className="px-3.5 pb-3.5">
-                            {dish.description && <p className="mb-2 text-sm text-muted">{dish.description}</p>}
-                            <DishFacts dish={dish} check={dish.check} local={Boolean(restaurant.menu_source_name)} />
-                          </div>
+                          {unfolded.has(dish.id) && (
+                            <div className="px-3.5 pb-3.5">
+                              {dish.description && <p className="mb-2 text-sm text-muted">{dish.description}</p>}
+                              <DishFacts dish={dish} check={dish.check} local={Boolean(restaurant.menu_source_name)} />
+                            </div>
+                          )}
                         </details>
                       </li>
                     ))}

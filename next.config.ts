@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
+    // Vercel's free plan resizes a limited number of images a month. IMAGES_UNOPTIMIZED=1 serves
+    // the brands' originals instead, if that limit is reached.
+    unoptimized: process.env.IMAGES_UNOPTIMIZED === "1",
     // Brand photos are large, so they are resized on demand. Add a host here for each new brand.
     remotePatterns: [
       { protocol: "https", hostname: "static.bbqorder.co.kr" },

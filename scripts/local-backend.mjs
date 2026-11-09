@@ -204,16 +204,22 @@ function buildQuery(schema, table, url) {
   const param = (value) => { params.push(value); return `($${params.length}::text)`; };
 
   const filters = new Map(); // "" for the main table, else the embed path
+  const embedOrders = new Map(); // embed path -> "menu_items.order=sort_order.asc"
   for (const [key, value] of url.searchParams) {
     if (["select", "order", "limit", "columns"].includes(key)) continue;
     const dot = key.lastIndexOf(".");
     const path = dot < 0 ? "" : key.slice(0, dot);
     const column = key.slice(dot + 1);
+    if (column === "order") { embedOrders.set(path, value); continue; }
     const split = value.indexOf(".");
     const [op, operand] = [value.slice(0, split), value.slice(split + 1)];
     if (!filters.has(path)) filters.set(path, []);
     filters.get(path).push({ column, op, operand });
   }
+  const orderBy = (terms, alias) => (terms ?? "").split(",").filter(Boolean).map((term) => {
+    const [column, direction] = term.split(".");
+    return `${alias}.${ident(column)} ${direction === "desc" ? "desc" : "asc"}`;
+  });
   const where = (path, alias) => (filters.get(path) ?? []).map(({ column, op, operand }) => {
     const col = `${alias}.${ident(column)}`;
     if (op === "eq") return `${col}::text = ${param(operand)}`;
@@ -251,7 +257,8 @@ function buildQuery(schema, table, url) {
       }
       const nested = [];
       const columns = selectList(node.table, child, node.children, childPath, nested);
-      const inner = `select ${columns.join(", ")} ${from}${nested.map((n) => ` and ${n}`).join("")}`;
+      const sorted = orderBy(embedOrders.get(childPath), child);
+      const inner = `select ${columns.join(", ")} ${from}${nested.map((n) => ` and ${n}`).join("")}${sorted.length ? ` order by ${sorted.join(", ")}` : ""}`;
       return toOne.length
         ? `(select to_json(s) from (${inner}) s) as ${name}`
         : `coalesce((select json_agg(s) from (${inner}) s), '[]'::json) as ${name}`;
@@ -261,10 +268,7 @@ function buildQuery(schema, table, url) {
   const conditions = [];
   const columns = selectList(table, "t0", parseSelect(url.searchParams.get("select") ?? "*"), "", conditions);
   conditions.push(...where("", "t0"));
-  const order = (url.searchParams.get("order") ?? "").split(",").filter(Boolean).map((term) => {
-    const [column, direction] = term.split(".");
-    return `t0.${ident(column)} ${direction === "desc" ? "desc" : "asc"}`;
-  });
+  const order = orderBy(url.searchParams.get("order"), "t0");
   const limit = Number(url.searchParams.get("limit"));
   const rowsSql = [
     `select ${columns.join(", ")} from public.${ident(table)} t0`,

@@ -45,6 +45,10 @@ export type MenuItem = {
   allergen_gaps: string[];
 };
 
+/** A dish as the food map gets it: everything it shows or searches, nothing it does not. */
+export type MapDish = Omit<MenuItem, "restaurant_id" | "sort_order" | "options">;
+export const MAP_DISH_COLUMNS = "id, name, photo, price, category, description, contains, may_contain, ingredients, allergen_source, allergen_note, allergen_gaps";
+
 /** What a person avoids. Only they can read it. */
 export type FoodNeeds = { avoid: string[]; note: string | null };
 

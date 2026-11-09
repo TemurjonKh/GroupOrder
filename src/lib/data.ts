@@ -1,8 +1,9 @@
 import { cache } from "react";
 import { redirect } from "next/navigation";
 import { createClient } from "./supabase/server";
+import { compactDish } from "./map-dish";
 import { answerCounts, memberAnswers } from "./round";
-import type { FoodNeeds, Group, Member, MenuItem, OrderPick, Place, Restaurant, Round } from "./types";
+import { MAP_DISH_COLUMNS, type FoodNeeds, type Group, type MapDish, type Member, type MenuItem, type OrderPick, type Place, type Restaurant, type Round } from "./types";
 
 export const PICK_COLUMNS =
   "id, round_id, user_id, qty, options, note, price_at_pick, status, menu_item:menu_items(*, restaurant:restaurants(*))";
@@ -109,11 +110,12 @@ export async function getMapData() {
   const { supabase } = await getUser();
   const [{ data: places }, { data: restaurants }] = await Promise.all([
     supabase.from("places").select("*").order("distance_m"),
-    supabase.from("restaurants").select("*, menu_items(*)").order("name"),
+    // The page carries every dish to the browser, so only the columns the map uses, in menu order.
+    supabase.from("restaurants").select(`*, menu_items(${MAP_DISH_COLUMNS})`).order("name")
+      .order("sort_order", { referencedTable: "menu_items" }),
   ]);
-  const menus = (restaurants ?? []) as (Restaurant & { menu_items: MenuItem[] })[];
-  menus.forEach((r) => r.menu_items.sort((a, b) => a.sort_order - b.sort_order));
-  return { places: (places ?? []) as Place[], restaurants: menus };
+  const menus = (restaurants ?? []) as (Restaurant & { menu_items: MapDish[] })[];
+  return { places: (places ?? []) as Place[], restaurants: menus.map((r) => ({ ...r, menu_items: r.menu_items.map(compactDish) })) };
 }
 
 /** One place on the map, with the menu it serves: a brand's, one members typed in, or none. */

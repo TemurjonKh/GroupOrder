@@ -34,13 +34,19 @@ cannot follow them yet.
 
 ## Run it on a real Supabase project
 
-1. In the Supabase SQL Editor, run these files in order:
-   - `supabase/migrations/20261106000000_schema.sql`
-   - `supabase/migrations/20261106000100_reminders_cron.sql`
-   - `supabase/migrations/20261106000200_leader_edit_and_location.sql`
-   - `supabase/migrations/20261106000300_always_open_and_real_menus.sql`
-   - `supabase/migrations/20261106000400_food_needs_and_places.sql`
-   - `supabase/seed.sql` (the real menus and the places around Inha)
+1. Create the project in the **Seoul (ap-northeast-2)** region, next to Vercel's `icn1` functions.
+   In the Supabase SQL Editor, run every file in `supabase/migrations/` in name order, then
+   `supabase/seed.sql`:
+   - `20261106000000_schema.sql`
+   - `20261106000100_reminders_cron.sql` (turns on `pg_cron` for reminders)
+   - `20261106000200_leader_edit_and_location.sql`
+   - `20261106000300_always_open_and_real_menus.sql`
+   - `20261106000400_food_needs_and_places.sql`
+   - `20261107000000_member_menus_and_diets.sql`
+   - `20261107000100_read_only_local_menus.sql`
+   - `supabase/seed.sql` (the menus and the places around Inha, 1.5 MB). If the editor rejects a
+     file that size, run it with `psql "<connection string>" -f supabase/seed.sql`, using the
+     connection string from **Connect** in the Supabase dashboard.
 2. For quick testing, turn off **Authentication > Sign In / Providers > Confirm email**.
    If it stays on, set the Site URL and add `<your site>/auth/callback` to the redirect
    URLs under **Authentication > URL Configuration**.
@@ -162,7 +168,29 @@ npm run build
 `npm test` runs the real migration on embedded Postgres (PGlite) as client roles, so the
 access rules are tested without Docker or a Supabase project.
 
-## Deploy
+## Deploy to Vercel
 
-Import the repo in Vercel and set the same two environment variables. Add the deployed
-URL to Supabase's redirect URLs.
+1. Set up Supabase as in "Run it on a real Supabase project" above.
+2. In Vercel, **Add New > Project**, import `TemurjonKh/GroupOrder`. The defaults are right
+   (Next.js, `npm run build`); `vercel.json` puts the functions in Seoul and `package.json` asks for Node 24.
+3. Under **Environment Variables**, add:
+
+   | Name | Value |
+   |---|---|
+   | `NEXT_PUBLIC_SUPABASE_URL` | Project URL, from Supabase **Project Settings > API** |
+   | `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | The publishable key from the same page |
+   | `NEXT_PUBLIC_MAP_TILE_URL` | Optional: a tile provider's URL, before real traffic (see Food map) |
+   | `IMAGES_UNOPTIMIZED` | Optional: `1` if Vercel's monthly image limit runs out |
+
+   Never set `NEXT_PUBLIC_LOCAL_BACKEND` there: it is for local mode only.
+4. Deploy. Then in Supabase **Authentication > URL Configuration**, set the Site URL to the
+   Vercel address and add `https://<your-app>.vercel.app/auth/callback` to the redirect URLs.
+5. Sign up with a real email and check: sign-up and login, creating a group, a pick appearing live
+   in a second browser, and a reminder (pg_cron runs every 2 minutes). These are the parts only
+   tested in local mode so far.
+
+- **The food map page carries every dish** (about 2.4 MB before compression, 0.4 MB compressed),
+  under Vercel's 4.5 MB response limit. Adding many more menus would need the search to move to
+  the server.
+- **Brand content.** The menus, photos and logos belong to the brands, Daangn and Polle. Keep the
+  deployment private (Vercel **Deployment Protection**) until there is permission for a public launch.

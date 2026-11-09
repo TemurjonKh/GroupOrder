@@ -176,3 +176,17 @@ describe("the database's lists of food keys", () => {
     expect(list("allergen_keys")).toEqual([...LABELLED, ...NAMED_ONLY].map((i) => i.key).sort());
   });
 });
+
+describe("map dishes sent compact", () => {
+  it("drop blank fields and restore them, keeping an empty allergen list apart from no data", async () => {
+    const { compactDish, fullDish } = await import("../src/lib/map-dish");
+    const dish = {
+      id: "d", name: "김밥", category: "Menu", photo: null, price: null, description: null, contains: [] as string[],
+      may_contain: null, ingredients: [] as string[], allergen_source: "brand", allergen_note: null, allergen_gaps: [] as string[],
+    };
+    const compact = compactDish(dish);
+    expect(compact).toEqual({ id: "d", name: "김밥", category: "Menu", contains: [], allergen_source: "brand" });
+    expect(fullDish(compact)).toEqual(dish);
+    expect(fullDish(compactDish({ ...dish, contains: null, allergen_source: null })).contains).toBeNull();
+  });
+});
