@@ -54,7 +54,19 @@ export async function signUp(_: ActionState, form: FormData): Promise<ActionStat
     if (error.code === "weak_password") return { error: "Please use a longer password (at least 6 characters)." };
     if (error.code === "user_already_exists") return { error: "That email already has an account. Please log in." };
     if (error.code === "validation_failed" || error.code === "email_address_invalid") return { error: "Please check your email address." };
-    return { error: "Could not create the account. Please try again." };
+    // Shows up in the hosting logs (Vercel > Logs), with Supabase's own reason.
+    console.error("sign-up failed", error.code, error.status, error.message);
+    if (error.code === "over_email_send_rate_limit") {
+      return { error: "Too many confirmation emails were sent. Wait an hour, or turn off \"Confirm email\" in Supabase for testing." };
+    }
+    if (error.code === "email_address_not_authorized") {
+      return { error: "Supabase's built-in email only sends to its project team. Turn off \"Confirm email\" in Supabase, or set up your own SMTP." };
+    }
+    if (error.code === "signup_disabled") return { error: "Sign-up is turned off in Supabase (Authentication > Sign In / Providers)." };
+    if (error.code === "unexpected_failure" || /database error/i.test(error.message)) {
+      return { error: "The database is not set up yet: run the files in supabase/migrations, then supabase/seed.sql." };
+    }
+    return { error: `Could not create the account: ${error.message}` };
   }
   if (!data.session) return { ok: "Almost done: check your email and click the confirmation link." };
   redirect(`/account/food?welcome=1&next=${encodeURIComponent(next)}`);
