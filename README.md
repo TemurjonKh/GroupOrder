@@ -44,6 +44,7 @@ cannot follow them yet.
    - `20261106000400_food_needs_and_places.sql`
    - `20261107000000_member_menus_and_diets.sql`
    - `20261107000100_read_only_local_menus.sql`
+   - `20261109000000_backfill_profiles.sql` (gives a profile to anyone who signed up before this setup)
    - `supabase/seed.sql` (the menus and the places around Inha, 1.5 MB). If the editor rejects a
      file that size, run it with `psql "<connection string>" -f supabase/seed.sql`, using the
      connection string from **Connect** in the Supabase dashboard.

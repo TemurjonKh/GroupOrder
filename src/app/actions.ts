@@ -78,7 +78,16 @@ export async function saveFoodNeeds(_: ActionState, form: FormData): Promise<Act
     p_avoid: form.getAll("avoid").map(String),
     p_note: text(form, "note"),
   });
-  if (error) return { error: "Could not save your list. Please try again." };
+  if (error) {
+    console.error("saving food needs failed", error.code, error.message);
+    if (error.code === "PGRST202" || error.code === "42883") {
+      return { error: "The database is not set up yet: run the files in supabase/migrations in order, then supabase/seed.sql." };
+    }
+    if (error.code === "23503") {
+      return { error: "Your account was made before the database was set up. Run supabase/migrations/20261109000000_backfill_profiles.sql in Supabase, then save again." };
+    }
+    return { error: `Could not save your list: ${error.message}` };
+  }
   revalidatePath("/", "layout");
   if (form.get("next")) redirect(safeNext(form.get("next")));
   return { ok: "Saved. Menus and the map now check against this list." };
