@@ -5,6 +5,15 @@ const PUBLIC_PATHS = ["/login", "/signup", "/auth/callback"];
 
 // Refreshes the login session on every request and sends logged-out visitors to /login.
 export async function proxy(request: NextRequest) {
+  // Without these the Supabase client throws and every page is a bare 500, so say what is missing.
+  // They are read at build time: after adding them in Vercel, redeploy.
+  if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY) {
+    return new NextResponse(
+      "GroupOrder is not set up yet: NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY are missing.\n"
+        + "Add both in Vercel (Settings > Environment Variables), then redeploy.\n",
+      { status: 503, headers: { "content-type": "text/plain; charset=utf-8" } },
+    );
+  }
   let response = NextResponse.next({ request });
   const supabase = createServerClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
