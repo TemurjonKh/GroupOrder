@@ -1,0 +1,56 @@
+# Applies new files in supabase/migrations to the Supabase project on every push to main, and loads
+# the menus (supabase/seed.sql) once, while the database has none. Supabase records which
+# migrations ran, so each runs only once.
+#
+# Needs two repository secrets (Settings > Secrets and variables > Actions):
+#   SUPABASE_ACCESS_TOKEN  supabase.com > your avatar > Access Tokens
+#   SUPABASE_DB_PASSWORD   the database password (Project Settings > Database)
+name: Database
+
+on:
+  push:
+    branches: [main]
+    paths: ["supabase/migrations/**", "supabase/seed.sql", "supabase/config.toml", ".github/workflows/supabase.yml"]
+  workflow_dispatch:
+    inputs:
+      already_applied:
+        description: "Migrations you ran by hand in the SQL Editor, as versions separated by spaces (e.g. 20261106000000 20261106000100)"
+        required: false
+        default: ""
+
+concurrency: database
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+      PROJECT_REF: czafgvqkohaartqvxndk
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the secrets are set
+        run: |
+          test -n "$SUPABASE_ACCESS_TOKEN" || { echo "::error::The SUPABASE_ACCESS_TOKEN secret is missing."; exit 1; }
+          test -n "$SUPABASE_DB_PASSWORD" || { echo "::error::The SUPABASE_DB_PASSWORD secret is missing."; exit 1; }
+
+      - uses: supabase/setup-cli@v1
+        with:
+          version: 2.122.1
+
+      - name: Connect to the project
+        run: supabase link --project-ref "$PROJECT_REF" --password "$SUPABASE_DB_PASSWORD"
+
+      - name: Record migrations that were run by hand
+        if: ${{ github.event.inputs.already_applied != '' }}
+        run: supabase migration repair --status applied ${{ github.event.inputs.already_applied }} --password "$SUPABASE_DB_PASSWORD"
+
+      - name: Migrations before
+        run: supabase migration list --password "$SUPABASE_DB_PASSWORD"
+
+      - name: Apply new migrations, and the menus if there are none
+        run: supabase db push --include-seed --password "$SUPABASE_DB_PASSWORD"
+
+      - name: Migrations after
+        run: supabase migration list --password "$SUPABASE_DB_PASSWORD"

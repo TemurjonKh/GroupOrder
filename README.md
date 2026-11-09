@@ -48,6 +48,12 @@ cannot follow them yet.
    - `supabase/seed.sql` (the menus and the places around Inha, 1.5 MB). If the editor rejects a
      file that size, run it with `psql "<connection string>" -f supabase/seed.sql`, using the
      connection string from **Connect** in the Supabase dashboard.
+   **Or let GitHub do it:** `.github/workflows/supabase.yml` applies new migrations on every push to
+   `main` and loads the menus once, while the database has none. Add the repository secrets
+   `SUPABASE_ACCESS_TOKEN` (supabase.com > your avatar > Access Tokens) and `SUPABASE_DB_PASSWORD`
+   (the database password), and set `PROJECT_REF` in the workflow if you use another project. If
+   you already ran some files by hand, run the workflow from the **Actions** tab and list their
+   versions under "already applied", so they are not run twice.
 2. For quick testing, turn off **Authentication > Sign In / Providers > Confirm email**.
    If it stays on, set the Site URL and add `<your site>/auth/callback` to the redirect
    URLs under **Authentication > URL Configuration**.

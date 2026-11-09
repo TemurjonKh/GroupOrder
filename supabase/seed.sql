@@ -3,6 +3,15 @@
 -- A null price or null allergen list means the brand does not publish one.
 -- Independent restaurants: menus from Daangn business profiles and Polle place pages, no allergen data.
 -- Places: © OpenStreetMap contributors (ODbL), Burger King Korea's store finder, Daangn and Polle.
+--
+-- Safe to run again: it loads nothing when the database already has restaurants, so the GitHub
+-- Action can run it on every push. To reload changed menus, empty the menus by hand first.
+do $seed$
+begin
+if exists (select 1 from public.restaurants) then
+  raise notice 'Menus are already loaded; seed.sql changed nothing.';
+  return;
+end if;
 
 with r as (
   insert into public.restaurants (name, cuisine, logo, logo_bg, delivery_link, place_id, address, lat, lng, phone,
@@ -6373,3 +6382,5 @@ update public.places set restaurant_id = (select id from public.restaurants wher
   where source = 'openstreetmap' and source_id in ('node/13986242579');
 update public.places set restaurant_id = (select id from public.restaurants where name = '투썸플레이스' and menu_source = 'https://www.daangn.com/kr/local-profile/%ED%88%AC%EC%8D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4-%EC%97%AC%EC%9D%98%EB%8F%84%EB%A1%AF%EB%8D%B0%EC%BA%90%EC%8A%AC%EC%95%84%EC%9D%B4%EB%B9%84%EC%A0%90-w51mjkyxrgdh/')
   where source = 'openstreetmap' and source_id in ('node/13986167619');
+end
+$seed$;
