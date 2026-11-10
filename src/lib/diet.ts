@@ -112,6 +112,17 @@ export type DishCheck = {
 };
 
 /** Checks one dish against what a person avoids. Null when they avoid nothing. */
+// Dishes the person can eat first, then no data, then "may contain", then what they avoid.
+const LEVEL_ORDER: Record<DishLevel, number> = { clear: 0, unknown: 1, caution: 2, avoid: 3 };
+
+/** Sorts a menu section so what someone can eat comes first; the menu's own order breaks ties. */
+export function canEatFirst<T>(dishes: T[], check: (dish: T) => DishCheck | null): T[] {
+  return dishes
+    .map((dish, i) => ({ dish, i, rank: LEVEL_ORDER[check(dish)?.level ?? "clear"] }))
+    .sort((a, b) => a.rank - b.rank || a.i - b.i)
+    .map((x) => x.dish);
+}
+
 export function checkDish(dish: DishFacts, avoid: string[], note?: string | null): DishCheck | null {
   const keys = expandAvoid(avoid);
   const words = noteWords(note);

@@ -190,3 +190,26 @@ describe("map dishes sent compact", () => {
     expect(fullDish(compactDish({ ...dish, contains: null, allergen_source: null })).contains).toBeNull();
   });
 });
+
+describe("canEatFirst", () => {
+  it("puts dishes with nothing you avoid first and what you avoid last, keeping the menu order otherwise", async () => {
+    const { canEatFirst } = await import("../src/lib/diet");
+    const level = { 돈까스: "avoid", 우동: "clear", 김밥: "unknown", 라면: "caution", 덮밥: "clear" } as const;
+    const sorted = canEatFirst(Object.keys(level), (name) => ({ level: level[name as keyof typeof level] }) as never);
+    expect(sorted).toEqual(["우동", "덮밥", "김밥", "라면", "돈까스"]);
+    expect(canEatFirst(["b", "a"], () => null)).toEqual(["b", "a"]);
+  });
+});
+
+describe("restaurantKinds", () => {
+  it("files brand and Korean cuisines under the filter's food types", async () => {
+    const { restaurantKinds } = await import("../src/lib/restaurant-kind");
+    expect(restaurantKinds({ name: "BBQ", cuisine: "Chicken" })).toEqual(["chicken"]);
+    expect(restaurantKinds({ name: "신전떡볶이", cuisine: "일반 분식" })).toEqual(["snack"]);
+    expect(restaurantKinds({ name: "삼일반점", cuisine: "중식당" })).toEqual(["asian"]);
+    expect(restaurantKinds({ name: "유니버스데이", cuisine: "디저트카페" })).toEqual(["cafe", "dessert"]);
+    // Names that only look like a type do not count.
+    expect(restaurantKinds({ name: "멕시카나치킨", cuisine: "치킨/닭강정" })).toEqual(["chicken"]);
+    expect(restaurantKinds({ name: "태양식당", cuisine: "한식" })).toEqual(["korean"]);
+  });
+});

@@ -6,7 +6,7 @@ import { DishFacts, FoodBadge } from "@/components/dish-facts";
 import { MenuSource } from "@/components/menu-source";
 import { DishPhoto, PageTitle, textLink } from "@/components/ui";
 import { getFoodNeeds, getPlace } from "@/lib/data";
-import { checkDish } from "@/lib/diet";
+import { canEatFirst, checkDish } from "@/lib/diet";
 import { DISH_KINDS, dishKind } from "@/lib/dish-kind";
 import { formatKrw } from "@/lib/round";
 import type { MenuItem } from "@/lib/types";
@@ -62,7 +62,7 @@ export default async function PlacePage({ params }: { params: Promise<{ id: stri
             <div key={section} className="mt-5">
               <h3 className="text-sm font-semibold text-muted">{section}</h3>
               <ul className="mt-2 grid gap-2 sm:grid-cols-2 sm:items-start">
-                {dishes.map((dish) => {
+                {canEatFirst(dishes, (dish) => checkDish(dish, needs?.avoid ?? [], needs?.note)).map((dish) => {
                   const check = checkDish(dish, needs?.avoid ?? [], needs?.note);
                   return (
                     <li key={dish.id} id={`dish-${dish.id}`}>
@@ -70,7 +70,7 @@ export default async function PlacePage({ params }: { params: Promise<{ id: stri
                         <summary className="flex cursor-pointer list-none items-center gap-3 p-2.5 [&::-webkit-details-marker]:hidden">
                           {dish.photo && <DishPhoto src={dish.photo} size={64} />}
                           <span className="min-w-0 flex-1">
-                            <span className="block text-sm leading-snug font-semibold">{dish.name}</span>
+                            <span className="block text-base leading-snug font-bold">{dish.name}</span>
                             <span className={`mt-0.5 block text-sm ${dish.price === null ? "text-muted" : "font-bold"}`}>{formatKrw(dish.price)}</span>
                             {check && <span className="mt-1 block"><FoodBadge check={check} /></span>}
                           </span>

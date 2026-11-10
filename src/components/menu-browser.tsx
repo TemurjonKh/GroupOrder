@@ -6,7 +6,7 @@ import { MenuSource } from "@/components/menu-source";
 import { DishFacts, FoodBadge } from "./dish-facts";
 import { BrandLogo, DishPhoto, textLink } from "./ui";
 import { getFoodNeeds } from "@/lib/data";
-import { checkDish } from "@/lib/diet";
+import { canEatFirst, checkDish } from "@/lib/diet";
 import { formatKrw } from "@/lib/round";
 import type { MenuItem, OrderPick, Restaurant } from "@/lib/types";
 
@@ -48,7 +48,7 @@ export async function MenuBrowser({ restaurant, basePath, selectedId, code, roun
       {!forUser && (
         <p className="mt-3 text-sm text-muted">
           {needs && (needs.avoid.length > 0 || needs.note)
-            ? "Dishes are checked against your food needs. "
+            ? "Dishes you can eat come first in each section; ones with what you avoid are at the end. "
             : "Have allergies or a diet? "}
           <Link href="/account/food" className={textLink}>{needs ? "Edit my food needs" : "Set my food needs"}</Link>
         </p>
@@ -65,14 +65,14 @@ export async function MenuBrowser({ restaurant, basePath, selectedId, code, roun
       {categories.map((category) => (
         <section key={category} id={encodeURIComponent(category)} className="mt-6">
           <h3 className="mb-3 font-display text-2xl font-extrabold tracking-tight">{category}</h3>
-          <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
-            {dishes.filter((d) => d.category === category).map((dish) => {
+          <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+            {canEatFirst(dishes.filter((d) => d.category === category), check).map((dish) => {
               const result = check(dish);
               const inner = (
                 <>
                   <DishPhoto src={dish.photo} alt="" className={`aspect-square w-full transition-transform duration-300 group-hover:scale-[1.03] ${result?.level === "avoid" ? "opacity-50" : ""}`} />
-                  <span className="mt-2.5 line-clamp-2 text-sm leading-snug font-semibold">{dish.name}</span>
-                  <span className={`mt-1 block text-sm ${dish.price === null ? "text-muted" : "font-bold"}`}>{formatKrw(dish.price)}</span>
+                  <span className="mt-2.5 line-clamp-2 text-base leading-snug font-bold sm:text-lg">{dish.name}</span>
+                  <span className={`mt-1 block text-sm sm:text-base ${dish.price === null ? "text-muted" : "font-bold"}`}>{formatKrw(dish.price)}</span>
                   {result && <span className="mt-1.5 block"><FoodBadge check={result} /></span>}
                 </>
               );

@@ -140,7 +140,7 @@ await step("my food needs: tick pork and peanut, and it stays saved", async () =
 await step("menus warn about what a person avoids, and say when there is no data", async () => {
   await temur.goto(`${BASE}/g/${CODE}`);
   await temur.getByRole("link", { name: /Burger King/ }).click();
-  await see(temur, "Dishes are checked against your food needs");
+  await see(temur, "Dishes you can eat come first in each section");
   const bacon = temur.locator("a[href*='dish=']", { hasText: "베이컨치즈와퍼" }).first();
   await bacon.getByText(/Contains: .*Pork/).waitFor();
   await temur.locator("a[href*='dish=']", { hasText: "프렌치프라이(R)" }).first().getByText("No data").waitFor();
@@ -354,7 +354,7 @@ await step("a suggested restaurant shows the suggester at the top of everyone's 
   await see(minji, "You suggest this to the group");
   // The leader's list updates by itself; Burger King moves to the top with Minji's name.
   await temur.goto(`${BASE}/g/${CODE}`);
-  const first = temur.locator("section[aria-label=Restaurants] > ul > li").first();
+  const first = temur.locator("section[aria-label=Restaurants] ul > li").first();
   await first.getByText("Minji suggests this").waitFor({ timeout: 15000 });
   await first.getByText("Burger King").waitFor();
   await settled(temur);
@@ -369,6 +369,36 @@ await step("a suggested restaurant shows the suggester at the top of everyone's 
   await temur.goto(`${BASE}/g/${CODE}`);
   if (await temur.getByText("Minji suggests this").count()) throw new Error("suggestion still shown after it was taken back");
   await minji.goto(BASE);
+});
+await step("restaurant search and food-type chips filter the list", async () => {
+  const list = temur.locator("section[aria-label=Restaurants]");
+  await list.getByRole("button", { name: /^Chicken/ }).click();
+  const names = await list.locator("ul > li .font-display").allInnerTexts();
+  if (!names.includes("BBQ") || names.includes("Burger King") || names.includes("Starbucks")) throw new Error(`chicken chip shows ${names}`);
+  await shot(temur, "31-filter-chicken");
+  await list.getByRole("button", { name: /^All/ }).click();
+  // A dish name finds its restaurant.
+  await temur.getByLabel("Search restaurants and dishes").fill("와퍼");
+  await list.locator("ul > li", { hasText: "Burger King" }).waitFor();
+  if (await list.locator("ul > li", { hasText: "Starbucks" }).count()) throw new Error("search did not filter");
+  await temur.getByLabel("Search restaurants and dishes").fill("zzzz");
+  await see(temur, "No restaurant here matches");
+  await temur.getByRole("button", { name: "Clear" }).click();
+  await list.locator("ul > li", { hasText: "Starbucks" }).waitFor();
+});
+await step("in a menu, dishes you can eat come before ones with what you avoid", async () => {
+  await temur.locator("section[aria-label=Restaurants] ul > li", { hasText: "BBQ" }).first().getByRole("link").click();
+  await see(temur, "Dishes you can eat come first in each section");
+  const rank = { "None listed": 0, "No data": 1, "May contain": 2, "Contains": 3 };
+  let sawAvoid = false;
+  for (const section of await temur.locator("main section[id]").all()) {
+    const badges = (await section.locator("ul > li").allInnerTexts()).map((t) => Object.entries(rank).find(([k]) => t.includes(k))?.[1] ?? 0);
+    if (badges.includes(3)) sawAvoid = true;
+    for (let i = 1; i < badges.length; i++) if (badges[i] < badges[i - 1]) throw new Error(`section not sorted: ${badges.join(",")}`);
+  }
+  if (!sawAvoid) throw new Error("no dish with pork found on BBQ's menu to check the order");
+  await shot(temur, "32-can-eat-first");
+  await temur.goto(`${BASE}/g/${CODE}`);
 });
 await step("Not joining shows live, and a member can come back", async () => {
   await minji.getByRole("link", { name: /Krafton work team/ }).click();

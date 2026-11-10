@@ -5,10 +5,12 @@ import { removeMyPick, repeatLastPick, setAnswer } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
 import { LiveRefresh } from "@/components/client-bits";
 import { MembersPanel } from "@/components/members-panel";
+import { RestaurantFinder } from "@/components/restaurant-finder";
 import { RoundBar } from "@/components/round-bar";
 import { Avatar, BrandLogo, Button, Card, DishPhoto, buttonStyles } from "@/components/ui";
 import { PICK_COLUMNS, getGroupContext, getRestaurants, getUser } from "@/lib/data";
 import { formatDistance, isDish, optionsLabel, restaurantsForRound, totalLabel } from "@/lib/round";
+import { restaurantKinds } from "@/lib/restaurant-kind";
 import type { Group, Member, OrderPick, Round, Suggestion } from "@/lib/types";
 
 export default async function GroupPage({ params }: { params: Promise<{ code: string }> }) {
@@ -163,13 +165,16 @@ async function RestaurantList({ code, group, round, suggestions, members }: {
   return (
     <section aria-label="Restaurants">
       <h2 className="mb-3 font-display text-2xl font-extrabold tracking-tight">{pinned.length ? "Restaurants for this round" : "Where to order from"}</h2>
-      <ul className="space-y-3">
-        {restaurants.map((r, i) => {
+      <RestaurantFinder items={restaurants.map((r, i) => {
           const dishes = [...r.menu_items].sort((a, b) => a.sort_order - b.sort_order);
           const photos = dishes.filter((d) => d.photo).filter((_, n) => n % 5 === 0).slice(0, 7);
           const priced = dishes.some((d) => d.price !== null);
-          return (
-            <li key={r.id} className="rise" style={{ "--i": i } as React.CSSProperties}>
+          return {
+            id: r.id,
+            text: [r.name, r.cuisine, ...dishes.map((d) => d.name)].join(" ").toLowerCase(),
+            kinds: restaurantKinds(r),
+            card: (
+            <div className="rise" style={{ "--i": Math.min(i, 8) } as React.CSSProperties}>
               <Link href={`/g/${code}/r/${r.id}`} className={`group block rounded-[20px] border bg-surface p-4 transition duration-200 hover:-translate-y-0.5 hover:border-ink hover:shadow-lift ${r.by.length ? "border-accent" : "border-line"}`}>
                 {r.by.length > 0 && (
                   <span className="mb-3 flex items-center gap-2 text-sm font-semibold text-on-accent-soft">
@@ -200,10 +205,10 @@ async function RestaurantList({ code, group, round, suggestions, members }: {
                   ))}
                 </span>
               </Link>
-            </li>
-          );
-        })}
-      </ul>
+            </div>
+            ),
+          };
+        })} />
     </section>
   );
 }
