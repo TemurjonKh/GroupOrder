@@ -20,9 +20,9 @@ export async function AppHeader() {
   return (
     <>
     <header className="sticky top-0 z-20 border-b border-line bg-page/85 backdrop-blur-md print:hidden">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-2 px-4">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-2 px-4">
         <div className="flex items-center gap-4">
-          <Link href="/" className="font-display text-lg font-extrabold tracking-tight sm:text-xl">
+          <Link href="/" className="font-display text-xl font-extrabold tracking-tight sm:text-2xl">
             Group<span className="text-accent">Order</span>
           </Link>
           <HeaderNav links={LINKS} className="hidden md:flex" />

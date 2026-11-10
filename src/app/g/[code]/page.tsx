@@ -30,7 +30,7 @@ export default async function GroupPage({ params }: { params: Promise<{ code: st
     <div className="space-y-5">
       <LiveRefresh groupId={group.id} roundId={round.id} />
       <RoundBar round={round} counts={counts} />
-      <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-5 lg:grid-cols-[minmax(0,1fr)_360px]">
+      <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-5 lg:grid-cols-[minmax(0,1fr)_400px] xl:grid-cols-[minmax(0,1fr)_460px]">
         <div className="space-y-5">
           {round.status === "finalized" && (
             <Card className="p-5">

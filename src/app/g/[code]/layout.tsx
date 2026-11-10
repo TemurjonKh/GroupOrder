@@ -22,13 +22,13 @@ export default async function GroupLayout({ children, params }: { children: Reac
   return (
     <>
       <AppHeader />
-      <div className="mx-auto max-w-6xl px-4 pt-5 print:hidden">
+      <div className="mx-auto max-w-7xl px-4 pt-5 print:hidden">
         <h1 className="flex items-center gap-2.5 font-display text-2xl font-extrabold tracking-tight">
           <span aria-hidden>{group.icon}</span><span className="truncate">{group.name}</span>
         </h1>
         <GroupTabs tabs={tabs} />
       </div>
-      <main className="mx-auto max-w-6xl px-4 py-5">{children}</main>
+      <main className="mx-auto max-w-7xl px-4 py-5">{children}</main>
     </>
   );
 }
