@@ -25,6 +25,10 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "composecoffee.com" },
     ],
   },
+  // npm run share serves through a Cloudflare tunnel; allow its address for form submissions.
+  ...(process.env.NEXT_PUBLIC_SHARED === "1" && {
+    experimental: { serverActions: { allowedOrigins: ["*.trycloudflare.com"] } },
+  }),
   turbopack: {
     rules: {
       "*.css": {

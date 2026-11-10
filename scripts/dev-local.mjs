@@ -6,7 +6,8 @@ const appPort = process.env.PORT ?? "3000";
 const nextCommand = process.env.LOCAL_NEXT_COMMAND ?? "dev"; // "start" serves a production build
 const backend = await startLocalBackend(Number(process.env.LOCAL_BACKEND_PORT ?? 54321));
 
-const app = spawn("node_modules/.bin/next", [nextCommand, "-p", appPort, "-H", "localhost"], {
+// npm run share sets LOCAL_HOST=0.0.0.0 so phones on the same Wi-Fi can reach it.
+const app = spawn("node_modules/.bin/next", [nextCommand, "-p", appPort, "-H", process.env.LOCAL_HOST ?? "localhost"], {
   stdio: "inherit",
   env: {
     ...process.env,
@@ -15,7 +16,9 @@ const app = spawn("node_modules/.bin/next", [nextCommand, "-p", appPort, "-H", "
     NEXT_PUBLIC_LOCAL_BACKEND: "1",
   },
 });
-console.log(`\nGroupOrder: http://localhost:${appPort}\nDemo logins: temur@demo.test (leader), minji@demo.test, jisoo@demo.test, dana@demo.test. Password: demo1234\n`);
+if (!process.env.LOCAL_DEMO_PASSWORD) {
+  console.log(`\nGroupOrder: http://localhost:${appPort}\nDemo logins: temur@demo.test (leader), minji@demo.test, jisoo@demo.test, dana@demo.test. Password: demo1234\n`);
+}
 
 const stop = async () => {
   app.kill();

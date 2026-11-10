@@ -16,7 +16,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
         <Field label="Password"><input name="password" type="password" autoComplete="current-password" required className={inputStyles} /></Field>
         <Button className="w-full">Log in</Button>
       </ActionForm>
-      {process.env.NEXT_PUBLIC_LOCAL_BACKEND === "1" && (
+      {process.env.NEXT_PUBLIC_LOCAL_BACKEND === "1" && process.env.NEXT_PUBLIC_SHARED !== "1" && (
         <p className="mt-6 rounded-xl bg-accent-soft p-3.5 text-sm text-on-accent-soft">
           <strong>Local demo.</strong> Log in as temur@demo.test (leader), minji@demo.test, jisoo@demo.test or dana@demo.test. Password: demo1234
         </p>

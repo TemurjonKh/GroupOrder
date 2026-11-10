@@ -362,6 +362,10 @@ export async function startLocalBackend(port) {
   const secretFile = join(DATA, "secret");
   if (!existsSync(secretFile)) writeFileSync(secretFile, randomBytes(32).toString("hex"), { mode: 0o600 });
   const tokens = makeTokens(readFileSync(secretFile, "utf8"));
+  // npm run share puts the app on the internet, so the demo accounts get a private password there;
+  // every other start sets it back to the one the login page shows.
+  await db.query("update auth.users set encrypted_password = $1 where email like '%@demo.test'",
+    [hashPassword(process.env.LOCAL_DEMO_PASSWORD || DEMO_PASSWORD)]);
   const auth = authRoutes(db, tokens);
   const rest = restRoutes(db, schema, tokens);
 

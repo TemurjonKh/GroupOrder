@@ -15,7 +15,8 @@
     "menus:local": "node scripts/import-local-menus.mjs",
     "places:import": "node scripts/import-places.mjs",
     "menus:seed": "node scripts/build-seed.mjs",
-    "test:e2e": "node test/e2e/flow.mjs"
+    "test:e2e": "node test/e2e/flow.mjs",
+    "share": "node scripts/share.mjs"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
