@@ -27,8 +27,25 @@ jobs:
       SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
       SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
       PROJECT_REF: czafgvqkohaartqvxndk
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v5
+
+      # Runs a command and, if it fails, puts its last lines in the run summary, which anyone can
+      # read (the full log needs admin rights). The CLI never prints the token or the password.
+      - name: Prepare error reporting
+        run: |
+          cat > "$RUNNER_TEMP/run.sh" <<'SH'
+          out=$("$@" 2>&1); code=$?
+          echo "$out"
+          if [ $code -ne 0 ]; then
+            echo "::error::$(echo "$out" | grep -v '^\s*$' | tail -4 | tr '\n' ' ' | cut -c1-900)"
+          fi
+          exit $code
+          SH
+
 
       - name: Check the secrets are set
         run: |
@@ -40,17 +57,17 @@ jobs:
           version: 2.122.1
 
       - name: Connect to the project
-        run: supabase link --project-ref "$PROJECT_REF" --password "$SUPABASE_DB_PASSWORD"
+        run: bash "$RUNNER_TEMP/run.sh" supabase link --project-ref "$PROJECT_REF" --password "$SUPABASE_DB_PASSWORD"
 
       - name: Record migrations that were run by hand
         if: ${{ github.event.inputs.already_applied != '' }}
-        run: supabase migration repair --status applied ${{ github.event.inputs.already_applied }} --password "$SUPABASE_DB_PASSWORD"
+        run: bash "$RUNNER_TEMP/run.sh" supabase migration repair --status applied ${{ github.event.inputs.already_applied }} --password "$SUPABASE_DB_PASSWORD"
 
       - name: Migrations before
-        run: supabase migration list --password "$SUPABASE_DB_PASSWORD"
+        run: bash "$RUNNER_TEMP/run.sh" supabase migration list --password "$SUPABASE_DB_PASSWORD"
 
       - name: Apply new migrations, and the menus if there are none
-        run: supabase db push --include-seed --password "$SUPABASE_DB_PASSWORD"
+        run: bash "$RUNNER_TEMP/run.sh" supabase db push --include-seed --password "$SUPABASE_DB_PASSWORD"
 
       - name: Migrations after
-        run: supabase migration list --password "$SUPABASE_DB_PASSWORD"
+        run: bash "$RUNNER_TEMP/run.sh" supabase migration list --password "$SUPABASE_DB_PASSWORD"
