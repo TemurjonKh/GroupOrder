@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { BellRinging, X } from "@phosphor-icons/react";
 import type { PopupNote } from "@/lib/notifications";
+import { useT } from "./lang";
 
 const CHECK_MS = 15_000;
 // A notice older than this when the app opens is already on the home page; it does not pop up.
@@ -21,6 +22,7 @@ const noSubscription = () => () => {};
 /** Pops up new notices, such as "lunch is ordered", inside the app and as a phone or computer notification. */
 export function NotificationPopups() {
   const [toasts, setToasts] = useState<PopupNote[]>([]);
+  const t = useT();
   const [answered, setAnswered] = useState(false);
   const canAsk = useSyncExternalStore(noSubscription, askable, () => false) && !answered;
   const shown = useRef<Set<string>>(new Set());
@@ -75,7 +77,7 @@ export function NotificationPopups() {
             <span className="block font-semibold">{toast.title}</span>
             <span className="text-muted">{toast.body}</span>
           </Link>
-          <button type="button" aria-label="Dismiss" onClick={() => dismiss(toast.id)}
+          <button type="button" aria-label={t("Dismiss", "닫기")} onClick={() => dismiss(toast.id)}
             className="-m-2 flex size-11 shrink-0 cursor-pointer items-center justify-center rounded-full text-muted hover:bg-soft hover:text-ink">
             <X aria-hidden size={16} />
           </button>
@@ -83,11 +85,11 @@ export function NotificationPopups() {
       ))}
       {canAsk && (
         <div className="rounded-[20px] border border-line bg-surface p-4 text-sm shadow-lift">
-          <p className="font-semibold">Get a pop-up when lunch is ordered?</p>
-          <p className="mt-0.5 text-muted">Also for reminders and changes to your picks, while GroupOrder is open.</p>
+          <p className="font-semibold">{t("Get a pop-up when lunch is ordered?", "점심이 주문되면 알림을 받을까요?")}</p>
+          <p className="mt-0.5 text-muted">{t("Also for reminders and changes to your picks, while GroupOrder is open.", "GroupOrder가 열려 있는 동안 리마인더와 메뉴 변경도 알려 드려요.")}</p>
           <div className="mt-3 flex gap-2">
-            <button type="button" onClick={turnOn} className="min-h-11 cursor-pointer rounded-full bg-accent px-4 font-semibold text-on-accent">Turn on</button>
-            <button type="button" onClick={() => { write(ASKED_KEY, "1"); setAnswered(true); }} className="min-h-11 cursor-pointer rounded-full px-4 font-semibold text-muted hover:bg-soft">Not now</button>
+            <button type="button" onClick={turnOn} className="min-h-11 cursor-pointer rounded-full bg-accent px-4 font-semibold text-on-accent">{t("Turn on", "켜기")}</button>
+            <button type="button" onClick={() => { write(ASKED_KEY, "1"); setAnswered(true); }} className="min-h-11 cursor-pointer rounded-full px-4 font-semibold text-muted hover:bg-soft">{t("Not now", "나중에")}</button>
           </div>
         </div>
       )}

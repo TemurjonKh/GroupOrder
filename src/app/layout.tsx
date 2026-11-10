@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Bricolage_Grotesque, Geist, Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
+import { LangProvider } from "@/components/lang";
+import { getLang } from "@/lib/i18n";
 
 const bricolage = Bricolage_Grotesque({ variable: "--font-bricolage", subsets: ["latin"] });
 const geist = Geist({ variable: "--font-geist", subsets: ["latin"] });
@@ -18,10 +20,11 @@ export const viewport: Viewport = {
   ],
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const lang = await getLang();
   return (
-    <html lang="en" data-scroll-behavior="smooth" className={`${bricolage.variable} ${geist.variable} ${notoKr.variable} h-full antialiased`}>
-      <body className="min-h-full">{children}</body>
+    <html lang={lang} data-scroll-behavior="smooth" className={`${bricolage.variable} ${geist.variable} ${notoKr.variable} h-full antialiased`}>
+      <body className="min-h-full"><LangProvider lang={lang}>{children}</LangProvider></body>
     </html>
   );
 }

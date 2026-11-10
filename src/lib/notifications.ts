@@ -8,4 +8,15 @@ export const NOTE_TEXT: Record<string, string> = {
   pick_edited: "had your picks changed by the leader.",
 };
 
+export const NOTE_TEXT_KO: Record<string, string> = {
+  reminder_30: "마감 30분 전인데 아직 응답하지 않았어요.",
+  reminder_10: "마감 10분 전인데 아직 응답하지 않았어요.",
+  reminder_manual: "응답이 필요해요. 리더가 알림을 보냈어요.",
+  repick: "다시 골라 주세요. 리더가 메뉴를 뺐어요.",
+  ordered: "주문 완료! 음식이 오고 있어요.",
+  pick_edited: "리더가 내 메뉴를 바꿨어요.",
+};
+
+export const noteText = (type: string, lang: "en" | "ko") => (lang === "ko" ? NOTE_TEXT_KO : NOTE_TEXT)[type];
+
 export type PopupNote = { id: string; sentAt: string; title: string; body: string; href: string };

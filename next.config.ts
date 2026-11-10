@@ -25,6 +25,8 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "lh3.googleusercontent.com" },
       { protocol: "https", hostname: "momstouch.co.kr" },
       { protocol: "https", hostname: "composecoffee.com" },
+      // Food-type stickers that no brand photo fits; credited in the README.
+      { protocol: "https", hostname: "thumb.wikimedia.org", pathname: "/wikipedia/commons/**" },
     ],
   },
   // npm run share serves through a Cloudflare tunnel; allow its address for form submissions.

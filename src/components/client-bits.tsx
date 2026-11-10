@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/browser";
 import { Button, Field, inputStyles } from "./ui";
+import { useT } from "./lang";
 
 // Live updates come over Supabase Realtime; this refresh is the safety net if that connection
 // drops or never starts, so changes show within seconds either way.
@@ -72,7 +73,8 @@ export function LiveRefresh({ groupId, roundId }: { groupId: string; roundId?: s
   return null;
 }
 
-export function CopyButton({ text, label = "Copy summary" }: { text: string; label?: string }) {
+export function CopyButton({ text, label }: { text: string; label?: string }) {
+  const t = useT();
   const [copied, setCopied] = useState(false);
   return (
     <Button
@@ -84,13 +86,14 @@ export function CopyButton({ text, label = "Copy summary" }: { text: string; lab
         setTimeout(() => setCopied(false), 2000);
       }}
     >
-      <span aria-live="polite">{copied ? "Copied" : label}</span>
+      <span aria-live="polite">{copied ? t("Copied", "복사됨") : label ?? t("Copy summary", "요약 복사")}</span>
     </Button>
   );
 }
 
 export function PrintButton() {
-  return <Button look="secondary" type="button" onClick={() => window.print()}>Print QR</Button>;
+  const t = useT();
+  return <Button look="secondary" type="button" onClick={() => window.print()}>{t("Print QR", "QR 인쇄")}</Button>;
 }
 
 /** The main links in the header, with the current page marked. */

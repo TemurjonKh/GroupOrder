@@ -1,7 +1,8 @@
 "use server";
 
-import { headers } from "next/headers";
+import { cookies, headers } from "next/headers";
 import { redirect } from "next/navigation";
+import { LANG_COOKIE, type Lang } from "@/lib/names";
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import { friendlyError } from "@/lib/round";
@@ -84,6 +85,21 @@ export async function updateName(_: ActionState, form: FormData): Promise<Action
   if (error) return { error: `Could not save your name: ${error.message}` };
   revalidatePath("/", "layout");
   return { ok: "Saved. Your groups now see this name." };
+}
+
+/** Saves a profile photo (a small image made in the browser), or removes it when empty. */
+export async function updateAvatar(_: ActionState, form: FormData): Promise<ActionState> {
+  const avatar = String(form.get("avatar") ?? "");
+  if (avatar && (!/^data:image\/(jpeg|png|webp);base64,[A-Za-z0-9+/=]+$/.test(avatar) || avatar.length > 200_000)) {
+    return { error: "That photo is too large or not an image. Please try another." };
+  }
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Please log in again." };
+  const { error } = await supabase.from("profiles").update({ avatar: avatar || null }).eq("id", user.id);
+  if (error) return { error: `Could not save your photo: ${error.message}` };
+  revalidatePath("/", "layout");
+  return { ok: avatar ? "Saved. Your groups now see your photo." : "Photo removed." };
 }
 
 export async function saveFoodNeeds(_: ActionState, form: FormData): Promise<ActionState> {
@@ -272,4 +288,11 @@ export async function dismissNotification(_: ActionState, form: FormData): Promi
   await supabase.from("notifications").update({ read_at: new Date().toISOString() }).eq("id", text(form, "id"));
   revalidatePath("/");
   return null;
+}
+
+// ------------------------------------------------------------------ language
+
+/** Remembers the KOR/ENG choice for a year. Setting a cookie in an action re-renders the page. */
+export async function setLanguage(lang: Lang) {
+  (await cookies()).set(LANG_COOKIE, lang === "ko" ? "ko" : "en", { path: "/", maxAge: 60 * 60 * 24 * 365, sameSite: "lax" });
 }

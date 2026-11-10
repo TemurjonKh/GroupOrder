@@ -103,7 +103,7 @@ await step("create group page makes a group with picks already open", async () =
 await step("group page shows the three brands and live members", async () => {
   await temur.goto(`${BASE}/g/${CODE}`);
   for (const name of ["BBQ", "Burger King", "Subway"]) await temur.getByRole("link", { name: new RegExp(name) }).waitFor();
-  await see(temur, "황금올리브치킨");
+  await see(temur, "Golden Olive Chicken");
   await see(temur, "No answer yet");
   if (await temur.getByText("Picks are closed").count()) throw new Error("picks closed");
   const { broken, total } = await brokenImages(temur);
@@ -141,13 +141,13 @@ await step("menus warn about what a person avoids, and say when there is no data
   await temur.goto(`${BASE}/g/${CODE}`);
   await temur.getByRole("link", { name: /Burger King/ }).click();
   await see(temur, "Dishes you can eat come first in each section");
-  const bacon = temur.locator("a[href*='dish=']", { hasText: "베이컨치즈와퍼" }).first();
+  const bacon = temur.locator("a[href*='dish=']", { hasText: "Bacon Cheese Whopper" }).first();
   await bacon.getByText(/Contains: .*Pork/).waitFor();
-  await temur.locator("a[href*='dish=']", { hasText: "프렌치프라이(R)" }).first().getByText("No data").waitFor();
-  await temur.locator("a[href*='dish=']", { hasText: /^.*와퍼.*₩/ }).first().waitFor();
+  await temur.locator("a[href*='dish=']", { hasText: "French Fries (R)" }).first().getByText("No data").waitFor();
+  await temur.locator("a[href*='dish=']", { hasText: /Whopper.*₩/ }).first().waitFor();
   if (await temur.getByText(/\bsafe\b/i).count()) throw new Error('a page says "safe"');
   await shot(temur, "21-menu-badges");
-  await temur.locator("a[href*='dish=']", { hasText: /^와퍼 세트/ }).first().click();
+  await temur.locator("a[href*='dish=']", { hasText: /^Whopper Set/ }).first().click();
   const sheet = temur.locator("dialog[open]");
   await sheet.getByText("What's inside").waitFor();
   await sheet.getByText("No data for:", { exact: true }).waitFor();
@@ -174,7 +174,7 @@ await step("food map: search starts from my needs and hides what I avoid", async
   await temur.getByRole("tab", { name: /Meals \(\d+\)/ }).click();
   if ((await temur.getByRole("button", { name: "No pork", exact: true }).getAttribute("aria-pressed")) !== "true") throw new Error("my pork need was not applied");
   const text = await temur.locator("main").innerText();
-  for (const dish of ["베이컨치즈와퍼", "잠봉 플러스 Jambon Plus", "비엘티 B.L.T."]) if (text.includes(dish)) throw new Error(`${dish} shown to someone avoiding pork`);
+  for (const dish of ["Bacon Cheese Whopper", "Jambon Plus", "B.L.T."]) if (text.includes(dish)) throw new Error(`${dish} shown to someone avoiding pork`);
   if (text.includes("No data") || text.includes("May contain")) throw new Error("strict search showed unknown dishes");
   await temur.getByLabel("Also show").check();
   await see(temur, "No data");
@@ -188,7 +188,7 @@ await step("food map: vegan search is honest about what it can show", async () =
   const vegan = Number((await temur.getByRole("tab", { name: /Meals/ }).innerText()).match(/\d+/)[0]);
   // Only the dishes: a branch called BBQ치킨 is still a fine place to walk past.
   const text = (await temur.locator("main details summary").allInnerTexts()).join(" | ");
-  for (const word of ["치킨", "베이컨", "참치", "쉬림프", "치즈", "에그"]) if (text.includes(word)) throw new Error(`vegan search shows ${word}: ${text.slice(0, 200)}`);
+  for (const word of ["치킨", "베이컨", "참치", "쉬림프", "치즈", "에그", "Chicken", "Bacon", "Tuna", "Shrimp", "Cheese", "Egg"]) if (text.includes(word)) throw new Error(`vegan search shows ${word}: ${text.slice(0, 200)}`);
   console.log(`     vegan: ${vegan} meals with nothing listed: ${text.replaceAll("\n", " ")}`);
   await shot(temur, "24-map-vegan");
   // Every Whopper has beef in it, so a vegan search rightly finds none.
@@ -198,7 +198,7 @@ await step("food map: vegan search is honest about what it can show", async () =
   await temur.getByLabel("Search meals and places").fill("샐러드");
   await temur.getByRole("button", { name: "Vegan", exact: true }).click();
   await temur.getByRole("button", { name: "No pork", exact: true }).click();
-  await temur.locator("details summary", { hasText: "샐러드" }).first().click();
+  await temur.locator("details summary", { hasText: "Salad" }).first().click();
   await temur.locator("details[open]").getByText(/Source:|no allergen list/).first().waitFor();
   await shot(temur, "25-map-search");
 });
@@ -219,12 +219,12 @@ await step("food map: meals by default, a price limit, and the new quick filters
   await temur.getByLabel("Price").selectOption("");
   await temur.getByRole("button", { name: "No chicken" }).click();
   const text = (await temur.locator("main details summary").allInnerTexts()).join(" | ");
-  for (const word of ["치킨", "닭"]) if (text.includes(word)) throw new Error(`no-chicken search shows ${word}`);
+  for (const word of ["치킨", "닭", "Chicken"]) if (text.includes(word)) throw new Error(`no-chicken search shows ${word}`);
   await temur.getByRole("button", { name: "No chicken" }).click();
   // A drink search with only meals on offers to show the drinks.
   await temur.getByLabel("Search meals and places").fill("라떼");
   await temur.getByRole("button", { name: /^Show \d+ more from drinks/ }).click();
-  await temur.locator("main details summary", { hasText: "라떼" }).first().waitFor();
+  await temur.locator("main details summary", { hasText: "Latte" }).first().waitFor();
   await temur.getByRole("button", { name: "Drinks", exact: true }).click();
   await temur.getByRole("button", { name: "Desserts and sides", exact: true }).click();
   await temur.getByRole("button", { name: "No pork or alcohol" }).click();
@@ -238,20 +238,20 @@ await step("independent restaurants' menus are searchable and say where they cam
   await temur.getByLabel("Search meals and places").fill("짬뽕");
   // Local menus have no allergen data, so only the "no data" setting shows them.
   await temur.getByLabel("Also show").check();
-  await temur.locator("main details summary", { hasText: "짬뽕" }).first().waitFor();
+  await temur.locator("main details summary", { hasText: "Jjamppong" }).first().waitFor();
   await see(temur, "menu from Polle");
   // Temur avoids pork: a dish named for pork stays hidden even with no allergen data.
   await temur.getByLabel("Search meals and places").fill("돼지국밥");
   await see(temur, "Meals (0)");
   await temur.getByRole("button", { name: "No pork", exact: true }).click();
-  await temur.locator("main details summary", { hasText: "돼지국밥" }).first().waitFor();
+  await temur.locator("main details summary", { hasText: "Pork Rice Soup" }).first().waitFor();
   await temur.getByRole("button", { name: "No pork", exact: true }).click();
   await temur.getByLabel("Only meals with nothing").check();
 
   await temur.getByLabel("Search meals and places").fill("삼일반점");
   await temur.getByRole("tab", { name: /Places/ }).click();
   await temur.getByRole("link", { name: "Open menu" }).first().click();
-  await temur.getByRole("heading", { name: "삼일반점" }).waitFor();
+  await temur.getByRole("heading", { name: /삼일반점|Samil Banjeom/ }).waitFor();
   await see(temur, "Typed in by Polle users");
   await temur.getByRole("link", { name: "See it on Polle" }).waitFor();
   await temur.locator("details", { hasText: "₩" }).first().waitFor();
@@ -596,6 +596,20 @@ await step("anyone can change the name their group sees", async () => {
   await see(temur, "Hi Temur K");
   await temur.goto(`${BASE}/g/${CODE}`);
   await temur.locator("section[aria-label=Members]").getByText("Temur K").waitFor();
+});
+await step("KOR / ENG switch changes the interface and the dish names", async () => {
+  await temur.goto(BASE);
+  await temur.getByRole("button", { name: "KOR" }).click();
+  await see(temur, "오늘 점심 뭐 먹지?");
+  await temur.goto(`${BASE}/g/${CODE}`);
+  await see(temur, "누가 뭘 먹나요");
+  await temur.getByRole("link", { name: /Burger King|버거킹/ }).first().click();
+  await temur.getByRole("heading", { name: "버거킹" }).first().waitFor();
+  await temur.locator("a[href*='dish=']", { hasText: "베이컨치즈와퍼" }).first().waitFor();
+  await shot(temur, "33-korean-menu");
+  await temur.getByRole("button", { name: "ENG" }).click();
+  await temur.getByRole("heading", { name: "Burger King" }).first().waitFor();
+  await temur.locator("a[href*='dish=']", { hasText: "Bacon Cheese Whopper" }).first().waitFor();
 });
 await step("log out returns to login and blocks pages", async () => {
   await temur.goto(BASE);

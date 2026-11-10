@@ -75,14 +75,14 @@ export const getGroupContext = cache(async (code: string) => {
 });
 
 export type RestaurantWithMenu = Restaurant & {
-  menu_items: Pick<MenuItem, "name" | "photo" | "price" | "category" | "sort_order">[];
+  menu_items: Pick<MenuItem, "name" | "name_en" | "photo" | "price" | "category" | "sort_order">[];
 };
 
 export const getRestaurants = cache(async () => {
   const supabase = await createClient();
   const { data } = await supabase
     .from("restaurants")
-    .select("*, menu_items(name, photo, price, category, sort_order)")
+    .select("*, menu_items(name, name_en, photo, price, category, sort_order)")
     .order("name");
   return (data ?? []) as RestaurantWithMenu[];
 });

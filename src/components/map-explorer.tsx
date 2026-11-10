@@ -11,6 +11,8 @@ import { DIETS, LABELLED, NAMED_ONLY, SEARCH_SHORTCUTS, checkDish, dietItemLabel
 import { DISH_KINDS, dishKind, type DishKind } from "@/lib/dish-kind";
 import { formatKrw } from "@/lib/round";
 import { type CompactDish, fullDish } from "@/lib/map-dish";
+import { dishName, restaurantName } from "@/lib/names";
+import { useLang } from "./lang";
 import type { FoodNeeds, MapDish, Place, Restaurant } from "@/lib/types";
 
 const CAMPUS = { lat: 37.4494108, lng: 126.6534266 };
@@ -71,6 +73,7 @@ export function MapExplorer({ places, restaurants: sent, needs }: {
   needs: FoodNeeds | null;
 }) {
   const restaurants = useMemo(() => sent.map((r) => ({ ...r, menu_items: r.menu_items.map(fullDish) })), [sent]);
+  const lang = useLang();
   const [query, setQuery] = useState("");
   const [avoid, setAvoid] = useState<string[]>(needs?.avoid ?? []);
   const [useNote, setUseNote] = useState(Boolean(needs?.note));
@@ -118,7 +121,7 @@ export function MapExplorer({ places, restaurants: sent, needs }: {
         .filter((dish) => maxPrice === null || (dish.price !== null && dish.price <= maxPrice))
         .map((dish) => ({ ...dish, check: checkDish(dish, avoid, note) }))
         .filter((dish) => {
-          const text = [restaurant.name, dish.name, dish.category, dish.description, ...dish.ingredients].join(" ").toLowerCase();
+          const text = [restaurant.name, restaurant.name_en, dish.name, dish.name_en, dish.category, dish.category_en, dish.description, ...dish.ingredients].filter(Boolean).join(" ").toLowerCase();
           if (words && !text.includes(words)) return false;
           if (!dish.check) return true;
           return strict ? dish.check.level === "clear" : dish.check.level !== "avoid";
@@ -358,7 +361,7 @@ export function MapExplorer({ places, restaurants: sent, needs }: {
                   <div className="flex items-center gap-3">
                     <BrandLogo restaurant={restaurant} size={44} />
                     <div className="min-w-0">
-                      <h2 className="font-display text-2xl leading-tight font-extrabold tracking-tight">{restaurant.name}</h2>
+                      <h2 className="font-display text-2xl leading-tight font-extrabold tracking-tight">{restaurantName(restaurant, lang)}</h2>
                       <p className="text-sm text-muted">
                         {dishes.length} {dishes.length === 1 ? "match" : "matches"}
                         {restaurant.menu_source_name && ` · menu from ${restaurant.menu_source_name}`}
@@ -385,15 +388,15 @@ export function MapExplorer({ places, restaurants: sent, needs }: {
                           <summary className="flex cursor-pointer list-none items-center gap-3 p-2.5 [&::-webkit-details-marker]:hidden">
                             <DishPhoto src={dish.photo} size={72} />
                             <span className="min-w-0 flex-1">
-                              <span className="line-clamp-2 text-sm leading-snug font-semibold">{dish.name}</span>
+                              <span className="line-clamp-2 text-sm leading-snug font-semibold">{dishName(dish, lang)}</span>
                               <span className={`mt-0.5 block text-sm ${dish.price === null ? "text-muted" : "font-bold"}`}>{formatKrw(dish.price)}</span>
-                              {dish.check && <span className="mt-1 block"><FoodBadge check={dish.check} /></span>}
+                              {dish.check && <span className="mt-1 block"><FoodBadge check={dish.check} lang={lang} /></span>}
                             </span>
                           </summary>
                           {unfolded.has(dish.id) && (
                             <div className="px-3.5 pb-3.5">
                               {dish.description && <p className="mb-2 text-sm text-muted">{dish.description}</p>}
-                              <DishFacts dish={dish} check={dish.check} local={Boolean(restaurant.menu_source_name)} />
+                              <DishFacts dish={dish} check={dish.check} local={Boolean(restaurant.menu_source_name)} lang={lang} />
                             </div>
                           )}
                         </details>

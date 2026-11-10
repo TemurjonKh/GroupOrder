@@ -181,7 +181,7 @@ describe("map dishes sent compact", () => {
   it("drop blank fields and restore them, keeping an empty allergen list apart from no data", async () => {
     const { compactDish, fullDish } = await import("../src/lib/map-dish");
     const dish = {
-      id: "d", name: "김밥", category: "Menu", photo: null, price: null, description: null, contains: [] as string[],
+      id: "d", name: "김밥", name_en: null, category_en: null, category: "Menu", photo: null, price: null, description: null, contains: [] as string[],
       may_contain: null, ingredients: [] as string[], allergen_source: "brand", allergen_note: null, allergen_gaps: [] as string[],
     };
     const compact = compactDish(dish);

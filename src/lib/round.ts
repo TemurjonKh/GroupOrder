@@ -33,6 +33,8 @@ export function answerCounts(answers: Answer[]) {
 
 export type SummaryLine = {
   dish: string;
+  /** The English name for the screen; the copied order keeps the restaurant's own name. */
+  dishEn: string | null;
   options: string;
   qty: number;
   /** Sum of the known prices; `unpriced` counts the units without one. */
@@ -45,7 +47,7 @@ export type RestaurantSummary = {
   lines: SummaryLine[];
   total: number;
   unpriced: number;
-  people: { user_id: string; pick_id: string; name: string; amount: number | null; qty: number; dish: string; options: string; note: string | null }[];
+  people: { user_id: string; pick_id: string; name: string; amount: number | null; qty: number; dish: string; dishEn: string | null; options: string; note: string | null }[];
 };
 
 export const optionsLabel = (options: Record<string, string>) => Object.values(options).join(", ");
@@ -67,7 +69,7 @@ export function buildSummary(answers: Answer[]): RestaurantSummary[] {
       const amount = pick.price_at_pick === null ? null : pick.price_at_pick * pick.qty;
       let line = summary.lines.find((l) => l.dish === dish.name && l.options === options);
       if (!line) {
-        line = { dish: dish.name, options, qty: 0, amount: 0, unpriced: 0, notes: [] };
+        line = { dish: dish.name, dishEn: dish.name_en ?? null, options, qty: 0, amount: 0, unpriced: 0, notes: [] };
         summary.lines.push(line);
       }
       line.qty += pick.qty;
@@ -79,7 +81,7 @@ export function buildSummary(answers: Answer[]): RestaurantSummary[] {
         summary.total += amount;
       }
       if (pick.note) line.notes.push({ who: member.name, note: pick.note });
-      summary.people.push({ user_id: member.user_id, pick_id: pick.id, name: member.name, amount, qty: pick.qty, dish: dish.name, options, note: pick.note });
+      summary.people.push({ user_id: member.user_id, pick_id: pick.id, name: member.name, amount, qty: pick.qty, dish: dish.name, dishEn: dish.name_en ?? null, options, note: pick.note });
     }
   }
   return [...summaries.values()].sort((a, b) => b.total - a.total || a.restaurant.name.localeCompare(b.restaurant.name));
@@ -87,12 +89,13 @@ export function buildSummary(answers: Answer[]): RestaurantSummary[] {
 
 export const PRICE_NOT_LISTED = "Price not listed";
 
-export const formatKrw = (amount: number | null) =>
-  amount === null ? PRICE_NOT_LISTED : `₩${amount.toLocaleString("en-US")}`;
+export const formatKrw = (amount: number | null, lang: "en" | "ko" = "en") =>
+  amount === null ? (lang === "ko" ? "가격 미공개" : PRICE_NOT_LISTED) : `₩${amount.toLocaleString("en-US")}`;
 
 /** A total that never pretends to be complete when some prices are unknown. */
-export function totalLabel(total: number, unpriced: number) {
-  if (unpriced === 0) return formatKrw(total);
+export function totalLabel(total: number, unpriced: number, lang: "en" | "ko" = "en") {
+  if (unpriced === 0) return formatKrw(total, lang);
+  if (lang === "ko") return total === 0 ? "가격 미공개" : `${formatKrw(total, lang)} + 가격 미공개 ${unpriced}개`;
   const items = unpriced === 1 ? "1 item" : `${unpriced} items`;
   return total === 0 ? "Prices not listed" : `${formatKrw(total)} + ${items} not priced`;
 }

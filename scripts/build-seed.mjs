@@ -12,25 +12,28 @@ const list = (value) => (value === null || value === undefined ? "null::text[]" 
 const read = (dir) => readdirSync(dir).filter((f) => f.endsWith(".json") && f !== "local-sources.json").sort()
   .map((f) => JSON.parse(readFileSync(`${dir}/${f}`, "utf8")));
 const chains = read("supabase/menus");
+// English names for the language switch; a missing one shows the original name.
+const tr = JSON.parse(readFileSync("supabase/menus/translations/en.json", "utf8"));
 const locals = read("supabase/menus/local");
 
 /** One restaurant and its dishes. A local menu also points at its place, which is inserted first. */
 function menu(r) {
   const rows = r.dishes.map((d, i) =>
     `  (${[text(d.name), text(d.category), text(d.description), text(d.photo), int(d.price), int(i),
-      list(d.contains), list(d.may_contain), list(d.ingredients ?? []), text(d.allergen_source), text(d.allergen_note), list(d.allergen_gaps ?? [])].join(", ")})`);
+      list(d.contains), list(d.may_contain), list(d.ingredients ?? []), text(d.allergen_source), text(d.allergen_note), list(d.allergen_gaps ?? []),
+      text(tr.dishes[d.name] ?? null), text(tr.categories[d.category] ?? null)].join(", ")})`);
   // A franchise menu from another branch has no place of its own, but sits where its branch near Inha is.
   const at = r.place ?? (r.branches ? { source: "openstreetmap", source_id: r.branches[0] } : null);
   const place = at ? `(select id from public.places where source = ${text(at.source)} and source_id = ${text(at.source_id)})` : "null::uuid";
   return `with r as (
-  insert into public.restaurants (name, cuisine, logo, logo_bg, delivery_link, place_id, address, lat, lng, phone,
+  insert into public.restaurants (name, name_en, name_ko, cuisine, logo, logo_bg, delivery_link, place_id, address, lat, lng, phone,
                                   menu_source, menu_source_name, menu_note, menu_updated, menu_checked)
-  select ${text(r.name)}, ${text(r.cuisine)}, ${text(r.logo)}, ${text(r.logo_bg)}, ${text(r.delivery_link)}, ${r.place ? "p.id" : "null::uuid"}, p.address, p.lat, p.lng, p.phone,
+  select ${text(r.name)}, ${text(tr.restaurants[r.name] ?? null)}, ${text(tr.restaurants_ko[r.name] ?? null)}, ${text(r.cuisine)}, ${text(r.logo)}, ${text(r.logo_bg)}, ${text(r.delivery_link)}, ${r.place ? "p.id" : "null::uuid"}, p.address, p.lat, p.lng, p.phone,
          ${text(r.source)}, ${text(r.source_site)}, ${text(r.source_note)}, ${date(r.source_updated)}, ${date(r.checked)}
   from (select 1) as one left join public.places p on p.id = ${place}
   returning id
 )
-insert into public.menu_items (restaurant_id, name, category, description, photo, price, sort_order, contains, may_contain, ingredients, allergen_source, allergen_note, allergen_gaps)
+insert into public.menu_items (restaurant_id, name, category, description, photo, price, sort_order, contains, may_contain, ingredients, allergen_source, allergen_note, allergen_gaps, name_en, category_en)
 select r.id, v.* from r, (values
 ${rows.join(",\n")}
 ) as v;`;

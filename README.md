@@ -161,6 +161,24 @@ distance or price. "No pork or alcohol" is not halal: no brand here says how its
 - **Before going public, use a tile provider.** The default OpenStreetMap tiles are for light use
   and can be withdrawn. Set `NEXT_PUBLIC_MAP_TILE_URL` to change them.
 
+## Languages
+
+The KOR / ENG switch at the top right is kept in a cookie. In English, dishes, menu sections and
+restaurants show the names in `supabase/menus/translations/en.json` (translated for GroupOrder;
+a missing one shows the original), and Korean-only dish descriptions are hidden. In Korean, the
+original names show and chains use their Korean names. Text sent to a restaurant (the copied order)
+always keeps the restaurant's own dish names. To add translations, edit that file, run
+`node scripts/build-translations-sql.mjs supabase/migrations/<new name>.sql` and `npm run menus:seed`.
+
+## Credits for the food-type photos
+
+Most stickers use a dish photo from a brand's menu. These four are from Wikimedia Commons:
+
+- Korean: "Dolsot-bibimbap.jpg" by Sous Chef, CC BY 2.0
+- Asian: "Samseon jjamppong.jpg" by Kjoonlee, CC BY 4.0
+- Western: "Spaghetti Bolognese mit Parmesan oder Grana Padano.jpg" by Manfred & Barbara Aulbach, CC BY-SA 3.0
+- Mexican: "Tacos de carnitas.jpg" by B.jars, CC BY-SA 4.0
+
 ## Checks
 
 ```sh

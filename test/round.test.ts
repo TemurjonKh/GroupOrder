@@ -6,7 +6,7 @@ import {
 import type { Member, OrderPick, PickStatus, Restaurant } from "../src/lib/types";
 
 const place = (id: string): Restaurant => ({
-  id, name: `Place ${id}`, cuisine: "Korean", logo: null, logo_bg: null, address: null, lat: 0, lng: 0, phone: null, delivery_link: null, place_id: null, menu_source: null, menu_source_name: null, menu_note: null, menu_updated: null, menu_checked: null,
+  id, name: `Place ${id}`, name_en: null, name_ko: null, cuisine: "Korean", logo: null, logo_bg: null, address: null, lat: 0, lng: 0, phone: null, delivery_link: null, place_id: null, menu_source: null, menu_source_name: null, menu_note: null, menu_updated: null, menu_checked: null,
 });
 const member = (id: string): Member => ({ user_id: id, role: "member", name: id, avatar: null });
 function pick(user: string, status: PickStatus, rest: Partial<OrderPick> & { dish?: string; at?: string } = {}): OrderPick {
@@ -15,7 +15,7 @@ function pick(user: string, status: PickStatus, rest: Partial<OrderPick> & { dis
   return {
     id: user, round_id: "r", user_id: user, qty: 1, options: {}, note: null, price_at_pick: 9000, status,
     menu_item: hasDish
-      ? { id: dish, restaurant_id: where, name: dish, photo: null, price: 9000, category: "Menu", description: null, sort_order: 0, options: [], contains: null, may_contain: null, ingredients: [], allergen_source: null, allergen_note: null, allergen_gaps: [], restaurant: place(where) }
+      ? { id: dish, restaurant_id: where, name: dish, name_en: null, category_en: null, photo: null, price: 9000, category: "Menu", description: null, sort_order: 0, options: [], contains: null, may_contain: null, ingredients: [], allergen_source: null, allergen_note: null, allergen_gaps: [], restaurant: place(where) }
       : null,
     ...fields,
   };

@@ -78,6 +78,9 @@ const DIET_KEYS = new Map(DIETS.map((diet) => [diet.key, diet]));
 
 export const allDietKeys = () => [...DIETS.map((d) => d.key), ...LABELLED.map((i) => i.key), ...NAMED_ONLY.map((i) => i.key)];
 export const allergenLabel = (key: string) => ITEMS.get(key)?.label ?? key;
+const KOREAN_BY_LABEL = new Map([...ITEMS.values()].map((item) => [item.label, item.korean]));
+/** The Korean name for a label from a dish check ("Pork" is 돼지고기). */
+export const koreanLabel = (label: string) => KOREAN_BY_LABEL.get(label) ?? label;
 const SHORTCUT_LABELS: Record<string, string> = {
   pork: "No pork", chicken: "No chicken", beef: "No beef", peanut: "No peanut", milk: "No dairy", egg: "No egg", wheat: "No wheat",
 };
@@ -93,6 +96,8 @@ export const noteWords = (note: string | null | undefined) =>
 
 export type DishFacts = {
   name: string;
+  /** The English name, searched too: a translation can only add a warning, never remove one. */
+  name_en?: string | null;
   description?: string | null;
   ingredients?: string[] | null;
   contains?: string[] | null;
@@ -128,7 +133,7 @@ export function checkDish(dish: DishFacts, avoid: string[], note?: string | null
   const words = noteWords(note);
   if (keys.length === 0 && words.length === 0) return null;
 
-  const text = [dish.name, dish.description, ...(dish.ingredients ?? [])].filter(Boolean).join(" ");
+  const text = [dish.name, dish.name_en, dish.description, ...(dish.ingredients ?? [])].filter(Boolean).join(" ");
   const hasData = Array.isArray(dish.contains);
   const found: string[] = [];
   const maybe: string[] = [];

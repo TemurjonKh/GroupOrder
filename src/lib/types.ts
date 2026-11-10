@@ -1,6 +1,9 @@
 export type Restaurant = {
   id: string;
   name: string;
+  /** The other language's name for the KOR/ENG switch; null shows `name`. */
+  name_en: string | null;
+  name_ko: string | null;
   cuisine: string;
   logo: string | null;
   logo_bg: string | null;
@@ -28,6 +31,9 @@ export type MenuItem = {
   id: string;
   restaurant_id: string;
   name: string;
+  /** English name and section for the language switch; null shows the original. */
+  name_en: string | null;
+  category_en: string | null;
   photo: string | null;
   /** Null when the brand does not publish a price. */
   price: number | null;
@@ -47,7 +53,7 @@ export type MenuItem = {
 
 /** A dish as the food map gets it: everything it shows or searches, nothing it does not. */
 export type MapDish = Omit<MenuItem, "restaurant_id" | "sort_order" | "options">;
-export const MAP_DISH_COLUMNS = "id, name, photo, price, category, description, contains, may_contain, ingredients, allergen_source, allergen_note, allergen_gaps";
+export const MAP_DISH_COLUMNS = "id, name, name_en, category_en, photo, price, category, description, contains, may_contain, ingredients, allergen_source, allergen_note, allergen_gaps";
 
 /** What a person avoids. Only they can read it. */
 export type FoodNeeds = { avoid: string[]; note: string | null };
