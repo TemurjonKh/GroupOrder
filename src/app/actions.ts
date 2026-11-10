@@ -255,6 +255,11 @@ export async function suggestRestaurant(_: ActionState, form: FormData) {
     { p_round: text(form, "round"), p_restaurant: text(form, "restaurant") });
 }
 
+/** Hearts a dish, or takes the heart off. */
+export async function toggleFavourite(_: ActionState, form: FormData) {
+  return call(form, "toggle_favourite", { p_menu_item: text(form, "dish") });
+}
+
 /** Takes one dish off the caller's own picks. */
 export async function removeMyPick(_: ActionState, form: FormData) {
   return call(form, "remove_my_pick", { p_line: text(form, "line") });

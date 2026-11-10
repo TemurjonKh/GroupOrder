@@ -216,6 +216,16 @@ describe("picks", () => {
     expect((await db.query("select 1 from restaurant_suggestions")).rows).toHaveLength(0);
   });
 
+  it("keeps favourite dishes private and toggles them on and off", async () => {
+    expect((await as<{ toggle_favourite: boolean }>(MINJI, "select toggle_favourite($1)", [dish.id]))[0].toggle_favourite).toBe(true);
+    expect(await as(MINJI, "select menu_item_id from favourite_dishes")).toEqual([{ menu_item_id: dish.id }]);
+    expect(await as(DANA, "select * from favourite_dishes")).toEqual([]);
+    await expect(as(DANA, "insert into favourite_dishes (user_id, menu_item_id) values ($1, $2)", [MINJI, dish.id])).rejects.toThrow();
+    await expect(as(DANA, "delete from favourite_dishes")).rejects.toThrow();
+    expect((await as<{ toggle_favourite: boolean }>(MINJI, "select toggle_favourite($1)", [dish.id]))[0].toggle_favourite).toBe(false);
+    expect((await db.query("select 1 from favourite_dishes")).rows).toHaveLength(0);
+  });
+
   it("sends one ordered notice per person and lets a leader remove one dish at a time", async () => {
     const round = await startRound();
     const other = (await db.query<{ id: string }>(

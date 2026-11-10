@@ -1,15 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight } from "@phosphor-icons/react/ssr";
+import { ArrowRight, Heart } from "@phosphor-icons/react/ssr";
 import { removeMyPick, repeatLastPick, setAnswer } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
 import { LiveRefresh } from "@/components/client-bits";
+import { FavouriteButton } from "@/components/favourite-button";
 import { MembersPanel, type SuggestedRestaurant } from "@/components/members-panel";
 import { RestaurantFinder } from "@/components/restaurant-finder";
 import { RoundBar } from "@/components/round-bar";
 import { Avatar, BrandLogo, Button, Card, DishPhoto, buttonStyles } from "@/components/ui";
-import { PICK_COLUMNS, getGroupContext, getRestaurants, getUser } from "@/lib/data";
-import { formatDistance, isDish, optionsLabel, restaurantsForRound, totalLabel } from "@/lib/round";
+import { PICK_COLUMNS, getFavourites, getGroupContext, getRestaurants, getUser } from "@/lib/data";
+import { formatDistance, formatKrw, isDish, optionsLabel, restaurantsForRound, totalLabel } from "@/lib/round";
 import { cuisineLabel, restaurantKinds } from "@/lib/restaurant-kind";
 import { getT } from "@/lib/i18n";
 import { dishName, restaurantName } from "@/lib/names";
@@ -46,6 +47,7 @@ export default async function GroupPage({ params }: { params: Promise<{ code: st
             </Card>
           )}
           <MyAnswer code={code} group={group} round={round} mine={mine} canAnswer={canAnswer} />
+          {canAnswer && <FavouritesRow code={code} group={group} round={round} />}
           {canAnswer && <RestaurantList code={code} group={group} round={round} suggestions={suggestions} members={members} />}
         </div>
         <MembersPanel answers={answers} suggested={await suggestedRestaurants(code, suggestions, members)}>
@@ -163,6 +165,37 @@ async function lastPick(groupId: string, roundId: string) {
   return pick?.menu_item ? { id: pick.id, name: pick.menu_item.name, name_en: pick.menu_item.name_en } : null;
 }
 
+/** The visitor's hearted dishes from this round's restaurants, one tap from picking. */
+async function FavouritesRow({ code, group, round }: { code: string; group: Group; round: Round }) {
+  const { lang, t } = await getT();
+  const allowed = new Set(restaurantsForRound(group, await getRestaurants(), round.allowed_restaurant_ids).map((r) => r.id));
+  const dishes = (await getFavourites()).filter((d) => allowed.has(d.restaurant_id));
+  if (dishes.length === 0) return null;
+  return (
+    <section aria-label={t("Your favourites", "내 즐겨찾기")}>
+      <h2 className="mb-3 flex items-center gap-2 font-display text-2xl font-extrabold tracking-tight">
+        <Heart aria-hidden size={24} weight="fill" className="text-accent" />{t("Your favourites", "내 즐겨찾기")}
+      </h2>
+      <ul className="no-scrollbar -mx-4 flex snap-x gap-3 overflow-x-auto px-4 pb-1 sm:-mx-0 sm:px-0">
+        {dishes.map((dish) => (
+          <li key={dish.id} className="relative w-40 shrink-0 snap-start sm:w-44">
+            <Link href={`/g/${code}/r/${dish.restaurant_id}?dish=${dish.id}`}
+              className="group block h-full rounded-[20px] border border-line bg-surface p-2.5 transition duration-200 hover:-translate-y-0.5 hover:border-ink hover:shadow-lift">
+              <DishPhoto src={dish.photo} alt="" sizes="176px" className="aspect-square w-full" />
+              <span className="mt-2 line-clamp-2 leading-snug font-bold">{dishName(dish, lang)}</span>
+              <span className="mt-1 flex items-center gap-1.5 text-xs text-muted">
+                <BrandLogo restaurant={dish.restaurant} size={22} /><span className="truncate">{restaurantName(dish.restaurant, lang)}</span>
+              </span>
+              <span className={`mt-1 block text-sm ${dish.price === null ? "text-muted" : "font-bold"}`}>{formatKrw(dish.price, lang)}</span>
+            </Link>
+            <span className="absolute top-4 right-4"><FavouriteButton code={code} dishId={dish.id} dishLabel={dishName(dish, lang)} on /></span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
 // 4 photos on a phone, 5 up to a laptop, 7 on a wide screen. More would mean hundreds of brand
 // photos per page, which slows the brands' servers and Vercel's monthly image allowance.
 const SHOW_FROM: Record<number, string> = { 4: "hidden sm:block", 5: "hidden 2xl:block", 6: "hidden 2xl:block" };
@@ -184,7 +217,7 @@ async function RestaurantList({ code, group, round, suggestions, members }: {
   return (
     <section aria-label={t("Restaurants", "식당")}>
       <h2 className="mb-3 font-display text-2xl font-extrabold tracking-tight">{pinned.length ? t("Restaurants for this round", "이번 라운드 식당") : t("Where to order from", "어디서 주문할까요")}</h2>
-      <RestaurantFinder items={restaurants.map((r, i) => {
+      <RestaurantFinder code={code} items={restaurants.map((r, i) => {
           const dishes = [...r.menu_items].sort((a, b) => a.sort_order - b.sort_order);
           const photos = dishes.filter((d) => d.photo).filter((_, n) => n % 5 === 0).slice(0, 7);
           const priced = dishes.some((d) => d.price !== null);

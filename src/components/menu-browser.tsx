@@ -1,17 +1,20 @@
 import Link from "next/link";
-import { X } from "@phosphor-icons/react/ssr";
+import { Heart, X } from "@phosphor-icons/react/ssr";
+import { FavouriteButton } from "./favourite-button";
 import { Sheet } from "./client-bits";
 import { PickForm } from "./pick-form";
 import { MenuSource } from "@/components/menu-source";
 import { DishFacts, FoodBadge } from "./dish-facts";
 import { BrandLogo, DishPhoto, textLink } from "./ui";
-import { getFoodNeeds } from "@/lib/data";
+import { getFavourites, getFoodNeeds } from "@/lib/data";
 import { canEatFirst, checkDish } from "@/lib/diet";
 import { getT } from "@/lib/i18n";
 import { dishName, restaurantName, sectionName } from "@/lib/names";
 import { cuisineLabel } from "@/lib/restaurant-kind";
 import { formatKrw } from "@/lib/round";
 import type { MenuItem, OrderPick, Restaurant } from "@/lib/types";
+
+const GRID = "grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6";
 
 /** A restaurant's full menu by category. Choosing a dish opens a sheet with the pick form. */
 export async function MenuBrowser({ restaurant, basePath, selectedId, code, roundId, canPick, current, forUser, submitLabel }: {
@@ -39,6 +42,30 @@ export async function MenuBrowser({ restaurant, basePath, selectedId, code, roun
   const section = (category: string) => sectionName(dishes.find((d) => d.category === category)!, lang);
   // Descriptions are only in Korean; in English they would be the one Korean line on the card.
   const description = (text: string | null) => (text && (lang === "ko" || !/[\uac00-\ud7a3]/.test(text)) ? text : null);
+
+  // A leader picking for someone else does not see or change their own hearts here.
+  const hearted = new Set(forUser ? [] : (await getFavourites()).map((d) => d.id));
+  const favourites = dishes.filter((d) => hearted.has(d.id));
+
+  function card(dish: MenuItem) {
+    const result = check(dish);
+    const inner = (
+      <>
+        <DishPhoto src={dish.photo} alt="" className={`aspect-square w-full transition-transform duration-300 group-hover:scale-[1.03] ${result?.level === "avoid" ? "opacity-50" : ""}`} />
+        <span className="mt-2.5 line-clamp-2 text-base leading-snug font-bold sm:text-lg">{dishName(dish, lang)}</span>
+        <span className={`mt-1 block text-sm sm:text-base ${dish.price === null ? "text-muted" : "font-bold"}`}>{formatKrw(dish.price, lang)}</span>
+        {result && <span className="mt-1.5 block"><FoodBadge check={result} lang={lang} /></span>}
+      </>
+    );
+    return (
+      <li key={dish.id} className="relative">
+        {canPick
+          ? <Link href={hrefFor(dish)} scroll={false} className="group block h-full rounded-[20px] border border-line bg-surface p-2.5 transition duration-200 hover:-translate-y-0.5 hover:border-ink hover:shadow-lift">{inner}</Link>
+          : <div className="group h-full rounded-[20px] border border-line bg-surface p-2.5">{inner}</div>}
+        {!forUser && <span className="absolute top-4 right-4"><FavouriteButton code={code} dishId={dish.id} dishLabel={dishName(dish, lang)} on={hearted.has(dish.id)} /></span>}
+      </li>
+    );
+  }
 
   return (
     <>
@@ -69,29 +96,19 @@ export async function MenuBrowser({ restaurant, basePath, selectedId, code, roun
         ))}
       </nav>
 
+      {favourites.length > 0 && (
+        <section className="mt-6">
+          <h3 className="mb-3 flex items-center gap-2 font-display text-2xl font-extrabold tracking-tight">
+            <Heart aria-hidden size={24} weight="fill" className="text-accent" />{t("Your favourites", "내 즐겨찾기")}
+          </h3>
+          <ul className={GRID}>{favourites.map(card)}</ul>
+        </section>
+      )}
+
       {categories.map((category) => (
         <section key={category} id={encodeURIComponent(category)} className="mt-6">
           <h3 className="mb-3 font-display text-2xl font-extrabold tracking-tight">{section(category)}</h3>
-          <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
-            {canEatFirst(dishes.filter((d) => d.category === category), check).map((dish) => {
-              const result = check(dish);
-              const inner = (
-                <>
-                  <DishPhoto src={dish.photo} alt="" className={`aspect-square w-full transition-transform duration-300 group-hover:scale-[1.03] ${result?.level === "avoid" ? "opacity-50" : ""}`} />
-                  <span className="mt-2.5 line-clamp-2 text-base leading-snug font-bold sm:text-lg">{dishName(dish, lang)}</span>
-                  <span className={`mt-1 block text-sm sm:text-base ${dish.price === null ? "text-muted" : "font-bold"}`}>{formatKrw(dish.price, lang)}</span>
-                  {result && <span className="mt-1.5 block"><FoodBadge check={result} lang={lang} /></span>}
-                </>
-              );
-              return (
-                <li key={dish.id}>
-                  {canPick
-                    ? <Link href={hrefFor(dish)} scroll={false} className="group block rounded-[20px] border border-line bg-surface p-2.5 transition duration-200 hover:-translate-y-0.5 hover:border-ink hover:shadow-lift">{inner}</Link>
-                    : <div className="group rounded-[20px] border border-line bg-surface p-2.5">{inner}</div>}
-                </li>
-              );
-            })}
-          </ul>
+          <ul className={GRID}>{canEatFirst(dishes.filter((d) => d.category === category), check).map(card)}</ul>
         </section>
       ))}
 

@@ -75,14 +75,14 @@ export const getGroupContext = cache(async (code: string) => {
 });
 
 export type RestaurantWithMenu = Restaurant & {
-  menu_items: Pick<MenuItem, "name" | "name_en" | "photo" | "price" | "category" | "sort_order">[];
+  menu_items: Pick<MenuItem, "id" | "name" | "name_en" | "photo" | "price" | "category" | "sort_order">[];
 };
 
 export const getRestaurants = cache(async () => {
   const supabase = await createClient();
   const { data } = await supabase
     .from("restaurants")
-    .select("*, menu_items(name, name_en, photo, price, category, sort_order)")
+    .select("*, menu_items(id, name, name_en, photo, price, category, sort_order)")
     .order("name");
   return (data ?? []) as RestaurantWithMenu[];
 });
@@ -107,6 +107,17 @@ export async function getRestaurantMenu(id: string) {
   restaurant.menu_items.sort((a, b) => a.sort_order - b.sort_order);
   return restaurant;
 }
+
+/** The visitor's hearted dishes, newest first, each with its restaurant. Only their own are readable. */
+export const getFavourites = cache(async () => {
+  const { supabase } = await getUser();
+  const { data } = await supabase
+    .from("favourite_dishes")
+    .select("menu_item:menu_items(*, restaurant:restaurants(*))")
+    .order("created_at", { ascending: false });
+  return ((data ?? []) as unknown as { menu_item: MenuItem & { restaurant: Restaurant } | null }[])
+    .map((row) => row.menu_item).filter((dish) => dish !== null);
+});
 
 /** What the visitor avoids. Null until they have answered, which is different from avoiding nothing. */
 export const getFoodNeeds = cache(async () => {
