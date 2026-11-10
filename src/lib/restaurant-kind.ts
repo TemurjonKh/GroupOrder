@@ -24,19 +24,8 @@ export function restaurantKinds(restaurant: { name: string; cuisine: string }): 
 
 // The round picture on each food-type sticker: a dish from a brand's own menu where one fits, or
 // a freely licensed Wikimedia Commons photo, credited in the README.
-export const KIND_PHOTOS: Record<RestaurantKind, string> = {
-  korean: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Dolsot-bibimbap.jpg/330px-Dolsot-bibimbap.jpg",
-  chicken: "https://www.kyochon.com/uploadFiles/TB_ITEM/%EA%B5%90%EC%B4%8C-%ED%97%88%EB%8B%88-%EC%BD%A4%EB%B3%B4(1).png",
-  burger: "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/a31e5bd5-ceab-4548-976f-5fc168965779.png",
-  pizza: "https://static.bbqorder.co.kr/menu/af7515b0eb710c87c2d743a2b_2227ea05-27e5-4ca1-922e-e503b7bf15de.jpg",
-  snack: "https://static.bbqorder.co.kr/menu/da8b6ddc061d3dea20aef4832_fd489397-4ac3-420c-ac93-ba09a41173a4.png",
-  asian: "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Samseon_jjamppong.jpg/330px-Samseon_jjamppong.jpg",
-  western: "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/330px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg",
-  mexican: "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Tacos_de_carnitas.jpg/330px-Tacos_de_carnitas.jpg",
-  sandwich: "https://www.subway.co.kr/upload/menu/Italian_B.M.T_20211231094910899.png",
-  cafe: "https://mob-prd.burgerking.co.kr/images/menu/web/thumb/2025/01/06/bdf3b729-be05-4fe3-ab89-9943a48ae2a9.png",
-  dessert: "https://www.baskinrobbins.co.kr/upload/product/main/be99fe13158f3bd7bcc0b9cfc867a3d5.png",
-};
+// Cartoon food pictures from Microsoft's Fluent Emoji (MIT licence), stored in public/kinds.
+export const kindPicture = (kind: RestaurantKind) => `/kinds/${kind}.png`;
 
 const HANGUL = /[가-힣]/;
 /** The cuisine in the chosen language: brands give it in English, Daangn and Polle in Korean. */

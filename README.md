@@ -170,14 +170,11 @@ original names show and chains use their Korean names. Text sent to a restaurant
 always keeps the restaurant's own dish names. To add translations, edit that file, run
 `node scripts/build-translations-sql.mjs supabase/migrations/<new name>.sql` and `npm run menus:seed`.
 
-## Credits for the food-type photos
+## Credits for the food-type pictures
 
-Most stickers use a dish photo from a brand's menu. These four are from Wikimedia Commons:
-
-- Korean: "Dolsot-bibimbap.jpg" by Sous Chef, CC BY 2.0
-- Asian: "Samseon jjamppong.jpg" by Kjoonlee, CC BY 4.0
-- Western: "Spaghetti Bolognese mit Parmesan oder Grana Padano.jpg" by Manfred & Barbara Aulbach, CC BY-SA 3.0
-- Mexican: "Tacos de carnitas.jpg" by B.jars, CC BY-SA 4.0
+The round food-type stickers are from Microsoft's
+[Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (3D style), © Microsoft, MIT licence.
+They are stored in `public/kinds`.
 
 ## Checks
 

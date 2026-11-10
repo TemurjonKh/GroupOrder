@@ -3,7 +3,7 @@
 import { useMemo, useState, type ReactNode } from "react";
 import Image from "next/image";
 import { MagnifyingGlass, SquaresFour, X } from "@phosphor-icons/react";
-import { KIND_PHOTOS, RESTAURANT_KINDS, type RestaurantKind } from "@/lib/restaurant-kind";
+import { RESTAURANT_KINDS, kindPicture, type RestaurantKind } from "@/lib/restaurant-kind";
 import { useT } from "./lang";
 
 export type FinderItem = {
@@ -37,13 +37,13 @@ export function RestaurantFinder({ items }: { items: FinderItem[] }) {
           placeholder={t("Search restaurants or dishes, like jjamppong or burger", "식당이나 메뉴 검색 (예: 짬뽕, 버거)")}
           className="min-h-12 w-full rounded-full border border-line bg-surface pr-4 pl-11 text-base outline-none transition-colors placeholder:text-muted focus:border-ink" />
       </label>
-      <div role="group" aria-label={t("Food type", "음식 종류")} className="no-scrollbar -mx-4 mt-4 flex gap-3 overflow-x-auto px-4 pb-2 sm:mx-0 sm:px-0">
+      <div role="group" aria-label={t("Food type", "음식 종류")} className="no-scrollbar -mx-4 mt-2 flex gap-3 overflow-x-auto px-4 pt-2 pb-2 sm:-mx-2 sm:px-2">
         <Sticker active={kind === null} onClick={() => setKind(null)} label={t("All", "전체")} count={items.length}>
           <SquaresFour aria-hidden size={34} weight="duotone" />
         </Sticker>
         {chips.map((k) => (
           <Sticker key={k.key} active={kind === k.key} onClick={() => setKind(kind === k.key ? null : k.key)} label={t(k.label, k.korean)} count={k.count}>
-            <Image src={KIND_PHOTOS[k.key]} alt="" fill sizes="80px" className="object-cover" />
+            <Image src={kindPicture(k.key)} alt="" width={52} height={52} className="transition-transform duration-200 group-hover:scale-110" />
           </Sticker>
         ))}
       </div>

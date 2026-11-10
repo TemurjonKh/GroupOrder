@@ -4,7 +4,7 @@ import { ArrowRight } from "@phosphor-icons/react/ssr";
 import { removeMyPick, repeatLastPick, setAnswer } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
 import { LiveRefresh } from "@/components/client-bits";
-import { MembersPanel } from "@/components/members-panel";
+import { MembersPanel, type SuggestedRestaurant } from "@/components/members-panel";
 import { RestaurantFinder } from "@/components/restaurant-finder";
 import { RoundBar } from "@/components/round-bar";
 import { Avatar, BrandLogo, Button, Card, DishPhoto, buttonStyles } from "@/components/ui";
@@ -48,7 +48,7 @@ export default async function GroupPage({ params }: { params: Promise<{ code: st
           <MyAnswer code={code} group={group} round={round} mine={mine} canAnswer={canAnswer} />
           {canAnswer && <RestaurantList code={code} group={group} round={round} suggestions={suggestions} members={members} />}
         </div>
-        <MembersPanel answers={answers}>
+        <MembersPanel answers={answers} suggested={await suggestedRestaurants(code, suggestions, members)}>
           {isLeader && (
             <Link href={`/g/${code}/finalize`} className={`${buttonStyles.primary} mt-4 w-full`}>
               {round.status === "open" ? t("Review and finalize", "확인하고 확정하기") : t("Open summary", "주문 요약 보기")}
@@ -58,6 +58,20 @@ export default async function GroupPage({ params }: { params: Promise<{ code: st
       </div>
     </div>
   );
+}
+
+/** Restaurants members suggested, the most suggested first, for the side panel. */
+async function suggestedRestaurants(code: string, suggestions: Suggestion[], members: Member[]): Promise<SuggestedRestaurant[]> {
+  if (suggestions.length === 0) return [];
+  const restaurants = await getRestaurants();
+  return [...new Set(suggestions.map((s) => s.restaurant_id))]
+    .map((id) => ({
+      restaurant: restaurants.find((r) => r.id === id)!,
+      by: suggestions.filter((s) => s.restaurant_id === id).map((s) => members.find((m) => m.user_id === s.user_id)!).filter(Boolean),
+      href: `/g/${code}/r/${id}`,
+    }))
+    .filter((s) => s.restaurant && s.by.length > 0)
+    .sort((a, b) => b.by.length - a.by.length);
 }
 
 async function MyAnswer({ code, group, round, mine, canAnswer }: {
