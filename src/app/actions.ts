@@ -221,7 +221,8 @@ function pickArgs(form: FormData) {
 }
 
 export async function setPick(_: ActionState, form: FormData): Promise<ActionState> {
-  const result = await call(form, "set_my_pick", pickArgs(form));
+  // "Replace" swaps all of the person's dishes for this one; anything else adds it.
+  const result = await call(form, form.get("mode") === "replace" ? "replace_my_picks" : "set_my_pick", pickArgs(form));
   if (result) return result;
   redirect(groupPath(form));
 }
@@ -230,6 +231,12 @@ export async function leaderSetPick(_: ActionState, form: FormData): Promise<Act
   const result = await call(form, "leader_set_pick", { ...pickArgs(form), p_user: text(form, "user") });
   if (result) return result;
   redirect(`${groupPath(form)}/finalize`);
+}
+
+/** Suggests a restaurant to the group for this round, or takes the caller's own suggestion back. */
+export async function suggestRestaurant(_: ActionState, form: FormData) {
+  return call(form, form.get("undo") ? "unsuggest_restaurant" : "suggest_restaurant",
+    { p_round: text(form, "round"), p_restaurant: text(form, "restaurant") });
 }
 
 /** Takes one dish off the caller's own picks. */

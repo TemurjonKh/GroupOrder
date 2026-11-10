@@ -189,6 +189,33 @@ describe("picks", () => {
       .toEqual([{ status: "skipped" }]);
   });
 
+  it("replaces all of a person's dishes with a new one when asked", async () => {
+    const round = await startRound();
+    const other = (await db.query<{ id: string }>(
+      "select id from menu_items where restaurant_id <> $1 limit 1", [dish.restaurant_id])).rows[0].id;
+    await pick(MINJI, round);
+    await as(MINJI, "select replace_my_picks($1, $2, 2, '{}', null)", [round, other]);
+    expect((await db.query<{ menu_item_id: string; qty: number }>(
+      "select menu_item_id, qty from order_items where round_id = $1 and user_id = $2", [round, MINJI])).rows)
+      .toEqual([{ menu_item_id: other, qty: 2 }]);
+  });
+
+  it("lets members suggest a restaurant, which only the suggester can take back", async () => {
+    const round = await startRound();
+    await as(MINJI, "select suggest_restaurant($1, $2)", [round, dish.restaurant_id]);
+    await as(MINJI, "select suggest_restaurant($1, $2)", [round, dish.restaurant_id]);
+    const seen = await as<{ user_id: string }>(DANA, "select user_id from restaurant_suggestions where round_id = $1", [round]);
+    expect(seen).toEqual([{ user_id: MINJI }]);
+    expect(await as(OUTSIDER, "select * from restaurant_suggestions")).toEqual([]);
+    await expect(as(OUTSIDER, "select suggest_restaurant($1, $2)", [round, dish.restaurant_id])).rejects.toThrow("not_a_member");
+    // Someone else cannot remove it, directly or through the function.
+    await as(DANA, "select unsuggest_restaurant($1, $2)", [round, dish.restaurant_id]);
+    await expect(as(DANA, "delete from restaurant_suggestions")).rejects.toThrow();
+    expect((await db.query("select 1 from restaurant_suggestions")).rows).toHaveLength(1);
+    await as(MINJI, "select unsuggest_restaurant($1, $2)", [round, dish.restaurant_id]);
+    expect((await db.query("select 1 from restaurant_suggestions")).rows).toHaveLength(0);
+  });
+
   it("sends one ordered notice per person and lets a leader remove one dish at a time", async () => {
     const round = await startRound();
     const other = (await db.query<{ id: string }>(

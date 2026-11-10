@@ -102,7 +102,10 @@ export async function MenuBrowser({ restaurant, basePath, selectedId, code, roun
             <div className="mt-5">
               {already && <p className="mb-3 text-sm font-semibold text-on-accent-soft">Already in {forUser ? "their" : "your"} picks. Saving changes it.</p>}
               <PickForm code={code} roundId={roundId} item={selected} forUser={forUser}
-                submitLabel={already ? "Save changes" : submitLabel} current={already} />
+                submitLabel={already ? "Save changes" : submitLabel} current={already}
+                elsewhere={already || forUser ? [] : (current ?? [])
+                  .filter((p) => p.menu_item && p.menu_item.restaurant_id !== selected.restaurant_id)
+                  .map((p) => ({ name: p.menu_item!.name, restaurant: p.menu_item!.restaurant.name }))} />
             </div>
           </div>
         </Sheet>

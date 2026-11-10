@@ -18,7 +18,8 @@ export function ActionForm({ action, hidden = {}, className, children }: {
       // person typed, so a wrong password does not also wipe the email.
       onSubmit={(event) => {
         event.preventDefault();
-        const data = new FormData(event.currentTarget);
+        // Passing the clicked button keeps its name and value, such as "Add it too" or "Replace".
+        const data = new FormData(event.currentTarget, (event.nativeEvent as SubmitEvent).submitter);
         startTransition(() => formAction(data));
       }}
       aria-busy={pending}

@@ -47,7 +47,7 @@ export default async function HomePage() {
   return (
     <>
       <AppHeader />
-      <main className="mx-auto max-w-7xl space-y-8 px-4 py-6">
+      <main className="w-full space-y-8 px-4 py-6 sm:px-6 lg:px-8">
         <section className="relative overflow-hidden rounded-[28px] bg-accent px-6 py-9 text-on-accent md:px-12 md:py-14">
           <div className="relative z-10 md:max-w-[50%]">
             <p className="font-semibold">Hi {profile?.name}</p>

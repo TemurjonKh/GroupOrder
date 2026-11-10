@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "./supabase/server";
 import { compactDish } from "./map-dish";
 import { answerCounts, memberAnswers } from "./round";
-import { MAP_DISH_COLUMNS, type FoodNeeds, type Group, type MapDish, type Member, type MenuItem, type OrderPick, type Place, type Restaurant, type Round } from "./types";
+import { MAP_DISH_COLUMNS, type FoodNeeds, type Group, type MapDish, type Member, type MenuItem, type OrderPick, type Suggestion, type Place, type Restaurant, type Round } from "./types";
 
 export const PICK_COLUMNS =
   "id, round_id, user_id, qty, options, note, price_at_pick, status, menu_item:menu_items(*, restaurant:restaurants(*))";
@@ -46,7 +46,14 @@ export const getGroupContext = cache(async (code: string) => {
     .limit(1)
     .maybeSingle<Round>();
 
-  const picks = await getPicks(round ? [round.id] : []);
+  const [picks, { data: suggested }] = await Promise.all([
+    getPicks(round ? [round.id] : []),
+    round
+      ? supabase.from("restaurant_suggestions").select("restaurant_id, user_id, created_at").eq("round_id", round.id).order("created_at")
+      : Promise.resolve({ data: [] }),
+  ]);
+  // Only current members count; someone who left takes their suggestion with them.
+  const suggestions = ((suggested ?? []) as Suggestion[]).filter((s) => members.some((m) => m.user_id === s.user_id));
   const answers = memberAnswers(members, picks);
   // Everything of the caller's in this round: their dishes, or a "not joining" or "removed" row.
   const mine = picks.filter((p) => p.user_id === user.id);
@@ -62,6 +69,7 @@ export const getGroupContext = cache(async (code: string) => {
     answers,
     counts: answerCounts(answers),
     mine,
+    suggestions,
     canAnswer: state === "open",
   };
 });

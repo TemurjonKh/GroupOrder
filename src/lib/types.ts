@@ -100,6 +100,9 @@ export type Round = {
   finalized_at: string | null;
 };
 
+/** A member suggesting a restaurant to their group for one round. */
+export type Suggestion = { restaurant_id: string; user_id: string; created_at: string };
+
 export type PickStatus = "draft" | "skipped" | "confirmed" | "removed" | "cancelled";
 
 /** An order_items row with its dish and restaurant attached. */

@@ -49,7 +49,7 @@ export default async function FinalizePage({ params }: { params: Promise<{ code:
         )}
       </div>
 
-      <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-5 lg:grid-cols-[minmax(0,1fr)_320px]">
+      <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-5 lg:grid-cols-[minmax(0,1fr)_360px] 2xl:grid-cols-[minmax(0,1fr)_440px]">
         <section aria-label="Order per restaurant" className="space-y-3">
           {summaries.length === 0 && <Card className="p-8 text-center text-muted">No picks yet.</Card>}
           {summaries.map((summary) => (

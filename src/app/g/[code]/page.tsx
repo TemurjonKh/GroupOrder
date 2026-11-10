@@ -6,16 +6,16 @@ import { ActionForm } from "@/components/action-form";
 import { LiveRefresh } from "@/components/client-bits";
 import { MembersPanel } from "@/components/members-panel";
 import { RoundBar } from "@/components/round-bar";
-import { BrandLogo, Button, Card, DishPhoto, buttonStyles } from "@/components/ui";
+import { Avatar, BrandLogo, Button, Card, DishPhoto, buttonStyles } from "@/components/ui";
 import { PICK_COLUMNS, getGroupContext, getRestaurants, getUser } from "@/lib/data";
 import { formatDistance, isDish, optionsLabel, restaurantsForRound, totalLabel } from "@/lib/round";
-import type { Group, OrderPick, Round } from "@/lib/types";
+import type { Group, Member, OrderPick, Round, Suggestion } from "@/lib/types";
 
 export default async function GroupPage({ params }: { params: Promise<{ code: string }> }) {
   const { code } = await params;
   const context = await getGroupContext(code);
   if (!context) notFound();
-  const { group, round, answers, counts, mine, canAnswer, isLeader } = context;
+  const { group, round, answers, counts, mine, suggestions, members, canAnswer, isLeader } = context;
 
   if (!round) {
     return (
@@ -30,7 +30,7 @@ export default async function GroupPage({ params }: { params: Promise<{ code: st
     <div className="space-y-5">
       <LiveRefresh groupId={group.id} roundId={round.id} />
       <RoundBar round={round} counts={counts} />
-      <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-5 lg:grid-cols-[minmax(0,1fr)_400px] xl:grid-cols-[minmax(0,1fr)_460px]">
+      <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-5 lg:grid-cols-[minmax(0,1fr)_400px] xl:grid-cols-[minmax(0,1fr)_460px] 2xl:grid-cols-[minmax(0,1fr)_540px]">
         <div className="space-y-5">
           {round.status === "finalized" && (
             <Card className="p-5">
@@ -41,7 +41,7 @@ export default async function GroupPage({ params }: { params: Promise<{ code: st
             </Card>
           )}
           <MyAnswer code={code} group={group} round={round} mine={mine} canAnswer={canAnswer} />
-          {canAnswer && <RestaurantList code={code} group={group} round={round} />}
+          {canAnswer && <RestaurantList code={code} group={group} round={round} suggestions={suggestions} members={members} />}
         </div>
         <MembersPanel answers={answers}>
           {isLeader && (
@@ -143,23 +143,44 @@ async function lastPick(groupId: string, roundId: string) {
   return pick?.menu_item ? { id: pick.id, name: pick.menu_item.name } : null;
 }
 
-async function RestaurantList({ code, group, round }: { code: string; group: Group; round: Round }) {
+// 4 photos on a phone, 5 up to a laptop, 7 on a wide screen. More would mean hundreds of brand
+// photos per page, which slows the brands' servers and Vercel's monthly image allowance.
+const SHOW_FROM: Record<number, string> = { 4: "hidden sm:block", 5: "hidden 2xl:block", 6: "hidden 2xl:block" };
+
+async function RestaurantList({ code, group, round, suggestions, members }: {
+  code: string; group: Group; round: Round; suggestions: Suggestion[]; members: Member[];
+}) {
   const pinned = round.allowed_restaurant_ids;
-  const restaurants = restaurantsForRound(group, await getRestaurants(), pinned);
+  const suggesters = (id: string) => suggestions.filter((s) => s.restaurant_id === id)
+    .map((s) => members.find((m) => m.user_id === s.user_id)!).filter(Boolean);
+  // Suggested restaurants come first, the most suggested at the top; the rest stay nearest first.
+  const restaurants = restaurantsForRound(group, await getRestaurants(), pinned)
+    .map((r, i) => ({ ...r, by: suggesters(r.id), i }))
+    .sort((a, b) => b.by.length - a.by.length || a.i - b.i);
   if (restaurants.length === 0) {
     return <Card className="p-5 text-sm text-muted">We have no restaurants listed near {group.location_label} yet.</Card>;
   }
   return (
-    <section>
+    <section aria-label="Restaurants">
       <h2 className="mb-3 font-display text-2xl font-extrabold tracking-tight">{pinned.length ? "Restaurants for this round" : "Where to order from"}</h2>
       <ul className="space-y-3">
         {restaurants.map((r, i) => {
           const dishes = [...r.menu_items].sort((a, b) => a.sort_order - b.sort_order);
-          const photos = dishes.filter((d) => d.photo).filter((_, n) => n % 7 === 0).slice(0, 5);
+          const photos = dishes.filter((d) => d.photo).filter((_, n) => n % 5 === 0).slice(0, 7);
           const priced = dishes.some((d) => d.price !== null);
           return (
             <li key={r.id} className="rise" style={{ "--i": i } as React.CSSProperties}>
-              <Link href={`/g/${code}/r/${r.id}`} className="group block rounded-[20px] border border-line bg-surface p-4 transition duration-200 hover:-translate-y-0.5 hover:border-ink hover:shadow-lift">
+              <Link href={`/g/${code}/r/${r.id}`} className={`group block rounded-[20px] border bg-surface p-4 transition duration-200 hover:-translate-y-0.5 hover:border-ink hover:shadow-lift ${r.by.length ? "border-accent" : "border-line"}`}>
+                {r.by.length > 0 && (
+                  <span className="mb-3 flex items-center gap-2 text-sm font-semibold text-on-accent-soft">
+                    <span className="flex -space-x-2">
+                      {r.by.slice(0, 4).map((m) => <span key={m.user_id} className="rounded-xl ring-2 ring-surface"><Avatar src={m.avatar} name={m.name} size={30} /></span>)}
+                    </span>
+                    <span>
+                      {r.by.length === 1 ? `${r.by[0].name} suggests this` : `${r.by.slice(0, -1).map((m) => m.name).join(", ")} and ${r.by.at(-1)!.name} suggest this`}
+                    </span>
+                  </span>
+                )}
                 <span className="flex items-center gap-3">
                   <BrandLogo restaurant={r} size={52} />
                   <span className="min-w-0 flex-1">
@@ -172,8 +193,11 @@ async function RestaurantList({ code, group, round }: { code: string; group: Gro
                   </span>
                   <ArrowRight aria-hidden size={20} className="shrink-0 text-muted transition-transform duration-200 group-hover:translate-x-1 group-hover:text-ink" />
                 </span>
-                <span aria-hidden className="mt-3 grid grid-cols-4 gap-2 sm:grid-cols-5">
-                  {photos.map((d, n) => <DishPhoto key={d.name} src={d.photo} sizes="(max-width: 640px) 25vw, 140px" className={`aspect-square w-full ${n === 4 ? "hidden sm:block" : ""}`} />)}
+                <span aria-hidden className="mt-3 grid grid-cols-4 gap-2 sm:grid-cols-5 2xl:grid-cols-7">
+                  {photos.map((d, n) => (
+                    <DishPhoto key={d.name} src={d.photo} sizes="(max-width: 640px) 25vw, 160px"
+                      className={`aspect-square w-full ${SHOW_FROM[n] ?? ""}`} />
+                  ))}
                 </span>
               </Link>
             </li>

@@ -50,6 +50,11 @@ export function LiveRefresh({ groupId, roundId }: { groupId: string; roundId?: s
             { event: "*", schema: "public", table: "order_items", filter: `round_id=eq.${roundId}` },
             refresh,
           );
+          channel.on(
+            "postgres_changes",
+            { event: "*", schema: "public", table: "restaurant_suggestions", filter: `round_id=eq.${roundId}` },
+            refresh,
+          );
         }
         channel.subscribe();
         stopChannel = () => { supabase.removeChannel(channel); };

@@ -151,6 +151,7 @@ const ERROR_MESSAGES: Record<string, string> = {
   round_not_finalized: "Finalize the round first.",
   restaurant_not_allowed: "The leader did not allow this restaurant for this round.",
   unknown_menu_item: "That dish is no longer on the menu.",
+  unknown_restaurant: "That restaurant is no longer listed.",
   invalid_invite_code: "That invite code does not exist.",
   group_needs_a_leader: "Promote another leader first: a group always needs one.",
 };

@@ -51,10 +51,11 @@ async function brokenImages(page) {
   });
   await settled(page);
   // Photos are resized on first request, which takes a while on a fresh start.
-  await page.waitForFunction(() => [...document.images].every((i) => i.complete), null, { timeout: 90000 }).catch(() => {});
+  // Photos hidden at this screen width (shown only on wider screens) are never loaded, by design.
+  await page.waitForFunction(() => [...document.images].filter((i) => i.checkVisibility()).every((i) => i.complete), null, { timeout: 90000 }).catch(() => {});
   // An image still waiting to load counts as a failure too, not just one that errored.
   return page.evaluate(() => {
-    const images = [...document.images];
+    const images = [...document.images].filter((i) => i.checkVisibility());
     return { total: images.length, broken: images.filter((i) => !i.complete || i.naturalWidth === 0).map((i) => i.src) };
   });
 }
@@ -314,7 +315,9 @@ await step("a second dish from another restaurant is added, not swapped, and the
   await dana.getByRole("link", { name: /BBQ/ }).click();
   await dana.locator("a[href*='dish=']").first().click();
   const sheet = dana.locator("dialog[open]");
-  await sheet.getByRole("button", { name: "Add to my picks" }).click();
+  // She already has a Subway dish, so she is asked whether to add this one or replace it.
+  await sheet.getByText("You already picked").waitFor();
+  await sheet.getByRole("button", { name: "Add it too" }).click();
   await see(dana, "Your picks (2)");
   const mine = dana.locator("section[aria-label='Your answer']");
   await mine.getByText(/^Subway,/).waitFor();
@@ -328,6 +331,44 @@ await step("a second dish from another restaurant is added, not swapped, and the
   await mine.getByRole("button", { name: /^Remove BBQ/ }).click();
   await mine.getByText("Your pick", { exact: true }).waitFor();
   if (await mine.getByText(/^BBQ,/).count()) throw new Error("removed dish still shown");
+});
+await step("replace swaps the earlier dish for the new one", async () => {
+  await dana.getByRole("link", { name: /BBQ/ }).click();
+  await dana.locator("a[href*='dish=']").first().click();
+  await dana.locator("dialog[open]").getByRole("button", { name: "Replace my pick" }).click();
+  const mine = dana.locator("section[aria-label='Your answer']");
+  await mine.getByText(/^BBQ,/).waitFor();
+  if (await mine.getByText(/^Subway,/).count()) throw new Error("replaced dish still shown");
+  await mine.getByText("Your pick", { exact: true }).waitFor();
+  // And back to the unpriced Subway dish the later summary checks rely on.
+  await dana.getByRole("link", { name: /Subway/ }).click();
+  await dana.locator("a[href*='dish=']").first().click();
+  await dana.locator("dialog[open]").getByRole("button", { name: "Replace my pick" }).click();
+  await mine.getByText(/^Subway,/).waitFor();
+  if (await mine.getByText(/^BBQ,/).count()) throw new Error("replaced dish still shown");
+});
+await step("a suggested restaurant shows the suggester at the top of everyone's list", async () => {
+  await minji.goto(`${BASE}/g/${CODE}`);
+  await minji.getByRole("link", { name: /Burger King/ }).click();
+  await minji.getByRole("button", { name: "Suggest to the group" }).click();
+  await see(minji, "You suggest this to the group");
+  // The leader's list updates by itself; Burger King moves to the top with Minji's name.
+  await temur.goto(`${BASE}/g/${CODE}`);
+  const first = temur.locator("section[aria-label=Restaurants] > ul > li").first();
+  await first.getByText("Minji suggests this").waitFor({ timeout: 15000 });
+  await first.getByText("Burger King").waitFor();
+  await settled(temur);
+  await shot(temur, "30-suggested");
+  await first.getByRole("link").click();
+  await temur.getByRole("heading", { name: "Burger King" }).first().waitFor();
+  await see(temur, "Minji suggests this to the group");
+  // Only Minji can take it back: the leader is only offered to suggest it himself.
+  if (await temur.getByRole("button", { name: "Take back my suggestion" }).count()) throw new Error("someone else can remove the suggestion");
+  await minji.getByRole("button", { name: "Take back my suggestion" }).click();
+  await minji.getByRole("button", { name: "Suggest to the group" }).waitFor();
+  await temur.goto(`${BASE}/g/${CODE}`);
+  if (await temur.getByText("Minji suggests this").count()) throw new Error("suggestion still shown after it was taken back");
+  await minji.goto(BASE);
 });
 await step("Not joining shows live, and a member can come back", async () => {
   await minji.getByRole("link", { name: /Krafton work team/ }).click();
