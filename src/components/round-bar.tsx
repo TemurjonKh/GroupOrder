@@ -16,12 +16,12 @@ export async function RoundBar({ round, counts }: {
   round: Round;
   counts: { picked: number; skipped: number; noAnswer: number };
 }) {
-  const { t } = await getT();
+  const { lang, t } = await getT();
   return (
     <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-4 rounded-[20px] bg-accent-soft px-5 py-5 md:px-7">
       <div>
         <p className="flex flex-wrap items-center gap-2 text-sm font-medium text-on-accent-soft">
-          {formatDate(round.created_at)}
+          {formatDate(round.created_at, lang)}
           <Tag tone={round.status === "open" ? "accent" : "ink"}>{round.status === "open" ? t("Picks open", "주문 받는 중") : t("Finalized", "확정됨")}</Tag>
         </p>
         <h2 className="mt-1 font-display text-4xl leading-none font-extrabold tracking-tight">{round.title}</h2>

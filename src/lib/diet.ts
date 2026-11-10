@@ -81,10 +81,18 @@ export const allergenLabel = (key: string) => ITEMS.get(key)?.label ?? key;
 const KOREAN_BY_LABEL = new Map([...ITEMS.values()].map((item) => [item.label, item.korean]));
 /** The Korean name for a label from a dish check ("Pork" is 돼지고기). */
 export const koreanLabel = (label: string) => KOREAN_BY_LABEL.get(label) ?? label;
-const SHORTCUT_LABELS: Record<string, string> = {
-  pork: "No pork", chicken: "No chicken", beef: "No beef", peanut: "No peanut", milk: "No dairy", egg: "No egg", wheat: "No wheat",
+const SHORTCUT_LABELS: Record<string, [string, string]> = {
+  pork: ["No pork", "돼지고기 제외"], chicken: ["No chicken", "닭고기 제외"], beef: ["No beef", "쇠고기 제외"], peanut: ["No peanut", "땅콩 제외"],
+  milk: ["No dairy", "유제품 제외"], egg: ["No egg", "달걀 제외"], wheat: ["No wheat", "밀 제외"],
 };
-export const dietItemLabel = (key: string) => DIET_KEYS.get(key)?.label ?? SHORTCUT_LABELS[key] ?? allergenLabel(key);
+/** A chip label for a diet, a shortcut such as "No pork", or a single food. */
+export function dietItemLabel(key: string, lang: "en" | "ko" = "en") {
+  const diet = DIET_KEYS.get(key);
+  if (diet) return lang === "ko" ? diet.korean : diet.label;
+  if (SHORTCUT_LABELS[key]) return SHORTCUT_LABELS[key][lang === "ko" ? 1 : 0];
+  const item = ITEMS.get(key);
+  return item ? (lang === "ko" ? item.korean : item.label) : key;
+}
 
 /** Diets become the foods they rule out. */
 export function expandAvoid(avoid: string[]) {

@@ -13,7 +13,10 @@ import { getT } from "@/lib/i18n";
 import { dishName, sectionName } from "@/lib/names";
 import type { MenuItem } from "@/lib/types";
 
-export const metadata = { title: "Place" };
+export async function generateMetadata() {
+  const { t } = await getT();
+  return { title: t("Place", "장소") };
+}
 
 const PLACE_SOURCE = {
   openstreetmap: "© OpenStreetMap contributors",
@@ -35,7 +38,7 @@ export default async function PlacePage({ params }: { params: Promise<{ id: stri
   // A listing with no sections of its own is split into meals, drinks, and desserts and sides.
   const kindLabel = (key: string) => {
     const kind = DISH_KINDS.find((k) => k.key === key)!;
-    return lang === "ko" ? ({ meal: "식사", drink: "음료", snack: "디저트·사이드" } as Record<string, string>)[kind.key] : kind.label;
+    return lang === "ko" ? kind.korean : kind.label;
   };
   const label = (dish: MenuItem) => (dish.category === "Menu" ? kindLabel(dishKind(dish)) : sectionName(dish, lang));
   const dishes = [...(menu?.menu_items ?? [])].sort((a, b) => a.sort_order - b.sort_order);

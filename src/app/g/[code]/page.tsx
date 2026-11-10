@@ -103,7 +103,7 @@ async function MyAnswer({ code, group, round, mine, canAnswer }: {
                 <div className="min-w-0 flex-1">
                   <p className="font-display text-lg leading-snug font-bold tracking-tight">{dishName(pick.menu_item!, lang)}{pick.qty > 1 && ` x${pick.qty}`}</p>
                   <p className="text-sm text-muted">
-                    {[restaurantName(pick.menu_item!.restaurant, lang), optionsLabel(pick.options), pick.note, totalLabel((pick.price_at_pick ?? 0) * pick.qty, pick.price_at_pick === null ? pick.qty : 0)].filter(Boolean).join(", ")}
+                    {[restaurantName(pick.menu_item!.restaurant, lang), optionsLabel(pick.options), pick.note, totalLabel((pick.price_at_pick ?? 0) * pick.qty, pick.price_at_pick === null ? pick.qty : 0, lang)].filter(Boolean).join(", ")}
                   </p>
                 </div>
                 {canAnswer && (
@@ -123,7 +123,7 @@ async function MyAnswer({ code, group, round, mine, canAnswer }: {
               {dishes.length > 1 && (() => {
                 const total = dishes.reduce((sum, p) => sum + (p.price_at_pick ?? 0) * p.qty, 0);
                 const unpriced = dishes.reduce((sum, p) => sum + (p.price_at_pick === null ? p.qty : 0), 0);
-                return <span className="block font-semibold text-ink">{t("Your total", "내 합계")}: {totalLabel(total, unpriced)}</span>;
+                return <span className="block font-semibold text-ink">{t("Your total", "내 합계")}: {totalLabel(total, unpriced, lang)}</span>;
               })()}
             </p>
           )}

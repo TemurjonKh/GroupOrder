@@ -9,7 +9,10 @@ import { safeNext } from "@/lib/url";
 import { getT } from "@/lib/i18n";
 import type { Lang } from "@/lib/names";
 
-export const metadata = { title: "My food needs" };
+export async function generateMetadata() {
+  const { t } = await getT();
+  return { title: t("My food needs", "내 식단 정보") };
+}
 
 function Choices({ title, hint, items, chosen, lang }: {
   title: string;

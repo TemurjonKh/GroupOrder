@@ -141,26 +141,28 @@ export function restaurantsForRound<R extends { id: string; lat: number | null; 
 }
 
 // Seoul time always: the server runs in UTC, and server and browser must agree.
-export function formatDate(iso: string) {
-  return new Intl.DateTimeFormat("en-GB", { timeZone: TIME_ZONE, weekday: "short", day: "numeric", month: "short" }).format(new Date(iso));
+export function formatDate(iso: string, lang: "en" | "ko" = "en") {
+  return new Intl.DateTimeFormat(lang === "ko" ? "ko-KR" : "en-GB", { timeZone: TIME_ZONE, weekday: "short", day: "numeric", month: "short" }).format(new Date(iso));
 }
 
-const ERROR_MESSAGES: Record<string, string> = {
-  leader_only: "Only a group leader can do that.",
-  target_not_a_member: "That person is no longer in this group.",
-  not_a_member: "You are not a member of this group.",
-  round_closed: "This round is finalized, so answers can no longer change.",
-  round_not_open: "This round has already been finalized.",
-  round_not_finalized: "Finalize the round first.",
-  restaurant_not_allowed: "The leader did not allow this restaurant for this round.",
-  unknown_menu_item: "That dish is no longer on the menu.",
-  unknown_restaurant: "That restaurant is no longer listed.",
-  invalid_invite_code: "That invite code does not exist.",
-  group_needs_a_leader: "Promote another leader first: a group always needs one.",
+const ERROR_MESSAGES: Record<string, [string, string]> = {
+  leader_only: ["Only a group leader can do that.", "그룹 리더만 할 수 있습니다."],
+  target_not_a_member: ["That person is no longer in this group.", "그 사람은 더 이상 이 그룹에 없습니다."],
+  not_a_member: ["You are not a member of this group.", "이 그룹의 멤버가 아닙니다."],
+  round_closed: ["This round is finalized, so answers can no longer change.", "라운드가 확정되어 응답을 더 바꿀 수 없습니다."],
+  round_not_open: ["This round has already been finalized.", "이미 확정된 라운드입니다."],
+  round_not_finalized: ["Finalize the round first.", "먼저 라운드를 확정하세요."],
+  restaurant_not_allowed: ["The leader did not allow this restaurant for this round.", "리더가 이번 라운드에 이 식당을 허용하지 않았습니다."],
+  unknown_menu_item: ["That dish is no longer on the menu.", "더 이상 메뉴에 없는 음식입니다."],
+  unknown_dish: ["That dish is no longer on the menu.", "더 이상 메뉴에 없는 음식입니다."],
+  unknown_restaurant: ["That restaurant is no longer listed.", "더 이상 등록되지 않은 식당입니다."],
+  invalid_invite_code: ["That invite code does not exist.", "없는 초대 코드입니다."],
+  group_needs_a_leader: ["Promote another leader first: a group always needs one.", "먼저 다른 리더를 지정하세요. 그룹에는 리더가 꼭 있어야 합니다."],
 };
 
 /** Database functions raise short codes; turn them into a sentence for the user. */
-export function friendlyError(message: string) {
+export function friendlyError(message: string, lang: "en" | "ko" = "en") {
   const code = Object.keys(ERROR_MESSAGES).find((key) => message.includes(key));
-  return code ? ERROR_MESSAGES[code] : "Something went wrong. Please try again.";
+  const [en, ko] = code ? ERROR_MESSAGES[code] : ["Something went wrong. Please try again.", "문제가 생겼습니다. 다시 시도해 주세요."];
+  return lang === "ko" ? ko : en;
 }

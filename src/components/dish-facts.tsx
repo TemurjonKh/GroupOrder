@@ -28,12 +28,18 @@ export function FoodBadge({ check, lang = "en" }: { check: DishCheck; lang?: Lan
   );
 }
 
+// The parts of a set that have no allergen data, in English. All four are Burger King set parts.
+const GAP_EN: Record<string, string> = {
+  "코카콜라(L)": "Coca-Cola (L)", "코카콜라(R)": "Coca-Cola (R)", "프렌치프라이(L)": "French Fries (L)", "프렌치프라이(R)": "French Fries (R)",
+};
+const gapNames = (gaps: string[], lang: Lang) => gaps.map((g) => (lang === "en" ? GAP_EN[g] ?? g : g)).join(", ");
+
 function headline(check: DishCheck, gaps: string[], lang: Lang) {
   const t = translator(lang);
   if (check.level === "avoid") return t(`Contains what you avoid: ${names(check.found, lang)}`, `피하는 재료 포함: ${names(check.found, lang)}`);
   if (check.level === "caution") return t(`May contain what you avoid: ${names(check.maybe, lang)}`, `피하는 재료가 들어 있을 수 있음: ${names(check.maybe, lang)}`);
   if (check.level === "unknown" && gaps.length) {
-    return t(`None of your items are listed so far, but there is no data for: ${gaps.join(", ")}. Ask the store.`, `지금까지는 해당 없음, 다만 정보가 없는 구성품: ${gaps.join(", ")}. 매장에 확인하세요.`);
+    return t(`None of your items are listed so far, but there is no data for: ${gapNames(gaps, lang)}. Ask the store.`, `지금까지는 해당 없음, 다만 정보가 없는 구성품: ${gapNames(gaps, lang)}. 매장에 확인하세요.`);
   }
   if (check.level === "unknown") return t("No allergen data for this dish. Ask the store before ordering.", "이 메뉴는 알레르기 정보가 없습니다. 주문 전에 매장에 확인하세요.");
   return t("None of your items are listed for this dish.", "이 메뉴에는 피하는 재료가 표시되어 있지 않습니다.");
@@ -94,7 +100,7 @@ export function DishFacts({ dish, check, local = false, lang = "en" }: {
           {dish.allergen_gaps.length > 0 && (
             <div>
               <dt className="inline font-semibold">{t("No data for", "정보 없음")}: </dt>
-              <dd className="inline">{dish.allergen_gaps.join(", ")}</dd>
+              <dd className="inline">{gapNames(dish.allergen_gaps, lang)}</dd>
             </div>
           )}
         </dl>

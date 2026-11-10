@@ -4,22 +4,24 @@ import { createGroup } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
 import { AppHeader } from "@/components/app-header";
 import { Button, Field, PageTitle, inputStyles, textLink } from "@/components/ui";
+import { getT } from "@/lib/i18n";
 
 const ICONS = ["🍱", "🏢", "🥋", "🏋️", "🎓", "🍗", "🍔", "☕"];
 
-export default function NewGroupPage() {
+export default async function NewGroupPage() {
+  const { t } = await getT();
   return (
     <>
       <AppHeader />
       <main className="mx-auto max-w-md px-4 py-8">
-        <Link href="/" className={textLink}><ArrowLeft aria-hidden size={16} /> My groups</Link>
+        <Link href="/" className={textLink}><ArrowLeft aria-hidden size={16} /> {t("My groups", "내 그룹")}</Link>
         <div className="rise mt-4">
-          <PageTitle>Create a group</PageTitle>
-          <p className="mt-3 mb-8 text-muted">A work team, a club, the gym crew. You become its leader, and lunch picks open right away.</p>
+          <PageTitle>{t("Create a group", "그룹 만들기")}</PageTitle>
+          <p className="mt-3 mb-8 text-muted">{t("A work team, a club, the gym crew. You become its leader, and lunch picks open right away.", "회사 팀, 동아리, 운동 모임 등. 내가 리더가 되고 점심 메뉴 고르기가 바로 시작됩니다.")}</p>
           <ActionForm action={createGroup} className="space-y-6">
-            <Field label="Group name"><input name="name" required maxLength={80} autoFocus className={inputStyles} /></Field>
+            <Field label={t("Group name", "그룹 이름")}><input name="name" required maxLength={80} autoFocus className={inputStyles} /></Field>
             <fieldset>
-              <legend className="mb-2 text-sm font-medium">Icon</legend>
+              <legend className="mb-2 text-sm font-medium">{t("Icon", "아이콘")}</legend>
               <div className="grid grid-cols-4 gap-2">
                 {ICONS.map((icon, i) => (
                   <label key={icon} className="relative block cursor-pointer">
@@ -29,7 +31,7 @@ export default function NewGroupPage() {
                 ))}
               </div>
             </fieldset>
-            <Button className="w-full">Create group</Button>
+            <Button className="w-full">{t("Create group", "그룹 만들기")}</Button>
           </ActionForm>
         </div>
       </main>

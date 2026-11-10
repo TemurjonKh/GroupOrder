@@ -99,8 +99,9 @@ export function PrintButton() {
 /** The main links in the header, with the current page marked. */
 export function HeaderNav({ links, className = "" }: { links: { href: string; label: string; icon: ReactNode }[]; className?: string }) {
   const pathname = usePathname();
+  const t = useT();
   return (
-    <nav aria-label="Main" className={`flex gap-1 ${className}`}>
+    <nav aria-label={t("Main", "메인")} className={`flex gap-1 ${className}`}>
       {links.map((link) => (
         <Link
           key={link.href}
@@ -162,13 +163,14 @@ export function Sheet({ closeHref, label, children }: { closeHref: string; label
 export function LocationFields({ lat, lng }: { lat: number; lng: number }) {
   const [coords, setCoords] = useState({ lat: String(lat), lng: String(lng) });
   const [message, setMessage] = useState("");
+  const t = useT();
   return (
     <>
       <div className="grid grid-cols-2 gap-3">
-        <Field label="Latitude">
+        <Field label={t("Latitude", "위도")}>
           <input name="lat" inputMode="decimal" required value={coords.lat} onChange={(e) => setCoords({ ...coords, lat: e.target.value })} className={inputStyles} />
         </Field>
-        <Field label="Longitude">
+        <Field label={t("Longitude", "경도")}>
           <input name="lng" inputMode="decimal" required value={coords.lng} onChange={(e) => setCoords({ ...coords, lng: e.target.value })} className={inputStyles} />
         </Field>
       </div>
@@ -176,17 +178,17 @@ export function LocationFields({ lat, lng }: { lat: number; lng: number }) {
         look="secondary"
         type="button"
         onClick={() => {
-          setMessage("Finding your location…");
+          setMessage(t("Finding your location…", "위치를 찾는 중…"));
           navigator.geolocation.getCurrentPosition(
             ({ coords: c }) => {
               setCoords({ lat: c.latitude.toFixed(5), lng: c.longitude.toFixed(5) });
-              setMessage("Location filled in. Press Save to keep it.");
+              setMessage(t("Location filled in. Press Save to keep it.", "위치를 채웠습니다. 저장을 눌러 주세요."));
             },
-            () => setMessage("Could not get your location. You can type the coordinates instead."),
+            () => setMessage(t("Could not get your location. You can type the coordinates instead.", "위치를 가져올 수 없습니다. 좌표를 직접 입력해도 됩니다.")),
           );
         }}
       >
-        Use my current location
+        {t("Use my current location", "현재 위치 사용")}
       </Button>
       {message && <p role="status" className="text-sm text-muted">{message}</p>}
     </>

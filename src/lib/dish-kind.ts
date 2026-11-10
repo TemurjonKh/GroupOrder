@@ -3,10 +3,10 @@
 
 export type DishKind = "meal" | "drink" | "snack";
 
-export const DISH_KINDS: { key: DishKind; label: string }[] = [
-  { key: "meal", label: "Meals" },
-  { key: "drink", label: "Drinks" },
-  { key: "snack", label: "Desserts and sides" },
+export const DISH_KINDS: { key: DishKind; label: string; korean: string }[] = [
+  { key: "meal", label: "Meals", korean: "식사" },
+  { key: "drink", label: "Drinks", korean: "음료" },
+  { key: "snack", label: "Desserts and sides", korean: "디저트·사이드" },
 ];
 
 const DRINK_CATEGORY = /음료|커피|브루|에스프레소|프라푸치노|블렌디드|리프레셔|피지오|^티$|^티·|올가니카|빽스치노|디카페인|에이드|주스|버블티|베버리지|RTD|^\d+oz$|논커피|프라페|^기타$/i;

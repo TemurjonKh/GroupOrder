@@ -8,7 +8,10 @@ import { Button, Card, Field, PageTitle, inputStyles, textLink } from "@/compone
 import { getUser } from "@/lib/data";
 import { getT } from "@/lib/i18n";
 
-export const metadata = { title: "My account" };
+export async function generateMetadata() {
+  const { t } = await getT();
+  return { title: t("My account", "내 계정") };
+}
 
 export default async function AccountPage() {
   const { supabase, user } = await getUser();
