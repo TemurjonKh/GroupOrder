@@ -1,20 +1,27 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft } from "@phosphor-icons/react/ssr";
-import { setAnswer } from "@/app/actions";
+import { removeMyPick, setAnswer } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
 import { PickForm } from "@/components/pick-form";
 import { Button, Card, DishPhoto, buttonStyles, textLink } from "@/components/ui";
 import { getGroupContext } from "@/lib/data";
-import { formatKrw } from "@/lib/round";
+import { formatKrw, isDish } from "@/lib/round";
 
-export default async function MyPickPage({ params }: { params: Promise<{ code: string }> }) {
+/** Changes one of the caller's dishes: quantity, options or note. */
+export default async function MyPickPage({ params, searchParams }: {
+  params: Promise<{ code: string }>;
+  searchParams: Promise<{ line?: string }>;
+}) {
   const { code } = await params;
+  const { line } = await searchParams;
   const context = await getGroupContext(code);
   if (!context) notFound();
-  const { round, myPick, canAnswer } = context;
+  const { round, mine, canAnswer } = context;
   const back = <Link href={`/g/${code}`} className={textLink}><ArrowLeft aria-hidden size={16} /> Back to the round</Link>;
-  const dish = myPick?.status === "draft" || myPick?.status === "confirmed" ? myPick.menu_item : null;
+  const dishes = mine.filter(isDish);
+  const myPick = dishes.find((p) => p.id === line) ?? dishes[0];
+  const dish = myPick?.menu_item ?? null;
 
   if (!round || !myPick || !dish) {
     return <div>{back}<p className="mt-2 text-muted">You have no pick in this round.</p></div>;
@@ -39,12 +46,15 @@ export default async function MyPickPage({ params }: { params: Promise<{ code: s
       </Card>
       {canAnswer && (
         <div className="flex flex-wrap gap-2">
-          <Link href={`/g/${code}`} className={buttonStyles.secondary}>Choose another dish</Link>
+          <Link href={`/g/${code}`} className={buttonStyles.secondary}>Add another dish</Link>
+          <ActionForm action={removeMyPick} hidden={{ ...hidden, line: myPick.id }}>
+            <Button look="secondary">Remove this dish</Button>
+          </ActionForm>
           <ActionForm action={setAnswer} hidden={{ ...hidden, status: "skipped" }}>
             <Button look="secondary">Not joining today</Button>
           </ActionForm>
           <ActionForm action={setAnswer} hidden={{ ...hidden, status: "cancelled" }}>
-            <Button look="danger">Cancel my pick</Button>
+            <Button look="danger">Cancel all my picks</Button>
           </ActionForm>
         </div>
       )}

@@ -1,21 +1,21 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight } from "@phosphor-icons/react/ssr";
-import { repeatLastPick, setAnswer } from "@/app/actions";
+import { removeMyPick, repeatLastPick, setAnswer } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
 import { LiveRefresh } from "@/components/client-bits";
 import { MembersPanel } from "@/components/members-panel";
 import { RoundBar } from "@/components/round-bar";
 import { BrandLogo, Button, Card, DishPhoto, buttonStyles } from "@/components/ui";
 import { PICK_COLUMNS, getGroupContext, getRestaurants, getUser } from "@/lib/data";
-import { formatDistance, optionsLabel, restaurantsForRound, totalLabel } from "@/lib/round";
+import { formatDistance, isDish, optionsLabel, restaurantsForRound, totalLabel } from "@/lib/round";
 import type { Group, OrderPick, Round } from "@/lib/types";
 
 export default async function GroupPage({ params }: { params: Promise<{ code: string }> }) {
   const { code } = await params;
   const context = await getGroupContext(code);
   if (!context) notFound();
-  const { group, round, answers, counts, myPick, canAnswer, isLeader } = context;
+  const { group, round, answers, counts, mine, canAnswer, isLeader } = context;
 
   if (!round) {
     return (
@@ -40,7 +40,7 @@ export default async function GroupPage({ params }: { params: Promise<{ code: st
               </p>
             </Card>
           )}
-          <MyAnswer code={code} group={group} round={round} myPick={myPick} canAnswer={canAnswer} />
+          <MyAnswer code={code} group={group} round={round} mine={mine} canAnswer={canAnswer} />
           {canAnswer && <RestaurantList code={code} group={group} round={round} />}
         </div>
         <MembersPanel answers={answers}>
@@ -55,32 +55,56 @@ export default async function GroupPage({ params }: { params: Promise<{ code: st
   );
 }
 
-async function MyAnswer({ code, group, round, myPick, canAnswer }: {
-  code: string; group: Group; round: Round; myPick: OrderPick | null; canAnswer: boolean;
+async function MyAnswer({ code, group, round, mine, canAnswer }: {
+  code: string; group: Group; round: Round; mine: OrderPick[]; canAnswer: boolean;
 }) {
   const hidden = { code, round: round.id };
-  const hasDish = myPick?.menu_item && (myPick.status === "draft" || myPick.status === "confirmed");
-  const skipped = myPick?.status === "skipped";
+  const dishes = mine.filter(isDish);
+  const skipped = mine.some((p) => p.status === "skipped");
+  const removed = dishes.length === 0 && mine.some((p) => p.status === "removed");
 
-  if (!canAnswer && !hasDish && !skipped) return null;
+  if (!canAnswer && dishes.length === 0 && !skipped) return null;
 
-  const last = canAnswer && !hasDish ? await lastPick(group.id, round.id) : null;
+  const last = canAnswer && dishes.length === 0 ? await lastPick(group.id, round.id) : null;
   return (
     <section aria-label="Your answer">
-      {myPick?.status === "removed" && (
+      {removed && (
         <p role="alert" className="mb-3 rounded-xl bg-accent-soft p-3 text-sm font-semibold text-on-accent-soft">Your leader removed your dish. Please pick again.</p>
       )}
-      {hasDish ? (
-        <Card className="flex items-center gap-4 p-4">
-          <DishPhoto src={myPick.menu_item!.photo} size={76} />
-          <div className="min-w-0 flex-1">
-            <p className="text-xs font-semibold text-muted">Your pick</p>
-            <p className="font-display text-lg leading-snug font-bold tracking-tight">{myPick.menu_item!.name}{myPick.qty > 1 && ` x${myPick.qty}`}</p>
-            <p className="text-sm text-muted">
-              {[optionsLabel(myPick.options), myPick.note, totalLabel((myPick.price_at_pick ?? 0) * myPick.qty, myPick.price_at_pick === null ? myPick.qty : 0)].filter(Boolean).join(", ")}
+      {dishes.length > 0 ? (
+        <Card className="p-4">
+          <p className="text-xs font-semibold text-muted">{dishes.length === 1 ? "Your pick" : `Your picks (${dishes.length})`}</p>
+          <ul className="mt-2 divide-y divide-line">
+            {dishes.map((pick) => (
+              <li key={pick.id} className="flex items-center gap-4 py-2.5 first:pt-0 last:pb-0">
+                <DishPhoto src={pick.menu_item!.photo} size={64} />
+                <div className="min-w-0 flex-1">
+                  <p className="font-display text-lg leading-snug font-bold tracking-tight">{pick.menu_item!.name}{pick.qty > 1 && ` x${pick.qty}`}</p>
+                  <p className="text-sm text-muted">
+                    {[pick.menu_item!.restaurant.name, optionsLabel(pick.options), pick.note, totalLabel((pick.price_at_pick ?? 0) * pick.qty, pick.price_at_pick === null ? pick.qty : 0)].filter(Boolean).join(", ")}
+                  </p>
+                </div>
+                {canAnswer && (
+                  <div className="flex shrink-0 flex-col items-end sm:flex-row sm:items-center">
+                    <Link href={`/g/${code}/my-pick?line=${pick.id}`} className="inline-flex min-h-11 items-center px-2 text-sm font-semibold text-on-accent-soft underline-offset-4 hover:underline">Change</Link>
+                    <ActionForm action={removeMyPick} hidden={{ ...hidden, line: pick.id }}>
+                      <button aria-label={`Remove ${pick.menu_item!.name}`} className="min-h-11 cursor-pointer px-2 text-sm font-semibold text-danger underline-offset-4 hover:underline">Remove</button>
+                    </ActionForm>
+                  </div>
+                )}
+              </li>
+            ))}
+          </ul>
+          {canAnswer && (
+            <p className="mt-3 border-t border-line pt-3 text-sm text-muted">
+              Want something else too? Add more dishes from any restaurant below.
+              {dishes.length > 1 && (() => {
+                const total = dishes.reduce((sum, p) => sum + (p.price_at_pick ?? 0) * p.qty, 0);
+                const unpriced = dishes.reduce((sum, p) => sum + (p.price_at_pick === null ? p.qty : 0), 0);
+                return <span className="block font-semibold text-ink">Your total: {totalLabel(total, unpriced)}</span>;
+              })()}
             </p>
-          </div>
-          {canAnswer && <Link href={`/g/${code}/my-pick`} className={buttonStyles.secondary}>Edit</Link>}
+          )}
         </Card>
       ) : (
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2">

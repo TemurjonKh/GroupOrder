@@ -3,19 +3,21 @@ import type { Member, OrderPick, Restaurant } from "./types";
 const TIME_ZONE = "Asia/Seoul";
 
 export type Answer =
-  | { member: Member; kind: "picked"; pick: OrderPick }
+  | { member: Member; kind: "picked"; picks: OrderPick[] }
   | { member: Member; kind: "skipped" }
   | { member: Member; kind: "no_answer"; removed: boolean };
 
+/** A dish someone is having: picked and not removed, cancelled or replaced by "not joining". */
+export const isDish = (pick: OrderPick) => Boolean(pick.menu_item) && (pick.status === "draft" || pick.status === "confirmed");
+
+/** A person can pick several dishes, from different restaurants; any one of them is an answer. */
 export function memberAnswers(members: Member[], picks: OrderPick[]): Answer[] {
-  const byUser = new Map(picks.map((p) => [p.user_id, p]));
   return members.map((member): Answer => {
-    const pick = byUser.get(member.user_id);
-    if (pick?.status === "skipped") return { member, kind: "skipped" };
-    if (pick && pick.menu_item && (pick.status === "draft" || pick.status === "confirmed")) {
-      return { member, kind: "picked", pick };
-    }
-    return { member, kind: "no_answer", removed: pick?.status === "removed" };
+    const mine = picks.filter((p) => p.user_id === member.user_id);
+    const dishes = mine.filter(isDish);
+    if (dishes.length > 0) return { member, kind: "picked", picks: dishes };
+    if (mine.some((p) => p.status === "skipped")) return { member, kind: "skipped" };
+    return { member, kind: "no_answer", removed: mine.some((p) => p.status === "removed") };
   });
 }
 
@@ -43,7 +45,7 @@ export type RestaurantSummary = {
   lines: SummaryLine[];
   total: number;
   unpriced: number;
-  people: { user_id: string; name: string; amount: number | null; qty: number; dish: string; options: string; note: string | null }[];
+  people: { user_id: string; pick_id: string; name: string; amount: number | null; qty: number; dish: string; options: string; note: string | null }[];
 };
 
 export const optionsLabel = (options: Record<string, string>) => Object.values(options).join(", ");
@@ -52,31 +54,33 @@ export const optionsLabel = (options: Record<string, string>) => Object.values(o
 export function buildSummary(answers: Answer[]): RestaurantSummary[] {
   const summaries = new Map<string, RestaurantSummary>();
   for (const answer of answers) {
-    if (answer.kind !== "picked" || !answer.pick.menu_item) continue;
-    const { pick, member } = answer;
-    const dish = pick.menu_item!;
-    let summary = summaries.get(dish.restaurant.id);
-    if (!summary) {
-      summary = { restaurant: dish.restaurant, lines: [], total: 0, unpriced: 0, people: [] };
-      summaries.set(dish.restaurant.id, summary);
+    if (answer.kind !== "picked") continue;
+    const { member } = answer;
+    for (const pick of answer.picks) {
+      const dish = pick.menu_item!;
+      let summary = summaries.get(dish.restaurant.id);
+      if (!summary) {
+        summary = { restaurant: dish.restaurant, lines: [], total: 0, unpriced: 0, people: [] };
+        summaries.set(dish.restaurant.id, summary);
+      }
+      const options = optionsLabel(pick.options);
+      const amount = pick.price_at_pick === null ? null : pick.price_at_pick * pick.qty;
+      let line = summary.lines.find((l) => l.dish === dish.name && l.options === options);
+      if (!line) {
+        line = { dish: dish.name, options, qty: 0, amount: 0, unpriced: 0, notes: [] };
+        summary.lines.push(line);
+      }
+      line.qty += pick.qty;
+      if (amount === null) {
+        line.unpriced += pick.qty;
+        summary.unpriced += pick.qty;
+      } else {
+        line.amount += amount;
+        summary.total += amount;
+      }
+      if (pick.note) line.notes.push({ who: member.name, note: pick.note });
+      summary.people.push({ user_id: member.user_id, pick_id: pick.id, name: member.name, amount, qty: pick.qty, dish: dish.name, options, note: pick.note });
     }
-    const options = optionsLabel(pick.options);
-    const amount = pick.price_at_pick === null ? null : pick.price_at_pick * pick.qty;
-    let line = summary.lines.find((l) => l.dish === dish.name && l.options === options);
-    if (!line) {
-      line = { dish: dish.name, options, qty: 0, amount: 0, unpriced: 0, notes: [] };
-      summary.lines.push(line);
-    }
-    line.qty += pick.qty;
-    if (amount === null) {
-      line.unpriced += pick.qty;
-      summary.unpriced += pick.qty;
-    } else {
-      line.amount += amount;
-      summary.total += amount;
-    }
-    if (pick.note) line.notes.push({ who: member.name, note: pick.note });
-    summary.people.push({ user_id: member.user_id, name: member.name, amount, qty: pick.qty, dish: dish.name, options, note: pick.note });
   }
   return [...summaries.values()].sort((a, b) => b.total - a.total || a.restaurant.name.localeCompare(b.restaurant.name));
 }

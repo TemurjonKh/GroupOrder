@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // A separate build folder lets tests run while npm run dev:local is open.
+  distDir: process.env.NEXT_DIST_DIR || ".next",
   images: {
     // Vercel's free plan resizes a limited number of images a month. IMAGES_UNOPTIMIZED=1 serves
     // the brands' originals instead, if that limit is reached.

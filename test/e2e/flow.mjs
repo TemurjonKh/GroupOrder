@@ -305,14 +305,33 @@ await step("leader sees the pick appear without reloading", async () => {
   await temur.locator("section[aria-label=Members]").getByText("x2").waitFor();
 });
 await step("Dana edits the pick", async () => {
-  await dana.getByRole("link", { name: "Edit" }).click();
+  await dana.getByRole("link", { name: "Change" }).click();
   await dana.getByLabel("Quantity").fill("1");
   await dana.getByRole("button", { name: "Save changes" }).click();
   await see(dana, "Your pick");
 });
+await step("a second dish from another restaurant is added, not swapped, and the leader sees it live", async () => {
+  await dana.getByRole("link", { name: /BBQ/ }).click();
+  await dana.locator("a[href*='dish=']").first().click();
+  const sheet = dana.locator("dialog[open]");
+  await sheet.getByRole("button", { name: "Add to my picks" }).click();
+  await see(dana, "Your picks (2)");
+  const mine = dana.locator("section[aria-label='Your answer']");
+  await mine.getByText(/^Subway,/).waitFor();
+  await mine.getByText(/^BBQ,/).waitFor();
+  // The leader's panel updates by itself: no reload here.
+  const danaRow = temur.locator("section[aria-label=Members] li", { hasText: "Dana" });
+  await danaRow.getByText("BBQ", { exact: true }).waitFor({ timeout: 15000 });
+  await danaRow.getByText("Subway", { exact: true }).waitFor();
+  await shot(dana, "28-two-dishes");
+  // Taking one off leaves the other.
+  await mine.getByRole("button", { name: /^Remove BBQ/ }).click();
+  await mine.getByText("Your pick", { exact: true }).waitFor();
+  if (await mine.getByText(/^BBQ,/).count()) throw new Error("removed dish still shown");
+});
 await step("Not joining shows live, and a member can come back", async () => {
   await minji.getByRole("link", { name: /Krafton work team/ }).click();
-  await minji.getByRole("link", { name: "Edit" }).click();
+  await minji.getByRole("link", { name: "Change" }).click();
   await minji.getByRole("button", { name: "Not joining today" }).click();
   await minji.goto(`${BASE}/g/${CODE}`);
   await see(minji, "You are not joining today");
@@ -350,7 +369,7 @@ await step("leader changes a member's pick and the member is told", async () => 
   await see(temur, "All restaurants:");
   const jisoo = await person();
   await login(jisoo, "jisoo@demo.test");
-  await see(jisoo, "had your pick changed by the leader");
+  await see(jisoo, "had your picks changed by the leader");
   await jisoo.context().close();
 });
 await step("leader removes a pick; the member is told and repicks", async () => {
@@ -373,6 +392,13 @@ await step("leader reminds people with no answer", async () => {
   await see(dana, "The leader sent a reminder");
 });
 await step("leader finalizes; members are locked", async () => {
+  // Dana, whose dish was removed, picks again so she is in the order.
+  await dana.goto(`${BASE}/g/${CODE}`);
+  await dana.getByRole("link", { name: /Subway/ }).click();
+  await dana.locator("a[href*='dish=']").first().click();
+  await dana.locator("dialog[open]").getByRole("button", { name: "Add to my picks" }).click();
+  await dana.locator("section[aria-label='Your answer']").getByText("Your pick", { exact: true }).waitFor();
+  await temur.reload();
   await temur.getByRole("button", { name: /^Finalize/ }).click();
   await temur.getByRole("button", { name: "Mark as ordered" }).waitFor();
   await dana.goto(`${BASE}/g/${CODE}`);
@@ -390,6 +416,14 @@ await step("mark as ordered: History gets the round and the next one opens by it
   await temur.getByRole("link", { name: "Lunch", exact: true }).click();
   await see(temur, "Where to order from");
   await see(temur, "Picks open");
+});
+await step("members with the app open get a pop-up that lunch was ordered", async () => {
+  // Dana had a dish in that round and has the group page open; no reload.
+  const popup = dana.locator("[role=status]", { hasText: "Lunch is ordered" });
+  await popup.waitFor({ timeout: 25000 });
+  await popup.getByText("has been ordered. Food is on the way.").waitFor();
+  await shot(dana, "29-ordered-popup");
+  await popup.getByRole("button", { name: "Dismiss" }).click();
 });
 await step("settings: QR, invite link, location, pinned restaurants next round", async () => {
   await temur.goto(`${BASE}/g/${CODE}/settings`);
@@ -481,6 +515,16 @@ await step("dark mode", async () => {
   await night.locator(".leaflet-interactive").first().waitFor();
   await settled(night);
   await night.screenshot({ path: `${SHOTS}/27-dark-map.png` });
+});
+await step("anyone can change the name their group sees", async () => {
+  await temur.goto(`${BASE}/account`);
+  await temur.getByLabel("Your name").fill("Temur K");
+  await temur.getByRole("button", { name: "Save name" }).click();
+  await see(temur, "Saved. Your groups now see this name.");
+  await temur.goto(BASE);
+  await see(temur, "Hi Temur K");
+  await temur.goto(`${BASE}/g/${CODE}`);
+  await temur.locator("section[aria-label=Members]").getByText("Temur K").waitFor();
 });
 await step("log out returns to login and blocks pages", async () => {
   await temur.goto(BASE);

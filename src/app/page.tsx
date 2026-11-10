@@ -1,3 +1,4 @@
+import { NOTE_TEXT } from "@/lib/notifications";
 import Link from "next/link";
 import { ArrowRight, Carrot, MapTrifold, X } from "@phosphor-icons/react/ssr";
 import { dismissNotification } from "./actions";
@@ -19,14 +20,6 @@ type Note = {
   round: { title: string; group: { name: string; invite_code: string } | null } | null;
 };
 
-const NOTE_TEXT: Record<string, string> = {
-  reminder_30: "closes in 30 minutes and you have not answered.",
-  reminder_10: "closes in 10 minutes and you have not answered.",
-  reminder_manual: "needs your answer. The leader sent a reminder.",
-  repick: "needs a new pick from you: the leader removed your dish.",
-  ordered: "has been ordered. Food is on the way.",
-  pick_edited: "had your pick changed by the leader.",
-};
 const TURNS = ["-8deg", "5deg", "-4deg", "7deg", "-6deg"];
 const MAX_THUMBS = 5;
 

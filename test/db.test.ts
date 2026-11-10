@@ -165,6 +165,47 @@ describe("picks", () => {
     expect(rows).toHaveLength(1);
   });
 
+  it("lets a person pick several dishes from different restaurants, each once", async () => {
+    const round = await startRound();
+    const other = (await db.query<{ id: string }>(
+      "select id from menu_items where restaurant_id <> $1 and price is not null limit 1", [dish.restaurant_id])).rows[0].id;
+    await pick(MINJI, round);
+    await as(MINJI, "select set_my_pick($1, $2, 2, '{}', 'no ice')", [round, other]);
+    // The same dish again changes it instead of adding a second line.
+    await as(MINJI, "select set_my_pick($1, $2, 3, '{}', null)", [round, dish.id]);
+    const lines = await db.query<{ menu_item_id: string; qty: number; status: string }>(
+      "select menu_item_id, qty, status from order_items where round_id = $1 and user_id = $2 order by qty", [round, MINJI]);
+    expect(lines.rows).toEqual([
+      { menu_item_id: other, qty: 2, status: "draft" },
+      { menu_item_id: dish.id, qty: 3, status: "draft" },
+    ]);
+    // Removing one dish keeps the other; "not joining" replaces them all with one answer.
+    const [line] = (await db.query<{ id: string }>("select id from order_items where menu_item_id = $1 and user_id = $2", [other, MINJI])).rows;
+    await expect(as(DANA, "select remove_my_pick($1)", [line.id])).rejects.toThrow();
+    await as(MINJI, "select remove_my_pick($1)", [line.id]);
+    expect((await db.query("select 1 from order_items where round_id = $1 and user_id = $2", [round, MINJI])).rows).toHaveLength(1);
+    await as(MINJI, "select set_my_answer($1, 'skipped')", [round]);
+    expect((await db.query<{ status: string }>("select status from order_items where round_id = $1 and user_id = $2", [round, MINJI])).rows)
+      .toEqual([{ status: "skipped" }]);
+  });
+
+  it("sends one ordered notice per person and lets a leader remove one dish at a time", async () => {
+    const round = await startRound();
+    const other = (await db.query<{ id: string }>(
+      "select id from menu_items where restaurant_id <> $1 limit 1", [dish.restaurant_id])).rows[0].id;
+    await pick(MINJI, round);
+    await as(MINJI, "select set_my_pick($1, $2)", [round, other]);
+    const [line] = (await db.query<{ id: string }>("select id from order_items where menu_item_id = $1 and user_id = $2", [other, MINJI])).rows;
+    await expect(as(DANA, "select remove_pick_line($1)", [line.id])).rejects.toThrow("leader_only");
+    await as(LEADER, "select remove_pick_line($1)", [line.id]);
+    // One dish is left, so this is a change, not a request to pick again.
+    expect(await as<{ type: string }>(MINJI, "select type from notifications")).toEqual([{ type: "pick_edited" }]);
+    await as(MINJI, "select set_my_pick($1, $2)", [round, other]);
+    await as(LEADER, "select finalize_round($1)", [round]);
+    await as(LEADER, "select mark_ordered($1)", [round]);
+    expect(await as<{ type: string }>(MINJI, "select type from notifications where type = 'ordered'")).toEqual([{ type: "ordered" }]);
+  });
+
   it("blocks outsiders, and a passed deadline does not close picks", async () => {
     const round = await startRound();
     await expect(pick(OUTSIDER, round)).rejects.toThrow("not_a_member");

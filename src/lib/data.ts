@@ -48,7 +48,8 @@ export const getGroupContext = cache(async (code: string) => {
 
   const picks = await getPicks(round ? [round.id] : []);
   const answers = memberAnswers(members, picks);
-  const myPick = picks.find((p) => p.user_id === user.id) ?? null;
+  // Everything of the caller's in this round: their dishes, or a "not joining" or "removed" row.
+  const mine = picks.filter((p) => p.user_id === user.id);
   const state = round?.status ?? null;
 
   return {
@@ -60,7 +61,7 @@ export const getGroupContext = cache(async (code: string) => {
     state,
     answers,
     counts: answerCounts(answers),
-    myPick,
+    mine,
     canAnswer: state === "open",
   };
 });

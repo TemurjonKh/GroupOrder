@@ -25,7 +25,7 @@ export default async function LeaderPickPage({ params, searchParams }: {
     return <div>{back}<p className="mt-2 text-muted">This round is finalized, so picks can no longer change.</p></div>;
   }
 
-  const current = answer.kind === "picked" ? answer.pick : null;
+  const current = answer.kind === "picked" ? answer.picks : [];
   const restaurants = restaurantsForRound(group, await getRestaurants(), round.allowed_restaurant_ids);
   const chosenId = r && restaurants.some((x) => x.id === r) ? r : undefined;
   const menu = chosenId ? await getRestaurantMenu(chosenId) : null;
@@ -34,9 +34,14 @@ export default async function LeaderPickPage({ params, searchParams }: {
     <div>
       {back}
       <h2 className="mt-2 font-display text-3xl font-extrabold tracking-tight">
-        {current ? `Change ${answer.member.name}'s pick` : `Pick for ${answer.member.name}`}
+        {current.length ? `Change ${answer.member.name}'s picks` : `Pick for ${answer.member.name}`}
       </h2>
-      {current && <p className="mt-1 text-sm text-muted">Currently {current.menu_item!.name}. They will get a notice about the change.</p>}
+      {current.length > 0 && (
+        <p className="mt-1 text-sm text-muted">
+          Currently {current.map((p) => `${p.menu_item!.name}${p.qty > 1 ? ` x${p.qty}` : ""}`).join(", ")}. Choosing a dish adds it, or changes it
+          if they already have it; remove dishes from the summary. They will get a notice.
+        </p>
+      )}
       {menu ? (
         <div className="mt-5">
           <MenuBrowser

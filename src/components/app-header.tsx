@@ -1,14 +1,16 @@
 import Link from "next/link";
-import { Bell, Carrot, MapTrifold, Plus, SignOut } from "@phosphor-icons/react/ssr";
+import { Bell, Carrot, MapTrifold, Plus, SignOut, UserCircle } from "@phosphor-icons/react/ssr";
 import { signOut } from "@/app/actions";
 import { getUser } from "@/lib/data";
 import { HeaderNav } from "./client-bits";
+import { NotificationPopups } from "./notification-popups";
 import { buttonStyles } from "./ui";
 
 const MAX_BADGE = 20;
 const LINKS = [
   { href: "/map", label: "Food map", icon: <MapTrifold aria-hidden size={16} weight="bold" /> },
   { href: "/account/food", label: "My food needs", icon: <Carrot aria-hidden size={16} weight="bold" /> },
+  { href: "/account", label: "My account", icon: <UserCircle aria-hidden size={16} weight="bold" /> },
 ];
 
 export async function AppHeader() {
@@ -48,6 +50,7 @@ export async function AppHeader() {
     </header>
     {/* On a phone the links get their own row, which scrolls away so menus keep their sticky categories. */}
     <HeaderNav links={LINKS} className="no-scrollbar overflow-x-auto border-b border-line px-3 py-1.5 md:hidden print:hidden" />
+    <NotificationPopups />
     </>
   );
 }

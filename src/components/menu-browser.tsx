@@ -19,13 +19,15 @@ export async function MenuBrowser({ restaurant, basePath, selectedId, code, roun
   code: string;
   roundId?: string;
   canPick: boolean;
-  current?: OrderPick | null;
+  /** The dishes already picked, by the caller or by the leader for this person. */
+  current?: OrderPick[];
   forUser?: string;
   submitLabel: string;
 }) {
   const dishes = restaurant.menu_items;
   const categories = [...new Set(dishes.map((d) => d.category))];
   const selected = selectedId ? dishes.find((d) => d.id === selectedId) : undefined;
+  const already = selected ? current?.find((p) => p.menu_item?.id === selected.id) ?? null : null;
   const hrefFor = (dish: MenuItem) => `${basePath}${basePath.includes("?") ? "&" : "?"}dish=${dish.id}`;
   // A leader picking for someone else sees the dish's facts, not their own list. Members' lists stay private.
   const needs = forUser ? null : await getFoodNeeds();
@@ -98,8 +100,9 @@ export async function MenuBrowser({ restaurant, basePath, selectedId, code, roun
             {selected.description && <p className="mt-2 text-sm leading-relaxed text-muted">{selected.description}</p>}
             <div className="mt-4"><DishFacts dish={selected} check={check(selected)} local={Boolean(restaurant.menu_source_name)} /></div>
             <div className="mt-5">
-              <PickForm code={code} roundId={roundId} item={selected} forUser={forUser} submitLabel={submitLabel}
-                current={current?.menu_item?.id === selected.id ? current : null} />
+              {already && <p className="mb-3 text-sm font-semibold text-on-accent-soft">Already in {forUser ? "their" : "your"} picks. Saving changes it.</p>}
+              <PickForm code={code} roundId={roundId} item={selected} forUser={forUser}
+                submitLabel={already ? "Save changes" : submitLabel} current={already} />
             </div>
           </div>
         </Sheet>

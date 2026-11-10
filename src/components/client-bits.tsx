@@ -6,7 +6,9 @@ import { usePathname, useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/browser";
 import { Button, Field, inputStyles } from "./ui";
 
-const FALLBACK_REFRESH_MS = 30_000;
+// Live updates come over Supabase Realtime; this refresh is the safety net if that connection
+// drops or never starts, so changes show within seconds either way.
+const FALLBACK_REFRESH_MS = 10_000;
 // npm run dev:local has no Realtime server, so it polls quickly instead.
 const LOCAL_MODE = process.env.NEXT_PUBLIC_LOCAL_BACKEND === "1";
 const LOCAL_REFRESH_MS = 3_000;
@@ -15,29 +17,51 @@ const LOCAL_REFRESH_MS = 3_000;
 export function LiveRefresh({ groupId, roundId }: { groupId: string; roundId?: string }) {
   const router = useRouter();
   useEffect(() => {
-    const refresh = () => router.refresh();
-    if (LOCAL_MODE) {
-      const timer = setInterval(refresh, LOCAL_REFRESH_MS);
-      return () => clearInterval(timer);
+    let last = 0;
+    const refresh = () => {
+      if (Date.now() - last < 1000) return;
+      last = Date.now();
+      router.refresh();
+    };
+    const whenVisible = () => { if (document.visibilityState === "visible") refresh(); };
+    // A phone that was locked or a tab that was hidden catches up as soon as it is back.
+    document.addEventListener("visibilitychange", whenVisible);
+    window.addEventListener("focus", whenVisible);
+    const timer = setInterval(whenVisible, LOCAL_MODE ? LOCAL_REFRESH_MS : FALLBACK_REFRESH_MS);
+
+    let stopped = false;
+    let stopChannel = () => {};
+    if (!LOCAL_MODE) {
+      const supabase = createClient();
+      (async () => {
+        // Realtime only sends rows this person may read, so it needs their login before it
+        // subscribes; otherwise it joins as an anonymous visitor and receives nothing.
+        const { data } = await supabase.auth.getSession();
+        if (stopped) return;
+        if (data.session) await supabase.realtime.setAuth(data.session.access_token);
+        const channel = supabase.channel(`group-${groupId}`).on(
+          "postgres_changes",
+          { event: "*", schema: "public", table: "order_rounds", filter: `group_id=eq.${groupId}` },
+          refresh,
+        );
+        if (roundId) {
+          channel.on(
+            "postgres_changes",
+            { event: "*", schema: "public", table: "order_items", filter: `round_id=eq.${roundId}` },
+            refresh,
+          );
+        }
+        channel.subscribe();
+        stopChannel = () => { supabase.removeChannel(channel); };
+        if (stopped) stopChannel();
+      })();
     }
-    const supabase = createClient();
-    const channel = supabase.channel(`group-${groupId}`).on(
-      "postgres_changes",
-      { event: "*", schema: "public", table: "order_rounds", filter: `group_id=eq.${groupId}` },
-      refresh,
-    );
-    if (roundId) {
-      channel.on(
-        "postgres_changes",
-        { event: "*", schema: "public", table: "order_items", filter: `round_id=eq.${roundId}` },
-        refresh,
-      );
-    }
-    channel.subscribe();
-    const timer = setInterval(refresh, FALLBACK_REFRESH_MS); // in case the live connection drops
     return () => {
+      stopped = true;
       clearInterval(timer);
-      supabase.removeChannel(channel);
+      document.removeEventListener("visibilitychange", whenVisible);
+      window.removeEventListener("focus", whenVisible);
+      stopChannel();
     };
   }, [router, groupId, roundId]);
   return null;

@@ -72,6 +72,20 @@ export async function signUp(_: ActionState, form: FormData): Promise<ActionStat
   redirect(`/account/food?welcome=1&next=${encodeURIComponent(next)}`);
 }
 
+export async function updateName(_: ActionState, form: FormData): Promise<ActionState> {
+  const name = text(form, "name");
+  if (!name) return { error: "Please enter your name." };
+  if (name.length > 80) return { error: "Please keep your name under 80 characters." };
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) return { error: "Please log in again." };
+  // Row-level security limits this to the caller's own profile.
+  const { error } = await supabase.from("profiles").update({ name }).eq("id", user.id);
+  if (error) return { error: `Could not save your name: ${error.message}` };
+  revalidatePath("/", "layout");
+  return { ok: "Saved. Your groups now see this name." };
+}
+
 export async function saveFoodNeeds(_: ActionState, form: FormData): Promise<ActionState> {
   const supabase = await createClient();
   const { error } = await supabase.rpc("set_food_needs", {
@@ -177,8 +191,9 @@ export async function markOrdered(_: ActionState, form: FormData): Promise<Actio
   redirect(`${groupPath(form)}/history`);
 }
 
-export async function removePick(_: ActionState, form: FormData) {
-  return call(form, "remove_pick", { p_round: text(form, "round"), p_user: text(form, "user") });
+/** A leader takes one dish off someone's picks. */
+export async function removePickLine(_: ActionState, form: FormData) {
+  return call(form, "remove_pick_line", { p_line: text(form, "line") });
 }
 
 export async function remindNoAnswer(_: ActionState, form: FormData): Promise<ActionState> {
@@ -215,6 +230,11 @@ export async function leaderSetPick(_: ActionState, form: FormData): Promise<Act
   const result = await call(form, "leader_set_pick", { ...pickArgs(form), p_user: text(form, "user") });
   if (result) return result;
   redirect(`${groupPath(form)}/finalize`);
+}
+
+/** Takes one dish off the caller's own picks. */
+export async function removeMyPick(_: ActionState, form: FormData) {
+  return call(form, "remove_my_pick", { p_line: text(form, "line") });
 }
 
 export async function setAnswer(_: ActionState, form: FormData) {

@@ -4,6 +4,7 @@ import { ArrowLeft } from "@phosphor-icons/react/ssr";
 import { MenuBrowser } from "@/components/menu-browser";
 import { textLink } from "@/components/ui";
 import { getGroupContext, getRestaurantMenu } from "@/lib/data";
+import { isDish } from "@/lib/round";
 
 export default async function MenuPage({ params, searchParams }: {
   params: Promise<{ code: string; id: string }>;
@@ -13,7 +14,7 @@ export default async function MenuPage({ params, searchParams }: {
   const { dish } = await searchParams;
   const context = await getGroupContext(code);
   if (!context) notFound();
-  const { round, canAnswer, myPick } = context;
+  const { round, canAnswer, mine } = context;
 
   const restaurant = await getRestaurantMenu(id);
   if (!restaurant) notFound();
@@ -33,8 +34,8 @@ export default async function MenuPage({ params, searchParams }: {
         code={code}
         roundId={round?.id}
         canPick={canAnswer && allowed}
-        current={myPick}
-        submitLabel="Add to my pick"
+        current={mine.filter(isDish)}
+        submitLabel="Add to my picks"
       />
     </div>
   );

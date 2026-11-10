@@ -6,7 +6,7 @@ import { formatKrw, lineAmountLabel, summaryText, totalLabel, type RestaurantSum
 export function OrderSummary({ summary, roundTitle, personAction }: {
   summary: RestaurantSummary;
   roundTitle: string;
-  personAction?: (userId: string) => React.ReactNode;
+  personAction?: (person: RestaurantSummary["people"][number]) => React.ReactNode;
 }) {
   const { restaurant } = summary;
   return (
@@ -46,7 +46,7 @@ export function OrderSummary({ summary, roundTitle, personAction }: {
           {summary.people.map((person) => (
             <li key={person.user_id} className="flex flex-wrap items-center justify-between gap-x-3 py-1 text-sm">
               <span className="min-w-0"><strong>{person.name}</strong> {person.dish}{person.qty > 1 && ` x${person.qty}`}</span>
-              <span className="flex items-center gap-1 text-muted">{formatKrw(person.amount)}{personAction?.(person.user_id)}</span>
+              <span className="flex items-center gap-1 text-muted">{formatKrw(person.amount)}{personAction?.(person)}</span>
             </li>
           ))}
         </ul>

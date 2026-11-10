@@ -32,6 +32,18 @@ describe("memberAnswers", () => {
     expect(answerCounts(answers)).toEqual({ picked: 1, skipped: 1, noAnswer: 3, total: 5 });
   });
 
+  it("keeps every dish a person picked, across restaurants, and leaves out removed ones", () => {
+    const [a] = memberAnswers([member("a")], [
+      pick("a", "draft", { id: "a1", dish: "Burger", at: "a" }),
+      pick("a", "draft", { id: "a2", dish: "Latte", at: "b", price_at_pick: 4500 }),
+      pick("a", "removed", { id: "a3", dish: "Fries", at: "a" }),
+    ]);
+    expect(a.kind).toBe("picked");
+    expect(a.kind === "picked" && a.picks.map((p) => p.menu_item!.name)).toEqual(["Burger", "Latte"]);
+    const summaries = buildSummary([a]);
+    expect(summaries.map((s) => [s.restaurant.id, s.total, s.people.map((p) => p.pick_id)])).toEqual([["a", 9000, ["a1"]], ["b", 4500, ["a2"]]]);
+  });
+
   it("ignores picks from people who left the group", () => {
     expect(memberAnswers([member("a")], [pick("gone", "draft")]).map((x) => x.kind)).toEqual(["no_answer"]);
   });

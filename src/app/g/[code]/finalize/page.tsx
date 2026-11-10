@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { finalizeRound, markOrdered, remindNoAnswer, removePick } from "@/app/actions";
+import { finalizeRound, markOrdered, remindNoAnswer, removePickLine } from "@/app/actions";
 import { ActionForm } from "@/components/action-form";
 import { LiveRefresh } from "@/components/client-bits";
 import { OrderSummary } from "@/components/order-summary";
@@ -57,11 +57,11 @@ export default async function FinalizePage({ params }: { params: Promise<{ code:
               key={summary.restaurant.id}
               summary={summary}
               roundTitle={round.title}
-              personAction={open ? (userId) => (
+              personAction={open ? (person) => (
                 <>
-                  <Link href={`/g/${code}/finalize/pick/${userId}`} className="inline-flex min-h-11 items-center px-2 font-semibold text-on-accent-soft underline-offset-4 hover:underline">Edit</Link>
-                  <ActionForm action={removePick} hidden={{ ...hidden, user: userId }}>
-                    <button className="min-h-11 cursor-pointer px-2 font-semibold text-danger underline-offset-4 hover:underline">Remove</button>
+                  <Link href={`/g/${code}/finalize/pick/${person.user_id}`} className="inline-flex min-h-11 items-center px-2 font-semibold text-on-accent-soft underline-offset-4 hover:underline">Edit</Link>
+                  <ActionForm action={removePickLine} hidden={{ ...hidden, line: person.pick_id }}>
+                    <button aria-label={`Remove ${person.name}'s ${person.dish}`} className="min-h-11 cursor-pointer px-2 font-semibold text-danger underline-offset-4 hover:underline">Remove</button>
                   </ActionForm>
                 </>
               ) : undefined}
