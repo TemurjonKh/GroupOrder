@@ -37,7 +37,8 @@ async function step(name, fn) {
 }
 const see = (page, text, timeout = 9000) => page.getByText(text, { exact: false }).first().waitFor({ timeout });
 async function login(page, email, next = "") {
-  await page.goto(`${BASE}${next}`);
+  // The front page is public, so a plain login goes to the login page itself.
+  await page.goto(next ? `${BASE}${next}` : `${BASE}/login`);
   await page.getByLabel("Email").fill(email);
   await page.getByLabel("Password").fill("demo1234");
   await page.getByRole("button", { name: "Log in" }).click();
@@ -64,8 +65,24 @@ const temur = await person();
 const minji = await person({ viewport: { width: 390, height: 800 } });
 const dana = await person();
 
-await step("login page shows real dishes; wrong password keeps the email", async () => {
+await step("logged-out front page explains GroupOrder and leads to sign-up", async () => {
   await temur.goto(BASE);
+  await temur.getByRole("heading", { level: 1, name: /Team lunch/ }).waitFor();
+  const start = temur.getByRole("link", { name: /Start a free group/ }).first();
+  if (!(await start.getAttribute("href"))?.startsWith("/signup")) throw new Error("hero CTA does not lead to sign-up");
+  await temur.getByText("How reliable is the allergy check?").click();
+  await see(temur, "never as safe");
+  const og = await temur.locator('meta[property="og:image"]').getAttribute("content");
+  if (!og?.includes("opengraph-image")) throw new Error(`no share image: ${og}`);
+  const image = await temur.request.get(og.replace(/^https?:\/\/[^/]+/, BASE));
+  if (image.status() !== 200) throw new Error(`share image answers ${image.status()}`);
+  const width = await temur.evaluate(() => document.documentElement.scrollWidth);
+  if (width > 1280) throw new Error(`front page scrolls sideways: ${width}px`);
+  await shot(temur, "00-front-page");
+});
+
+await step("login page shows real dishes; wrong password keeps the email", async () => {
+  await temur.goto(`${BASE}/login`);
   await temur.getByLabel("Email").fill("temur@demo.test");
   await temur.getByLabel("Password").fill("nope");
   await temur.getByRole("button", { name: "Log in" }).click();
@@ -453,8 +470,10 @@ await step("leader removes a pick; the member is told and repicks", async () => 
   await see(dana, "needs a new pick");
   await settled(dana);
   await shot(dana, "10-notice");
-  await dana.getByRole("button", { name: "Dismiss" }).first().click();
-  await dana.getByText("needs a new pick").waitFor({ state: "hidden" });
+  // The same notice can also pop up as a toast, so dismiss the one in the home page's list.
+  const notices = dana.locator("section[aria-label='Notifications']");
+  await notices.getByRole("button", { name: "Dismiss" }).first().click();
+  await notices.getByText("needs a new pick").waitFor({ state: "hidden" });
 });
 await step("leader reminds people with no answer", async () => {
   await temur.getByRole("button", { name: /Remind \d+ with no answer/ }).click();

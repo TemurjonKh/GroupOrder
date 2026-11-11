@@ -7,7 +7,9 @@ import { dismissNotification } from "./actions";
 import { ActionForm } from "@/components/action-form";
 import { AppHeader } from "@/components/app-header";
 import { DishPhoto, Tag, buttonStyles } from "@/components/ui";
+import { Landing } from "@/components/landing";
 import { getFoodNeeds, getShowcase, getUser } from "@/lib/data";
+import { createClient } from "@/lib/supabase/server";
 
 type GroupRow = {
   id: string; name: string; icon: string; invite_code: string;
@@ -26,6 +28,9 @@ const TURNS = ["-8deg", "5deg", "-4deg", "7deg", "-6deg"];
 const MAX_THUMBS = 5;
 
 export default async function HomePage() {
+  // Logged-out visitors get the front page instead of being sent to log in.
+  const { data: { user: visitor } } = await (await createClient()).auth.getUser();
+  if (!visitor) return <Landing />;
   const { supabase, user } = await getUser();
   const [{ data: groups }, { data: notes }, { data: profile }, dishes, needs] = await Promise.all([
     supabase

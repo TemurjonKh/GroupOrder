@@ -1,7 +1,8 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
-const PUBLIC_PATHS = ["/login", "/signup", "/auth/callback"];
+// The front page is public: logged-out visitors see what GroupOrder is, logged-in ones their groups.
+const PUBLIC_PATHS = ["/", "/login", "/signup", "/auth/callback"];
 
 // Refreshes the login session on every request and sends logged-out visitors to /login.
 export async function proxy(request: NextRequest) {
@@ -36,12 +37,12 @@ export async function proxy(request: NextRequest) {
   if (!user && !PUBLIC_PATHS.includes(pathname)) {
     const url = request.nextUrl.clone();
     url.pathname = "/login";
-    url.search = pathname === "/" ? "" : `?next=${encodeURIComponent(pathname + search)}`;
+    url.search = `?next=${encodeURIComponent(pathname + search)}`;
     return NextResponse.redirect(url);
   }
   return response;
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|kinds/|icon.svg|manifest.webmanifest|sw.js).*)"],
+  matcher: ["/((?!_next/static|_next/image|kinds/|emoji/|opengraph-image|icon.svg|manifest.webmanifest|sw.js).*)"],
 };

@@ -90,6 +90,12 @@ h1, h2, h3 {
   text-wrap: balance;
 }
 
+/* Korean wraps between words, not inside them. */
+:lang(ko) :is(h1, h2, h3, p, li, summary) {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
 :focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
@@ -103,6 +109,19 @@ h1, h2, h3 {
 .rise {
   animation: rise 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
   animation-delay: calc(var(--i, 0) * 45ms);
+}
+
+/* Food stickers on the front page float gently. */
+@keyframes bob {
+  0%, 100% { transform: translateY(0) rotate(-4deg); }
+  50% { transform: translateY(-10px) rotate(4deg); }
+}
+.bob {
+  animation: bob 5s ease-in-out infinite;
+  animation-delay: calc(var(--d, 0) * -1.3s);
+}
+@media (prefers-reduced-motion: reduce) {
+  .bob, .rise, .settle { animation: none; }
 }
 
 @keyframes settle {

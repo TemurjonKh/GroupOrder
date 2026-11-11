@@ -172,9 +172,18 @@ always keeps the restaurant's own dish names. To add translations, edit that fil
 
 ## Credits for the food-type pictures
 
-The round food-type stickers are from Microsoft's
+The round food-type stickers and the front page's illustrations are from Microsoft's
 [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (3D style), © Microsoft, MIT licence.
-They are stored in `public/kinds`.
+They are stored in `public/kinds` and `public/emoji`.
+
+## Front page
+
+Logged-out visitors see a front page (`src/components/landing.tsx`) instead of the login form:
+what GroupOrder does, three steps, features, where the menus come from, an FAQ and a sign-up
+button that leads straight to creating a group. Its numbers (restaurants, dishes) are read live
+from the database, and the example board uses real dishes and prices; there are no invented
+testimonials. `src/app/opengraph-image.png` is the picture shown when the link is shared in
+KakaoTalk or elsewhere.
 
 ## Checks
 
