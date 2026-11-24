@@ -1,5 +1,6 @@
 import { cache } from "react";
 import { redirect } from "next/navigation";
+import { createClient as createPublicClient } from "@supabase/supabase-js";
 import { createClient } from "./supabase/server";
 import { compactDish } from "./map-dish";
 import { answerCounts, memberAnswers } from "./round";
@@ -78,12 +79,24 @@ export type RestaurantWithMenu = Restaurant & {
   menu_items: Pick<MenuItem, "id" | "name" | "name_en" | "photo" | "price" | "category" | "sort_order">[];
 };
 
+// Menus are public and read-only, and every group page needs all ~4,500 dishes, so the server
+// keeps them for an hour instead of asking the database on each page load and live refresh.
+// ponytail: per-server memory, so each new Vercel instance fetches once; reseeded menus show
+// within the hour. Move to unstable_cache if the cold fetch ever matters.
+const MENU_TTL_MS = 60 * 60 * 1000;
+let menuCache: { at: number; rows: RestaurantWithMenu[] } | undefined;
+
 export const getRestaurants = cache(async () => {
-  const supabase = await createClient();
+  if (menuCache && Date.now() - menuCache.at < MENU_TTL_MS) return menuCache.rows;
+  // No login cookies: anyone may read menus, and the rows are shared between visitors.
+  const supabase = createPublicClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY!, {
+    auth: { persistSession: false },
+  });
   const { data } = await supabase
     .from("restaurants")
     .select("*, menu_items(id, name, name_en, photo, price, category, sort_order)")
     .order("name");
+  if (data) menuCache = { at: Date.now(), rows: data as RestaurantWithMenu[] };
   return (data ?? []) as RestaurantWithMenu[];
 });
 
