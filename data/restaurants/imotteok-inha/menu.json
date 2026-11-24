@@ -1,0 +1,302 @@
+{
+  "restaurant": {
+    "id": "naver-528084",
+    "name": "이모떡즉석떡볶이",
+    "naver_place_id": "36271040",
+    "naver_booking_biz_id": "528084",
+    "source_url": "https://m.booking.naver.com/order/bizes/528084/items/3932320",
+    "scraped_at": "2026-11-12T06:18:21+00:00"
+  },
+  "menu": [
+    {
+      "id": "item-001",
+      "name": "옛날즉떡",
+      "description": "(기본) 떡+오뎅사리+쫄면사리+야채사리",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "기본메뉴(1인분 기준)",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-002",
+      "name": "카레즉떡",
+      "description": "(기본) 떡+오뎅사리+쫄면사리+야채사리",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "기본메뉴(1인분 기준)",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-003",
+      "name": "옛카즉떡",
+      "description": "(기본) 떡+오뎅사리+쫄면사리+야채사리",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "기본메뉴(1인분 기준)",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-004",
+      "name": "쫄볶이",
+      "description": "(기본) 떡+오뎅사리+쫄면사리+야채사리",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "기본메뉴(1인분 기준)",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-005",
+      "name": "당면즉떡",
+      "description": "(기본) 떡+오뎅사리+쫄면사리+야채사리",
+      "price": 6500,
+      "currency": "KRW",
+      "category": "기본메뉴(1인분 기준)",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-006",
+      "name": "매운즉떡",
+      "description": "(기본) 떡+오뎅사리+쫄면사리+야채사리",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "기본메뉴(1인분 기준)",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-007",
+      "name": "짜장즉떡",
+      "description": "(기본) 떡+오뎅사리+쫄면사리+야채사리",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "기본메뉴(1인분 기준)",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-008",
+      "name": "옛짜즉떡",
+      "description": "(기본) 떡+오뎅사리+쫄면사리+야채사리",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "기본메뉴(1인분 기준)",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-009",
+      "name": "라볶이",
+      "description": "(기본) 떡+오뎅사리+쫄면사리+야채사리",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "기본메뉴(1인분 기준)",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-010",
+      "name": "로제즉떡",
+      "description": "(기본) 떡+오뎅사리+쫄면사리+야채사리",
+      "price": 7500,
+      "currency": "KRW",
+      "category": "기본메뉴(1인분 기준)",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-011",
+      "name": "뽀까뽀까 볶음밥",
+      "description": "주문 2",
+      "price": 2000,
+      "currency": "KRW",
+      "category": "식사류",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-012",
+      "name": "호로록 끓인 라면",
+      "description": null,
+      "price": 3500,
+      "currency": "KRW",
+      "category": "식사류",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-013",
+      "name": "김밥",
+      "description": "일반 김밥 1줄",
+      "price": 4000,
+      "currency": "KRW",
+      "category": "식사류",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-014",
+      "name": "계란(1개)",
+      "description": "주문 2",
+      "price": 700,
+      "currency": "KRW",
+      "category": "추가사리",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-015",
+      "name": "라면사리",
+      "description": "주문 3",
+      "price": 1500,
+      "currency": "KRW",
+      "category": "추가사리",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-016",
+      "name": "쫄면사리",
+      "description": null,
+      "price": 1500,
+      "currency": "KRW",
+      "category": "추가사리",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-017",
+      "name": "오뎅사리",
+      "description": null,
+      "price": 1500,
+      "currency": "KRW",
+      "category": "추가사리",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-018",
+      "name": "떡사리",
+      "description": null,
+      "price": 1500,
+      "currency": "KRW",
+      "category": "추가사리",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-019",
+      "name": "당면사리",
+      "description": null,
+      "price": 2500,
+      "currency": "KRW",
+      "category": "추가사리",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-020",
+      "name": "비엔나소세지",
+      "description": "주문 1",
+      "price": 2500,
+      "currency": "KRW",
+      "category": "추가사리",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-021",
+      "name": "모짜렐라치즈",
+      "description": null,
+      "price": 2500,
+      "currency": "KRW",
+      "category": "추가사리",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-022",
+      "name": "슬라이드치즈",
+      "description": null,
+      "price": 700,
+      "currency": "KRW",
+      "category": "추가사리",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-023",
+      "name": "야끼만두",
+      "description": "주문 8",
+      "price": 700,
+      "currency": "KRW",
+      "category": "튀김류",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-024",
+      "name": "김말이",
+      "description": "주문 13",
+      "price": 700,
+      "currency": "KRW",
+      "category": "튀김류",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-025",
+      "name": "오뎅튀김",
+      "description": "주문 6",
+      "price": 700,
+      "currency": "KRW",
+      "category": "튀김류",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-026",
+      "name": "감자볼(10개)",
+      "description": null,
+      "price": 2000,
+      "currency": "KRW",
+      "category": "튀김류",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-027",
+      "name": "콜라",
+      "description": null,
+      "price": 2000,
+      "currency": "KRW",
+      "category": "음료",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-028",
+      "name": "사이다",
+      "description": null,
+      "price": 2000,
+      "currency": "KRW",
+      "category": "음료",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-029",
+      "name": "쿨피스",
+      "description": null,
+      "price": 2000,
+      "currency": "KRW",
+      "category": "음료",
+      "image_url": null,
+      "image_file": null
+    }
+  ]
+}

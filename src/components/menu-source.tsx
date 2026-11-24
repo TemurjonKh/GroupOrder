@@ -1,4 +1,4 @@
-import type { Restaurant } from "@/lib/types";
+import type { MenuItem, Restaurant } from "@/lib/types";
 import { textLink } from "@/components/ui";
 import { getT } from "@/lib/i18n";
 import { restaurantName, type Lang } from "@/lib/names";
@@ -14,15 +14,17 @@ function noteIn(note: string | null, site: string | null, lang: Lang) {
   if (branch) return `${site}에 다른 지점(${branch})이 올린 메뉴라 이 지점의 가격과 메뉴는 다를 수 있습니다.`;
   if (site === "Daangn") return "당근에 식당이 직접 올린 메뉴입니다. 모든 메뉴가 있지는 않을 수 있습니다.";
   if (site === "Polle") return "뽈레 사용자가 입력한 메뉴라 가격이 오래되었을 수 있습니다.";
+  if (site === "네이버") return "네이버 주문 페이지에서 가져온 이 지점의 메뉴와 가격입니다.";
   return note ?? "";
 }
 
 export async function MenuSource({ restaurant }: {
-  restaurant: Pick<Restaurant, "name" | "name_en" | "name_ko" | "place_id" | "menu_source" | "menu_source_name" | "menu_note" | "menu_updated" | "menu_checked">;
+  restaurant: Pick<Restaurant, "name" | "name_en" | "name_ko" | "place_id" | "menu_source" | "menu_source_name" | "menu_note" | "menu_updated" | "menu_checked">
+    & { menu_items?: Pick<MenuItem, "contains">[] };
 }) {
   const { place_id, menu_source, menu_source_name, menu_note, menu_updated, menu_checked } = restaurant;
   const { lang, t } = await getT();
-  const site = menu_source_name && lang === "ko" ? ({ Daangn: "당근", Polle: "뽈레" } as Record<string, string>)[menu_source_name] ?? menu_source_name : menu_source_name;
+  const site = menu_source_name && lang === "ko" ? ({ Daangn: "당근", Polle: "뽈레", Naver: "네이버" } as Record<string, string>)[menu_source_name] ?? menu_source_name : menu_source_name;
   const link = menu_source && /^https:\/\//.test(menu_source) && (
     <a href={menu_source} target="_blank" rel="noreferrer" className={textLink}>
       {menu_source_name ? t(`See it on ${menu_source_name}`, `${site}에서 보기`) : t("Brand site", "브랜드 사이트")}
@@ -38,7 +40,10 @@ export async function MenuSource({ restaurant }: {
       {noteIn(menu_note, site, lang)}
       {menu_updated && t(` Last changed there ${day(menu_updated)}.`, ` 마지막 수정 ${day(menu_updated)}.`)}
       {menu_checked && t(` Imported ${day(menu_checked)}.`, ` 가져온 날짜 ${day(menu_checked)}.`)}
-      {" "}{t("No allergen data.", "알레르기 정보 없음.")} {link}
+      {/* A branch menu takes its brand's allergen data where the dish names match. */}
+      {" "}{restaurant.menu_items?.some((d) => d.contains !== null)
+        ? t("Allergens are from the brand's own list where the dish names match.", "알레르기 정보는 메뉴 이름이 같은 경우 브랜드 공식 목록에서 가져왔습니다.")
+        : t("No allergen data.", "알레르기 정보 없음.")} {link}
     </>
   );
 }

@@ -84,6 +84,7 @@ describe("dishes without a published price", () => {
     expect(mixed.unpriced).toBe(2);
     expect(totalLabel(mixed.total, mixed.unpriced)).toBe("₩9,000 + 2 items not priced");
     expect(totalLabel(none.total, none.unpriced)).toBe("Prices not listed");
+    expect(totalLabel(7200, 0, "ko")).toBe("7,200원");
     expect(mixed.people.find((p) => p.name === "a")?.amount).toBeNull();
   });
 

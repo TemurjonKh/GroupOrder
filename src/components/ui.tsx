@@ -51,29 +51,32 @@ export function Avatar({ src, name, size = 36 }: { src?: string | null; name: st
  * A dish photo on its light tile, from the brand's own servers and resized on the way.
  * Cut-out product shots (PNG) sit inside the tile with some air; full-frame photos (JPG) fill it.
  */
-export function DishPhoto({ src, alt = "", size, sizes, className = "" }: {
+export function DishPhoto({ src, alt = "", size, sizes, round = false, className = "" }: {
   src?: string | null;
   alt?: string;
+  /** A circle instead of a rounded tile. */
+  round?: boolean;
   /** Fixed size in pixels. Leave out when the class sets the size, and pass `sizes` instead. */
   size?: number;
   sizes?: string;
   className?: string;
 }) {
   const style = size ? { width: size, height: size } : undefined;
-  const fit = src && /\.jpe?g/i.test(src) ? "object-cover" : "object-contain p-[6%]";
+  // A circle cuts the corners off, so cut-outs get more air in one.
+  const fit = src && /\.jpe?g/i.test(src) ? "object-cover" : round ? "object-contain p-[13%]" : "object-contain p-[6%]";
   return (
-    <span style={style} className={`relative block shrink-0 overflow-hidden rounded-[14px] bg-tile ${className}`}>
+    <span style={style} className={`relative block shrink-0 overflow-hidden bg-tile ${round ? "rounded-full" : "rounded-[14px]"} ${className}`}>
       {src && <Image src={src} alt={alt} fill sizes={size ? `${size}px` : (sizes ?? "(max-width: 768px) 50vw, 260px")} className={fit} />}
     </span>
   );
 }
 
-export function BrandLogo({ restaurant, size = 40 }: { restaurant: Pick<Restaurant, "name" | "logo" | "logo_bg">; size?: number }) {
+export function BrandLogo({ restaurant, size = 40, round = false }: { restaurant: Pick<Restaurant, "name" | "logo" | "logo_bg">; size?: number; round?: boolean }) {
   const { name, logo, logo_bg } = restaurant;
   return (
     <span
       style={{ width: size, height: size, padding: Math.round(size * 0.12), backgroundColor: logo_bg ?? undefined }}
-      className="flex shrink-0 items-center justify-center overflow-hidden rounded-xl border border-line bg-surface"
+      className={`flex shrink-0 items-center justify-center overflow-hidden border border-line bg-surface ${round ? "rounded-full" : "rounded-xl"}`}
     >
       {logo
         // eslint-disable-next-line @next/next/no-img-element -- hosts are the brands' own, not known at build time

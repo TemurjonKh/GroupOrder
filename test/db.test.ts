@@ -1,9 +1,10 @@
 // Runs the real migration and seed on embedded Postgres, with a stand-in for what
 // Supabase provides (roles, auth schema, default grants), then checks the rules
 // as real client roles rather than as the superuser.
-import { readdirSync, readFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { PGlite } from "@electric-sql/pglite";
 import { beforeAll, beforeEach, describe, expect, it } from "vitest";
+import { leftOut } from "../scripts/menu-helpers.mjs";
 
 const LEADER = "00000000-0000-0000-0000-000000000001";
 const MINJI = "00000000-0000-0000-0000-000000000002";
@@ -425,7 +426,9 @@ describe("local menus", () => {
       count(*) filter (where m.contains is not null)::int as allergens,
       count(*) filter (where m.price is not null)::int as prices,
       count(*)::int as dishes
-      from restaurants r join places p on p.id = r.place_id join menu_items m on m.restaurant_id = r.id`);
+      from restaurants r join places p on p.id = r.place_id join menu_items m on m.restaurant_id = r.id
+      -- Branch menus (data/restaurants/) are tested below; they take allergen data from their brand.
+      where r.external_id is null`);
     expect(rows[0].menus).toBeGreaterThan(50);
     expect(rows[0]).toMatchObject({ unlinked: 0, no_source: 0, allergens: 0 });
     expect(rows[0].prices / rows[0].dishes).toBeGreaterThan(0.9);
@@ -456,7 +459,7 @@ describe("places", () => {
   });
   it("link the chains' branches to their menus", async () => {
     const rows = await as<{ name: string; count: number }>(MINJI, `select r.name, count(*)::int as count from places p join restaurants r on r.id = p.restaurant_id group by r.name order by r.name`);
-    expect(rows).toEqual(expect.arrayContaining([{ name: "BBQ", count: 1 }, { name: "Burger King", count: 3 }, { name: "Subway", count: 1 }]));
+    expect(rows).toEqual(expect.arrayContaining([{ name: "BBQ", count: 1 }, { name: "버거킹 인하대역점", count: 3 }, { name: "Subway", count: 1 }]));
     expect(rows.length).toBeGreaterThan(10);
   });
 });
@@ -474,12 +477,41 @@ describe("seed", () => {
 
   it("holds real menus with a photo for every dish, except where the brand's robots.txt rules it out", async () => {
     const names = await db.query<{ name: string }>("select name from restaurants order by name");
-    expect(names.rows.map((r) => r.name)).toEqual(expect.arrayContaining(["BBQ", "Burger King", "Subway"]));
+    expect(names.rows.map((r) => r.name)).toEqual(expect.arrayContaining(["BBQ", "버거킹 인하대역점", "Subway"]));
     const { rows } = await db.query<{ dishes: number; no_photo: number; no_menu: number }>(`select
       (select count(*)::int from menu_items) as dishes,
       (select count(*)::int from menu_items m join restaurants r on r.id = m.restaurant_id where photo is null and r.name not in ('Isaac Toast', 'Gong Cha') and r.menu_source_name is null) as no_photo,
       (select count(*)::int from restaurants r where not exists (select 1 from menu_items m where m.restaurant_id = r.id)) as no_menu`);
     expect(rows[0].dishes).toBeGreaterThan(300);
     expect(rows[0]).toMatchObject({ no_photo: 0, no_menu: 0 });
+  });
+});
+
+describe("branch menu import (data/restaurants/)", () => {
+  const branch = () => db.query<{ restaurants: number; dishes: number; price: number; photo: string; places: number }>(`select
+    (select count(*)::int from restaurants where external_id = 'naver-949880') as restaurants,
+    (select count(*)::int from menu_items m join restaurants r on r.id = m.restaurant_id where r.external_id = 'naver-949880') as dishes,
+    (select m.price from menu_items m join restaurants r on r.id = m.restaurant_id where r.external_id = 'naver-949880' and m.external_id = 'item-001') as price,
+    (select m.photo from menu_items m join restaurants r on r.id = m.restaurant_id where r.external_id = 'naver-949880' and m.external_id = 'item-001') as photo,
+    (select count(*)::int from places p join restaurants r on r.id = p.restaurant_id where r.external_id = 'naver-949880') as places`);
+
+  it("loads all 122 Burger King dishes with their prices and our own photos, and updates in place when run again", async () => {
+    const expected = { restaurants: 1, dishes: 122, price: 7200, photo: "/restaurants/burger-king-inha/item-001.webp", places: 3 };
+    expect((await branch()).rows[0]).toEqual(expected);
+    await db.exec(readFileSync("supabase/seed.sql", "utf8"));
+    expect((await branch()).rows[0]).toEqual(expected);
+  });
+
+  it("loads every branch in full except alcohol, with photos that exist, in place of the menus they replace", async () => {
+    for (const slug of readdirSync("data/restaurants")) {
+      const { restaurant, menu } = JSON.parse(readFileSync(`data/restaurants/${slug}/menu.json`, "utf8"));
+      const { rows } = await db.query<{ dishes: number; place: string | null }>(`select count(m.id)::int as dishes, r.place_id as place
+        from restaurants r join menu_items m on m.restaurant_id = r.id where r.external_id = $1 group by r.id`, [restaurant.id]);
+      expect(rows[0], slug).toEqual({ dishes: menu.filter((d: { category: string; name: string }) => !leftOut(d)).length, place: expect.any(String) });
+    }
+    const photos = await db.query<{ photo: string }>("select photo from menu_items where external_id is not null and photo is not null");
+    expect(photos.rows.filter((r) => !existsSync(`public${r.photo}`))).toEqual([]);
+    const names = await db.query<{ name: string }>("select name from restaurants where name in ('Burger King', 'Starbucks', 'Popeyes', '치즈웨이브', '이모떡')");
+    expect(names.rows).toEqual([]);
   });
 });

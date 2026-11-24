@@ -73,3 +73,7 @@ export function parseAllergens(text, where) {
 export function allergensIn(sentence) {
   return [...new Set(Object.entries(ALLERGEN_WORDS).filter(([word]) => word.length > 1 && sentence.includes(word)).map(([, key]) => key))];
 }
+
+/** Branch menu dishes the app leaves out: alcohol, because the app has no age check. Beer also turns up
+ * outside the drinks section ("한맥 생맥주" under seasonal dishes). */
+export const leftOut = (dish) => dish.category === "주류" || /생맥주|소주|막걸리|하이볼/.test(dish.name);

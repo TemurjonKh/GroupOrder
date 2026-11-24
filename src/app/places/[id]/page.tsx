@@ -88,7 +88,7 @@ export default async function PlacePage({ params }: { params: Promise<{ id: stri
                         </summary>
                         <div className="px-3.5 pb-3.5">
                           {dish.description && (lang === "ko" || !/[\uac00-\ud7a3]/.test(dish.description)) && <p className="mb-2 text-sm text-muted">{dish.description}</p>}
-                          <DishFacts dish={dish} check={check} local={local} lang={lang} />
+                          <DishFacts dish={dish} check={check} local={local && dish.allergen_source === null} lang={lang} />
                         </div>
                       </details>
                     </li>

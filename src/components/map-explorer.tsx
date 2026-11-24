@@ -407,7 +407,7 @@ export function MapExplorer({ places, restaurants: sent, needs }: {
                           {unfolded.has(dish.id) && (
                             <div className="px-3.5 pb-3.5">
                               {dish.description && (lang === "ko" || !/[\uac00-\ud7a3]/.test(dish.description)) && <p className="mb-2 text-sm text-muted">{dish.description}</p>}
-                              <DishFacts dish={dish} check={dish.check} local={Boolean(restaurant.menu_source_name)} lang={lang} />
+                              <DishFacts dish={dish} check={dish.check} local={Boolean(restaurant.menu_source_name) && dish.allergen_source === null} lang={lang} />
                             </div>
                           )}
                         </details>

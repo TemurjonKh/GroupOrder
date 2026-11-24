@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Bell, Carrot, MapTrifold, Plus, SignOut, UsersThree } from "@phosphor-icons/react/ssr";
+import { Bell, Carrot, MapTrifold, Plus, SignOut, Tag, UsersThree } from "@phosphor-icons/react/ssr";
 import { signOut } from "@/app/actions";
 import { getUser } from "@/lib/data";
 import { HeaderNav } from "./client-bits";
@@ -17,6 +17,7 @@ export async function AppHeader() {
   const LINKS = [
     { href: "/map", label: t("Food map", "푸드맵"), icon: <MapTrifold aria-hidden size={16} weight="bold" /> },
     { href: "/account/food", label: t("My food needs", "내 식단 정보"), icon: <Carrot aria-hidden size={16} weight="bold" /> },
+    { href: "/deals", label: t("Lunch deals", "점심 특가"), icon: <Tag aria-hidden size={16} weight="bold" /> },
   ];
   const [{ data }, { data: profile }] = await Promise.all([
     supabase.from("notifications").select("id").is("read_at", null).limit(MAX_BADGE),

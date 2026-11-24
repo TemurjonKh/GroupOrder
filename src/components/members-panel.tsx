@@ -65,17 +65,20 @@ export async function MembersPanel({ answers, suggested = [], children }: {
               <ul className="mt-2.5 space-y-2.5">
                 {answer.picks.map((pick) => (
                   <li key={pick.id} className="flex items-center gap-3">
-                    <DishPhoto src={pick.menu_item!.photo} alt={dishName(pick.menu_item!, lang)} size={88} sizes="88px" />
+                    {/* The dish in a circle, with its restaurant's logo pinned to the corner. */}
+                    <span className="relative shrink-0">
+                      <DishPhoto src={pick.menu_item!.photo} alt={dishName(pick.menu_item!, lang)} size={80} sizes="80px" round />
+                      <span className="absolute -right-1 -bottom-1 rounded-full ring-2 ring-surface">
+                        <BrandLogo restaurant={pick.menu_item!.restaurant} size={32} round />
+                      </span>
+                    </span>
                     <div className="min-w-0 flex-1">
                       <p className="text-sm leading-snug font-semibold break-words">
                         {dishName(pick.menu_item!, lang)}
                         {pick.qty > 1 && <span className="text-muted"> x{pick.qty}</span>}
                       </p>
                       {Object.keys(pick.options).length > 0 && <p className="text-xs text-muted">{optionsLabel(pick.options)}</p>}
-                      <p className="mt-1 flex items-center gap-1.5 text-xs text-muted">
-                        <BrandLogo restaurant={pick.menu_item!.restaurant} size={28} />
-                        <span className="truncate">{restaurantName(pick.menu_item!.restaurant, lang)}</span>
-                      </p>
+                      <p className="mt-1 truncate text-xs text-muted">{restaurantName(pick.menu_item!.restaurant, lang)}</p>
                     </div>
                     <p className={`shrink-0 text-right tabular-nums ${pick.price_at_pick === null ? "max-w-20 text-xs text-muted" : "text-sm font-bold"}`}>
                       {formatKrw(pick.price_at_pick === null ? null : pick.price_at_pick * pick.qty, lang)}

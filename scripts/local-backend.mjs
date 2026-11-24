@@ -44,8 +44,10 @@ async function openDatabase() {
     await db.query("insert into auth.local_migrations values ($1)", [file]);
     console.log(`local backend: applied ${file}`);
   }
+  // Every start: the menus only load into an empty database, but branch menus (data/restaurants/)
+  // update in place, so a newer menu.json shows after npm run menus:seed and a restart.
+  await db.exec(readFileSync("supabase/seed.sql", "utf8"));
   if (fresh) {
-    await db.exec(readFileSync("supabase/seed.sql", "utf8"));
     for (const [i, [handle, name]] of DEMO_USERS.entries()) {
       await db.query(
         "insert into auth.users (id, email, raw_user_meta_data, encrypted_password) values ($1, $2, $3, $4)",

@@ -122,7 +122,7 @@ export async function MenuBrowser({ restaurant, basePath, selectedId, code, roun
             <h3 className="mt-4 font-display text-2xl leading-tight font-extrabold tracking-tight">{dishName(selected, lang)}</h3>
             <p className={`mt-1 ${selected.price === null ? "text-sm text-muted" : "text-lg font-bold"}`}>{formatKrw(selected.price, lang)}</p>
             {description(selected.description) && <p className="mt-2 text-sm leading-relaxed text-muted">{description(selected.description)}</p>}
-            <div className="mt-4"><DishFacts dish={selected} check={check(selected)} local={Boolean(restaurant.menu_source_name)} lang={lang} /></div>
+            <div className="mt-4"><DishFacts dish={selected} check={check(selected)} local={Boolean(restaurant.menu_source_name) && selected.allergen_source === null} lang={lang} /></div>
             <div className="mt-5">
               {already && <p className="mb-3 text-sm font-semibold text-on-accent-soft">{forUser ? t("Already in their picks. Saving changes it.", "이미 이 사람의 메뉴에 있습니다. 저장하면 변경됩니다.") : t("Already in your picks. Saving changes it.", "이미 내 메뉴에 있습니다. 저장하면 변경됩니다.")}</p>}
               <PickForm code={code} roundId={roundId} item={selected} forUser={forUser}

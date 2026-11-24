@@ -1,0 +1,272 @@
+{
+  "restaurant": {
+    "id": "naver-927594",
+    "name": "치즈웨이브 인하대역점",
+    "naver_place_id": "1054489313",
+    "naver_booking_biz_id": "927594",
+    "source_url": "https://m.booking.naver.com/order/bizes/927594/items/5137267",
+    "scraped_at": "2026-11-12T06:18:43+00:00"
+  },
+  "menu": [
+    {
+      "id": "item-001",
+      "name": "하프&하프 피자 L",
+      "description": "주문 22",
+      "price": 23900,
+      "currency": "KRW",
+      "category": "추천 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230630_59/1688108270927INuwm_PNG/image.png",
+      "image_file": "images/item-001.png"
+    },
+    {
+      "id": "item-002",
+      "name": "마늘불고기피자",
+      "description": "L사이즈 25,900원",
+      "price": 19900,
+      "currency": "KRW",
+      "category": "추천 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240309_152/1709957495349B0feg_PNG/bulgogi.png",
+      "image_file": "images/item-002.png"
+    },
+    {
+      "id": "item-003",
+      "name": "치즈피자",
+      "description": "라지사이즈 18,900원",
+      "price": 14900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_10/1686124895838Yp51k_PNG/cheese.png",
+      "image_file": "images/item-003.png"
+    },
+    {
+      "id": "item-004",
+      "name": "페페로니피자",
+      "description": "L사이즈 23,900원",
+      "price": 17900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_94/1686124970810eSGYj_PNG/pepperoni.png",
+      "image_file": "images/item-004.png"
+    },
+    {
+      "id": "item-005",
+      "name": "콤비네이션피자",
+      "description": "L사이즈 23,900원",
+      "price": 17900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_222/16861250804851GDn4_PNG/combination.png",
+      "image_file": "images/item-005.png"
+    },
+    {
+      "id": "item-006",
+      "name": "베이컨체다치즈피자",
+      "description": "L사이즈 22,900원",
+      "price": 17900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_51/1686125146721ADCam_PNG/bacon_cheddar.png",
+      "image_file": "images/item-006.png"
+    },
+    {
+      "id": "item-007",
+      "name": "고구마피자",
+      "description": "L사이즈 23,900원",
+      "price": 17900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_285/1686125111063hDMAB_PNG/sweetpotato.png",
+      "image_file": "images/item-007.png"
+    },
+    {
+      "id": "item-008",
+      "name": "웨이브치즈피자",
+      "description": "L사이즈 23,900원",
+      "price": 17900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_87/1686125062230Bdcyx_PNG/wavecheese.png",
+      "image_file": "images/item-008.png"
+    },
+    {
+      "id": "item-009",
+      "name": "베이컨할라피뇨피자",
+      "description": "L사이즈 22,900원",
+      "price": 17900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_126/1686125753930P4Sxy_PNG/bacon_jalapeno.png",
+      "image_file": "images/item-009.png"
+    },
+    {
+      "id": "item-010",
+      "name": "베이컨포테이토피자",
+      "description": "L사이즈 23,900원",
+      "price": 18900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_61/1686125785524w9psr_PNG/bacon_potato.png",
+      "image_file": "images/item-010.png"
+    },
+    {
+      "id": "item-011",
+      "name": "핫페페로니피자\n매운맛2단계",
+      "description": "L사이즈 24,900원",
+      "price": 18900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_70/1686125822032bO5KY_PNG/hot_pepperoni.png",
+      "image_file": "images/item-011.png"
+    },
+    {
+      "id": "item-012",
+      "name": "하와이안피자",
+      "description": "L사이즈 24,900원",
+      "price": 18900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_32/1686125874042qg8SX_PNG/hawaiian.png",
+      "image_file": "images/item-012.png"
+    },
+    {
+      "id": "item-013",
+      "name": "유피피피자",
+      "description": "L사이즈 24,900원",
+      "price": 18900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_92/1686125914608Opq0T_PNG/upp.png",
+      "image_file": "images/item-013.png"
+    },
+    {
+      "id": "item-014",
+      "name": "핫치킨피자\n매운맛3단계",
+      "description": "L사이즈 24,900원",
+      "price": 18900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_135/1686125947006IId0W_PNG/hot_chicken.png",
+      "image_file": "images/item-014.png"
+    },
+    {
+      "id": "item-015",
+      "name": "마늘불고기피자",
+      "description": "L사이즈 25,900원",
+      "price": 19900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240309_152/1709957495349B0feg_PNG/bulgogi.png",
+      "image_file": "images/item-015.png"
+    },
+    {
+      "id": "item-016",
+      "name": "1석4조피자 L",
+      "description": "네가지 맛 선택",
+      "price": 27900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_36/1686126079613nKLbz_PNG/special.png",
+      "image_file": "images/item-016.png"
+    },
+    {
+      "id": "item-017",
+      "name": "하프&하프 피자 L",
+      "description": "주문 22",
+      "price": 23900,
+      "currency": "KRW",
+      "category": "피자",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230630_59/1688108270927INuwm_PNG/image.png",
+      "image_file": "images/item-017.png"
+    },
+    {
+      "id": "item-018",
+      "name": "프렌치프라이",
+      "description": null,
+      "price": 3500,
+      "currency": "KRW",
+      "category": "사이드메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_270/1686126101433V2IIM_PNG/fries.png",
+      "image_file": "images/item-018.png"
+    },
+    {
+      "id": "item-019",
+      "name": "트러플프라이",
+      "description": null,
+      "price": 4000,
+      "currency": "KRW",
+      "category": "사이드메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_220/1686126130655MaaFD_PNG/fries.png",
+      "image_file": "images/item-019.png"
+    },
+    {
+      "id": "item-020",
+      "name": "갈릭버터프라이",
+      "description": "주문 2",
+      "price": 4000,
+      "currency": "KRW",
+      "category": "사이드메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_154/168612615285734IGX_PNG/garlic_fries.png",
+      "image_file": "images/item-020.png"
+    },
+    {
+      "id": "item-021",
+      "name": "치즈오븐스파게티",
+      "description": "주문 2",
+      "price": 7000,
+      "currency": "KRW",
+      "category": "사이드메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_44/1686126177619gKUEz_PNG/spaghetti.png",
+      "image_file": "images/item-021.png"
+    },
+    {
+      "id": "item-022",
+      "name": "웨이브치즈볼(5ea)",
+      "description": "주문 1",
+      "price": 5000,
+      "currency": "KRW",
+      "category": "사이드메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_251/16861262055613cnVD_PNG/cheeseball.png",
+      "image_file": "images/item-022.png"
+    },
+    {
+      "id": "item-023",
+      "name": "버팔로윙(6ea)",
+      "description": null,
+      "price": 6500,
+      "currency": "KRW",
+      "category": "사이드메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_48/1686126232696af7lS_PNG/wings.png",
+      "image_file": "images/item-023.png"
+    },
+    {
+      "id": "item-024",
+      "name": "치킨텐더(5ea)",
+      "description": null,
+      "price": 5000,
+      "currency": "KRW",
+      "category": "사이드메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20230607_141/1686126281442p0QsS_PNG/tender.png",
+      "image_file": "images/item-024.png"
+    },
+    {
+      "id": "item-025",
+      "name": "버팔로스틱(6ea)",
+      "description": null,
+      "price": 6500,
+      "currency": "KRW",
+      "category": "사이드메뉴",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-026",
+      "name": "크림파스타",
+      "description": null,
+      "price": 9500,
+      "currency": "KRW",
+      "category": "사이드메뉴",
+      "image_url": null,
+      "image_file": null
+    }
+  ]
+}

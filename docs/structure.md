@@ -28,6 +28,7 @@ differs, and what remains.
 | `supabase/migrations/` | Tables, access rules, and all order-flow rules as database functions |
 | `supabase/menus/`, `supabase/seed.sql` | Real menus as imported JSON, and the seed generated from them |
 | `supabase/places/inha.json` | Everywhere to eat within 2 km of Inha, with its sources |
+| `data/restaurants/`, `public/restaurants/` | Branch menus kept as given, and their photos; loaded by `seed.sql` on every run, matched on their own ids |
 | `scripts/import-menus.mjs`, `scripts/import-chains.mjs`, `scripts/import-local-menus.mjs`, `scripts/import-places.mjs`, `scripts/build-seed.mjs` | Refresh the menus and places |
 | `src/lib/diet.ts`, `src/lib/dish-kind.ts` | Checking a dish against food needs; sorting dishes into meals, drinks and sides |
 | `src/lib/diet.ts` | Pure logic: what a person avoids, and how a dish measures up |

@@ -1,0 +1,712 @@
+{
+  "restaurant": {
+    "id": "naver-1538184",
+    "name": "회뜨는포차",
+    "naver_place_id": "1087220258",
+    "naver_booking_biz_id": "1538184",
+    "source_url": "https://m.booking.naver.com/order/bizes/1538184/items/7279090",
+    "scraped_at": "2026-11-12T06:19:38+00:00"
+  },
+  "menu": [
+    {
+      "id": "item-001",
+      "name": "산 오징어회",
+      "description": "산지 직송 활오징어를 주문 즉시 손질해 제공하는 제철 별미. 쫄깃한 식감과 달큰한 감칠맛을 그대로 즐겨보세요.",
+      "price": 0,
+      "currency": "KRW",
+      "category": "새로 나온 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260611_233/1781161977875dD5J0_JPEG/image.jpg",
+      "image_file": "images/item-001.jpg"
+    },
+    {
+      "id": "item-002",
+      "name": "시마아지(줄무늬전갱이)",
+      "description": null,
+      "price": 55000,
+      "currency": "KRW",
+      "category": "새로 나온 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260702_170/1782986733493qgMwj_JPEG/image.jpg",
+      "image_file": "images/item-002.jpg"
+    },
+    {
+      "id": "item-003",
+      "name": "새우파티",
+      "description": "활 새우회 + 단새우회 + 딱새우회 + 새우찜 4가지 새우 + 행복한상(해물칼국수 + 고등어구이 + 콘치즈) 즐기실 수 있는 메뉴입니다!!",
+      "price": 99000,
+      "currency": "KRW",
+      "category": "새로 나온 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260704_174/1783154894584XIaqp_JPEG/image.jpg",
+      "image_file": "images/item-003.jpg"
+    },
+    {
+      "id": "item-004",
+      "name": "시그니처",
+      "description": "회뜨는포차 대표메뉴입니다 구성 모듬회 소 + 칼국수 + 고등어 + 콘치즈",
+      "price": 39000,
+      "currency": "KRW",
+      "category": "추천 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_143/1770128693630TQ1zz_PNG/%BD%C3%B1%D7%B4%CF%C3%B3.png",
+      "image_file": "images/item-004.png"
+    },
+    {
+      "id": "item-005",
+      "name": "해산물파티",
+      "description": "키조개+가리비회+전복회+산낙지+해삼+멍게+새우찜+제철해산물",
+      "price": 38000,
+      "currency": "KRW",
+      "category": "추천 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_65/1770389354017XdI1t_PNG/%C7%D8%BB%EA%B9%B0%C6%C4%C6%BC.png",
+      "image_file": "images/item-005.png"
+    },
+    {
+      "id": "item-006",
+      "name": "시그니처",
+      "description": "회뜨는포차 대표메뉴입니다 구성 모듬회 소 + 칼국수 + 고등어 + 콘치즈",
+      "price": 39000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_143/1770128693630TQ1zz_PNG/%BD%C3%B1%D7%B4%CF%C3%B3.png",
+      "image_file": "images/item-006.png"
+    },
+    {
+      "id": "item-007",
+      "name": "모듬회",
+      "description": null,
+      "price": 32000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_197/17701250962721RyAq_JPEG/%B8%F0%B5%EB%C8%B8_%C0%CC%B9%CC%C1%F6.jpg",
+      "image_file": "images/item-007.jpg"
+    },
+    {
+      "id": "item-008",
+      "name": "참돔",
+      "description": null,
+      "price": 49000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_279/1770126861880mhRkH_PNG/%C2%FC%B5%BC%C8%B8.png",
+      "image_file": "images/item-008.png"
+    },
+    {
+      "id": "item-009",
+      "name": "광어+우럭",
+      "description": null,
+      "price": 35000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_172/177012601491571EgA_PNG/%B1%A4%BE%EE%2B%BF%EC%B7%B0%C8%B8.png",
+      "image_file": "images/item-009.png"
+    },
+    {
+      "id": "item-010",
+      "name": "광어",
+      "description": null,
+      "price": 32000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_12/1770126172788tcFTd_PNG/%B1%A4%BE%EE%C8%B8.png",
+      "image_file": "images/item-010.png"
+    },
+    {
+      "id": "item-011",
+      "name": "우럭",
+      "description": null,
+      "price": 35000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_32/1770126515986VvsLC_PNG/%BF%EC%B7%B0%C8%B8.png",
+      "image_file": "images/item-011.png"
+    },
+    {
+      "id": "item-012",
+      "name": "연어",
+      "description": null,
+      "price": 32000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_109/1770126697271lvSmO_PNG/%BF%AC%BE%EE%C8%B8.png",
+      "image_file": "images/item-012.png"
+    },
+    {
+      "id": "item-013",
+      "name": "숭어",
+      "description": null,
+      "price": 29000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_113/1770127170395iyXjT_PNG/%BC%FE%BE%EE%C8%B8.png",
+      "image_file": "images/item-013.png"
+    },
+    {
+      "id": "item-014",
+      "name": "점성어",
+      "description": null,
+      "price": 35000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_71/1770127436224Bom56_PNG/%C1%A1%BC%BA%BE%EE%C8%B8.png",
+      "image_file": "images/item-014.png"
+    },
+    {
+      "id": "item-015",
+      "name": "도다리",
+      "description": null,
+      "price": 35000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_165/1770127924054aCzQV_PNG/%B5%B5%B4%D9%B8%AE%C8%B8.png",
+      "image_file": "images/item-015.png"
+    },
+    {
+      "id": "item-016",
+      "name": "날치알 연어깍두기",
+      "description": null,
+      "price": 25000,
+      "currency": "KRW",
+      "category": "회",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-017",
+      "name": "산 오징어회",
+      "description": "산지 직송 활오징어를 주문 즉시 손질해 제공하는 제철 별미. 쫄깃한 식감과 달큰한 감칠맛을 그대로 즐겨보세요.",
+      "price": 0,
+      "currency": "KRW",
+      "category": "제철 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260611_233/1781161977875dD5J0_JPEG/image.jpg",
+      "image_file": "images/item-017.jpg"
+    },
+    {
+      "id": "item-018",
+      "name": "미더덕 회",
+      "description": null,
+      "price": 0,
+      "currency": "KRW",
+      "category": "제철 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260402_183/17750632866554vYdw_PNG/image.png",
+      "image_file": "images/item-018.png"
+    },
+    {
+      "id": "item-019",
+      "name": "도다리",
+      "description": null,
+      "price": 35000,
+      "currency": "KRW",
+      "category": "제철 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260402_43/17750635811501Vdw2_JPEG/image.jpg",
+      "image_file": "images/item-019.jpg"
+    },
+    {
+      "id": "item-020",
+      "name": "한맥 생맥주",
+      "description": "봄맞이 시원한 생맥주 한정판매!!",
+      "price": 4000,
+      "currency": "KRW",
+      "category": "제철 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260409_99/17757128106447Wiq1_JPEG/image.jpg",
+      "image_file": "images/item-020.jpg"
+    },
+    {
+      "id": "item-021",
+      "name": "카스 생맥주",
+      "description": "봄 맞이 시원한 생맥주 한정판매!!",
+      "price": 4000,
+      "currency": "KRW",
+      "category": "제철 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260409_222/1775712893608FT8KH_JPEG/image.jpg",
+      "image_file": "images/item-021.jpg"
+    },
+    {
+      "id": "item-022",
+      "name": "시마아지(줄무늬전갱이)",
+      "description": null,
+      "price": 55000,
+      "currency": "KRW",
+      "category": "제철 메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260702_170/1782986733493qgMwj_JPEG/image.jpg",
+      "image_file": "images/item-022.jpg"
+    },
+    {
+      "id": "item-023",
+      "name": "해산물파티",
+      "description": "키조개+가리비회+전복회+산낙지+해삼+멍게+새우찜+제철해산물",
+      "price": 38000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_65/1770389354017XdI1t_PNG/%C7%D8%BB%EA%B9%B0%C6%C4%C6%BC.png",
+      "image_file": "images/item-023.png"
+    },
+    {
+      "id": "item-024",
+      "name": "4단 해물조개찜",
+      "description": null,
+      "price": 45000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-025",
+      "name": "왕새우소금구이",
+      "description": null,
+      "price": 40000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_78/1770127012470opMMf_JPEG/%BB%F5%BF%EC%B1%B8%C0%CC.jpg",
+      "image_file": "images/item-025.jpg"
+    },
+    {
+      "id": "item-026",
+      "name": "새우찜",
+      "description": null,
+      "price": 30000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260203_67/1770126893184cw3L8_PNG/%BB%F5%BF%EC%C2%F2.png",
+      "image_file": "images/item-026.png"
+    },
+    {
+      "id": "item-027",
+      "name": "멍게",
+      "description": null,
+      "price": 12000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_4/1770386200132JJawY_PNG/%B8%DB%B0%D4%BB%E7%C1%F8.png",
+      "image_file": "images/item-027.png"
+    },
+    {
+      "id": "item-028",
+      "name": "해삼",
+      "description": null,
+      "price": 15000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_57/1770386766306kReEo_PNG/%C7%D8%BB%EF%BB%E7%C1%F8.png",
+      "image_file": "images/item-028.png"
+    },
+    {
+      "id": "item-029",
+      "name": "전복",
+      "description": null,
+      "price": 15000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_185/1770386781008JdK6b_PNG/%C0%FC%BA%B9%C8%B8%BB%E7%C1%F8.png",
+      "image_file": "images/item-029.png"
+    },
+    {
+      "id": "item-030",
+      "name": "딱새우회",
+      "description": "딱새우회 23~30마리 입니다",
+      "price": 35000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_185/1770388444723acjMz_PNG/%B5%FC%BB%F5%BF%EC%C8%B8.png",
+      "image_file": "images/item-030.png"
+    },
+    {
+      "id": "item-031",
+      "name": "소라찜",
+      "description": null,
+      "price": 20000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_97/1770387080593kplA4_PNG/%BC%D2%B6%F3%C2%F2_2.png",
+      "image_file": "images/item-031.png"
+    },
+    {
+      "id": "item-032",
+      "name": "산낙지",
+      "description": null,
+      "price": 15000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_5/1770387509453LKd3l_PNG/%BB%EA%B3%AB%C1%F6.png",
+      "image_file": "images/item-032.png"
+    },
+    {
+      "id": "item-033",
+      "name": "가리비회",
+      "description": null,
+      "price": 15000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_158/1770388263623kqPVY_PNG/%B0%A1%B8%AE%BA%F1%C8%B8.png",
+      "image_file": "images/item-033.png"
+    },
+    {
+      "id": "item-034",
+      "name": "단새우회",
+      "description": null,
+      "price": 19000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_152/1770388983005pRd5l_PNG/%B4%DC%BB%F5%BF%EC%C8%B8.png",
+      "image_file": "images/item-034.png"
+    },
+    {
+      "id": "item-035",
+      "name": "산오징어회",
+      "description": null,
+      "price": 39000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260603_244/1780470343560R6gGv_PNG/image.png",
+      "image_file": "images/item-035.png"
+    },
+    {
+      "id": "item-036",
+      "name": "통 오징어찜",
+      "description": null,
+      "price": 24000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260603_100/1780470403818Hxsjr_PNG/image.png",
+      "image_file": "images/item-036.png"
+    },
+    {
+      "id": "item-037",
+      "name": "활 새우회",
+      "description": null,
+      "price": 39000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260627_105/1782560967149LapXk_JPEG/image.jpg",
+      "image_file": "images/item-037.jpg"
+    },
+    {
+      "id": "item-038",
+      "name": "새우파티",
+      "description": "활 새우회 + 단새우회 + 딱새우회 + 새우찜 4가지 새우 + 행복한상(해물칼국수 + 고등어구이 + 콘치즈) 즐기실 수 있는 메뉴입니다!!",
+      "price": 99000,
+      "currency": "KRW",
+      "category": "해산물",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260704_174/1783154894584XIaqp_JPEG/image.jpg",
+      "image_file": "images/item-038.jpg"
+    },
+    {
+      "id": "item-039",
+      "name": "일품진로",
+      "description": null,
+      "price": 25000,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260206_125/1770389989294Hesx8_PNG/%C0%CF%C7%B0%C1%F8%B7%CE.png",
+      "image_file": "images/item-039.png"
+    },
+    {
+      "id": "item-040",
+      "name": "화요21",
+      "description": null,
+      "price": 25000,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260207_240/1770390138321GOuV2_PNG/%C8%AD%BF%E421.png",
+      "image_file": "images/item-040.png"
+    },
+    {
+      "id": "item-041",
+      "name": "보해복분자",
+      "description": null,
+      "price": 20000,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260207_162/1770390147172Koiqh_PNG/%BA%B8%C7%D8%BA%B9%BA%D0%C0%DA.png",
+      "image_file": "images/item-041.png"
+    },
+    {
+      "id": "item-042",
+      "name": "콜키지",
+      "description": null,
+      "price": 10000,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-043",
+      "name": "참이슬",
+      "description": null,
+      "price": 0,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260207_205/17703902001358gtko_PNG/%C2%FC%C0%CC%BD%BD.png",
+      "image_file": "images/item-043.png"
+    },
+    {
+      "id": "item-044",
+      "name": "처음처럼",
+      "description": null,
+      "price": 0,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260207_36/1770390237759Y8Fw5_JPEG/%C3%B3%C0%BD%C3%B3%B7%B3.jpg",
+      "image_file": "images/item-044.jpg"
+    },
+    {
+      "id": "item-045",
+      "name": "카스",
+      "description": null,
+      "price": 0,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260207_204/1770390293199sbhW7_JPEG/%C4%AB%BD%BA.jpg",
+      "image_file": "images/item-045.jpg"
+    },
+    {
+      "id": "item-046",
+      "name": "테라",
+      "description": null,
+      "price": 0,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260207_70/1770390322542xoYGJ_PNG/%C5%D7%B6%F3.png",
+      "image_file": "images/item-046.png"
+    },
+    {
+      "id": "item-047",
+      "name": "청하",
+      "description": null,
+      "price": 0,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260207_123/1770390780266pf0xG_JPEG/product_view0204_bh6.jpg",
+      "image_file": "images/item-047.jpg"
+    },
+    {
+      "id": "item-048",
+      "name": "별빛청하",
+      "description": null,
+      "price": 0,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260207_202/17703907902061nTW2_PNG/%BA%B0%BA%FB%C3%BB%C7%CF.png",
+      "image_file": "images/item-048.png"
+    },
+    {
+      "id": "item-049",
+      "name": "진로",
+      "description": null,
+      "price": 0,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260207_254/1770390804559piCah_PNG/%C1%F8%C8%A3.png",
+      "image_file": "images/item-049.png"
+    },
+    {
+      "id": "item-050",
+      "name": "새로",
+      "description": null,
+      "price": 0,
+      "currency": "KRW",
+      "category": "주류",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260207_192/17703908141460dnKn_PNG/%BB%F5%B7%CE.png",
+      "image_file": "images/item-050.png"
+    },
+    {
+      "id": "item-051",
+      "name": "생우럭매운탕",
+      "description": null,
+      "price": 38000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-052",
+      "name": "산더미조개탕",
+      "description": null,
+      "price": 18000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-053",
+      "name": "매운탕",
+      "description": null,
+      "price": 5000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-054",
+      "name": "푸짐해물라면",
+      "description": null,
+      "price": 12000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-055",
+      "name": "활어물회",
+      "description": null,
+      "price": 14000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-056",
+      "name": "회덮밥",
+      "description": null,
+      "price": 10000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-057",
+      "name": "묵은지 마약김밥",
+      "description": null,
+      "price": 4000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-058",
+      "name": "새우튀김",
+      "description": null,
+      "price": 11000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-059",
+      "name": "오징어튀김",
+      "description": null,
+      "price": 11000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-060",
+      "name": "연어초밥",
+      "description": null,
+      "price": 15000,
+      "currency": "KRW",
+      "category": "초밥",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-061",
+      "name": "광어초밥",
+      "description": null,
+      "price": 15000,
+      "currency": "KRW",
+      "category": "초밥",
+      "image_url": null,
+      "image_file": null
+    },
+    {
+      "id": "item-062",
+      "name": "콘치즈(대)",
+      "description": null,
+      "price": 9000,
+      "currency": "KRW",
+      "category": "포차메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260406_280/1775408171278NCbsJ_JPEG/image.jpg",
+      "image_file": "images/item-062.jpg"
+    },
+    {
+      "id": "item-063",
+      "name": "고등어 구이",
+      "description": null,
+      "price": 7000,
+      "currency": "KRW",
+      "category": "포차메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260406_144/17754082406898JTC9_JPEG/image.jpg",
+      "image_file": "images/item-063.jpg"
+    },
+    {
+      "id": "item-064",
+      "name": "통마늘 닭똥집 볶음",
+      "description": null,
+      "price": 17000,
+      "currency": "KRW",
+      "category": "포차메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260406_261/1775408321439giKlN_JPEG/image.jpg",
+      "image_file": "images/item-064.jpg"
+    },
+    {
+      "id": "item-065",
+      "name": "삼겹두부김치",
+      "description": null,
+      "price": 19000,
+      "currency": "KRW",
+      "category": "포차메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260406_249/1775409626226kLHwe_JPEG/image.jpg",
+      "image_file": "images/item-065.jpg"
+    },
+    {
+      "id": "item-066",
+      "name": "고갈비",
+      "description": null,
+      "price": 15000,
+      "currency": "KRW",
+      "category": "포차메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260406_284/1775409749332z7xOU_JPEG/image.jpg",
+      "image_file": "images/item-066.jpg"
+    },
+    {
+      "id": "item-067",
+      "name": "달달토스트",
+      "description": null,
+      "price": 9000,
+      "currency": "KRW",
+      "category": "포차메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260406_295/1775409753031imlrg_JPEG/image.jpg",
+      "image_file": "images/item-067.jpg"
+    },
+    {
+      "id": "item-068",
+      "name": "도리토스 타코",
+      "description": null,
+      "price": 9000,
+      "currency": "KRW",
+      "category": "포차메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260406_273/1775409757850XtCiW_JPEG/image.jpg",
+      "image_file": "images/item-068.jpg"
+    },
+    {
+      "id": "item-069",
+      "name": "오징어 튀김",
+      "description": null,
+      "price": 11000,
+      "currency": "KRW",
+      "category": "포차메뉴",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260406_33/1775409785300OOwPz_JPEG/image.jpg",
+      "image_file": "images/item-069.jpg"
+    },
+    {
+      "id": "item-070",
+      "name": "새우튀김",
+      "description": null,
+      "price": 11000,
+      "currency": "KRW",
+      "category": "포차메뉴",
+      "image_url": null,
+      "image_file": null
+    }
+  ]
+}

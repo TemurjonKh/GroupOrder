@@ -15,6 +15,7 @@
     "menus:local": "node scripts/import-local-menus.mjs",
     "places:import": "node scripts/import-places.mjs",
     "menus:seed": "node scripts/build-seed.mjs",
+    "menus:photos": "node scripts/import-branch-photos.mjs",
     "test:e2e": "node test/e2e/flow.mjs",
     "share": "node scripts/share.mjs"
   },

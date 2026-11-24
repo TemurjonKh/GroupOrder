@@ -219,7 +219,8 @@ async function RestaurantList({ code, group, round, suggestions, members }: {
       <h2 className="mb-3 font-display text-2xl font-extrabold tracking-tight">{pinned.length ? t("Restaurants for this round", "이번 라운드 식당") : t("Where to order from", "어디서 주문할까요")}</h2>
       <RestaurantFinder code={code} items={restaurants.map((r, i) => {
           const dishes = [...r.menu_items].sort((a, b) => a.sort_order - b.sort_order);
-          const photos = dishes.filter((d) => d.photo).filter((_, n) => n % 5 === 0).slice(0, 7);
+          // A dish listed twice (under "new" and in its own section) shows once.
+          const photos = dishes.filter((d, n) => d.photo && dishes.findIndex((x) => x.name === d.name) === n).filter((_, n) => n % 5 === 0).slice(0, 7);
           const priced = dishes.some((d) => d.price !== null);
           return {
             id: r.id,
@@ -254,7 +255,7 @@ async function RestaurantList({ code, group, round, suggestions, members }: {
                 </span>
                 <span aria-hidden className="mt-3 grid grid-cols-4 gap-2 sm:grid-cols-5 2xl:grid-cols-7">
                   {photos.map((d, n) => (
-                    <DishPhoto key={d.name} src={d.photo} sizes="(max-width: 640px) 25vw, 160px"
+                    <DishPhoto key={d.id} src={d.photo} sizes="(max-width: 640px) 25vw, 160px"
                       className={`aspect-square w-full ${SHOW_FROM[n] ?? ""}`} />
                   ))}
                 </span>

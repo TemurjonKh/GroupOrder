@@ -89,8 +89,10 @@ export function buildSummary(answers: Answer[]): RestaurantSummary[] {
 
 export const PRICE_NOT_LISTED = "Price not listed";
 
+/** "₩7,200" in English, "7,200원" in Korean. */
 export const formatKrw = (amount: number | null, lang: "en" | "ko" = "en") =>
-  amount === null ? (lang === "ko" ? "가격 미공개" : PRICE_NOT_LISTED) : `₩${amount.toLocaleString("en-US")}`;
+  amount === null ? (lang === "ko" ? "가격 미공개" : PRICE_NOT_LISTED)
+    : lang === "ko" ? `${amount.toLocaleString("en-US")}원` : `₩${amount.toLocaleString("en-US")}`;
 
 /** A total that never pretends to be complete when some prices are unknown. */
 export function totalLabel(total: number, unpriced: number, lang: "en" | "ko" = "en") {

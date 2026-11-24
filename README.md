@@ -76,6 +76,37 @@ npm run menus:seed      # rebuilds supabase/seed.sql from those files
 
 Then run `npm run dev:local:reset` so local mode loads the new seed.
 
+### Branch menus
+
+Six restaurants near Inha Univ. Station show their own branch's menu and prices, taken from each
+branch's Naver order page for internal demo use: Burger King, Starbucks, Popeyes, Cheese Wave
+(치즈웨이브), Imotteok (이모떡즉석떡볶이) and Hoe-tteuneun Pocha (회뜨는포차). The app never fetches
+anything from Naver. Each menu is kept as given in `data/restaurants/<slug>/menu.json`, with its photos
+in `public/restaurants/<slug>/`; nothing is linked from where they were found. They come from one
+Naver search for "인하대역 맛집": of its 55 results, these were the ones that take Naver orders.
+
+The list in `scripts/build-seed.mjs` (`BRANCHES`) says which places each branch serves and which
+menu it replaces. A replaced chain or Daangn/Polle menu no longer loads as its own restaurant, but
+gives its cuisine, logo, and the allergen data of dishes with the same name. Alcohol is left out, as
+on the chains' menus. A price of 0 (market price) shows as "Price not listed".
+
+To load a newer copy (the batch scraper saves one folder per restaurant):
+
+```sh
+cp <folder>/menu.json data/restaurants/<slug>/menu.json
+npm run menus:photos -- <folder> <slug>   # 600 px squares: WebP for cut-outs, JPEG for photos
+npm run menus:seed
+```
+
+A new restaurant also needs an entry in `BRANCHES`, and English names for its dishes in
+`supabase/menus/translations/en.json` (a missing one shows the Korean name).
+
+Unlike other menus, a branch menu loads on every run of `seed.sql`, matched on its own ids
+(`naver-949880`, `item-001`, ...), so its rows are updated in place and nothing is duplicated.
+Local mode reloads it on every start. A dish gone from the file is removed unless someone has picked it.
+In a database loaded before a branch replaced a menu, picks of the old menu's dishes move to the
+branch's dish with the same name, and the old menu goes.
+
 - **Subway publishes no prices.** Its dishes show "Price not listed", and totals say how many
   items are unpriced. Burger King's prices are its own dine-in prices; delivery can cost more.
 - **Each site's robots.txt is respected.** BHC and Yupdduk are not included because theirs shut out

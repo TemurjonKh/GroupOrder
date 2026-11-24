@@ -94,7 +94,11 @@ export async function getShowcase(count: number) {
     [...r.menu_items].sort((a, b) => a.sort_order - b.sort_order).filter((d) => d.photo));
   const dishes: { name: string; photo: string | null }[] = [];
   for (let i = 0; dishes.length < count && pools.some((pool) => pool[i]); i++) {
-    for (const pool of pools) if (pool[i * 3] && dishes.length < count) dishes.push(pool[i * 3]);
+    // Each name once: different menus can share one ("치즈스틱"), and pages key the showcase by name.
+    for (const pool of pools) {
+      const dish = pool[i * 3];
+      if (dish && dishes.length < count && !dishes.some((d) => d.name === dish.name)) dishes.push(dish);
+    }
   }
   return dishes;
 }

@@ -1,0 +1,1232 @@
+{
+  "restaurant": {
+    "id": "naver-949880",
+    "name": "버거킹 인하대역점",
+    "naver_place_id": "1908054114",
+    "naver_booking_biz_id": "949880",
+    "source_url": "https://m.booking.naver.com/order/bizes/949880/items/5212581",
+    "scraped_at": "2026-11-12T05:25:53+00:00"
+  },
+  "menu": [
+    {
+      "id": "item-001",
+      "name": "쯔란로제 크리스퍼",
+      "description": "톡쏘는 쯔란과 부드러운 로제의 극적 만남",
+      "price": 7200,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_182/1793752200411k39hU_PNG/image.png",
+      "image_file": "images/item-001.png"
+    },
+    {
+      "id": "item-002",
+      "name": "쯔란로제 딥 치즈 크리스퍼",
+      "description": "쯔란로제 크리스퍼에 4가지 치즈를 더해 더 부드럽게",
+      "price": 8200,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_204/1793752201287h1U3I_PNG/image.png",
+      "image_file": "images/item-002.png"
+    },
+    {
+      "id": "item-003",
+      "name": "블랙 트러플치즈 버거",
+      "description": "블랙 트러플 번으로 더 깊어진, NEW 블랙 트머와",
+      "price": 11700,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261014_26/17919378610682fwff_PNG/image.png",
+      "image_file": "images/item-003.png"
+    },
+    {
+      "id": "item-004",
+      "name": "트러플 머쉬룸 와퍼",
+      "description": "진한 트러플 향과 4가지 버섯의 깊은 풍미",
+      "price": 10700,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250918_143/17581554003876GFEd_PNG/image.png",
+      "image_file": "images/item-004.png"
+    },
+    {
+      "id": "item-005",
+      "name": "핫 트러플 머쉬룸 와퍼",
+      "description": "매콤한 트러플 소스의 색다른 매력",
+      "price": 10700,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250918_282/1758155401721iJkEv_PNG/image.png",
+      "image_file": "images/item-005.png"
+    },
+    {
+      "id": "item-006",
+      "name": "메종 트러플 치즈 버거",
+      "description": "트러플 치즈와 트러플 소스가 선사하는 깊고 풍성한 트러플 풍미의 프리미엄 버거",
+      "price": 11500,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260916_90/17895197098781ltds_PNG/image.png",
+      "image_file": "images/item-006.png"
+    },
+    {
+      "id": "item-007",
+      "name": "몬스터 맥시멈",
+      "description": "몬스터,맥시멈으로 등장",
+      "price": 13000,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260819_66/1787099401984Ypxf7_PNG/image.png",
+      "image_file": "images/item-007.png"
+    },
+    {
+      "id": "item-008",
+      "name": "몬스터 맥시멈2",
+      "description": "몬스터,맥시멈으로 등장",
+      "price": 16400,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260819_31/1787099400913Pvebi_PNG/image.png",
+      "image_file": "images/item-008.png"
+    },
+    {
+      "id": "item-009",
+      "name": "몬스터 맥시멈3",
+      "description": "몬스터,맥시멈으로 등장",
+      "price": 19600,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260819_57/1787099402290ATqOa_PNG/image.png",
+      "image_file": "images/item-009.png"
+    },
+    {
+      "id": "item-010",
+      "name": "오리지널스 엘파소 치폴레",
+      "description": "150g 패티에 스모키한 풍미의 치폴레와 할라피뇨가 만난 엘파소의 풍미",
+      "price": 12000,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260521_179/1779323508178f21Oq_PNG/image.png",
+      "image_file": "images/item-010.png"
+    },
+    {
+      "id": "item-011",
+      "name": "오리지널스 뉴욕 스테이크",
+      "description": "150g 패티에 뉴욕스테이크 소스와 몬테레이잭 치즈를 더한 정통 미국 스타일",
+      "price": 12000,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_284/1751592258418PkDWn_PNG/image.png",
+      "image_file": "images/item-011.png"
+    },
+    {
+      "id": "item-012",
+      "name": "더 크리스퍼",
+      "description": "한층 더 바삭해진 100% 두툼한 통닭가슴살과 매콤한 감칠맛의 풍미가 폭발",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260129_69/1769656681393y8PbO_PNG/image.png",
+      "image_file": "images/item-012.png"
+    },
+    {
+      "id": "item-013",
+      "name": "더 크리스퍼 베이컨&치즈",
+      "description": "한층 더 바삭해진 100% 두툼한 통닭가슴살에 베이컨&치즈를 더해 완성한 치킨 버거의 풍미",
+      "price": 7700,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260129_61/1769656715250SSEtz_PNG/image.png",
+      "image_file": "images/item-013.png"
+    },
+    {
+      "id": "item-014",
+      "name": "쯔란로제 크리스퍼 세트",
+      "description": "쯔란로제 크리스퍼+프렌치프라이R+콜라R",
+      "price": 9900,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_178/1793752200722QcIIL_PNG/image.png",
+      "image_file": "images/item-014.png"
+    },
+    {
+      "id": "item-015",
+      "name": "쯔란로제 딥 치즈 크리스퍼 세트",
+      "description": "쯔란로제 딥 치즈 크리스퍼+프렌치프라이R+콜라R",
+      "price": 10900,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_48/1793752201691LB9CP_PNG/image.png",
+      "image_file": "images/item-015.png"
+    },
+    {
+      "id": "item-016",
+      "name": "블랙 트러플치즈 버거 세트",
+      "description": "블랙 트러플치즈 버거+프렌치프라이R+콜라R",
+      "price": 14400,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261014_103/1791937860457IBWWO_PNG/image.png",
+      "image_file": "images/item-016.png"
+    },
+    {
+      "id": "item-017",
+      "name": "트러플 머쉬룸 와퍼세트",
+      "description": "트러플 머쉬룸 와퍼 +프렌치프라이R+콜라R",
+      "price": 13400,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250918_163/1758155402725zT7vs_PNG/image.png",
+      "image_file": "images/item-017.png"
+    },
+    {
+      "id": "item-018",
+      "name": "핫 트러플 머쉬룸 와퍼세트",
+      "description": "핫 트러플 머쉬룸 와퍼 +프렌치프라이R+콜라R",
+      "price": 13400,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250918_180/1758155402099n8WKm_PNG/image.png",
+      "image_file": "images/item-018.png"
+    },
+    {
+      "id": "item-019",
+      "name": "메종 트러플 치즈 버거세트",
+      "description": "메종 트러플 치즈 버거 +프렌치프라이R+콜라R",
+      "price": 14200,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260916_64/1789519710180W7fF3_PNG/image.png",
+      "image_file": "images/item-019.png"
+    },
+    {
+      "id": "item-020",
+      "name": "몬스터 맥시멈 세트",
+      "description": "몬스터 맥시멈 +프렌치프라이R+콜라R",
+      "price": 15700,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260819_37/1787099400335lihp6_PNG/image.png",
+      "image_file": "images/item-020.png"
+    },
+    {
+      "id": "item-021",
+      "name": "몬스터 맥시멈2 세트",
+      "description": "몬스터 맥시멈2 +프렌치프라이R+콜라R",
+      "price": 19100,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260819_176/1787099401167Lgkwo_PNG/image.png",
+      "image_file": "images/item-021.png"
+    },
+    {
+      "id": "item-022",
+      "name": "몬스터 맥시멈3 세트",
+      "description": "몬스터 맥시멈3 +프렌치프라이R+콜라R",
+      "price": 22300,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260819_125/1787099402727hsY6r_PNG/image.png",
+      "image_file": "images/item-022.png"
+    },
+    {
+      "id": "item-023",
+      "name": "오리지널스 엘파소 치폴레 세트",
+      "description": "오리지널스 엘파소 치폴레+프렌치프라이R+콜라R",
+      "price": 14700,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260521_176/1779323508425a06J4_PNG/image.png",
+      "image_file": "images/item-023.png"
+    },
+    {
+      "id": "item-024",
+      "name": "오리지널스 뉴욕 스테이크 세트",
+      "description": "오리지널스 뉴욕 스테이크+프렌치프라이R+콜라R",
+      "price": 14700,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_261/1751592269317kDGnp_PNG/image.png",
+      "image_file": "images/item-024.png"
+    },
+    {
+      "id": "item-025",
+      "name": "더 크리스퍼 세트",
+      "description": "더 크리스퍼+프렌치프라이R+콜라R",
+      "price": 9400,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260129_137/1769656699943ojEcL_PNG/image.png",
+      "image_file": "images/item-025.png"
+    },
+    {
+      "id": "item-026",
+      "name": "더크리스퍼 베이컨&치즈 세트",
+      "description": "더 크리스퍼 베이컨&치즈+프렌치프라이R+콜라R",
+      "price": 10400,
+      "currency": "KRW",
+      "category": "신제품(NEW)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260129_211/1769656729932SAXPr_PNG/image.png",
+      "image_file": "images/item-026.png"
+    },
+    {
+      "id": "item-027",
+      "name": "와퍼세트",
+      "description": "와퍼+프렌치프라이R+콜라R",
+      "price": 11100,
+      "currency": "KRW",
+      "category": "와퍼세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_216/1751592267854DiMd2_PNG/image.png",
+      "image_file": "images/item-027.png"
+    },
+    {
+      "id": "item-028",
+      "name": "통새우와퍼세트",
+      "description": "통새우와퍼+프렌치프라이R+콜라R",
+      "price": 11900,
+      "currency": "KRW",
+      "category": "와퍼세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_131/1751592275873BVINy_PNG/image.png",
+      "image_file": "images/item-028.png"
+    },
+    {
+      "id": "item-029",
+      "name": "치즈와퍼세트",
+      "description": "치즈와퍼+프렌치프라이R+콜라R",
+      "price": 11700,
+      "currency": "KRW",
+      "category": "와퍼세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_195/1751592275086Y3Fwq_PNG/image.png",
+      "image_file": "images/item-029.png"
+    },
+    {
+      "id": "item-030",
+      "name": "더오치 맥시멈2 세트",
+      "description": "더오치 맥시멈2+프렌치프라이R+콜라R",
+      "price": 14500,
+      "currency": "KRW",
+      "category": "와퍼세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250814_208/1755131481587CKGkq_PNG/image.png",
+      "image_file": "images/item-030.png"
+    },
+    {
+      "id": "item-031",
+      "name": "갈릭불고기와퍼 세트",
+      "description": "갈릭불고기와퍼+프렌치프라이R+콜라R",
+      "price": 11400,
+      "currency": "KRW",
+      "category": "와퍼세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_44/1751592276093386Jm_PNG/image.png",
+      "image_file": "images/item-031.png"
+    },
+    {
+      "id": "item-032",
+      "name": "베이컨치즈와퍼 세트",
+      "description": "베이컨치즈와퍼+프렌치프라이R+콜라R",
+      "price": 12900,
+      "currency": "KRW",
+      "category": "와퍼세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_199/1751592270165cwJPp_PNG/image.png",
+      "image_file": "images/item-032.png"
+    },
+    {
+      "id": "item-033",
+      "name": "몬스터와퍼 세트",
+      "description": "몬스터와퍼+프렌치프라이R+콜라R",
+      "price": 12800,
+      "currency": "KRW",
+      "category": "와퍼세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_9/1751592268074t0bJx_PNG/image.png",
+      "image_file": "images/item-033.png"
+    },
+    {
+      "id": "item-034",
+      "name": "콰트로치즈와퍼 세트",
+      "description": "콰트로치즈와퍼+프렌치프라이R+콜라R",
+      "price": 11900,
+      "currency": "KRW",
+      "category": "와퍼세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_44/1751592276789hBNq7_PNG/image.png",
+      "image_file": "images/item-034.png"
+    },
+    {
+      "id": "item-035",
+      "name": "불고기와퍼세트",
+      "description": "불고기와퍼+프렌치프라이R+콜라R",
+      "price": 11100,
+      "currency": "KRW",
+      "category": "와퍼세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_169/1751592275340eSf8c_PNG/image.png",
+      "image_file": "images/item-035.png"
+    },
+    {
+      "id": "item-036",
+      "name": "치즈버거세트",
+      "description": "치즈버거+프렌치프라이R+콜라R",
+      "price": 7500,
+      "currency": "KRW",
+      "category": "와퍼세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_197/1751592276682jsVGi_PNG/image.png",
+      "image_file": "images/item-036.png"
+    },
+    {
+      "id": "item-037",
+      "name": "통새우와퍼주니어세트",
+      "description": "통새우와퍼주니어+프렌치프라이R+콜라R",
+      "price": 9300,
+      "currency": "KRW",
+      "category": "와퍼주니어세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_114/1751592275614uF2li_PNG/image.png",
+      "image_file": "images/item-037.png"
+    },
+    {
+      "id": "item-038",
+      "name": "콰트로치즈와퍼주니어세트",
+      "description": "콰트로치즈와퍼주니어+프렌치프라이R+콜라R",
+      "price": 9300,
+      "currency": "KRW",
+      "category": "와퍼주니어세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_1/1751592276288Sco6s_PNG/image.png",
+      "image_file": "images/item-038.png"
+    },
+    {
+      "id": "item-039",
+      "name": "치즈와퍼주니어세트",
+      "description": "치즈와퍼주니어+프렌치프라이R+콜라R",
+      "price": 9000,
+      "currency": "KRW",
+      "category": "와퍼주니어세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_248/1751592276483BqFSB_PNG/image.png",
+      "image_file": "images/item-039.png"
+    },
+    {
+      "id": "item-040",
+      "name": "와퍼주니어세트",
+      "description": "와퍼주니어+프렌치프라이R+콜라R",
+      "price": 8700,
+      "currency": "KRW",
+      "category": "와퍼주니어세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_268/1751592281555qwXk4_PNG/image.png",
+      "image_file": "images/item-040.png"
+    },
+    {
+      "id": "item-041",
+      "name": "불고기와퍼주니어세트",
+      "description": "불고기와퍼주니어+프렌치프라이R+콜라R",
+      "price": 8700,
+      "currency": "KRW",
+      "category": "와퍼주니어세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_207/1751592281763PeQVq_PNG/image.png",
+      "image_file": "images/item-041.png"
+    },
+    {
+      "id": "item-042",
+      "name": "몬스터 주니어 세트",
+      "description": "몬스터 주니어+프렌치프라이R+콜라R",
+      "price": 8400,
+      "currency": "KRW",
+      "category": "와퍼주니어세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_126/1751592283530RXF6p_PNG/image.png",
+      "image_file": "images/item-042.png"
+    },
+    {
+      "id": "item-043",
+      "name": "롱치킨버거 세트",
+      "description": "롱치킨버거+프렌치프라이R+콜라R",
+      "price": 8700,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨 세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260604_281/1780533140903c7OP6_PNG/image.png",
+      "image_file": "images/item-043.png"
+    },
+    {
+      "id": "item-044",
+      "name": "불고기 롱치킨버거 세트",
+      "description": "불고기 롱치킨버거+프렌치프라이R+콜라R",
+      "price": 8700,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨 세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260604_175/1780533142054VcDhk_PNG/image.png",
+      "image_file": "images/item-044.png"
+    },
+    {
+      "id": "item-045",
+      "name": "치킨 치즈 마요 버거 세트",
+      "description": "치킨 치즈 마요 버거+프렌치프라이R+콜라R",
+      "price": 7400,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨 세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250728_11/1753662600766IIwSo_PNG/image.png",
+      "image_file": "images/item-045.png"
+    },
+    {
+      "id": "item-046",
+      "name": "치킨킹BLT 세트",
+      "description": "치킨킹BLT+프렌치프라이R+콜라R",
+      "price": 11500,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨 세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_211/1751592282820VCDvW_PNG/image.png",
+      "image_file": "images/item-046.png"
+    },
+    {
+      "id": "item-047",
+      "name": "더블비프불고기버거 세트",
+      "description": "더블비프불고기버거+프렌치프라이R+콜라R",
+      "price": 8500,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨 세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_8/1751592283019pvgwG_PNG/image.png",
+      "image_file": "images/item-047.png"
+    },
+    {
+      "id": "item-048",
+      "name": "치킨킹 세트",
+      "description": "치킨킹+프렌치프라이R+콜라R",
+      "price": 10500,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨 세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_240/1751592281921UJI8n_PNG/image.png",
+      "image_file": "images/item-048.png"
+    },
+    {
+      "id": "item-049",
+      "name": "비프불고기버거 세트",
+      "description": "비프불고기버거+프렌치프라이R+콜라R",
+      "price": 7500,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨 세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_277/1751592282215I2HIL_PNG/image.png",
+      "image_file": "images/item-049.png"
+    },
+    {
+      "id": "item-050",
+      "name": "통새우 슈림프버거 세트",
+      "description": "통새우 슈림프버거+프렌치프라이R+콜라R",
+      "price": 9500,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨 세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_19/1751592299255ydwCt_PNG/image.png",
+      "image_file": "images/item-050.png"
+    },
+    {
+      "id": "item-051",
+      "name": "치킨버거 세트",
+      "description": "치킨버거+프렌치프라이R+콜라R",
+      "price": 7200,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨 세트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_20/1751592300146LtUwK_PNG/image.png",
+      "image_file": "images/item-051.png"
+    },
+    {
+      "id": "item-052",
+      "name": "더오치 맥시멈2",
+      "description": "맥시멈에 도전하라",
+      "price": 11800,
+      "currency": "KRW",
+      "category": "와퍼",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250814_293/1755131480310Wou8a_PNG/image.png",
+      "image_file": "images/item-052.png"
+    },
+    {
+      "id": "item-053",
+      "name": "베이컨치즈와퍼",
+      "description": "풍미 가득한 아메리칸 클래식의 완벽한 조화!",
+      "price": 10200,
+      "currency": "KRW",
+      "category": "와퍼",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_270/17515923004096zJXY_PNG/image.png",
+      "image_file": "images/item-053.png"
+    },
+    {
+      "id": "item-054",
+      "name": "몬스터와퍼",
+      "description": "불맛 가득 순쇠고기, 치킨, 베이컨에 화끈한 디아블로 소스의 압도적인 맛",
+      "price": 10600,
+      "currency": "KRW",
+      "category": "와퍼",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_95/1751592298847zhNrM_PNG/image.png",
+      "image_file": "images/item-054.png"
+    },
+    {
+      "id": "item-055",
+      "name": "콰트로치즈와퍼",
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
+      "price": 9200,
+      "currency": "KRW",
+      "category": "와퍼",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_153/17515922994529WtEt_PNG/image.png",
+      "image_file": "images/item-055.png"
+    },
+    {
+      "id": "item-056",
+      "name": "통새우와퍼",
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
+      "price": 9200,
+      "currency": "KRW",
+      "category": "와퍼",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_170/1751592299059hov1e_PNG/image.png",
+      "image_file": "images/item-056.png"
+    },
+    {
+      "id": "item-057",
+      "name": "치즈와퍼",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼에 고소한 치즈까지!",
+      "price": 9000,
+      "currency": "KRW",
+      "category": "와퍼",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_258/1751592299655wfRTd_PNG/image.png",
+      "image_file": "images/item-057.png"
+    },
+    {
+      "id": "item-058",
+      "name": "갈릭불고기와퍼",
+      "description": "크리스피 갈릭칩과 달콤한 불고기소스로 즐기는 갈릭불고기와퍼",
+      "price": 8700,
+      "currency": "KRW",
+      "category": "와퍼",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_126/1751592307637Bvqma_PNG/image.png",
+      "image_file": "images/item-058.png"
+    },
+    {
+      "id": "item-059",
+      "name": "와퍼",
+      "description": "불에 직접 구운 순 쇠고기 패티에 싱싱한 야채가 한가득~ 버거킹의 대표 메뉴!",
+      "price": 8400,
+      "currency": "KRW",
+      "category": "와퍼",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_9/1751592307876kj7CO_PNG/image.png",
+      "image_file": "images/item-059.png"
+    },
+    {
+      "id": "item-060",
+      "name": "불고기와퍼",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼에 달콤한 불고기 소스까지!",
+      "price": 8100,
+      "currency": "KRW",
+      "category": "와퍼",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_286/1751592308108nwr2D_PNG/image.png",
+      "image_file": "images/item-060.png"
+    },
+    {
+      "id": "item-061",
+      "name": "치즈버거",
+      "description": "불에 구운 쇠고기 패티와 사르르 치즈까지, 작지만 알차다!",
+      "price": 4800,
+      "currency": "KRW",
+      "category": "와퍼",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_210/1751592312830S4OjX_PNG/image.png",
+      "image_file": "images/item-061.png"
+    },
+    {
+      "id": "item-062",
+      "name": "통새우와퍼주니어",
+      "description": "불맛 가득 순쇠고기, 갈릭페퍼 통새우, 스파이시토마토소스가 더해진 프리미엄 버거",
+      "price": 6600,
+      "currency": "KRW",
+      "category": "와퍼주니어",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_270/1751592306484YOTEJ_PNG/image.png",
+      "image_file": "images/item-062.png"
+    },
+    {
+      "id": "item-063",
+      "name": "콰트로치즈와퍼주니어",
+      "description": "진짜 불맛을 즐겨라, 4가지 고품격 치즈와 불에 직접 구운 와퍼 패티의 만남!",
+      "price": 6600,
+      "currency": "KRW",
+      "category": "와퍼주니어",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_197/1751592306725YYHsk_PNG/image.png",
+      "image_file": "images/item-063.png"
+    },
+    {
+      "id": "item-064",
+      "name": "몬스터 주니어",
+      "description": "순 쇠고기 패티에 치킨 패티를 더해 든든함이 두 배!",
+      "price": 6200,
+      "currency": "KRW",
+      "category": "와퍼주니어",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_174/1751592308426g1Jsw_PNG/image.png",
+      "image_file": "images/item-064.png"
+    },
+    {
+      "id": "item-065",
+      "name": "치즈와퍼주니어",
+      "description": "불에 직접 구운 순쇠고기 패티가 들어간 와퍼주니어에 고소한 치즈까지!",
+      "price": 6300,
+      "currency": "KRW",
+      "category": "와퍼주니어",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_241/1751592306953K81Nf_PNG/image.png",
+      "image_file": "images/item-065.png"
+    },
+    {
+      "id": "item-066",
+      "name": "와퍼주니어",
+      "description": "불에 직접 구운 순쇠고기 패티가 들어간 와퍼의 주니어 버전~ 작지만 꽉 찼다!",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "와퍼주니어",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_239/1751592307123RKKSz_PNG/image.png",
+      "image_file": "images/item-066.png"
+    },
+    {
+      "id": "item-067",
+      "name": "불고기와퍼주니어",
+      "description": "불에 직접 구운 순 쇠고기 패티가 들어간 와퍼주니어에 달콤한 불고기 소스까지!",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "와퍼주니어",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_161/1751592307301Do9dm_PNG/image.png",
+      "image_file": "images/item-067.png"
+    },
+    {
+      "id": "item-068",
+      "name": "치킨 치즈 마요 버거",
+      "description": "엑스트라 마요네즈와 치즈로 더욱 고소한 치킨치즈마요버거",
+      "price": 5200,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨버거",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250728_63/1753662600422bhAmq_PNG/image.png",
+      "image_file": "images/item-068.png"
+    },
+    {
+      "id": "item-069",
+      "name": "롱치킨버거",
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스와 싱싱한 야채가 듬뿍~",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨버거",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260604_18/17805331406402PSVg_PNG/image.png",
+      "image_file": "images/item-069.png"
+    },
+    {
+      "id": "item-070",
+      "name": "불고기 롱치킨버거",
+      "description": "담백한 치킨 패티에 부드러운 마요네즈 소스, 달콤한 불고기 소스까지!",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨버거",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260604_82/1780533141436FFrLg_PNG/image.png",
+      "image_file": "images/item-070.png"
+    },
+    {
+      "id": "item-071",
+      "name": "더블비프불고기버거",
+      "description": "달콤한 불고기 소스에 더블 패티로 더욱 깊어진 감칠맛!",
+      "price": 6300,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨버거",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_13/1751592313812oajtv_PNG/image.png",
+      "image_file": "images/item-071.png"
+    },
+    {
+      "id": "item-072",
+      "name": "치킨버거",
+      "description": "부드러운 버거번과 킹치킨패티의 만남! 풍부한 마요 소스로 고소하게!",
+      "price": 5000,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨버거",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_75/1751592311980bMhdv_PNG/image.png",
+      "image_file": "images/item-072.png"
+    },
+    {
+      "id": "item-073",
+      "name": "치킨킹",
+      "description": "스파이시한 통닭다리살과 고소한 브리오쉬번이 만나 더 풍부해진 프리미엄 치킨버거",
+      "price": 7800,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨버거",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_82/1751592312988VNlR6_PNG/image.png",
+      "image_file": "images/item-073.png"
+    },
+    {
+      "id": "item-074",
+      "name": "치킨킹BLT",
+      "description": "스파이시한 통닭다리살 프리미엄 치킨버거에 베이컨, 양상추, 토마토를 더했다. 치킨킹 BLT!",
+      "price": 8800,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨버거",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_104/1751592312670XpI36_PNG/image.png",
+      "image_file": "images/item-074.png"
+    },
+    {
+      "id": "item-075",
+      "name": "비프불고기버거",
+      "description": "달콤한 불고기소스와 100% 순쇠고기 패티의 감칠맛나는 조화, 비프불고기버거!",
+      "price": 5300,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨버거",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_33/1751592313162DHsvv_PNG/image.png",
+      "image_file": "images/item-075.png"
+    },
+    {
+      "id": "item-076",
+      "name": "통새우 슈림프버거",
+      "description": "통통한 통새우에 새콤달콤 특제소스 듬뿍! 통새우 슈림프 버거",
+      "price": 7300,
+      "currency": "KRW",
+      "category": "씨푸드,비프,치킨버거",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_272/1751592312196dkyau_PNG/image.png",
+      "image_file": "images/item-076.png"
+    },
+    {
+      "id": "item-077",
+      "name": "딥 트러플 프라이",
+      "description": "딥한 풍미의 트러플 프라이",
+      "price": 4000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250918_108/1758155402538WrEXa_PNG/image.png",
+      "image_file": "images/item-077.png"
+    },
+    {
+      "id": "item-078",
+      "name": "트러플 머쉬룸 파이 로얄",
+      "description": "고급스러운 풍미의 트러플 머쉬룸 파이 로얄",
+      "price": 3700,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260916_297/1789519709615PO2nd_PNG/image.png",
+      "image_file": "images/item-078.png"
+    },
+    {
+      "id": "item-079",
+      "name": "애플파이 로얄",
+      "description": "바삭한 파이에 사과 과육이 가득",
+      "price": 3500,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260722_219/1784699003926tPsOF_PNG/image.png",
+      "image_file": "images/item-079.png"
+    },
+    {
+      "id": "item-080",
+      "name": "크리스퍼 랩",
+      "description": "든든하게 채우는 한입, 크리스퍼 스낵",
+      "price": 4600,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250710_222/1752107400602myH5R_PNG/image.png",
+      "image_file": "images/item-080.png"
+    },
+    {
+      "id": "item-081",
+      "name": "크리스퍼 텐더",
+      "description": "든든하게 채우는 한입, 크리스퍼 스낵",
+      "price": 4300,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250710_132/17521074008006RN5M_PNG/image.png",
+      "image_file": "images/item-081.png"
+    },
+    {
+      "id": "item-082",
+      "name": "리얼 어니언링R",
+      "description": "통째로 썰어 더 두툼하고 더 바삭해진",
+      "price": 3800,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_39/1751592320617hfGif_PNG/image.png",
+      "image_file": "images/item-082.png"
+    },
+    {
+      "id": "item-083",
+      "name": "리얼 어니언링L",
+      "description": "통째로 썰어 더 두툼하고 더 바삭해진",
+      "price": 5200,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_284/1751592321008VfpQs_PNG/image.png",
+      "image_file": "images/item-083.png"
+    },
+    {
+      "id": "item-084",
+      "name": "너겟킹4조각",
+      "description": "바삭~ 촉촉~ 한입에 쏙 부드러운 너겟킹!",
+      "price": 3300,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_42/1751592320050ktoVU_PNG/image.png",
+      "image_file": "images/item-084.png"
+    },
+    {
+      "id": "item-085",
+      "name": "너겟킹 8조각",
+      "description": "바삭 촉촉 한입에 쏙 부드러운 너겟킹",
+      "price": 5500,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_212/1751592319381sO2eA_PNG/image.png",
+      "image_file": "images/item-085.png"
+    },
+    {
+      "id": "item-086",
+      "name": "너겟킹10조각",
+      "description": "바삭~ 촉촉~ 한입에 쏙 부드러운 너겟킹!",
+      "price": 6600,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_126/1751592319606WnDKf_PNG/image.png",
+      "image_file": "images/item-086.png"
+    },
+    {
+      "id": "item-087",
+      "name": "21치즈스틱",
+      "description": "21cm의 역대급 사이즈! 진하고 고소한 자연 모짜렐라가 가득한 21치즈스틱",
+      "price": 3600,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_118/1751592319818aOk1M_PNG/image.png",
+      "image_file": "images/item-087.png"
+    },
+    {
+      "id": "item-088",
+      "name": "바삭킹8조각,스위트칠리소스",
+      "description": "매콤하게! 바삭하게 튀긴 치킨윙",
+      "price": 13900,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_2/1751592327811r6W0l_PNG/image.png",
+      "image_file": "images/item-088.png"
+    },
+    {
+      "id": "item-089",
+      "name": "바삭킹8조각,디아블로소스",
+      "description": "매콤하게! 바삭하게 튀긴 치킨윙",
+      "price": 13900,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_43/1751592328128IEcjm_PNG/image.png",
+      "image_file": "images/item-089.png"
+    },
+    {
+      "id": "item-090",
+      "name": "바삭킹2조각",
+      "description": "매콤하게! 바삭하게 튀긴 치킨윙",
+      "price": 4400,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_156/1751592328336Uvkd4_PNG/image.png",
+      "image_file": "images/item-090.png"
+    },
+    {
+      "id": "item-091",
+      "name": "바삭킹4조각",
+      "description": "매콤하게! 바삭하게 튀긴 치킨윙",
+      "price": 7500,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_142/1751592328593rHKzH_PNG/image.png",
+      "image_file": "images/item-091.png"
+    },
+    {
+      "id": "item-092",
+      "name": "쉐이킹프라이 구운갈릭",
+      "description": "구운 마늘의 깊은 풍미!",
+      "price": 3600,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250820_80/1755664474665FLYQk_PNG/image.png",
+      "image_file": "images/item-092.png"
+    },
+    {
+      "id": "item-093",
+      "name": "쉐이킹프라이 매콤치즈",
+      "description": "고소한 치즈맛에 매콤함까지!",
+      "price": 3600,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250820_196/1755664474805quUh4_PNG/image.png",
+      "image_file": "images/item-093.png"
+    },
+    {
+      "id": "item-094",
+      "name": "쉐이킹프라이 스윗어니언",
+      "description": "달콤 고소한 단짠의 정석!",
+      "price": 3600,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250820_250/1755664474457Ek5d6_PNG/image.png",
+      "image_file": "images/item-094.png"
+    },
+    {
+      "id": "item-095",
+      "name": "코코넛슈림프3조각+스위트칠리소스",
+      "description": "바삭한 코코넛 옷을 입은 탱글한 통새우와 새콤달콤 칠리소스",
+      "price": 5100,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_230/1751592327432Kozoj_PNG/image.png",
+      "image_file": "images/item-095.png"
+    },
+    {
+      "id": "item-096",
+      "name": "코코넛슈림프6조각+스위트칠리소스",
+      "description": "바삭한 코코넛 옷을 입은 탱글한 통새우와 새콤달콤 칠리소스",
+      "price": 8200,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_18/1751592343310HwUVD_PNG/image.png",
+      "image_file": "images/item-096.png"
+    },
+    {
+      "id": "item-097",
+      "name": "코코넛슈림프9조각+스위트칠리소스",
+      "description": "바삭한 코코넛 옷을 입은 탱글한 통새우와 새콤달콤 칠리소스",
+      "price": 11100,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_2/1751592343533wSkdK_PNG/image.png",
+      "image_file": "images/item-097.png"
+    },
+    {
+      "id": "item-098",
+      "name": "프렌치프라이(L)",
+      "description": "버거킹의 대표 사이드 메뉴 프렌치프라이",
+      "price": 3800,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_192/1751592344478fyvLV_PNG/image.png",
+      "image_file": "images/item-098.png"
+    },
+    {
+      "id": "item-099",
+      "name": "프렌치프라이(R)",
+      "description": "버거킹의 대표 사이드 메뉴 프렌치프라이",
+      "price": 3300,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_40/1751592345057RBC7b_PNG/image.png",
+      "image_file": "images/item-099.png"
+    },
+    {
+      "id": "item-100",
+      "name": "코울슬로",
+      "description": "아삭아삭한 양배추와 상큼한 드레싱의 코울슬로",
+      "price": 3300,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_298/1751592345286VS4W0_PNG/image.png",
+      "image_file": "images/item-100.png"
+    },
+    {
+      "id": "item-101",
+      "name": "콘샐러드",
+      "description": "달콤한 옥수수와 싱싱한 채소의 어울림",
+      "price": 3300,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_300/1751592344730q66f1_PNG/image.png",
+      "image_file": "images/item-101.png"
+    },
+    {
+      "id": "item-102",
+      "name": "빅 딥 체다치즈",
+      "description": "깊고 진한 치즈소스로 완성하는 압도적 풍미",
+      "price": 3000,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260604_198/1780533142527xr1Wy_PNG/image.png",
+      "image_file": "images/item-102.png"
+    },
+    {
+      "id": "item-103",
+      "name": "스위트칠리소스",
+      "description": "새콤 달콤한 맛!",
+      "price": 600,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_58/1751592343725Lzj0C_PNG/image.png",
+      "image_file": "images/item-103.png"
+    },
+    {
+      "id": "item-104",
+      "name": "디아블로소스",
+      "description": "계속 끌리는 매콤한 맛!",
+      "price": 600,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_31/1751592343928OQrKx_PNG/image.png",
+      "image_file": "images/item-104.png"
+    },
+    {
+      "id": "item-105",
+      "name": "허니머드타드 소스",
+      "description": "느끼함을 잡아주는 달콤한 맛!",
+      "price": 200,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250919_171/17582418048728IphK_PNG/image.png",
+      "image_file": "images/item-105.png"
+    },
+    {
+      "id": "item-106",
+      "name": "구운갈릭 시즈닝",
+      "description": "구운 마늘의 깊은 풍미!",
+      "price": 400,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250820_55/1755664475065mjVfa_PNG/image.png",
+      "image_file": "images/item-106.png"
+    },
+    {
+      "id": "item-107",
+      "name": "매콤치즈 시즈닝",
+      "description": "매콤한 치즈의 풍미!",
+      "price": 400,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250820_75/1755664475353CrpEE_PNG/image.png",
+      "image_file": "images/item-107.png"
+    },
+    {
+      "id": "item-108",
+      "name": "스윗어니언 시즈닝",
+      "description": "스위트한 양파의 풍미!",
+      "price": 400,
+      "currency": "KRW",
+      "category": "사이드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250820_121/1755664475561DoTRv_PNG/image.png",
+      "image_file": "images/item-108.png"
+    },
+    {
+      "id": "item-109",
+      "name": "아메리카노",
+      "description": "프리미엄 스페셜티 블렌드 커피",
+      "price": 2600,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_47/1751592353345DWNpI_PNG/image.png",
+      "image_file": "images/item-109.png"
+    },
+    {
+      "id": "item-110",
+      "name": "아이스 아메리카노",
+      "description": "프리미엄 스페셜티 블렌드 커피",
+      "price": 2600,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_203/1751592353137dEyHN_PNG/image.png",
+      "image_file": "images/item-110.png"
+    },
+    {
+      "id": "item-111",
+      "name": "닥터페퍼 제로(R)",
+      "description": "톡쏘는 유니크함, Zero로 라이트하게",
+      "price": 3200,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_24/1751611712042mUFbS_PNG/image.png",
+      "image_file": "images/item-111.png"
+    },
+    {
+      "id": "item-112",
+      "name": "닥터페퍼 제로(L)",
+      "description": "톡쏘는 유니크함, Zero로 라이트하게",
+      "price": 3400,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_56/1751611711829TgywP_PNG/image.png",
+      "image_file": "images/item-112.png"
+    },
+    {
+      "id": "item-113",
+      "name": "코카콜라R",
+      "description": "코카콜라로 더 짜릿하게!",
+      "price": 3200,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_163/1751592352369yNmFD_PNG/image.png",
+      "image_file": "images/item-113.png"
+    },
+    {
+      "id": "item-114",
+      "name": "코카콜라L",
+      "description": "코카콜라로 더 짜릿하게!",
+      "price": 3400,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_102/1751592352132Eyyew_PNG/image.png",
+      "image_file": "images/item-114.png"
+    },
+    {
+      "id": "item-115",
+      "name": "코카콜라 제로L",
+      "description": "100% 짜릿함, 칼로리는 제로!",
+      "price": 3400,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_140/17515923525752gux7_PNG/image.png",
+      "image_file": "images/item-115.png"
+    },
+    {
+      "id": "item-116",
+      "name": "코카콜라 제로R",
+      "description": "100% 짜릿함, 칼로리는 제로!",
+      "price": 3200,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_193/1751592352756jSNqD_PNG/image.png",
+      "image_file": "images/item-116.png"
+    },
+    {
+      "id": "item-117",
+      "name": "스프라이트(L)",
+      "description": "나를 깨우는 상쾌함!",
+      "price": 3400,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_266/1751592352924dJ1vT_PNG/image.png",
+      "image_file": "images/item-117.png"
+    },
+    {
+      "id": "item-118",
+      "name": "스프라이트(R)",
+      "description": "나를 깨우는 상쾌함!",
+      "price": 3200,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_282/1751592359180KfDKu_PNG/image.png",
+      "image_file": "images/item-118.png"
+    },
+    {
+      "id": "item-119",
+      "name": "스프라이트 제로L",
+      "description": "제대로 상쾌한 맛남 스프라이트 제로!",
+      "price": 3400,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_185/1751592358973eWgpe_PNG/image.png",
+      "image_file": "images/item-119.png"
+    },
+    {
+      "id": "item-120",
+      "name": "스프라이트 제로R",
+      "description": "제대로 상쾌한 맛남 스프라이트 제로!",
+      "price": 3200,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_169/17515923593466h4e8_PNG/image.png",
+      "image_file": "images/item-120.png"
+    },
+    {
+      "id": "item-121",
+      "name": "미닛메이드",
+      "description": "오렌지의 신선함이 가득~",
+      "price": 3900,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_71/1751592359759kdXp6_PNG/image.png",
+      "image_file": "images/item-121.png"
+    },
+    {
+      "id": "item-122",
+      "name": "순수",
+      "description": "깨끗하고 순수한 물",
+      "price": 2400,
+      "currency": "KRW",
+      "category": "음료&디저트",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250704_78/1751592359914McmqS_PNG/image.png",
+      "image_file": "images/item-122.png"
+    }
+  ]
+}

@@ -129,7 +129,7 @@ await step("group page shows the three brands and live members", async () => {
   await shot(temur, "04-group");
 });
 await step("every brand's full menu loads with its photos", async () => {
-  for (const [name, min] of [["BBQ", 90], ["Burger King", 190], ["Subway", 90]]) {
+  for (const [name, min] of [["BBQ", 90], ["Burger King", 120], ["Subway", 90]]) {
     await temur.goto(`${BASE}/g/${CODE}`);
     await temur.getByRole("link", { name: new RegExp(name) }).click();
     await temur.locator("main section h3").first().waitFor();

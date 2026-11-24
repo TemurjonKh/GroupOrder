@@ -1,0 +1,1632 @@
+{
+  "restaurant": {
+    "id": "naver-498900",
+    "name": "스타벅스 인하대역점",
+    "naver_place_id": "1718398966",
+    "naver_booking_biz_id": "498900",
+    "source_url": "https://m.booking.naver.com/order/bizes/498900/items/3841887",
+    "scraped_at": "2026-11-12T06:21:04+00:00"
+  },
+  "menu": [
+    {
+      "id": "item-001",
+      "name": "윈터 스카치 바닐라 라떼",
+      "description": "달콤하고 묵직한 버터 스카치 소스와 부드러운 커피 크림이 진한 에스프레소와 어우러져 풍미 좋은 커피의 맛을 느낄 수 있는 음료입니다. 크리스마스 시즌에 다시 돌아온 윈터 스카치 바닐라 라떼를 즐겨보세요.",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "따끈따끈 새로 나왔어요",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_153/1792615371650HhBvD_JPEG/image.jpg",
+      "image_file": "images/item-001.jpg"
+    },
+    {
+      "id": "item-002",
+      "name": "토피 넛 라떼",
+      "description": "크리스마스 시즌을 대표하는 토피 넛 라떼가 돌아왔습니다! 은은한 버터 향의 토피와 고소한 견과류의 풍미에, 브라운 토피 넛 토핑으로 더욱 특색있게 돌아온 토피 넛 라떼와 함께 크리스마스를 즐겨보세요.",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "따끈따끈 새로 나왔어요",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_157/1792609939636fslYv_JPEG/image.jpg",
+      "image_file": "images/item-002.jpg"
+    },
+    {
+      "id": "item-003",
+      "name": "딸기 딜라이트 요거트 블렌디드",
+      "description": "업그레이드된 딸기 과육과 고농축 유산균이 함께 어우러진 상콤&달콤한 과일 요거트 블렌디드! 국산 '설향' 딸기의 맛을 가득 담은 스타벅스만의 딸기 딜라이트 요거트 블렌디드를 만나보세요.",
+      "price": 6500,
+      "currency": "KRW",
+      "category": "따끈따끈 새로 나왔어요",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261023_251/1792695574212bXJIK_JPEG/image.jpg",
+      "image_file": "images/item-003.jpg"
+    },
+    {
+      "id": "item-004",
+      "name": "클래식 뱅쇼 히비스커스 티",
+      "description": "크리스마스 무드를 즐기기 좋은 티 타입 뱅쇼 진한 레드 와인 베이스에 다양한 과일과 히비스커스 티를 사용하여 스타벅스 스타일로 해석한 카페인 프리 뱅쇼입니다. 뱅쇼 베이스에 과일을 절인 토핑이 어우러져 완성된 깊고 진한 맛을 즐겨보세요.",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "따끈따끈 새로 나왔어요",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_103/1793732492648JHQev_JPEG/image.jpg",
+      "image_file": "images/item-004.jpg"
+    },
+    {
+      "id": "item-005",
+      "name": "살구 조이풀 메들리 티 라떼",
+      "description": "은은한 자스민향과 살구 풍미가 부드럽게 어우러져 부담 없이 즐기기 좋은 티 라떼 *조이풀 메들리 티 : 블랙 티에 자스민 그린 티, 우롱 티가 블렌딩되어 살구와 같은 밝고 산뜻한 풍미가 은은하게 퍼지는 티",
+      "price": 6300,
+      "currency": "KRW",
+      "category": "따끈따끈 새로 나왔어요",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_1/1793732754190jQyqy_JPEG/image.jpg",
+      "image_file": "images/item-005.jpg"
+    },
+    {
+      "id": "item-006",
+      "name": "차이 티 라떼",
+      "description": "많은 고객 성원에 힘입어 다시 돌아온 차이 티 라떼 미국에서 사랑받는 글로벌 플레이버로 스파이시한 향과 은은한 계피 풍미를 더한 부드러운 티 라떼",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "따끈따끈 새로 나왔어요",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_205/1793732361809oh2vU_JPEG/image.jpg",
+      "image_file": "images/item-006.jpg"
+    },
+    {
+      "id": "item-007",
+      "name": "스타벅스 딸기 라떼",
+      "description": "더 커진 과육과 풍성해진 식감으로 돌아온 상콤&달콤한 딸기 라떼! 국산 '설향' 딸기가 가득 담긴 스타벅스의 딸기 라떼를 즐겨보세요",
+      "price": 6500,
+      "currency": "KRW",
+      "category": "따끈따끈 새로 나왔어요",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_127/1792612228781ojJVL_JPEG/image.jpg",
+      "image_file": "images/item-007.jpg"
+    },
+    {
+      "id": "item-008",
+      "name": "윈터 스카치 바닐라 라떼",
+      "description": "달콤하고 묵직한 버터 스카치 소스와 부드러운 커피 크림이 진한 에스프레소와 어우러져 풍미 좋은 커피의 맛을 느낄 수 있는 음료입니다. 크리스마스 시즌에 다시 돌아온 윈터 스카치 바닐라 라떼를 즐겨보세요.",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_153/1792615371650HhBvD_JPEG/image.jpg",
+      "image_file": "images/item-008.jpg"
+    },
+    {
+      "id": "item-009",
+      "name": "토피 넛 라떼",
+      "description": "크리스마스 시즌을 대표하는 토피 넛 라떼가 돌아왔습니다! 은은한 버터 향의 토피와 고소한 견과류의 풍미에, 브라운 토피 넛 토핑으로 더욱 특색있게 돌아온 토피 넛 라떼와 함께 크리스마스를 즐겨보세요.",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_157/1792609939636fslYv_JPEG/image.jpg",
+      "image_file": "images/item-009.jpg"
+    },
+    {
+      "id": "item-010",
+      "name": "블랙 글레이즈드 라떼",
+      "description": "돌아온 블랙 글레이즈드 라떼! 짙고 풍부한 커피와 달콤하고 부드러운 글레이즈드 폼의 조화가 돋보이는 음료",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_280/1792611640300ET4YK_JPEG/image.jpg",
+      "image_file": "images/item-010.jpg"
+    },
+    {
+      "id": "item-011",
+      "name": "스타벅스 자몽 허니 에어로카노",
+      "description": "상큼한 자몽의 풍미와 벨벳같은 미세한 거품으로 부드러운 목넘김이 조화롭게 어우러져 밝고 산뜻하면서도 균형 잡힌 맛을 선사하는 에어로카노",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_11/1792615764006r7xWS_JPEG/image.jpg",
+      "image_file": "images/item-011.jpg"
+    },
+    {
+      "id": "item-012",
+      "name": "스타벅스 에어로카노",
+      "description": "아메리카노에 바리스타의 기술을 더해 벨벳 같은 미세한 거품층과 부드러운 목넘김을 즐길 수 있는 새로운 스타일의 음료 한층 풍부한 커피 풍미와 물결처럼 흘러내리는 캐스케이딩 비주얼의 에어로카노를 경험해보세요!",
+      "price": 4900,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261003_15/1790972806706vYuKP_JPEG/image.jpg",
+      "image_file": "images/item-012.jpg"
+    },
+    {
+      "id": "item-013",
+      "name": "시그니처 코르타도",
+      "description": "진하면서도 부드러운 시그니처 리스트레토 3샷에 폼을 살짝 낸 스팀 밀크를 더해 짙은 커피 풍미를 즐길 수 있는 코르타도입니다.",
+      "price": 5800,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260611_13/1781123457743Jv4lm_JPEG/image.jpg",
+      "image_file": "images/item-013.jpg"
+    },
+    {
+      "id": "item-014",
+      "name": "밀크카라멜 라떼",
+      "description": "부드럽고 달콤한 밀크카라멜의 은은한 풍미와 풍부한 질감을 느낄 수 있는 특별한 우유가 만나 언제나 편안하게 즐길 수 있는 라떼입니다.",
+      "price": 5800,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_296/1792614388770XMeum_JPEG/image.jpg",
+      "image_file": "images/item-014.jpg"
+    },
+    {
+      "id": "item-015",
+      "name": "플랫 화이트",
+      "description": "부드러운 리스트레토 샷과 완벽한 양의 스팀밀크를 더해, 카페 라떼보다 커피의 맛을 진하게 즐길 수 있는 에스프레소 음료입니다.",
+      "price": 5800,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_53/1792612556176DVgxB_JPEG/image.jpg",
+      "image_file": "images/item-015.jpg"
+    },
+    {
+      "id": "item-016",
+      "name": "카페 아메리카노",
+      "description": "진한 에스프레소에 뜨거운 물을 더한 깊이와 풍미가 살아있는 커피",
+      "price": 4700,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_226/1792616549032itzdr_JPEG/image.jpg",
+      "image_file": "images/item-016.jpg"
+    },
+    {
+      "id": "item-017",
+      "name": "카페 라떼",
+      "description": "풍부하고 진한 에스프레소가 신선한 스팀 밀크를 만나 부드러워진 커피 위에 우유 거품을 살짝 얹은 커피",
+      "price": 5200,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_158/1792610593756S8M4v_JPEG/image.jpg",
+      "image_file": "images/item-017.jpg"
+    },
+    {
+      "id": "item-018",
+      "name": "바닐라 라떼",
+      "description": "달콤한 바닐라의 향을 풍부하고 진한 에스프레소, 부드러운 우유와 함께 즐길 수 있는 라떼입니다.",
+      "price": 5200,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_145/1792614652388Iq5QQ_JPEG/image.jpg",
+      "image_file": "images/item-018.jpg"
+    },
+    {
+      "id": "item-019",
+      "name": "스타벅스 돌체 라떼",
+      "description": "스타벅스의 다른 커피 음료보다 더욱 깊은 커피의 맛과 향에 깔끔한 무지방 우유와 부드러운 돌체 시럽이 들어간 음료로 달콤하고 진한 커피 라떼",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_265/1792610005085tLFVa_JPEG/image.jpg",
+      "image_file": "images/item-019.jpg"
+    },
+    {
+      "id": "item-020",
+      "name": "카페 모카",
+      "description": "진한 초콜릿 모카 시럽과 풍부한 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 진한 에스프레소와 초콜릿 맛이 어우러진 커피",
+      "price": 5700,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_4/1792610659173eaH4q_JPEG/image.jpg",
+      "image_file": "images/item-020.jpg"
+    },
+    {
+      "id": "item-021",
+      "name": "카푸치노",
+      "description": "풍부하고 진한 에스프레소에 따뜻한 우유와 벨벳 같은 우유 거품이 1:1 비율로 어우러져 마무리된 커피 음료",
+      "price": 5200,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_56/1792610135844rxa60_JPEG/image.jpg",
+      "image_file": "images/item-021.jpg"
+    },
+    {
+      "id": "item-022",
+      "name": "카라멜 마키아또",
+      "description": "향긋한 바닐라 시럽과 따뜻한 스팀 밀크 위에 풍성한 우유 거품을 얹고 점을 찍듯이 에스프레소를 부은 후 벌집 모양으로 카라멜 드리즐을 올린 달콤한 커피 음료",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_176/1792609808941W3oLc_JPEG/image.jpg",
+      "image_file": "images/item-022.jpg"
+    },
+    {
+      "id": "item-023",
+      "name": "화이트 초콜릿 모카",
+      "description": "달콤하고 부드러운 화이트 초콜릿 시럽과 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 달콤함과 강렬한 에스프레소가 부드럽게 어우러진 커피",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_278/1792609874253hEEvB_JPEG/image.jpg",
+      "image_file": "images/item-023.jpg"
+    },
+    {
+      "id": "item-024",
+      "name": "커피 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 클래식 시럽을 넣고 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5300,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260611_285/1781123195956NdQox_JPEG/image.jpg",
+      "image_file": "images/item-024.jpg"
+    },
+    {
+      "id": "item-025",
+      "name": "바닐라 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 바닐라 시럽을 넣고 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5300,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260611_178/1781123261412txhxB_JPEG/image.jpg",
+      "image_file": "images/item-025.jpg"
+    },
+    {
+      "id": "item-026",
+      "name": "헤이즐넛 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 헤이즐넛 시럽을 넣고 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5300,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260611_93/1781123326875b8Kky_JPEG/image.jpg",
+      "image_file": "images/item-026.jpg"
+    },
+    {
+      "id": "item-027",
+      "name": "에스프레소",
+      "description": "스타벅스 에스프레소는 향기로운 크레마 층과 바디 층, 하트 층으로 이루어져 있으며, 입안 가득히 커피와 달콤한 카라멜 향이 느껴지는 커피 음료",
+      "price": 3900,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261111_104/17943371594362Mkby_JPEG/image.jpg",
+      "image_file": "images/item-027.jpg"
+    },
+    {
+      "id": "item-028",
+      "name": "에스프레소 마키아또",
+      "description": "신선한 에스프레소 샷에 우유 거품을 살짝 얹은 커피 음료로써, 강렬한 에스프레소의 맛과 우유의 부드러움을 같이 즐길 수 있는 커피 음료",
+      "price": 3900,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240611_3/17181050795497dauH_JPEG/image.jpg",
+      "image_file": "images/item-028.jpg"
+    },
+    {
+      "id": "item-029",
+      "name": "에스프레소 콘 파나",
+      "description": "신선한 에스프레소 샷에 풍부한 휘핑크림을 얹은 커피 음료로서, 뜨거운 커피의 맛과 차갑고 달콤한 생크림의 맛을 같이 즐길 수 있는 커피 음료",
+      "price": 4100,
+      "currency": "KRW",
+      "category": "에스프레소 / 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260212_136/1770841631983oqcI4_JPEG/image.jpg",
+      "image_file": "images/item-029.jpg"
+    },
+    {
+      "id": "item-030",
+      "name": "디카페인 토피 넛 라떼",
+      "description": "크리스마스 시즌을 대표하는 토피 넛 라떼가 돌아왔습니다! 은은한 버터 향의 토피와 고소한 견과류의 풍미에, 브라운 토피 넛 토핑으로 더욱 특색있게 돌아온 토피 넛 라떼와 함께 크리스마스를 즐겨보세요.",
+      "price": 7000,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_49/1792615175485uTw2C_JPEG/image.jpg",
+      "image_file": "images/item-030.jpg"
+    },
+    {
+      "id": "item-031",
+      "name": "1/2디카페인 토피 넛 라떼",
+      "description": "크리스마스 시즌을 대표하는 토피 넛 라떼가 돌아왔습니다! 은은한 버터 향의 토피와 고소한 견과류의 풍미에, 브라운 토피 넛 토핑으로 더욱 특색있게 돌아온 토피 넛 라떼와 함께 크리스마스를 즐겨보세요.",
+      "price": 7000,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_264/1792615240854gDSg3_JPEG/image.jpg",
+      "image_file": "images/item-031.jpg"
+    },
+    {
+      "id": "item-032",
+      "name": "디카페인 윈터 스카치 바닐라 라떼",
+      "description": "달콤하고 묵직한 버터 스카치 소스와 부드러운 커피 크림이 진한 에스프레소와 어우러져 풍미 좋은 커피의 맛을 느낄 수 있는 음료입니다. 크리스마스 시즌에 다시 돌아온 윈터 스카치 바닐라 라떼를 즐겨보세요.",
+      "price": 7000,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_57/1792615437047i4TFP_JPEG/image.jpg",
+      "image_file": "images/item-032.jpg"
+    },
+    {
+      "id": "item-033",
+      "name": "1/2디카페인 윈터 스카치 바닐라 라떼",
+      "description": "달콤하고 묵직한 버터 스카치 소스와 부드러운 커피 크림이 진한 에스프레소와 어우러져 풍미 좋은 커피의 맛을 느낄 수 있는 음료입니다. 크리스마스 시즌에 다시 돌아온 윈터 스카치 바닐라 라떼를 즐겨보세요.",
+      "price": 7000,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_6/1792615502459IDHMg_JPEG/image.jpg",
+      "image_file": "images/item-033.jpg"
+    },
+    {
+      "id": "item-034",
+      "name": "디카페인 밀크카라멜 라떼",
+      "description": "부드럽고 달콤한 밀크카라멜의 은은한 풍미와 풍부한 질감을 느낄 수 있는 특별한 우유가 만나 언제나 편안하게 즐길 수 있는 라떼입니다.",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_296/1792614456189ldbLk_JPEG/image.jpg",
+      "image_file": "images/item-034.jpg"
+    },
+    {
+      "id": "item-035",
+      "name": "디카페인 블랙 글레이즈드 라떼",
+      "description": "돌아온 블랙 글레이즈드 라떼! 짙고 풍부한 커피와 달콤하고 부드러운 글레이즈드 폼의 조화가 돋보이는 음료",
+      "price": 7000,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_205/1792614913937GL4CM_JPEG/image.jpg",
+      "image_file": "images/item-035.jpg"
+    },
+    {
+      "id": "item-036",
+      "name": "1/2디카페인 블랙 글레이즈드 라떼",
+      "description": "돌아온 블랙 글레이즈드 라떼! 짙고 풍부한 커피와 달콤하고 부드러운 글레이즈드 폼의 조화가 돋보이는 음료",
+      "price": 7000,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_14/1792614979365lqLIH_JPEG/image.jpg",
+      "image_file": "images/item-036.jpg"
+    },
+    {
+      "id": "item-037",
+      "name": "디카페인 스타벅스 자몽 허니 에어로카노",
+      "description": "상큼한 자몽의 풍미와 벨벳같은 미세한 거품으로 부드러운 목넘김이 조화롭게 어우러져 밝고 산뜻하면서도 균형 잡힌 맛을 선사하는 에어로카노",
+      "price": 6400,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_197/1792615829410qxhRj_JPEG/image.jpg",
+      "image_file": "images/item-037.jpg"
+    },
+    {
+      "id": "item-038",
+      "name": "디카페인 스타벅스 에어로카노",
+      "description": "아메리카노에 바리스타의 기술을 더해 벨벳 같은 미세한 거품층과 부드러운 목넘김을 즐길 수 있는 새로운 스타일의 음료 한층 풍부한 커피 풍미와 물결처럼 흘러내리는 캐스케이딩 비주얼의 에어로카노를 경험해보세요!",
+      "price": 5200,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260226_28/1772051265670UBHiu_JPEG/image.jpg",
+      "image_file": "images/item-038.jpg"
+    },
+    {
+      "id": "item-039",
+      "name": "디카페인 코르타도",
+      "description": "진하면서도 부드러운 디카페인 리스트레토 3샷에 폼을 살짝 낸 스팀 밀크를 더해 짙은 커피 풍미를 즐길 수 있는 코르타도입니다.",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260611_117/1781123523121Xtc6Y_JPEG/image.jpg",
+      "image_file": "images/item-039.jpg"
+    },
+    {
+      "id": "item-040",
+      "name": "디카페인 플랫 화이트",
+      "description": "부드러운 리스트레토 샷과 완벽한 양의 스팀 밀크를 더해, 카페 라떼보다 커피의 맛을 진하게 즐길 수 있는 디카페인 에스프레소 음료입니다.",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_122/1792612686927QnWy6_JPEG/image.jpg",
+      "image_file": "images/item-040.jpg"
+    },
+    {
+      "id": "item-041",
+      "name": "디카페인 카페 아메리카노",
+      "description": "진한 에스프레소에 뜨거운 물을 더한 깊이와 풍미가 살아있는 커피",
+      "price": 5000,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_121/1792610920887SmEki_JPEG/image.jpg",
+      "image_file": "images/item-041.jpg"
+    },
+    {
+      "id": "item-042",
+      "name": "디카페인 카페 라떼",
+      "description": "풍부하고 진한 에스프레소가 신선한 스팀 밀크를 만나 부드러워진 커피 위에 우유 거품을 살짝 얹은 커피",
+      "price": 5500,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_27/1792610986324rdMja_JPEG/image.jpg",
+      "image_file": "images/item-042.jpg"
+    },
+    {
+      "id": "item-043",
+      "name": "디카페인 바닐라 라떼",
+      "description": "달콤한 바닐라의 향을 풍부하고 진한 디카페인 에스프레소, 부드러운 우유와 함께 즐길 수 있는 라떼입니다.",
+      "price": 5500,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_190/1792614717762Wr9WQ_JPEG/image.jpg",
+      "image_file": "images/item-043.jpg"
+    },
+    {
+      "id": "item-044",
+      "name": "디카페인 스타벅스 돌체 라떼",
+      "description": "깊고 진한 에스프레소 샷과 깔끔한 무지방 우유, 달콤한 돌체 시럽이 부드럽게 어우러진 스타벅스 돌체 라떼를 카페인 부담을 줄인 디카페인으로 즐겨보세요!",
+      "price": 6400,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_146/1792611117086K9J64_JPEG/image.jpg",
+      "image_file": "images/item-044.jpg"
+    },
+    {
+      "id": "item-045",
+      "name": "디카페인 카라멜 마키아또",
+      "description": "향긋한 바닐라 시럽과 따뜻한 스팀 밀크 위에 풍성한 우유 거품을 얹고 점을 찍듯이 에스프레소를 부은 후 벌집 모양으로 카라멜 드리즐을 올린 달콤한 커피 음료",
+      "price": 6400,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_110/17926110517343F9o3_JPEG/image.jpg",
+      "image_file": "images/item-045.jpg"
+    },
+    {
+      "id": "item-046",
+      "name": "디카페인 카페 모카",
+      "description": "진한 초콜릿 모카 시럽과 디카페인 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 디카페인 에스프레소와 초콜릿 맛이 어우러진 커피",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_87/1792613734907MUcIL_JPEG/image.jpg",
+      "image_file": "images/item-046.jpg"
+    },
+    {
+      "id": "item-047",
+      "name": "디카페인 카푸치노",
+      "description": "디카페인 에스프레소에 따뜻한 우유와 벨벳 같은 우유 거품이 1:1 비율로 어우러져 마무리된 커피 음료",
+      "price": 5500,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_41/1792613275164aJ8DC_JPEG/image.jpg",
+      "image_file": "images/item-047.jpg"
+    },
+    {
+      "id": "item-048",
+      "name": "디카페인 화이트 초콜릿 모카",
+      "description": "달콤하고 부드러운 화이트 초콜릿 시럽과 디카페인 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 달콤함과 디카페인 에스프레소가 부드럽게 어우러진 커피",
+      "price": 6400,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_226/1792613473425shexd_JPEG/image.jpg",
+      "image_file": "images/item-048.jpg"
+    },
+    {
+      "id": "item-049",
+      "name": "디카페인 커피 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 클래식 시럽을 넣고 디카페인 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5600,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260212_185/1770841641580Rq2MY_JPEG/image.jpg",
+      "image_file": "images/item-049.jpg"
+    },
+    {
+      "id": "item-050",
+      "name": "디카페인 바닐라 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 바닐라 시럽을 넣고 디카페인 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5600,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260212_247/1770841641851hsU4N_JPEG/image.jpg",
+      "image_file": "images/item-050.jpg"
+    },
+    {
+      "id": "item-051",
+      "name": "디카페인 헤이즐넛 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 헤이즐넛 시럽을 넣고 디카페인 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5600,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260212_125/17708416421792DQJW_JPEG/image.jpg",
+      "image_file": "images/item-051.jpg"
+    },
+    {
+      "id": "item-052",
+      "name": "디카페인 에스프레소",
+      "description": "스타벅스 디카페인 에스프레소는 향기로운 크레마 층과 바디 층, 하트 층으로 이루어져 있으며, 입안 가득히 커피와 달콤한 카라멜 향이 느껴지는 커피 음료",
+      "price": 4200,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250902_277/1756758266430Oxsvl_JPEG/image.jpg",
+      "image_file": "images/item-052.jpg"
+    },
+    {
+      "id": "item-053",
+      "name": "디카페인 에스프레소 콘 파나",
+      "description": "신선한 디카페인 에스프레소 샷에 풍부한 휘핑크림을 얹은 커피 음료로서, 뜨거운 커피의 맛과 차갑고 달콤한 생크림의 맛을 같이 즐길 수 있는 커피 음료",
+      "price": 4400,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260212_27/1770841644053d9SLm_JPEG/image.jpg",
+      "image_file": "images/item-053.jpg"
+    },
+    {
+      "id": "item-054",
+      "name": "디카페인 에스프레소 마키아또",
+      "description": "신선한 디카페인 에스프레소 샷에 우유 거품을 살짝 얹은 커피 음료로써, 디카페인 에스프레소의 맛과 우유의 부드러움을 같이 즐길 수 있는 커피 음료",
+      "price": 4200,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250902_156/1756758266841SdkCR_JPEG/image.jpg",
+      "image_file": "images/item-054.jpg"
+    },
+    {
+      "id": "item-055",
+      "name": "1/2디카페인 스타벅스 자몽 허니 에어로카노",
+      "description": "상큼한 자몽의 풍미와 벨벳같은 미세한 거품으로 부드러운 목넘김이 조화롭게 어우러져 밝고 산뜻하면서도 균형 잡힌 맛을 선사하는 에어로카노",
+      "price": 6400,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_262/179261589481956B6r_JPEG/image.jpg",
+      "image_file": "images/item-055.jpg"
+    },
+    {
+      "id": "item-056",
+      "name": "1/2디카페인 스타벅스 에어로카노",
+      "description": "아메리카노에 바리스타의 기술을 더해 벨벳 같은 미세한 거품층과 부드러운 목넘김을 즐길 수 있는 새로운 스타일의 음료 한층 풍부한 커피 풍미와 물결처럼 흘러내리는 캐스케이딩 비주얼의 에어로카노를 경험해보세요!",
+      "price": 5200,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260226_84/1772051266025q31T1_JPEG/image.jpg",
+      "image_file": "images/item-056.jpg"
+    },
+    {
+      "id": "item-057",
+      "name": "1/2디카페인 코르타도",
+      "description": "진하면서도 부드러운 하프카페인 리스트레토 3샷에 폼을 살짝 낸 스팀 밀크를 더해 짙은 커피 풍미를 즐길 수 있는 코르타도입니다.",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260611_142/1781123588551suGe9_JPEG/image.jpg",
+      "image_file": "images/item-057.jpg"
+    },
+    {
+      "id": "item-058",
+      "name": "1/2디카페인 밀크카라멜 라떼",
+      "description": "부드럽고 달콤한 밀크카라멜의 은은한 풍미와 풍부한 질감을 느낄 수 있는 특별한 우유가 만나 언제나 편안하게 즐길 수 있는 라떼입니다.",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_27/1792614521488tbg3N_JPEG/image.jpg",
+      "image_file": "images/item-058.jpg"
+    },
+    {
+      "id": "item-059",
+      "name": "1/2디카페인 플랫 화이트",
+      "description": "필요할 때, 필요한 만큼 카페인을 조절한 1/2디카페인 플랫 화이트를 즐겨보세요.",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_71/17926127522877BV47_JPEG/image.jpg",
+      "image_file": "images/item-059.jpg"
+    },
+    {
+      "id": "item-060",
+      "name": "1/2디카페인 카페 아메리카노",
+      "description": "진한 에스프레소에 뜨거운 물을 더한 깊이와 풍미가 살아있는 커피",
+      "price": 5000,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_27/1792611182458Wygw7_JPEG/image.jpg",
+      "image_file": "images/item-060.jpg"
+    },
+    {
+      "id": "item-061",
+      "name": "1/2디카페인 카페 라떼",
+      "description": "풍부하고 진한 에스프레소가 신선한 스팀 밀크를 만나 부드러워진 커피 위에 우유 거품을 살짝 얹은 커피",
+      "price": 5500,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_109/1792611247808PKW4A_JPEG/image.jpg",
+      "image_file": "images/item-061.jpg"
+    },
+    {
+      "id": "item-062",
+      "name": "1/2디카페인 바닐라 라떼",
+      "description": "달콤한 바닐라의 향을 풍부하고 진한 1/2디카페인 에스프레소, 부드러운 우유와 함께 즐길 수 있는 라떼입니다.",
+      "price": 5500,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_49/1792614783159KALq4_JPEG/image.jpg",
+      "image_file": "images/item-062.jpg"
+    },
+    {
+      "id": "item-063",
+      "name": "1/2디카페인 스타벅스 돌체 라떼",
+      "description": "깊고 진한 에스프레소 샷과 깔끔한 무지방 우유, 달콤한 돌체 시럽이 부드럽게 어우러진 1/2디카페인 스타벅스 돌체 라떼를 즐겨보세요!",
+      "price": 6400,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_281/1792611313192mq6EW_JPEG/image.jpg",
+      "image_file": "images/item-063.jpg"
+    },
+    {
+      "id": "item-064",
+      "name": "1/2디카페인 카라멜 마키아또",
+      "description": "향긋한 바닐라 시럽과 따뜻한 스팀 밀크 위에 풍성한 우유 거품을 얹고 점을 찍듯이 에스프레소를 부은 후 벌집 모양으로 카라멜 드리즐을 올린 달콤한 커피 음료",
+      "price": 6400,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_75/1792611378576hMiHY_JPEG/image.jpg",
+      "image_file": "images/item-064.jpg"
+    },
+    {
+      "id": "item-065",
+      "name": "1/2디카페인 카페 모카",
+      "description": "진한 초콜릿 모카 시럽과 1/2 디카페인 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 1/2 디카페인 에스프레소와 초콜릿 맛이 어우러진 커피",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_97/17926138002546ppLN_JPEG/image.jpg",
+      "image_file": "images/item-065.jpg"
+    },
+    {
+      "id": "item-066",
+      "name": "1/2디카페인 카푸치노",
+      "description": "1/2 디카페인 에스프레소샷에 따뜻한 우유와 벨벳 같은 우유 거품이 1:1 비율로 어우러져 마무리된 커피 음료",
+      "price": 5500,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_239/17926133406249E6kD_JPEG/image.jpg",
+      "image_file": "images/item-066.jpg"
+    },
+    {
+      "id": "item-067",
+      "name": "1/2디카페인 화이트 초콜릿 모카",
+      "description": "달콤하고 부드러운 화이트 초콜릿 시럽과 1/2 디카페인을 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 달콤함과 디카페인 에스프레소가 부드럽게 어우러진 커피",
+      "price": 6400,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_94/1792613538788EebWK_JPEG/image.jpg",
+      "image_file": "images/item-067.jpg"
+    },
+    {
+      "id": "item-068",
+      "name": "1/2디카페인 커피 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 클래식 시럽을 넣고 1/2 디카페인 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5600,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260212_200/1770841642451pn65C_JPEG/image.jpg",
+      "image_file": "images/item-068.jpg"
+    },
+    {
+      "id": "item-069",
+      "name": "1/2디카페인 바닐라 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 바닐라 시럽을 넣고 1/2 디카페인 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5600,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260212_128/1770841642807pjzmA_JPEG/image.jpg",
+      "image_file": "images/item-069.jpg"
+    },
+    {
+      "id": "item-070",
+      "name": "1/2디카페인 헤이즐넛 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 헤이즐넛 시럽을 넣고 1/2 디카페인 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5600,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260212_168/1770841643173Vvwwx_JPEG/image.jpg",
+      "image_file": "images/item-070.jpg"
+    },
+    {
+      "id": "item-071",
+      "name": "1/2디카페인 에스프레소",
+      "description": "스타벅스 1/2 디카페인 에스프레소에 향기로운 크레마 층과 바디 층, 하트 층으로 이루어져 있으며, 입안 가득히 커피와 달콤한 카라멜 향이 느껴지는 커피 음료",
+      "price": 4200,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250902_172/1756758266620ytYBh_JPEG/image.jpg",
+      "image_file": "images/item-071.jpg"
+    },
+    {
+      "id": "item-072",
+      "name": "1/2디카페인 에스프레소 콘 파나",
+      "description": "신선한 1/2 디카페인 에스프레소 샷에 풍부한 휘핑크림을 얹은 커피 음료로서, 뜨거운 커피의 맛과 차갑고 달콤한 생크림의 맛을 같이 즐길 수 있는 커피 음료",
+      "price": 4400,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260212_9/1770841644469fqinS_JPEG/image.jpg",
+      "image_file": "images/item-072.jpg"
+    },
+    {
+      "id": "item-073",
+      "name": "1/2디카페인 에스프레소 마키아또",
+      "description": "신선한 1/2 디카페인 에스프레소에 우유 거품을 살짝 얹은 커피 음료로써, 디카페인 에스프레소의 맛과 우유의 부드러움을 같이 즐길 수 있는 커피 음료",
+      "price": 4200,
+      "currency": "KRW",
+      "category": "디카페인 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250902_252/1756758267077WsVG0_JPEG/image.jpg",
+      "image_file": "images/item-073.jpg"
+    },
+    {
+      "id": "item-074",
+      "name": "블론드 블랙 글레이즈드 라떼",
+      "description": "돌아온 블랙 글레이즈드 라떼! 짙고 풍부한 커피와 달콤하고 부드러운 글레이즈드 폼의 조화가 돋보이는 음료",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_210/1792615044717w1nqe_JPEG/image.jpg",
+      "image_file": "images/item-074.jpg"
+    },
+    {
+      "id": "item-075",
+      "name": "블론드 토피 넛 라떼",
+      "description": "크리스마스 시즌을 대표하는 토피 넛 라떼가 돌아왔습니다! 은은한 버터 향의 토피와 고소한 견과류의 풍미에, 브라운 토피 넛 토핑으로 더욱 특색있게 돌아온 토피 넛 라떼와 함께 크리스마스를 즐겨보세요.",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_69/1792615306150LBEnR_JPEG/image.jpg",
+      "image_file": "images/item-075.jpg"
+    },
+    {
+      "id": "item-076",
+      "name": "블론드 윈터 스카치 바닐라 라떼",
+      "description": "달콤하고 묵직한 버터 스카치 소스와 부드러운 커피 크림이 진한 에스프레소와 어우러져 풍미 좋은 커피의 맛을 느낄 수 있는 음료입니다. 크리스마스 시즌에 다시 돌아온 윈터 스카치 바닐라 라떼를 즐겨보세요.",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_149/1792615567840vxlAA_JPEG/image.jpg",
+      "image_file": "images/item-076.jpg"
+    },
+    {
+      "id": "item-077",
+      "name": "블론드 스타벅스 자몽 허니 에어로카노",
+      "description": "상큼한 자몽의 풍미와 벨벳같은 미세한 거품으로 부드러운 목넘김이 조화롭게 어우러져 밝고 산뜻하면서도 균형 잡힌 맛을 선사하는 에어로카노",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_101/1792615960166zXeDm_JPEG/image.jpg",
+      "image_file": "images/item-077.jpg"
+    },
+    {
+      "id": "item-078",
+      "name": "블론드 스타벅스 에어로카노",
+      "description": "아메리카노에 바리스타의 기술을 더해 벨벳 같은 미세한 거품층과 부드러운 목넘김을 즐길 수 있는 새로운 스타일의 음료 한층 풍부한 커피 풍미와 물결처럼 흘러내리는 캐스케이딩 비주얼의 에어로카노를 경험해보세요!",
+      "price": 4900,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260703_113/17830239583084sLRt_JPEG/image.jpg",
+      "image_file": "images/item-078.jpg"
+    },
+    {
+      "id": "item-079",
+      "name": "코르타도",
+      "description": "진하면서도 부드러운 블론드 리스트레토 3샷에 폼을 살짝 낸 스팀 밀크를 더해 짙은 커피 풍미를 즐길 수 있는 코르타도입니다.",
+      "price": 5800,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260611_167/1781123392345R2ppq_JPEG/image.jpg",
+      "image_file": "images/item-079.jpg"
+    },
+    {
+      "id": "item-080",
+      "name": "블론드 밀크카라멜 라떼",
+      "description": "부드럽고 달콤한 밀크카라멜의 은은한 풍미와 풍부한 질감을 느낄 수 있는 특별한 우유가 만나 언제나 편안하게 즐길 수 있는 라떼입니다.",
+      "price": 5800,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_157/1792614586963aQT99_JPEG/image.jpg",
+      "image_file": "images/item-080.jpg"
+    },
+    {
+      "id": "item-081",
+      "name": "블론드 플랫 화이트",
+      "description": "블론드 에스프레소의 밝고 경쾌한 풍미를 블론드 플랫 화이트로즐겨보세요!",
+      "price": 5800,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_63/17926126215568sMGS_JPEG/image.jpg",
+      "image_file": "images/item-081.jpg"
+    },
+    {
+      "id": "item-082",
+      "name": "블론드 카페 아메리카노",
+      "description": "진한 에스프레소에 뜨거운 물을 더한 깊이와 풍미가 살아있는 커피",
+      "price": 4700,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_232/1792611443997FOaOc_JPEG/image.jpg",
+      "image_file": "images/item-082.jpg"
+    },
+    {
+      "id": "item-083",
+      "name": "블론드 카페 라떼",
+      "description": "풍부하고 진한 에스프레소가 신선한 스팀 밀크를 만나 부드러워진 커피 위에 우유 거품을 살짝 얹은 커피",
+      "price": 5200,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_41/1792611509495IT1tE_JPEG/image.jpg",
+      "image_file": "images/item-083.jpg"
+    },
+    {
+      "id": "item-084",
+      "name": "블론드 바닐라 라떼",
+      "description": "달콤한 바닐라의 향을 풍부하고 진한 블론드 에스프레소, 부드러운 우유와 함께 즐길 수 있는 라떼입니다.",
+      "price": 5200,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_156/17926148485770yay1_JPEG/image.jpg",
+      "image_file": "images/item-084.jpg"
+    },
+    {
+      "id": "item-085",
+      "name": "블론드 스타벅스 돌체 라떼",
+      "description": "밝고 경쾌한 블론드 에스프레소와 무지방 우유, 돌체 시럽이 달콤하게 어우러진 블론드 스타벅스 돌체 라떼를 즐겨보세요!",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_293/1792611574907P0gSK_JPEG/image.jpg",
+      "image_file": "images/item-085.jpg"
+    },
+    {
+      "id": "item-086",
+      "name": "블론드 카페 모카",
+      "description": "진한 초콜릿 모카 시럽과 밝고 경쾌한 풍미의 블론드 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 에스프레소와 초콜릿 맛이 어우러진 커피",
+      "price": 5700,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_37/17926136695786MelW_JPEG/image.jpg",
+      "image_file": "images/item-086.jpg"
+    },
+    {
+      "id": "item-087",
+      "name": "블론드 카푸치노",
+      "description": "밝고 경쾌한 풍미의 블론드 에스프레소에 따뜻한 우유와 벨벳 같은 우유 거품이 1:1 비율로 어우러져 마무리된 커피 음료",
+      "price": 5200,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_280/1792613209798VmxXa_JPEG/image.jpg",
+      "image_file": "images/item-087.jpg"
+    },
+    {
+      "id": "item-088",
+      "name": "블론드 카라멜 마키아또",
+      "description": "향긋한 바닐라 시럽과 따뜻한 스팀 밀크 위에 풍성한 우유 거품을 얹고 점을 찍듯이 블론드 에스프레소를 부은 후 벌집 모양으로 카라멜 드리즐을 올린 달콤한 커피 음료",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_68/1792613604146yToIn_JPEG/image.jpg",
+      "image_file": "images/item-088.jpg"
+    },
+    {
+      "id": "item-089",
+      "name": "블론드 화이트 초콜릿 모카",
+      "description": "달콤하고 부드러운 화이트 초콜릿 시럽과 블론드 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 달콤함과 블론드 에스프레소가 부드럽게 어우러진 커피",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_288/1792613406017s0zG8_JPEG/image.jpg",
+      "image_file": "images/item-089.jpg"
+    },
+    {
+      "id": "item-090",
+      "name": "블론드 커피 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 클래식 시럽을 넣고 블론드 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5300,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260220_142/1771532912359Nk1mX_JPEG/image.jpg",
+      "image_file": "images/item-090.jpg"
+    },
+    {
+      "id": "item-091",
+      "name": "블론드 바닐라 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 바닐라 시럽을 넣고 블론드 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5300,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260220_180/1771532912676WXTJm_JPEG/image.jpg",
+      "image_file": "images/item-091.jpg"
+    },
+    {
+      "id": "item-092",
+      "name": "블론드 헤이즐넛 스타벅스 더블 샷",
+      "description": "신선하게 제조된 더블 샷 믹스에 헤이즐넛 시럽을 넣고 블론드 에스프레소 샷, 얼음이 어우러져 핸드 쉐이킹한 음료",
+      "price": 5300,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260220_264/1771532913169jBz4g_JPEG/image.jpg",
+      "image_file": "images/item-092.jpg"
+    },
+    {
+      "id": "item-093",
+      "name": "블론드 에스프레소",
+      "description": "스타벅스 블론드 에스프레소는 향기로운 크레마 층과 바디 층, 하트 층으로 이루어져 있으며, 입안 가득히 커피와 달콤한 카라멜 향이 느껴지는 커피 음료",
+      "price": 3900,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260220_294/17715329145769Ka7a_JPEG/image.jpg",
+      "image_file": "images/item-093.jpg"
+    },
+    {
+      "id": "item-094",
+      "name": "블론드 에스프레소 마키아또",
+      "description": "신선한 블론드 에스프레소 샷에 우유 거품을 살짝 얹은 커피 음료로써, 블론드 에스프레소의 맛과 우유의 부드러움을 같이 즐길 수 있는 커피 음료",
+      "price": 3900,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260220_145/1771532914960mtRcu_JPEG/image.jpg",
+      "image_file": "images/item-094.jpg"
+    },
+    {
+      "id": "item-095",
+      "name": "블론드 에스프레소 콘 파나",
+      "description": "신선한 블론드 에스프레소 샷에 풍부한 휘핑크림을 얹은 커피 음료로서, 뜨거운 커피의 맛과 차갑고 달콤한 생크림의 맛을 같이 즐길 수 있는 커피 음료",
+      "price": 4100,
+      "currency": "KRW",
+      "category": "블론드 커피",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260220_150/1771532913901Vz3qw_JPEG/image.jpg",
+      "image_file": "images/item-095.jpg"
+    },
+    {
+      "id": "item-096",
+      "name": "바닐라 아인슈페너 콜드 브루",
+      "description": "폭신한 바닐라 콜드 폼과 깊은 초콜릿 풍미의 콜드 브루가 만난 스타벅스의 아인슈페너. 음료와 잘 어울리는 스타벅스만의 콜드 폼으로 깔끔한 커피를 색다르게 즐겨보세요. ※ 해당 음료는 '콜드 폼'이 기본으로 포함되어 제공됩니다.",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "콜드 브루",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260711_64/17837153342480764e_JPEG/image.jpg",
+      "image_file": "images/item-096.jpg"
+    },
+    {
+      "id": "item-097",
+      "name": "프렌치 바닐라 콜드 브루",
+      "description": "깊고 부드러운 프렌치 바닐라 풍미와 깔끔한 콜드 브루가 어우러진 음료. 대비되는 옐로우&브라운의 레이어 속에서 달콤한 프렌치 감성을 즐겨보세요.",
+      "price": 6300,
+      "currency": "KRW",
+      "category": "콜드 브루",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260618_63/17817278166879NTP3_JPEG/image.jpg",
+      "image_file": "images/item-097.jpg"
+    },
+    {
+      "id": "item-098",
+      "name": "바닐라 크림 콜드 브루",
+      "description": "콜드 브루에 더해진 바닐라 크림으로 깔끔하면서 달콤한 콜드 브루를 새롭게 즐길 수 있는 음료입니다.",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "콜드 브루",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260403_33/1775161710735EzGus_JPEG/image.jpg",
+      "image_file": "images/item-098.jpg"
+    },
+    {
+      "id": "item-099",
+      "name": "돌체 콜드 브루",
+      "description": "무더운 여름철, 동남아 휴가지에서 즐기는 커피를 떠오르게 하는 스타벅스 음료의 베스트 x 베스트 조합인 돌체 콜드 브루를 만나보세요!",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "콜드 브루",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260403_39/1775161711039dJRld_JPEG/image.jpg",
+      "image_file": "images/item-099.jpg"
+    },
+    {
+      "id": "item-100",
+      "name": "콜드 브루",
+      "description": "스타벅스 바리스타의 정성으로 만들어진 콜드브루! 콜드브루 전용 원료로 정교하게 완성된 부드러운 산미와 깊은 바디감의 초콜릿 풍미 커피",
+      "price": 5100,
+      "currency": "KRW",
+      "category": "콜드 브루",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260403_53/1775161710396t6lDs_JPEG/image.jpg",
+      "image_file": "images/item-100.jpg"
+    },
+    {
+      "id": "item-101",
+      "name": "베르가못 콜드 브루",
+      "description": "은은하게 퍼지는 플로럴 향과 베르가못의 화사하고 우아한 시트러스 맛이 느껴지는 부드러운 콜드 브루",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "콜드 브루",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260403_17/1775161711579pHx2m_JPEG/image.jpg",
+      "image_file": "images/item-101.jpg"
+    },
+    {
+      "id": "item-102",
+      "name": "오트 콜드 브루",
+      "description": "콜드 브루의 풍미와 깔끔한 오트음료(식물성 대체유)가 어우러진 달콤 고소한 라떼. 식물성 대체유를 사용해 모든 고객이 부담없이 즐길 수 있는 콜드 브루 음료",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "콜드 브루",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260403_286/1775161711339ervFG_JPEG/image.jpg",
+      "image_file": "images/item-102.jpg"
+    },
+    {
+      "id": "item-103",
+      "name": "스위트 밀크 커피",
+      "description": "매장에서 추출한 아이스 커피와 화이트 초콜릿이 어우러진 커피 우유 스타일의 가벼운 드립 커피 라떼 주기적으로 달라지는 브루드 커피 원두와 함께 드립 라떼의 새로운 매력을 느껴보세요",
+      "price": 5700,
+      "currency": "KRW",
+      "category": "오늘의 커피 (브루드 커피)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260912_26/1789158380304e2ctS_JPEG/image.jpg",
+      "image_file": "images/item-103.jpg"
+    },
+    {
+      "id": "item-104",
+      "name": "브루드 커피",
+      "description": "시즌에 어울리는 원두 종류를 선정하여 신선하게 브루드(Brewed)되어 제공되는 드립커피로, 원두 커피의 풍부한 맛과 향을 따뜻하게 즐기실 수 있습니다.",
+      "price": 4500,
+      "currency": "KRW",
+      "category": "오늘의 커피 (브루드 커피)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_129/1792610070454zLEdv_JPEG/image.jpg",
+      "image_file": "images/item-104.jpg"
+    },
+    {
+      "id": "item-105",
+      "name": "딸기 딜라이트 요거트 블렌디드",
+      "description": "업그레이드된 딸기 과육과 고농축 유산균이 함께 어우러진 상콤&달콤한 과일 요거트 블렌디드! 국산 '설향' 딸기의 맛을 가득 담은 스타벅스만의 딸기 딜라이트 요거트 블렌디드를 만나보세요.",
+      "price": 6500,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261023_251/1792695574212bXJIK_JPEG/image.jpg",
+      "image_file": "images/item-105.jpg"
+    },
+    {
+      "id": "item-106",
+      "name": "블루베리 딜라이트 요거트 블렌디드",
+      "description": "고농축 유산균의 부드러운 요거트와 달콤한 블루베리가 부드럽게 어우러진 시원한 과일 요거트 블렌디드",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_218/1792615698567ebytc_JPEG/image.jpg",
+      "image_file": "images/item-106.jpg"
+    },
+    {
+      "id": "item-107",
+      "name": "자몽 허니 레몬 블렌디드",
+      "description": "제로 시럽을 활용해 칼로리 부담을 낮추고, 달콤한 자몽 허니에 레몬을 더해 가볍고 상큼하게 즐길 수 있는 과일 블렌디드 음료",
+      "price": 6300,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260904_112/1788467955532IA1iO_JPEG/image.jpg",
+      "image_file": "images/item-107.jpg"
+    },
+    {
+      "id": "item-108",
+      "name": "더블 에스프레소 칩 프라푸치노",
+      "description": "리스트레토 에스프레소 2샷과 에스프레소 칩, 하프앤하프가 진하게 어우러진 커피의 기본에 충실한 프라푸치노",
+      "price": 6500,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260904_123/1788467497526CeUBq_JPEG/image.jpg",
+      "image_file": "images/item-108.jpg"
+    },
+    {
+      "id": "item-109",
+      "name": "블론드 더블 에스프레소 칩 프라푸치노",
+      "description": "리스트레토 블론드 에스프레소 2샷과 에스프레소 칩, 하프앤하프가 진하게 어우러진 커피의 기본에 충실한 프라푸치노",
+      "price": 6500,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260905_174/1788553345050jdPNj_JPEG/image.jpg",
+      "image_file": "images/item-109.jpg"
+    },
+    {
+      "id": "item-110",
+      "name": "디카페인 더블 에스프레소 칩 프라푸치노",
+      "description": "리스트레토 디카페인 에스프레소 2샷과 에스프레소 칩, 하프앤하프가 진하게 어우러진 커피의 기본에 충실한 프라푸치노",
+      "price": 6800,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260905_1/17885534104865U2YO_JPEG/image.jpg",
+      "image_file": "images/item-110.jpg"
+    },
+    {
+      "id": "item-111",
+      "name": "1/2디카페인 더블 에스프레소 칩 프라푸치노",
+      "description": "리스트레토 1/2 디카페인 2샷과 에스프레소 칩, 하프앤하프가 진하게 어우러진 커피의 기본에 충실한 프라푸치노",
+      "price": 6800,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260905_214/1788553475885v5Ghn_JPEG/image.jpg",
+      "image_file": "images/item-111.jpg"
+    },
+    {
+      "id": "item-112",
+      "name": "제주 말차 크림 프라푸치노",
+      "description": "깊고 진한 말차 본연의 맛과 향을 시원하고 부드럽게 즐길 수 있는 프라푸치노",
+      "price": 6500,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260304_16/1772569637771fKeRR_JPEG/image.jpg",
+      "image_file": "images/item-112.jpg"
+    },
+    {
+      "id": "item-113",
+      "name": "자바 칩 프라푸치노",
+      "description": "커피, 모카 소스, 진한 초콜릿 칩이 입안 가득 느껴지는 스타벅스에서만 맛볼 수 있는 프라푸치노",
+      "price": 6500,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260904_251/1788467104835RJggB_JPEG/image.jpg",
+      "image_file": "images/item-113.jpg"
+    },
+    {
+      "id": "item-114",
+      "name": "망고 바나나 블렌디드",
+      "description": "(Grande Only) 달콤한 망고 패션 프루트 주스에 바나나 1개가 통째로 들어간 신선한 블렌디드",
+      "price": 6600,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250726_5/1753475033308Pv5A9_JPEG/image.jpg",
+      "image_file": "images/item-114.jpg"
+    },
+    {
+      "id": "item-115",
+      "name": "초콜릿 크림 칩 프라푸치노",
+      "description": "모카 소스와 진한 초콜릿 칩, 초콜릿 드리즐이 올라간 달콤한 크림 프라푸치노",
+      "price": 6200,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260904_192/1788467170339uyqWv_JPEG/image.jpg",
+      "image_file": "images/item-115.jpg"
+    },
+    {
+      "id": "item-116",
+      "name": "카라멜 프라푸치노",
+      "description": "카라멜과 커피가 어우러진 프라푸치노",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260904_151/1788467039413m4T0O_JPEG/image.jpg",
+      "image_file": "images/item-116.jpg"
+    },
+    {
+      "id": "item-117",
+      "name": "에스프레소 프라푸치노",
+      "description": "풍부하고 진한 에스프레소 샷의 강렬함과 달콤함이 어우러져 깊은 커피의 풍미를 느낄 수 있는 프라푸치노",
+      "price": 5700,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260904_244/17884669740334gY4t_JPEG/image.jpg",
+      "image_file": "images/item-117.jpg"
+    },
+    {
+      "id": "item-118",
+      "name": "블론드 에스프레소 프라푸치노",
+      "description": "밝고 경쾌한 블론드 에스프레소 샷과 달콤함이 어우러져 깊은 커피의 풍미를 느낄 수 있는 프라푸치노",
+      "price": 5700,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260905_226/17885535413195riwm_JPEG/image.jpg",
+      "image_file": "images/item-118.jpg"
+    },
+    {
+      "id": "item-119",
+      "name": "디카페인 에스프레소 프라푸치노",
+      "description": "풍부하고 진한 디카페인 에스프레소 샷의 강렬함과 달콤함이 어우러져 깊은 커피의 풍미를 느낄 수 있는 프라푸치노",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260905_201/1788553606673RmysS_JPEG/image.jpg",
+      "image_file": "images/item-119.jpg"
+    },
+    {
+      "id": "item-120",
+      "name": "1/2디카페인 에스프레소 프라푸치노",
+      "description": "풍부하고 진한 1/2 디카페인 에스프레소 샷에 강렬함과 달콤함이 어우러져 깊은 커피의 풍미를 느낄 수 있는 프라푸치노",
+      "price": 6000,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260905_129/1788553672042Rj4oA_JPEG/image.jpg",
+      "image_file": "images/item-120.jpg"
+    },
+    {
+      "id": "item-121",
+      "name": "망고 패션 프루트 블렌디드",
+      "description": "망고 패션 프루트 주스와 블랙 티가 깔끔하게 어우러진 과일 블렌디드",
+      "price": 5600,
+      "currency": "KRW",
+      "category": "프라푸치노 / 블렌디드",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250726_255/1753475032908zvc4b_JPEG/image.jpg",
+      "image_file": "images/item-121.jpg"
+    },
+    {
+      "id": "item-122",
+      "name": "클래식 뱅쇼 히비스커스 티",
+      "description": "크리스마스 무드를 즐기기 좋은 티 타입 뱅쇼 진한 레드 와인 베이스에 다양한 과일과 히비스커스 티를 사용하여 스타벅스 스타일로 해석한 카페인 프리 뱅쇼입니다. 뱅쇼 베이스에 과일을 절인 토핑이 어우러져 완성된 깊고 진한 맛을 즐겨보세요.",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_103/1793732492648JHQev_JPEG/image.jpg",
+      "image_file": "images/item-122.jpg"
+    },
+    {
+      "id": "item-123",
+      "name": "살구 조이풀 메들리 티 라떼",
+      "description": "은은한 자스민향과 살구 풍미가 부드럽게 어우러져 부담 없이 즐기기 좋은 티 라떼 *조이풀 메들리 티 : 블랙 티에 자스민 그린 티, 우롱 티가 블렌딩되어 살구와 같은 밝고 산뜻한 풍미가 은은하게 퍼지는 티",
+      "price": 6300,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_1/1793732754190jQyqy_JPEG/image.jpg",
+      "image_file": "images/item-123.jpg"
+    },
+    {
+      "id": "item-124",
+      "name": "차이 티 라떼",
+      "description": "많은 고객 성원에 힘입어 다시 돌아온 차이 티 라떼 미국에서 사랑받는 글로벌 플레이버로 스파이시한 향과 은은한 계피 풍미를 더한 부드러운 티 라떼",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_205/1793732361809oh2vU_JPEG/image.jpg",
+      "image_file": "images/item-124.jpg"
+    },
+    {
+      "id": "item-125",
+      "name": "말차 글레이즈드 티 라떼",
+      "description": "글레이즈드의 색다른 변신! 쌉싸름한 말차와 달콤한 글레이즈드 소스를 넣어 조화롭게 즐기기 좋은 비주얼과 맛의 티 라떼 음료",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_181/1793732427243BCfHb_JPEG/image.jpg",
+      "image_file": "images/item-125.jpg"
+    },
+    {
+      "id": "item-126",
+      "name": "호지 글레이즈드 티 라떼",
+      "description": "국내산 호지차로 만든 티 라떼에 글레이즈드 폼을 올린 음료. 고소한 호지차에 치즈 풍미를 더한 글레이즈드 폼이 어우러져 색다른 맛을 즐길 수 있는 음료.",
+      "price": 6700,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_125/17937325580336VLNK_JPEG/image.jpg",
+      "image_file": "images/item-126.jpg"
+    },
+    {
+      "id": "item-127",
+      "name": "퓨어 말차",
+      "description": "깨끗한 정수에 100% 제주산 녹찻잎을 곱게 갈아 완성한 말차. 차광 재배한 제주산 녹찻잎을 곱게 갈아 말차 본연의 깔끔한 맛과 향을 즐길 수 있는 음료.",
+      "price": 5100,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_145/17937326234309goBx_JPEG/image.jpg",
+      "image_file": "images/item-127.jpg"
+    },
+    {
+      "id": "item-128",
+      "name": "퓨어 호지차",
+      "description": "깨끗한 정수에 100% 국내산 호지차만을 담은 음료. 호지차 본연의 고소한 풍미와 깊은 향을 즐길 수 있습니다.",
+      "price": 5100,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261104_130/1793732688822s0o08_JPEG/image.jpg",
+      "image_file": "images/item-128.jpg"
+    },
+    {
+      "id": "item-129",
+      "name": "복숭아 핫 티",
+      "description": "찻잎을 직접 우려 만든 따뜻한 티로, 복숭아와 진한 홍차의 풍미를 느낄 수 있는 음료",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_91/1792612883023fu5yA_JPEG/image.jpg",
+      "image_file": "images/item-129.jpg"
+    },
+    {
+      "id": "item-130",
+      "name": "스타벅스 클래식 밀크 티",
+      "description": "스타벅스가 선보이는 클래식한 밀크 티로, 진하게 오래 우려낸 티바나 블랙 티의 깊은 풍미와 우유의 조화로움을 담아낸 '맛'에 집중한 밀크 티",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_270/17926121634036x3j9_JPEG/image.jpg",
+      "image_file": "images/item-130.jpg"
+    },
+    {
+      "id": "item-131",
+      "name": "제주 말차 라떼",
+      "description": "차광재배한 어린 녹찻잎을 곱게 갈아 깊고 진한 말차 본연의 맛과 향을 부드럽게 즐길 수 있는 제주 말차 라떼",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_214/17926117056665LILX_JPEG/image.jpg",
+      "image_file": "images/item-131.jpg"
+    },
+    {
+      "id": "item-132",
+      "name": "유자 민트 티",
+      "description": "달콤한 국내산 고흥 유자와 알싸하고 은은한 진저, 우릴 수록 상쾌한 민트 티가 조화로운 유자 민트 티",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_218/1792611836541uI1Pp_JPEG/image.jpg",
+      "image_file": "images/item-132.jpg"
+    },
+    {
+      "id": "item-133",
+      "name": "자몽 허니 블랙 티",
+      "description": "새콤한 자몽과 달콤한 꿀이 깊고 그윽한 풍미의 스타벅스 티바나 블랙 티의 조화",
+      "price": 5900,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_226/1792610789969UaHuF_JPEG/image.jpg",
+      "image_file": "images/item-133.jpg"
+    },
+    {
+      "id": "item-134",
+      "name": "제주 녹차",
+      "description": "유기농 녹차 티백만을 100%(물 제외) 사용한 티로 맑은 수색과 고유의 풍미가 뛰어난 녹차",
+      "price": 5300,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_152/1792610528380Wu4wW_JPEG/image.jpg",
+      "image_file": "images/item-134.jpg"
+    },
+    {
+      "id": "item-135",
+      "name": "얼 그레이 티",
+      "description": "꽃향 가득한 라벤더와 베르가못 향이 진한 홍차와 블렌딩된 향긋한 블랙 티",
+      "price": 4500,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_179/1792610266646hPYjj_JPEG/image.jpg",
+      "image_file": "images/item-135.jpg"
+    },
+    {
+      "id": "item-136",
+      "name": "잉글리쉬 브렉퍼스트 티",
+      "description": "인도 아삼, 제주도 유기농 홍차가 블렌딩되어 진한 벌꿀향과 그윽한 몰트향이 특징인 블랙 티",
+      "price": 4500,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_24/1792610201263uvD9I_JPEG/image.jpg",
+      "image_file": "images/item-136.jpg"
+    },
+    {
+      "id": "item-137",
+      "name": "유스베리 티",
+      "description": "제주산 찻잎으로 만든 황차에 사과, 망고, 파인애플, 히비스커스, 로즈힙 등이 블렌딩되어 핑크빛 컬러가 감도는 수색과 베리류의 새콤함을 느낄 수 있는 옐로우 티",
+      "price": 4500,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_272/1792610855417KcSo5_JPEG/image.jpg",
+      "image_file": "images/item-137.jpg"
+    },
+    {
+      "id": "item-138",
+      "name": "히비스커스 블렌드 티",
+      "description": "히비스커스, 사과, 파파야, 망고, 레몬그라스 등이 블렌딩된 상큼한 허브 티",
+      "price": 4500,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_170/1792610397358meHbl_JPEG/image.jpg",
+      "image_file": "images/item-138.jpg"
+    },
+    {
+      "id": "item-139",
+      "name": "민트 블렌드 티",
+      "description": "스피어민트, 페퍼민트, 레몬머틀이 블렌딩된 상쾌한 허브 티",
+      "price": 4500,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_257/1792610332035mdK6X_JPEG/image.jpg",
+      "image_file": "images/item-139.jpg"
+    },
+    {
+      "id": "item-140",
+      "name": "캐모마일 블렌드 티",
+      "description": "캐모마일과 레몬 그라스, 레몬밤, 히비스커스 등 블렌딩되어 은은하고 차분한 향이 기분을 좋게하는 허브 티",
+      "price": 4500,
+      "currency": "KRW",
+      "category": "티 음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_79/1792610462698RYo9o_JPEG/image.jpg",
+      "image_file": "images/item-140.jpg"
+    },
+    {
+      "id": "item-141",
+      "name": "핑크 피치 리프레셔",
+      "description": "피치, 망고, 딸기 등의 다양한 과일 플레이버와 레모네이드가 조화롭게 어우러진 리프레셔 음료 두 가지 핑크 톤의 레이어와 함께 가볍게 에너지 부스팅 할 수 있는 음료",
+      "price": 4900,
+      "currency": "KRW",
+      "category": "피지오 / 리프레셔",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260811_225/17863936460503vON9_JPEG/image.jpg",
+      "image_file": "images/item-141.jpg"
+    },
+    {
+      "id": "item-142",
+      "name": "쿨 라임 피지오",
+      "description": "그린 빈 추출액이 들어간 라임 베이스에 건조된 라임 슬라이스를 넣고 스파클링한 시원하고 청량감 있는 음료입니다. (카페인이 함유된 탄산음료입니다)",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "피지오 / 리프레셔",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260811_222/1786393319136U7yLH_JPEG/image.jpg",
+      "image_file": "images/item-142.jpg"
+    },
+    {
+      "id": "item-143",
+      "name": "피치 딸기 피지오",
+      "description": "피치와 딸기의 상큼한 과일과 청량한 탄산의 조화로 리프레시 할 수 있는 음료",
+      "price": 6100,
+      "currency": "KRW",
+      "category": "피지오 / 리프레셔",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260811_246/17863933845752HL0t_JPEG/image.jpg",
+      "image_file": "images/item-143.jpg"
+    },
+    {
+      "id": "item-144",
+      "name": "체리&자두 에너지 피지오",
+      "description": "체리와 자두의 이색 조합으로 그란데 사이즈 99kcal와 타우린과 비타민C 등이 영양소가 함유되어 건강한 에너지를 시원하게 즐길 수 있는 카페인 프리 음료. (필요 시 무료로 블랙 티 커스텀을 통해 카페인도 추가할 수 있습니다)",
+      "price": 6300,
+      "currency": "KRW",
+      "category": "피지오 / 리프레셔",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260811_102/1786393515349LFlHm_JPEG/image.jpg",
+      "image_file": "images/item-144.jpg"
+    },
+    {
+      "id": "item-145",
+      "name": "라이트 핑크 자몽 피지오",
+      "description": "달콤 쌉싸름한 자몽에 탄산의 청량감을 가득 담은 피지오로, 2018년 대비 칼로리를 60% 낮춰 돌아왔습니다. *G사이즈 기준 99kcal 이하 *18년 대비 칼로리 60% DOWN",
+      "price": 6300,
+      "currency": "KRW",
+      "category": "피지오 / 리프레셔",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20260904_106/1788467628411Lb2EA_JPEG/image.jpg",
+      "image_file": "images/item-145.jpg"
+    },
+    {
+      "id": "item-146",
+      "name": "스타벅스 딸기 라떼",
+      "description": "더 커진 과육과 풍성해진 식감으로 돌아온 상콤&달콤한 딸기 라떼! 국산 '설향' 딸기가 가득 담긴 스타벅스의 딸기 라떼를 즐겨보세요",
+      "price": 6500,
+      "currency": "KRW",
+      "category": "기타 (딸기 라떼, 초콜릿 음료)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_127/1792612228781ojJVL_JPEG/image.jpg",
+      "image_file": "images/item-146.jpg"
+    },
+    {
+      "id": "item-147",
+      "name": "시그니처 핫 초콜릿",
+      "description": "깊고 진한 초콜릿과 부드러운 휘핑크림이 입안에서 사르르 녹는 초콜릿 음료",
+      "price": 5900,
+      "currency": "KRW",
+      "category": "기타 (딸기 라떼, 초콜릿 음료)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20261022_138/1792610724604bKh9n_JPEG/image.jpg",
+      "image_file": "images/item-147.jpg"
+    },
+    {
+      "id": "item-148",
+      "name": "스팀 우유",
+      "description": "부드럽고 담백한 따뜻한 우유.",
+      "price": 4100,
+      "currency": "KRW",
+      "category": "기타 (딸기 라떼, 초콜릿 음료)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240611_292/1718105078306uVa0z_JPEG/image.jpg",
+      "image_file": "images/item-148.jpg"
+    },
+    {
+      "id": "item-149",
+      "name": "우유",
+      "description": "부드럽고 담백한 신선한 우유.",
+      "price": 4100,
+      "currency": "KRW",
+      "category": "기타 (딸기 라떼, 초콜릿 음료)",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250627_82/1750969248340VTyf4_JPEG/image.jpg",
+      "image_file": "images/item-149.jpg"
+    },
+    {
+      "id": "item-150",
+      "name": "수박 주스 190ML",
+      "description": "동남아의 땡모반과 같이 수박 특유의 달콤함과 청량함이 입안 가득 느껴지는 주스",
+      "price": 4500,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240912_5/1726085553451HriOr_JPEG/image.jpg",
+      "image_file": "images/item-150.jpg"
+    },
+    {
+      "id": "item-151",
+      "name": "스퀴즈드 오렌지 주스 100ML",
+      "description": "통오렌지를 착즙해 스페인 네이블 오렌지의 맛이 그대로 느껴지는 프리미엄 주스",
+      "price": 3800,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240912_148/1726085553803siTzb_JPEG/image.jpg",
+      "image_file": "images/item-151.jpg"
+    },
+    {
+      "id": "item-152",
+      "name": "딸기주스 190ML",
+      "description": "달콤한 국내산 딸기의 과육이 듬뿍 느껴지는 주스",
+      "price": 4500,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250528_61/1748377176067oH4Rw_JPEG/image.jpg",
+      "image_file": "images/item-152.jpg"
+    },
+    {
+      "id": "item-153",
+      "name": "유기농 오렌지 100% 주스 190ML",
+      "description": "프리미엄 유기농 오렌지 주스로 스페인산 오렌지 착즙! 오렌지 그대로 100% 담긴 3개 분량 물, 설탕, 첨가물 없는 오렌지 그대로의 맛",
+      "price": 4900,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240924_156/1727122364555qW8VL_JPEG/image.jpg",
+      "image_file": "images/item-153.jpg"
+    },
+    {
+      "id": "item-154",
+      "name": "딸기 가득 요거트 190ML",
+      "description": "상큼 달콤 딸기 과육이 한가득 씹히는 마시는 요거트 음료",
+      "price": 4100,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240611_201/1718105119569B2DlX_JPEG/image.jpg",
+      "image_file": "images/item-154.jpg"
+    },
+    {
+      "id": "item-155",
+      "name": "햇사과 주스 190ML",
+      "description": "달콤새콤한 햇사과 1개 반을 껍질 그대로 착즙한 사과 주스",
+      "price": 4700,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240924_182/1727122364093BYyt2_JPEG/image.jpg",
+      "image_file": "images/item-155.jpg"
+    },
+    {
+      "id": "item-156",
+      "name": "망고주스 190ML",
+      "description": "노랗게 익은 열대과일 망고가 입안 가득 느껴지는 주스",
+      "price": 4700,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20241101_285/1730405653766Aco8G_JPEG/image.jpg",
+      "image_file": "images/item-156.jpg"
+    },
+    {
+      "id": "item-157",
+      "name": "케일&사과주스 190ML",
+      "description": "국내산 케일과 사과의 달콤함이 조화로운 녹색 주스",
+      "price": 4000,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240611_154/1718105086510W37aa_JPEG/image.jpg",
+      "image_file": "images/item-157.jpg"
+    },
+    {
+      "id": "item-158",
+      "name": "한라봉주스 190ML",
+      "description": "새콤달콤한 황금빛 제주 한라봉을 그대로 담아낸 주스",
+      "price": 4700,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20241101_10/1730405653427tkmSd_JPEG/image.jpg",
+      "image_file": "images/item-158.jpg"
+    },
+    {
+      "id": "item-159",
+      "name": "블루베리 요거트 190ML",
+      "description": "블루베리 과육이 입안 가득 느껴지는 마시는 요거트",
+      "price": 4500,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240924_15/1727122363365z5OaF_JPEG/image.jpg",
+      "image_file": "images/item-159.jpg"
+    },
+    {
+      "id": "item-160",
+      "name": "에비앙 500ML",
+      "description": "에비앙 생수(PET)",
+      "price": 3300,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250925_263/1758745458644Twg6V_JPEG/image.jpg",
+      "image_file": "images/item-160.jpg"
+    },
+    {
+      "id": "item-161",
+      "name": "에비앙 스파클링 330ML",
+      "description": "프랑스 알프스 산기슭의 빙하, 눈과 비가 녹은 물이 천연적으로 정화된 프리미엄 탄산수입니다.",
+      "price": 3800,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20250930_159/17591774818185TngX_JPEG/image.jpg",
+      "image_file": "images/item-161.jpg"
+    },
+    {
+      "id": "item-162",
+      "name": "유기농 스파클링 애플 주스 296ML",
+      "description": "유기농 사과에 부드러운 탄산이 들어있는 탄산 주스",
+      "price": 4800,
+      "currency": "KRW",
+      "category": "병음료",
+      "image_url": "https://naverbooking-phinf.pstatic.net/20240611_33/17181050846708NKSy_JPEG/image.jpg",
+      "image_file": "images/item-162.jpg"
+    }
+  ]
+}
