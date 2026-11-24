@@ -49,7 +49,7 @@ cannot follow them yet.
      file that size, run it with `psql "<connection string>" -f supabase/seed.sql`, using the
      connection string from **Connect** in the Supabase dashboard.
    **Or let GitHub do it:** `.github/workflows/supabase.yml` applies new migrations on every push to
-   `main` and loads the menus once, while the database has none. Add the repository secrets
+   `main` and runs `seed.sql`, which loads the menus while the database has none and updates branch menus. Add the repository secrets
    `SUPABASE_ACCESS_TOKEN` (supabase.com > your avatar > Access Tokens) and `SUPABASE_DB_PASSWORD`
    (the database password), and set `PROJECT_REF` in the workflow if you use another project. If
    you already ran some files by hand, run the workflow from the **Actions** tab and list their

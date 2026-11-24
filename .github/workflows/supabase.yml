@@ -1,6 +1,6 @@
-# Applies new files in supabase/migrations to the Supabase project on every push to main, and loads
-# the menus (supabase/seed.sql) once, while the database has none. Supabase records which
-# migrations ran, so each runs only once.
+# Applies new files in supabase/migrations to the Supabase project on every push to main, then runs
+# supabase/seed.sql, which loads the menus while the database has none and updates branch menus in
+# place. Supabase records which migrations ran, so each runs only once.
 #
 # Needs two repository secrets (Settings > Secrets and variables > Actions):
 #   SUPABASE_ACCESS_TOKEN  supabase.com > your avatar > Access Tokens
@@ -66,8 +66,13 @@ jobs:
       - name: Migrations before
         run: bash "$RUNNER_TEMP/run.sh" supabase migration list --password "$SUPABASE_DB_PASSWORD"
 
-      - name: Apply new migrations, and the menus if there are none
-        run: bash "$RUNNER_TEMP/run.sh" supabase db push --include-seed --password "$SUPABASE_DB_PASSWORD"
+      - name: Apply new migrations
+        run: bash "$RUNNER_TEMP/run.sh" supabase db push --password "$SUPABASE_DB_PASSWORD"
+
+      # Not db push --include-seed: once seed.sql has run, that only records the new file's hash and
+      # never runs it again, so branch menus were never loaded. seed.sql is safe to run every time.
+      - name: Load the menus if there are none, and update branch menus
+        run: bash "$RUNNER_TEMP/run.sh" supabase db query --linked -f supabase/seed.sql
 
       - name: Migrations after
         run: bash "$RUNNER_TEMP/run.sh" supabase migration list --password "$SUPABASE_DB_PASSWORD"
