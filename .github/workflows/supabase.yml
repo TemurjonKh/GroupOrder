@@ -26,7 +26,7 @@ jobs:
     env:
       SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
       SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
-      PROJECT_REF: czafgvqkohaartqvxndk
+      PROJECT_REF: xzgppyesonraoyrplpvb
     defaults:
       run:
         shell: bash
