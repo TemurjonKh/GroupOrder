@@ -34,7 +34,9 @@ cannot follow them yet.
 
 ## Run it on a real Supabase project
 
-1. Create the project in the **Seoul (ap-northeast-2)** region, next to Vercel's `icn1` functions.
+1. Create the project in the **Seoul (ap-northeast-2)** region, and set `vercel.json`'s region to `icn1`. Functions must
+   sit next to the database: each page makes several queries in a row. The live project is in Mumbai
+   (ap-south-1), so `vercel.json` says `bom1`.
    In the Supabase SQL Editor, run every file in `supabase/migrations/` in name order, then
    `supabase/seed.sql`:
    - `20261106000000_schema.sql`
@@ -234,7 +236,7 @@ access rules are tested without Docker or a Supabase project.
 
 1. Set up Supabase as in "Run it on a real Supabase project" above.
 2. In Vercel, **Add New > Project**, import `TemurjonKh/GroupOrder`. The defaults are right
-   (Next.js, `npm run build`); `vercel.json` puts the functions in Seoul and `package.json` asks for Node 24.
+   (Next.js, `npm run build`); `vercel.json` puts the functions next to the database (Mumbai) and `package.json` asks for Node 24.
 3. Under **Environment Variables**, add:
 
    | Name | Value |
